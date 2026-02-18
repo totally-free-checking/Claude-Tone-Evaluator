@@ -62,6 +62,8 @@ python analyze_repetitiveness.py MyBotName
 # With ground truth comparison (compares to ActualClaude)
 python evaluate_single_bot_aoai_robust.py MyBotName
 
+or
+
 # Without ground truth (rubric-only evaluation)
 python evaluate_single_bot_no_gt.py MyBotName
 ```
@@ -301,9 +303,7 @@ python merge_results.py --no-gt
 - [GATHER_RESPONSES.md](GATHER_RESPONSES.md) - Generating responses
 - [RUN_EVALUATIONS.md](RUN_EVALUATIONS.md) - Running evaluations
 - [NO_GROUND_TRUTH_GUIDE.md](NO_GROUND_TRUTH_GUIDE.md) - With vs without GT
-- [RETRY_FAILED.md](RETRY_FAILED.md) - Handling failures
 - [REPETITIVENESS_ANALYSIS.md](REPETITIVENESS_ANALYSIS.md) - Detecting patterns
-- [IMPROVEMENT_PLAN.md](IMPROVEMENT_PLAN.md) - Improving bot performance
 
 ## Character Guidelines
 
