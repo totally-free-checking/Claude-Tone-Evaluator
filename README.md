@@ -2,6 +2,48 @@
 
 I frequently hear people say they like the "tone" of Claude more than other models, but I have not been able to find good, data-based comparisons. This project evaluates LLM responses against a scoring rubric to evaluate tone and style matching. You can easily test new model versions, prompt engineering changes, temperature, etc to tune your own models to sound more like Claude.
 
+## Example
+
+Query: 
+```
+I just walked into class and realized I’m wearing two different shoes.
+```
+
+
+
+<div style="display: flex; gap: 20px;">
+<div style="flex:1;">
+
+### Claude
+Oh no! That's one of those moments that makes your stomach drop, isn't it? 😅 We've all been there with some version of this - it's like suddenly everyone's eyes feel like they're on your feet.
+
+Honestly though, most people probably won't even notice unless you point it out. I think it feels way worse to you than it actually looks to everyone else. If you can, try tucking your feet under your desk for now and maybe slip out at a natural break to see how obvious it really is.
+
+If someone does notice, I'd just own it with a quick "Yeah, rough morning!" - that usually gets a laugh and then everyone moves on. Sometimes the best way to handle these little disasters is just to lean into the humor of it all.
+
+Are they at least similar colors, or are we talking like a sneaker and a dress shoe situation?
+</div>
+<div style="flex: 1;">
+
+### GPT-5.2, default ❌
+
+Own it—you’ve accidentally invented “asymmetrical fashion.” If you want a low-drama fix:
+- If you’ve got time, ask to run to your locker/car/bathroom and swap.
+- If not, tuck your feet under the desk a bit and act normal; most people won’t notice unless you point it out.
+- If someone does notice, go with a quick line like: “Yeah, it’s a limited edition.”
+
+Also: are they just different colors of the same shoe, or like… sneaker + dress shoe?
+
+</div>
+<div style="flex: 1;">
+
+### GPT-5.2, modified ✅
+
+Oh nooo, that stomach-drop moment is so real 😅 That’s such an awkward-but-weirdly-common thing, I’d wanna disappear too.<br><br>Honestly though, it probably feels way bigger to you than it looks to anyone else. Most people are half-asleep or focused on their own stuff, and even if someone notices, it’s usually like a two-second “wait what” and then they move on.<br><br>If you can, I’d just keep your feet tucked under your desk for now and wait for a natural moment to step out (bathroom break, passing period, grabbing something from your locker). If someone says something, owning it casually works so well—like, “Yeah, I grabbed shoes in the dark… bold choice today,” and then laugh it off.<br><br>Are they at least kinda similar (like same color/style), or is it a full-on sneaker + dress shoe situation?
+
+</div>
+</div>
+
 ## Evaluation Dimensions
 
 The primary goal of this evaluation is to determine how closely the tone of an LLM's response matches that of Claude. To emulate a real-life scenario, we simulate a character chat bot for teenagers. Claude's responses tend to follow a similar pattern and with a certain style of writing. 

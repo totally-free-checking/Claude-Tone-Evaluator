@@ -4,7 +4,7 @@ You can evaluate responses with or without ground truth. For example, to compare
 
 Alternatively, you can rely on the evaluation rubric specified in the Evaluator prompt(`Teen Support Bot Tone Evaluator - No Ground Truth.md`)
 
-Because we are evaluating _tone_, I am more interested in the evaluation rubric, rather than similarity to a single answer. For this reason, I prefer Without Ground Truth (Option 2).
+Because we are evaluating _tone_, I am more interested in the evaluation rubric, rather than similarity to a single answer. For this reason, I prefer Without Ground Truth (Option 2). Because my focus was on GPT-5.x and Claude, I selected a third and slightly cheaper model (Kimi-K2.5) to prevent bias and reduce cost.
 
 ## Two Evaluation Approaches
 
