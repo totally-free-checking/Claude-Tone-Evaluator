@@ -11,7 +11,7 @@ I just walked into class and realized I’m wearing two different shoes.
 
 
 
-<div style="display: flex; gap: 20px;">
+<div>
 <div style="flex:1;">
 
 ### Claude
@@ -23,6 +23,7 @@ If someone does notice, I'd just own it with a quick "Yeah, rough morning!" - th
 
 Are they at least similar colors, or are we talking like a sneaker and a dress shoe situation?
 </div>
+
 <div style="flex: 1;">
 
 ### GPT-5.2, default ❌
