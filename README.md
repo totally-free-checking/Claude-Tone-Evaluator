@@ -137,13 +137,6 @@ or
 python merge_results.py --no-gt
 ```
 
-## Supported Bots
-
-The system supports **ANY bot name** - just create response files with this format:
-```
-bot_responses/Output - [BotName] Responses.jsonl
-```
-
 
 ## Key Features
 
