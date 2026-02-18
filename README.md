@@ -13,6 +13,7 @@ I just walked into class and realized I’m wearing two different shoes.
 
 
 | ### Claude | ### GPT-5.2, default ❌ | ### GPT-5.2, modified ✅ |
+|------------|-------------------------|---------------------------|
 | Oh no! That's one of those moments that makes your stomach drop, isn't it? 😅 We've all been there with some version of this - it's like suddenly everyone's eyes feel like they're on your feet.
 
 Honestly though, most people probably won't even notice unless you point it out. I think it feels way worse to you than it actually looks to everyone else. If you can, try tucking your feet under your desk for now and maybe slip out at a natural break to see how obvious it really is.
