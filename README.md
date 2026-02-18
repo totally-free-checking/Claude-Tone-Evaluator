@@ -1,15 +1,22 @@
 # Claude Tone Evaluator
 
-Evaluates LLM responses against Claude's teen support bot character for tone and style matching. Supports flexible bot names, multiple evaluation modes, and robust error handling.
+I frequently hear people say they like the "tone" of Claude more than other models, but I have not been able to find good, data-based comparisons. This project evaluates LLM responses against a scoring rubric, to evaluate tone and style matching. You can easily test new model versions, prompt engineering changes, temperature, etc to see the impact of these changes.
 
-## Overview
+## Evaluation Dimensions
 
-This system helps you:
-1. **Generate responses** from any LLM (Claude, GPT, Kimi, etc.)
-2. **Analyze repetitiveness** to detect formulaic patterns
-3. **Evaluate tone/style** against Claude's character with or without ground truth
-4. **Track failures** and retry them automatically
-5. **Compare results** across multiple bots and system prompts
+The primary goal of this evaluation is to determine how closely the tone of an LLM's response matches that of Claude. Claude's responses tend to follow a similar pattern and with a certain style of writing. The current Evaluation prompt scores across 8 dimensions, although this can be changed  by altering the [Teen Support Bot Tone Evaluator.md](Evaluation prompt). 
+
+1. **Warmth & Emotional Validation** - Empathy and emotional acknowledgment
+2. **Prose vs. Bullets** - Natural prose flow vs. over-structured lists
+3. **Emoji Usage** - Appropriate emoji use (0-1 per response, prefer none)
+4. **Conversational Tone** - Casual, natural language with first-person ("I think", "I'd say")
+5. **Practical Advice** - Concrete, actionable suggestions
+6. **Follow-up Question** - Engaging questions to continue conversation
+7. **Support/Solutions Balance** - Mix of emotional support and practical help
+8. **Length & Conciseness** - Appropriate response length
+
+Each dimension is scored 0-10, with an overall average score.
+
 
 ## Quick Start
 
@@ -58,15 +65,21 @@ python analyze_repetitiveness.py MyBotName
 
 ### 5. Evaluate Responses
 
+If you want to compare against a ground truth and also evaluate against a scoring rubric:
+
 ```bash
 # With ground truth comparison (compares to ActualClaude)
 python evaluate_single_bot_aoai_robust.py MyBotName
+```
 
-or
+or, to ignore the ground truth and just use a scoring rubric:
 
+```bash
 # Without ground truth (rubric-only evaluation)
 python evaluate_single_bot_no_gt.py MyBotName
 ```
+
+See [NO_GROUND_TRUTH_GUIDE.md](NO_GROUND_TRUTH_GUIDE.md) for more info.
 
 ### 6. Check for Failures
 
@@ -82,12 +95,23 @@ python find_failed_evals.py
 python evaluate_single_bot_aoai_robust.py MyBotName --retry-failed
 ```
 
+or
+
+```bash
+# Without ground truth (rubric-only evaluation)
+python evaluate_single_bot_no_gt.py MyBotName --retry-failed
+```
+
 ### 8. Merge Results
 
 ```bash
 # Generate CSV and summary report
 python merge_results.py
+```
 
+or 
+
+```bash
 # For no-GT evaluations
 python merge_results.py --no-gt
 ```
@@ -98,15 +122,6 @@ The system supports **ANY bot name** - just create response files with this form
 ```
 bot_responses/Output - [BotName] Responses.jsonl
 ```
-
-**Example bots:**
-- **ActualClaude** - Claude Sonnet 4.5 baseline
-- **ActualClaudeTuned** - Claude with teen support prompt
-- **ClaudeBot** - GPT-5.2 old version
-- **ClaudeBot-v2** - GPT-5.2 improved version
-- **GPTBot** - GPT-5.2 baseline
-- **KimiBotRaw** - Kimi-2.5 baseline
-- **KimiBotTuned** - Kimi-2.5 with teen support prompt
 
 
 ## Key Features
@@ -135,20 +150,7 @@ bot_responses/Output - [BotName] Responses.jsonl
 - OpenAI (GPT-4, etc.)
 - See [GATHER_RESPONSES.md](GATHER_RESPONSES.md)
 
-## Evaluation Dimensions
 
-Responses are scored across 8 dimensions:
-
-1. **Warmth & Emotional Validation** - Empathy and emotional acknowledgment
-2. **Prose vs. Bullets** - Natural prose flow vs. over-structured lists
-3. **Emoji Usage** - Appropriate emoji use (0-1 per response, prefer none)
-4. **Conversational Tone** - Casual, natural language with first-person ("I think", "I'd say")
-5. **Practical Advice** - Concrete, actionable suggestions
-6. **Follow-up Question** - Engaging questions to continue conversation
-7. **Support/Solutions Balance** - Mix of emotional support and practical help
-8. **Length & Conciseness** - Appropriate response length
-
-Each dimension is scored 0-10, with an overall average score.
 
 ## File Structure
 
