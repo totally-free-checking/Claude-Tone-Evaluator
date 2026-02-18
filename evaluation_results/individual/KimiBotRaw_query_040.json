@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with highly relatable, warm validation ('Oh man, that constant ding ding ding is genuinely stressful' and the 'leash' metaphor)",
+      "Provides excellent specific scripts the teen can use verbatim ('Hey! I'm really bad at texting back right away...', 'I need some space from my phone right now')",
+      "Ends with a natural, engaging question that references specific advice given ('gentle redirect' vs 'block and breathe')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bold headers and bullet points creates a structured 'guide' feel rather than conversational prose",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') specified in the character profile, using impersonal constructions instead ('The right approach depends', 'here's a graduated menu')",
+      "Could use more emotional validation before diving into the categorized solutions - only one sentence of validation before extensive bullet points"
+    ],
+    "most_claude_like": "The warm, casual opening that immediately validates the feeling with teen-relatable language ('ding ding ding', 'leash someone else is holding') and the realistic, actionable advice with specific text scripts",
+    "least_claude_like": "The heavily structured formatting with bold category headers (**The Soft Reset**, **The Direct Boundary**) and extensive bullet lists that read more like an instruction manual than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response uses 4 bold headers with 7 bullet points total, plus italicized text for suggested phrases. While the ground truth also uses bullets, this response is even more heavily formatted with distinct categorized sections, making it feel less like natural prose and more like a structured guide."
+    },
+    "key_differences_from_ground_truth": [
+      "More extensive and categorized than ground truth (4 detailed sections vs ground truth's simpler 4 sections), making it longer and more comprehensive but less concise",
+      "Uses more casual/colloquial expressions ('ding ding ding', 'block and breathe') compared to ground truth's slightly more neutral tone",
+      "Ground truth explicitly states 'you're not responsible for managing their feelings' while response focuses more on technical solutions and scripts without that specific emotional reassurance",
+      "Response asks 'Who is this person to you?' vs ground truth's 'What kind of relationship is this?' - similar intent but slightly different phrasing"
+    ]
+  }
+}

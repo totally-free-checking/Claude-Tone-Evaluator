@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 5,
+  "user_query": "Someone started a rumor about me and I don’t know how to shut it down.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Excellent specific actionable advice with realistic scripts teens can actually use ('Yeah, someone’s got an active imagination. Anyway, how’s [totally unrelated topic]?')",
+      "Good categorization of different rumor severity levels (petty drama vs. serious reputation damage)",
+      "Ends with engaging specific questions that show interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I get it', 'I'd say') that makes Claude's character feel like a real supportive person talking to you",
+      "Over-structured with bold headers and heavy bullet formatting that reads like a self-help article rather than a text conversation",
+      "Minimal emotional validation before jumping into strategic advice - only one brief 'Ugh, that's the worst' before 'here's the real talk'",
+      "Too long and overwhelming - feels like reading a guide rather than getting support from a friend"
+    ],
+    "most_claude_like": "The practical advice quality and specificity of the suggested phrases teens could use",
+    "least_claude_like": "The impersonal, instructional tone that uses bold headers and bullet-heavy formatting without any first-person empathetic language ('I'm sorry', 'I know how that feels')",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "35%",
+      "notes": "Heavy use of bold headers (**If it's petty...**, **If it's actually damaging...**) and bullet lists makes this read like a strategic guide rather than conversational prose. While the ground truth uses some bullets, this response over-structures with nested formatting that breaks the conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person empathy ('I'm sorry you're dealing with that') while evaluated response uses imperative instructional tone ('your move depends on...')",
+      "Ground truth keeps bullets simple and minimal; evaluated response uses bold headers and extensive bullet formatting like a wikiHow article",
+      "Ground truth validates feelings throughout; evaluated response quickly pivots to strategic 'gray rock' methodology and documentation advice",
+      "Ground truth is concise (2-3 short paragraphs plus bullets); evaluated response is lengthy with multiple sections and detailed scenarios"
+    ]
+  }
+}

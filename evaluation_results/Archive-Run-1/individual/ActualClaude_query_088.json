@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation: 'That really sucks, and I'm sorry you had to hear that' immediately acknowledges the emotional impact",
+      "Excellent practical advice that's specific and actionable - offers multiple realistic options like talking to the teacher privately or documenting incidents",
+      "Perfect follow-up questions at the end: 'How are you feeling about it? And do any of these options feel doable for your situation?' - natural, engaging, and specific to the situation",
+      "Good reassurance: 'You're not overreacting by wanting this addressed' validates their concern without being patronizing"
+    ],
+    "weaknesses": [
+      "Heavy bullet point formatting with bold headers (**Talk to the teacher privately**, **Reach out to someone else**, etc.) - this is the opposite of Claude's prose-based approach",
+      "Complete absence of emojis - makes the response feel more formal and less warm than Claude's typical style",
+      "The structure reads like a checklist or guide rather than a conversational flow - 'A few options you might consider:' followed by formatted list",
+      "While the advice is excellent, the delivery format undermines the conversational, supportive tone that defines Claude's character"
+    ],
+    "most_claude_like": "The follow-up questions are perfectly executed - natural, specific, and genuinely engaging rather than generic",
+    "least_claude_like": "The heavy use of bold bullet points with headers makes this read like a formal guide or article rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "The response has a brief prose opening (2 sentences) and closing (2 sentences + questions), but the entire middle section is formatted as bold-headed bullet points. This is approximately 70% structured list format vs 30% prose, which is the inverse of Claude's typical approach. The bold headers (**Talk to the teacher privately**) make it feel especially formal and guide-like."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. This reveals that even Claude's actual response sometimes uses bullet points with bold headers, which contradicts the character profile's emphasis on 'pure prose' and 'avoids bullet points'",
+      "The character profile states Claude 'writes in natural prose paragraphs (NOT bullet-heavy)' and that 'Multiple bullet point lists' are red flags, yet the ground truth itself uses exactly this format",
+      "The absence of emojis in both responses suggests the character profile may overstate emoji usage frequency, or this particular serious topic warranted a more straightforward tone"
+    ]
+  }
+}

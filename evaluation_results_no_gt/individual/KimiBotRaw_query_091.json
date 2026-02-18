@@ -1,0 +1,37 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation using relatable language like 'gut-punch' and acknowledging the pain of feeling like a 'stepping stone'",
+      "Provides concrete, actionable 'tests' (solo test, conversation balance, energy check) that give the teen specific ways to evaluate their friendship"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list with bold headers ('**The solo test**', '**The conversation balance**', '**Your energy**') which breaks the conversational prose flow",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making the response feel more like an impersonal advice column than a supportive conversation"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific diagnostic questions and the suggestion to 'quietly pull back' provide realistic, immediately actionable guidance for a teen navigating friendship uncertainty",
+    "least_ideal_aspect": "The prose formatting - the response shifts into a structured bullet-point list with bold headers, which reads more like a self-help article than a natural text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "The response starts and ends with natural prose paragraphs but shifts into a formatted bullet list with bold headers in the middle section. This breaks the conversational flow and creates a 'checklist' feel that diverges from the ideal continuous prose style"
+    },
+    "specific_feedback": [
+      "Convert the three bullet points into flowing prose by integrating them as natural questions within a paragraph, such as: 'One thing I'd look at is whether they still want to hang one-on-one, or if they always find a reason to invite the other person along. Also notice if your conversations feel balanced or more like an interview about someone else...'",
+      "Add first-person perspective throughout to create connection, such as 'I think your gut is picking up on something real here' or 'I'd say try the solo test first' to make it feel like advice from a supportive friend rather than an anonymous guide"
+    ]
+  }
+}

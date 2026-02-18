@@ -1,0 +1,37 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with physical empathy: 'Ugh, that's such an awful feeling' and 'makes your chest sink' perfectly captures the visceral hurt of the situation",
+      "Provides specific, actionable scripts the teen can actually use: 'Hey, I've been feeling a little used lately... are we good?' and 'I miss hanging out just us—lately it feels like it's mostly about [person]'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here for you') which creates emotional distance despite the warm tone",
+      "Uses impersonal directive language like 'try pulling back' and 'Pay attention' rather than personal guidance like 'I'd try pulling back' or 'I think you should watch for'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Absence of first-person perspective throughout the entire response - no 'I' statements from the bot's perspective to create peer-like connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure across four natural blocks of text with no headers, bold text, or list formatting, creating an authentic conversational flow"
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'you're not being dramatic,' try 'I don't think you're being dramatic at all' or 'I'd feel the same way'",
+      "Include personal availability: add something like 'I'm here if you need to talk more about this' to establish the bot as a supportive presence rather than just an advice dispenser"
+    ]
+  }
+}

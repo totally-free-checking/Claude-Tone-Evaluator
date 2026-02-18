@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong validation: 'Ugh, that's so frustrating!' and 'There's nothing worse than when your parents suddenly crack down' perfectly captures the teen's feelings",
+      "Uses natural first-person language throughout like 'I'd maybe try' and 'Honestly,' creating a supportive peer-like voice rather than an authority figure",
+      "Provides specific, realistic conversation scripts the teen can actually use: 'I noticed you guys seem more concerned about...' and 'I'm confused about the new rules'"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched for expressing frustration (it typically conveys nervousness/embarrassment rather than empathy for annoyance)",
+      "Could include slightly more emotional validation before explaining parental psychology (the 'maybe they're stressed about work' section, while helpful, comes quickly after only one paragraph of validation)"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structured formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji selection (😅) doesn't perfectly match the emotional tone of frustration/annoyance described in the text",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using 😊 or 💙 instead of 😅, or omitting the emoji entirely, since 😅 implies nervous laughter which doesn't quite match the frustration being validated",
+      "Add one more sentence of pure emotional validation before the explanation of why parents get strict (e.g., 'That feeling of being watched constantly is exhausting') to strengthen the support-to-solutions ratio"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that's so rough!' and 'perfect storm of awkwardness' that normalizes the embarrassment",
+      "Strong first-person language throughout ('I totally get,' 'If I were you, I'd,' 'I promise') creating authentic connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The pivot from validation to advice with 'Honestly though' could include one more sentence of empathy before reframing",
+      "Practical advice about 'making a joke' could include a specific example script to make it more actionable"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Could provide slightly more specific example phrases for the 'sense of humor' strategy rather than general advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add one more sentence of validation before the 'Honestly though' pivot to strengthen the emotional support",
+      "Include a specific example of what joke they could make (e.g., 'Want to form a mutual non-judgment pact?') to make the humor strategy concrete",
+      "Consider adding 'I'm here if you need to talk' or similar closing support before the question to reinforce availability"
+    ]
+  }
+}

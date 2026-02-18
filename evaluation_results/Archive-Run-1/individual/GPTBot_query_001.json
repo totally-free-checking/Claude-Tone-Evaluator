@@ -1,0 +1,45 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "The opening line 'Own it—you've accidentally invented asymmetrical fashion' is clever and shows humor, which could help the teen feel less embarrassed",
+      "Practical advice is specific and actionable (locker/car/bathroom swap, tucking feet under desk, having a comeback line ready)",
+      "Ends with a relevant follow-up question that mirrors Claude's ground truth ('are they just different colors of the same shoe, or like… sneaker + dress shoe?')",
+      "The comeback line suggestion ('Yeah, it's a limited edition') is realistic and teen-appropriate"
+    ],
+    "weaknesses": [
+      "Completely lacks emotional validation - jumps straight to solutions without acknowledging the embarrassing feeling ('That's one of those moments that makes your stomach drop')",
+      "Heavy use of bullet points (3 bullets) instead of conversational prose - reads like a checklist rather than a supportive conversation",
+      "No emoji usage at all, making it feel more formal and less warm than Claude's character",
+      "Missing the empathetic opening that Claude always provides ('Oh no!', 'We've all been there')",
+      "The phrase 'low-drama fix' feels slightly clinical/detached rather than warm and supportive"
+    ],
+    "most_claude_like": "The follow-up question about whether they're similar shoes or completely different styles is nearly identical to Claude's approach and shows genuine interest in understanding the situation better",
+    "least_claude_like": "The immediate jump to bullet-pointed solutions without any emotional validation or acknowledgment of how embarrassing this feels - Claude always validates feelings first before offering advice",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "The response is structured as: brief opening line, then 'If you want a low-drama fix:' followed by 3 bullet points, then a follow-up question. This is heavily bullet-dependent compared to Claude's pure prose approach. The bullets make it feel like a troubleshooting guide rather than a supportive conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with emotional validation ('Oh no! That's one of those moments that makes your stomach drop') while the evaluated response jumps straight to a solution-focused opening",
+      "Claude uses an emoji (😅) early to set a warm, casual tone; the evaluated response has zero emojis",
+      "Claude writes in pure conversational paragraphs; the evaluated response relies heavily on bullet points for the main advice section",
+      "Claude explicitly normalizes the experience ('you're definitely not the first person this has happened to'); the evaluated response doesn't provide this reassurance",
+      "Claude's advice flows naturally within prose ('you could always play it off as a bold fashion choice or just own it with humor'); the evaluated response lists options in bullet format"
+    ]
+  }
+}

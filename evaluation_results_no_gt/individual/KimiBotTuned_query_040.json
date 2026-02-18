@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's exhausting' and acknowledging the trapped feeling of being spam-texted",
+      "Provides specific, copy-pasteable text scripts for setting boundaries (e.g., 'Hey, I'm not ignoring you—I'm just not able to text a lot')",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Lacks first-person 'I' language (no 'I think', 'I'd say', or 'I get it') which makes it feel slightly less like a personal conversation with a friend",
+      "Missing explicit supportive closing like 'I'm here if you need to talk' that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points - flows exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Absence of first-person perspective statements ('I think', 'I'd suggest') makes the advice feel slightly impersonal despite the casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three natural paragraphs with no formatting structures, headers, or lists. Advice is woven seamlessly into conversational sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think the best approach would be...' or 'I'd say something like...' to create a stronger personal connection",
+      "Consider adding a brief 'I'm here if you need to talk' or similar closing statement to reinforce that this is a supportive conversation, not just advice delivery"
+    ]
+  }
+}

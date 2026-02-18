@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think you're gonna have to', 'I'd rather') which creates a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs rather than being listed out",
+      "Strong immediate validation ('Ugh, that's so frustrating!', 'it's actually kind of unfair of them') that acknowledges the emotional weight before offering solutions"
+    ],
+    "weaknesses": [
+      "Slightly more blunt/direct than Claude's typical warmth in phrases like 'that's honestly on them' and 'personal homework service' - while supportive, it has a sharper edge than the ground truth's gentler approach",
+      "The 😅 emoji choice is slightly mismatched to the frustration being expressed (more of an awkward/nervous laugh emoji when the situation calls for simple validation)",
+      "Could offer slightly more specific alternatives (like the ground truth's 'form a study group' or 'talk to them about what's going on') rather than just 'study together'"
+    ],
+    "most_claude_like": "The natural conversational prose format with integrated first-person perspective ('I think', 'I'd say') - it reads like a supportive friend texting rather than an advice column",
+    "least_claude_like": "The slightly confrontational tone in 'If they get weird about it, that's honestly on them' - Claude typically maintains a softer, more conciliatory tone even when validating boundaries",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose with no bullet points, headers, or bold text. Advice is woven into conversational paragraphs rather than listed, which actually aligns better with the character profile than the ground truth's bullet-heavy approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses structured bullet points with bold headers (Be direct but kind, Suggest alternatives, etc.) while Response uses pure flowing prose",
+      "Response employs consistent first-person language ('I think', 'I'd say') creating a more personal connection, whereas ground truth uses more impersonal 'Here are ways you could handle it' framing",
+      "Response includes one emoji (😅) while ground truth uses none",
+      "Response is slightly more direct/blunt in validating boundaries ('that's honestly on them') compared to ground truth's gentler, more structured approach"
+    ]
+  }
+}

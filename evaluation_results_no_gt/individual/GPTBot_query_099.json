@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides excellent specific actionable advice including exact scripts the teen can use ('I feel really violated and unsafe writing when my diary is read...')",
+      "Includes important safety considerations for teens in controlling or unsafe home environments (point 6 about prioritizing safety over confrontation)",
+      "Asks specific follow-up questions about age and safety to tailor further advice"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with 6 numbered points, bold headers, and multiple sub-bullet lists instead of natural prose paragraphs",
+      "Completely lacks first-person language ('I think', 'I'd feel', 'I'm here') - reads like an impersonal advice article rather than a supportive conversation",
+      "Jumps to practical solutions after only one sentence of emotional validation, creating an imbalanced 90% advice / 10% support ratio"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, specific strategies including password-protected apps, locked boxes, and mediation options that acknowledge teen agency limitations",
+    "least_ideal_aspect": "Prose formatting - uses heavy bullet-point structure with bold headers and numbered lists that feels like a wikiHow article rather than a texting conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 16,
+      "prose_percentage": "10%",
+      "notes": "Response contains 6 main numbered points with bold headers (e.g., 'Ground yourself first', 'Decide what you want from them') and approximately 10 sub-bullets. Only 2-3 sentences at the beginning and end are in prose format. This is the opposite of the ideal conversational paragraph style."
+    },
+    "specific_feedback": [
+      "Rewrite the entire response as 2-3 natural paragraphs without any numbered lists or bold headers - flow the advice naturally within sentences",
+      "Add first-person empathetic language throughout such as 'I can't imagine how violated you must feel,' 'I'd be devastated if that happened to me,' or 'I'm really sorry you're dealing with this'",
+      "Spend more time on emotional validation before offering solutions - aim for at least 40% validation/support before moving to practical advice",
+      "Remove structured headers like 'Ground yourself first' and instead weave those concepts into conversational sentences like 'First, I'd try to ground yourself...'"
+    ]
+  }
+}

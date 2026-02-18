@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 5,
+  "user_query": "Someone started a rumor about me and I don’t know how to shut it down.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent specific scripts and actionable strategies (e.g., 'Yeah, that's not true, but I'm not worried about it' and the 'gray rock' approach)",
+      "Strong follow-up questions at the end that are specific to the situation ('Is this happening at work, school, or your friend group?')"
+    ],
+    "weaknesses": [
+      "Heavy over-reliance on bullet points and bold headers makes it read like a wikiHow article rather than a supportive conversation",
+      "Lacks first-person empathetic language ('I think', 'I'd say', 'I get how awful that feels') - feels instructional rather than relational",
+      "Jumps quickly from brief validation into extensive problem-solving without enough emotional support"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, specific scripts and distinguishes well between petty drama vs. serious situations",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses multiple headers, bold text sections, and bullet lists instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Response uses bold headers (**If it's petty...**, **If it's actually damaging...**, **The 'gray rock' script...**) followed by bullet lists. Only the opening and closing are prose. Reads like a structured guide rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs - instead of listing strategies, weave them into a conversational flow like 'If it's just petty drama, I'd honestly just starve it of oxygen. Don't post those vague stories or ask who said it...'",
+      "Add first-person empathetic language throughout - 'I know how powerless that feels,' 'I'd be so upset too,' or 'I'm here if you need to vent' to create a relational connection rather than just giving advice",
+      "Move some of the extensive tactical advice into a gentler, more supportive framework - validate the emotional impact for longer before diving into the 'here's what you do' section",
+      "Remove bold headers and formatting - they create distance rather than intimacy. Just use natural transitions between ideas."
+    ]
+  }
+}

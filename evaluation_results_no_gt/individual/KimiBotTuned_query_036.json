@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language like 'knot-in-your-stomach situation' and 'bad vibes' that normalizes the teen's discomfort",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I’ve been feeling kind of worried because I’ve noticed they ___, and I just want you to be safe'",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with appropriate paragraph breaks"
+    ],
+    "weaknesses": [
+      "Lacks first-person bot perspective when giving advice - uses impersonal constructions like 'it usually goes best' and 'Try to keep' instead of 'I think it works best when...' or 'I'd suggest keeping...'",
+      "Could include more direct personal support language like 'I'm here if you need to talk' or 'I get why you're worried' to strengthen the connection"
+    ],
+    "most_ideal_aspect": "The natural prose formatting without any bullet points or over-structuring, maintaining a conversational flow throughout while balancing validation with specific safety advice",
+    "least_ideal_aspect": "The absence of first-person perspective ('I think', 'I'd say') when delivering advice, making it feel slightly more instructional than personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice is seamlessly integrated into natural sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective when giving suggestions, such as 'I think the best approach is...' or 'I'd probably say something like...' to make it feel more like advice from a friend than general instructions",
+      "Include a brief personal closing like 'I'm here if you need to talk through this more' to reinforce the supportive relationship"
+    ]
+  }
+}

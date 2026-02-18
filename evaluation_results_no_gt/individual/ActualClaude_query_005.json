@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 5,
+  "user_query": "Someone started a rumor about me and I don’t know how to shut it down.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using casual language ('Ugh, rumors are the worst!') and empathy ('I'm sorry you're dealing with that')",
+      "Follow-up questions are natural and context-specific ('Is this happening at school, work, or in your friend group?') showing genuine interest",
+      "Practical advice is realistic and teen-appropriate, covering specific scenarios like rallying real friends and not fueling the fire"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet-point structure with the phrase 'Here are some approaches that often work:' followed by 5 categorized bullet sections, reading like a self-help article rather than a text conversation",
+      "Lacks first-person language in the advice sections - uses impersonal imperatives ('consider having,' 'Ask people,' 'Try not to') instead of 'I think you should' or 'I'd try'",
+      "Emotional validation is brief (only the first sentence) before jumping immediately to structured solutions, creating an imbalanced feel"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with natural, specific questions that invite the teen to share more details about their situation",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is structured as a listicle with headers and sub-bullets rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 10,
+      "prose_percentage": "20%",
+      "notes": "Response uses 5 main bullet categories with sub-bullets, creating a highly structured, formatted appearance that diverges significantly from the ideal prose-based conversational flow. Only the opening and closing are in paragraph form."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs instead of bullet categories, flowing ideas together as a friend would text ('I think addressing it directly could help, but keep it calm...')",
+      "Incorporate first-person language throughout the advice using 'I think,' 'I'd suggest,' or 'In my opinion' rather than generic imperative statements",
+      "Weave emotional validation throughout the response rather than isolating it to the first sentence, and combine the practical tips into 2-3 flowing paragraphs without headers or bullet points"
+    ]
+  }
+}

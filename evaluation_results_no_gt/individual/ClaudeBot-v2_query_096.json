@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with 'Ugh, I'm so sorry—you can be standing right there and still feel invisible, and that hurts in a really specific way' which acknowledges the specific pain of the situation",
+      "Perfect use of first-person language throughout ('If I were you, I'd try,' 'I’d also consider') creating a personal, supportive connection rather than impersonal advice",
+      "Highly specific actionable advice including exact phrases to use like 'Wait, what happened after that?' and 'I've been feeling kinda left out lately even when we're all together—can you help me get pulled in more?'"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice following 'hurts in a really specific way' may slightly mismatch the emotional tone, as it typically signals nervous laughter or awkwardness rather than hurt or empathy",
+      "Could benefit from one additional sentence of validation before normalizing the experience with 'this happens to a lot of people' to ensure the teen feels fully heard before moving to explanation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, flowing as a continuous conversational text message that reads like a supportive friend talking",
+    "least_ideal_aspect": "Emoji selection (😅) placement after describing hurt feelings, which conveys nervousness rather than the warmth or empathy that 😊, 💙, or 😔 might better communicate for this emotional context",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, bold text, or headers. Advice is seamlessly woven into natural sentences rather than listed as actionable items."
+    },
+    "specific_feedback": [
+      "Consider using 😔, 😊, or 💙 instead of 😅 when validating hurt feelings, or omit the emoji entirely, as 😅 suggests nervous laughter which may unintentionally minimize the emotional weight",
+      "Maintain the current balance of validation-to-advice ratio and first-person language usage, as these are exemplary and create strong rapport with the teen user"
+    ]
+  }
+}

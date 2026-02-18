@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - 'Check what's making you feel this way' with specific examples (call you out more, ignore you, grade harshly) gives the teen real things to look for",
+      "Follow-up questions are specific and relevant - asking for grade/class, 2 examples, and recent incidents shows genuine interest and helps continue the conversation"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), ### 2), etc.) and bullet points throughout - completely opposite of Claude's prose-based approach. Ground truth uses natural paragraphs with only one small bulleted section",
+      "Opens with validation but immediately pivots to solutions without sitting with the emotion - Claude spends more time in the empathetic space ('Oh no, that sounds really tough!') before moving to advice",
+      "No emojis at all - makes it feel formal and cold compared to Claude's warm 😔 that sets an empathetic tone",
+      "Language is more clinical and structured ('Check what's making you feel this way', 'Consider possible explanations') rather than conversational ('Can I ask what's making you feel this way?', 'A few possibilities to consider')"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, relevant, and show genuine interest in understanding the teen's situation better - very aligned with Claude's engagement style",
+    "least_claude_like": "The heavy use of numbered headers (### 1), ### 2), etc.) and extensive bullet points throughout - this reads like a structured guide or article rather than a warm, conversational response from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured formatting with 5 numbered sections (using headers), each containing multiple bullet points. Only the opening sentence and closing questions are in pure prose. Claude's ground truth has ~90% prose with just one small bulleted section of 4 items."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is primarily conversational prose with one small bulleted section; evaluated response is heavily structured with 5 numbered headers and extensive bullets throughout",
+      "Emotional pacing: Claude validates first ('Oh no, that sounds really tough!'), sits with the feeling, then gently moves to possibilities. Evaluated response validates briefly then immediately structures solutions",
+      "Tone warmth: Claude uses emoji (😔), more empathetic language ('never fun feeling like someone important'), and softer phrasing. Evaluated response is more clinical despite good intentions",
+      "Format: Claude writes like texting a friend; evaluated response reads like a self-help article or structured guide with headers and systematic advice"
+    ]
+  }
+}

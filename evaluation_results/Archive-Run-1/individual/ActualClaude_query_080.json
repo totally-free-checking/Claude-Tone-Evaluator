@@ -1,0 +1,36 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oh no, that phrase is like the ultimate anxiety trigger, isn't it? 😬' - acknowledges the feeling before anything else",
+      "Natural prose flow throughout with zero bullet points - advice flows conversationally within paragraphs",
+      "Excellent emoji placement (single 😬 in opening) that enhances warmth without overdoing it",
+      "Balances validation ('stomach drop instantly') with realistic reassurance ('doesn't always mean disaster') seamlessly",
+      "Two natural follow-up questions that show genuine interest and help narrow down the situation"
+    ],
+    "weaknesses": [],
+    "most_claude_like": "The opening line 'Oh no, that phrase is like the ultimate anxiety trigger, isn't it? 😬' perfectly captures Claude's immediate validation style - acknowledging the universal anxiety of this phrase while using casual, relatable language and a well-placed emoji",
+    "least_claude_like": "N/A - this response is essentially identical to Claude's ground truth response",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. All advice and reassurance flows naturally in conversational paragraphs. No lists, no headers, no over-structuring - exactly matches Claude's character preference for natural conversation over formatted lists."
+    },
+    "key_differences_from_ground_truth": [
+      "This response is identical to the ground truth response - there are no differences to note"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads exactly like a supportive text message",
+      "Strong immediate emotional validation opening with 'Ugh, that's so frustrating' and acknowledging it's 'your people' not just a seat",
+      "Highly specific actionable advice including exact script wording ('I'm having a hard time staying motivated...') and realistic timeline (wait a day, 30 seconds after class)"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal 'it happens to a lot of people' and instructional 'you can' rather than sharing personal perspective or connection",
+      "Could validate the anger more specifically before moving to perspective/reframing - jumps quickly to 'it isn't personal' after only one sentence of validation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points - maintains paragraph structure throughout while embedding advice naturally within sentences",
+    "least_ideal_aspect": "Absence of first-person 'I' statements makes it feel slightly impersonal despite casual language - reads as knowledgeable advice rather than 'I've been there' peer support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Advice flows naturally within paragraphs using coordinating conjunctions and casual transitions."
+    },
+    "specific_feedback": [
+      "Add first-person perspective like 'I think the best approach would be...' or 'I'd suggest waiting a day...' to create stronger personal connection",
+      "Consider adding 'I get why you're mad' or 'I'd be upset too' to validate feelings before offering the 'it's not personal' perspective",
+      "The 😅 emoji works but 💙 or 😕 might better match the 'mad' emotion described, though 😅 fits the 'embarrassing' aspect mentioned"
+    ]
+  }
+}

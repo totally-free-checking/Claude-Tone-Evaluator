@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Strong immediate emotional validation with phrases like 'Oof, that stings!' and 'totally natural to feel hurt'",
+      "Provides specific, actionable advice including exact script the teen could use: 'Oh I saw you guys hung out! How was it?'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'Try not to' and 'Have you thought about' instead",
+      "Asks two questions at the end rather than one natural follow-up, which feels slightly interrogative",
+      "Missing the warm, personal sign-off like 'I'm here if you need to talk' that would reinforce support"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads like a text message from a friend rather than a structured self-help article",
+    "least_ideal_aspect": "Absence of first-person perspective makes the response feel like general advice rather than a personal conversation with a supportive friend who is sharing their own thoughts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout, such as 'I think the best approach would be...' or 'I'd probably try...' or 'I get why that hurts' to create a more personal connection",
+      "Consolidate the ending into one engaging question rather than two, such as 'Do you think this was a one-off thing, or has this been happening a lot lately?'",
+      "Consider adding a brief personal sign-off like 'I'm here if you need to talk through it more' to reinforce the supportive relationship"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using first-person language: 'I feel for you - we've all been there with unreliable group partners'",
+      "Excellent practical advice that's immediately actionable and realistic for a teen's situation (documenting contact attempts, emailing professors, not doing double work)",
+      "Ends with a natural, engaging follow-up question: 'What kind of project is it? Maybe I can help you strategize how to tackle what's left!'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers (**Immediate damage control:**, **If they're MIA:**) makes it read like a self-help article rather than a conversation with a friend",
+      "Lacks first-person language in the advice sections - uses imperative/commands ('Reach out', 'Document', 'Do what you can') instead of 'I'd suggest...' or 'I think you should...'",
+      "Advice-to-validation ratio is skewed heavily toward solutions due to the extensive bullet structure, making the emotional support feel like a brief intro rather than woven throughout"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly matches the ideal character - it's specific to their situation, naturally phrased, and invites continued conversation",
+    "least_ideal_aspect": "The formatting is heavily structured with multiple bullet sections and bold headers, completely diverging from the natural prose paragraph style of a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "25%",
+      "notes": "Response uses three distinct header sections with multiple bullets under each (**Immediate damage control:**, **If they're MIA:**, **For the presentation/submission:**). Only the opening and closing sentences are prose. This creates a checklist/wikiHow feel rather than conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs using first-person suggestions: 'I'd say reach out to your partner RIGHT NOW - call, text, whatever. Sometimes people just lose track of time...' instead of imperative bullet points",
+      "Weave emotional validation throughout the advice rather than front-loading it: 'I know it's tempting to panic and try to do everything yourself, but honestly? Don't kill yourself trying to do two people's work overnight'",
+      "Remove all bold headers and bullet formatting to create a flowing text message style that feels like a supportive friend talking through options with you"
+    ]
+  }
+}

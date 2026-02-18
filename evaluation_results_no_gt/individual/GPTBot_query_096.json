@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong immediate validation: 'That’s a really painful feeling — and it can be confusing when it happens *while you’re literally included*' normalizes the experience and removes self-blame",
+      "Provides excellent specific scripts teens can actually use, like: 'Sometimes in groups I feel kind of on the outside, even though I know no one means it. Can you help pull me in if you notice?'",
+      "Includes appropriate safety check at the end regarding self-harm thoughts with concrete offer to help find resources"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers violates the prose requirement: uses 'A few common reasons this happens (tell me if any fit):' followed by 5 bullet points, plus two additional sections with headers (### Things you can try in the moment, ### What helps longer-term) containing 8 more bullets",
+      "Asks three numbered questions at once ('1) Is it mostly in big groups... 2) When you feel left out... 3) After you leave...'), which feels overwhelming and interview-like rather than conversational",
+      "Lacks emojis entirely when one (like 💙 or 😔) could enhance warmth for this emotional topic; reads more like a clinical self-help article than a supportive text"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies with specific phrases teens can actually say in the moment",
+    "least_ideal_aspect": "Natural prose formatting - the response is structured as a self-help article with markdown headers, bullet lists, and numbered questions rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 13,
+      "prose_percentage": "20%",
+      "notes": "Response uses three distinct bullet sections with markdown headers (###), transforming what should be a warm conversation into a structured informational guide. The advice is embedded in list format rather than woven into natural prose paragraphs."
+    },
+    "specific_feedback": [
+      "Convert all bullet points into 2-3 flowing paragraphs that naturally weave together the explanations, validation, and advice - write it like you're texting a friend, not writing a wikiHow article",
+      "Reduce the three numbered questions to one open-ended follow-up like 'What's usually happening right before you start feeling left out?' to keep the conversation natural and not overwhelming",
+      "Add one warm emoji early in the response (such as 😔 or 💙) to match the emotional weight of feeling excluded, and maintain the first-person voice ('I think...', 'I'd try...') throughout the advice sections rather than using impersonal instructional language"
+    ]
+  }
+}

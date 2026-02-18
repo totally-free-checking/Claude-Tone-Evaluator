@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides excellent specific conversation scripts like 'I’ve noticed plans have been getting cancelled last minute a lot. Is everything okay?' that give teens exact words to use",
+      "Ends with a specific engaging question about frequency and reasons that invites continued conversation",
+      "Advice is realistic and age-appropriate for teens (suggesting coffee/walks instead of expensive events, group hang alternatives)"
+    ],
+    "weaknesses": [
+      "Extremely over-formatted with numbered headers (### 1-5), bullet points, and lists rather than conversational prose paragraphs",
+      "Lacks first-person language entirely - uses directive 'you should' style instead of 'I think' or 'I'd suggest' to create connection",
+      "Minimal emotional validation - only one brief sentence ('That's really frustrating') before immediately jumping into 5 structured steps of advice",
+      "Reads like a self-help article or wikiHow guide rather than a supportive text from a friend"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific actionable phrases and realistic strategies that teens can actually use immediately",
+    "least_ideal_aspect": "Formatting and structure - heavy use of bullet points, numbered lists, and headers instead of natural flowing prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses ### headers and numbered sections (1-5) with extensive bullet points under each category. Only the opening sentence and final paragraph are prose; everything else is structured lists and example phrases formatted as bullets."
+    },
+    "specific_feedback": [
+      "Convert the 5 numbered sections into 2-3 natural paragraphs that flow conversationally, weaving the advice together with phrases like 'I think I'd start by...' and 'Maybe you could try saying...' instead of listing steps",
+      "Add first-person perspective throughout ('I get why that's annoying', 'I'd probably ask them...', 'I'm wondering if...') to create emotional connection rather than sounding like an instruction manual",
+      "Start with 2-3 sentences of emotional validation before offering any solutions to improve the balance between support and advice - acknowledge how disappointing and lonely last-minute cancellations feel"
+    ]
+  }
+}

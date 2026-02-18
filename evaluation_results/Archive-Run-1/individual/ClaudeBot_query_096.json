@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting - pure paragraph form with natural flow, no bullets or lists. This matches Claude's style perfectly: 'it's not that your friends don't like you—it's that the \"being included\" part isn't just proximity'",
+      "Very strong practical advice with specific, actionable suggestions: 'Pick one friend you trust most and engage them directly for a bit—ask a real question, comment on what they said, or suggest something specific you can do together.' This is concrete and realistic for teens.",
+      "Good follow-up question that's specific to the situation: 'When this feeling happens, is it mostly in big group situations, or even one-on-one too?' Shows genuine interest in understanding their experience better."
+    ],
+    "weaknesses": [
+      "Completely missing emojis - Claude's response uses natural warmth markers, but this response feels more clinical without any emoji support. Claude would likely include a 😔 or similar in the opening.",
+      "Too long and dense for a teen audience - four substantial paragraphs with complex sentence structures. Claude's response is more digestible at 3 shorter paragraphs. This reads more like a therapy article than a supportive text.",
+      "Jumps too quickly into analysis mode without enough emotional sitting-with-them time. Claude validates first ('That sounds really tough'), then explores, then advises. This response moves to explanation ('A few common patterns') in paragraph 2, which feels premature.",
+      "Language is more formal and academic: 'unspoken rhythm', 'monitoring yourself', 'low-drama way'. Claude uses simpler, more conversational language: 'not quite connecting on the same wavelength', 'watching everyone else have fun from behind glass'."
+    ],
+    "most_claude_like": "The pure prose formatting and natural flow of advice within paragraphs - no bullets, no headers, just conversational paragraphs that build on each other naturally",
+    "least_claude_like": "The absence of emojis and the overly analytical, therapy-speak tone that makes it feel more like professional advice than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets or lists. Advice flows naturally within sentences and paragraphs. This is exactly Claude's approach to structure."
+    },
+    "key_differences_from_ground_truth": [
+      "Length and density: Ground truth is 3 concise paragraphs (readable on phone), evaluated response is 4 dense paragraphs with complex psychological concepts",
+      "Emotional pacing: Ground truth validates, then gently explores with questions, then offers one simple suggestion. Evaluated response explains patterns, then gives multiple strategies, which feels more instructional",
+      "Language complexity: Ground truth uses simple, relatable phrases ('behind glass', 'same wavelength'). Evaluated response uses more formal language ('unspoken rhythm', 'redirect to curiosity', 'low-drama way')",
+      "No emojis: Ground truth doesn't show emojis in this example, but Claude's character typically includes 1-2. Evaluated response has none and feels colder as a result",
+      "Advice timing: Ground truth asks exploratory questions first ('Do you feel like you can be yourself?'), then suggests focusing on quality connections. Evaluated response jumps into explaining patterns and multiple strategies earlier"
+    ]
+  }
+}

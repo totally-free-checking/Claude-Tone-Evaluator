@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd say') creating genuine connection",
+      "Immediate emotional validation with 'Ugh, that's so rough!' and acknowledgment of the awkwardness",
+      "Perfect prose formatting with zero bullet points - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Practical advice could include one specific example phrase the teen could actually say to their partner",
+      "Slightly generic emoji choice (💙) though appropriately placed"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language ('Honestly...', 'I'd say...') that creates authentic peer-like support",
+    "least_ideal_aspect": "Practical advice section, while solid, lacks specific scripted language the teen could use in the moment",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or over-structuring. Flows like a continuous conversation."
+    },
+    "specific_feedback": [
+      "Consider adding one concrete phrase example like 'Hey, let's just focus on getting this done' to make the practical advice more actionable",
+      "Maintain the excellent balance of validation-first structure; the opening 'Ugh' immediately establishes emotional safety"
+    ]
+  }
+}

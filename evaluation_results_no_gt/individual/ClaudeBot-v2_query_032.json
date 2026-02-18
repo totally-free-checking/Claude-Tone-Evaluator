@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with relatable language ('that feeling is honestly the worst', 'makes your brain replay every little thing')",
+      "Strong first-person advice giving using 'If I were you, I'd try...' construction that feels personal and supportive",
+      "Specific, actionable scripts for what to actually text ('Hey, you've seemed kind of off...') integrated naturally into prose"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice could include one more explicit 'I've been there' type statement before 'real talk'",
+      "The follow-up question combines two questions which slightly dilutes the focus, though it remains natural"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points - advice flows conversationally with specific examples integrated into paragraphs rather than listed",
+    "least_ideal_aspect": "Slight abruptness in transition from emotional validation to practical explanation (could use one more validating sentence before 'And real talk')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with quoted dialogue integrated smoothly into text flow, no headers or structural formatting"
+    },
+    "specific_feedback": [
+      "Consider adding one brief 'I've totally been there' type statement between the validation and the 'real talk' transition to strengthen the emotional connection",
+      "The specific text message scripts are excellent - maintain this level of concrete detail in future responses"
+    ]
+  }
+}

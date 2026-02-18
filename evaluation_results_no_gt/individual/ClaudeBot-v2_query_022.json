@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a gross spot to be in' and reassurance that they're not being 'too sensitive'",
+      "Excellent use of first-person language throughout ('If I were you, I'd try', 'I get that') creating a personal, supportive connection rather than impersonal directives",
+      "Provides specific, actionable scripts for confronting the friend including exact phrases and follow-up responses if dismissed"
+    ],
+    "weaknesses": [
+      "The follow-up question provides specific examples (looks/grades vs low blows) which, while showing understanding, might slightly narrow the conversation compared to a more open-ended question",
+      "Could benefit from one additional explicit statement of support like 'I'm here if you need to talk' before the closing question to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points and seamless conversational flow that integrates validation, advice, and engagement in paragraph form",
+    "least_ideal_aspect": "The follow-up question structure which offers categorical examples that might inadvertently guide the user toward specific answers rather than letting them define the experience",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or over-structuring. Advice flows naturally within conversational paragraphs using conditional first-person language."
+    },
+    "specific_feedback": [
+      "Consider adding a brief first-person supportive closing like 'I'm here if you need to talk' before the follow-up question to strengthen the personal connection",
+      "While the categorical examples in the question show empathy, trying a more open version like 'What kinds of things are they joking about?' could give the teen more space to define their experience"
+    ]
+  }
+}

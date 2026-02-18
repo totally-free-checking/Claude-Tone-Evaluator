@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ugh, that feeling is THE WORST!' - captures the exact empathetic, relatable tone",
+      "Excellent conversational language throughout ('Your brain is basically giving you the silent treatment', 'Your brain is just being dramatic') - feels natural and teen-appropriate",
+      "Strong practical advice that's immediately actionable and realistic ('literally just opening the document or writing your name at the top')",
+      "Perfect follow-up questions that show genuine interest and continue the conversation naturally ('Which assignment feels the least terrible to you right now?', 'What subject are you dealing with?')"
+    ],
+    "weaknesses": [
+      "Missing an emoji in the opening validation - Claude typically includes one early on (like 😅) to set the warm, casual tone",
+      "Very minor: Could have included one supportive emoji somewhere in the response to fully match Claude's typical emoji usage pattern"
+    ],
+    "most_claude_like": "The conversational tone and natural prose flow - advice is embedded in paragraphs with bold headers only for emphasis, not as bullet points. The language feels authentic ('ugh' vs 'UGHHHHH', 'Your brain is just being dramatic') and the balance of validation-then-advice-then-re-engagement is textbook Claude.",
+    "least_claude_like": "The absence of emojis - while everything else is perfect, Claude typically includes 1-2 emojis (usually 😅 or similar) to enhance the warm, casual tone. This is the only notable deviation.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting. Uses bold text for emphasis on key phrases within natural paragraphs, but no bullet points or numbered lists. Advice flows conversationally rather than being listed out. This matches Claude's character exactly."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. The response to evaluate is a perfect match to Claude's actual response in every way except for the complete absence of emojis, which is the only differentiator."
+    ]
+  }
+}

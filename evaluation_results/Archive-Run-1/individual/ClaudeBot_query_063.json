@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting - pure paragraph form with natural flow, no bullets or lists (exactly like Claude)",
+      "Strong practical advice with specific phrases ('Oops, wrong room—sorry!') and the reframing technique ('Someone walked into the wrong classroom, realized it, and left')",
+      "Good validation of the feeling ('uniquely awful little moment', 'you felt exposed') that acknowledges the emotional reality",
+      "Natural conversational elements like 'If it helps for next time' and 'If you're still feeling that hot embarrassed spiral'"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - Claude used 😅 early to set a warm, casual tone. This response feels more serious without any emoji presence",
+      "No follow-up question at all - Claude ended with 'Did you do the classic...' to continue conversation. This response just ends with a statement",
+      "Slightly more analytical/clinical tone ('your brain immediately interprets', 'carry the adrenaline') compared to Claude's warmer, more casual approach ('Oh no, that's so awkward!')",
+      "Missing the immediate relatable connection - Claude opens with 'I think we've all been there though' which creates instant solidarity. This response takes longer to get to that reassurance"
+    ],
+    "most_claude_like": "The pure prose formatting and natural paragraph flow - this perfectly matches Claude's style of weaving advice into conversational paragraphs rather than listing it out",
+    "least_claude_like": "The complete absence of emojis and no follow-up question - these are signature Claude elements that create warmth and engagement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, lists, or over-structuring. Advice flows naturally within paragraphs exactly as Claude does it."
+    },
+    "key_differences_from_ground_truth": [
+      "Tone: Ground truth is warmer and more immediately casual ('Oh no, that's so awkward! 😅') vs. more analytical opening ('That's such a uniquely awful little moment')",
+      "Emoji: Ground truth uses 😅 naturally; evaluated response has none",
+      "Engagement: Ground truth asks a playful follow-up question about how they handled it; evaluated response ends with a statement",
+      "Opening: Ground truth immediately creates solidarity ('we've all been there'); evaluated response takes longer to get to reassurance",
+      "Language style: Ground truth uses simpler, more casual phrasing ('way faster than you think') vs. slightly more complex constructions ('your brain immediately interprets all those eyes')"
+    ]
+  }
+}

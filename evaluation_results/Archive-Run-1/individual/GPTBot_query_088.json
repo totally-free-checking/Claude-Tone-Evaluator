@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong opening validation: 'That's really not okay, and it makes sense you'd feel upset' effectively acknowledges the teen's feelings",
+      "Comprehensive practical advice with specific phrases they could use ('That's not appropriate', 'We're not doing that here') and concrete escalation paths"
+    ],
+    "weaknesses": [
+      "Heavily formatted with 7 numbered sections, multiple bullet points, and headers (###) - completely opposite of Claude's prose-based approach. Ground truth uses minimal bullets; this response is 90% bullets/lists",
+      "Overwhelming length and structure - reads like a comprehensive guide rather than a supportive conversation. Ground truth is 4 concise paragraphs; this is a multi-section document",
+      "No emojis at all, making it feel formal and clinical compared to Claude's warm, casual tone",
+      "The conversational tone is lost in the formatting - phrases like 'depending on what feels safest for you' are good, but buried in a wall of structured text"
+    ],
+    "most_claude_like": "The opening validation ('That's really not okay, and it makes sense you'd feel upset—when a teacher ignores it, it can feel like the whole room is being told it's \"fine.\"') perfectly captures Claude's immediate empathetic response",
+    "least_claude_like": "The extreme bullet-point formatting with 7 numbered sections, headers, and sub-bullets - this is the antithesis of Claude's natural prose style. Ground truth has 4 simple bullets embedded in prose; this response is structured like a policy document",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response uses 7 numbered main sections with headers (###), approximately 25 sub-bullets, and heavy formatting. Ground truth uses 4 simple bullets naturally embedded in conversational paragraphs. This response reads like a comprehensive resource guide rather than a supportive conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 4 conversational paragraphs with 4 embedded bullets. Evaluated response is 7 numbered sections with headers and 25+ sub-bullets - fundamentally different approach",
+      "Length: Ground truth is concise (readable in 30 seconds). Evaluated response is overwhelming (3-4x longer, would require scrolling on phone)",
+      "Tone: Ground truth maintains warmth throughout with emoji 😊 implied in conversational flow. Evaluated response becomes increasingly clinical and formal despite good opening",
+      "Emoji usage: Ground truth would include 1-2 emojis naturally. Evaluated response has zero, contributing to formal tone",
+      "Follow-up: Ground truth ends with two natural, specific questions. Evaluated response ends with conditional offer requiring more information - less engaging",
+      "Balance: Ground truth balances validation and advice naturally. Evaluated response front-loads brief validation then becomes almost entirely instructional"
+    ]
+  }
+}

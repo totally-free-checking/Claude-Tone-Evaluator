@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong validation using 'Oof, that hurts' and 'total gut punch' to acknowledge the emotional impact",
+      "Uses first-person language naturally throughout ('I've been there', 'If I were you, I'd try') creating authentic connection",
+      "Provides specific, actionable script for the teen to use ('Hey, I heard you guys had fun the other night – wish I'd been there!')"
+    ],
+    "weaknesses": [
+      "The 😅 emoji feels slightly mismatched immediately following 'gut punch' – the emoji conveys nervousness/awkwardness while the phrase conveys deep hurt",
+      "Could add slightly more validation before moving to reassurance that 'it happens' to fully sit with the hurt feelings"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points, headers, or over-formatting – reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji choice and placement – using 😅 (nervous/awkward) right after describing a painful 'gut punch' creates a slight tonal disconnect",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider using 💙 or 😔 instead of 😅 for exclusion situations, or omit the emoji entirely, as 😅 signals awkwardness rather than the hurt/pain of being left out",
+      "Add one more sentence of validation like 'That sinking feeling when you see the photos is the worst' before moving to 'it happens' to fully acknowledge the pain"
+    ]
+  }
+}

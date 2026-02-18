@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('That really sucks') and normalizes the feeling by explaining the spotlight effect",
+      "Provides extremely specific, actionable advice with exact phrases the teen could use ('Hey, are you around for lunch?') and realistic options like headphones or relocating",
+      "Ends with engaging, context-specific questions that show genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold formatting instead of natural prose paragraphs - reads like a self-help article rather than a text from a friend",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel impersonal and advice-giving rather than supportive peer-to-peer connection",
+      "Uses clinical/structured framing like 'the spotlight effect' and 'A few things you can do today' which feels more educational than conversational"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic steps with specific scripts and immediate actions perfect for a teen's agency",
+    "least_ideal_aspect": "Prose formatting - uses four bullet points with bold headers instead of flowing conversational paragraphs, violating the core character trait of natural prose",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses a bulleted list with bold headers ('Make it look intentional', 'Change the scene', etc.) and sub-bullets. Only the opening and closing are prose. This is heavily structured and reads like a guide rather than a conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose paragraphs instead of bullet points - flow the suggestions together using transitions like 'I'd probably start by...' or 'Maybe you could try...'",
+      "Add first-person perspective throughout ('I think the spotlight effect is real', 'I'd feel awkward too', 'I'm here if you need to talk') to create that supportive friend/sibling connection",
+      "Consider adding one warm emoji early on (like 😅 or 💙) to enhance the casual, supportive tone, though this is less critical than the prose and first-person issues"
+    ]
+  }
+}

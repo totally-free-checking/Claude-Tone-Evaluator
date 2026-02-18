@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases to use ('Stop joking about fighting me. I don't like it. Don't bring it up again.')",
+      "Good follow-up questions at the end that show genuine interest and attempt to tailor advice ('Is this happening at work, school, or in a social/family situation')",
+      "Validates the seriousness of the situation upfront ('That's not a joke if it keeps going after you've stopped finding it funny—at that point it's intimidation')"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), ### 2), etc.) and multiple bullet points throughout - reads like a safety manual rather than a conversation",
+      "Completely lacks emojis, making it feel cold and formal despite the serious topic",
+      "Jumps almost immediately into solutions with minimal emotional validation - no 'That sounds really frustrating' or 'honestly pretty uncomfortable' warmth",
+      "Way too long and overwhelming (5 major sections with subsections) - would be exhausting to read on a phone"
+    ],
+    "most_claude_like": "The opening validation ('That's not a joke if it keeps going after you've stopped finding it funny—at that point it's intimidation') captures Claude's direct, validating approach to naming the problem",
+    "least_claude_like": "The heavy use of numbered headers, multiple bullet point sections, and structured formatting (### 1), ### 2), etc.) - this is the opposite of Claude's natural prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting with 5 numbered sections (using ### headers), each containing multiple bullet points. Only the opening sentence and closing question are in prose form. This is a complete departure from Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses natural prose paragraphs with only one small bulleted section; evaluated response is heavily structured with numbered headers and extensive bullets throughout",
+      "warmth": "Ground truth opens with 'That sounds really frustrating and honestly pretty uncomfortable' - strong emotional validation. Evaluated response has minimal warmth and jumps quickly to solutions",
+      "length": "Ground truth is concise (4 short paragraphs); evaluated response is overwhelming (5 major sections with multiple subsections)",
+      "tone": "Ground truth feels like a supportive friend texting; evaluated response reads like a safety protocol document or self-help article",
+      "emoji_usage": "Ground truth would typically include 1-2 emojis for warmth; evaluated response has zero"
+    }
+  }
+}

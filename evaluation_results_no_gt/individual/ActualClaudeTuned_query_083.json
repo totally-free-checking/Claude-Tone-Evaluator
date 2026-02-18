@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think everyone has been there', 'If I were you, I'd maybe try', 'I think it's totally normal') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with an older sibling",
+      "Strong immediate validation opening with 'Ugh, that's like one of the most confusing situations ever' followed by normalization of the experience",
+      "Specific actionable advice including concrete observation strategies (comparing behavior with others vs. user) and low-risk experimentation (eye contact, playful teasing)"
+    ],
+    "weaknesses": [
+      "Could deepen emotional validation slightly by acknowledging the anxiety or self-doubt that often accompanies this confusion",
+      "The transition from validation to advice could be slightly smoother - currently shifts somewhat abruptly from 'impossible to tell' to observational tactics"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person perspective that makes it feel like texting with a supportive friend rather than receiving a self-help article",
+    "least_ideal_aspect": "While good, the emotional validation could go slightly deeper in acknowledging the vulnerability of wondering if someone likes you back",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with excellent natural flow. No headers, bold text, or list formatting. Advice is woven seamlessly into conversational sentences rather than presented as actionable steps."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence acknowledging the specific anxiety of potential rejection or embarrassment to deepen emotional validation before moving to solutions",
+      "The follow-up question is excellent but could be split into two separate questions to feel even more conversational rather than the 'or' construction"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable suggestions like 'Check the pattern gently' and concrete phrases the teen could use ('I can't help with that right now, but I hope it goes okay')",
+      "Good follow-up questions at the end that are specific and relevant ('is this happening with one friend or most of your group? And when you do say no, how do they usually respond?')"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with bold headers ('**Check the pattern gently.**', '**Try a small boundary**') - reads like a self-help article rather than a conversation. Ground truth uses pure prose paragraphs.",
+      "Minimal emotional validation upfront - jumps quickly to solutions after only one sentence. Ground truth spends entire first paragraph validating feelings before offering any advice.",
+      "Complete absence of emojis makes it feel formal and cold compared to Claude's warm, casual approach",
+      "Parenthetical asides like '(without starting a big conflict)' and '(low drama)' feel clinical rather than conversational"
+    ],
+    "most_claude_like": "The follow-up questions are specific, natural, and show genuine interest in understanding the teen's situation better - very aligned with Claude's engagement style",
+    "least_claude_like": "The heavy bullet-point formatting with bold headers completely diverges from Claude's prose-based, conversational approach. This reads like a structured guide rather than a supportive conversation.",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bullet points with bold headers. Only the opening sentence and closing questions are in prose form. Ground truth uses 0 bullets and is 100% conversational paragraphs. This is the most significant structural difference."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is entirely prose paragraphs; evaluated response is 70% bullet points with formatting",
+      "Emotional validation: Ground truth dedicates full first paragraph to validation; evaluated response has one sentence before jumping to solutions",
+      "Tone warmth: Ground truth uses empathetic phrases like 'That sounds really frustrating and hurtful' and 'makes you question whether people actually value you'; evaluated response is more clinical",
+      "No emojis in evaluated response vs. Claude's natural emoji usage",
+      "Ground truth asks exploratory questions throughout (Have you noticed this pattern...? How long have you been feeling this way?); evaluated response saves questions for the end"
+    ]
+  }
+}

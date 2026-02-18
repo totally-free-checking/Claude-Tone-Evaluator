@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation ('Ugh, that shaky-hands panic is the worst') that captures the physical sensation perfectly",
+      "Excellent prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'Right before you go up, try a slower breath...'",
+      "Highly specific, actionable advice including the 4-6 breathing technique, gripping the podium, and the realistic timeline of 30-60 seconds for body to calm"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel slightly impersonal despite being warm - uses second person ('your body', 'you're') throughout without the 'I've been there' connection",
+      "Could benefit from an explicit 'I'm here if you need to talk' or similar supportive closing to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Absence of first-person perspective and shared experience language ('I get nervous too', 'I always find that...') makes it feel slightly detached despite the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect paragraph structure with three natural prose blocks flowing from validation to reassurance to practical advice, with no headers, bold text, or list formatting"
+    },
+    "specific_feedback": [
+      "Add first-person sharing like 'I get that shaky-hands feeling too' or 'I'd definitely try to hold something solid' to create more personal connection",
+      "Include a brief supportive closing like 'I'm here if you need to talk after' or 'You've got this' to reinforce the supportive bot character"
+    ]
+  }
+}

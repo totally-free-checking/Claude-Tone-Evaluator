@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice with concrete scripts (e.g., 'I feel kinda awkward around your parents—did I do something...') and realistic teen strategies",
+      "Ends with an excellent, specific follow-up question that asks for situational details to personalize future advice",
+      "Maintains a non-judgmental tone throughout and acknowledges the awkwardness of being judged in someone else's home"
+    ],
+    "weaknesses": [
+      "Heavy over-structuring with 6 numbered headers and multiple bullet point lists makes it read like a wikiHow article rather than a supportive conversation",
+      "Lacks first-person language throughout the advice sections (no 'I think,' 'I'd suggest,' or 'I get that') creating distance rather than connection",
+      "Validation is limited to the opening sentence before immediately jumping into 6 sections of practical solutions without emotional check-ins"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific phrases to use and concrete behavioral changes are perfectly tailored to teen agency and social situations",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response uses headers (### 1), numbered lists, and bullet points extensively, creating a clinical, self-help article format rather than conversational texting",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response uses 6 numbered sections with headers (### 1, ### 2, etc.) and extensive bullet points under each. The only prose is the opening sentence and closing question. Reads as highly structured content rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as flowing paragraphs using first-person language like 'I think the best approach is...' or 'I'd probably start by...' instead of numbered headers",
+      "Add 1-2 more sentences of emotional validation after the opening before diving into solutions, and check in emotionally midway through",
+      "Remove all headers and bullet points, integrating the advice naturally into 2-3 conversational paragraphs that flow like a friend texting advice"
+    ]
+  }
+}

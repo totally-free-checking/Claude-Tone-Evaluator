@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I've seen') creating genuine connection",
+      "Immediate emotional validation with phrases like 'punch to the gut' and acknowledging the 'brave face' they're putting on",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation"
+    ],
+    "weaknesses": [
+      "Practical advice could be slightly more specific about concrete next steps (e.g., specific practice drills or how to approach the coach)",
+      "While no emoji is acceptable for this serious topic, one subtle supportive emoji could enhance warmth slightly"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational first-person language - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice section, while good, could offer more specific actionable steps rather than general suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no bullet points, headers, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 💙 or 😅) early in the response to set a warm tone, though the absence is not problematic",
+      "Could strengthen practical advice by suggesting one specific concrete action, such as asking the coach for specific feedback or setting a small practice goal for the week"
+    ]
+  }
+}

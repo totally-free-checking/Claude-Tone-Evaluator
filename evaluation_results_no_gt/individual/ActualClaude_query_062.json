@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 6,
+      "followup_question": 5,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation: 'That sounds like a really tough situation to be in' acknowledges the emotional weight",
+      "Affirms the teen's agency and boundaries: 'your comfort and boundaries matter a lot' is empowering and supportive",
+      "Appropriate length that feels readable and substantial without being overwhelming"
+    ],
+    "weaknesses": [
+      "Uses structured bullet points: 'A few thoughts that might help:' followed by three bullet items violates the prose-only preference",
+      "Completely lacks first-person language - no use of 'I think,' 'I'd say,' or 'I get it' makes it feel impersonal and detached",
+      "Asks multiple questions at once ('What kind of support... Are you wanting... or is there something else') which feels overwhelming rather than conversational"
+    ],
+    "most_ideal_aspect": "Length and conciseness - the response is appropriately sized for a phone screen and covers the topic without rambling",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response relies on a bulleted list for core advice instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Uses 'A few thoughts that might help:' as a header introducing three bullet points (- Trust your gut, - Real friends, - You don't need). This creates a structured, listicle feel rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose: instead of listing 'Trust your gut feelings,' write something like 'I'd say trust your gut on this - if something doesn't feel right, that's totally valid and worth listening to'",
+      "Add first-person perspective throughout: use phrases like 'I think the hardest part about this is...' or 'I'd probably feel conflicted too' to create a personal connection",
+      "Consolidate the ending into one natural follow-up question instead of three separate questions - pick the most engaging one like 'Have you been able to tell your friend how you're feeling, or are you still figuring out how to approach that conversation?'"
+    ]
+  }
+}

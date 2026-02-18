@@ -1,0 +1,40 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd quickly unlike it', 'I totally get it', 'I was scrolling') creating genuine personal connection",
+      "Provides specific, actionable script for the teen to use if confronted: 'Oops, my finger slipped while I was scrolling – your posts are just that good!'",
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Opens with immediate emotional validation ('Ugh, that cringe-worthy moment') and normalizes the experience ('we've all had those')"
+    ],
+    "weaknesses": [
+      "Could deepen validation slightly by specifically acknowledging the embarrassment/anxiety of being 'caught' stalking before moving to solutions",
+      "The phrase 'digital footprint' is slightly more formal than the rest of the casual tone, though still acceptable"
+    ],
+    "most_ideal_aspect": "Natural prose paragraph structure with consistent first-person language and zero formatting artifacts - perfectly matches the conversational texting style of the ideal character",
+    "least_ideal_aspect": "Slight opportunity to deepen emotional validation before pivoting to practical advice, though the balance is still quite good",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Maintain the strong first-person perspective ('I think', 'I'd say') as it creates authentic connection",
+      "Consider adding one more sentence acknowledging the specific vulnerability of having their 'stalking' revealed before offering the fix",
+      "The follow-up question is excellent - keep using specific, contextual questions like 'How old was the post' rather than generic 'How are you feeling' questions"
+    ]
+  }
+}

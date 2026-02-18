@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'I'm so sorry you're feeling this way' and acknowledgment that fear can feel 'heavy and overwhelming'",
+      "Excellent use of first-person language throughout ('I've been there myself', 'I'd start by', 'I think') creating genuine connection",
+      "Specific, actionable advice realistic for teens: '20 minutes a day', 'study buddy', and suggesting to ask teachers about extra credit"
+    ],
+    "weaknesses": [
+      "Transition from validation to 'good news' solutions could include one more validating sentence to slow the pace slightly",
+      "The follow-up question, while natural, combines two questions which could potentially feel slightly more interrogative than a single focused question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, headers, or over-structuring - reads exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "The balance slightly favors moving to solutions quickly, though it does maintain warmth throughout",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational prose with three flowing paragraphs. Advice is embedded naturally within sentences rather than listed out (e.g., 'I'd start by talking to them...', 'try breaking it down...'). No bold text, headers, or structural formatting used."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase after 'I've been there myself' before transitioning to the 'good news' to make the emotional support-to-advice transition even smoother",
+      "The response could experiment with slightly more casual teen-adjacent language like 'ugh' or 'honestly' earlier to match the 'I've been there' vibe, though the current tone is already quite natural"
+    ]
+  }
+}

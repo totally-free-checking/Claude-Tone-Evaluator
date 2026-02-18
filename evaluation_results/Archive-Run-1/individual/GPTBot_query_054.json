@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable phrases the teen can actually use ('Don't comment on my body', 'That's not appropriate. Stop.')",
+      "Good follow-up question at the end that's specific and invites more detail ('If you tell me who is making the comments... I can help you write an exact response')"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), 2), 3), etc.) and extensive bullet points throughout - reads like a self-help article rather than a conversation",
+      "Minimal emotional validation - jumps almost immediately into solutions without sitting with the teen's feelings first",
+      "No emojis at all, making it feel formal and cold compared to Claude's warm, casual approach",
+      "Too long and overwhelming - 5 major sections with multiple sub-bullets would be difficult to read on a phone"
+    ],
+    "most_claude_like": "The follow-up question is specific and genuinely helpful, offering to tailor advice to their exact situation",
+    "least_claude_like": "The heavy use of numbered headers and bullet points throughout - Claude writes in conversational prose paragraphs, not structured lists",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% formatted lists with headers and bullets. Only the opening sentence and closing question are in prose form. This is the opposite of Claude's approach, which uses prose paragraphs with advice woven naturally into the conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth starts with substantial emotional validation ('That sounds really frustrating and uncomfortable - I'm sorry you're dealing with that. Nobody should have to put up with unwanted comments...') while evaluated response gives minimal validation before diving into solutions",
+      "Ground truth uses conversational prose with only light formatting ('A few thoughts that might help:' followed by prose sections) while evaluated response uses heavy numbered headers and extensive bullet points",
+      "Ground truth includes an emoji-free but warm tone through word choice, while evaluated response has no emojis and feels more clinical/instructional",
+      "Ground truth is concise (2-3 readable paragraphs) while evaluated response is overwhelming with 5 major sections and numerous sub-points",
+      "Ground truth balances support and solutions naturally, while evaluated response is approximately 90% solutions and 10% emotional support"
+    ]
+  }
+}

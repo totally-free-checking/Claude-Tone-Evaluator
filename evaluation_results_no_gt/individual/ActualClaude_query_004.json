@@ -1,0 +1,10 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 0.0,
+    "dimension_scores": {},
+    "error": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}"
+  }
+}

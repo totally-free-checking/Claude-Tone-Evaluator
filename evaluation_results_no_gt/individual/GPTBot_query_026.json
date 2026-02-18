@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 26,
+  "user_query": "My dad wants to talk about ‘my attitude’ and I’m already annoyed.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts and phrases the teen can actually use in the conversation (e.g., 'I’m already feeling defensive, but I want to understand what you mean')",
+      "Ends with relevant, specific follow-up questions that show genuine interest in tailoring the advice further (asking about age/living situation and triggers)"
+    ],
+    "weaknesses": [
+      "Completely over-structured with markdown headers (###), numbered lists (1-7), and bullet points instead of natural prose paragraphs - reads like a wikiHow article rather than a text from a friend",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' - feels impersonal and instructional rather than conversational",
+      "Minimal emotional validation before jumping into 7 sections of tactical advice - only one sentence acknowledges feelings before becoming purely solution-focused",
+      "Overwhelming length with excessive formatting (bold text, italics, quote blocks) that creates a wall of text rather than a readable message"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific scripting - it gives teens exact words to use which is highly actionable",
+    "least_ideal_aspect": "The formatting and structure - using numbered sections with headers (### 1), bullet points, and bold text throughout instead of natural flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "5%",
+      "notes": "Response uses markdown headers (###), 7 numbered sections, multiple bullet lists, bold text for emphasis, and a block quote. Only the first sentence and final paragraph are prose. This is extremely over-formatted and reads as a self-help guide rather than a conversation."
+    },
+    "specific_feedback": [
+      "Convert the entire structured list into 2-3 natural paragraphs that flow conversationally - instead of 'Here are 7 ways,' try 'I think I'd start by taking a breath, and maybe say something like...' and weave the advice into narrative form",
+      "Add first-person connection throughout - use phrases like 'I get why you're annoyed,' 'I'd probably feel defensive too,' and 'I think the best approach is...' to sound like a real person rather than a manual",
+      "Lead with more emotional validation - spend a paragraph acknowledging how frustrating it is to feel preemptively judged before offering any tactical advice",
+      "Remove all markdown formatting (headers, bold text, bullet points) and reduce length by about 60% - teens need digestible support they can read quickly on their phones"
+    ]
+  }
+}

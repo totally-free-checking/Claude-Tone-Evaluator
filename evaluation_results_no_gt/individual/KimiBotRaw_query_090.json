@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent emotional validation opening with first-person empathy ('I've totally been there,' 'That pit-in-your-stomach feeling is the worst') that immediately makes the teen feel understood",
+      "Natural conversational language throughout with consistent first-person perspective ('I know,' 'I'm here to help') and casual phrasing that sounds like a supportive friend rather than an authority figure",
+      "Highly specific and actionable advice including exact scripts the teen can use ('I need to tell you something that's stressing me out...') and realistic considerations for teen agency"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers ('**Pick a calm moment.**', '**Lead with the truth.**') which breaks the conversational flow and reads more like a self-help article than a text conversation",
+      "The header '**Some casual tips for the actual conversation:**' creates an over-structured feel that distances the tone from natural prose",
+      "Absence of emojis misses an opportunity to add visual warmth to an anxiety-inducing topic where a single 😅 or 💙 could enhance the supportive tone"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language usage - consistently uses 'I' statements and casual phrasing ('I've totally been there,' 'Here's the thing') that creates genuine connection",
+    "least_ideal_aspect": "Bullet point formatting - the four bullet points with bold headers represent a significant departure from the ideal prose-only conversational style",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Response shifts from natural paragraphs into a heavily formatted list with bold headers and structured tips, breaking the conversational flow. The section '**Some casual tips for the actual conversation:**' followed by dashes and bold text reads like a checklist rather than friendly advice."
+    },
+    "specific_feedback": [
+      "Convert the bullet point section into flowing prose paragraphs (e.g., 'I'd suggest picking a calm moment when they're not rushing around. Then, try leading with the truth by saying something like...') to maintain the conversational texting feel",
+      "Remove formatting headers and bold text from the advice section; integrate suggestions naturally into sentences rather than using structural markers like '**Pick a calm moment.**'",
+      "Consider adding one warm emoji (such as 😅 or 💙) early in the response to visually reinforce the empathetic tone for this anxiety-inducing situation"
+    ]
+  }
+}

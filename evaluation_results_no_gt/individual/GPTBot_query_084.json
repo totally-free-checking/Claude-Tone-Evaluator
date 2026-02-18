@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation using casual language ('That really sucks') and acknowledges the emotional impact of losing freedom",
+      "Uses first-person language naturally throughout ('I'll help you', 'I can help you draft') creating a personal connection",
+      "Provides highly specific, actionable advice with exact scripts the teen can use ('I get why you're upset', 'Can we do X instead')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured formatting with numbered lists (2 items) and bullet points (4 items) breaks conversational flow",
+      "Asks three questions at once (two numbered, one at the end) which can feel overwhelming rather than naturally engaging",
+      "Could use slightly more empathetic warmth upfront before moving to the problem-solving phase"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and negotiation strategies specifically tailored for teen-parent conversations about grounding",
+    "least_ideal_aspect": "Prose formatting - uses multiple structured lists instead of flowing conversational paragraphs, reading more like an instruction manual than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "45%",
+      "notes": "Response contains 2 numbered questions (1, 2) and 4 dash-prefixed bullet points with advice scripts. The advice section is entirely bulleted rather than woven into natural prose paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bullet-pointed advice into 1-2 flowing paragraphs that naturally incorporate the suggestions ('I'd start by acknowledging their perspective, then maybe ask something like...')",
+      "Combine the multiple questions into one natural follow-up question or spread them throughout the conversation rather than listing them",
+      "Add one warm emoji (like 😕 or 💙) after the opening validation to enhance the supportive tone without overdoing it"
+    ]
+  }
+}

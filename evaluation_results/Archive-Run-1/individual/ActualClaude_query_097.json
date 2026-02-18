@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oof, that's always a tricky situation!' - acknowledges the awkwardness right away and normalizes the feeling",
+      "Excellent prose structure throughout - zero bullet points, advice flows naturally within conversational paragraphs",
+      "Specific, actionable phrases provided naturally in prose ('I'm really flattered, but I don't think of us that way') without list formatting",
+      "Two well-placed, natural follow-up questions that show genuine interest and help tailor advice ('How close are you with this person?' and 'How are you feeling about having that conversation?')"
+    ],
+    "weaknesses": [
+      "Could have included one more emoji for extra warmth, though the single emoji is perfectly acceptable and natural",
+      "Extremely minor: Could potentially add a slightly more casual phrase like 'honestly' or 'totally get it' for even more conversational flow, though current tone is already excellent"
+    ],
+    "most_claude_like": "The perfect balance of validation-then-advice structure, starting with 'Oof' and normalizing feelings before offering practical solutions, all delivered in pure conversational prose",
+    "least_claude_like": "Only one emoji used - while this is still natural and appropriate, Claude sometimes uses 2 emojis for extra warmth, though this is an extremely minor point",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting. Advice is woven naturally into conversational paragraphs with example phrases in quotes rather than bullet lists. No headers, no bold formatting, no numbered steps - exactly matches Claude's character."
+    },
+    "key_differences_from_ground_truth": [
+      "This response IS the ground truth - they are identical, so there are zero differences in content, structure, tone, or approach"
+    ]
+  }
+}

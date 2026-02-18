@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think we're usually way harder', 'I know it's easier said than done') creating authentic connection",
+      "Strong immediate emotional validation that acknowledges the exhaustion without being patronizing ('That's honestly one of the most exhausting feelings')",
+      "Natural conversational prose with appropriate contractions and casual phrasing ('in the thick of it', 'super slow') that reads like texting"
+    ],
+    "weaknesses": [
+      "Follow-up question comes at the end rather than earlier in the conversation like the ground truth, making it slightly more advice-heavy before understanding the specific context",
+      "Could balance validation and advice more like the ground truth by exploring the situation first before offering perspective on self-criticism"
+    ],
+    "most_claude_like": "The natural prose formatting with zero bullets and authentic first-person conversational tone using contractions and relatable phrases",
+    "least_claude_like": "The structural choice to provide multiple paragraphs of validation and advice before asking the exploratory question, whereas Claude typically asks earlier to understand the specific situation first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure conversational prose throughout with no formatting, headers, or bullet points, perfectly matching Claude's paragraph-based texting style"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks the exploratory question immediately after initial validation to understand context before offering advice, while evaluated response waits until the end",
+      "Evaluated response provides more prescriptive advice about self-criticism and giving oneself credit, whereas ground truth is more exploratory and open-ended",
+      "Ground truth uses 'That sounds really tough' opening vs evaluated response's 'I'm so sorry' - both warm but slightly different emotional entry points"
+    ]
+  }
+}

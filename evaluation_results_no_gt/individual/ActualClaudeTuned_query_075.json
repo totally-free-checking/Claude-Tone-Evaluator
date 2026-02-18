@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd maybe try', 'I get it' implied in the validation) creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with an older sibling or friend",
+      "Strong immediate emotional validation opening with 'Ugh, that's such an awkward spot to be in!' that names the specific feeling before offering any advice"
+    ],
+    "weaknesses": [
+      "The transition from validation to reframing ('Honestly though, I think this could actually turn out way better') could include one more sentence acknowledging the anxiety before pivoting to optimism",
+      "The advice about conversation starters ('You could also think of a few conversation starters ahead of time') is slightly less specific than the other suggestions, though still helpful"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language ('I'd maybe try', 'I think') that creates genuine connection without any corporate or clinical distance",
+    "least_ideal_aspect": "The slight rush from validation to positive reframing could use one more beat of sitting with the uncomfortable feeling before offering the optimistic perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain this level of first-person language usage ('I think', 'I'd say') as it creates essential warmth and personal connection for teen support",
+      "Consider adding one more sentence of pure validation before the 'Honestly though' pivot to ensure the teen feels fully heard before being encouraged to reframe the situation"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, I'm so sorry—you know that hollow, left-out feeling' that names the specific emotion and makes the teen feel seen",
+      "Strong use of first-person language throughout ('If I were you, I'd...', 'I get it') creating a personal, supportive connection rather than detached advice",
+      "Specific, actionable suggestions that are realistic for teens ('joining a club for a month, following a beginner tutorial, volunteering once') rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "While the serious tone is appropriate for the topic, one subtle emoji (like 💙 or 😅) could enhance warmth without undermining the gravity of the feeling",
+      "The response is slightly dense; breaking the third paragraph into two shorter ones might improve mobile readability, though this is minor"
+    ],
+    "most_ideal_aspect": "The perfect balance of emotional validation and practical advice—starting with empathy ('rough headspace'), offering perspective ('way less real than it looks'), then concrete steps, ending with engagement",
+    "least_ideal_aspect": "Absence of emoji—while appropriate for the serious topic, a single supportive emoji could enhance the warm, casual character without detracting from the validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with zero bullets, headers, or over-structuring. The advice flows naturally within conversational paragraphs, reading like a supportive friend texting rather than a self-help article"
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 💙 or 😊) early in the response to signal warmth while maintaining the serious, validating tone",
+      "The third paragraph is slightly long—consider breaking after 'tiny project' to create more white space for mobile readability, though the content itself is excellent"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation using casual language ('Ugh, that's so frustrating!') that mirrors how a friend would react",
+      "Uses first-person language naturally throughout ('I'd maybe try', 'I'm confused') creating authentic connection",
+      "Provides specific, realistic conversation starters that a teen could actually use with their parents"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) when the ground truth doesn't and the user didn't request emojis, slightly deviating from the preferred 0-emoji approach",
+      "Jumps directly to advice ('I'd maybe try having a calm conversation') rather than first asking if they've attempted communication like the ground truth does",
+      "Includes 'ride it out' messaging which is slightly less proactive than the ground truth's focus on opening dialogue"
+    ],
+    "most_claude_like": "The natural prose formatting with zero bullet points and conversational flow that reads like a supportive friend texting",
+    "least_claude_like": "The emoji usage at the beginning, since Claude's ground truth response uses zero emojis and the character prefers not to use them unless specifically asked",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks 'Have you been able to talk to them' before offering advice, while this response jumps straight to suggesting how to talk",
+      "Ground truth uses zero emojis; this response uses one (😅) early in the response",
+      "Ground truth focuses on external stressors (work, news, anxiety about growing up); this adds the interpretation that parents might be trying to be 'better parents' by being stricter"
+    ]
+  }
+}

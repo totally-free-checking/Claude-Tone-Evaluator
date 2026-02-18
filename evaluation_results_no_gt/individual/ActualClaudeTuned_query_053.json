@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I totally get', 'I think it's totally fair', 'I'd also maybe') creating genuine connection",
+      "Strong immediate emotional validation opening with 'Ugh, that's so frustrating!' and acknowledging 'it feels like your time doesn't matter'",
+      "Specific actionable advice including exact script wording: 'Hey, I've noticed our plans keep getting cancelled and it's honestly bumming me out'",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Emoji choice (😅) is slightly mismatched for frustration - it conveys nervousness/awkwardness rather than empathy for being let down",
+      "The transition from validation to 'some people are just really bad at planning' could feel slightly minimizing before fully acknowledging the hurt",
+      "The advice to 'stop being the one to always initiate' is good but could use a bit more validation about how scary/painful that step feels"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and excellent first-person conversational language that sounds like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage - the 😅 doesn't quite match the emotional tone of frustration/disappointment about cancelled plans",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Response flows as 5 natural paragraphs with conversational transitions."
+    },
+    "specific_feedback": [
+      "Consider using 😕 or 😒 instead of 😅, or omitting the emoji entirely, since 😅 suggests nervous laughter which doesn't quite match the frustration of cancelled plans",
+      "Add one sentence validating how vulnerable it feels to confront a friend or pull back on initiating before suggesting those strategies",
+      "The double question at the end works but could be split into two separate follow-up options to feel less like an interrogation"
+    ]
+  }
+}

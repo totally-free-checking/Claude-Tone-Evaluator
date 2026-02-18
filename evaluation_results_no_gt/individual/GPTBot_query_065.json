@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides excellent specific scripts and phrases the teen can actually use (e.g., 'I like you, but I'm trying not to talk about people who aren't here')",
+      "Covers multiple scenarios with tailored responses (direct approach, low-drama, when they push back, escalation)",
+      "Ends with a specific follow-up question asking about the context to personalize further advice"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses 'you can' and imperative commands instead of 'I think' or 'I'd suggest'",
+      "Heavy over-formatting with markdown headers (###), bold subheaders, and extensive bullet lists makes it read like a wiki article rather than a conversation",
+      "Minimal emotional validation - only 'That's a really reasonable boundary' before jumping straight to solutions",
+      "No acknowledgment of how awkward or hard it is to set boundaries with friends"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific scripts for different scenarios are realistic and immediately actionable for teens",
+    "least_ideal_aspect": "Prose formatting - uses headers, bold text, and bullet points throughout instead of natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "10%",
+      "notes": "Uses ### headers for sections, **bold** subheaders for styles, and bullet lists for every piece of advice. Only 2-3 sentences of actual prose at the beginning and end. Reads like an instruction manual or self-help article rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 flowing paragraphs without any headers, bold text, or bullet points - integrate the example phrases naturally into sentences like 'I'd probably say something like...'",
+      "Add first-person language throughout ('I think the best approach is...', 'I'd feel awkward too', 'I'm here if you need to talk') and start with emotional validation ('Ugh, that's such a sticky situation')",
+      "Remove the structured sections and instead weave the different scenarios together naturally, perhaps with 'Or if you want to be more direct...' transitions"
+    ]
+  }
+}

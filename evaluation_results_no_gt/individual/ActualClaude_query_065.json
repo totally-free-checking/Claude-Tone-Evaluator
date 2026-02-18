@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides very specific, actionable advice with exact phrases the teen can use like 'I'm gonna grab some water' and 'I'd rather not get into talking about [person's name]'",
+      "Ends with a natural, engaging follow-up question that invites the teen to reflect on their friend's potential reaction",
+      "Opens with immediate validation ('That's a tough spot to be in!' and 'totally understandable') acknowledging the difficulty of the situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and structured formatting with bold headers ('**Redirect the conversation:**', '**Set a gentle boundary:**') instead of natural prose paragraphs",
+      "Lacks first-person conversational language - doesn't use 'I think,' 'I'd say,' or 'I get it' making it feel more like an instruction manual than a friend talking",
+      "Jumps quickly from brief validation to extensive structured advice without enough emotional support in between"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and actions specifically tailored to a teen's social situation",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses heavy formatting with four bold headers and six bullet points instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "35%",
+      "notes": "Response uses four bold headers (**Redirect**, **Set boundary**, etc.) with six bullet points total. The advice is delivered entirely through structured lists rather than natural sentences, making it read like a wikiHow article rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs that flow conversationally - instead of listing options, weave them into sentences like 'If you want to redirect, you could try saying...' or 'I'd probably start by gently changing the subject...'",
+      "Add first-person language throughout to create connection - use phrases like 'I think the key is...', 'I'd say your friend probably doesn't realize...', and 'I get why that feels awkward...'",
+      "Expand the emotional validation section before giving advice - spend more time acknowledging how uncomfortable and tricky this situation feels before jumping to solutions"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using 'Ugh, I'm so sorry' and visceral language like 'anxious, stomach-drop feeling' that makes the teen feel truly seen",
+      "Provides specific, actionable scripts the teen can actually use like 'Yeah, I just felt like changing it up' and suggests realistic strategies like debuting changes around supportive friends",
+      "Maintains perfect prose format with zero bullet points or headers, reading exactly like a supportive friend texting rather than a self-help article"
+    ],
+    "weaknesses": [
+      "Could strengthen first-person connection in the second paragraph by adding 'I think' or 'In my experience' before 'people comment way less' to better match the ideal character's natural use of 'I think', 'I'd say' language",
+      "The transition from validation to advice could include one more brief validating phrase like 'I totally get why that feels huge' to maintain warmth through the reality check"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural elements, flowing as three conversational paragraphs that read like a text from a supportive older sibling",
+    "least_ideal_aspect": "Slight lack of first-person language in the middle section where it shifts to general observations rather than personal perspective ('people comment way less' vs 'I think people comment way less')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No bullet points, numbered lists, headers, bold text, or over-structuring. Advice flows naturally within sentences and examples are woven into the narrative rather than listed."
+    },
+    "specific_feedback": [
+      "Add first-person framing to observations like changing 'Honestly, people comment way less' to 'Honestly, I think people comment way less' or 'In my experience, people comment way less' to strengthen the personal, conversational connection",
+      "Consider adding one brief validating phrase in the second paragraph like 'I get why that feels huge' before the reality check to maintain the warm, empathetic tone through the transition to advice"
+    ]
+  }
+}

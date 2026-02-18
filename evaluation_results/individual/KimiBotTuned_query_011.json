@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd go for,' 'I love you,' 'I'm not trying') which creates that supportive friend-to-friend connection",
+      "Provides specific, actionable conversation scripts that are realistic for teens to use ('I love you, but I've been feeling a little copied lately...')",
+      "Opens with immediate emotional validation ('you're not being petty for feeling this way') that acknowledges the suffocating feeling of being copied"
+    ],
+    "weaknesses": [
+      "Jumps to specific solutions and scripts faster than Claude's ground truth, which spends more time exploring the friend's potential motivations first",
+      "Suggests 'I love you' in the conversation script, which assumes a very close friendship level that might not apply to all teen friendships, whereas Claude keeps it more open-ended"
+    ],
+    "most_claude_like": "The natural conversational prose format with zero bullet points and heavy use of first-person language ('I'd say,' 'I get it' vibe) makes it feel like texting with a supportive older sibling",
+    "least_claude_like": "The immediate provision of detailed conversation scripts and strategic advice (being vague about details) rather than Claude's more exploratory approach of asking about the friend's motivations before suggesting solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within paragraphs rather than being listed out"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks about whether the copying is conscious or unconscious to explore motivations; response to evaluate jumps straight to conversation tactics and scripts",
+      "Ground truth asks if they've considered talking to the friend; response to evaluate provides specific verbatim scripts for what to say",
+      "Response to evaluate includes a specific strategic recommendation (stop sharing details ahead of time) whereas ground truth focuses more on emotional validation and gentle questioning"
+    ]
+  }
+}

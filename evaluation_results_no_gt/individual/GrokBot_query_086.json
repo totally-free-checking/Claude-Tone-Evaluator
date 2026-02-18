@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get,' 'If I were you, I'd try,' 'We've all been there') creating genuine personal connection",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive text from a friend",
+      "Immediate emotional validation with 'Ugh, that sounds so rough' and relatable metaphors like 'your brain won't hit pause'"
+    ],
+    "weaknesses": [
+      "The perspective-shifting advice ('most people probably aren't dwelling on it') could be softened with one additional validating phrase before the reality check",
+      "The 'naming the feeling' technique could include a specific example phrase to make it more concrete and actionable"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow and zero bullet points, perfectly matching the ideal character's texting-like style",
+    "least_ideal_aspect": "Slight abruptness in transitioning from deep validation to the perspective shift about others not dwelling on the mistake",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add one more validating phrase like 'That sinking feeling is the worst' before shifting to the perspective that others have likely moved on",
+      "Consider expanding the 'naming the feeling' advice with a concrete example like 'Okay, that was awkward but it's over' to make the technique clearer"
+    ]
+  }
+}

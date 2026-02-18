@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "The follow-up questions at the end are specific and engaging, asking about how the friend reacted and the nature of the relationship to tailor future advice",
+      "Provides concrete, realistic phrases the teen can actually use in conversation (e.g., 'I get why that stung. I care about you.')",
+      "Acknowledges red flags and boundary-setting, which is important for healthy friendship dynamics"
+    ],
+    "weaknesses": [
+      "Heavy over-structuring with headers (### 1, ### 2, etc.) and bullet points makes it read like a wikiHow article rather than a supportive conversation",
+      "Opens with analysis ('it usually comes down to one of a few things') rather than immediate emotional validation ('That sounds so stressful' or 'Ugh, that's rough')",
+      "Lacks first-person conversational language throughout the advice sections - uses impersonal instructional tone ('You can ask something like' instead of 'I'd probably ask them')",
+      "No emoji usage to soften the clinical, structured format, though the serious topic could warrant one warm emoji"
+    ],
+    "most_ideal_aspect": "The follow-up question engagement is strong and natural, specifically asking about the friend's reaction style and relationship context to continue the conversation",
+    "least_ideal_aspect": "The formatting is extremely over-structured with numbered headers and bullet lists, completely breaking the conversational prose format essential for a teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "25%",
+      "notes": "Response uses four major section headers (### 1 through ### 4) with extensive bullet points under each. Only the opening and closing paragraphs are prose. This reads as an instructional guide rather than a supportive text message."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without headers or bullet points - flow the advice as a conversation ('I think I'd start by figuring out what they're actually upset about... Maybe they felt left out or insecure')",
+      "Begin with immediate emotional validation before any analysis - something like 'Ugh, that's such a stressful situation. It hurts when someone gets mad at us for just living our life'",
+      "Replace instructional 'you can' language with personal first-person perspective throughout ('I'd say something like...' or 'I think the key is...') to sound like a supportive friend rather than a manual"
+    ]
+  }
+}

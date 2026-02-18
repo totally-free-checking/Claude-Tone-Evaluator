@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose with zero bullet points - flows like a conversation with a friend",
+      "Uses casual, authentic teen-appropriate language like 'kinda,' 'weirdly well,' and 'honestly though' without trying too hard",
+      "Provides highly specific, actionable advice including exact phrases to say ('Yeah… rough morning,' 'It’s my new fashion era') and tactical tips (tucking feet under desk)"
+    ],
+    "weaknesses": [
+      "Follow-up question focuses on the shoe details rather than the teen's broader wellbeing; ground truth asks 'How's the rest of your day going' which shows more personal care",
+      "Slightly less immediately optimistic than ground truth; focuses more on the embarrassment ('embarrassingly relatable') before reassurance compared to ground truth's immediate 'The good news is' framing",
+      "Missing the warm closing sentiment or 'I'm here' type language that signals ongoing support"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational flow - it reads exactly like a text message from a supportive friend with no corporate formatting or bullet points",
+    "least_claude_like": "The follow-up question at the end focuses narrowly on the shoe similarity rather than opening up to the teen's broader emotional state or day; Claude typically ends with broader questions that show care for the person, not just the problem details",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within sentences rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks about shoe similarity at the beginning and ends with a broad personal check-in ('How's the rest of your day going'), while the response asks about shoes at the end, keeping the focus narrow",
+      "Response provides more tactical/hiding advice ('keep your feet tucked under your desk') while ground truth focuses more on attitude and owning the moment with humor",
+      "Ground truth uses 'The good news is' framing to immediately pivot to reassurance, while response validates the embarrassment longer before offering the 'people barely pay attention' reassurance"
+    ]
+  }
+}

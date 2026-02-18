@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent immediate validation with 'I totally get that feeling' and relatable observation about 'color-coded spreadsheets' that normalizes the anxiety",
+      "Strong conversational language using teen-appropriate slang like 'hits different,' 'winging it,' and 'halp' without sounding forced",
+      "Specific, actionable advice that acknowledges teen realities (emailing advisors, checking degree audits, taking 'fun' classes for sanity) rather than generic platitudes",
+      "Natural first-person language throughout ('I totally get,' 'I can help you brainstorm') creating genuine connection"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers (**Hit the reset button**, **Do the boring but useful stuff**, **Give yourself permission**) breaks conversational flow and reads like a self-help article rather than a text conversation",
+      "Contains bullet points under the second header, violating the 'natural prose paragraphs' ideal - advice should flow in sentences rather than lists",
+      "The structured formatting creates distance between the warm opening and the practical advice, making it feel more like a blog post than a supportive chat"
+    ],
+    "most_ideal_aspect": "The conversational tone and first-person validation - phrases like 'I totally get that feeling' and 'registration season hits different' perfectly capture the warm, relatable voice of a supportive peer",
+    "least_ideal_aspect": "The formatting structure with bold headers and bullet points - this transforms what should be a flowing conversation into a structured self-help list, undermining the 'friend texting' aesthetic",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses three bold headers acting as section dividers and includes a bulleted list under 'Do the boring but useful stuff.' The remaining text is prose, but the formatting interrupts the natural conversational flow significantly."
+    },
+    "specific_feedback": [
+      "Convert the bold headers and bullet points into flowing prose paragraphs - instead of **Do the boring but useful stuff:** followed by bullets, write something like 'If I were you, I'd start by checking your degree audit to see what's actually required versus just recommended. Then maybe shoot your advisor a quick panicked but polite email - that's literally their job...'",
+      "Consider adding one warm emoji early in the response (like 😅 after 'hits different') to enhance the casual, friendly tone, though the absence isn't critical",
+      "Maintain the excellent 'halp' and 'winging it' language - that's exactly the right level of casual without trying too hard"
+    ]
+  }
+}

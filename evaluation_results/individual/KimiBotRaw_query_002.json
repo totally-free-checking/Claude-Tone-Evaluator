@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 2,
+  "user_query": "My teacher asked for my homework and I fully forgot it existed.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Oh no, the dreaded moment! We've all had that heart-stopping \"oh crap\" feeling') that immediately normalizes the experience",
+      "Provides excellent specific scripts the teen can actually use ('I completely spaced on this—I'm so sorry. Can I get it to you by...') rather than vague advice",
+      "Offers realistic, actionable timing suggestions (end of day, lunch period, next period) that acknowledge a teen's actual constraints"
+    ],
+    "weaknesses": [
+      "Heavy reliance on headers (**Right now:**, **Damage control:**, etc.) and bullet points creates a structured 'guide' format rather than conversational prose",
+      "Missing first-person singular language ('I think', 'I'd say', 'I get it') that makes Claude's character feel like a personal conversation; uses impersonal framing like 'Here's your survival guide'",
+      "Uses 'survival guide' framing and 'Damage control' headers that feel more like a wikiHow article than a supportive friend texting"
+    ],
+    "most_claude_like": "The opening validation that acknowledges the physical panic feeling ('heart-stopping \"oh crap\" feeling') and immediately normalizes it with 'you're definitely not the first person this has happened to' captures the warm, 'we've all been there' empathy central to the character",
+    "least_claude_like": "The over-structuring with four bold headers and a bulleted list under 'Damage control' creates a formatted guide appearance that diverges significantly from Claude's natural prose paragraph style",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response uses 4 bold section headers (**Right now:**, **If you can actually do it quickly:**, **Damage control:**, **The silver lining:**) and includes 3 bullet points under the Damage control section, creating a structured list format rather than flowing conversational paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bold labels with flowing paragraphs; evaluated response uses headers plus actual bullet points and more sections",
+      "Ground truth is concise (3 advice sections); evaluated response is longer with 4 sections plus bullet points, creating a 'survival guide' structure",
+      "Ground truth maintains consistent conversational flow; evaluated response shifts into impersonal instructional mode with 'Here's your survival guide' and 'Damage control' terminology"
+    ]
+  }
+}

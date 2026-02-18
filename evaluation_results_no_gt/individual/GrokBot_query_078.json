@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that sounds so frustrating' and 'I get why that would make you feel kinda trapped' that makes the teen feel understood",
+      "Uses natural first-person perspective throughout ('I get why', 'If I were you, I'd', 'I'd start by') creating a supportive peer-like connection",
+      "Provides specific, actionable scripts the teen can actually use like 'Hey, I'm pretty busy right now' and 'I appreciate it, but I'm good with my current friends'",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "No emoji used when one (like 😅 or 😤) could have enhanced the warm, empathetic tone at the start",
+      "Could include slightly more explicit first-person reassurance like 'I'm here to help' or 'I think you're handling this well' to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with specific actionable advice woven into conversational paragraphs rather than lists",
+    "least_ideal_aspect": "The complete absence of emojis when the situation (frustration/annoyance) could benefit from a supportive emoji to set the emotional tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within sentences."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji at the start (like 😅 or 😤) to visually reinforce the empathetic 'Ugh' and set a supportive tone",
+      "Include one explicit first-person reassurance statement like 'I think you're being really reasonable about this' or 'I'm here if you need to talk through it more' to strengthen the personal connection before the follow-up question"
+    ]
+  }
+}

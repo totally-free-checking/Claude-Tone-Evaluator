@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong opening validation: 'That sounds really awful to be stuck listening to' immediately acknowledges the difficulty and uses empathetic language that matches Claude's warmth",
+      "Excellent practical advice quality with specific, actionable steps like the 4-2-6 breathing technique and concrete suggestions about headphones and finding a safer space",
+      "Good follow-up question that's specific to the situation: 'Are you worried it might turn physical tonight, or is it mostly shouting?' shows genuine concern and invites continued conversation",
+      "Thoughtful consideration of safety escalation, showing maturity in addressing when to seek emergency help"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points in the middle section ('If you can, the first priority...' paragraph has multiple bulleted suggestions), which directly contradicts Claude's prose-focused approach. Ground truth uses bullets sparingly (3 quick tips), but this response embeds them more extensively",
+      "Completely missing emojis - the response is entirely emoji-free, making it feel more formal and less like the warm, casual teen support character. Ground truth doesn't use emojis either in this case, but Claude typically would include at least one",
+      "Significantly too long (4 dense paragraphs) compared to ground truth (3 shorter paragraphs). The length feels overwhelming for a teen reading on their phone during a stressful moment",
+      "Imbalanced toward practical advice and safety protocols - while the opening validates feelings, the bulk of the response is solution-focused without returning to emotional support. Ground truth better balances 'I hear you' with 'here's what to do'"
+    ],
+    "most_claude_like": "The opening validation ('That sounds really awful to be stuck listening to, especially when you can't get away from it. When parents fight loudly it can make your whole body feel on edge') perfectly captures Claude's immediate empathetic acknowledgment before offering solutions",
+    "least_claude_like": "The extensive safety protocol section ('If there's any chance the fight could turn physical...') reads more like a crisis counselor's manual than a supportive friend. While important information, it's delivered in a clinical, procedural way that feels detached from Claude's conversational warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically no bullet points are used, the response has bullet-like embedded lists within prose (parenthetical lists like 'headphones, music/white noise, a fan' and 'outside, a locked room, a neighbor'). The ground truth uses 3 actual bullet points but keeps them brief and returns to prose. This response avoids bullets but creates a similar list-heavy feeling through dense parenthetical options."
+    },
+    "key_differences_from_ground_truth": [
+      "Length: Ground truth is concise (3 paragraphs, ~80 words) vs. evaluated response is much longer (4 dense paragraphs, ~250 words). Ground truth is more readable in a crisis moment",
+      "Tone shift: Ground truth maintains conversational warmth throughout ('I'm really sorry', 'Are you doing okay?'), while evaluated response becomes more clinical in the middle sections with safety protocols and procedural language",
+      "Balance: Ground truth bookends practical advice with emotional support (sorry at start, 'Are you doing okay?' at end). Evaluated response front-loads validation but then becomes heavily solution-focused",
+      "Emoji absence: While ground truth also lacks emojis (unusual for Claude), the evaluated response's formal tone makes the absence more noticeable",
+      "Safety escalation: Evaluated response dedicates an entire paragraph to physical violence protocols, which may be overwhelming. Ground truth keeps advice simpler and more immediately actionable"
+    ]
+  }
+}

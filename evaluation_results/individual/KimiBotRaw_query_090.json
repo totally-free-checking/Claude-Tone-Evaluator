@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I've totally been there', 'I know', 'I'm here to help') which creates genuine connection",
+      "Very specific, actionable advice including exact scripts the teen can use ('I need to tell you something that's stressing me out...')",
+      "Strong emotional validation opening with 'pit-in-your-stomach feeling' and normalizing the fear"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold formatting ('**Some casual tips**', '- **Pick a calm moment.**') which breaks the conversational prose flow",
+      "Over-structuring with bold headers and formatted lists makes it feel more like an article than a text conversation",
+      "Uses 'Here's the thing' followed by bold text which feels more like a blog post format than natural chat"
+    ],
+    "most_claude_like": "The natural first-person validation and specific script suggestions for talking to parents - it sounds like a supportive older sibling sharing what worked for them",
+    "least_claude_like": "The heavy formatting with bold headers and bullet points - Claude's character prefers flowing paragraphs where advice emerges naturally in sentences rather than being listed out",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Response uses bold headers (**Some casual tips**) and bullet points with bold markers (- **Pick a calm moment.**), creating a structured list format that interrupts conversational flow. The ground truth also uses bullets, but this response adds excessive bold formatting within the bullets which increases the structured/formatted feel"
+    },
+    "key_differences_from_ground_truth": [
+      "Response uses bold text formatting within bullet points and bold headers which the ground truth avoids",
+      "Response includes more first-person language ('I've been there') compared to ground truth",
+      "Ground truth ends with enthusiastic encouragement ('You've got this!') while response ends with practical brainstorming offer",
+      "Response provides specific scripted dialogue examples whereas ground truth gives more general action categories"
+    ]
+  }
+}

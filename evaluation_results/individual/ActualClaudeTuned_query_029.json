@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person empathetic language that creates connection ('I totally get why you're feeling embarrassed', 'I think the best thing you can do')",
+      "Pure prose format with natural conversational flow - no bullet points or over-formatting, reading like a supportive text from a friend",
+      "Strong immediate validation that normalizes the embarrassment ('it's like everyone's eyes are on you and you just want to disappear')"
+    ],
+    "weaknesses": [
+      "Uses an emoji (💙) despite instructions to prefer 0 unless explicitly asked by the user",
+      "Practical advice focuses heavily on internal resilience but misses opportunities to suggest concrete interpersonal steps like talking to the coach privately or seeking teammate support (which the ground truth included)",
+      "Could more explicitly address whether this yelling is part of a pattern, which is important for determining if the situation requires escalation"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points and the use of first-person validation language ('I totally get', 'I think') that makes the response feel like a real conversation rather than generic advice",
+    "least_claude_like": "The inclusion of an emoji (💙) when the user didn't request emoji usage, whereas Claude's character prefers zero emojis unless specifically asked",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format throughout, avoiding the bullet-pointed questions seen in the ground truth. This aligns perfectly with the character instructions to write in natural prose paragraphs and avoid bullet-heavy formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for reflective questions while evaluated response uses prose throughout",
+      "Evaluated response uses first-person language ('I think', 'I totally get') more naturally than the ground truth which uses more detached phrasing",
+      "Ground truth explicitly suggests concrete actions (private conversation with coach, talking to teammates) while evaluated response focuses on mindset/confidence building",
+      "Evaluated response includes one emoji (💙) while ground truth uses none",
+      "Ground truth asks two specific follow-up questions; evaluated response asks one compound question"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 5.0,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable phrases the teen can use with parents (e.g., 'I feel treated like I'm not trusted when rules change without explanation')",
+      "Ends with a specific, engaging follow-up question that asks for details about what they're being strict about and the teen's age to personalize further help"
+    ],
+    "weaknesses": [
+      "Extremely heavy reliance on bullet points and numbered lists (5 main sections with multiple sub-bullets) rather than conversational prose",
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' or 'I get it' - making it sound like an impersonal guide rather than a supportive friend",
+      "Validation is brief and perfunctory ('That's frustrating') before immediately jumping to structured solutions without sufficient emotional acknowledgment"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies and specific scripts for talking to parents",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is formatted like a wikiHow article or self-help guide with extensive numbering, bold text, and bullet points rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response contains 5 numbered main sections with extensive sub-bullets throughout. Only 1-2 sentences at the beginning and end are in prose format. Reads as highly structured advice rather than a conversation."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into 2-3 natural paragraphs that flow conversationally - instead of '1) Try to figure out... 2) Have the talk...' write something like 'I'd start by trying to figure out what's really going on. Sometimes parents get stricter because they're stressed about work or worried about losing influence as you grow up. Once you have a sense of that, I'd suggest picking a calm moment to talk...'",
+      "Add first-person language throughout to create connection - use phrases like 'I think the best approach is...' or 'I'd say start by...' or 'I get how annoying that feels' to sound like a real person rather than a manual",
+      "Begin with more emotional validation before offering solutions - spend a paragraph acknowledging how unfair and frustrating it feels when parents suddenly tighten rules without explanation, using warmer language like 'Ugh, that's such a frustrating feeling' or 'I'm sorry you're dealing with that'"
+    ]
+  }
+}

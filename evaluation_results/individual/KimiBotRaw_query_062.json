@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with warm, empathetic language ('Ugh, that's such a tough spot to be in') that immediately validates the difficulty of the situation",
+      "Provides excellent specific, actionable advice with exact phrases the teen can use ('Nah, I'm good', 'I'm not doing it') and concrete strategies (broken record, exit strategy)",
+      "Strong validation of boundaries ('your \"no\" is complete and valid all by itself') that empowers the teen without requiring justification"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers ('**The simple shutdown:**', '**The broken record:**') makes it read like a self-help article rather than a natural conversation",
+      "Lacks first-person conversational language ('I think', 'I'd say', 'I get it') - instead uses directive second-person imperative tone throughout",
+      "Over-formatted with bold text and structured lists rather than flowing prose paragraphs that blend advice naturally"
+    ],
+    "most_claude_like": "The opening validation and casual tone ('Ugh, that's such a tough spot') captures the warm, empathetic teen-support character well, and the safety check at the end about reaching out to trusted people shows appropriate concern",
+    "least_claude_like": "The heavily structured bullet-point format with bold category headers transforms what should be a conversational text into a formatted guide or wikiHow article, diverging significantly from Claude's natural prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses extensive formatting with bold headers for each tactic ('The simple shutdown', 'The broken record', etc.) and explanatory text within bullet structure, making it approximately 60% formatted lists versus 40% natural prose paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses primarily prose with minimal simple bullets; evaluated response uses heavy bullet formatting with bold headers and structured categories",
+      "Ground truth maintains conversational questioning throughout; evaluated response shifts to directive advice-giving mode with imperative statements",
+      "Ground truth balances emotional support with gentle advice; evaluated response leans heavily into tactical solutions with specific scripts, feeling more like a strategy guide than emotional support"
+    ]
+  }
+}

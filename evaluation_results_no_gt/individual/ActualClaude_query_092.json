@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation that immediately acknowledges the difficulty of watching a friend change ('That's such a tough situation to watch')",
+      "Excellent follow-up questions that are specific to the situation ('How long has this been going on?' and distinguishing between minor changes vs concerning behavior)",
+      "Practical advice is realistic and teen-appropriate, including specific guidance like 'invite them to hang out one-on-one' and warning against being preachy"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (**Give it some time first**, **Stay connected without being preachy**) which reads like a self-help article rather than a conversation",
+      "Lacks first-person language throughout - no 'I think', 'I'd say', or 'I get it' to create personal connection; uses impersonal imperatives instead",
+      "Tone shifts from warm validation to instructional list format ('A few thoughts that might help:') which feels more like a guide than a supportive friend texting"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with natural, specific questions that show genuine interest in the details of their situation",
+    "least_ideal_aspect": "Prose vs bullet points - uses four structured bullet points with bold headers instead of flowing conversational paragraphs, making it feel formatted and impersonal",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "20%",
+      "notes": "Response uses a bulleted list with bold headers for each piece of advice (**Give it some time first**, **Stay connected without being preachy**, etc.), which is highly structured and reads like an article rather than natural texting conversation. The advice should flow within paragraphs using first-person language."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs using first-person language like 'I think you could...' or 'I'd probably give it some time first because...' to make it feel like a conversation rather than a guide",
+      "Add first-person perspective throughout ('I get how hard that is to watch', 'I think your instinct to stay connected is right') to create the supportive friend/sibling dynamic",
+      "Consider adding one warm emoji (like 😔 or 💙) early in the response to match the emotional tone, since the current text-only approach feels slightly clinical despite the warm words"
+    ]
+  }
+}

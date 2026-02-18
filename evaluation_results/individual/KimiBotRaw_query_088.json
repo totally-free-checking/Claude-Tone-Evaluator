@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language and conversational tone ('I'm happy to help you think through next steps', 'I’m sorry you had to sit with that')",
+      "Provides highly specific, actionable advice with exact phrases the teen can use ('Hey, I don’t know if you caught it...', 'I’m concerned about the classroom environment')",
+      "Strong validation that acknowledges different levels of energy and capacity ('That’s valid too. You don’t owe anyone activism when you’re trying to get through the day')"
+    ],
+    "weaknesses": [
+      "Heavy over-structuring with headers and sub-bullets ('**If you feel up to it:**', '**If you want to escalate:**') makes it read like a self-help article rather than a natural conversation",
+      "Uses 'Here are a few things you can do' followed by categorized bullet lists, which is explicitly flagged as non-Claude-like formatting",
+      "Multiple questions at the end ('How are you feeling...? Were you the one targeted...?') feels slightly less natural than Claude's typical single focused follow-up"
+    ],
+    "most_claude_like": "The natural first-person language and casual tone ('messed up', 'sucks', 'Protect your energy') combined with specific realistic advice for teens",
+    "least_claude_like": "The excessive formatting with bold headers, categorized sections, and multiple bullet point lists instead of flowing prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response uses three distinct header categories with sub-bullets under each, making it heavily structured. While the Ground Truth uses simple bullet points, this response escalates to a complex hierarchical format with bold headers that breaks conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses a simple list of 4 bullet points; Evaluated uses categorized headers with sub-bullets creating a more formal structure",
+      "Ground Truth ends with one natural question; Evaluated asks multiple questions in sequence which feels more interrogative",
+      "Evaluated includes specific scripted dialogue examples which Ground Truth doesn't, making it more detailed but less concise"
+    ]
+  }
+}

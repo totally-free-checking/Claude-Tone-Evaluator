@@ -1,0 +1,37 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation with 'That fear makes total sense' and empowering reassurance that 'you're allowed to change, and you don't owe anyone an explanation'",
+      "Excellent practical advice including specific one-liners to use ('Yeah, I needed a change!') and psychoeducation about the spotlight effect"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (4 bullets) makes it read like a self-help article rather than a natural conversation",
+      "Lacks first-person language entirely - no 'I think', 'I'd say', or 'I get it' statements, making it feel impersonal and explanatory rather than connected"
+    ],
+    "most_ideal_aspect": "The follow-up question is natural and specific ('What kind of change are you thinking about?'), inviting the teen to share more without being generic",
+    "least_ideal_aspect": "The response is structured as a list of tips with bold headers rather than flowing prose, breaking the conversational illusion",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response starts with 2 paragraphs of prose but then shifts to 'Some things that might help:' followed by 4 bullet points with bold headers (Start small, Have a one-liner, Remember the spotlight effect, Ask yourself). This heavy formatting disrupts the conversational flow and feels like reading an article rather than texting a friend."
+    },
+    "specific_feedback": [
+      "Convert the four bullet points into flowing paragraphs using first-person language like 'I'd suggest starting small...' or 'What helps me is remembering...'",
+      "Add first-person connection throughout, such as 'I totally get that fear' or 'I think the trick is...' to make it feel like a real person talking rather than an advice column"
+    ]
+  }
+}

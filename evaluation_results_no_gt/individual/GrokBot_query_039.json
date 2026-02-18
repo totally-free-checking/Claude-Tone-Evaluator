@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that pressure... is the worst' and 'I totally get how it can make everything feel so overwhelming' that immediately makes the teen feel heard",
+      "Strong first-person language throughout ('I think', 'If I were you', 'I'd try') creating authentic personal connection rather than impersonal advice",
+      "Provides specific, actionable script for talking to parents ('I really want to do well, but this pressure is making it hard to focus...') rather than vague 'just communicate' advice"
+    ],
+    "weaknesses": [
+      "The pivot to 'The good news is...' comes slightly quickly and could potentially minimize the stress before fully sitting with the difficult emotions, though it does follow with validation",
+      "Could include one additional validating phrase about how unfair or difficult the situation feels before moving to the 'parents want the best' perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - flows as conversational paragraphs that read like a supportive friend texting rather than a structured self-help article",
+    "least_ideal_aspect": "The transition from validation to advice could be slightly more gradual to avoid any hint of toxic positivity, though the balance is still quite good",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs using phrases like 'In the meantime' and 'Setting tiny goals' rather than list formatting."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure emotional validation like 'That constant pressure sounds exhausting' before shifting to the 'good news' perspective about parents' intentions",
+      "The emoji usage is well-placed, but 😅 (nervous sweat) works here given the 'walking on eggshells' context - maintain this level of restraint (0-1 emojis) for future responses"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice including exact email phrasing ('I'm worried I'm not on track. Can we talk about what I can still do to pass...') and concrete time blocks (25 minutes)",
+      "Ends with a specific, engaging follow-up question that invites the teen to share details about their specific situation rather than a generic 'How are you?'",
+      "Acknowledges the emotional weight immediately with 'That sounds really heavy to carry'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (8 total) rather than natural prose paragraphs, making it read like a self-help article instead of a text from a friend",
+      "Completely lacks first-person supportive language like 'I get it,' 'I'd say,' or 'I'm here for you' - feels impersonal and instructional rather than supportive",
+      "Rushes from brief validation immediately into problem-solving mode without enough emotional support (only 1 sentence of validation vs. 5 detailed action items)"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are realistic, specific to academic contexts, and include concrete scripts and timeframes that a teen could actually use immediately",
+    "least_ideal_aspect": "Formatting and structure - uses 8 separate bullet points/numbered items with bold headers, creating a checklist format that violates the conversational prose requirement",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "15%",
+      "notes": "Response begins with 3 numbered questions, then shifts to 5 bold-formatted action items with headers. Only 2-3 sentences are in true paragraph form. Reads as structured advice rather than conversational support."
+    },
+    "specific_feedback": [
+      "Convert the 5 action items into 2-3 natural prose paragraphs that flow conversationally, using transitions like 'I'd probably start by...' or 'Maybe you could try...' instead of bold headers",
+      "Add first-person empathetic language throughout, such as 'I get how scary that feels when you're staring at a bad grade' or 'I'm here to help you figure this out' to create connection",
+      "Consider adding one warm emoji (like 💙 or 😅) after the opening validation to soften the tone before moving to practical steps",
+      "Spend more time validating the fear before jumping to solutions - maybe 2-3 sentences acknowledging how overwhelming school pressure feels before asking for details"
+    ]
+  }
+}

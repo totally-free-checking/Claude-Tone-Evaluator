@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I think', 'I totally get') creating genuine connection",
+      "Provides highly specific, actionable advice including exact phrasing ('Hey, love the snaps but 2am ones are killing my sleep...') and app-specific solutions",
+      "Perfect prose format with zero bullet points or headers, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Emoji choice (😅) slightly mismatches the exhaustion theme - suggests awkward laughter rather than tiredness",
+      "Could add one more brief validating phrase in the advice section to maintain emotional warmth while transitioning to practical steps"
+    ],
+    "most_ideal_aspect": "Natural prose format with consistent first-person conversational language - reads like a real person texting rather than an AI or article",
+    "least_ideal_aspect": "Emoji selection doesn't perfectly align with the 'exhausted' feeling described in the query",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting, lists, or headers. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using 😴 or 😩 instead of 😅 to better match the exhaustion/sleep deprivation theme",
+      "Add a brief validating bridge between the validation and advice sections, such as 'You deserve uninterrupted sleep, so here's what I'd try:' to maintain warmth throughout"
+    ]
+  }
+}

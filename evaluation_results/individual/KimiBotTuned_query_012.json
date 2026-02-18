@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points and natural paragraph flow that reads like a text conversation",
+      "Specific, actionable advice including exact phrases the teen could use ('hey, how's your day going?') which is very characteristic of helpful teen support",
+      "Strong follow-up question that shows genuine curiosity about the specific situation ('close friend vibe, or someone you'd actually see as competition')"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') that Claude uses to create a personal, supportive connection - instead uses more impersonal imperative advice ('try to stick', 'the simplest move is')",
+      "Validation is slightly less immediate and effusive than Claude's approach; Claude leads with 'Aw, that stings!' and explicit reassurance 'You're not dumb at all' while this response buries the reassurance deeper in the text"
+    ],
+    "most_claude_like": "The natural prose format with zero bullet points and conversational flow that avoids over-structuring",
+    "least_claude_like": "The absence of first-person perspective ('I think', 'I'd suggest') making the advice feel slightly more instructional/impersonal rather than like a friend sharing their thoughts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Uses em-dashes and natural sentence flow consistent with texting style."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude explicitly states 'You're not dumb at all' early and emphatically, while the evaluated response waits until the end to address the 'dumb' feeling",
+      "Claude uses more first-person interjections ('honestly?', 'right?') to create personal connection, while the evaluated response uses second-person imperative instructions",
+      "The evaluated response provides more immediate practical advice (calming the spiral, conversation starters) whereas Claude focuses more heavily on emotional validation before moving to advice"
+    ]
+  }
+}

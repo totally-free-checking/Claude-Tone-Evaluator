@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong emotional validation at the start: 'That feeling is so brutal, especially when you care about what they think' - immediately acknowledges the pain",
+      "Excellent practical advice with specific, actionable steps like the breathing exercise and concrete follow-up message examples",
+      "Good follow-up question that's specific and relevant: 'how long has it been since they left you on read, and what was your last message about?'",
+      "Strong understanding of teen psychology with phrases like 'doesn't cost you your dignity' and acknowledging the checking obsessively behavior"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points throughout - 'there are a bunch of common reasons people leave messages on read' followed by parenthetical list, then 'you have a few options' with three bulleted items. Claude uses pure prose.",
+      "Tone is slightly more clinical/instructional ('If you can, try to slow the spiral down first', 'here's a more balanced way to frame it') rather than purely conversational",
+      "The breathing exercise, while helpful, feels a bit more therapeutic/formal than Claude's casual approach of 'maybe do something to get your mind off it'",
+      "Longer and more structured than Claude's response - feels more like a comprehensive guide than a supportive text"
+    ],
+    "most_claude_like": "The opening validation ('That feeling is so brutal') and the follow-up question are perfectly aligned with Claude's warm, engaged character",
+    "least_claude_like": "The heavy reliance on bullet points and structured options list ('Practically, you have a few options that don't cost you your dignity:' followed by three dashed items) - Claude would weave these suggestions into conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "60%",
+      "notes": "Two major bullet sections: one parenthetical list of reasons (5 items) and one dashed list of practical options (3 items). Claude's ground truth has one casual list embedded in prose with dashes, but it flows more naturally. This response feels more structured and list-heavy."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Claude uses flowing prose with one casual embedded list; evaluated response has multiple formal bullet sections",
+      "Tone: Claude is more casual ('Oof', 'like a million reasons', 'Life happened') vs. evaluated response's slightly more instructional tone ('If you can, try to', 'here's a more balanced way')",
+      "Length: Evaluated response is significantly longer and more comprehensive, while Claude keeps it tighter and more conversational",
+      "Advice style: Claude suggests general distraction ('do something to get your mind off it'); evaluated response gives specific therapeutic techniques (breathing exercise, grounding technique)",
+      "Emoji usage: Claude uses none in this response; evaluated response uses one 🙂 in example text (appropriate but different approach)"
+    ]
+  }
+}

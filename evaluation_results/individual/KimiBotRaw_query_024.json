@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with phrases like 'gut-punch feeling' and 'your feelings about it are 100% real' that acknowledge the hurt without dismissal",
+      "Natural conversational prose throughout with no bullet points or over-formatting, reading like a supportive text from a friend",
+      "Specific, actionable advice including the exact script 'hey, I saw you guys got together—wish I'd known, would have loved to join!' which is realistic for a teen to use"
+    ],
+    "weaknesses": [
+      "Ends with a closing statement ('Sometimes people are just clueless') rather than an engaging follow-up question to continue the conversation, which is a core element of Claude's approach",
+      "Places questions in the middle of the response rather than at the end, disrupting the flow of validation → advice → engagement structure",
+      "Uses a 💔 emoji without being asked, while Claude's character profile specifically prefers 0 emojis unless explicitly requested"
+    ],
+    "most_claude_like": "The natural prose format with zero bullet points and the immediate, warm validation that acknowledges the emotional weight before offering any advice",
+    "least_claude_like": "The ending structure - Claude nearly always concludes with a question to keep the conversation going, while this response ends with a definitive supportive statement that doesn't invite further sharing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or lists. Uses natural paragraph breaks that flow like a conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses 1 emoji (💔) while ground truth uses 0, diverging from the preference to avoid emojis unless asked",
+      "Places questions in the middle of the response (paragraph 3) rather than at the end, failing to use the question as a conversation continuation tool",
+      "Ends with validation/closure rather than an open question, changing the conversational dynamic from 'let's talk more' to 'here's comfort'",
+      "Slightly more verbose with 5 paragraphs compared to ground truth's 4, though still within readable length"
+    ]
+  }
+}

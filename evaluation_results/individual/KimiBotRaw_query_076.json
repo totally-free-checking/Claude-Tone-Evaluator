@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate validation ('I totally get that feeling') and uses relatable humor ('Netflix counts as a personality trait') that captures the casual, empathetic tone",
+      "Ends with an excellent, natural follow-up question that invites continued conversation ('What kinds of stuff have you been low-key curious about lately')",
+      "Provides concrete, actionable advice with the 'three-month trial' approach and specific examples (rock climbing, watercolor, coding) that feel realistic for a teen"
+    ],
+    "weaknesses": [
+      "Uses excessive bold formatting and A/B/C structure ('**A)** faking it...') which violates Claude's pure prose approach - this reads more like a formatted article than a text conversation",
+      "Cites specific academic sources ('Emilie Wapnick calls a multipotentialite') which feels too educational and reference-heavy compared to Claude's emotional, first-person validation style",
+      "Shifts to social media analysis ('posting the highlight reel', 'Instagram bio') which is more observational/cultural commentary than the intimate emotional validation Claude provides"
+    ],
+    "most_claude_like": "The casual, conversational language throughout ('just vibing', 'loud about them', 'low-key curious') captures the supportive older sibling voice well, and the closing question is perfectly structured to continue the conversation",
+    "least_claude_like": "The use of bold text for structural emphasis ('**consistency over time**', '**three-month trial**') and the A/B/C formatting creates a list-like appearance that Claude specifically avoids in favor of natural flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "75%",
+      "notes": "While written in paragraphs, the response relies heavily on bold text for emphasis and uses A), B), C) labeling which functions similarly to bullet points. Claude's approach uses zero formatting - no bold, no italics for structure, no labeled sections"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses on emotional experience and reframing through personal qualities ('great listener', 'sense of humor'), while evaluated response focuses on social media dynamics and academic concepts ('multipotentialite')",
+      "Ground truth uses pure prose with zero formatting; evaluated response uses bold text for structural emphasis and key terms",
+      "Ground truth stays in emotional/validation space longer before offering solutions; evaluated response moves quickly to analytical explanations of why people appear to have 'things'"
+    ]
+  }
+}

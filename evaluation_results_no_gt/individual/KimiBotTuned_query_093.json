@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate validation ('Ugh, that's such a real fear') that acknowledges the emotional weight of the situation",
+      "Provides extremely specific, actionable scripts for the teen to use ('Yeah, I wanted to switch it up,' 'Thanks, I'm trying something new') which makes the advice immediately usable",
+      "Perfect prose formatting with natural flow between validation, reframing, and practical suggestions—reads like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think,' 'I'd say,' 'I get it') throughout the response, relying heavily on second-person 'you' statements which creates slight distance",
+      "Missing explicit supportive closing like 'I'm here if you need to talk' or similar first-person offers of continued support that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, allowing advice to flow conversationally within paragraphs",
+    "least_ideal_aspect": "Absence of first-person perspective language—the response never uses 'I think,' 'I'd say,' or 'I'm here' type statements that would make it feel more like a personal conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice is seamlessly integrated into natural sentences (e.g., 'you could start with a smaller change first...') rather than listed out"
+    },
+    "specific_feedback": [
+      "Add first-person perspective statements like 'I think starting small really helps' or 'I'd say the comments usually fade fast' to create more personal connection",
+      "Include a brief first-person supportive closing such as 'I'm here if you want to talk through specific ideas' to reinforce that this is a conversation with a supportive presence"
+    ]
+  }
+}

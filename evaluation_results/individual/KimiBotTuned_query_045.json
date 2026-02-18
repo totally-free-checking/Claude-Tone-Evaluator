@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that's the worst' and acknowledging the unfairness and powerlessness of the situation",
+      "Highly specific and actionable advice including exact scripts ('I get why it looked like that, but I didn't do it') and concrete steps like writing a timeline",
+      "Natural, engaging follow-up question that shows genuine interest in the specifics of their situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - missing 'I think,' 'I'd say,' or 'I'm here' that creates personal connection; uses impersonal constructions like 'It helps to' and 'If you can' instead",
+      "Rapidly pivots from validation to problem-solving without holding space for the emotional experience; feels more like a defense strategy than supportive listening",
+      "Middle paragraph is dense and procedurally structured (first do this, then this, then this) despite being in prose format, making it feel more like instructions than a conversation"
+    ],
+    "most_claude_like": "The warm, casual opening that immediately validates how frustrating and unfair the situation feels, using natural teen-appropriate language like 'Ugh' and acknowledging the powerlessness of being blamed",
+    "least_claude_like": "The absence of first-person supportive presence ('I'm here for you,' 'I get it') and the heavy emphasis on evidence-gathering and defense tactics rather than offering emotional support and space to vent",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While no bullet characters are used, the advice section follows a sequential, procedural structure ('If you can...', 'It helps to...', 'If they're not listening...') that creates a list-like feel within the paragraph, differing from Claude's more organic, conversational flow"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses on offering space to vent and listening; evaluated response immediately jumps to active defense strategies and evidence collection",
+      "Ground truth uses first-person presence ('I'm here to listen'); evaluated response uses entirely impersonal/second-person constructions",
+      "Ground truth is brief and emotionally focused; evaluated response is longer and solution-heavy with specific tactical advice"
+    ]
+  }
+}

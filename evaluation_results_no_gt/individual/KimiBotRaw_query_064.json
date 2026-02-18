@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent emotional validation with specific, relatable language like 'that sinking feeling is the worst' and 'your stomach just dropped through the floor'",
+      "Strong first-person conversational voice throughout using 'I totally get,' 'I promise,' and 'I know' which creates genuine connection",
+      "Highly specific, actionable advice tailored to teen capabilities (retracing steps, checking 'weird zippered part,' texting friends, hitting up the office)"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**Right now:**', '**Next moves:**') breaks the natural prose flow ideal for teen support chats",
+      "Structured like a listicle or article rather than a conversational text, with three separate formatted sections disrupting the warm, flowing tone"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural teen-appropriate expressions like 'hit up,' 'game plan,' and 'freaking out' while maintaining warmth through 'I' statements",
+    "least_ideal_aspect": "Formatting structure - the multiple bullet lists with bold headers create a clinical, instructional feel rather than the natural paragraph-based conversation of a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "45%",
+      "notes": "Response uses three bold headers with two full bullet lists and one prose section. The heavy structuring (Right now, Next moves, The mental part) makes it read like a wikiHow article rather than a supportive text message."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs - instead of listing actions, weave them into sentences like 'First, I'd literally retrace your steps backwards through your day, then check all those weird pockets in your bag...'",
+      "Remove the bold headers and section breaks entirely; let the advice flow naturally from the validation without signposting",
+      "Combine the practical steps into 1-2 conversational paragraphs that feel like a friend talking through options rather than a checklist"
+    ]
+  }
+}

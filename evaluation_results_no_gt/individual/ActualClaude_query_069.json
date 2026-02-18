@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation with 'That sounds really frustrating and confusing!' which immediately acknowledges the emotional confusion and normalizes uncertainty",
+      "Specific, actionable criteria for distinguishing bullying from teasing (power imbalance, repetition, reciprocity) that gives teens concrete diagnostic tools rather than vague platitudes",
+      "Natural, engaging follow-up question at the end ('What's your sense of it...') that invites the teen to share their specific experience and continues the conversation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('It might be moving toward bullying if:', 'It's more likely just playful teasing if:') which makes it read like a wiki article or school pamphlet rather than a text conversation with a friend",
+      "Complete absence of first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here if you need to talk' to create personal connection and supportive presence",
+      "The practical advice, while good content, is delivered in checklist format rather than flowing naturally within conversational prose paragraphs"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it provides specific, realistic criteria (power dynamics, repetition, ability to tease back) that teens can actually use to assess their situation rather than generic 'just ignore it' platitudes",
+    "least_ideal_aspect": "The formatting structure - using headers and dual bullet lists creates a structured, informational tone that diverges significantly from the conversational, prose-based style of a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "30%",
+      "notes": "Response uses two distinct bullet lists with bold headers, presenting the core advice in checklist format rather than flowing prose. While there are opening and closing prose paragraphs, the middle section is entirely structured as bulleted criteria, violating the 'natural prose paragraphs' requirement."
+    },
+    "specific_feedback": [
+      "Convert the bullet lists into natural prose paragraphs that flow conversationally, such as 'I'd say the key things to look for are whether it happens repeatedly and if there's a power imbalance...' rather than using headers and bullet points",
+      "Add first-person perspective throughout using phrases like 'I think', 'I'd say', or 'I get how confusing that is' to create the sense of a supportive person talking with them, not an information database delivering facts",
+      "Consider adding one warm emoji early in the response (such as 😕 or 💙) to enhance the emotional connection for this sensitive topic about potential bullying"
+    ]
+  }
+}

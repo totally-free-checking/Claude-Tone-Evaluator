@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that's such a tough spot to be in' and 'your \"no\" is complete and valid all by itself'",
+      "Excellent specific practical advice with concrete phrases teens can actually use like 'Nah, I'm good' and 'I'm not doing it'",
+      "Engaging follow-up question that shows genuine interest while respecting boundaries ('What's the general vibe of what they're asking? You don't have to share details...')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold formatting ('Here are some ways to handle it:', '**The simple shutdown:**') instead of natural prose paragraphs",
+      "Missing first-person language ('I think', 'I'd say', 'I get it') making the response feel instructional rather than conversational",
+      "Uses bold text headers which break the conversational flow and feel more like a self-help article"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, actionable phrases and realistic strategies for handling peer pressure in the moment",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response relies on a structured list format with bold headers rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "65%",
+      "notes": "Response contains a prominent bulleted list with four items using bold headers (The simple shutdown, The broken record, The pivot, The exit strategy). Also uses bold text for emphasis ('Trust your gut here') which creates a formatted, instructional feel rather than natural texting conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs, weaving the advice into a conversational flow like 'If it were me, I'd probably start with something simple like \"Nah, I'm good\"...' instead of listing techniques",
+      "Add first-person language throughout such as 'I think', 'I'd say', or 'I get how hard this is' to create a personal connection rather than sounding like an instruction manual",
+      "Remove bold formatting and headers to maintain the casual, texting-with-a-friend aesthetic"
+    ]
+  }
+}

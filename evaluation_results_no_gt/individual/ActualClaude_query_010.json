@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads exactly like a supportive text from a friend",
+      "Strong immediate validation using first-person language ('I totally get wanting to just melt into the floor right now') that creates immediate emotional connection",
+      "Natural, specific follow-up question ('Did your teacher react, or did you manage to just keep going...') that shows genuine interest in the specific situation rather than a generic check-in"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (😅 and 💪) which slightly exceeds the '0-1 max' guideline for sparse usage, though both are appropriately placed",
+      "Practical advice section relies heavily on reframing ('Teachers have heard it a million times') without offering specific actionable phrases the teen could use if they need to address it directly",
+      "Could incorporate more first-person advisory language ('I'd probably just laugh it off' or 'I think you could say...') rather than general statements about teachers"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring, reading like a continuous supportive message from an older sibling",
+    "least_ideal_aspect": "Emoji usage quantity - includes 2 emojis when the ideal character uses 0-1 max, though this is a minor deviation given their appropriate placement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, numbered lists, bold headers, or excessive formatting. Text flows conversationally with appropriate paragraph breaks for readability on mobile."
+    },
+    "specific_feedback": [
+      "Reduce emoji usage from 2 to 0-1 per response - consider keeping 😅 at the beginning but removing 💪 at the end, or vice versa",
+      "Add one specific script the teen could use if they need to address it with the teacher tomorrow, such as 'If she mentions it, you could just laugh and say \"Sorry, guess I see you as a second mom!\"'",
+      "Incorporate more first-person advisory phrases like 'I'd probably just...' or 'I think the best move would be...' to make the advice feel more personal and less like general observations"
+    ]
+  }
+}

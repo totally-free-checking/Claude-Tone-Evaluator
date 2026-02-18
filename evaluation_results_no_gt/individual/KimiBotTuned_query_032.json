@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst' and acknowledging the 'brain spiral' feeling",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I feel like things have been kinda off between us...')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory language from the bot's perspective (missing 'I think you should...' or 'I'd suggest...')",
+      "Could include a closing statement like 'I'm here if you need to talk more' to establish the bot's supportive presence"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and no bullet points or over-structuring",
+    "least_ideal_aspect": "First-person language usage - the bot validates well but doesn't use 'I think' or 'I'd say' to frame advice personally",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. Advice is woven naturally into paragraphs rather than listed. No headers, bold text, or structural formatting used."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice like 'I think the best approach is...' or 'I'd probably try saying...' to make it feel more like a personal conversation",
+      "Consider adding a brief closing like 'I'm here if you need to talk more' to reinforce the supportive relationship"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation: 'That sounds really frustrating! It's tough feeling like you're missing out' immediately acknowledges the emotional weight",
+      "Provides specific, actionable advice realistic for teens (suggesting compromises like checking in regularly, having parents meet friends, starting with smaller outings)"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list with four items under 'A few things that might help:' which reads like a self-help article rather than conversational texting",
+      "Lacks first-person language in the advice section - uses impersonal framing like 'A few things that might help' instead of 'I think you could try' or 'I'd suggest'",
+      "Ends with two questions at once ('How old are you... And what kind of outings...') which feels slightly interrogative rather than naturally conversational"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are concrete, age-appropriate, and address real teen concerns about building trust with parents",
+    "least_ideal_aspect": "Prose vs bullet points - the response relies on a structured bulleted list for the core advice rather than flowing natural prose",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "65%",
+      "notes": "Contains one prominent bulleted list with four items introduced by 'A few things that might help:' - this formatting choice makes it feel more like an article or guide than a supportive text conversation"
+    },
+    "specific_feedback": [
+      "Convert the bullet points to natural prose: instead of 'A few things that might help:' followed by bullets, try 'I'd suggest starting by asking what their specific concerns are, and really listening to what they say. You could also propose compromises like checking in regularly via text, or having them meet your friends first...'",
+      "Add more first-person perspective throughout: use phrases like 'I think the best approach would be...' or 'I'd say start with...' rather than impersonal directives",
+      "Consider using one warm emoji early in the response (like 😅 or 💙) to enhance the supportive tone, or alternatively deepen the verbal warmth with phrases like 'Ugh, that's such a rough feeling'",
+      "Combine the final two questions into one natural question like 'What kind of outings are you hoping to go on, if you don't mind me asking?' to avoid the interview-like feel of double questions"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable phrases like 'Don't comment on my body' and the repeat-without-explaining strategy",
+      "Strong follow-up question that's specific and contextual: 'If you tell me the context—work, school, family, friend group, partner, stranger—I can help you choose wording and an escalation path that fits'",
+      "Good validation in opening: 'That sounds really invasive, and it makes sense that you hate it'",
+      "Sophisticated understanding of boundary-setting with the 'consequences and documentation' advice"
+    ],
+    "weaknesses": [
+      "Heavy use of em-dashes and formal punctuation creates a more academic tone than Claude's casual style",
+      "Completely lacks emojis, making it feel colder and more formal than Claude's warm approach",
+      "Jumps too quickly into advice mode without enough emotional validation - the opening validation is brief compared to Claude's sustained warmth",
+      "Uses more complex sentence structures and vocabulary ('invasive,' 'frames it clearly as a repeated boundary violation') than Claude's simpler, more conversational style"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, contextual, and genuinely helpful in offering to tailor advice to their situation",
+    "least_claude_like": "The complete absence of emojis and the formal, essay-like tone with em-dashes and complex punctuation makes it feel like advice from a professional counselor rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Good use of pure prose throughout, though the writing style is more formal and structured than Claude's natural flow. Uses em-dashes frequently which creates a more academic tone."
+    },
+    "key_differences_from_ground_truth": {
+      "tone": "Ground truth is warmer and more casual ('Oof,' natural flow), while evaluated response is more formal and clinical",
+      "emoji_usage": "Ground truth would likely include 1-2 emojis for warmth; evaluated has none",
+      "validation_ratio": "Ground truth spends more time on emotional validation before diving into advice; evaluated response moves quickly to solutions",
+      "language_complexity": "Ground truth uses simpler, more conversational language; evaluated uses more sophisticated vocabulary and complex punctuation",
+      "structure": "Ground truth uses bold headers and bullets (though this is actually a weakness in the ground truth based on the character profile); evaluated uses pure prose but in a more formal style"
+    }
+  }
+}

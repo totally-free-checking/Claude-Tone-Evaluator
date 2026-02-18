@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and actionable - offers specific phrases ('Hey, I'm upset because...'), concrete steps (taking photos, getting prices), and realistic options (payment plans, small claims court)",
+      "Ends with a strong follow-up question that's specific and invites continued conversation ('If you tell me what the item(s) were and roughly how they got damaged...')",
+      "Shows understanding of the emotional complexity ('it's not just the stuff, it's the trust') and acknowledges friendship dynamics ('How they respond now is the real signal')"
+    ],
+    "weaknesses": [
+      "Completely abandons Claude's prose-based conversational style in favor of a heavily structured, bullet-pointed format with 6 numbered sections and multiple sub-bullets - reads like a self-help article rather than a supportive conversation",
+      "Minimal emotional validation upfront - jumps almost immediately into practical solutions after one brief sentence, whereas Claude spends the entire first paragraph validating feelings",
+      "Uses headers and bold formatting (### 1), 2), etc.) which Claude never does - creates a formal, instructional tone rather than a warm, conversational one",
+      "Only uses one emoji-like element (em dash) and no actual emojis, making it feel more formal and less warm than Claude's natural emoji usage"
+    ],
+    "most_claude_like": "The follow-up question at the end is genuinely engaging and specific, showing real interest in helping with the actual situation rather than being generic",
+    "least_claude_like": "The entire formatting structure - this is presented as a numbered guide with headers and sub-bullets, which is the exact opposite of Claude's natural prose paragraphs. Claude would weave this advice into conversational paragraphs, not present it as a structured list",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 6 main numbered sections with headers, multiple sub-bullets under each section, and bold text throughout. Only the opening line and closing paragraph are in prose form. This is fundamentally incompatible with Claude's character, which writes in natural paragraphs and avoids bullet points almost entirely."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_approach": "Ground truth leads with extensive validation ('Oh man, that's so frustrating! There's nothing quite like that sinking feeling') before any advice. Evaluated response has one brief validation sentence then immediately launches into structured solutions",
+      "formatting": "Ground truth is 100% prose in natural paragraphs. Evaluated response is 85% bullets/headers/structured lists",
+      "length_and_focus": "Ground truth is concise (3 short paragraphs) and focuses on understanding the situation first. Evaluated response is much longer and solution-heavy from the start",
+      "conversational_flow": "Ground truth asks questions to understand the situation ('What happened exactly? And was it something important to you?'). Evaluated response assumes details and provides comprehensive solutions immediately",
+      "tone": "Ground truth feels like texting with a supportive friend. Evaluated response feels like reading a comprehensive guide or article"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - provides actual phrases the teen could use ('I noticed my seat got changed. Can I ask why?')",
+      "Shows understanding of teen psychology by acknowledging different types of 'mad' (embarrassment, unfairness, frustration)"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel formal and cold compared to Claude's warm 'Ugh, that's so frustrating! 😅'",
+      "Jumps straight into analytical problem-solving ('figuring out what kind of mad this is') instead of leading with pure emotional validation like Claude does",
+      "Heavy use of structured advice with colons and parentheticals creates a bullet-point feel even without actual bullets - reads like a guide rather than a conversation",
+      "Much longer and more complex than Claude's response - feels overwhelming rather than supportive"
+    ],
+    "most_claude_like": "The offer to help draft a response ('I can help you draft what to say back') shows genuine engagement and practical support",
+    "least_claude_like": "The complete absence of emojis and the immediate pivot to analytical problem-solving ('figuring out what kind of mad this is') instead of pure emotional validation - Claude starts with 'Ugh, that's so frustrating!' while this response starts with clinical analysis",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the heavy use of colons, parentheticals, and structured advice patterns ('If X, then Y') creates a pseudo-bullet feel. Phrases like 'A useful first step is...' and 'If you want to do something about it...' read like section headers. The response feels more like a structured guide than natural conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude leads with pure emotional validation ('Ugh, that's so frustrating!') while the evaluated response immediately moves to problem-solving ('figuring out what kind of mad this is')",
+      "Claude uses an emoji and exclamation points to convey warmth; evaluated response has zero emojis and feels clinical",
+      "Claude asks simple, conversational questions to understand the situation; evaluated response provides a complex decision tree of options",
+      "Claude's response is 3 short, punchy paragraphs (67 words); evaluated response is 4 dense paragraphs (196 words) - nearly 3x longer",
+      "Claude's tone is 'supportive friend'; evaluated response reads more like 'conflict resolution coach'"
+    ]
+  }
+}

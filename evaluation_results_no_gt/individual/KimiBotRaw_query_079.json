@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using first-person language ('I totally get that') and normalizes the experience ('way more common than you think')",
+      "Provides extremely specific, actionable advice tailored to teen contexts (sandwich halves, pasta in thermos, library corners, timing strategies)",
+      "Ends with an excellent, specific follow-up question that pinpoints the exact source of anxiety (chewing vs. mess vs. feeling 'on display')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bold headers and structured formatting ('**Start small**', '**Distraction helps**') creates a listicle feel rather than natural conversation",
+      "Lacks first-person framing in the advice section - uses imperative commands ('Start small', 'Bring a book') instead of 'I'd suggest' or 'You could try'",
+      "Could benefit from slightly deeper emotional acknowledgment before jumping into the solution list"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies specific to school environments and teen limitations",
+    "least_ideal_aspect": "Prose formatting - uses bold headers and bullet-like structure throughout instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Response uses 5 bold headers acting as section dividers with em-dash explanations, creating a structured list format rather than natural prose flow. Only the opening and closing sentences are true paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bold headers into flowing prose by combining related ideas into paragraphs and using transitional phrases like 'I'd start by...' or 'Another thing that helps is...'",
+      "Add first-person framing to advice sections (e.g., 'I'd suggest starting small...' instead of 'Start small') to maintain the conversational 'friend texting' feel",
+      "Consider adding one warm emoji (like 😅 or 😊) at the opening to enhance the casual, supportive tone"
+    ]
+  }
+}

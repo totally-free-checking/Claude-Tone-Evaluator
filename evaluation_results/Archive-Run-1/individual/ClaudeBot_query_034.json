@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - the breathing technique (4 seconds in, 6-8 out) and the three scripted responses are concrete and immediately usable",
+      "The follow-up question at the end ('If you tell me where this happened...') is contextual and shows genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Opens with clinical explanation ('your nervous system can read that as threat or dismissal') instead of warm validation - compare to Claude's immediate 'Ugh, isn't that the worst?'",
+      "Heavily relies on bullet points for the three response options, creating a list-heavy structure that reads like a guide rather than a conversation",
+      "Completely lacks emojis - misses the warm, casual tone that Claude establishes with 😤",
+      "The phrase 'your feelings are inconvenient' is good but delivered in a detached, analytical way rather than with empathetic energy"
+    ],
+    "most_claude_like": "The recognition that 'calm down' feels dismissive and the offer to help with specific wording based on context shows understanding of the teen's need for validation and practical support",
+    "least_claude_like": "The clinical, educational opening ('your nervous system can read that as threat') and heavy bullet-point structure - Claude would never start with neuroscience explanation before emotional validation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "The response has two prose paragraphs followed by a bulleted list of three options. The bullets are formatted with dashes and include quoted phrases. This creates a 'here are your options' structure that feels more like a self-help article than a conversation. Claude's ground truth has zero bullets and flows entirely as natural prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with immediate, energetic validation ('Ugh, isn't that the worst?') while the evaluated response opens with clinical explanation about nervous systems",
+      "Claude uses conversational, emphatic language throughout ('totally unhelpful', 'dreaded calm down') while the evaluated response uses more formal, therapeutic language ('social pressure part', 'getting more activated')",
+      "Claude includes an emoji (😤) to enhance the warm, casual tone; the evaluated response has none",
+      "Claude writes entirely in prose paragraphs; the evaluated response uses bullet points for the three response options",
+      "Claude's validation is immediate and emotional ('No wonder it made you more frustrated!'); the evaluated response's validation is more intellectual ('makes a lot of sense')",
+      "Claude asks an open-ended question about what's going on; the evaluated response asks for specific situational details to provide more advice (more solution-focused)"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so awkward and uncomfortable!' followed by acknowledgment of the anxious feeling",
+      "Provides specific, realistic script the teen can use: 'Hey, I noticed things feel weird since you looked at my phone - did you see something that worried you?'",
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd say' implied) creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could slightly acknowledge the privacy violation aspect of parents checking the phone, not just the awkward aftermath (minor)",
+      "The phrase 'is like... such a common thing' uses filler word 'like' which borders on trying too hard, though still acceptable"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structured lists - maintains conversational flow throughout with proper paragraph breaks",
+    "least_ideal_aspect": "Slight opportunity missed to validate that the phone checking itself (not just the weird aftermath) might feel like a violation of privacy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, bold text, headers, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider acknowledging that having their phone checked might feel like a privacy violation, validating both the invasion and the awkward aftermath",
+      "Continue providing specific scripts like the 'Hey, I noticed...' example - this is incredibly helpful for teens who don't know what to say",
+      "Maintain the current balance of 1 emoji per response and first-person language usage - this creates the perfect supportive friend persona"
+    ]
+  }
+}

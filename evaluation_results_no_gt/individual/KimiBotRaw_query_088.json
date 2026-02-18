@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with immediate emotional validation: 'That's really messed up, and I'm sorry you had to sit with that' acknowledges the hurt and invalidation of the teacher's inaction",
+      "Provides highly specific, realistic scripts the teen can actually use like 'Hey, I don't know if you caught it, but when [person] said [thing] earlier, it really crossed a line'",
+      "Validates different energy levels and agency with 'If you just need to survive the class... You don't owe anyone activism when you're trying to get through the day'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**If you feel up to it:**', '**If you want to escalate:**') makes it read like an instructional article rather than a conversational text",
+      "Shifts to impersonal 'you can do' lists rather than maintaining first-person conversational flow throughout the advice section",
+      "Uses structural formatting that breaks natural flow - the transition 'Here are a few things you can do' signals a move away from conversational tone"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific scripting - it gives teens exact words to use in difficult conversations with teachers and counselors, which is incredibly actionable and age-appropriate",
+    "least_ideal_aspect": "The prose vs bullets formatting - the response abandons natural paragraph flow for a heavily structured, bulleted format with bold headers that feels more like a school resource guide than a supportive message from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response begins with one paragraph of prose, then shifts to 'Here are a few things you can do' followed by bold section headers and bullet points for each action item. The middle 70% of the response is structured formatting rather than conversational flow, ending with a brief prose paragraph and question. This heavy structuring significantly diverges from the ideal natural prose approach."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing paragraphs by using transitional phrases like 'If you're feeling up to it, I'd suggest pulling the teacher aside later...' instead of bold headers and lists",
+      "Maintain first-person language throughout the advice section by saying things like 'I think you could try...' or 'Honestly, I'd probably...' rather than listing impersonal options",
+      "Integrate the specific scripts naturally into sentences rather than separating them as bullet points - for example, 'You could just say something like, 'Hey, I don't know if you caught it...''"
+    ]
+  }
+}

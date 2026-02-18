@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with 'Ugh, that phrase is basically emotional terrorism! I'm so sorry—you're sitting there playing mental roulette with every possible scenario, right?' which captures the teen's anxiety perfectly",
+      "Strong use of first-person language throughout ('I'm so sorry', 'I'm happy to help you game-plan', 'I booked us') creating a personal, supportive connection",
+      "Specific, actionable grounding advice that's realistic for teens ('Feel your feet on the floor', 'Put on a comfort show', 'call a friend who'll let you vent')"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet point section ('Right now, while you're waiting:' followed by three bolded bullets) which breaks the conversational prose flow and feels more like a self-help article than a text from a friend",
+      "Bold formatting within the bullets (**Don't spiral**, **Ground yourself**) adds to the over-structured feel that distances it from natural conversation"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person warmth - uses casual language like 'Ugh', 'Totally valid', and 'Doom-scrolling' while maintaining authentic empathy without being patronizing",
+    "least_ideal_aspect": "Use of bullet points and bold formatting - the three bullet points with bold headers create a structured, listicle format that diverges significantly from the ideal natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response contains three distinct bullet points with bold headers under 'Right now, while you're waiting:' section. This creates a structured, instructional format rather than flowing conversational prose. The advice would be more effective woven into natural sentences."
+    },
+    "specific_feedback": [
+      "Convert the bullet point section into 1-2 flowing paragraphs that naturally incorporate the grounding advice - for example: 'Right now, while you're waiting, try not to spiral. I know your brain is writing horror movie scripts, but when you catch yourself thinking they're breaking up with you, add '...or it could be something mundane.' You could also ground yourself literally - feel your feet on the floor, drink some water. It won't fix the conversation coming, but it stops your nervous system from flooding.'",
+      "Remove bold formatting entirely to maintain the casual, text-message-like aesthetic that feels more intimate and less like an article or worksheet"
+    ]
+  }
+}

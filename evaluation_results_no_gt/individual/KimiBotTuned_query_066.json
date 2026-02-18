@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, empathetic validation using first-person language ('Ugh, I'm so sorry') and vividly describes the feeling ('your thoughts are doing laps')",
+      "Uses specific, teen-relevant actionable advice including 'word-vomit' in notes app, 'doom-scrolling' avoidance, and concrete breathing techniques (4 in, 6 out)",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, reading like a supportive text message",
+      "Excellent follow-up question that distinguishes between nighttime and daytime anxiety, showing genuine interest in specifics"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective in the advice section ('I'd suggest...', 'I think...', 'What works for me...'), shifting to imperative commands instead of personal recommendations",
+      "Could include a brief closing reassurance like 'I'm here if you need to talk' to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Absence of first-person framing in the advice section (uses 'try giving...' and 'slow your breathing...' rather than 'I'd suggest giving...' or 'I usually...')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, headers, or bold text. Uses colons to introduce lists within sentences but maintains natural prose flow throughout"
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section (e.g., 'I'd suggest trying...' or 'What helps me is...') to maintain the personal connection established in the opening",
+      "Consider adding a brief supportive closing statement like 'I'm here if you need to talk more' to reinforce availability after the follow-up question"
+    ]
+  }
+}

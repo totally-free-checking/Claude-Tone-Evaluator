@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's such an awkward spot to be in') that immediately normalizes the teen's feelings",
+      "Provides excellent specific scripts for different scenarios (Slow Fade, Gentle Boundary, Direct Route) that teens can actually use word-for-word",
+      "Ends with a natural, context-specific follow-up question about how the person is approaching them (texts, showing up places, etc.)"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**The Slow Fade**', '**Gentle Boundary**') makes it read like a wikiHow article rather than a supportive conversation",
+      "Lacks first-person language entirely - no 'I think,' 'I'd suggest,' or 'I get it' to create personal connection; feels instructional rather than empathetic",
+      "Advice-to-validation ratio is too heavy on solutions (approximately 70% advice formatting vs. 30% supportive prose)"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, tiered strategies with exact phrasing teens can use",
+    "least_ideal_aspect": "Prose formatting - uses headers and bullet lists extensively instead of natural paragraph flow",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response contains 4 bold headers and 7 bullet points, with only the opening paragraph, closing sentence, and final question in prose format. Reads as highly structured self-help content rather than conversational texting."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs using first-person perspective (e.g., 'I'd probably start with the slow fade approach...' instead of bullet lists)",
+      "Add first-person sharing language like 'I think' or 'In my experience' to sound less like an instruction manual and more like a supportive friend",
+      "Consider softening the structure by removing bold headers and integrating the advice into flowing sentences that validate while advising"
+    ]
+  }
+}

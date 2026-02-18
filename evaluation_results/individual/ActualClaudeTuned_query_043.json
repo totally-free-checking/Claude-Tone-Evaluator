@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'm here', 'I get the sense') which creates genuine connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs rather than being listed",
+      "Strong immediate validation with 'Ugh, that's such a tough spot' and 'nothing worse than that nagging feeling' that acknowledges the emotional weight"
+    ],
+    "weaknesses": [
+      "Used an emoji (😅) without the user asking for one, though it was appropriately placed and only one",
+      "Could have included slightly more specific 'easy out' phrasing options like the ground truth does, though the prose examples given are good"
+    ],
+    "most_claude_like": "The natural prose flow that embeds specific conversation starters into flowing text rather than listing them as bullet points - this matches the character profile's emphasis on 'NOT bullet-heavy' formatting and conversational flow",
+    "least_claude_like": "The inclusion of the emoji 😅 without being asked, as the character profile specifies 'Don't use emojis unless you are asked to'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational paragraphs with no bullet points, headers, or bold formatting. This is actually more aligned with the character profile (which specifies 'NOT bullet-heavy') than the ground truth response, which uses bold headers and bullet-like formatting for the three approaches."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bold headers and bullet-point formatting for three conversation approaches ('The soft opener:', 'Give them an easy out:', 'Direct but kind:'), while evaluated response integrates these naturally into prose paragraphs",
+      "Ground truth asks two follow-up questions at the end, while evaluated response asks one natural question",
+      "Ground truth uses no emojis, while evaluated response uses one (😅)",
+      "Evaluated response uses more casual interjections ('Ugh', 'super accusatory') compared to ground truth's slightly more structured tone"
+    ]
+  }
+}

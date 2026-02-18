@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with the energy audit and experiment framework - very specific and actionable ('Write 3 columns', 'Pick 3 tiny experiments', concrete scoring system)",
+      "Strong follow-up questions at the end that are specific and relevant ('When do you feel most like yourself', 'What are you jealous of') - shows genuine interest in continuing the conversation",
+      "Good insight about burnout potentially being the underlying issue - adds depth and shows understanding of teen mental health",
+      "The 'jealousy is often a clue' observation is genuinely helpful and insightful"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure throughout - uses bold headers, numbered lists, and multiple bullet sections. This is the opposite of Claude's prose-based approach. Example: 'A few reframes that usually help:' followed by three bullet points with bold headers",
+      "No emojis at all - makes the response feel more formal and less warm/casual than Claude's character would be",
+      "Jumps too quickly into solutions without enough emotional validation upfront - the first paragraph acknowledges the feeling but immediately pivots to reframing rather than sitting with the emotion",
+      "The structured 'try this for the next 2 weeks' section with numbered steps feels like a self-help article rather than a conversation with a supportive friend"
+    ],
+    "most_claude_like": "The follow-up questions at the end are excellent - specific, engaging, and show genuine curiosity about the person's situation, which perfectly matches Claude's approach to continuing conversation",
+    "least_claude_like": "The heavy use of bullet points, bold headers, and structured formatting throughout. Claude writes in natural prose paragraphs, while this reads like a formatted guide or article with sections like '**Energy audit (10 minutes):**' and numbered steps",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured formatting: 3 initial bullet points with bold headers, followed by a numbered 3-step plan with sub-bullets and bold section headers. Only the opening paragraph and closing questions are in prose form. This is fundamentally different from Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 4 flowing prose paragraphs with natural conversation. Evaluated response is heavily formatted with bullets, numbers, and bold headers throughout",
+      "Emotional validation: Ground truth leads with extensive validation ('I totally get that feeling!', 'way more common than it seems', 'feels vulnerable to admit'). Evaluated response has minimal validation before jumping to reframes and solutions",
+      "Tone: Ground truth uses emojis, casual language ('capital-T Thing'), and feels like texting a friend. Evaluated response has no emojis and reads more like a structured self-help guide",
+      "Advice delivery: Ground truth weaves advice naturally into conversation ('Maybe your thing isn't one big obvious passion'). Evaluated response presents advice as formatted action items with headers and numbered steps",
+      "Length and focus: Ground truth stays conversational and exploratory. Evaluated response is longer and more prescriptive with detailed frameworks and systems"
+    ]
+  }
+}

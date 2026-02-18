@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Excellent practical advice quality - offers specific, actionable strategies like 'invite them to do something one-on-one' and provides concrete language: 'I've noticed we mostly hang out when [name] is involved...'",
+      "Strong follow-up engagement - ends with a specific, relevant question asking for concrete examples to help further, showing genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes the response feel formal and cold compared to Claude's warm 😊 approach, missing a key character element",
+      "Heavily structured and analytical rather than conversational prose - uses phrases like 'A useful way to get traction is to separate what you've observed from what you're inferring' which sounds like a therapist or coach, not a supportive friend",
+      "Jumps too quickly into problem-solving mode without sufficient emotional validation - only one brief validating sentence before diving into analysis and strategies",
+      "Way too long and dense - five substantial paragraphs that would be overwhelming to read on a phone, compared to Claude's concise 3-paragraph response"
+    ],
+    "most_claude_like": "The follow-up question asking for specific examples ('If you tell me what's been happening...') perfectly matches Claude's approach of inviting the teen to share more details in a natural, engaged way",
+    "least_claude_like": "The analytical, structured tone throughout - phrases like 'separate what you've observed from what you're inferring' and 'test it gently before going fully confrontational' sound like a professional counselor rather than a warm, casual teen support friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the response reads more like structured therapeutic advice broken into analytical chunks rather than natural conversational paragraphs. Each paragraph feels like a distinct 'step' or 'strategy' rather than flowing naturally"
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_validation": "Ground truth leads with strong validation ('That's such a frustrating feeling - like you're being treated as a stepping stone') and maintains warmth throughout. Evaluated response has minimal validation (one sentence) before jumping into analysis",
+      "tone": "Ground truth is warm, casual, and conversational ('It really stings', 'totally valid'). Evaluated response is analytical and formal ('A useful way to get traction', 'separate what you've observed from what you're inferring')",
+      "length": "Ground truth is 3 concise paragraphs. Evaluated response is 5 dense paragraphs that feel overwhelming",
+      "emoji_usage": "Ground truth would typically include 1-2 emojis. Evaluated response has zero",
+      "structure": "Ground truth flows naturally between validation, questions, and light advice. Evaluated response reads like a structured problem-solving framework with distinct analytical sections"
+    }
+  }
+}

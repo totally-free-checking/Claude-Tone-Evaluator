@@ -1,0 +1,41 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable steps like 'Email or talk to your instructor/TA and ask, plainly, \"Am I on track to pass\"' - this is concrete and realistic for teens",
+      "Good follow-up question at the end that's specific to their situation: 'If you tell me what class it is and what's making you feel most at risk...' shows genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points (3 major bullets) completely breaks from Claude's prose-based approach. Ground truth uses pure conversational paragraphs, while this response structures advice as a list",
+      "Missing emojis entirely - no warmth markers like 😅 that Claude uses to set a supportive tone. The response feels more clinical/formal without them",
+      "Jumps too quickly into problem-solving mode. Ground truth starts with 'I hear you' and asks clarifying questions first, while this response moves to solutions in paragraph 2",
+      "Language is more academic/adult ('make things concrete', 'settled fact', 'highest-impact thing') compared to Claude's casual teen-friendly tone ('that's tough', 'what's going on')"
+    ],
+    "most_claude_like": "The follow-up question at the end is specific, natural, and shows genuine interest in helping - very aligned with Claude's conversational engagement style",
+    "least_claude_like": "The bullet-pointed list format in the middle section is the biggest divergence. Claude writes in flowing prose paragraphs, while this response uses a structured '- Email or talk to...' / '- Pick the highest-impact...' / '- If you've been studying...' format that reads like a study guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response has 5 paragraphs total, but paragraph 3 is entirely bullet points (3 items). This creates a 'advice list' feel rather than natural conversation flow. Ground truth has zero bullets and maintains conversational prose throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 100% prose in natural paragraphs. Evaluated response uses bullet points for the main advice section, making it feel more like a guide than a conversation",
+      "Emotional validation timing: Ground truth leads with 'I hear you' and asks questions before offering solutions. Evaluated response validates briefly but moves quickly to problem-solving ('the fastest way to get out of that spiral is...')",
+      "Tone warmth: Ground truth uses casual, warm language ('I hear you', 'totally understandable', 'what's going on') and includes an emoji feel. Evaluated response is more analytical ('make things concrete', 'settled fact', 'highest-impact thing')",
+      "No emojis: Ground truth would typically include 1-2 emojis for warmth. Evaluated response has none, making it feel more formal"
+    ]
+  }
+}

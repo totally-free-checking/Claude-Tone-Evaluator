@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I've had nights') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs",
+      "Strong immediate emotional validation with relatable metaphors ('thoughts throwing a party you didn't invite')"
+    ],
+    "weaknesses": [
+      "The follow-up question is technically two questions combined, which slightly dilutes the focus",
+      "Could acknowledge the 'for no reason' aspect more explicitly to validate that anxiety doesn't always need a trigger"
+    ],
+    "most_ideal_aspect": "Natural prose format with first-person conversational tone - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "The advice section lists multiple techniques (breathing, journaling, walking, music) in quick succession which could feel slightly overwhelming, though still well-integrated into prose",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no formatting crutches. Advice is embedded naturally within sentences rather than listed."
+    },
+    "specific_feedback": [
+      "Consider acknowledging their mention of 'no reason' specifically to normalize that anxiety often doesn't need a trigger",
+      "The double question at the end works but could be streamlined to one focused question like 'What's usually helped you when this happens before?'"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 10,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Provides extremely specific and actionable advice including exact message templates the teen can copy/paste to their partner and instructor",
+      "Follow-up questions are highly specific to the situation (asking about assignment type, required parts, current progress) rather than generic"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses 'you should' instead of 'I think you should' or 'I'd probably'",
+      "Heavy use of headers (##), numbered lists (1-6), and bullet points creates a clinical wiki-style format rather than conversational prose",
+      "Minimal emotional validation - only one brief sentence ('That's super stressful') before immediately jumping to 6 structured action steps",
+      "Ends with a numbered list of questions (1, 2, 3) rather than a natural conversational question"
+    ],
+    "most_ideal_aspect": "The practical advice quality is exemplary with realistic, immediately actionable steps including specific scripts for communicating with the partner and documentation strategies",
+    "least_ideal_aspect": "The formatting is almost entirely structured lists and headers rather than natural prose paragraphs, making it feel like a productivity manual rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "10%",
+      "notes": "Uses extensive formatting including headers (## 1)), numbered lists (1-6), bullet points (-), bold text (**), and blockquote formatting (>) which creates a highly structured, article-like appearance with virtually no natural paragraph flow"
+    },
+    "specific_feedback": [
+      "Rewrite the response as 2-3 natural paragraphs instead of numbered sections - flow the advice into sentences like 'I think tonight you should focus on...' rather than '1) Triage tonight:'",
+      "Add first-person language throughout like 'I'd probably send something like...' or 'I think the best approach is...' to create connection",
+      "Start with more emotional validation like 'Ugh, that's honestly the worst feeling when you're staring down a deadline and doing all the work yourself' before giving advice",
+      "End with a single natural question like 'What part of the project are you most worried about finishing tonight?' instead of a numbered list of questions"
+    ]
+  }
+}

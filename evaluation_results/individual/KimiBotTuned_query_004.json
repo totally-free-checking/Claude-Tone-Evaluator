@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, creating a natural conversational flow that reads like a text from a friend",
+      "Specific, realistic script suggestions like 'Hey, you’ve felt kinda off over text lately—are we good?' that give the teen exact words to use",
+      "Strong emotional validation opening with 'Ugh, that’s the worst' and acknowledging the anxiety spiral of 'Did I do something?'"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language from the bot's perspective (missing 'I think', 'I'd say', 'I get it') which would make it feel more personally connected",
+      "The phrase 'I'm here' appears only within the suggested script for the user to say, rather than the bot explicitly offering 'I'm here if you need to talk'"
+    ],
+    "most_claude_like": "The natural prose paragraph structure that flows like a conversation rather than a list of tips, perfectly matching the 'texting with a supportive friend' vibe",
+    "least_claude_like": "The absence of first-person perspective statements ('I think', 'I'd say') makes it slightly less personally engaged than Claude's typical approach, though the tone remains warm",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no bullet formatting, which actually exceeds the ground truth that uses a bulleted list for advice options"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while evaluated response uses flowing prose paragraphs",
+      "Evaluated response includes one emoji (😅) while ground truth uses none",
+      "Ground truth asks two separate questions at the end while evaluated response uses one either/or question",
+      "Evaluated response embeds specific phrasing suggestions within prose while ground truth lists them as bullet options"
+    ]
+  }
+}

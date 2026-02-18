@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - the script for talking to parents ('I get why you're upset', asking for specifics, offering alternatives) is concrete and realistic for teens",
+      "Shows understanding that teens have limited agency and offers realistic negotiation strategies like asking for a review date or alternative punishments"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (4 bullet points in the advice section) completely diverges from Claude's prose-based approach - reads like a self-help checklist rather than a conversation",
+      "Jumps almost immediately to solutions without sufficient emotional validation - only one brief sentence acknowledging feelings before diving into problem-solving mode",
+      "No emojis at all, making it feel formal and cold compared to Claude's warm, casual tone with natural emoji use",
+      "The numbered questions (1) and 2)) feel like a form to fill out rather than a natural conversational inquiry"
+    ],
+    "most_claude_like": "The practical advice quality is strong - offering specific phrases to use and realistic negotiation strategies shows good understanding of teen situations",
+    "least_claude_like": "The bullet-point heavy formatting with numbered questions and structured advice list is the complete opposite of Claude's natural prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response has two short prose paragraphs followed by a 4-bullet advice list. The numbered questions (1 and 2) also add to the structured, list-like feel. Claude's ground truth is 100% prose with natural conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude starts with strong emotional validation ('Ugh, that's the worst feeling!') and spends most of the response on empathy before any advice. Evaluated response has minimal validation ('That really sucks') before jumping to problem-solving",
+      "Claude uses natural prose throughout with an emoji (😅 implied in tone). Evaluated response uses bullet points and numbered lists, making it feel like a worksheet",
+      "Claude's questions are casual and conversational ('What happened, if you don't mind me asking?'). Evaluated response uses numbered, formal questions that feel like data collection",
+      "Claude ends with a warm, open-ended question about the situation. Evaluated response ends with a conditional offer ('If you tell me... I can help you draft') that feels more transactional",
+      "Claude's tone is consistently warm and friend-like. Evaluated response reads more like a counselor or coach providing structured guidance"
+    ]
+  }
+}

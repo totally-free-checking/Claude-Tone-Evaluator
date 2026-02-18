@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally like a text conversation with validation leading into advice",
+      "Strong first-person language throughout ('I'm so sorry', 'I'd probably just leave it') making it feel personal and supportive",
+      "Engaging, specific follow-up question about the post's age ('archaeology dig territory') that shows genuine interest and continues the conversation naturally"
+    ],
+    "weaknesses": [
+      "Could incorporate more explicit first-person perspective phrases like 'I think' or 'I get it' to fully match Claude's conversational style",
+      "Practical advice is slightly less comprehensive than ground truth - missing the 'bold approach' option of owning it with humor",
+      "Opens with 'Ugh, I'm so sorry' which is great, but could add even more immediate validation like 'that instant panic is the worst' earlier"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points or headers - it reads exactly like a supportive friend texting advice rather than a structured list",
+    "least_claude_like": "The advice section, while helpful, integrates options into narrative rather than presenting distinct choices (stealth/casual/bold) which makes it slightly less actionable than Claude's typical approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational prose throughout with no bullet points, bold headers, or lists. Advice flows naturally within sentences ('you could always unlike it... but honestly sometimes that draws more attention'). This actually aligns better with the character profile's preference for prose than the ground truth which uses bullet points."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses structured bullet points for three distinct approaches (stealth/casual/bold) while Response integrates advice into flowing narrative paragraphs",
+      "Ground truth asks about the type of post at the end while Response asks about the age of the post",
+      "Response uses more first-person singular advice ('I'd probably') compared to ground truth's imperative bullet points and 'Here are your options' structure"
+    ]
+  }
+}

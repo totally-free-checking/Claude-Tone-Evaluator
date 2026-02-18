@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is highly specific and actionable - the 'brain dump in 3 minutes' and 'shrink the first task' suggestions are concrete and realistic for teens",
+      "Follow-up questions are specific and relevant - asking about types of tasks and what happens when they sit down shows genuine interest in understanding their situation"
+    ],
+    "weaknesses": [
+      "Completely lacks emotional validation at the start - jumps immediately into problem-solving mode without acknowledging the frustration or overwhelm (Ground Truth starts with 'Ugh, that's such a frustrating feeling!')",
+      "Heavily formatted with headers, numbered lists, and bullet points throughout - reads like a productivity article rather than a conversation (Ground Truth uses prose paragraphs with minimal formatting)",
+      "No emojis at all - feels formal and clinical compared to Ground Truth's warm 🙂",
+      "Opening line is analytical rather than empathetic - 'That feeling is usually a mix of...' sounds like a diagnosis instead of 'I hear you'"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific and show genuine interest in understanding the teen's actual situation, similar to Claude's 'What kind of stuff is in your pile?'",
+    "least_claude_like": "The entire structure is formatted like a self-help article with headers (## Do this in the next 10 minutes), numbered steps, and multiple bullet-pointed sections - the complete opposite of Claude's conversational prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting: 4 major headers with ##, 4 numbered steps under first section, multiple bullet points under 'Quick way to prioritize' and 'If procrastination keeps winning'. Only the opening line and closing questions are in prose form. Ground Truth uses prose paragraphs with bold text for emphasis but maintains conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth leads with emotional validation ('Ugh, that's such a frustrating feeling!') while Response to Evaluate leads with analytical problem-solving",
+      "Ground Truth is written in conversational prose paragraphs; Response to Evaluate is heavily structured with headers, numbered lists, and bullet points",
+      "Ground Truth uses an emoji and casual language ('nope out of there', 'stupidly small'); Response to Evaluate has no emojis and more formal tone",
+      "Ground Truth balances support with advice naturally; Response to Evaluate is 90% advice/solutions with minimal emotional acknowledgment",
+      "Ground Truth feels like texting with a supportive friend; Response to Evaluate reads like a productivity blog post or self-help article"
+    ]
+  }
+}

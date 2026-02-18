@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong first-person language that creates connection ('I totally get that', 'I know that doesn't magically fix the feeling')",
+      "Very specific, actionable advice tailored to teen contexts (library corners, pasta in thermos, timing strategies)",
+      "Excellent follow-up question that identifies specific anxieties (chewing vs mess vs feeling 'on display')"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers (**Start small**, **Distraction helps**, etc.) creates an over-structured, article-like feel instead of natural prose conversation",
+      "Significantly longer than necessary - the 5 detailed sections with bold headers feel overwhelming compared to Claude's concise approach",
+      "While warm, it lacks some of the immediate emotional validation phrasing like 'You're definitely not alone' that Claude uses"
+    ],
+    "most_claude_like": "The natural first-person validation ('I totally get that') and the specific, situation-aware follow-up question at the end",
+    "least_claude_like": "The formatting structure using bold headers for each piece of advice, which reads like a self-help article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "35%",
+      "notes": "Uses 5 bold headers (**Start small**, **Distraction helps**, **The 'spotlight effect'**, **Easy foods**, **Timing**) with paragraph explanations underneath. This is significantly more structured than Claude's preference for simple inline dashes or pure prose. The bold headers create visual separation that breaks conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses simple inline bullet dashes with short phrases; evaluated response uses bold headers with lengthy explanations, creating a listicle format",
+      "Ground truth is concise (2 short paragraphs + 4 brief bullets); evaluated response is much longer with detailed sections that could overwhelm a teen reading on phone",
+      "Ground truth validates more explicitly ('You're definitely not alone'); evaluated response moves quickly into structured advice"
+    ]
+  }
+}

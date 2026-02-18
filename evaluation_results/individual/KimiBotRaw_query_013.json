@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with immediate validation and normalization ('literally everyone gets the shaky hands thing - it just means your body is gearing up to do something important')",
+      "Provides specific, actionable techniques like 'tense and release' muscle relaxation and 'breathe low' belly breathing that teens can use immediately",
+      "Maintains casual, relatable voice without being cringe ('fight a bear', 'the worst', 'flail your arms')"
+    ],
+    "weaknesses": [
+      "Missing follow-up question at the end - Claude's character nearly always ends with a natural question to continue the conversation",
+      "Heavy reliance on bullet points and bold headers rather than flowing conversational prose paragraphs",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') specified in the character profile, using primarily second-person instructions instead"
+    ],
+    "most_claude_like": "The immediate emotional validation and normalization that frames the physical symptoms as a positive sign of readiness ('your body is gearing up to do something important')",
+    "least_claude_like": "The complete absence of a follow-up question to engage the user in continued conversation, ending instead with a statement and emoji",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "20%",
+      "notes": "Response uses three bold section headers ('Right now:', 'During the presentation:', 'Mindset shift:') with multiple bullet points under each, creating a structured list format rather than natural prose flow"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth ends with an engaging specific question ('How much time do you have before you go on?') while Response to Evaluate ends with encouragement and an emoji without inviting further dialogue",
+      "Response to Evaluate provides more detailed/specific physiological techniques (tense/release, grounding feet) compared to Ground Truth's more general suggestions",
+      "Response to Evaluate uses slightly more casual slang ('Oh man', 'literally', 'fight a bear') compared to Ground Truth's warmer but slightly more restrained tone"
+    ]
+  }
+}

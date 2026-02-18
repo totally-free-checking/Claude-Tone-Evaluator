@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 5,
+  "user_query": "Someone started a rumor about me and I don’t know how to shut it down.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with strong validation: 'Ugh, I'm sorry—that's such a gross feeling' immediately acknowledges the emotional weight",
+      "Provides highly specific, actionable scripts the teen can literally copy-paste ('That's not true. Please don't repeat it.')",
+      "Asks targeted follow-up questions about context (school vs. online, who started it) to customize further help"
+    ],
+    "weaknesses": [
+      "Extremely over-formatted with 9 numbered sections, headers (###), and bullet points instead of conversational prose",
+      "Only one sentence of emotional validation before launching into 9 sections of tactical advice, creating a cold, instructional tone",
+      "Uses imperative command language ('Don't broadcast,' 'Use a short script,' 'Talk to the connectors') rather than first-person sharing ('I'd probably...', 'I think you could try...')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific scripts, documentation tips, and escalation pathways are realistic and immediately actionable for a teen",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is structured like a wikiHow article or legal guide with heavy formatting rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response uses 9 numbered sections with ### headers, multiple bullet lists, and bold text throughout. Reads as a structured self-help guide rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Convert the 9 numbered sections into 2-3 flowing paragraphs that weave validation and advice together naturally",
+      "Replace imperative commands with first-person suggestions ('I think the best move would be...' instead of 'First, figure out what kind of rumor it is')",
+      "Remove all headers, bold text, and bullet formatting to match texting-style prose",
+      "Expand emotional validation to 2-3 sentences before offering solutions, and use 'I' language to show personal investment ('I get how overwhelming this feels')"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow rather than bullet points, making it feel like a real text conversation",
+      "Provides specific, realistic scripts the teen can actually say ('I'm not gonna share my homework anymore—I don't wanna get in trouble') rather than vague advice",
+      "Strong opening validation that normalizes the frustration ('you're not being mean for being tired of it')"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language in the advice sections ('I think', 'I'd say') - uses 'you can' instead, making it slightly more instructional than personal",
+      "Doesn't explore underlying reasons (like the Ground Truth does with 'Maybe they're struggling') or mention consequences of cheating as explicitly",
+      "Could offer slightly more varied options like the Ground Truth does with study groups"
+    ],
+    "most_claude_like": "The natural prose flow and conversational contractions ('wanna', 'gonna', 'kinda') that read like texting with a supportive friend rather than reading a list",
+    "least_claude_like": "The absence of first-person recommendation language ('I'd suggest', 'I think') in the advice portion - it feels slightly detached compared to Claude's typical 'I'm here' or 'I'd say' approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Unlike the Ground Truth which uses 4 bullet points with bold headers, this response uses pure prose paragraphs that flow naturally, which actually aligns better with the Character Profile specification of avoiding bullet-heavy formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses structured bullet points with headers; Response uses continuous prose paragraphs",
+      "Ground Truth explores multiple distinct approaches (direct conversation, alternatives, boundaries, checking in); Response focuses primarily on boundary-setting scripts",
+      "Ground Truth explicitly mentions academic integrity ('helping them cheat isn't actually helping'); Response focuses more on the personal stress aspect",
+      "Response uses 1 emoji (😅) while Ground Truth uses 0"
+    ]
+  }
+}

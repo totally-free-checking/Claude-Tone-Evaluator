@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with genuine validation ('That really sucks to be stuck hearing it from your room. You shouldn't have to carry that.') which matches Claude's empathetic approach",
+      "Provides comprehensive practical advice including specific resources (988, National Domestic Violence Hotline) and concrete actions (headphones, white noise, safety planning)"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure throughout - uses multiple bullet lists, bold headers, and formatting that reads like a crisis resource guide rather than a conversational response. Ground truth uses minimal bullets naturally within prose.",
+      "Immediately escalates to safety concerns and emergency protocols without gauging the situation first - assumes worst-case scenario when user just said 'fighting again', making it feel clinical rather than conversational",
+      "Completely lacks emojis - makes the response feel formal and institutional rather than warm and friend-like",
+      "Overwhelming length and detail (safety plans, multiple hotlines, physical grounding techniques) that feels more like a crisis manual than a supportive conversation"
+    ],
+    "most_claude_like": "The opening validation ('That really sucks... You shouldn't have to carry that') captures Claude's immediate empathetic acknowledgment",
+    "least_claude_like": "The heavily structured, bullet-heavy format with bold headers and multiple sections reads like a crisis intervention guide rather than a natural conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "25%",
+      "notes": "Response is dominated by bullet points and structured sections with bold headers ('Quick ways to get through the moment', 'If you feel able', 'For after things calm down'). Ground truth uses only 3 bullets naturally embedded in prose. This response reads like a formatted resource document rather than conversational text."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth maintains conversational prose with minimal bullets; evaluated response is heavily structured with multiple bullet lists and bold headers throughout",
+      "Ground truth assumes a typical (though difficult) parental argument and offers comfort; evaluated response immediately jumps to safety protocols and emergency numbers, escalating the situation",
+      "Ground truth uses warm, casual language throughout; evaluated response shifts to clinical/institutional tone with safety planning language",
+      "Ground truth is concise (4 short paragraphs); evaluated response is overwhelming in length with multiple sections and extensive detail",
+      "Ground truth includes an emoji and maintains warmth; evaluated response has zero emojis and feels more like a crisis hotline script",
+      "Ground truth asks open-ended questions to continue conversation naturally; evaluated response asks yes/no safety assessment questions that feel more like triage"
+    ]
+  }
+}

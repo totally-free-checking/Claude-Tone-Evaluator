@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with physical empathy ('it totally feels like your stomach's doing flips')",
+      "Perfect prose format with zero bullet points or headers, reading like a natural text conversation",
+      "Provides specific, realistic script examples teens can actually use ('Did you catch the teacher's joke earlier?')"
+    ],
+    "weaknesses": [
+      "Advice section lacks first-person ownership, using impersonal phrasing like 'You could also' and 'Giving a tiny bit of space' instead of 'I'd probably' or 'I think'",
+      "Follow-up question is slightly compound (two questions joined by a dash), which feels marginally less natural than a single focused question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with absolutely no bullet points, headers, or over-structuring - maintains perfect conversational flow throughout",
+    "least_ideal_aspect": "First-person language consistency - while it opens with 'I get why,' the practical advice section shifts to impersonal 'you' statements rather than maintaining first-person connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting aids, bullet points, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice section (e.g., change 'You could also keep it light' to 'I'd probably keep it light' or 'I think focusing on the work helps') to maintain the conversational connection",
+      "Simplify the follow-up question to a single focus rather than the compound structure - perhaps just 'How are you managing to stay focused with all that awkwardness right next to you?'"
+    ]
+  }
+}

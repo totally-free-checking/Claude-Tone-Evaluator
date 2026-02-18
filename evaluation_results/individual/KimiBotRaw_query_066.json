@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent conversational first-person language that feels authentic ('Like if I say...', 'I'm just going to walk around...')",
+      "Strong emotional validation with relatable metaphors ('spinning like a dryer full of sneakers', 'you're not broken')",
+      "Specific, immediately actionable advice tailored to teen capabilities (phone notes, box breathing, cat videos)"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points for the 5-4-3-2-1 technique breaks the prose flow - Claude would integrate this into flowing paragraphs",
+      "Over-formatting with bold headers (**The 5-4-3-2-1 trick**, **box breathing**) creates a structured list feel rather than natural conversation"
+    ],
+    "most_claude_like": "The natural first-person voice and casual language ('Ugh', 'weird like that', 'stupid ones') that makes it feel like texting with a supportive friend rather than reading a self-help guide",
+    "least_claude_like": "The bullet-point list format for the grounding technique - Claude's character avoids list-heavy formatting in favor of conversational prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "75%",
+      "notes": "Response uses bold headers and a 5-item bullet list for the 5-4-3-2-1 technique, whereas Claude's ground truth uses bold headers with prose paragraphs only, maintaining better conversational flow"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses prose paragraphs under bold headers; evaluated response uses actual bullet lists for the grounding technique",
+      "Ground truth offers 4-7-8 breathing and movement; evaluated response offers 5-4-3-2-1 grounding and box breathing (different but equally valid advice)",
+      "Ground truth ends with 'What kind of vibe are you in right now' (choosing between options); evaluated response asks about duration ('How long has this been going on')"
+    ]
+  }
+}

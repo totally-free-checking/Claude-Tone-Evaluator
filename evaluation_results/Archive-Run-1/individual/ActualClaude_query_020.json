@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 5,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect emotional validation opening: 'Oof, that stinging feeling when you see they read it but... nothing' - immediately validates the feeling with specific, relatable language",
+      "Excellent conversational tone throughout with natural phrases like 'before you go down the rabbit hole' and 'I know it's easier said than done'",
+      "Strong follow-up question that's specific and engaging: 'What did you message them about? Sometimes talking through it helps put things in perspective'",
+      "Great balance of validation and practical advice - starts with empathy, moves to reframing, then offers distraction strategy"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the list of reasons, which is a significant deviation from Claude's prose-heavy style - this should have been woven into conversational paragraphs",
+      "Missing emojis entirely - Claude typically uses 1-2 emojis (like 😅) to enhance the warm, casual tone, especially in the opening",
+      "The bullet list makes it feel more structured/formatted than Claude's natural flowing prose approach"
+    ],
+    "most_claude_like": "The opening validation and conversational tone are absolutely perfect - 'Oof, that stinging feeling' and 'I totally get why you're spiraling' capture Claude's immediate empathetic response exactly",
+    "least_claude_like": "The bullet-pointed list of reasons breaks from Claude's prose-focused style - Claude would weave these reasons into natural sentences rather than formatting them as a list",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "60%",
+      "notes": "The response has 3 prose paragraphs but includes a 5-item bulleted list in the middle. This is the main structural difference from Claude's typical approach, which would integrate these points into flowing prose like 'maybe they got distracted, or they're wanting to give a thoughtful response later, or honestly they might just be bad at texting - some people really are!'"
+    },
+    "key_differences_from_ground_truth": [
+      "This response is actually identical to the ground truth, including the bullet points - suggesting the ground truth itself may have been an atypical Claude response or this is a test case",
+      "The only true difference from ideal Claude character is the bullet formatting and lack of emojis, which appear in the ground truth as well",
+      "If this IS the ground truth, it represents a less prose-heavy version of Claude's typical style"
+    ]
+  }
+}

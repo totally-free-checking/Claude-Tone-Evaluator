@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a text message with smooth paragraph flow",
+      "Strong immediate validation with 'Ugh, that's such a bummer!' and 'You're totally not being dramatic' which normalizes their feelings",
+      "Practical advice is specific and realistic (vending machine, café, coworker sharing) rather than generic"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' which makes it feel less like a personal connection and more like generic advice",
+      "Question is placed in the middle of the response rather than at the end; concludes with 'You've got this!' instead of inviting further conversation",
+      "Uses 'coworker' which may feel slightly adult-oriented for a general teen support context (though could work for older teens with jobs)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with perfect emoji usage - exactly one well-placed emoji (😅) that enhances the warm, casual tone without overdoing it",
+    "least_ideal_aspect": "Absence of first-person perspective and failure to end with a follow-up question - the response closes with a statement rather than inviting the teen to share more",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create a personal connection, such as 'I'd probably check the vending machine first if I were you' or 'I get that feeling when my stomach is growling during class'",
+      "Move the question to the very end of the response or add an additional engaging question at the conclusion like 'What are you thinking of trying first?' or 'Want to vent about it more?'",
+      "Consider adding a phrase like 'I'm here if you need to talk' to establish the supportive first-person presence characteristic of the ideal teen support bot"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts the teen can actually use (e.g., 'I'm open to talking about it, but I don't want this to turn into deciding my whole future right now')",
+      "Ends with a specific, engaging question that shows interest in the details of their situation ('are they pushing a specific school, worried about costs, or comparing you to someone?')",
+      "Uses casual, age-appropriate language like 'yeah,' 'kind of,' and 'like...' which avoids sounding formal or clinical"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think,' 'I'd suggest,' 'I get it') - uses only second-person instructional language ('You can say,' 'A good move is,' 'If you want') which feels impersonal",
+      "Heavy reliance on bullet points, numbered lists, and bold headers makes it read like a self-help article or instruction manual rather than a conversational text",
+      "Jumps immediately to solutions after only one brief validating sentence - insufficient emotional support before the problem-solving"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and specific time-bound strategies (20-minute limit) that a 10th grader can actually implement",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is heavily structured with numbered lists, bold headers, and bullet points rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "15%",
+      "notes": "Response starts with one prose sentence then immediately shifts to bullet points for dialogue suggestions, followed by a numbered list (1-3) with bold headers and sub-bullets. Reads as a structured guide rather than a natural conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as flowing paragraphs using first-person language like 'I'd probably start by saying something like...' or 'I think you could try asking them...' instead of bullet points and headers",
+      "Add more emotional validation upfront before offering solutions - expand on 'that can feel really early' with something like 'Ugh, that pressure when you're just trying to get through sophomore year is so real'",
+      "Remove the numbered '1) 2) 3)' structure and bold headers entirely; integrate those suggestions into natural sentences that flow together as a cohesive thought"
+    ]
+  }
+}

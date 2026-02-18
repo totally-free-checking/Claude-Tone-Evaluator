@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation: 'Liking two people at the same time is way more common than people admit, and it doesn't make you a bad person' directly addresses the guilt",
+      "Practical advice is specific and actionable, particularly 'Separate feelings from actions' and the distinction between commitment levels",
+      "Does end with follow-up questions that show genuine interest in understanding the situation better"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (5 major bullet points with bold headers) - completely opposite of Claude's prose-based approach. Ground truth has only 3 simple bullets embedded in prose",
+      "Zero emojis - makes it feel formal and cold compared to Claude's warm, casual tone",
+      "Bold formatting throughout (**Check what you've actually committed to**, etc.) creates a self-help article feel rather than conversational support",
+      "Jumps too quickly into analytical advice without enough emotional cushioning - Claude spends more time validating before problem-solving"
+    ],
+    "most_claude_like": "The opening validation 'Liking two people at the same time is way more common than people admit, and it doesn't make you a bad person' perfectly captures Claude's immediate reassurance approach",
+    "least_claude_like": "The heavily structured bullet-point format with bold headers reads like a relationship advice article rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bullet points with bold headers. Ground truth uses only 3 simple bullets embedded within conversational prose (70% prose vs 30% here). The bold formatting and structured headers make it feel like a checklist rather than natural conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is primarily prose (2 opening paragraphs, 3 simple bullets, closing paragraph) vs. evaluated response is bullet-heavy with bold headers",
+      "Emotional tone: Ground truth uses warmer language ('Hey, that sounds really tough!', 'Hearts can be pretty messy sometimes!') with an emoji, while evaluated response is more analytical and formal",
+      "Advice delivery: Ground truth embeds advice naturally in conversation, evaluated response presents it as structured steps with headers",
+      "Length of validation: Ground truth spends 2 full paragraphs validating before any advice, evaluated response moves to bullets after 2 sentences",
+      "Follow-up approach: Ground truth asks open-ended 'Want to talk through what's going on a bit more?' vs. evaluated response asks 3 specific numbered questions (feels more like an intake form)"
+    ]
+  }
+}

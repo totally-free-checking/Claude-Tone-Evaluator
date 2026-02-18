@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's so irritating') and normalizes the feeling of wanting individuality",
+      "Uses natural first-person language throughout ('If I were you, I'd try...', 'I just want you to hear me') creating a supportive peer-like connection",
+      "Provides specific, realistic scripts for the conversation including follow-up responses if the friend 'plays dumb'"
+    ],
+    "weaknesses": [
+      "Moves quickly to psychological explanation ('people copy when they're insecure') which could slightly dilute the initial emotional validation",
+      "The 😅 emoji after 'irritating' creates a slightly mixed signal (nervous laughter vs. frustration), though it works for the awkwardness of the situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers - flows as conversational paragraphs that read like texting with a supportive friend",
+    "least_ideal_aspect": "Could benefit from one additional sentence of pure emotional validation before explaining the psychology behind why people copy others",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with four natural paragraphs. No lists, headers, bold text, or over-formatting. Advice is woven into narrative sentences rather than broken out into steps."
+    },
+    "specific_feedback": [
+      "Consider adding one more line of validation like 'That feeling of losing your individuality is so valid' before explaining why people copy",
+      "The follow-up question is excellent and specific, but could be slightly more open-ended by removing the examples to invite more storytelling, though the examples provided are helpful categorizations"
+    ]
+  }
+}

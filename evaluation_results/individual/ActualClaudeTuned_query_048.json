@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 8.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm sorry', 'I totally get', 'I think') which creates genuine connection",
+      "Provides specific, actionable script for the teen to use with family ('I know you don't mean it this way...') making advice immediately usable",
+      "Maintains pure prose format with natural conversational flow using contractions and casual phrasing ('gonna', 'spelled out')"
+    ],
+    "weaknesses": [
+      "Includes an emoji (😅) when the user didn't request one and ground truth uses none, slightly violating the 'don't use unless asked' guideline",
+      "Heavier emphasis on practical solutions compared to ground truth, which focused more on pure validation and venting space",
+      "Slightly longer than ground truth (4 paragraphs vs 3), making it a bit less concise though still readable"
+    ],
+    "most_claude_like": "The natural first-person voice and specific actionable advice with realistic scripting for family conversations",
+    "least_claude_like": "The inclusion of an emoji without being asked, whereas Claude's ground truth response achieves warmth through words alone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or over-structuring. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses primarily on validation and inviting venting without offering specific scripts, while evaluated response provides concrete dialogue to use",
+      "Ground truth is more concise (3 short paragraphs) and validation-heavy, while evaluated response balances advice and validation over 4 paragraphs",
+      "Ground truth uses no emojis; evaluated response uses one (😅)",
+      "Ground truth ends with open-ended 'Want to vent?' while evaluated response asks specific diagnostic question about who is making the comparisons"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Provides excellent specific scripts for follow-up texts (e.g., 'Hey, did you end up seeing this? No worries if you got busy') that are realistic and non-desperate",
+      "Offers concrete time-based guidance (<24 hours, 1-2 days, 3+ days) that gives teens clear benchmarks for action",
+      "The reality check section acknowledges multiple possibilities without being dismissive of the pain"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with headers (###), bold text, and bullet points throughout - reads like a self-help article rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal instructional tone throughout",
+      "Asks four questions at the end which feels like an interrogation or intake form rather than a natural conversation starter",
+      "Uses clinical psychological terminology ('threat-scanning', 'adrenaline loop', 'rumination', 'anxious attachment triggers') that feels clinical rather than warm",
+      "Jumps from brief validation immediately into structured 'steps' and 'plans' without maintaining emotional connection"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific text message scripts and timeframes are exactly what a spiraling teen needs, just delivered in the wrong format",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is formatted like a wikiHow article with headers, subheaders, bold text, and multiple bullet lists instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response uses ### headers for 6 sections, bold text for emphasis throughout, and extensive bullet lists. Only the opening sentence is true prose. Reads as a structured guide rather than a supportive message."
+    },
+    "specific_feedback": [
+      "Convert the structured sections into 2-3 natural paragraphs flowing from validation to advice - remove all ### headers and bullet points",
+      "Add first-person empathetic language like 'I get how much this sucks' or 'I've definitely stared at my phone waiting for a text too' to create personal connection",
+      "Reduce the four questions at the end to one natural follow-up like 'How long has it been since you sent the text?' instead of the numbered list",
+      "Remove clinical terms like 'threat-scanning' and 'adrenaline loop' - replace with casual language like 'your brain is spiraling' or 'that anxious feeling'",
+      "Add one warm emoji (like 😅 or 💙) early in the response to set a supportive tone without being excessive"
+    ]
+  }
+}

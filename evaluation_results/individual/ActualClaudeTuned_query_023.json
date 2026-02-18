@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong immediate validation ('Ugh, that's the worst feeling!') that mirrors the ground truth's empathetic entry point",
+      "Writes in natural conversational prose without any bullet points or formatting, reading like a text from a supportive friend",
+      "Provides specific, teen-realistic advice including homework, library, and outdoor options that acknowledge a teen's actual constraints"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) when the ground truth uses none and the user didn't request emojis, slightly deviating from the '0 unless asked' guideline",
+      "Lacks the explicit normalization statement ('eating alone is actually pretty normal') that the ground truth includes, which is a key validation technique",
+      "Slightly more directive tone ('you could always bring...') compared to the ground truth's collaborative approach ('Are you somewhere you could...')"
+    ],
+    "most_claude_like": "The natural prose formatting with zero bullet points and the conversational flow that balances validation with practical suggestions",
+    "least_claude_like": "The inclusion of the 😅 emoji when the ground truth maintains warmth through words alone without emoji usage",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 0 emojis while evaluated uses 1 (😅)",
+      "Ground truth asks about time remaining ('How much longer do you have to sit there?') while evaluated asks about context ('Is this a new situation...')",
+      "Ground truth explicitly normalizes eating alone as a choice; evaluated mentions others are alone but doesn't frame it as positively",
+      "Ground truth suggests people-watching as an activity; evaluated suggests homework and changing location (library/classroom/outside)"
+    ]
+  }
+}

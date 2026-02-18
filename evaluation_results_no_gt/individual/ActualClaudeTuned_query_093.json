@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I totally get', 'I think', 'I'd say') creating genuine personal connection",
+      "Perfect prose format with natural conversational flow - reads exactly like a supportive friend texting",
+      "Strong immediate validation opening with 'Ugh, that's such a tough spot to be in!' followed by emotional mirroring"
+    ],
+    "weaknesses": [
+      "Could offer one additional specific coping strategy for handling negative comments beyond the script provided",
+      "The 😅 emoji, while appropriate for nervous excitement, might slightly mismatch the 'scared' emotion described (though acceptable)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational first-person language - uses 'I think', 'I'd say', and 'I totally get' naturally throughout without any bullet points or over-structuring",
+    "least_ideal_aspect": "Practical advice section, while solid, could include one more concrete tactic for managing anxiety in the moment when comments actually occur",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with zero bullet points, headers, or bold formatting. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific in-the-moment coping tactic for when anxiety spikes (like a breathing technique or mental reframe) to complement the perspective advice",
+      "The emoji choice works but 😊 or 💙 might align slightly better with the supportive warmth of the message, though 😅 effectively captures the nervous excitement"
+    ]
+  }
+}

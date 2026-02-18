@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent - very specific and actionable (2-minute timer, defining 10-minute tasks, phone placement)",
+      "Follow-up question is strong and specific - offers to help break down the actual assignments, showing genuine engagement"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format for heavy bullet-point structure - has 4 numbered sections with multiple sub-bullets each, reads like a productivity article not a conversation",
+      "Opens with validation but immediately pivots to solutions without emotional acknowledgment - 'Totally been there' is the only empathetic moment before launching into strategies",
+      "Zero emojis - makes it feel formal and cold compared to Claude's warm, casual tone with natural emoji use",
+      "Uses headers and formatting (### 1), 2), etc.) that Claude explicitly avoids - feels like a structured guide rather than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up offer to help break down specific assignments shows genuine engagement and continues the conversation naturally",
+    "least_claude_like": "The heavy bullet-point formatting with numbered sections and headers - this is the complete opposite of Claude's prose-based conversational approach",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response is 85% structured lists with 4 numbered sections (### headers), each containing multiple bullet points. Only the opening sentence and closing offer are in prose. This is the antithesis of Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses conversational paragraphs with bold emphasis for key phrases; evaluated response uses numbered sections with headers and extensive bullet lists",
+      "Ground truth opens with strong emotional validation ('Ugh, that feeling is THE WORST!') and maintains warmth throughout; evaluated response has minimal validation ('Totally been there') before jumping to solutions",
+      "Ground truth includes emoji (😊 implied in tone) and casual language ('UGHHHHH'); evaluated response has zero emojis and more clinical tone",
+      "Ground truth balances support and advice naturally in prose; evaluated response is 90% structured advice with minimal emotional support",
+      "Ground truth maintains conversational flow; evaluated response reads like a productivity blog post with sections and subsections"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language ('Ugh, that really sucks') that mirrors Claude's 'Ugh, that's the worst feeling'",
+      "Uses natural first-person language throughout ('maybe I can help you', 'I know it feels endless') creating authentic conversational flow",
+      "Maintains perfect prose format with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Fails to end with a follow-up question, closing instead with a validation statement; Claude's approach nearly always ends with an engaging question to continue the conversation",
+      "Includes humor about 'guilt-trip them into getting your favorite snacks' which slightly diverges from Claude's more straightforward supportive tone (though still warm)",
+      "The practical advice is slightly less concrete than the ground truth, focusing more on venting and humor than specific actionable steps for talking to parents"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational flow with appropriate contractions and casual language ('that really sucks', 'everyone's piled on about it')",
+    "least_claude_like": "The lack of a closing question to continue the conversation; Claude's responses almost always end with an invitation to share more or a specific question about next steps",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Uses paragraph breaks naturally to separate thoughts."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth ends with a specific question about being stuck at home and talking it out; evaluated response ends with a validation statement without inviting further conversation",
+      "Ground truth uses zero emojis while evaluated response uses one (😅), though this is within acceptable character limits",
+      "Ground truth focuses on 'talking it out with them once things cool down' as the primary path forward, while evaluated response adds humor about guilt-tripping parents for snacks which is less characteristic of Claude's straightforward supportive approach"
+    ]
+  }
+}

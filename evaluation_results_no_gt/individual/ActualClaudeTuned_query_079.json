@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads exactly like a supportive text message",
+      "Strong first-person language throughout ('I know it feels like','I think it's easier','I'm so sorry') creating genuine connection",
+      "Specific, actionable advice tailored to teen school context (bringing familiar snacks, eating before school, sitting with comfortable friends)",
+      "Opens with immediate emotional validation ('you're definitely not alone','super common') before moving to solutions"
+    ],
+    "weaknesses": [
+      "Uses two questions at the end rather than one focused follow-up ('Is this something new... And do you have friends...') which slightly dilutes the engagement",
+      "The 😅 emoji placement after 'I'm so sorry you're dealing with that' feels slightly mismatched - the emoji suggests nervous laughter/awkwardness while the text expresses sympathy, which could read as the bot being uncomfortable rather than supportive",
+      "Could deepen validation by naming the specific emotion (embarrassment, shame, anxiety) rather than just 'feeling weird'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero structural elements - perfectly matches the 'texting a friend' aesthetic without any bullet points or headers",
+    "least_ideal_aspect": "Emoji choice and placement - the 😅 after an apology creates a slightly awkward tonal mismatch suggesting the speaker is nervous rather than offering warm support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, bold text, or numbered lists. Advice flows naturally within conversational paragraphs rather than being listed out."
+    },
+    "specific_feedback": [
+      "Replace the 😅 emoji with either no emoji or a warmer choice like 💙 or 😊, or move it to after 'feeling weird about it' to signal shared understanding rather than awkwardness",
+      "Consolidate the final two questions into one natural question like 'Is this something new, or have you felt this way for a while - and do you have specific friends who make it easier or harder?' to avoid the 'interrogation' feeling of multiple questions",
+      "Consider acknowledging the specific vulnerability of eating in front of others (fear of judgment, body image, etc.) to deepen the emotional validation before offering the 'people aren't watching' perspective"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation with 'That really sucks, and I'm sorry you had to hear that' and reassurance that 'You're not overreacting' which acknowledges the emotional weight",
+      "Practical advice is specific and realistic for a teen's situation, offering concrete steps like documenting incidents and checking in with affected classmates"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers instead of natural prose paragraphs, making it read like an instructional guide rather than a supportive conversation",
+      "Lacks first-person language throughout the advice section (no 'I think', 'I'd suggest', or 'If I were you') which creates emotional distance rather than the connection of a supportive friend"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are actionable, age-appropriate, and consider the teen's limited power in a school hierarchy",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response uses four structured bullet points with bold formatting that breaks the conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "Response contains four distinct bullet points with bold headers (Talk to the teacher privately, Reach out to someone else, Document it, Support affected classmates). While the content within the bullets is sentence-based, the formatting is highly structured and list-like rather than flowing prose."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose using first-person transitions like 'I think you could start by...' or 'If it were me, I'd probably...' to maintain the conversational tone",
+      "Combine the two final questions into one more focused question like 'Which of these approaches feels most doable for your situation right now?' to avoid the interrogation feeling of multiple questions"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates genuine connection ('I totally get why you're upset', 'I think the best approach', 'I'd probably be more careful')",
+      "Provides specific, actionable script for the conversation ('Hey, I noticed my [whatever item] got pretty damaged - were you planning to replace it or help me fix it?')",
+      "Opens with immediate emotional validation acknowledging the complex feelings ('weird mix of being annoyed but also feeling awkward')"
+    ],
+    "weaknesses": [
+      "The phrase 'If they're a real friend' could potentially feel slightly judgmental, though it serves to validate the user's standards",
+      "Could explicitly name the specific emotions (betrayal, disappointment) in addition to 'frustrating' and 'upset'"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural contractions, casual phrasing ('blow you off', 'either way'), and consistently employs 'I think/I'd/I get' to sound like a supportive peer rather than an authority figure",
+    "least_ideal_aspect": "Emoji usage - while appropriate to have none given the frustrating topic, a single supportive emoji (like 😅 or 💙) after the validation could enhance warmth without undermining the seriousness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No lists, headers, bold text, or structured formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💙) after the first paragraph to enhance warmth, though the current no-emoji approach works for this serious topic",
+      "The validation is strong but could briefly acknowledge that feeling mad or betrayed is totally valid too, not just 'frustrated'"
+    ]
+  }
+}

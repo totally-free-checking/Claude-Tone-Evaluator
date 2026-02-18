@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd definitely', 'I'd text') which creates a personal, supportive connection",
+      "Strong emotional validation with specific physical descriptions ('your heart probably dropped into your stomach') that shows genuine empathy",
+      "Natural conversational flow with appropriate casual language ('where the heck did I put it?', 'just the worst') without trying too hard"
+    ],
+    "weaknesses": [
+      "Slightly more advice-heavy compared to the ground truth, which prioritizes immediate calming and questions before detailed suggestions",
+      "Could benefit from an earlier grounding/calming prompt like 'take a deep breath' before jumping into action steps",
+      "Slightly longer than the ground truth response, making it a bit less concise for a quick read"
+    ],
+    "most_claude_like": "The natural prose format with zero bullet points and the warm, validating opening that immediately acknowledges the emotional experience ('That panicky feeling... is just the worst')",
+    "least_claude_like": "The density of practical advice in the middle paragraphs - Claude's ground truth response focuses more on asking questions and offering reassurance before listing multiple action steps",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Flows naturally as conversational text."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth suggests taking a deep breath and calming first, while evaluated response moves more quickly into actionable advice",
+      "Ground truth asks questions earlier in the response, while evaluated response waits until the end",
+      "Evaluated response includes more specific advice (texting friends, asking specific teachers) compared to ground truth's broader suggestions",
+      "Ground truth uses a heart emoji (💙) for warmth while evaluated uses a nervous/sweat emoji (😅) which has a slightly different emotional tone"
+    ]
+  }
+}

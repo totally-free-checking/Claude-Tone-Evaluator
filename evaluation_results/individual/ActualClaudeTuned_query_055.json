@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I know it feels huge', 'I think it's better', 'Sometimes I think') which creates authentic connection",
+      "Pure prose format with zero bullet points reads like a natural text conversation rather than a structured guide",
+      "Opens with immediate emotional validation ('Ugh, that's the worst feeling!') and solidarity ('we've all felt at some point')"
+    ],
+    "weaknesses": [
+      "Uses one emoji (😅) while ground truth used none - though within acceptable 0-1 range, zero is preferred unless asked",
+      "Could offer slightly more specific tactical options (ground truth mentioned editing/posting follow-up vs just deleting)",
+      "Slightly less structured advice section compared to ground truth's clear option breakdown"
+    ],
+    "most_claude_like": "The natural first-person prose flow with phrases like 'Sometimes I think it's better to just remove something' and 'I know it feels huge when it's your post' - this sounds exactly like a supportive friend texting",
+    "least_claude_like": "The inclusion of the 😅 emoji, while natural, is the main divergence from the ground truth which relied purely on words to convey warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points or lists, flowing naturally from validation to reassurance to advice. This aligns perfectly with the character profile's preference for prose over bullet-heavy formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 4 bullet points to list options while evaluated response integrates advice into prose paragraphs",
+      "Ground truth asks 'What kind of post was it?' early then ends with 'Want to talk about what's bugging you?' while evaluated response saves the specific question for the end",
+      "Evaluated response uses more first-person singular ('I think', 'I know') compared to ground truth's 'we' and 'I totally get'"
+    ]
+  }
+}

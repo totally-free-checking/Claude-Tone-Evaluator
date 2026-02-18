@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent pure prose format with zero bullet points, creating a natural conversational flow that reads like a text from a supportive friend",
+      "Strong first-person validation with specific emotional language ('honestly pretty violating','self-conscious and gross') that immediately makes the teen feel heard",
+      "Provides a concrete, ready-to-use script for setting boundaries ('Hey, can you please stop commenting on my body?') that's realistic and actionable"
+    ],
+    "weaknesses": [
+      "Uses slightly more intense emotional language ('violating','gross') compared to Claude's typically measured warmth, though still appropriate for the situation",
+      "Could include slightly more explicit reassurance that the comments reflect on the commenter rather than the teen, similar to the ground truth's 'This is about them, not you'"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points or headers - this actually matches the character description better than the ground truth response which used formatted lists",
+    "least_claude_like": "The use of a blue heart emoji (💙) when the ground truth used none, though this is still within the 0-1 acceptable range per the character guidelines",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format throughout with no bullet points, dashes, or headers. Advice flows naturally within sentences rather than being listed out, creating a more conversational, friend-texting feel compared to the ground truth's structured approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Response uses pure prose while ground truth uses bullet points with bold headers (Setting boundaries/Depending on the situation/Remember)",
+      "Response includes one emoji (💙) while ground truth uses none",
+      "Response uses more casual/conversational language ('whatever','gross','trickier') compared to ground truth's slightly more formal structure",
+      "Response integrates advice into flowing paragraphs while ground truth separates advice into categorized lists"
+    ]
+  }
+}

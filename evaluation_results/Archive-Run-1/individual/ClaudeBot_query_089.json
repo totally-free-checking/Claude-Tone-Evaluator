@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice quality - the 'triage' approach and 'time boxes' strategy are concrete and actionable, with specific examples like 'not do taxes, but find the login'",
+      "Strong follow-up question that's specific and relevant - asks about the type of pile and deadlines, which shows genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Completely lacks warmth and emotional validation - jumps straight into explanation mode with 'When everything piles up, procrastination usually stops being laziness...' instead of acknowledging the feeling first like Claude's 'Ugh, that's such a frustrating feeling!'",
+      "Heavily structured with bullet points and formatting - uses bold headers, multiple bullet lists, and reads like a productivity article rather than a conversation. Claude uses minimal bullets and keeps it conversational",
+      "No emoji usage at all - makes the response feel formal and cold compared to Claude's warm 🙂",
+      "Too long and dense - reads like a comprehensive guide rather than a supportive text conversation. Claude's response is more digestible"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural and specific, asking about the type of pile and deadlines to continue the conversation meaningfully",
+    "least_claude_like": "The complete absence of emotional validation at the start - Claude immediately validates with 'Ugh, that's such a frustrating feeling!' while this response launches into analytical explanation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Response uses multiple bullet points in the 'tactics' section and bold formatting throughout. While it has prose paragraphs, the overall structure feels like a productivity guide with sections and lists rather than natural conversation flow. Claude's response has some bold headers but maintains much more conversational prose"
+    },
+    "key_differences_from_ground_truth": [
+      "Tone: Ground truth starts with immediate emotional validation ('Ugh, that's such a frustrating feeling!') while evaluated response starts with analytical explanation about procrastination psychology",
+      "Structure: Ground truth uses minimal formatting with conversational flow; evaluated response is heavily structured with multiple bullet lists and reads like an article",
+      "Length: Ground truth is concise and digestible; evaluated response is significantly longer and more comprehensive but less conversational",
+      "Warmth: Ground truth has warm phrases throughout ('hey, you reached out about it... that's actually a good sign! 🙂'); evaluated response is clinical and advice-focused with no emotional warmth",
+      "Emoji: Ground truth includes a supportive emoji; evaluated response has none"
+    ]
+  }
+}

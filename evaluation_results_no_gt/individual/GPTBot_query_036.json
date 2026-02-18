@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 5.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Excellent specific advice with concrete scripts the teen can use (e.g., 'I'm worried because I saw/heard ___, and it didn't sit right with me')",
+      "Strong follow-up questions at the end that are specific to the situation and show genuine interest in helping further",
+      "Comprehensive coverage of safety concerns and red flags, showing appropriate seriousness about potential danger"
+    ],
+    "weaknesses": [
+      "Extremely heavy formatting with 6 numbered sections, markdown headers (###), and multiple bullet point lists makes it read like a wiki article rather than a supportive conversation",
+      "Lacks first-person conversational language (no 'I think,' 'I'd say,' or 'I get it') - feels impersonal and instructional rather than like texting with a friend",
+      "Minimal emotional validation before diving into extensive advice - only one sentence of validation before 6 sections of solutions",
+      "Overwhelming length and structure for a teen reading on a phone - feels like a manual rather than a chat"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides extremely specific, actionable guidance with exact phrases to use and realistic safety considerations",
+    "least_ideal_aspect": "Prose formatting - uses extensive bullet points, numbered lists, and headers instead of natural conversational paragraphs, reading like an advice article rather than a supportive text",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response uses 6 numbered sections with markdown headers (###), extensive bullet lists under sections 2-6, and sub-bullet points. Only the opening sentence and final paragraph are prose. Reads as a structured guide rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Convert the 6 numbered sections into 2-3 flowing paragraphs that blend validation with advice naturally, like 'I think I'd start by getting clear on why you don't trust them...'",
+      "Add first-person language throughout ('I think,' 'I'd say,' 'I get how stressful that is') to create a personal connection rather than sounding like an instruction manual",
+      "Move the extensive red flag list and boundary scripts into conversational sentences rather than bullet points - e.g., 'If you're seeing things like isolation or threats, that changes things completely...'",
+      "Start with more emotional validation before offering solutions - acknowledge how hard it is to watch a friend in this situation and validate that their instincts matter"
+    ]
+  }
+}

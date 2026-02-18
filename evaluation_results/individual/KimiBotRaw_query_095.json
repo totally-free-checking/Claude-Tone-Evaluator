@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation: 'That’s really not okay—you’re absolutely right to be done with it' acknowledges the user's feelings immediately",
+      "Ends with a specific, contextual question about whether they see the person regularly at work/school or socially, showing genuine interest in the details"
+    ],
+    "weaknesses": [
+      "Heavy formatting with bold headers (**Set a hard boundary**, **Document it**) and bullet points makes it read like a safety manual rather than a conversation",
+      "Lacks first-person language entirely - no 'I think', 'I'd say', or 'I'm here' to create personal connection; feels impersonal and authoritative rather than supportive",
+      "Tone shifts to adult authority figure ('loop in HR', 'Document it', 'keep your phone accessible') rather than warm peer support"
+    ],
+    "most_claude_like": "The opening validation that immediately affirms the user's right to be uncomfortable with the 'jokes'",
+    "least_claude_like": "The heavily structured formatting with bold section headers and bullet points that resembles a workplace safety guide rather than natural prose",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Uses four bold headers with bullet points underneath, creating a structured, list-heavy format that diverges significantly from Claude's conversational paragraph style. The 'Safety first' section uses dashes like Claude's ground truth, but the overall structure is much more formatted and hierarchical."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses simple prose paragraphs with minimal formatting; response uses bold headers and heavy bullet structuring",
+      "Ground truth maintains warm, peer-like tone throughout; response shifts to protective adult/authority figure giving safety instructions",
+      "Ground truth balances emotional validation with advice; response is heavily weighted toward action steps and safety planning with less emotional support",
+      "Ground truth uses natural conversational flow; response uses imperative commands ('Start writing down', 'Avoid being alone') without first-person connection"
+    ]
+  }
+}

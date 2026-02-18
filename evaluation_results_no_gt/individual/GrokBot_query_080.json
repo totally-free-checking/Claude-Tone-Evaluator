@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with physical sensation acknowledgment: 'I totally get why your stomach's in knots right now' and 'like a punch to the gut'",
+      "Natural first-person language throughout: 'I'd say', 'I've been there', 'I totally get' creates authentic connection",
+      "Specific actionable advice with exact scripts: 'text them back something casual like \"Okay, what's up?\"' and 'owning your feelings like \"I'm kinda nervous about this\"'",
+      "Perfect prose formatting with zero bullet points, allowing advice to flow naturally within conversational paragraphs"
+    ],
+    "weaknesses": [
+      "Ends with two questions joined by 'and' rather than a single focused follow-up question",
+      "The reassurance 'most of the time it's not the end of the world' risks minimizing feelings, though the strong preceding validation mitigates this"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and authentic first-person language ('I'd say', 'I've been there')",
+    "least_ideal_aspect": "Dual question at the end ('Who said it to you, and do you have any guess...') rather than one focused inquiry",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider condensing the final question into a single inquiry to avoid splitting the user's attention between two response prompts",
+      "Maintain the current strong opening validation pattern—leading with 'Ugh, that's terrifying' immediately establishes emotional safety before moving to reassurance and advice"
+    ]
+  }
+}

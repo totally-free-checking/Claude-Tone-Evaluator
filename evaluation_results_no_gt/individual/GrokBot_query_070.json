@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 9.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I'd try') creating genuine connection",
+      "Provides specific, actionable script for the conversation ('Hey, I noticed you seemed mad...') rather than vague advice",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points"
+    ],
+    "weaknesses": [
+      "Could include slightly more emotional validation before moving to the 'friendships can get jealous' explanation",
+      "The transition from validation to advice is slightly abrupt though still effective"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural casual expressions like 'Ugh', 'Honestly', and 'What's up?' while consistently employing 'I' statements that make it feel like a real supportive friend texting",
+    "least_ideal_aspect": "Slight assumption about the friend's motivation ('used to being your main hangout buddy') without acknowledging other possible reasons for their anger, though this is a minor issue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, or over-formatting. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating sentence acknowledging how uncomfortable the situation feels before moving to the explanation about jealousy",
+      "The specific conversation script provided is excellent - maintain this level of concrete detail in future responses"
+    ]
+  }
+}

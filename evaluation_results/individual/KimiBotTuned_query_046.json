@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with relatable metaphors like 'convenient person instead of wanted person' that capture the hurt without being dismissive",
+      "Specific, actionable advice including exact phrases teens can use ('Wanna walk after school?', 'Hey, I've been feeling like I mostly hear from you when you need something')",
+      "Natural prose flow without any bullet points or over-formatting, reading like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Uses an emoji (💙) when the character prefers 0 unless explicitly asked to use them",
+      "Front-loads practical advice before asking clarifying questions, whereas Claude typically asks early (paragraph 2 in ground truth) to understand the situation better before diving deep into solutions",
+      "Could incorporate slightly more first-person language ('I get why that stings', 'I'm sorry you're dealing with this') to match Claude's 'I think/I'd say' pattern"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational validation style that balances 'ugh, that sucks' empathy with realistic friendship advice",
+    "least_claude_like": "The emoji usage - while only one and well-placed, the character profile specifically prefers 0 emojis unless the user asks for them, making this a slight deviation from Claude's typical approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks a clarifying question early (paragraph 2: 'Have you noticed this pattern with all your friends...') while the response waits until the end to ask, making it slightly more advice-heavy upfront",
+      "Ground truth uses 0 emojis while the response uses 1 (💙)",
+      "Response uses slightly more casual slang ('crappy', 'hits you up') compared to ground truth's slightly more measured but still warm tone"
+    ]
+  }
+}

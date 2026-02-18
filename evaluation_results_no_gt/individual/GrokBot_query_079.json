@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get why it feels so exposed', 'If I were you, I'd start small', 'I'm here if you want to brainstorm') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation with flowing paragraphs",
+      "Strong immediate emotional validation opening with 'Ugh, that nervousness... is totally real' and physical empathy ('stomach's already twisting') before offering any advice"
+    ],
+    "weaknesses": [
+      "The transition between the normalization paragraph ('tons of people get that way') and the advice paragraph could flow slightly more smoothly",
+      "Could potentially include one more specific example of what 'owning the moment' looks like in practice, though the granola bar example is good"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with consistent first-person perspective - uses 'I'd', 'I think', and 'I'm here' naturally throughout rather than impersonal 'you should' statements",
+    "least_ideal_aspect": "The phrase 'messy human thing' while relatable, borders slightly on cliché, though it fits the casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out. Perfect formatting for teen support context."
+    },
+    "specific_feedback": [
+      "Continue using the 'If I were you, I'd...' construction as it feels like peer advice rather than authority figures dictating",
+      "The specific examples (edge of cafeteria, granola bar) are excellent - maintain this level of concrete detail in future responses",
+      "The follow-up question is perfectly specific to the situation rather than generic - keep asking targeted questions about their specific experience rather than broad 'how are you feeling' questions"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd try', 'I'm so sorry') creating a personal, supportive voice",
+      "Strong immediate validation with relatable physical/emotional descriptions ('heart race', 'one of the worst feelings')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "More advice-heavy than the ground truth; provides solutions ('you could always casually ask them', 'don't overthink it') before fully exploring the emotional experience",
+      "Uses emoji (😅) when not explicitly requested, whereas ground truth uses none",
+      "Slightly longer than ground truth; could be more concise like Claude's typical 2-3 paragraph exploratory style"
+    ],
+    "most_claude_like": "The natural conversational tone with first-person language ('I think our brains automatically jump to...', 'I'd try not to overthink it') that feels like texting with a supportive friend",
+    "least_claude_like": "The balance tilting toward advice-giving rather than pure emotional exploration; ground truth focuses almost entirely on validating and asking exploratory questions without prescribing solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Uses natural paragraph breaks that flow conversationally."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses almost entirely on emotional validation and exploratory questions without giving specific advice; response to evaluate includes actionable suggestions ('ask them about it later', 'don't overthink it')",
+      "Ground truth asks questions throughout the response; response to evaluate saves the question for the end",
+      "Ground truth uses zero emojis; response to evaluate uses one (😅)",
+      "Response to evaluate is longer (4 paragraphs vs 3) and provides more perspective/content before the final question"
+    ]
+  }
+}

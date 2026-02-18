@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, maintaining natural conversational flow throughout",
+      "Provides specific, actionable advice with exact phrases to use ('field test on arch support comparison', 'asymmetrical is in') that are realistic for a teen to actually say",
+      "Opens with strong emotional validation ('please let the floor swallow me whole') that acknowledges the embarrassment"
+    ],
+    "weaknesses": [
+      "Missing follow-up question at the end - Claude nearly always ends with a natural question to continue the conversation (ground truth asks 'How's the rest of your day going')",
+      "Uses 2 emojis (👟👠) which exceeds the preferred 0-1 max for Claude's character",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') that defines Claude's supportive, personal voice"
+    ],
+    "most_claude_like": "The pure prose formatting with natural paragraph flow and complete absence of bullet points or over-structuring",
+    "least_claude_like": "The absence of a follow-up question to re-engage the user and continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs, no headers, no bold text, and no list structures - exactly matching Claude's conversational paragraph style"
+    },
+    "key_differences_from_ground_truth": [
+      "No follow-up question at the end to invite further conversation (ground truth asks about the rest of their day)",
+      "Uses thematic shoe emojis (👟👠) while ground truth uses a single face emoji (😅)",
+      "Lacks first-person perspective ('I think', 'I'd say') present in Claude's typical voice, relying entirely on second-person imperative"
+    ]
+  }
+}

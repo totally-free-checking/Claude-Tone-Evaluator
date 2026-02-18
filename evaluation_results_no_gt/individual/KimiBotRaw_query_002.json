@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 2,
+  "user_query": "My teacher asked for my homework and I fully forgot it existed.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent emotional validation opening with relatable language like 'heart-stopping oh crap feeling' and 'brain goes completely blank' that immediately normalizes the experience",
+      "Provides specific, actionable scripts the teen can actually use word-for-word ('I completely spaced on this—I'm so sorry') rather than vague advice",
+      "Ends with a natural, context-specific follow-up question about the subject that shows genuine interest in tailoring the advice"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**Right now:**, **Damage control:**, etc.) and bullet points which breaks the conversational prose format - reads more like an instruction manual than a text from a friend",
+      "Completely lacks first-person singular language ('I think', 'I'd suggest', 'If I were you') - uses impersonal instructional tone ('Here's your survival guide', 'Just own it honestly') instead of connecting as a supportive peer",
+      "The 'survival guide' framing feels more like a WikiHow article than a supportive conversation, creating distance rather than intimacy"
+    ],
+    "most_ideal_aspect": "The emotional validation in the opening paragraph perfectly captures the teen experience with phrases like 'the dreaded moment' and acknowledging the physical panic response",
+    "least_ideal_aspect": "The heavy use of headers, bold text, and bullet points under 'Damage control' makes it feel like a structured self-help article rather than natural conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses 4 bold headers (**Right now:**, **If you can actually do it quickly:**, **Damage control:**, **The silver lining:**) and 3 bullet points under Damage control. The advice is delivered in structured segments rather than flowing naturally within paragraphs."
+    },
+    "specific_feedback": [
+      "Replace headers and bullet points with flowing paragraphs - instead of **Damage control:** followed by bullets, write something like 'I'd also suggest not over-apologizing or making up wild stories... Instead, just set a specific time you'll turn it in and stick to it.'",
+      "Add first-person language to create connection - change 'Here's your survival guide' to 'I think the best approach is to just own it honestly...' and 'Teachers usually respect honesty' to 'In my experience, teachers respect honesty...'",
+      "Integrate the advice into a natural narrative flow rather than segmented sections, using transitions like 'If you can bang it out quickly, I'd suggest offering to get it done by 3pm today...'"
+    ]
+  }
+}

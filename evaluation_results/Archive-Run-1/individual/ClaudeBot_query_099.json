@@ -1,0 +1,46 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases to use: 'I found out you read my private notes. I feel really violated...' - this is concrete and actionable",
+      "Good use of prose format throughout - avoids bullet points and maintains paragraph structure, which aligns with Claude's style",
+      "Ends with an engaging follow-up question that's specific to the situation and invites more detail",
+      "Acknowledges the complexity of the situation (safety concerns, different parent motivations) which shows depth"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel formal and cold compared to Claude's warm 'Oh wow, that really sucks' opening with natural emoji use",
+      "Opens with 'That makes a lot of sense' which is clinical/therapist-like rather than the immediate emotional validation Claude provides ('Oh wow, that really sucks - I'm so sorry')",
+      "Way too long and dense - reads like a comprehensive guide rather than a supportive text conversation. Claude's response is 5 short paragraphs; this is 5 long, heavy paragraphs",
+      "Tone is overly formal and analytical ('separate two things: the hurt of what happened, and what you want to do next') rather than conversational and warm",
+      "Jumps into problem-solving mode too quickly without enough emotional sitting-with-them first - Claude validates more before offering solutions"
+    ],
+    "most_claude_like": "The specific script provided for talking to the parent ('I found out you read my private notes...') is exactly the kind of concrete, actionable advice Claude would give",
+    "least_claude_like": "The complete absence of emojis and the formal, analytical opening ('That makes a lot of sense' + 'separate two things') feels like a therapist or counselor rather than a warm, supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullet points. However, the paragraphs are very dense and long, making it feel more like an article than a conversation. Claude's prose is lighter and more breathable."
+    },
+    "key_differences_from_ground_truth": [
+      "Emotional tone: Claude opens with 'Oh wow, that really sucks - I'm so sorry' (immediate empathy) vs. 'That makes a lot of sense' (analytical validation)",
+      "Length: Claude's response is ~120 words in 5 short paragraphs vs. ~280 words in 5 dense paragraphs - more than double the length",
+      "Emoji usage: Claude uses natural emojis; evaluated response has zero",
+      "Language style: Claude uses casual phrases ('totally understandable', 'really awful', 'so good for processing stuff') vs. formal language ('entitled to privacy', 'tends to land better', 'it's not your job to live like you're being surveilled')",
+      "Advice timing: Claude validates first, then gently suggests talking to parent as optional ('Are you feeling up to...?'), then offers practical alternatives. Evaluated response moves quickly into structured problem-solving with multiple scenarios",
+      "Conversational flow: Claude feels like texting with a friend; evaluated response feels like reading a well-written advice column"
+    ]
+  }
+}

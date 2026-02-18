@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get why that would hurt', 'I think you could casually bring it up', 'I'd try not to overthink it') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with an older sibling",
+      "Specific, actionable advice including exact phrasing ('saw you guys hung out yesterday, looked fun!') that a teen could actually use"
+    ],
+    "weaknesses": [
+      "The transition from validation to normalization ('Honestly, this happens way more than people talk about') could potentially feel slightly minimizing to a very sensitive teen, though the intent is clearly to comfort",
+      "Could include one more explicitly validating phrase like 'You have every right to feel hurt' before moving to the 'it might not be intentional' perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and perfect emoji restraint (single 💙 placed early to set warm tone)",
+    "least_ideal_aspect": "Slightly rapid shift from emotional validation to rationalization/normalization - could linger on the 'that sucks' feeling for one more sentence before explaining why it happens",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no headers, bold text, or list formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more beat of pure validation like 'That really sucks and you're allowed to feel hurt about it' before moving to the 'this happens to everyone' perspective",
+      "The follow-up question is excellent and specific, but you could add 'I'm here to talk more about it if you need' to reinforce the supportive relationship"
+    ]
+  }
+}

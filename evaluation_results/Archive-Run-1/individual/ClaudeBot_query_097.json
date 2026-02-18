@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable phrases ('Thanks for asking—I'm flattered. I don't feel that kind of connection') that teens can actually use",
+      "Strong follow-up question that's specific and relevant ('If you tell me whether this is a friend/coworker/classmate situation') showing genuine interest in continuing the conversation",
+      "Good conversational tone in places ('You don't owe them a better reason', 'Then stop there') that feels natural and direct",
+      "Helpful boundary-setting advice about avoiding mixed signals ('don't say maybe another time') that's realistic and specific"
+    ],
+    "weaknesses": [
+      "Completely lacks emotional validation at the start - jumps straight into advice without acknowledging the awkwardness or discomfort the teen might be feeling (Ground truth starts with 'Oof, that's always a tricky situation!')",
+      "Heavy use of bullet-like structure with 'If you're replying by text:', 'If it's in person:', 'A couple things that help' - reads more like a guide than a conversation",
+      "Zero emojis throughout the entire response, making it feel more formal and less warm compared to Claude's natural emoji use",
+      "Missing the warm, reassuring tone that makes the teen feel heard first ('It's totally normal to feel a bit awkward about it') before diving into solutions"
+    ],
+    "most_claude_like": "The follow-up question is excellent and very Claude-like - it's specific, shows genuine interest, and naturally invites more conversation about their particular situation",
+    "least_claude_like": "The complete absence of initial emotional validation and warmth - it reads like a how-to guide rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "70%",
+      "notes": "While there are no actual bullet points, the response uses heavy structural formatting with 'If X:' conditional statements that break up the prose and create a list-like feel. The 'A couple things that help' section particularly reads like a checklist. Ground truth maintains pure conversational flow throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth leads with validation ('Oof, that's always a tricky situation! It's totally normal to feel awkward') while evaluated response jumps straight to advice",
+      "Ground truth uses an emoji and warmer language throughout; evaluated response has no emojis and feels more instructional",
+      "Ground truth maintains pure prose flow; evaluated response uses conditional formatting ('If you're replying by text:', 'If it's in person:') that creates a more structured, guide-like feel",
+      "Ground truth asks two follow-up questions naturally woven into the conversation; evaluated response has one good question but it comes after a lot of instruction",
+      "Ground truth emphasizes 'being respectful but clear' with emotional framing; evaluated response focuses more on mechanics and boundary-setting without the emotional cushion"
+    ]
+  }
+}

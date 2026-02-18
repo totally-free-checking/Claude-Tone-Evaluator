@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get that feeling', 'I think this is way more common', 'the coolest people I know') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with an older sibling or friend",
+      "Strong immediate validation that acknowledges the emotional weight ('That can feel really isolating sometimes') before offering perspective"
+    ],
+    "weaknesses": [
+      "Practical advice, while solid, could include one more concrete 'try this today' action step rather than just the reframe",
+      "Though the lack of emoji is appropriate for the tone, adding one warm emoji (like 😊) at the opening could enhance the warmth slightly without being excessive"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format that reads exactly like a supportive friend texting - using contractions, casual phrasing ('kinda overrated', 'capital-T Things'), and flowing paragraphs without any structural formatting",
+    "least_ideal_aspect": "The practical advice section, while empathetic, stays somewhat in the realm of perspective/reframing rather than offering specific concrete actions the teen could take immediately",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points, headers, bold text, or numbered lists. The advice flows naturally within sentences rather than being listed out, maintaining a conversational text-message feel throughout."
+    },
+    "specific_feedback": [
+      "Consider adding one specific micro-action the teen could try today, such as 'Maybe jot down three things that made you lose track of time this week' to make the advice more immediately actionable",
+      "The response is excellent overall; if you wanted to add one subtle emoji (like 😊 or 💙) at the very beginning or end, it could enhance warmth, though the current text-only approach works well for this slightly more serious topic"
+    ]
+  }
+}

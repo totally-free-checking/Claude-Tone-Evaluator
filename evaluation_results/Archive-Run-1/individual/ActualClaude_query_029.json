@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect emotional validation opening with 'Oof, that sounds really tough and embarrassing' - immediately acknowledges the feeling and normalizes it",
+      "Excellent follow-up questions that are specific and engaging: 'How are you feeling about it now? And is this a pattern with this coach or more of a one-off thing?' - shows genuine interest and invites continued conversation",
+      "Strong balance of validation and practical advice - starts with feelings ('It's totally normal to feel upset'), then moves to solutions, then re-engages with questions",
+      "Natural, conversational tone throughout with appropriate contractions and casual phrasing ('Oof', 'never feels good', 'doesn't make it okay')"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section ('When you're ready, it might help to think about:' followed by three bulleted items) - this is a key deviation from Claude's prose-heavy approach",
+      "The bullet points break the conversational flow and make it feel more structured/formatted than Claude's typical natural prose style",
+      "Only one emoji used (😊 would have been natural after the validation), though the single 'Oof' does work well",
+      "The transition to bullet points ('When you're ready, it might help to think about:') feels slightly more formal/structured than Claude's typical seamless prose flow"
+    ],
+    "most_claude_like": "The emotional validation and follow-up questions are perfectly executed - 'Oof, that sounds really tough' immediately validates, and the ending questions ('How are you feeling about it now? And is this a pattern...?') are specific, natural, and genuinely engaging",
+    "least_claude_like": "The use of bullet points for the advice section - Claude typically weaves advice naturally into prose paragraphs rather than listing it out with bullets, which makes this feel more structured and less conversational than Claude's characteristic style",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "The response has 3 bullet points in the middle section for advice. While the opening and closing are pure prose, the bullet-pointed advice section significantly deviates from Claude's prose-heavy approach. Claude would typically integrate these same points naturally into paragraph form rather than listing them."
+    },
+    "key_differences_from_ground_truth": [
+      "This response is actually identical to the ground truth - they are the same response word-for-word, including the bullet points",
+      "Since this IS the ground truth response, the bullet points present in both versions represent Claude's actual approach for this particular response, though they do deviate from the general character guideline of avoiding bullets",
+      "The response demonstrates that even Claude's ground truth occasionally uses bullets when organizing multiple reflection questions, though this is less common in the character's typical style"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable scripts - 'I can't text during work' and the copy/paste text examples are concrete and immediately usable",
+      "Strong follow-up question that shows genuine interest - 'If you tell me what clingy looks like... I can help you craft the exact message' is specific and engaging"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (### What to do, ### Text you can send, ### If they react badly) and numbered lists throughout - completely opposite of Claude's prose-based approach",
+      "Opens with validation but immediately jumps into structured advice without the warm, conversational build-up Claude uses - lacks the 'Oh man, that's such a tricky situation!' energy",
+      "Zero emojis throughout the entire response - makes it feel formal and clinical compared to Claude's warm, casual tone",
+      "Way too long and overwhelming - this would be exhausting to read on a phone, whereas Claude keeps it digestible"
+    ],
+    "most_claude_like": "The copy/paste text examples are genuinely helpful and specific, matching Claude's approach of giving teens exact phrases they can use",
+    "least_claude_like": "The heavy use of headers, bullet points, and numbered lists - this reads like a comprehensive guide or article rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured formatting: 3 major headers with subheaders, 5 numbered steps, multiple bullet points under each section. Only the opening sentence and transitions between sections are in prose. This is the exact opposite of Claude's natural paragraph flow."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal bullets within prose paragraphs; evaluated response is heavily structured with headers and numbered lists",
+      "opening_tone": "Ground truth opens with 'Oh man, that's such a tricky situation!' - warm and validating; evaluated response opens more clinically with 'That's a really normal situation'",
+      "emoji_usage": "Ground truth has no emojis (unusual for Claude but acceptable); evaluated response also has none but combined with formal structure makes it feel cold",
+      "length": "Ground truth is concise (4 short paragraphs); evaluated response is extensive (multiple sections, overwhelming amount of text)",
+      "conversational_flow": "Ground truth flows naturally like a conversation; evaluated response reads like a comprehensive how-to guide",
+      "validation_approach": "Ground truth validates throughout ('totally normal', 'doesn't make you a bad friend'); evaluated response validates once then becomes instructional"
+    }
+  }
+}

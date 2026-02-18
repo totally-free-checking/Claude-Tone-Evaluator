@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 5,
+      "conversational_tone": 2,
+      "practical_advice": 6,
+      "followup_question": 4,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Medically thorough and safety-conscious with clear red flags for urgent care",
+      "Provides specific actionable steps (breathing techniques, posture checks, medication dosages)"
+    ],
+    "weaknesses": [
+      "Completely lacks conversational warmth - reads like a medical pamphlet with headers like '## First: make sure it's safe to treat at home' and '## Quick relief'",
+      "Zero first-person language - no 'I think', 'I'd say', or 'I get it' to create personal connection",
+      "Heavy use of bullet points, bold text, and headers instead of natural prose paragraphs",
+      "Minimal emotional validation - only 'I'm sorry you're dealing with that' before jumping to clinical advice",
+      "Overwhelming length and medical terminology (NSAIDs, thunderclap onset, bruxism) not suited for casual teen support context",
+      "Questions at end are clinical and numbered (1, 2, 3) rather than conversational"
+    ],
+    "most_ideal_aspect": "The practical advice is medically accurate and considers teen safety with medication warnings",
+    "least_ideal_aspect": "The formatting is completely wrong - heavy markdown headers, bullet lists, and bold text instead of warm conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by bullet points, numbered lists, and headers (##). Text is broken into rigid medical sections rather than flowing paragraphs. Uses bold formatting for emphasis throughout in a clinical rather than conversational way."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in 2-3 natural paragraphs without any headers or bullet points - flow the advice into sentences like 'I'd start by checking if you're hydrated...'",
+      "Add first-person language throughout: 'I think you should...', 'I'd try...', 'I get headaches too when...'",
+      "Move emotional validation to the forefront and sustain it: validate the stress before giving medical advice, acknowledge how much headaches suck when you're already stressed",
+      "Replace the numbered clinical questions at the end with one natural follow-up like 'Where do you feel the pain most? And what's been stressing you out lately?'",
+      "Cut length by 60% - teens need 2-3 concrete tips max, not a comprehensive medical guide"
+    ]
+  }
+}

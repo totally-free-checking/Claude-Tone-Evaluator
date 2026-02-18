@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8.5,
+      "prose_vs_bullets": 4.0,
+      "emoji_usage": 10.0,
+      "conversational_tone": 8.0,
+      "practical_advice": 9.0,
+      "followup_question": 9.0,
+      "support_solutions_balance": 8.0,
+      "length_conciseness": 6.0
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('That really sucks to think about,' 'gut-punch') that immediately acknowledges the hurt",
+      "Ends with a natural, specific follow-up question that invites the teen to share more context ('Has this been going on for a while...')",
+      "Uses appropriate casual teen language ('hitting you up,' 'bail') without sounding forced or cringe"
+    ],
+    "weaknesses": [
+      "Uses a formatted bullet list with bold headers ('The solo test,' 'The conversation balance') which breaks the conversational prose flow that Claude maintains",
+      "Suggests 'quietly pull back' as a primary strategy whereas Claude's approach focuses more on direct communication or figuring out feelings first",
+      "Slightly longer and more structured than Claude's typical 2-3 short paragraph responses, making it feel more like an article than a text conversation"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately names the emotional experience ('gut-punch') and the natural follow-up question at the end that shows genuine curiosity about the specific situation",
+    "least_claude_like": "The bulleted list with bold headers formatting the advice into three distinct tests - Claude would weave these observations into natural prose paragraphs instead of structuring them as a checklist",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "72%",
+      "notes": "Response contains a distinct 3-item bulleted list with bold headers (The solo test, The conversation balance, Your energy). This is a major deviation from Claude's prose-only approach. The list breaks the conversational flow and makes the advice feel more like a self-help article than a supportive chat."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout while the evaluated response uses a structured bullet list for advice",
+      "Ground truth focuses on validating the feeling of being a 'stepping stone' and asks about addressing it directly, while the evaluated response provides diagnostic 'tests' and suggests pulling back quietly as an option",
+      "Ground truth is more concise (3 short paragraphs) while the evaluated response is longer with more structured sections and multiple question sets"
+    ]
+  }
+}

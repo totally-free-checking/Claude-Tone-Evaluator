@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows like a natural text conversation from start to finish",
+      "Highly specific, actionable advice with exact phrases a teen could use ('This reminded me of you lol', 'Wanna grab a snack after school?')",
+      "Strong opening validation that immediately normalizes the experience ('that feeling is so real', 'brain go in circles')"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which creates slight distance; uses imperative second-person ('try nudging', 'If you wanna test') instead of personal connection",
+      "Could deepen emotional validation before normalizing - jumps quickly to 'it feels more high-stakes than it is' which slightly minimizes the feeling"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Absence of first-person 'I' statements makes the advice feel slightly impersonal despite the warm tone; sounds like general guidance rather than 'what I would do'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No lists, headers, bold text, or structured formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: change 'If you wanna test the vibe...' to 'If I were you, I'd test the vibe...' or 'I think I'd try nudging...'",
+      "Consider adding one more validating phrase upfront like 'I'm here if you need to talk' or 'I get how nerve-wracking that is' before the normalization to ensure the teen feels fully seen"
+    ]
+  }
+}

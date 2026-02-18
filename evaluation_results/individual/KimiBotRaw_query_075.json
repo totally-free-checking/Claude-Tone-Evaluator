@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with relatable, warm validation that captures the mixed feelings perfectly ('50% exciting and 50% wait, am I about to stand in a corner holding a drink for 3 hours?')",
+      "Provides extremely specific, actionable advice that's realistic for teens (the '3-second rule,' arriving early strategy, 45-minute exit plan)",
+      "Ends with a natural, engaging follow-up question that shows genuine interest in the specifics of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold formatting (**If you decide to go:**, **Arrive early**, etc.) makes it read like a wikiHow article rather than a conversational text",
+      "Lacks first-person language ('I think,' 'I'd say,' 'I get it') that makes Claude's responses feel personal and supportive",
+      "Jumps to tactical solutions too quickly without enough initial emotional validation - the 'cheat sheet' approach feels instructional rather than supportive"
+    ],
+    "most_claude_like": "The warm, conversational opening that validates the 'limbo feeling' with humor and empathy, capturing the exact emotional uncertainty of the situation",
+    "least_claude_like": "The heavily structured formatting with bold headers and extensive bullet points that transforms the response from a supportive conversation into a tactical guide",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Uses bold headers (**If you decide to go:**, **If you're not feeling it:**) followed by multiple bullet points with bold lead-ins. This extensive structuring is a major departure from Claude's natural prose approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses natural prose paragraphs with minimal formatting; evaluated response uses heavy bullet lists and bold headers resembling a self-help article",
+      "Ground truth focuses primarily on emotional validation and exploratory questions with brief advice at the end; evaluated response immediately jumps to tactical 'cheat sheet' advice",
+      "Ground truth is concise (2 short paragraphs + 3 simple bullets); evaluated response is significantly longer and more detailed, potentially overwhelming for a teen seeking quick support"
+    ]
+  }
+}

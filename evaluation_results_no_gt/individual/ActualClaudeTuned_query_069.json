@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'If I were you', 'I'd maybe try') creating genuine connection",
+      "Perfect prose format with zero bullet points - flows like a natural conversation between friends",
+      "Provides specific, actionable phrases the teen can actually use ('okay, that's not funny anymore', 'why do you keep saying that?')",
+      "Strong immediate validation opening with 'Ugh, that's such an uncomfortable position to be in' acknowledging the confusion and stress"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while appropriate for awkwardness, might slightly minimize the seriousness if the situation is actual bullying (though fits the ambiguity described)",
+      "Could potentially offer one more sentence of deep emotional validation before transitioning to the 'If I were you' advice section, though the balance is still quite good"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with consistent first-person perspective ('Honestly, I think', 'If I were you, I'd maybe try') making it feel like advice from a supportive friend rather than an impersonal guide",
+    "least_ideal_aspect": "The transition from validation to advice is slightly abrupt - could use a softer bridge like 'That said' or 'For what it's worth' before jumping into 'If I were you'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a brief transitional phrase between the validation and advice sections to smooth the shift from 'I hear you' to 'here's what to do'",
+      "The follow-up question is excellent and specific, but could be split into two sentences for even more natural pacing rather than the compound question format"
+    ]
+  }
+}

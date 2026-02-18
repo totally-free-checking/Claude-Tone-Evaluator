@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation: 'That’s a heavy spot to be in. It’s totally normal to feel conflicted—or even anxious' acknowledges the emotional weight immediately",
+      "Excellent practical advice with specific scripts teens can actually use like 'I care about you, but this feels really big for me to carry alone'",
+      "Appropriate safety prioritization with clear guidance on when to break confidentiality"
+    ],
+    "weaknesses": [
+      "Heavy formatting with bold headers (**1. Check your own capacity**, **2. Define the 'serious'**) makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language like 'I think' or 'I'd say' - feels instructional rather than personal",
+      "Over-structured with numbered lists instead of natural prose flow"
+    ],
+    "most_claude_like": "The opening validation and supportive closing that acknowledges the difficulty of the situation",
+    "least_claude_like": "The use of bold numbered headers and structured lists that create a 'wikiHow' style format instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses heavy formatting with bold numbered headers (**1. Check your own capacity**, etc.) and structured sections rather than natural flowing prose. Reads like an instructional guide rather than a text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses simple prose with minimal light bullets; evaluated response uses heavy bold headers and numbered formatting",
+      "Ground truth maintains conversational flow throughout; evaluated response shifts into instructional/self-help mode",
+      "Ground truth asks questions throughout; evaluated response provides structured advice before asking at the end"
+    ]
+  }
+}

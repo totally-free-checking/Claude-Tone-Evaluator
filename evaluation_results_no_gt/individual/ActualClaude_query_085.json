@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or over-structuring - reads like a natural text conversation",
+      "Strong immediate validation with 'Ugh, that sounds really draining!' and acknowledging the exhaustion of constant arguing",
+      "Uses casual, teen-appropriate language like 'Are we talking like...' and 'Either way' that feels authentic"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective throughout - uses impersonal phrases like 'There are definitely some ways to handle it' instead of 'I'd suggest' or 'I think you could try'",
+      "Asks three questions at once (type of conflict, timing, and what's overwhelming), which can feel overwhelming rather than conversational",
+      "Advice is vague and categorical ('setting boundaries, addressing it directly') without specific examples or scripts"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say', 'I get it') makes the response feel less like a personal conversation and more like general guidance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, lists, or bold text. Response flows as natural paragraphs ideal for texting."
+    },
+    "specific_feedback": [
+      "Replace impersonal statements like 'There are definitely some ways to handle it' with first-person suggestions like 'I'd probably start by figuring out...' or 'I think you could try...' to create stronger connection",
+      "Limit to 1-2 questions maximum per response - instead of asking about conflict type, timing, and feelings all at once, pick the most important one or combine them into a single flowing question",
+      "While gathering context is good, offer one concrete micro-suggestion (like 'Maybe try headphones when they start up') to show you're actively problem-solving, not just deferring advice"
+    ]
+  }
+}

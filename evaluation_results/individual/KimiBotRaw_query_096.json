@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent emotional validation with relatable metaphors ('like you're watching a movie of other people having fun while you're standing right there in the room')",
+      "Strong conversational first-person language ('I know it sounds basic,' 'I'd say') that feels authentic and warm",
+      "Specific, actionable advice realistic for teens (the 'one real conversation' trick, checking hunger/tiredness)"
+    ],
+    "weaknesses": [
+      "Uses bullet points with bold headers instead of natural prose paragraphs, which breaks the conversational flow characteristic of Claude's style",
+      "Does not end with a question to continue the conversation (ground truth ends with 'What do you think...' while this ends with a statement and emoji)",
+      "Over-structures advice with formatting ('Try the “one real conversation” trick':) rather than flowing it into natural sentences"
+    ],
+    "most_claude_like": "The opening validation and conversational tone - 'Ugh, that's such a weird, lonely feeling' immediately validates the emotion with casual, empathetic language that sounds like a supportive friend texting",
+    "least_claude_like": "The bullet-pointed list format with bold headers (e.g., '**Try the “one real conversation” trick**') - Claude's ground truth uses pure prose paragraphs without any bullet formatting or bold text",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response uses three distinct bullet points with bold headers to present advice, which is a major structural deviation from Claude's prose-only approach. The bullets create a 'listicle' feel rather than a natural conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses exclusively prose paragraphs while evaluated response uses formatted bullet points with bold text",
+      "Ground truth ends with an engaging question ('What do you think might be contributing...') while evaluated response ends with a validation statement and emoji",
+      "Ground truth clusters questions together in the middle and ends with one question; evaluated response integrates questions earlier and ends with statements"
+    ]
+  }
+}

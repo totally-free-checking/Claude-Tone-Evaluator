@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate and sustained emotional validation with phrases like 'huge violation,' 'not overreacting at all,' and 'You deserved that privacy, full stop'",
+      "Strong first-person conversational language throughout ('I'm really sorry,' 'I hope you do,' 'you know?') that creates genuine connection",
+      "Specific, actionable advice tailored to teen agency (decoy notebook, digital passwords, cloud accounts) with realistic acknowledgment that safety varies by relationship"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list for practical suggestions instead of integrating them into natural prose flow",
+      "Multiple questions in the middle section ('How are you feeling... Are you angry, hurt, worried...') slightly disrupt the conversational rhythm before the final question"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - consistently acknowledges the severity of the violation, validates the 'violated' feeling as making total sense, and reassures the user they're not overreacting",
+    "least_ideal_aspect": "Prose vs bullet points - the three-item bullet list breaks the conversational, paragraph-based format ideal for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "85%",
+      "notes": "Single bulleted list in the middle of the response containing three privacy protection suggestions. Would be stronger as flowing prose: 'maybe consider digital notes with a password, a cloud account they don't know about, or even the old decoy notebook trick...'"
+    },
+    "specific_feedback": [
+      "Convert the bullet points about digital notes, cloud accounts, and decoy notebooks into a flowing sentence within the paragraph to maintain the conversational prose format",
+      "Consider consolidating the middle questions into one engaging question or moving them to the end to avoid the 'interview' feeling, though the final question is excellent and specific"
+    ]
+  }
+}

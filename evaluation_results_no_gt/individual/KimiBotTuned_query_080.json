@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with visceral language ('instant stomach-drop', 'brain sprinting through worst-case scenarios') that makes the teen feel truly seen",
+      "Provides specific, word-for-word scripts the teen can actually text back ('Yeah, what's up? I'm kinda anxious now lol—are we okay?') rather than vague suggestions",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person framing in the advice section (uses 'it's totally fair to reply' rather than 'I'd suggest texting' or 'I think you could say')",
+      "Missing a warm closing statement like 'I'm here if you need to talk' that would reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero structural formatting—advice flows organically within paragraphs without any bullet points or headers",
+    "least_ideal_aspect": "Conversational tone could use more explicit first-person language ('I think', 'I'd say') in the advice section to feel less like general guidance and more like personal support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. The response uses four natural paragraphs with no bullet points, bold text, headers, or numbered lists. Advice is seamlessly woven into conversational sentences."
+    },
+    "specific_feedback": [
+      "Add explicit first-person framing to advice sections, e.g., change 'it's totally fair to reply' to 'I'd probably text back something like' or 'I think you could say'",
+      "Consider adding a warm closing like 'I'm here if you need to talk' or 'Let me know how it goes—I'm rooting for you' to reinforce the personal connection"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable steps like 'offer whatever proof you have—scratch paper, drafts, notebook notes, a photo of your work in progress, edit history/version history'",
+      "Strong follow-up question that's specific and helpful: 'If you tell me what kind of assignment it was (math worksheet, essay, multiple choice, lab, etc.) and what format you submitted it in (paper, Google Doc, Canvas upload), I can suggest the most convincing kinds of evidence'"
+    ],
+    "weaknesses": [
+      "Opens with validation but immediately pivots to problem-solving mode without sitting with the teen's feelings: 'That's a rough spot to be in' is brief compared to Claude's 'That's such a frustrating situation! It totally makes sense that you'd be stressed about this'",
+      "Heavy use of structured formatting with em-dashes creating list-like segments within paragraphs, and parenthetical examples that read like bullet points in disguise: '(before/after class)', '(Google Docs shows this)', '(math worksheet, essay, multiple choice, lab, etc.)'",
+      "Completely lacks emojis, making it feel more formal and less warm than Claude's natural teen-support tone",
+      "Significantly longer than Claude's response (5 dense paragraphs vs 4 readable ones), creating a wall-of-text feeling that's less phone-friendly"
+    ],
+    "most_claude_like": "The follow-up question is perfectly executed—specific, relevant, and shows genuine interest in helping with the exact situation",
+    "least_claude_like": "The complete absence of emojis and the dense, advice-heavy structure that reads more like a legal brief than a supportive conversation with a teen",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically no bullet points, the response uses heavy parenthetical formatting and em-dash lists that create a similar effect. Phrases like 'scratch paper, drafts, notebook notes, a photo of your work in progress, edit history/version history' read like inline bullet points. The structure is more 'advice manual' than 'conversational prose.'"
+    },
+    "key_differences_from_ground_truth": [
+      "Claude uses emojis and exclamation points to create warmth; evaluated response has zero emojis and feels more clinical",
+      "Claude's validation is more substantial ('It totally makes sense that you'd be stressed about this') vs. brief acknowledgment ('That's a rough spot to be in')",
+      "Claude uses actual bullet points but keeps them simple and readable; evaluated response avoids bullets but creates dense paragraphs with list-like structures that are harder to parse",
+      "Claude's tone is more reassuring and friend-like ('The key is being transparent about your process'); evaluated response is more instructional and formal ('The key is to shift the conversation from...')",
+      "Length difference: Claude's response is more concise and scannable; evaluated response is significantly longer and denser, less phone-friendly"
+    ]
+  }
+}

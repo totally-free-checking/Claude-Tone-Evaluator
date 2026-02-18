@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'That sounds really tough and exhausting' - acknowledges both the difficulty and the emotional toll right away",
+      "Natural prose flow throughout with zero bullet points - reads like a genuine conversation with thoughtful paragraph breaks",
+      "Excellent follow-up questions that are specific and show genuine curiosity ('is this feeling coming from a specific situation, like work or a relationship?')",
+      "Beautiful balance of validation and gentle reframing ('Your best might be more \"enough\" than it feels right now') without being dismissive"
+    ],
+    "weaknesses": [
+      "Missing an emoji that would add warmth and casualness - Claude typically includes 1-2 emojis, often early in the response (e.g., 'That sounds really tough 😔' or similar)",
+      "Could potentially include one more concrete suggestion or example, though the reframing itself is quite helpful"
+    ],
+    "most_claude_like": "The conversational flow and emotional validation are perfectly executed - it immediately validates feelings, asks thoughtful follow-up questions, and offers gentle perspective without jumping to solutions or being dismissive",
+    "least_claude_like": "The absence of any emojis makes it slightly more formal than Claude's typical teen support character, which usually includes 1-2 well-placed emojis to enhance warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with natural paragraph breaks. No bullets, headers, or over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical word-for-word",
+      "The only potential enhancement would be adding an emoji for even more warmth, but this is Claude's actual response, so it represents the character perfectly as-is"
+    ]
+  }
+}

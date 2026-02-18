@@ -1,0 +1,46 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong prose formatting - maintains paragraph structure throughout without bullet points, which aligns well with Claude's style",
+      "Practical advice is specific and nuanced ('calm, consistent neutrality', 'treat them like a coworker') rather than generic platitudes",
+      "Ends with an engaging, specific follow-up question that invites more detail about the actual situation",
+      "Acknowledges complexity well ('A couple things can be true at once') which shows sophisticated understanding"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel more formal and less warm than Claude's approach (Ground truth opens with 'Ugh' and uses natural casual markers)",
+      "Opening validation is weaker - 'That's a really uncomfortable spot' is more clinical than Claude's 'Ugh, that's such an uncomfortable situation!' The emotional resonance is lower",
+      "Tone is significantly more analytical and advice-heavy than supportive. Phrases like 'low-effort approach', 'effective lever', and 'strategy that fits' sound more like a consultant than a supportive friend",
+      "Too long and dense - five substantial paragraphs with complex sentence structures make it harder to read on a phone compared to Claude's more digestible 2-3 paragraph structure",
+      "Language is more formal and academic ('situational', 'escalates', 'cordial', 'lever') rather than casual teen-appropriate language"
+    ],
+    "most_claude_like": "The prose-based formatting and avoidance of bullet points perfectly matches Claude's conversational paragraph style",
+    "least_claude_like": "The complete absence of emojis and the analytical, consultant-like tone ('effective lever', 'low-effort approach') - Claude would never sound this clinical when supporting a teen",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent adherence to prose format. No bullet points, headers, or over-formatting. However, the prose itself is dense and academic rather than conversational."
+    },
+    "key_differences_from_ground_truth": [
+      "Emotional tone: Ground truth opens with 'Ugh!' and maintains warmth throughout. Evaluated response is more detached and analytical",
+      "No emojis vs. natural emoji use in ground truth style",
+      "Language register: Ground truth uses casual phrases ('warming up to you', 'what's up') while evaluated response uses formal language ('situational', 'cordial', 'lever')",
+      "Length: Ground truth is concise (3 short paragraphs) vs. evaluated response is dense (5 longer paragraphs)",
+      "Advice delivery: Ground truth embeds advice naturally in conversation with bullet points only for quick tips. Evaluated response reads more like strategic coaching",
+      "Balance: Ground truth leads with validation and keeps it light. Evaluated response jumps quickly into analysis and strategy"
+    ]
+  }
+}

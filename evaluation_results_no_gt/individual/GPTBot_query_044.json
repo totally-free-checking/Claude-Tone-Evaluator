@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent specific actionable advice with exact phrases to say in the moment ('Let me think for a second,' 'Can you repeat the question?')",
+      "Strong follow-up question that distinguishes between not knowing the material vs. performance anxiety, showing genuine interest in their specific situation"
+    ],
+    "weaknesses": [
+      "Over-structured format with heavy use of bullet points, headers (###), and bold text reads like a wikiHow article rather than a supportive conversation",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' makes it feel impersonal and instructional rather than like a supportive friend",
+      "Opens with clinical explanation ('threat mode,' 'stress response') rather than warm emotional validation ('Ugh that's the worst,' 'That sinking feeling is so real')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic scripts a teen can actually use when put on the spot",
+    "least_ideal_aspect": "Prose vs bullets - formatted as structured lists with headers and bold text rather than natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses markdown headers (###), extensive bullet lists with bold formatting, and structured sections ('In the moment' / 'For next time'). Only the first paragraph and final question are in prose. Reads like a self-help article rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation - instead of listing 'Buy 5-10 seconds,' write something like 'I'd say buying yourself 5-10 seconds is totally fair game - you could say something like...'",
+      "Add first-person connection language like 'I totally get this - that blank-mind panic is the worst' and 'I'd probably start with...' to make it feel like a real person talking, not a manual",
+      "Move the scientific explanation ('threat mode') after emotional validation, or soften it with warmth like 'Your brain isn't broken - it's just doing this annoying protective thing...'",
+      "Consider adding one warm emoji (like 😅) early on to signal this is a safe, casual space before diving into the structured advice"
+    ]
+  }
+}

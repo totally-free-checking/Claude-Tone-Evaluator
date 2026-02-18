@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with relatable language like 'gut-punch feeling' and 'alarm bell going off in your head'",
+      "Provides highly specific, actionable scripts with exact phrases the teen can use ('Hey, I'm a little confused—earlier you mentioned [X]...')",
+      "Excellent follow-up question that contextualizes the advice by asking about the severity of the lie"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**The story doesn't add up approach:**', '**A couple things to keep in mind:**') breaks conversational flow",
+      "Lacks first-person language throughout - uses impersonal constructions like 'The trick is usually...' and 'Here are a few ways...' instead of 'I think...' or 'I'd suggest...'",
+      "Advice is presented in a structured, instructional format rather than flowing prose that feels like texting"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides three distinct, realistic conversation scripts with specific wording teens can actually use",
+    "least_ideal_aspect": "Natural prose formatting - uses multiple bold headers and bullet lists instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response uses three bold headers functioning as subheaders and three bullet points, creating a structured, listicle format rather than natural prose flow"
+    },
+    "specific_feedback": [
+      "Convert the bold headers and bullet points into flowing narrative paragraphs - instead of labeling approaches, weave them into sentences like 'If I were you, I'd probably start by saying something like...'",
+      "Add first-person perspective throughout using phrases like 'I think,' 'I'd say,' or 'I get that' to create the feeling of a supportive friend rather than an advice manual",
+      "Remove the bullet list under 'A couple things to keep in mind' and integrate those insights into the narrative flow"
+    ]
+  }
+}

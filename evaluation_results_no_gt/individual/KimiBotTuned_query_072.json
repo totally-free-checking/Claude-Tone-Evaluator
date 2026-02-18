@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation ('Ughhh that's the worst') that mirrors the teen's embarrassment without dismissing it",
+      "Provides extremely specific, actionable advice including exact phrases to use ('Wanna just get through this together?') and concrete physical adjustments ('hands light, not intense')",
+      "Ends with a nuanced follow-up question that distinguishes between two different sources of anxiety (physical closeness vs. performance fear), showing genuine interest in the specific situation"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think,' 'I'd say,' or 'I get it' - the advice feels slightly observational rather than personally connected ('Honestly though' is used but 'I think' or 'I remember feeling this way' would strengthen the connection)",
+      "Could include a brief statement of personal solidarity like 'I'm here if you need to talk' or 'You've got this' to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly demonstrates the ideal character by offering two specific options (touching vs. messing up) that show deep understanding of teen social anxiety, inviting continued conversation naturally",
+    "least_ideal_aspect": "The absence of explicit first-person perspective statements ('I think,' 'I'd say') makes the advice feel slightly more detached than the ideal supportive friend/older sibling persona",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent natural prose throughout with zero bullet points or formatting. Advice flows organically within conversational paragraphs with smooth transitions between validation, perspective, and practical suggestions"
+    },
+    "specific_feedback": [
+      "Add explicit first-person connection phrases like 'I totally get why you'd feel that way' or 'I think the best approach is...' to make it feel more like a personal conversation than general advice",
+      "Consider adding a brief closing statement of support like 'I'm here if you need to talk' or 'You've got this' to reinforce the ongoing supportive relationship"
+    ]
+  }
+}

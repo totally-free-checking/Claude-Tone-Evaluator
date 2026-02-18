@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable steps like 'Email/visit the instructor ASAP' and 'Do the math (so your fear isn't guessing)' - these are concrete and realistic for teens",
+      "Good follow-up question at the end that's specific and relevant: 'What's the class, and what exactly is making you think you'll fail' - shows genuine interest in understanding their situation"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered lists and bold headers (**1) Do the math**, **2) Email/visit**) - reads like a self-help article rather than a conversational text. Ground truth uses pure prose paragraphs",
+      "Jumps too quickly into solutions without sufficient emotional validation. Opens with brief acknowledgment but immediately pivots to 'tell me: 1) what class + what level' - Ground truth spends more time validating before asking diagnostic questions",
+      "Completely lacks emojis - makes it feel formal and cold compared to Claude's warm, casual approach",
+      "Too long and overwhelming - 5 numbered action steps plus multiple sub-bullets creates a wall of text that's intimidating rather than supportive"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural and specific, asking about the class and what's making them think they'll fail - this matches Claude's approach of ending with genuine, relevant questions",
+    "least_claude_like": "The heavy use of numbered lists, bold headers, and bullet formatting - this is the complete opposite of Claude's prose-based, conversational paragraph style. Ground truth has zero bullets; this response is dominated by them",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "20%",
+      "notes": "Response is approximately 80% formatted lists (numbered items 1-5 with bold headers, plus initial numbered diagnostic questions 1-3). Only the opening sentence and closing question are in prose form. This is a fundamental mismatch with Claude's character, which uses conversational paragraphs throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 4 prose paragraphs with natural flow. Evaluated response is heavily formatted with numbered lists, bold headers, and bullet points",
+      "Validation approach: Ground truth leads with substantial emotional validation ('that fear of failing is really stressful and can feel overwhelming') before asking questions. Evaluated response has minimal validation (one sentence) before jumping to diagnostic questions",
+      "Tone: Ground truth feels like texting a supportive friend. Evaluated response reads like a structured action plan or study guide",
+      "Length: Ground truth is concise and readable (4 short paragraphs). Evaluated response is overwhelming with 5 detailed action steps",
+      "Emoji usage: Ground truth would typically include 1-2 emojis for warmth. Evaluated response has none, making it feel clinical"
+    ]
+  }
+}

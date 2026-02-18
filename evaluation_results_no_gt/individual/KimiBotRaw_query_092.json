@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with excellent emotional validation ('Ugh, that's such a rough spot to be in') that immediately acknowledges the pain of watching a friend change",
+      "Provides highly specific, actionable advice including exact phrases to use ('I've noticed you've been making more jokes about [specific thing]...') and realistic boundary scripts"
+    ],
+    "weaknesses": [
+      "Uses bold headers and structured bullet sections ('Have the conversation...', 'Decide what you're willing to tolerate') instead of natural flowing prose paragraphs",
+      "Lacks first-person language entirely - uses impersonal 'you' commands ('you can control', 'you don't have to') rather than 'I think', 'I'd suggest', or 'I get it'"
+    ],
+    "most_ideal_aspect": "Emotional validation and practical advice quality - perfectly balances acknowledging the difficulty with realistic, teen-appropriate strategies",
+    "least_ideal_aspect": "Formatting and structure - relies heavily on bold headers and bullet-like sections rather than conversational prose, and completely omits first-person perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response uses three bold header sections that function as bullet points with explanatory text. While the content within each section is prose, the overall structure is heavily formatted with headers, which breaks the conversational flow of a text message."
+    },
+    "specific_feedback": [
+      "Convert the bold header sections into flowing paragraphs with transitional phrases like 'If you feel safe, I'd suggest having a conversation...' instead of '**Have the conversation if you feel safe doing it**'",
+      "Add first-person language throughout, such as 'I think the best approach is...', 'I'd probably start by...', or 'I get how hard this is to watch' to create a more personal, supportive connection",
+      "Consider condensing the two final questions into one flowing question or separating them to avoid the 'multiple questions at once' feeling"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd also maybe') which makes it feel like a real conversation with a supportive friend",
+      "Provides specific, actionable advice including an exact script the teen could use ('Hey, I've noticed our plans keep getting cancelled...')",
+      "Perfect prose formatting with zero bullet points - flows naturally in conversational paragraphs"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) when the ground truth doesn't and the character prefers 0 emojis unless specifically asked",
+      "Asks two questions at once in the follow-up ('How long has this been going on, and do they usually give you a reason...') rather than the ground truth's approach of spacing them out or asking one focused question",
+      "Slightly heavier on advice than emotional validation compared to the ground truth - jumps to solutions faster without the middle 'diagnostic' validation phase"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points and the casual first-person language ('Honestly', 'I totally get', 'I'd say')",
+    "least_claude_like": "The use of the 😅 emoji when the user didn't request emojis and the ground truth used none - the character typically prefers zero emojis unless asked",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format throughout, which actually aligns better with the character instructions than the ground truth (which used bullets for questions). No headers, bold text, or lists."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks diagnostic questions early to understand the situation before advising; response gives advice first and asks questions at the end",
+      "Ground truth uses bullet points for questions; response integrates everything into prose paragraphs",
+      "Ground truth focuses on exploratory validation ('A few questions that might help you figure out...'); response is more solution-oriented with specific scripts",
+      "Response uses an emoji while ground truth uses none"
+    ]
+  }
+}

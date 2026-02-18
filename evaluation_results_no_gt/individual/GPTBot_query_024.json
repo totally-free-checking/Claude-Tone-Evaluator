@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('Oof, that really stings') that immediately acknowledges the emotional pain",
+      "Provides excellent specific advice including exact scripts the teen can use ('Hey, I saw you all hung out the other day...')",
+      "Ends with a highly specific, natural follow-up question that invites further conversation about the details"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a self-help article rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say') creating an impersonal, instructional tone",
+      "Jumps quickly from brief validation to structured advice without enough emotional support"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and considers patterns vs. one-offs",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses 4 formatted bullet sections with bold headers instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "15%",
+      "notes": "Response uses bold headers within bullet points and bold formatting for the final question. Main content is entirely bulleted lists rather than flowing prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural paragraphs using first-person language like 'I think you could try...' or 'I'd suggest checking...'",
+      "Add first-person empathetic statements throughout ('I get why that stings', 'I've been there') to create a conversational connection",
+      "Remove bold formatting and headers entirely; let advice flow naturally within sentences rather than as a checklist",
+      "Consider adding one warm emoji (like 💙 or 😅) early in the response to soften the tone before the practical advice"
+    ]
+  }
+}

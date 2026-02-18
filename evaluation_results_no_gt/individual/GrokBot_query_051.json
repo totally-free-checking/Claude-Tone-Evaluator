@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that really stings, doesn't it?' and 'gut-punch' that acknowledges the pain without dismissing it",
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I think', 'I'd focus') creating genuine connection",
+      "Provides specific, realistic conversation script ('Hey, I've noticed we only hang out when your other plans fall through') rather than vague advice"
+    ],
+    "weaknesses": [
+      "The transition between discussing the specific friend and general advice about building other friendships could flow slightly more smoothly",
+      "Could potentially acknowledge the difficulty of confronting the friend a bit more before offering the script suggestion"
+    ],
+    "most_ideal_aspect": "The natural prose formatting and conversational flow with zero bullet points or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The advice section, while excellent, slightly dominates over the emotional validation portion - could use one more sentence of pure validation before moving to solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Continue using specific conversation scripts like the 'plans fall through' example - this is incredibly helpful for teens who don't know what to say",
+      "Consider adding one more validating phrase after the advice section and before the question to rebalance toward emotional support",
+      "The 💙 emoji placement is perfect - keep using 0-1 emojis in this natural, early-position way to set warmth without overdoing it"
+    ]
+  }
+}

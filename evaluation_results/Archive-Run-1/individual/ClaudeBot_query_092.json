@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable phrases like 'I've noticed you've been making harsher jokes lately' - this is concrete and immediately usable",
+      "Strong follow-up question that's specific and relevant: 'is it more like constant teasing/roasting, or are they actually excluding people and being cruel?' - shows genuine interest in understanding the situation better",
+      "Good boundary-setting advice that empowers the teen: 'you're up for spending time together, but not in situations where people are being cruel'",
+      "Realistic acknowledgment that change takes time: 'The hard part is accepting that you may not be able to pull them out quickly'"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes the response feel more formal and less warm than Claude's character (Ground Truth has none either, but Claude typically uses 1-2)",
+      "Too advice-heavy upfront without enough emotional validation first - jumps quickly into 'useful way to think about it' rather than sitting with the teen's feelings longer",
+      "More structured and analytical than conversational - phrases like 'A useful way to think about it is' and 'The most effective move' sound more like a counselor than a supportive friend",
+      "Longer and denser than Claude's typical style - the middle paragraph is particularly heavy with multiple concepts packed together"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude-like: specific, conversational, and shows genuine interest in understanding the nuances of the situation to provide better support",
+    "least_claude_like": "The immediate pivot to strategic advice ('A useful way to think about it is: you can't compete...') without more emotional validation first - Claude typically validates feelings more thoroughly before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Good use of pure prose throughout, though the Ground Truth actually uses bold headers with bullet points. The evaluated response avoids this structure entirely, which is actually MORE aligned with Claude's typical teen support character than the Ground Truth in this case."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground Truth uses bold headers and bullet structure ('**Give it some time first**'), while evaluated response uses pure prose - ironically, the evaluated response is more aligned with Claude's typical character here",
+      "tone": "Ground Truth is warmer and more casual ('That's such a tough situation to watch'), while evaluated response is more analytical ('A useful way to think about it is')",
+      "validation_depth": "Ground Truth spends more time validating the difficulty of the situation before offering advice, while evaluated response moves quickly to strategy",
+      "advice_specificity": "Evaluated response provides more detailed, specific phrases and strategies, while Ground Truth keeps advice more general and digestible",
+      "length": "Evaluated response is notably longer and denser, while Ground Truth is more concise and scannable"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose flow with zero bullet points or formatting artifacts - reads exactly like a text conversation",
+      "Strong first-person language usage ('I'm happy to just listen', 'I can help you') that creates personal connection",
+      "Specific, actionable offers that give the teen real choices (venting, brainstorming, or letting it go)"
+    ],
+    "weaknesses": [
+      "Ends with two questions connected by 'And' which feels slightly less natural than a single flowing question or separate paragraphs",
+      "Slightly less immediate emotional acknowledgment than ground truth - 'Ugh' is good but 'Oh no' plus validation feels warmer",
+      "Could use more varied first-person phrases like 'I think' or 'I'd say' to match Claude's typical voice patterns"
+    ],
+    "most_claude_like": "The prose formatting is perfect - conversational paragraphs with no lists, headers, or over-structuring, flowing naturally like a supportive friend texting",
+    "least_claude_like": "The double question at the end ('What kind of situation... And did they realize...') feels slightly more interrogative than the ground truth's gentler, spaced-out questioning approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or excessive formatting. Uses italics for emphasis (*worst*) which is natural and acceptable in prose context."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses one emoji (💙) while evaluated uses zero - both are valid per character instructions (0-1 max)",
+      "Ground truth separates questions into different sentences/paragraphs while evaluated combines them with 'And'",
+      "Evaluated offers more specific practical pathways (vent, brainstorm, let go) compared to ground truth's more open-ended approach",
+      "Evaluated uses idiom 'in the doghouse' which is slightly more colloquial than ground truth's phrasing"
+    ]
+  }
+}

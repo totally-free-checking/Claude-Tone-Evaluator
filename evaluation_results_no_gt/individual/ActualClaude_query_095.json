@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong emotional validation opening with 'That sounds really frustrating and honestly pretty uncomfortable' which immediately acknowledges the teen's discomfort",
+      "Excellent specific actionable advice including exact phrases to use like 'Hey, the fighting jokes aren't funny to me anymore. Can we drop that?' and responses to 'I'm just joking'"
+    ],
+    "weaknesses": [
+      "Uses three bullet points in the middle section which breaks the conversational prose format ('- Be direct:', '- Call it out in the moment:', '- If they say...')",
+      "Lacks first-person language throughout - no 'I think', 'I'd say', or 'I get it' which makes it feel more like an article than a supportive friend texting"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it provides specific, realistic scripts the teen can actually use in the moment rather than vague suggestions",
+    "least_ideal_aspect": "The prose vs bullets dimension - the response relies heavily on structured bullet points in the middle section instead of flowing natural paragraphs as required by the ideal character",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "The response starts and ends with prose paragraphs but uses three distinct bullet points for the advice section, which significantly disrupts the conversational texting flow. The bullets use hyphens and colons which makes it feel like a self-help article rather than a friend chatting."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to natural flowing prose by using first-person transitions like 'I'd probably start by being direct and saying something like...' or 'You could try calling it out in the moment with...'",
+      "Add first-person language throughout to create connection: instead of 'Some things you could try:' use 'I think the best approach would be...' or 'Honestly, I'd probably...'",
+      "Combine the two final questions into one natural question or choose the stronger one, as asking 'How long has this been going on? Do you feel like you can be direct with this person?' feels slightly like an interview rather than a natural conversation continuation"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual, empathetic language ('Ugh, that really hurts, doesn't it?' and 'I totally get why that'd sting')",
+      "Uses natural first-person language throughout ('I'd say', 'I totally get') creating a personal connection rather than impersonal advice",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've been swamped lately, can you figure this out on your own?')"
+    ],
+    "weaknesses": [
+      "Could include slightly more first-person 'I' statements in the middle advice section to maintain the conversational connection throughout",
+      "The transition from validation to advice could be slightly smoother with a bridging phrase like 'I think you deserve friends who appreciate you for you'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Minor opportunity for even more first-person language in the advice section to strengthen the personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more first-person bridging statement between validation and advice (e.g., 'I think you deserve better than feeling used') to maintain the personal connection",
+      "The response is excellent overall - maintain this level of specific scripting for advice and immediate emotional validation in future responses"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent specific techniques like the physiological sigh and 5-4-3-2-1 grounding that are immediately actionable and realistic for teens",
+      "Includes a safety check at the end asking about self-harm thoughts with offer to help find immediate support",
+      "Follow-up questions are specific and tailored to differentiate between racing thoughts vs physical anxiety and timing of symptoms"
+    ],
+    "weaknesses": [
+      "Completely over-structured with headers (###), bold text, and numbered lists instead of conversational prose - reads like a medical pamphlet rather than a text from a friend",
+      "Lacks first-person language entirely - no 'I get it,' 'I've been there,' or 'I'd say' to create personal connection",
+      "Opens with clinical explanation ('nervous system is stuck in high alert') rather than warm emotional validation like 'Ugh, that feeling is the worst' or 'I'm sorry you're dealing with that'",
+      "Tone is educational/instructional rather than empathetic - focuses on 'here are techniques' without first acknowledging the emotional weight"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific techniques (physiological sigh, brain dump with timer, worry appointment) are concrete, evidence-based, and realistic for a teen to implement immediately",
+    "least_ideal_aspect": "The formatting and prose style - using headers, numbered lists, and bullet points instead of natural conversational paragraphs makes it feel like a self-help article rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses ### headers, **bold labels**, numbered lists (1-4), and bullet dashes throughout. Only the opening sentence and safety check are in prose. Reads like a wikiHow article or clinical handout rather than a text conversation. The advice is embedded in instructional formatting rather than flowing naturally within paragraphs."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in conversational paragraphs without any headers, bold text, or numbered lists - flow the advice naturally using transitions like 'You could try...' or 'Something that helps me is...'",
+      "Add first-person language throughout: 'I totally get that feeling,' 'I'd start by...,' 'I think the best thing...' to create the sense of talking to a supportive friend rather than reading a manual",
+      "Move emotional validation to the very beginning with warm, casual language like 'Ugh, that brain-spinning feeling is the absolute worst' before offering any techniques",
+      "Add one appropriate emoji early (like 😅 or 💙) to set a warm, casual tone, and reduce the clinical terminology like 'physiological sigh' and 'nervous system' to simpler language like 'this breathing trick' or 'when your body is on edge'"
+    ]
+  }
+}

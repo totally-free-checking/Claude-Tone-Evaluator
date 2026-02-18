@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation: 'That's a really rough spot to be put in. Being yelled at publicly can feel humiliating even if you did nothing \"wrong,\" and it makes total sense you're embarrassed.' This matches Claude's empathetic approach well.",
+      "Excellent practical advice quality with specific, actionable steps like the breathing technique and the detailed script for addressing the coach. The advice is realistic and immediately usable."
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure throughout (3 major bullet sections plus sub-bullets), completely diverging from Claude's prose-based approach. Ground truth uses natural paragraphs; this reads like a structured guide.",
+      "No emojis at all, making it feel more formal and less warm compared to Claude's 'Oof' and natural emoji use. The tone is more clinical/instructional than conversational.",
+      "Uses bold formatting extensively (**Get your body out of the adrenaline spiral**, **Script idea**, etc.) which Claude avoids. This creates a self-help article feel rather than a friend texting.",
+      "Jumps too quickly into solutions mode. While it starts with validation, it immediately shifts to a bulleted action list rather than sitting with the feelings first like Claude does."
+    ],
+    "most_claude_like": "The opening validation and the quality of practical advice, particularly the specific script for talking to the coach, which is exactly the kind of concrete, actionable help Claude provides.",
+    "least_claude_like": "The heavy use of bullet points and formatting structure. Claude's ground truth response flows naturally in paragraphs, while this response is organized like a crisis management checklist with multiple bullet sections, bold headers, and hierarchical formatting.",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bullet-pointed sections: 3 bullets for immediate help, 2 script examples with bold headers, and additional bullets for escalation steps. Only the opening paragraph and brief transitions are in prose form. Ground truth has zero bullets and flows entirely in conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses 5 natural prose paragraphs; evaluated response uses 3 major bullet sections with sub-bullets and bold formatting",
+      "Tone progression: Ground truth validates, then gently explores context, then offers perspective; evaluated response validates briefly then immediately launches into action steps",
+      "Emoji usage: Ground truth uses natural conversational tone with 'Oof'; evaluated response has no emojis and feels more formal",
+      "Follow-up approach: Ground truth asks 2 specific, conversational questions about feelings and patterns; evaluated response asks for information in a more clinical way ('If you tell me a bit more—your age, the sport...')",
+      "Formatting: Ground truth avoids all bold text and bullets; evaluated response uses extensive bold headers and hierarchical bullet structure"
+    ]
+  }
+}

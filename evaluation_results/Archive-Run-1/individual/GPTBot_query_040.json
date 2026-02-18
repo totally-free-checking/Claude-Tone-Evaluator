@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 2,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - provides specific scripts like 'Hey—please stop texting repeatedly. If I don't reply, I'm not available' that teens can actually use",
+      "Ends with an engaging follow-up question that's specific and helpful: 'If you tell me who this person is (friend, ex, coworker, family) and what you *want* (less texting vs. no contact), I can tailor a message that fits the situation and tone'"
+    ],
+    "weaknesses": [
+      "Completely lacks emotional validation - jumps straight into solution mode with 'You can set a boundary **clearly + kindly once**' without acknowledging how overwhelming or stressful this situation feels",
+      "Heavily formatted with headers (### 1, 2, 3, 4, 5), bold text throughout, and extensive bullet points - reads like a self-help article or instruction manual rather than a supportive conversation",
+      "Zero emojis - feels cold and formal, missing the warm casual tone that Claude establishes immediately",
+      "The tone is more instructional/authoritative ('Don't negotiate it', 'this is the key') rather than supportive and empathetic"
+    ],
+    "most_claude_like": "The follow-up question at the end shows genuine interest and offers to personalize advice based on the specific relationship context",
+    "least_claude_like": "The complete absence of emotional validation at the start - Claude immediately says 'That sounds really overwhelming!' while this response jumps straight to instructions without acknowledging feelings at all",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting with 5 numbered headers, multiple bullet point lists under each section, and bold text throughout. Only the opening sentence and closing paragraph are in prose form. This is the opposite of Claude's natural paragraph-based approach."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_opening": "Claude: 'That sounds really overwhelming! Dealing with someone who won't give you space can be super stressful.' vs Evaluated: Jumps straight to 'You can set a boundary' with no emotional acknowledgment",
+      "formatting_style": "Claude: Uses prose with one small bulleted section embedded naturally vs Evaluated: Five numbered headers with extensive bullet points throughout",
+      "tone": "Claude: Warm and conversational ('super stressful', 'totally okay') vs Evaluated: Instructional and directive ('Don't negotiate it', 'this is the key')",
+      "emoji_usage": "Claude: Uses natural emojis to set warm tone vs Evaluated: Zero emojis, feels clinical",
+      "validation_vs_advice_balance": "Claude: Validates first, then offers options, then validates again ('you're not responsible for managing their feelings') vs Evaluated: 95% advice/instructions, 5% support"
+    }
+  }
+}

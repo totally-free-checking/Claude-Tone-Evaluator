@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points, flowing all advice and reasoning into conversational paragraphs ('Maybe they saw it when they were busy...')",
+      "Strong first-person language that creates connection ('I'd try to resist the urge', 'I know it feels huge right now')",
+      "Validates the emotional experience immediately with relatable teen language ('brain go into overdrive mode', 'literally makes your brain...')"
+    ],
+    "weaknesses": [
+      "Asks two questions at the end rather than one natural follow-up, making the ending slightly less fluid than the ground truth",
+      "Could include slightly more specific empathetic acknowledgment of the 'spiraling' aspect mentioned in the user's query, as the ground truth does with 'I totally get why you're spiraling'"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points actually matches the character definition (avoiding bullets) better than the ground truth response, integrating all the practical reasons into flowing sentences rather than listing them",
+    "least_claude_like": "Ending with two sequential questions ('How long has it been...? And was it something...?') feels slightly more interview-like than the ground truth's single organic question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "No bullet points used; all content including the list of reasons for being left on read is woven naturally into paragraph form, which aligns perfectly with the character's preference for prose over formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Uses 1 emoji (😅) while ground truth uses 0",
+      "Contains no bullet points while ground truth uses a 5-item bullet list for reasons someone might not respond",
+      "Asks two specific questions at the end vs. ground truth's single question",
+      "Uses 'Ugh' opening vs. ground truth's 'Oof'",
+      "Integrates the 'million reasons' content into prose rather than listing them"
+    ]
+  }
+}

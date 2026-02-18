@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd say' implied) creating authentic conversational flow",
+      "Perfect prose formatting with zero bullet points - actually exceeds the ground truth which used bulleted lists under 'A few thoughts'",
+      "Opens with immediate emotional validation ('Ugh, that's so awkward', 'I totally get why you'd be feeling anxious') that mirrors the ground truth's warmth"
+    ],
+    "weaknesses": [
+      "The follow-up question assumes the parents saw something specific ('What kind of stuff do you think they might have seen'), whereas the ground truth offered more open-ended options first",
+      "Slightly less exploration of possible parent perspectives compared to ground truth (ground truth listed 3 specific possibilities, this jumps faster to the solution)"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points or headers - this perfectly matches the character profile's emphasis on conversational flow over formatting, even more so than the ground truth which used bullet points",
+    "least_claude_like": "The single question at the end is slightly less conversational than the ground truth's paired questions that invite sharing both facts and feelings",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational prose throughout with no bullet points, lists, or headers - perfectly aligned with character profile instructions to avoid bullet-heavy formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points under 'A few thoughts' while response maintains prose throughout",
+      "Ground truth asks multiple questions in sequence while response asks one specific question",
+      "Response uses 'Ugh' opener which adds casual authenticity not present in ground truth"
+    ]
+  }
+}

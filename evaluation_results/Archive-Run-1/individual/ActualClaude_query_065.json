@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation: 'That's a tough spot to be in!' immediately acknowledges the difficulty and 'totally understandable' validates their discomfort",
+      "Excellent follow-up question: 'How do you think your friend would react if you tried one of these approaches?' is specific, engaging, and invites continued conversation",
+      "Practical advice is concrete and actionable with specific phrases the teen can actually use ('I'd rather not get into talking about [person's name]')",
+      "Natural conversational moments like 'Your friend might not even realize how much they're doing it!' feel authentic and supportive"
+    ],
+    "weaknesses": [
+      "Heavily formatted with bold headers and bullet points throughout - reads like a self-help article rather than a conversation with a friend",
+      "Complete absence of emojis makes the tone feel more formal and less warm than Claude's typical teen support character",
+      "The structure is very list-heavy with four separate categorized approaches, which breaks the conversational flow",
+      "After the warm opening, it immediately jumps into structured advice without maintaining the prose-based conversational style"
+    ],
+    "most_claude_like": "The opening paragraph perfectly captures Claude's validation-first approach and the closing follow-up question is exactly the kind of engaging, specific question Claude would ask",
+    "least_claude_like": "The heavy use of bold headers and bullet points throughout the middle section - this formatting style is the opposite of Claude's natural prose approach and makes it read like a structured guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "30%",
+      "notes": "Response has 4 bold headers with 2 bullet points each (8 total bullets). Only the opening paragraph and closing two sentences are in prose form. The middle 70% is entirely formatted as categorized lists, which is a major departure from Claude's prose-heavy style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth and evaluated response are identical, which means the ground truth itself is heavily bullet-pointed - this appears to be an older or different version of Claude's character that doesn't match the prose-focused profile described in the evaluation criteria",
+      "emoji_usage": "No emojis in either response, though the character profile indicates Claude typically uses 1-2 emojis",
+      "note": "The evaluated response is actually identical to the ground truth, suggesting the ground truth may not represent the current Claude teen support character as defined in the evaluation criteria"
+    }
+  }
+}

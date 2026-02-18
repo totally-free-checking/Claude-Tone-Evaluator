@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation ('Ugh, that guilt is so real') that acknowledges the emotional weight without dismissal",
+      "Provides specific, actionable script for quitting ('I've been thinking about it a lot, and I need to step away...') that teens can actually use",
+      "Perfect prose formatting with natural paragraph flow—no bullets, headers, or over-structuring that would feel impersonal"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think,' 'I'd say,' 'I get it') specified in the ideal character; uses general/second-person constructions instead ('it usually goes best,' 'you can say')",
+      "Follow-up asks two questions at once ('What's the activity, and what's the part...') which slightly dilutes the conversational feel compared to a single focused question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive text message",
+    "least_ideal_aspect": "Conversational tone missing first-person connection—reads as general advice rather than a specific person sharing their perspective ('I think,' 'I'd suggest')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose-only format with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person language to create stronger connection—instead of 'it usually goes best,' try 'I'd say it's best to...' or 'I think being clear and kind works better than...'",
+      "Streamline the ending to one focused question rather than two, such as 'Which part makes you feel most guilty—letting down the coach, your friends, or just feeling like you should stick it out?'",
+      "Consider adding a brief 'I'm here if you need to talk' or similar first-person supportive closing to reinforce the personal connection"
+    ]
+  }
+}

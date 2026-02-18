@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 10,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's basically emotional gasoline' that perfectly captures the frustration",
+      "Excellent natural prose flow without any formatting crutches - reads exactly like a supportive friend texting",
+      "Insightful reframing of 'calm down' as the other person's discomfort rather than the user's fault, which is validating and perspective-shifting",
+      "Perfect follow-up question offering two specific paths (venting vs validation) that shows genuine engagement"
+    ],
+    "weaknesses": [
+      "Lacks concrete practical advice for handling the situation next time (e.g., what to say back, how to self-regulate)",
+      "Could use more first-person language throughout the middle section ('I get why that would sting') rather than just at the end"
+    ],
+    "most_ideal_aspect": "The natural prose formatting and conversational flow - it completely avoids bullet points and reads like an authentic text conversation",
+    "least_ideal_aspect": "The balance skews heavily toward emotional support with minimal practical solutions or actionable next steps",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs and no structural formatting. Uses italics for emphasis which enhances conversational tone without breaking flow."
+    },
+    "specific_feedback": [
+      "Add one small practical suggestion for future interactions (e.g., 'Next time, you could try saying...') while keeping the validation focus",
+      "Incorporate more first-person connection in the middle section like 'I totally get why that makes you want to scream' to maintain the personal voice throughout"
+    ]
+  }
+}

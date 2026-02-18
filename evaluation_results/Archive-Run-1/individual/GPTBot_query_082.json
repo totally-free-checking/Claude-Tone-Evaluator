@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - offers concrete phrases like 'It's just a friend. I'm not doing anything unsafe, but I'd like some privacy in my conversations' that teens could actually use",
+      "Follow-up question is personalized and shows genuine interest - 'If you tell me your age range and what happens when you answer...' invites continued conversation with specific details"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (###), bold text (**), and numbered lists - reads like a self-help article rather than a conversation. Ground truth uses natural prose with minimal formatting",
+      "Completely lacks emojis - feels formal and cold compared to Claude's warm 'Ugh, that can be pretty annoying!' opening with natural tone",
+      "Opens with explanation rather than validation - starts with 'That's super common—most parents aren't trying to be nosy for fun' (analytical) instead of Claude's empathetic 'Ugh, that can be pretty annoying!' (validating feelings first)",
+      "Overwhelming length and structure - 5 numbered options plus multiple subsections makes it feel like a comprehensive guide rather than a supportive conversation"
+    ],
+    "most_claude_like": "The final follow-up question that asks for specific context about age and parent reactions shows genuine engagement and personalizes the advice",
+    "least_claude_like": "The heavy use of headers, bold text, and numbered lists (### A few ways to respond, **1) Reassure + set a boundary**, etc.) - this is the opposite of Claude's natural prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured lists with headers, bold formatting, and numbered options. Only the opening sentence and closing paragraph are in natural prose. Ground truth uses conversational paragraphs with a simple dash-list embedded naturally in prose."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses 2-3 natural paragraphs with one simple dash-list. Evaluated response uses multiple headers, bold text, numbered lists, and subsections",
+      "opening_tone": "Ground truth opens with empathetic validation ('Ugh, that can be pretty annoying!'). Evaluated response opens with analytical explanation ('most parents aren't trying to be nosy for fun; they're usually anxious')",
+      "emoji_usage": "Ground truth has no emojis but maintains warmth through language. Evaluated response also has no emojis but feels more clinical due to formatting",
+      "length": "Ground truth is concise (4 short paragraphs). Evaluated response is extensive with multiple sections and subsections, feeling overwhelming",
+      "advice_delivery": "Ground truth weaves advice naturally into conversation. Evaluated response presents 5 numbered options plus additional subsections like a comprehensive guide"
+    }
+  }
+}

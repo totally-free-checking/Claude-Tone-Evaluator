@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Excellent practical advice quality - very specific, actionable suggestions with concrete examples like 'I' statements and safety red flags",
+      "Strong follow-up questions at the end that show genuine interest and invite more detail ('what specifically makes you not trust this person')"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format for heavy bullet-point structure with 6 numbered sections and multiple sub-bullets - reads like a crisis intervention manual, not a conversation",
+      "Jumps immediately into advice mode with minimal emotional validation - only one brief sentence before launching into structured solutions",
+      "Zero emoji usage makes it feel formal and clinical despite some casual language",
+      "Overwhelming length and structure - would be exhausting to read on a phone, feels like homework rather than support"
+    ],
+    "most_claude_like": "The follow-up questions at the very end ('If you tell me what specifically makes you not trust this person...') match Claude's engaging, conversational approach to continuing dialogue",
+    "least_claude_like": "The entire formatting structure - 6 numbered headers with ### markdown, multiple bullet points under each, bold text throughout. This is the opposite of Claude's natural prose approach and reads like a professional resource guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response is 85% structured lists with 6 main numbered sections (using ### headers), each containing multiple bullet points. Only the opening sentence and closing paragraph are in prose form. This is fundamentally incompatible with Claude's conversational, paragraph-based style."
+    },
+    "key_differences_from_ground_truth": {
+      "structure": "Ground truth is 3 natural paragraphs; evaluated response is 6 numbered sections with headers and extensive bullets",
+      "opening": "Ground truth starts with warm validation and questions; evaluated response has one brief validation sentence then immediately structures advice",
+      "tone": "Ground truth feels like texting a friend; evaluated response feels like reading a crisis counselor's handbook",
+      "length": "Ground truth is concise (3 short paragraphs); evaluated response is overwhelming (6 sections, 400+ words)",
+      "emoji": "Ground truth would likely include 1-2 emojis; evaluated response has none",
+      "validation_ratio": "Ground truth is 60% validation/questions, 40% advice; evaluated response is 10% validation, 90% structured advice"
+    }
+  }
+}

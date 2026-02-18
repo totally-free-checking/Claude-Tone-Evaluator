@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent specific advice with concrete examples teens can actually use (like the exact wording for asking someone out: 'Hey, I really enjoy hanging out with you—would you ever want to do dinner, just us?')",
+      "Strong emotional validation bookending the advice ('that in-between stage is so tricky,' 'that fluttery feeling is kind of fun') and warm closing with 'I'm totally here to overanalyze with you'",
+      "Engaging follow-up questions that are specific to the situation ('What's giving you the hint that you might like them?') rather than generic"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('Look for the different around you clues', 'Try small tests') makes it read like a wikiHow article rather than a natural conversation",
+      "Lacks first-person language throughout the advice sections - uses imperative/commands ('Look for...', 'Try...', 'Suggest...') instead of 'I think you could...' or 'I'd suggest...'",
+      "Structure is over-formatted with bold headers and multiple bullet lists rather than flowing prose paragraphs"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic actions like 'the competition test' and exact phrases to use, all appropriate for teen social contexts",
+    "least_ideal_aspect": "Prose formatting - uses extensive bullet points, bold headers, and structured lists instead of natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "25%",
+      "notes": "Response uses three major formatted sections with bold headers ('Look for the different around you clues', 'Try small tests', 'And if you're brave') containing multiple bullet points. Only the opening and closing are prose. Reads as instructional rather than conversational."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs using first-person transitions like 'I'd suggest looking for...' or 'One thing I usually notice is...' instead of headers and lists",
+      "Integrate first-person language throughout ('I think you could try...', 'I'd say the best way is...') rather than only at the very end to create a more personal, supportive connection",
+      "Reduce emoji usage from 2 to 0-1, and consider removing the winky face at the end which can feel slightly forced - the warmth should come from the words and validation primarily"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'That's such a frustrating situation! It totally makes sense that you'd be stressed about this'",
+      "Specific, actionable advice that is realistic for a teen's agency, such as suggesting they 'walk them through your thought process' and 'show any notes, rough work'",
+      "Follow-up questions are specific to the situation rather than generic, asking about the assignment type and why answers were similar"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('Talk to your teacher directly:', 'Gather evidence:', 'Know your options:') instead of natural conversational prose",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') making the advice feel impersonal and instructional rather than like a supportive friend",
+      "Asks two questions at once at the end rather than a single natural follow-up question"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic steps like asking for a private conversation and gathering drafts with specific phrases to use",
+    "least_ideal_aspect": "Prose vs bullet points - uses structured headers and multiple bullet lists instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "35%",
+      "notes": "Response uses three major header sections ('Talk to your teacher directly', 'Gather evidence', 'Know your options') with 8 total bullet points, making it read like a wikiHow article or school handbook rather than a text conversation. The advice is delivered in list format rather than woven into natural sentences."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs instead of bullet lists - for example, 'I'd probably start by asking your teacher for a private conversation where you can walk through your thought process. You could bring any rough drafts or notes to show your work...'",
+      "Add first-person perspective throughout, such as 'I think the best approach would be...' or 'If I were in your shoes, I'd say...' to create a more personal connection",
+      "Choose one follow-up question instead of two, or combine them into a single more natural question like 'What kind of assignment was it, and do you have any rough work saved that could help show your process?'"
+    ]
+  }
+}

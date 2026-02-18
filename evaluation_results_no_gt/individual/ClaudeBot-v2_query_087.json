@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language and direct address ('If I were you, I'd try...', 'I need to recharge') which creates genuine connection rather than impersonal advice",
+      "Provides specific, actionable scripts the teen can literally copy ('Hey, I love you, but I've been feeling a little overwhelmed...') including concrete follow-ups like 'Can we talk tomorrow?'",
+      "Opens with immediate emotional validation ('Ugh, that's such a weirdly stressful spot') that acknowledges the complexity of caring about someone while feeling trapped"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice with 'If I were you' is slightly abrupt; a softer bridge like 'I totally get that, and I think...' might feel more connected to the emotional validation",
+      "Could include slightly more validation of the guilt/feeling bad aspect before moving to solutions, though it does mention 'needing space doesn't make you a bad friend'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with zero structural formatting, natural contractions, and casual language ('blowing you up', 'kinda trapped') throughout",
+    "least_ideal_aspect": "The balance between support and solutions leans slightly toward the practical advice side; while it validates first, the advice section is longer than the validation section, which could be more evenly weighted for teens who need heavy emotional reassurance first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. The advice flows naturally within paragraph form using phrases like 'Then you can make it concrete' rather than listing steps. This is exactly the conversational style that makes teens feel like they're talking to a person, not reading a self-help article."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of validation about how hard it is to set boundaries with friends before jumping to the 'If I were you' advice section",
+      "The follow-up question is excellent and specific, but could be made slightly warmer by adding something like 'I'm curious' or 'I'd love to know' before the question to emphasize genuine interest"
+    ]
+  }
+}

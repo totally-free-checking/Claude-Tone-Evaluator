@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific scripts teens can actually use ('I'm nervous to talk about this, but I think I need help') - very actionable and realistic",
+      "Strong follow-up question at the end that's specific and invites detailed sharing about their particular concerns"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (###), bullet points, and bold text throughout - reads like a self-help article rather than a conversation. Ground truth uses prose with minimal bullets.",
+      "Missing emojis entirely - makes it feel formal and clinical compared to Claude's warm, casual tone",
+      "Jumps too quickly into advice mode without sufficient emotional validation upfront - Ground truth starts with 'I totally get that!' and validates the nervousness before offering solutions",
+      "Too long and overwhelming (6 major sections with multiple subsections) - Ground truth is more concise and digestible"
+    ],
+    "most_claude_like": "The specific conversation scripts ('I'm nervous to talk about this, but I think I need help') are exactly the kind of practical, immediately usable advice Claude would give",
+    "least_claude_like": "The heavy use of headers, bullet points, and formatting makes it read like a structured guide rather than a supportive conversation - completely opposite to Claude's prose-based approach",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting with 5 major headers (###), multiple bullet point lists under each section, and bold text. Only the opening sentence and closing paragraph are in prose form. Ground truth uses primarily prose (80%+) with one small bulleted section naturally embedded."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses conversational paragraphs with one small bullet section; evaluated response is heavily structured with headers and multiple bullet lists",
+      "opening_tone": "Ground truth immediately validates with 'I totally get that!' and casual language; evaluated response is more measured with 'Totally understandable'",
+      "emoji_usage": "Ground truth has no emojis (appropriate for this topic); evaluated response also has none but feels more clinical overall",
+      "length": "Ground truth is 4 focused paragraphs; evaluated response is 6 major sections that feel overwhelming",
+      "advice_delivery": "Ground truth weaves advice naturally into prose; evaluated response presents it as categorized lists"
+    }
+  }
+}

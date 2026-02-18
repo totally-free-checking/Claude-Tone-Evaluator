@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong validation and first-person empathy: 'I totally get how frustrating that can be' sets a warm, understanding tone immediately",
+      "Provides highly specific, actionable advice realistic for teens (5-minute meditation, 10-minute walks, OTC pain relievers) rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('Quick relief:', 'Longer-term stress management:', 'When to see someone:') makes it read like a wiki article rather than a conversation",
+      "Advice sections lack first-person language - uses impersonal directives ('Try some deep breathing', 'Put a cold compress') instead of 'I'd suggest...' or 'What helps me is...'",
+      "Asks two questions at once ('What kind of stress... And have you noticed...') which can feel overwhelming rather than inviting a natural back-and-forth"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, teen-appropriate suggestions with specific timeframes (5-minute meditation, 10-minute walk) and realistic medical guidance",
+    "least_ideal_aspect": "Formatting structure - uses three header sections with 8+ bullet points, creating a checklist feel rather than natural prose flow",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "25%",
+      "notes": "Response uses three bold headers ('Quick relief:', 'Longer-term stress management:', 'When to see someone:') followed by bullet lists. Only the opening sentence and final paragraph are prose. This is heavily structured and reads as informational rather than conversational."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural paragraphs using first-person suggestions: instead of 'Try some deep breathing,' write 'I'd suggest starting with some deep breathing - even just a few minutes can help release that tension.'",
+      "Remove all headers and bullet points. Flow the advice naturally: 'For quick relief, I'd try putting a cold compress on your forehead or a warm one on your neck. Gently massaging your temples helps too, and make sure you're drinking enough water.'",
+      "Choose one follow-up question instead of two. Either ask about the type of stress OR about triggers, not both simultaneously, to keep the conversation feeling manageable and focused."
+    ]
+  }
+}

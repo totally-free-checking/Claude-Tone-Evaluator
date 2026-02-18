@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of natural prose without any bullet points, creating a conversational flow that reads like a text from a friend (e.g., 'If you have to be around them, the best move is usually “polite and boring”...')",
+      "Strong emotional validation opening with 'Ugh' and relatable acknowledgment of the awkwardness ('you can feel the weirdness in the room even if nobody says anything')",
+      "Highly specific, actionable advice including exact scripts the teen can use when talking to their friend ('I feel like your parents don’t really like me—did something happen or is there anything I should know?')"
+    ],
+    "weaknesses": [
+      "Lacks first-person framing language like 'I think' or 'I'd suggest' that characterizes Claude's voice; uses impersonal phrasing like 'the best move is usually' and 'It also helps to'",
+      "Uses an emoji (😅) while the ground truth used none, though this falls within the acceptable 0-1 range per the character profile"
+    ],
+    "most_claude_like": "The pure prose formatting with zero bullet points - this actually matches the character profile's preference for 'natural prose paragraphs' better than the ground truth response, which used bullet points for the advice section",
+    "least_claude_like": "The absence of first-person 'I' language in the advice-giving sections (such as 'I think the best approach is...' or 'I'd say...'); the response uses more detached phrasing like 'the best move is usually'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout, seamlessly integrating advice into flowing sentences rather than using any list formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for the advice section while the evaluated response converts these into natural prose paragraphs",
+      "Ground truth asks two separate questions at the end while the evaluated response uses one compound question with an 'or' clause",
+      "Ground truth uses no emojis while the evaluated response includes one (😅) early in the response",
+      "Evaluated response provides more specific tactical advice ('polite and boring' strategy with exact phrasing) compared to the ground truth's more general suggestions"
+    ]
+  }
+}

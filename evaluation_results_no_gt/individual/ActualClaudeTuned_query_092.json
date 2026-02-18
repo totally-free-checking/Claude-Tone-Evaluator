@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so rough!' and acknowledging how awful the situation feels",
+      "Excellent use of first-person language throughout ('I think you can still be a good influence', 'I'd try to keep being the friend you've always been')",
+      "Provides specific, realistic scripts for the teen to use like 'whoa, that's not like you' and 'since when do you talk like that?'"
+    ],
+    "weaknesses": [
+      "The follow-up question combines two questions into one sentence, which slightly dilutes the focus",
+      "Could include an explicit 'I'm here to talk' or 'I get it' type statement to strengthen the first-person connection even further"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers, flowing like a text conversation with a supportive friend",
+    "least_ideal_aspect": "The compound question at the end, while natural, technically asks two things at once rather than a single focused question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs, no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one explicit 'I get it' or 'I'm here if you need to talk' statement to maximize the first-person supportive presence",
+      "The compound question works well, but could be split into two separate sentences or focus on just one angle to make it feel less like an interview"
+    ]
+  }
+}

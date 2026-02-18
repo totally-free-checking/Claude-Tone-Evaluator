@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting - pure paragraph form with natural flow, no bullets or lists. This matches Claude's style perfectly.",
+      "Strong practical advice with specific, actionable suggestions like 'hold eye contact for a second, smile back, and say something simple like Hey, how's your day going?' - concrete and realistic for teens.",
+      "Good follow-up question that's specific to their situation ('Do you two ever talk already, or was this more of a passing moment?') rather than generic.",
+      "Appropriate length - substantial enough to be helpful without being overwhelming, readable on a phone."
+    ],
+    "weaknesses": [
+      "Missing the immediate warm validation that Claude leads with. Opens with 'That's a very human response' which is more clinical/observational than empathetic. Claude starts with 'Oh no, you've entered the classic overthinking spiral! 😅 I totally get it though'",
+      "No emojis at all - makes it feel more formal and less like a casual conversation. Claude uses 😅 early to set a warm, relatable tone.",
+      "Tone is more analytical/philosophical ('your mind wants to treat it like a clue that must have one correct interpretation') rather than conversational and relatable. Lacks Claude's casual language like 'Oof', 'Here's the thing', 'ping-ponging around'",
+      "Jumps too quickly into problem-solving mode without enough emotional acknowledgment. Claude spends more time validating the feeling before offering solutions."
+    ],
+    "most_claude_like": "The prose formatting and natural paragraph flow - zero bullets, advice woven naturally into conversational sentences, reads like a real conversation rather than a structured guide.",
+    "least_claude_like": "The opening lacks warmth and immediate validation. 'That's a very human response' feels like an observation from a therapist rather than an empathetic friend saying 'Oh no, I totally get it though!'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. No bullets, no numbered lists, no headers. Advice flows naturally within paragraphs. This is exactly how Claude structures responses."
+    },
+    "key_differences_from_ground_truth": [
+      "Emotional tone: Ground truth is warmer and more immediately validating ('Oh no', 'I totally get it', 'your brain becomes this detective'). Evaluated response is more analytical and measured ('That's a very human response', 'your mind wants to treat it like a clue').",
+      "No emoji usage: Ground truth uses 😅 to create warmth and relatability. Evaluated response has none, making it feel more formal.",
+      "Language style: Ground truth uses casual, conversational phrases ('Oh no', 'Here's the thing', 'ping-ponging around', 'in the driver's seat'). Evaluated response is more philosophical ('ambiguous but meaningful', 'one data point', 'gently collect').",
+      "Balance: Ground truth spends more time on validation before advice. Evaluated response moves quickly to problem-solving ('If you want to get out of overthinking mode, the most reliable move is...').",
+      "Celebration moment: Ground truth ends a paragraph with 'try to enjoy the moment a little bit - your crush smiled at you! That's actually pretty nice' - celebrating the positive. Evaluated response doesn't have this warmth."
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally like a text conversation",
+      "Provides highly specific, actionable advice including exact phrasing to use with counselors ('I'm feeling behind and I don't know what to pick—can you look at my options with me?')",
+      "Uses appropriate casual teen language ('wreck your stress level,' 'drowning,' 'so heavy') without being cringe"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think,' 'I'd say,' 'I get it') which makes it feel like an article rather than a supportive friend talking",
+      "Jumps to practical advice too quickly without sufficient emotional validation - only 2 sentences of validation before launching into solutions",
+      "Uses impersonal constructions like 'It also helps to...' instead of 'I'd suggest...' or 'I think you should...' which creates distance rather than connection"
+    ],
+    "most_claude_like": "The natural prose format with no bullet points and conversational flow - this reads like a text message rather than a structured guide",
+    "least_claude_like": "The absence of first-person perspective and immediate pivot to solutions. Claude would validate more deeply and ask questions before offering specific class selection strategies",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or over-structuring. Maintains conversational paragraph flow throughout"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks exploratory questions before giving advice; evaluated response gives extensive advice immediately after brief validation",
+      "Ground truth uses first-person language throughout ('I totally get,' 'I'd say,' 'help me give you'); evaluated response uses zero first-person statements",
+      "Ground truth ends with encouragement and validation; evaluated response ends with questions without reaffirming support"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers, reading like a genuine text conversation between friends",
+      "Provides highly specific, actionable advice with exact phrases the teen can use ('I'm not trying to pick sides, I'm gonna step away') and concrete actions (put headphones in, take a bathroom break)",
+      "Strong emotional validation opening with 'Ugh, that's so draining' and acknowledging the 'walking on eggshells' feeling without dismissing the situation"
+    ],
+    "weaknesses": [
+      "Gives extensive advice before asking clarifying questions, whereas Ground Truth asks exploratory questions first ('Are we talking like heated debates...') to understand the situation before advising",
+      "Uses first-person language primarily within role-play examples ('I'm not trying to pick sides') rather than in reflective meta-commentary (lacks explicit 'I think' or 'I'd say' framing outside of examples)",
+      "Slightly longer than Ground Truth, packing multiple specific strategies into one paragraph rather than spacing them out or keeping it brief"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points, headers, or formatting, maintaining a conversational flow that feels like texting with a supportive friend",
+    "least_claude_like": "The advice-heavy structure that provides specific solutions and scripts immediately rather than first asking clarifying questions to understand the dynamic better",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences and paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth asks clarifying questions about the nature/timing of the arguing before offering any advice, while Response to Evaluate jumps directly into specific solutions and scripts",
+      "Response to Evaluate is significantly longer (3 paragraphs of advice vs Ground Truth's 1 paragraph) and more detailed in its recommendations",
+      "Response to Evaluate uses one emoji (😅) while Ground Truth uses none, and Ground Truth uses more 'you' focused validation while Response to Evaluate mixes 'you' validation with immediate practical strategies"
+    ]
+  }
+}

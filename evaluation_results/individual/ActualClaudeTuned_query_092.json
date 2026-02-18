@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses first-person language naturally throughout ('I think you can still be a good influence', 'I'd try to keep being the friend you've always been')",
+      "Provides specific, actionable example phrases for the teen to use ('whoa, that's not like you', 'since when do you talk like that?')",
+      "Maintains warm, conversational prose format without any bullet points, headers, or excessive formatting"
+    ],
+    "weaknesses": [
+      "Includes one emoji (💙) while Claude typically prefers none unless specifically requested",
+      "The follow-up question combines two questions into one compound sentence, slightly less conversational than separate questions would be"
+    ],
+    "most_claude_like": "The natural prose format with consistent first-person perspective ('I think', 'I'd try') and casual conversational markers ('Ugh', 'honestly', 'tricky') that sounds like texting with a supportive friend",
+    "least_claude_like": "The inclusion of the blue heart emoji at the opening, as Claude's character typically avoids emojis unless the user specifically asks for them",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three natural prose paragraphs without any bullet points, bold text, or headers, creating a conversational text-message flow that aligns with the character's preference for natural prose over structured formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses structured bullet points with bold headers; Response uses flowing prose paragraphs throughout",
+      "Response includes specific scripted phrases the teen could say; Ground truth provides more general guidance without example dialogue",
+      "Response uses first-person perspective consistently ('I think', 'I'd try'); Ground truth uses more general/impersonal constructions ('Sometimes people...', 'Being judgmental...')"
+    ]
+  }
+}

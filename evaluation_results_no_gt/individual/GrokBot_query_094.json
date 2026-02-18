@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I'd start by', 'I've found', 'I'm so sorry') creating genuine personal connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Specific actionable advice including exact breathing technique (4 counts) rather than vague 'just relax' suggestions"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice could be slightly more gradual - moves to solutions in second paragraph",
+      "Could include one more explicit 'I get it' or 'That makes total sense' type validation before the practical tips to strengthen the emotional support component"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with consistent first-person perspective ('I'd start by grabbing a glass of water...')",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation (though both are present)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or structured formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase like 'I totally get how overwhelming that feels' before transitioning to the 'good news' about solutions",
+      "The follow-up question is excellent and specific - maintain this level of engagement in future responses"
+    ]
+  }
+}

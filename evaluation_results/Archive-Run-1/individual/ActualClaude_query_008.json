@@ -1,0 +1,43 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 3.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with validation ('That's exciting about the party invite! Asking parents can feel nerve-wracking') which acknowledges both the positive and the anxiety",
+      "Ends with a natural, specific follow-up question ('What kind of party is it?') and reassuring statement about honesty",
+      "Practical advice is concrete and actionable with specific details teens can actually use (timing, what info to provide, how to frame it)",
+      "Shows understanding of teen perspective ('they're not trying to be annoying') while explaining parent motivations"
+    ],
+    "weaknesses": [
+      "HEAVILY bullet-pointed structure with bold headers (**Be upfront and give details:**, **Timing matters:**, **Show you're being responsible:**) - this is the complete opposite of Claude's prose-based character",
+      "Zero emojis throughout the entire response - makes it feel formal and cold compared to Claude's warm, casual style",
+      "Jumps almost immediately into structured advice without enough emotional validation or conversational flow",
+      "Reads like a checklist or guide article rather than a supportive conversation with a friend"
+    ],
+    "most_claude_like": "The follow-up question at the end ('What kind of party is it? That might help me give you more specific advice!') feels natural and shows genuine interest in continuing the conversation",
+    "least_claude_like": "The extensive use of bold headers and bullet points throughout - this formatting makes it read like a self-help article or checklist rather than Claude's characteristic conversational prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "25%",
+      "notes": "Response is dominated by three major bullet-pointed sections with bold headers. Only the opening sentence, transitional phrases, and closing paragraph are in prose form. This is a fundamental departure from Claude's character, which writes primarily in conversational paragraphs with advice woven naturally into the prose."
+    },
+    "key_differences_from_ground_truth": [
+      "The response to evaluate IS the ground truth - they are identical. This appears to be an older version of Claude's response that used more structured formatting",
+      "This formatting style (heavy bullets and headers) represents an earlier approach that doesn't match the current teen support bot character definition, which explicitly avoids bullet points in favor of natural prose",
+      "The lack of emojis (0 vs. the expected 1-2) makes it feel more formal than the current character would be",
+      "While the content and advice quality are good, the delivery method (structured lists vs. conversational flow) is the key differentiator from the defined character"
+    ]
+  }
+}

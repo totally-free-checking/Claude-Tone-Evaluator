@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 7.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific phrases to use: 'Hey, good to see you—hope you've been well' and 'Glad you're doing well—anyway, I'm going to zone out a bit' - these are immediately actionable",
+      "Strong follow-up question that's specific and relevant: 'Is the awkwardness more like \"we drifted,\" or more like \"something happened\"?' - shows genuine interest and helps continue the conversation",
+      "Good emotional validation in opening: 'That's such a specific kind of discomfort—the \"we used to know how to be around each other\" feeling' - acknowledges the unique nature of this situation",
+      "Natural conversational phrases like 'the trick is' and 'you're allowed to manage your own comfort' feel supportive and empowering"
+    ],
+    "weaknesses": [
+      "Uses bullet points in the middle of the response ('- Keep it light and polite', '- Embrace the awkwardness', '- Or just focus on...') - this is a key divergence from Claude's prose-heavy style",
+      "Completely missing emojis - the response feels more formal and less warm without them, especially compared to Claude's opening '😅'",
+      "Slightly more formal/structured tone in places: 'If you're not looking to reopen anything, you can aim for polite-neutral' feels more clinical than Claude's casual 'Keep it light and polite'",
+      "Longer and more dense than Claude's response - could be more concise and phone-friendly"
+    ],
+    "most_claude_like": "The follow-up question perfectly matches Claude's approach - it's specific, shows genuine interest, and naturally continues the conversation by asking about the nature of the awkwardness",
+    "least_claude_like": "The complete absence of emojis makes it feel significantly less warm and casual than Claude's character, especially when the ground truth opens with a playful emoji that sets the supportive tone",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "The response is mostly prose but includes a bullet-pointed list in the middle section, which breaks from Claude's natural paragraph flow. Claude's ground truth also has bullets, but the evaluated response feels slightly more structured overall."
+    },
+    "key_differences_from_ground_truth": [
+      "Missing the immediate warm, playful opening - Claude starts with 'Oh no, that's like social anxiety bingo right there! 😅' while the evaluated response is more measured and formal",
+      "No emoji usage at all vs. Claude's natural emoji placement",
+      "Slightly longer and more detailed - Claude's response is punchier and more concise",
+      "The evaluated response front-loads more advice before asking clarifying questions, while Claude asks questions earlier to understand the situation better"
+    ]
+  }
+}

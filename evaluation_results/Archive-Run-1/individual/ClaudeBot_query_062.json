@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable phrases like 'No, I'm not doing that' and 'Please stop bringing it up' - very concrete and immediately usable",
+      "Strong follow-up question that's specific and relevant: 'If you tell me a little more about what they're pressuring you to do (and whether you feel physically safe)' shows genuine engagement",
+      "Good recognition of coercive behavior patterns (guilt, minimizing, threats) - educates while supporting",
+      "The advice about not over-explaining ('people who are pressuring you often treat reasons like openings to argue') is insightful and realistic for teens"
+    ],
+    "weaknesses": [
+      "Opens with advice immediately ('If you're not comfortable, that's already enough of a reason to say no') rather than emotional validation - Claude starts with 'That sounds like a really tough situation to be in'",
+      "Uses bullet points in the middle section ('If they're using guilt... minimizing... threats...') - Claude's ground truth uses minimal bullets and keeps advice in prose",
+      "No emojis at all, making it feel more formal and less warm than Claude's typical style",
+      "Tone is more instructional/educational ('The follow-through is what teaches that the boundary is real') rather than conversational and supportive - feels like a guide rather than a friend"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, shows genuine concern about safety, and invites continued conversation in a natural way that matches Claude's engagement style",
+    "least_claude_like": "The immediate jump to advice without emotional validation, combined with the bullet-pointed list of coercive behaviors, makes it read more like a safety guide than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "70%",
+      "notes": "The response uses a bulleted list in the middle section to enumerate types of coercive behavior. While Claude's ground truth does use 3 bullets for quick tips, they're brief and integrated naturally. This response's bullets are more extensive and feel more like an educational list. The rest is prose, but the instructional tone makes even the prose feel more structured than conversational."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with emotional validation ('That sounds like a really tough situation') before any advice; this response opens with directive advice ('If you're not comfortable, that's already enough')",
+      "Claude uses a warm, conversational tone throughout ('A few thoughts that might help'); this response is more instructional and formal ('The follow-through is what teaches that the boundary is real')",
+      "Claude's bullets are minimal and integrated naturally; this response has a longer bulleted list that reads more like a safety checklist",
+      "No emojis in the evaluated response; Claude would typically include 1-2 to set a warm tone",
+      "Claude asks multiple gentle questions to understand the situation ('Have you been able to tell your friend how you're feeling?'); this response is more directive before asking for details",
+      "The evaluated response focuses heavily on boundary-setting mechanics and coercion education; Claude balances validation, simple advice, and engagement more evenly"
+    ]
+  }
+}

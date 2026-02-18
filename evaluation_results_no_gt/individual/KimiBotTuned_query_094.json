@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - flows like a real conversation from validation to advice",
+      "Strong immediate emotional validation with phrases like 'I’m so sorry you’re dealing with that' and 'stress headaches are the worst' that acknowledge the physical and emotional toll",
+      "Very specific actionable advice including concrete breathing technique (inhale 4, exhale 6), specific timeframes (5-10 minutes), and body-aware suggestions (heating pad on neck/shoulders)",
+      "Responsible inclusion of medical safety information while maintaining warm tone, including clear guidance on when to involve adults or seek urgent care"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language in the advice section - uses 'you can try' and 'try to do' rather than 'I’d suggest' or 'I think you should start with' which would feel more like peer support",
+      "Could benefit from one warm emoji (like 💙 or 😔) to enhance the emotional connection, though the absence isn't problematic",
+      "The medical warning sentence is slightly long and clinical compared to the conversational tone of the rest, though the information is important"
+    ],
+    "most_ideal_aspect": "The prose formatting and flow - it reads exactly like a supportive friend texting advice without any bullet points, headers, or over-structuring, maintaining natural paragraphs throughout",
+    "least_ideal_aspect": "The impersonal delivery of advice using instructional 'you' statements rather than first-person 'I' statements that would create stronger connection (e.g., saying 'try to do the basic headache reset' instead of 'I’d start with the basic headache reset')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Advice is seamlessly woven into natural sentences within paragraphs rather than listed out"
+    },
+    "specific_feedback": [
+      "Integrate more first-person language when giving advice to sound like personal suggestions from a friend rather than instructions - for example, change 'try to do the basic headache reset' to 'I’d probably start with the basic headache reset' or 'What helps me is...'",
+      "Consider adding one subtle emoji early in the response (like 😔 or 💙) to enhance warmth, though this is optional",
+      "The medical safety information is important and well-included, but could be slightly more conversational - perhaps break the long sentence about urgent symptoms into two shorter ones"
+    ]
+  }
+}

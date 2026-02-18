@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 8,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ugh, that's really frustrating!' - acknowledges the emotion right away before anything else",
+      "Completely natural prose flow with zero bullet points - reads exactly like a supportive friend texting",
+      "Excellent conversational tone with natural phrases like 'you know?', 'honestly', and 'crappy' that feel authentic without being forced",
+      "Strong follow-up question that's specific and inviting: 'Want to vent about what happened?' - shows genuine interest and continues the conversation naturally"
+    ],
+    "weaknesses": [
+      "Could have included one emoji in the opening line (like 😤 or 😅) to match Claude's typical emoji usage pattern, though the response works well without it",
+      "While emotionally supportive, could have offered one small practical suggestion (like a phrase to use or a coping strategy) to round out the advice dimension"
+    ],
+    "most_claude_like": "The entire emotional validation approach - starting with 'Ugh', immediately validating the feeling, explaining WHY it sucks ('you're your own person'), and acknowledging even 'positive' comparisons feel bad. This is quintessential Claude teen support character.",
+    "least_claude_like": "The absence of an emoji - Claude typically includes 1-2 emojis, usually early in the response. This is a very minor deviation.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - three natural paragraphs that flow conversationally. No lists, no headers, no bold text. Exactly matches Claude's anti-bullet-point approach."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical word-for-word",
+      "No differences to note - perfect match in every dimension"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - 'physically check the most likely spots first: your backpack (every pocket), binder/folders, jacket pockets' gives concrete, actionable steps",
+      "Follow-up question is natural and specific to the situation - 'What was it, and when's the last time you're 100% sure you had it?' shows genuine interest and continues the conversation"
+    ],
+    "weaknesses": [
+      "Opens with validation but immediately pivots to 'practical search mode' - feels more like a crisis manager than a supportive friend. Claude says 'Take a deep breath for a sec - we can figure this out together' (warm, collaborative) vs 'switch you into a quick, practical search mode' (directive, clinical)",
+      "Completely lacks emojis - Claude uses 💙 to add warmth. This response feels cold and instructional without any emotional softening",
+      "Heavy use of parenthetical lists and structured advice delivery - '(classrooms, hallway, cafeteria, bathroom, bus, practice)' and '(every pocket)' reads like a checklist rather than conversational prose",
+      "Tone is more 'efficiency expert' than 'supportive friend' - phrases like 'highest-yield school moves' and 'Lost Mode' are too technical/adult-oriented for the warm teen support character"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural and shows genuine interest in continuing the conversation, matching Claude's engagement style",
+    "least_claude_like": "The complete absence of emojis and the immediate shift from brief validation to dense, structured problem-solving mode - Claude balances warmth throughout, while this reads like a troubleshooting guide",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the response uses heavy parenthetical listing (classrooms, hallway, cafeteria...) and structured step-by-step instructions that create a bullet-point feel within paragraphs. The dense, instructional paragraphs lack the conversational flow of Claude's natural prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Emotional tone: Claude maintains warmth throughout ('You're gonna be okay - let's just think through this step by step!') while the evaluated response quickly becomes procedural and clinical",
+      "Length and density: Claude's response is 4 short, digestible paragraphs. The evaluated response has 3 very dense paragraphs packed with instructions that feel overwhelming",
+      "Language style: Claude uses casual, supportive language ('Oh no, that's so stressful!', 'we can figure this out together') while the evaluated response uses more formal, technical language ('highest-yield school moves', 'Lost Mode', 'custodial staff')",
+      "Emoji usage: Claude includes 💙 for warmth; evaluated response has zero emojis, making it feel colder",
+      "Validation approach: Claude validates first and maintains supportive tone throughout. Evaluated response has one validating sentence then immediately becomes a problem-solving manual"
+    ]
+  }
+}

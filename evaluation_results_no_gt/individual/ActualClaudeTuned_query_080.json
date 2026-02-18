@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, I'm so sorry' and 'My stomach would be in knots too' using first-person empathy that makes the teen feel truly understood",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with natural transitions between validation and advice",
+      "Strong specific follow-up question ('Who said it to you - is this a friend, family member, or someone you're dating?') that shows genuine interest and invites context"
+    ],
+    "weaknesses": [
+      "Could offer a specific script or text template for how to respond to 'we need to talk' (e.g., 'Hey, when works? I'm free after school')",
+      "The advice 'try not to spiral' while well-intentioned could be paired with a concrete grounding technique for when the anxiety hits"
+    ],
+    "most_ideal_aspect": "The natural prose flow and conversational tone with excellent first-person empathy ('My stomach would be in knots too', 'We've all been there')",
+    "least_ideal_aspect": "The practical advice section is slightly generic and could include one specific phrase or text template they could use right now",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or over-structuring. The response reads as natural paragraphs with smooth transitions between emotional validation, perspective, and advice."
+    },
+    "specific_feedback": [
+      "Consider adding a specific text template they could send back like: 'Hey, when works for you? Getting it over with sounds better than waiting'",
+      "Add one concrete anxiety management tip for the waiting period, such as 'While you wait, maybe put on a comfort show or text a friend to keep your brain occupied'"
+    ]
+  }
+}

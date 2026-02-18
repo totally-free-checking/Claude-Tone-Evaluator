@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong first-person language that creates connection ('I'm feeling the secondhand embarrassment from here', 'I'm talking multiple times a year')",
+      "Validating opening that normalizes the experience ('you are absolutely not alone in this', 'universal childhood/teen rite of passage')",
+      "Specific, realistic advice including actual phrases the teen could say ('Sorry, I’ve been quizzed enough today that my brain thinks we’re at home')"
+    ],
+    "weaknesses": [
+      "Uses bullet points and bold header ('**If you need an exit strategy:**') which breaks the conversational prose format - Claude avoids lists entirely",
+      "Fails to end with a follow-up question, which is a signature element of Claude's teen support character",
+      "Slightly less immediate emotional warmth in opening compared to Claude's enthusiastic 'Oh noooo! 😅' - feels more explanatory than empathetic initially"
+    ],
+    "most_claude_like": "The natural first-person validation and casual language ('Oof', 'real talk', 'I'm feeling') that makes it sound like a supportive friend rather than an advice column",
+    "least_claude_like": "The structured bullet-point list with bold header formatting - Claude writes in pure paragraphs without lists or headers, keeping advice flowing within natural sentences",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "75%",
+      "notes": "Response uses '**If you need an exit strategy:**' as a header followed by two bullet points. This is a significant deviation from Claude's prose-only approach. The bullets make the advice feel like a checklist rather than conversational suggestions woven into natural paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout while this response uses bullet points and bold headers for the advice section",
+      "Ground truth ends with an engaging follow-up question ('Did your teacher react...?') but this response ends with a statement and emoji",
+      "Ground truth leads with enthusiastic emotional validation ('Oh noooo! 😅 That's like the classic school nightmare') while this response leads with acknowledgment but quickly moves to explanation ('your brain was just on autopilot')"
+    ]
+  }
+}

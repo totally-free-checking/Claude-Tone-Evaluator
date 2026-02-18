@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 5.0,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Excellent specific scripts and actionable advice (e.g., 'I'm not okay with you going through my things. It needs to stop,' and the 'pause script' for de-escalation)",
+      "Follow-up questions are specific and relevant to the situation (asking about ages, room type, and whether things are missing vs. snooping)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' or 'I get it' anywhere; reads like an impersonal guide rather than a supportive conversation",
+      "Severely over-structured with 6 numbered headers and multiple bullet lists, resembling a wikiHow article rather than a text from a supportive friend",
+      "Jumps to solutions too quickly with minimal emotional validation - only one brief sentence acknowledging feelings before diving into 6 sections of advice"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic strategies and exact wording a teen can use immediately",
+    "least_ideal_aspect": "Prose formatting - uses heavy headers, numbered lists, and bullet points throughout instead of natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response is structured as 6 numbered sections (## 1) through ## 6)) with multiple sub-bullets under each. Only 1-2 sentences at the beginning are in prose form. Reads like an instructional guide rather than a conversation."
+    },
+    "specific_feedback": [
+      "Rewrite as 2-3 natural paragraphs instead of numbered sections - integrate the advice into flowing sentences like 'I'd probably start by waiting until you're calm, then saying something like...'",
+      "Add first-person connection throughout - use phrases like 'I get why you're furious,' 'I'd feel violated too,' or 'I think the best approach would be...' to sound like a real person talking",
+      "Lead with emotional validation for at least a full paragraph before offering solutions - acknowledge how invasive and disrespectful this feels before jumping to lockbox recommendations",
+      "Condense advice to 1-2 key strategies instead of overwhelming with 6 different approaches - pick the most relevant and describe them conversationally"
+    ]
+  }
+}

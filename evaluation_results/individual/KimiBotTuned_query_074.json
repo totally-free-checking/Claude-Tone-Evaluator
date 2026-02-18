@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent natural prose flow with zero bullet points, maintaining conversational paragraph structure throughout",
+      "Provides highly specific, actionable advice including exact phrases to use ('I’ve noticed the rules got tighter lately—did something happen?') and concrete negotiation tactics",
+      "Uses first-person language naturally within suggested dialogue and maintains warm, casual tone with phrases like 'Ugh, that’s the worst' and 'parents weirdly respond better'"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) when the ground truth uses none and the character prefers zero unless explicitly asked",
+      "Front-loads more prescriptive advice than the ground truth, which spends more time validating and asking exploratory questions before offering solutions",
+      "Opening 'Ugh' is slightly more casual/slangy than the ground truth's 'That sounds really frustrating' which balances warmth with slightly more composed empathy"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational flow that reads like texting with a supportive friend, completely avoiding bullet points or over-structuring while delivering practical advice embedded in paragraphs",
+    "least_claude_like": "The inclusion of an emoji when the user didn't request one and the ground truth demonstrates the character's preference for zero emojis in standard responses",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph format with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out, perfectly matching Claude's prose-based approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses zero emojis while response uses one (😅) in the opening",
+      "Ground truth asks exploratory questions before offering detailed advice, while response provides extensive specific tactics (negotiating one thing at a time, offering check-ins, owning up to mistakes) earlier in the conversation",
+      "Ground truth suggests opening the conversation generally, while response provides more prescriptive step-by-step guidance on how to approach the negotiation"
+    ]
+  }
+}

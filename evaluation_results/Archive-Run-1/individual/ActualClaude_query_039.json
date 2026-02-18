@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 3,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent warmth and validation - opens with 'That sounds really tough' and immediately validates the stress as 'exhausting and overwhelming'",
+      "Strong practical advice that's realistic and actionable - suggests specific approaches like 'regular check-ins' and 'doing your personal best'",
+      "Perfect balance of emotional support and solutions - validates first, then offers help, then re-engages with questions",
+      "Natural conversational tone throughout - uses phrases like 'totally understandable' and 'How are you holding up day to day?'"
+    ],
+    "weaknesses": [
+      "Contains bullet points ('A few things that might help:' followed by three bullets) - this is a key deviation from Claude's prose-heavy style",
+      "Completely lacks emojis - no 😅, 😊, or any other emoji to set a warm, casual tone in the opening",
+      "The bullet point section breaks the conversational flow and makes it feel more structured/formatted than Claude's natural prose approach"
+    ],
+    "most_claude_like": "The opening validation and the two follow-up questions at the end perfectly capture Claude's empathetic, engaging character - 'What subjects or areas are you finding most challenging?' and 'How are you holding up day to day?' feel genuinely interested and conversational",
+    "least_claude_like": "The bullet-pointed advice section ('A few things that might help:') is the clearest divergence - Claude typically weaves advice into natural prose paragraphs rather than listing it out in formatted bullets",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "The response has a clear bullet-pointed section in the middle that disrupts the conversational flow. While the bullets themselves contain good advice, the formatting choice is inconsistent with Claude's character, who would integrate these suggestions into prose paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth and evaluated response are identical - this is the same response, so differences are minimal",
+      "However, evaluating against the character profile reveals that even the ground truth has a bullet point section, which is noted as less ideal for Claude's teen support character",
+      "The absence of any emojis makes the response feel slightly more formal than optimal for the teen support character, even though the tone is otherwise warm"
+    ]
+  }
+}

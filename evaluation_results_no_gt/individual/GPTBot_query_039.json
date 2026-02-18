@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 5.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation: 'That sounds really heavy' and 'no room to breathe or be human' acknowledges the emotional weight effectively",
+      "Practical advice is excellent and specific - includes actual conversation scripts ('I want to do well, but the pressure...'), concrete time blocks ('90 minutes/day'), and realistic strategies like 'good enough' thresholds"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' makes it feel impersonal and instructional rather than supportive",
+      "Heavy reliance on bullet points (6 main bullets with sub-bullets) and bold formatting makes it read like a self-help article rather than a conversation with a friend",
+      "Validation is limited to the first two sentences before immediately pivoting to 'Here are a few ways...' - doesn't maintain emotional support throughout"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it offers specific, actionable strategies including exact phrases to use with parents and concrete study systems that are realistic for a teen's situation",
+    "least_ideal_aspect": "The prose vs. bullets dimension - it uses extensive bullet points, bold text, and numbered lists rather than natural conversational paragraphs, making it feel like a wikiHow article instead of a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "15%",
+      "notes": "Response contains 6 main bullet points with internal bold formatting and sub-examples, plus 2 numbered questions at the end. Only the first two sentences are prose. Heavy use of bold text (**Name what**, **Try a calm**, etc.) creates a structured, instructional feel rather than conversational flow."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs instead of bullet points - flow the advice conversationally: 'I'd suggest trying to name what perfect is costing you first. When I think about systems vs. grades...'",
+      "Add first-person language throughout to create connection: 'I get how overwhelming that feels', 'I'd probably start by...', 'I'm wondering if...' - currently it uses entirely second-person instructional language",
+      "Integrate emotional validation throughout the response rather than front-loading it - check in between advice sections with phrases like 'That anxiety is so valid though' or 'I know that sounds easier said than done'"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Perfect opening validation with 'Oof, that's super stressful! 😬' - immediately acknowledges the emotional weight and uses natural, empathetic language",
+      "Excellent follow-up question that's specific and helpful: 'What kind of project is it? Maybe I can help you strategize how to tackle what's left!' - shows genuine interest and offers continued support",
+      "Strong conversational tone throughout with natural phrases like 'This situation sucks' and 'don't kill yourself trying' - feels authentic and relatable",
+      "Practical advice is concrete and actionable with specific steps like 'save those texts/emails' and 'Email your professor/TA' - realistic for a teen's situation"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and bold headers (**Immediate damage control:**, **If they're MIA:**, **For the presentation/submission:**) - this is the opposite of Claude's prose-focused approach and reads like a structured guide rather than a conversation",
+      "The entire middle section is formatted as lists under headers, which breaks the conversational flow that Claude typically maintains throughout responses",
+      "While the opening and closing are conversational, the bulk of the response shifts into a more structured, article-like format that feels less like texting with a friend"
+    ],
+    "most_claude_like": "The opening and closing bookends are perfect - warm validation with emoji, natural language, and an engaging follow-up question that invites continued conversation",
+    "least_claude_like": "The heavy reliance on bullet points and bold headers in the middle section - Claude would integrate this same advice into flowing paragraphs rather than breaking it into a structured list format",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Response has three bold headers with bullet points underneath each. Only the first paragraph and last two sentences are in prose form. The advice section (which is the majority of the response) is entirely formatted as structured lists, which significantly deviates from Claude's prose-heavy style."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This IS the ground truth response, so there are no differences. However, evaluating it against the character profile reveals that even Claude's actual response here deviates from the typical prose-focused approach described in the character guidelines. This suggests either: (1) the character profile may be idealized, (2) Claude adapts formatting for urgent/time-sensitive situations, or (3) this particular response represents a less typical example of Claude's style.",
+      "observations": [
+        "The ground truth itself uses extensive bullet points and headers, which contradicts the 'natural prose vs. bullet points' dimension in the character profile",
+        "This may indicate that Claude uses more structured formatting for urgent, action-oriented queries where quick scanning is valuable",
+        "The emotional bookends (warm opening + engaging closing) remain consistent with character even when middle section is more structured"
+      ]
+    }
+  }
+}

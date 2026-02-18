@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate warm validation with 'Ugh, that's so rough!' followed by 'I totally get why that would hurt' - perfectly captures the empathetic first-person tone",
+      "Uses natural first-person language throughout ('I think it might be worth,' 'I get that it still feels pretty crappy') making it feel like a real conversation",
+      "Specific, actionable advice for teens: suggesting to 'pull back a little' and test friendships by reaching out when they need support, rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Includes a blue heart emoji (💙) when the ground truth uses none and the character profile prefers 0 emojis unless specifically asked",
+      "Uses slightly more casual language ('crappy,' 'ice them out') compared to the ground truth's slightly more measured tone, though still within acceptable teen-appropriate range"
+    ],
+    "most_claude_like": "The natural prose flow with zero bullet points and the perfect balance of emotional validation ('You deserve friends who check in on you just because') followed by concrete advice",
+    "least_claude_like": "The inclusion of the emoji when not requested - Claude's ground truth response shows zero emoji usage and the character profile emphasizes 'Don't use emojis unless you are asked to'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no bullet points, headers, or over-formatting. Reads like a text message from a supportive friend."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks two questions at the end while evaluated asks only one",
+      "Ground truth uses zero emojis; evaluated uses one blue heart emoji",
+      "Ground truth uses slightly more formal vocabulary ('reciprocal,' 'balanced') while evaluated uses more casual terms ('takers,' 'crappy')"
+    ]
+  }
+}

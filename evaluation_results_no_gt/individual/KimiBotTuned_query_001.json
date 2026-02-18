@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with phrases like 'Oh nooo' and 'instant stomach-drop moments' that perfectly capture the feeling of embarrassment",
+      "Specific, actionable advice including exact scripts to say ('Yeah… rough morning' or 'It’s my new fashion era') and practical logistics (tucking feet under desk, waiting for bathroom break)",
+      "Natural prose format with zero bullet points or headers, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language ('I think', 'I'd say', 'I get it') which would make it feel more like a personal conversation rather than general advice",
+      "Could include slightly more validation before moving to the reframing ('it feels way louder than it actually is')"
+    ],
+    "most_ideal_aspect": "The follow-up question is perfectly crafted—specific to the situation (asking about shoe similarity), natural and conversational, and invites the teen to share more details",
+    "least_ideal_aspect": "The absence of first-person pronouns and phrases ('I think', 'I'd suggest') makes the advice feel slightly impersonal despite the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural prose throughout. No bullet points, headers, bold text, or over-formatting. Advice flows organically within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to increase connection, such as 'I totally get that stomach-drop feeling' or 'I'd probably try to tuck my feet under the desk'",
+      "Consider adding one more validating phrase before the perspective shift, like 'I'd be mortified too' to emphasize you're personally relating before explaining it's not as bad as it feels"
+    ]
+  }
+}

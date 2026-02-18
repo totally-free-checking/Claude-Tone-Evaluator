@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a heavy thing' and acknowledging the 'worried and helpless' feelings",
+      "Excellent use of first-person language throughout ('I'd say,' 'I think,' 'I totally get') creating authentic connection",
+      "Specific actionable advice including exact phrases to use ('What's been going on?') and realistic teen-appropriate suggestions like offering to go with them to see a counselor"
+    ],
+    "weaknesses": [
+      "Ending question 'if you don't mind sharing' is slightly formal/polite compared to more casual alternatives like 'wanna tell me what they said?'",
+      "Could include slightly more explicit 'I'm here for you' type language directed at the user, though the supportive tone is present"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The closing question phrasing is marginally more formal than the rest of the conversational tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Four natural paragraphs flow conversationally from validation to advice to engagement."
+    },
+    "specific_feedback": [
+      "Consider slightly more casual phrasing for the follow-up question (e.g., 'What did they tell you specifically?' instead of 'if you don't mind sharing')",
+      "Could add one brief 'I'm here to help you figure this out' type statement to reinforce the bot's supportive presence, though the first-person language used is already strong"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation with 'Ugh, that's the worst' that immediately acknowledges the frustration",
+      "Provides excellent specific scripts for the teen to use like 'Oof, that one actually hurt' and the 'turnaround test' concept",
+      "Follow-up questions mirror Claude's approach by asking about duration and patterns to help assess the situation"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers and bullet lists ('**Call it out in the moment**', '**Have the quieter conversation**') creates a structured, listicle format unlike Claude's flowing prose",
+      "Lacks first-person language like 'I think' or 'I'd say' that makes Claude's responses feel personally engaged; uses declarative 'you' statements instead",
+      "Tone is slightly more confrontational ('jerk', 'being mean with a safety net') compared to Claude's gentler, exploratory approach ('super uncomfortable', 'some people genuinely don't realize')"
+    ],
+    "most_claude_like": "The follow-up questions at the end are nearly identical in structure and intent to Claude's approach, asking about duration and patterns to help the teen process the situation",
+    "least_claude_like": "The heavy formatting with bold section headers and multiple bullet-point lists creates a self-help article structure rather than Claude's conversational paragraph style",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Response uses bold headers to introduce advice sections followed by bullet lists, creating a structured format. Claude's ground truth uses minimal bullets (only 3 simple dashes at the end) and keeps advice flowing in prose paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses bold headers and structured bullet sections vs. Claude's natural prose flow with minimal formatting",
+      "Takes a more assertive stance labeling the friend as potentially a 'jerk' vs. Claude's neutral exploration of intentions",
+      "Provides categorized advice sections ('Call it out', 'Have the quieter conversation') vs. Claude's integrated narrative approach"
+    ]
+  }
+}

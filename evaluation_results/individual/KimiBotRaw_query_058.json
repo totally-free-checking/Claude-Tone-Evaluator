@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Ends with a natural, engaging follow-up question that mirrors Claude's approach ('What’s making you most nervous about it?')",
+      "Provides highly specific, actionable advice realistic for teens (bringing a friend, writing bullet points on phone, testing the waters)",
+      "Appropriate length that feels readable on a phone without being overwhelming"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout (no 'I think,' 'I'd say,' or 'I get it') - uses impersonal 'You can...' statements instead of supportive companion voice",
+      "Over-formatted with bold headers (**Some things that might make it easier:**) and bold bullet headers (**Test the waters first**) which feels more like an article than a text conversation",
+      "Opens with 'Totally get that' instead of Claude's warmer 'I totally get that!' - dropping the 'I' makes it feel less personal and connected"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural, specific to the situation, and invites continued conversation exactly as Claude would do",
+    "least_claude_like": "The heavy use of bold text formatting and bullet point headers creates a structured, listicle-like appearance that diverges from Claude's conversational prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "55%",
+      "notes": "While Claude occasionally uses simple bullets, this response uses bold headers (**Some things that might make it easier:**) and bold subheaders within each bullet (**Test the waters first**, etc.), making it feel over-structured and less like natural texting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person 'I' language throughout ('I totally get that,' 'I'd say') while evaluated response uses impersonal second-person instructions",
+      "Ground truth uses simple bullet formatting without bold headers; evaluated response uses heavy bold formatting and structured headers",
+      "Ground truth maintains consistent warm, supportive companion tone; evaluated response shifts into more instructional/advice-column tone"
+    ]
+  }
+}

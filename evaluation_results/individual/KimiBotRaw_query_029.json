@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent pure prose formatting with zero bullet points, creating a natural conversational flow that reads like a text from a supportive friend",
+      "Strong immediate emotional validation using relatable language like 'time slows down' and 'our brains are so mean about holding onto embarrassing moments'",
+      "Specific, actionable coping strategies that are realistic for teens (blasting music, hiding under a blanket) and empowering boundary-setting language ('you don't owe anyone immediate forgiveness')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person singular language like 'I think' or 'I'd say' mentioned in the character profile, though it uses inclusive 'our' which partially compensates",
+      "Could include a slightly more explicit offer of continued support like 'I'm here if you need to talk' to fully match the character's supportive closing style"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points or over-formatting, combined with the perfect balance of immediate validation ('Ugh, that's the worst feeling') followed by concrete advice integrated smoothly into the text",
+    "least_claude_like": "The absence of explicit first-person singular statements (like 'I think' or 'I get it') in favor of more general observations, though the tone remains warm and personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Unlike the ground truth which uses three bullet points for advice options, this response integrates all suggestions into flowing prose paragraphs, which actually exceeds the ground truth in matching the character profile's preference for 'natural prose paragraphs (NOT bullet-heavy)'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for reflective questions while evaluated response uses pure prose throughout",
+      "Evaluated response includes more specific immediate coping mechanisms (music, blanket) versus ground truth's broader 'take time to process'",
+      "Evaluated response adds empowering boundary-setting about not owing forgiveness, while ground truth focuses more on understanding the coach's perspective",
+      "Ground truth asks about whether this is a pattern with the coach; evaluated response asks about venting/what specifically went down"
+    ]
+  }
+}

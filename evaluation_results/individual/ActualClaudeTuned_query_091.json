@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation: 'I'm so sorry - that's such an awful feeling when you start to suspect someone might not have genuine intentions'",
+      "Uses first-person language naturally throughout: 'I think your gut is probably picking up on real signals' and 'I'd say trust your instincts here'",
+      "Maintains pure prose format with zero bullet points, reading like a natural text conversation",
+      "Provides specific, actionable advice realistic for teens: 'Try making plans that don't involve the other person at all and see how enthusiastic they are'"
+    ],
+    "weaknesses": [
+      "Leans slightly more heavily toward advice than the ground truth, which intersperses more questions throughout rather than providing a block of suggestions",
+      "Validates the suspicion as likely true ('your gut is probably picking up on real signals') whereas Claude's ground truth maintains more neutrality initially ('seems to have ulterior motives')",
+      "Could include slightly more emotional validation in the middle section before jumping to the 'test it out' advice"
+    ],
+    "most_claude_like": "The natural prose formatting with zero bullet points and conversational flow, combined with the warm opening validation that immediately acknowledges the 'sick to your stomach' feeling",
+    "least_claude_like": "The definitive confirmation of the user's suspicion ('your gut is probably picking up on real signals') rather than the more exploratory, neutral approach of the ground truth which asks 'What's been making you feel this way?' before validating the pattern",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within paragraphs using transitions like 'I'd say trust your instincts here but maybe test it out a little.'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks exploratory questions earlier and validates the pattern tentatively ('seems to have ulterior motives'), while evaluated response confirms the suspicion is likely correct ('your gut is probably picking up on real signals')",
+      "Ground truth focuses more on the emotional experience throughout, while evaluated response shifts more quickly to practical 'testing' strategies",
+      "Evaluated response uses more first-person advice language ('I think', 'I'd say') than the ground truth, which uses more second-person questioning"
+    ]
+  }
+}

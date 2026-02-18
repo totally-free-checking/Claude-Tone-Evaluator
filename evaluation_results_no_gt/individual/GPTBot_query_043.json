@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 2,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 2,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts the teen can actually use word-for-word ('I care about you, and I'm not trying to attack you...')",
+      "Ends with a strong, specific follow-up question that invites the teen to share more details ('If you tell me what the lie is about...')",
+      "Distinguishes between small lies and big lies, showing nuanced understanding of different stakes"
+    ],
+    "weaknesses": [
+      "Zero emotional validation upfront - jumps immediately to advice without acknowledging how stressful, hurtful, or confusing this situation feels",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads like an impersonal instruction manual rather than a supportive friend",
+      "Over-structured with headers (###), numbered lists, and bullet points throughout instead of natural conversational prose"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and specific phrases a teen could actually say",
+    "least_ideal_aspect": "Natural prose vs. bullet points - heavily formatted with markdown headers, numbered steps, and bullet lists rather than flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses multiple markdown headers (###), numbered lists (1) 2) 3)), and bullet points throughout. Only the final sentence is true prose. Reads like a wikiHow article or therapy worksheet rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Start with 1-2 sentences of pure emotional validation before any advice (e.g., 'Ugh, that's such a gut-punchy feeling when you realize something doesn't add up. I'm sorry you're dealing with that suspicion.')",
+      "Rewrite entirely as 2-3 conversational paragraphs using first-person language like 'I think the best approach is...' or 'I'd probably say something like...' instead of imperative instructions",
+      "Remove all headers, bold text, and bullet points - integrate the advice naturally into sentences as if explaining to a friend over text",
+      "Add one warm emoji early (like 😅 or 💙) to set a supportive tone for this emotionally difficult topic"
+    ]
+  }
+}

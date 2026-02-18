@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation using 'Ugh' and acknowledging the uncomfortable position of feeling like you 'did something wrong' even when you didn't",
+      "Writes in completely natural prose paragraphs with zero bullet points or formatting, reading exactly like a text from a supportive friend",
+      "Provides specific, realistic dialogue scripts a teen could actually use ('I care about you, but I'm also gonna hang with other people sometimes') rather than vague suggestions"
+    ],
+    "weaknesses": [
+      "Slightly heavier on practical advice/scripts compared to the ground truth, which spends more time exploring the emotional context before suggesting solutions",
+      "Asks about the specifics of what the friend said rather than asking about the user's own feelings first, which is slightly less emotionally centered than the ground truth approach"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational tone that balances warmth with practical reality—using casual language like 'taking it out sideways' and 'gonna' without trying too hard to sound like a teen",
+    "least_claude_like": "The tendency to provide specific scripted dialogue rather than the ground truth's more open-ended approach of exploring feelings and letting the conversation flow organically",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth explores possible reasons for the friend's reaction (insecurity, jealousy) in a questioning way before advising; response to evaluate moves more quickly to specific scripts and solutions",
+      "Ground truth asks about the user's feelings ('How are you feeling about the whole thing?') while response asks about the friend's specific words ('Did they say what exactly they were mad about')",
+      "Response provides exact dialogue to say; ground truth suggests talking but doesn't script specific phrases"
+    ]
+  }
+}

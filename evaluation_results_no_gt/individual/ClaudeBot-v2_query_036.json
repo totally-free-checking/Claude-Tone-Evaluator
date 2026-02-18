@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with visceral language ('stomach-knot feeling', 'sets off all your alarms') that captures the emotional weight",
+      "Strong first-person advisory voice using 'If I were you, I'd...' and natural contractions throughout, creating authentic peer-like support",
+      "Specific actionable scripts ('I'm not trying to control who you date...') and concrete safety planning (code words, rides) appropriate for teen agency"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while conveying awkwardness, may slightly undercut the seriousness of a potential safety concern compared to more neutral/warm options",
+      "Could explicitly include 'I'm here if you need to talk' to strengthen the first-person supportive presence, though the follow-up question partially serves this function"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - advice flows conversationally through paragraphs using first-person guidance ('I'd focus on', 'I'd also make sure') rather than impersonal directives",
+    "least_ideal_aspect": "Emoji choice (😅) for a serious trust concern, which typically signals embarrassment or nervous laughter rather than the gravity of watching a friend potentially enter a harmful relationship",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or structured formatting. Advice is woven naturally into conversational paragraphs with organic transitions between validation, practical guidance, and safety considerations."
+    },
+    "specific_feedback": [
+      "Consider using 😟 or no emoji instead of 😅 for serious safety-adjacent topics to match the emotional gravity, or explicitly acknowledge the seriousness before the emoji",
+      "Add an explicit first-person availability statement like 'I'm here to help you figure this out' before the follow-up question to reinforce ongoing support"
+    ]
+  }
+}

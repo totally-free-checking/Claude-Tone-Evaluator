@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - the example dialogue 'We need to split questions 1–4. Do you want 1–2 or 3–4?' is exactly the kind of concrete, actionable guidance Claude would give",
+      "Follow-up question is natural and specific to the situation, showing genuine interest in understanding the dynamics better",
+      "Maintains prose format throughout with no bullet points, which aligns with Claude's style",
+      "Offers nuanced perspective on 'hate' vs. perception, which shows psychological insight"
+    ],
+    "weaknesses": [
+      "Opens with validation but immediately pivots to questioning the teen's perception ('sometimes it's your brain trying to make sense of a few sharp moments'), which can feel invalidating rather than supportive",
+      "Completely lacks emojis - the response feels too formal and clinical without them, missing Claude's warm, casual tone",
+      "Language is overly analytical and adult-oriented ('emotionally flat', 'escalate', 'tailor this') rather than conversational teen-speak",
+      "The tone throughout is more like a guidance counselor than a supportive friend - too professional and detached compared to Claude's 'Oh no, that's such an awkward situation! 😬'"
+    ],
+    "most_claude_like": "The specific, actionable advice with example dialogue ('We need to split questions 1–4...') perfectly matches Claude's approach of giving teens exact words they can use",
+    "least_claude_like": "The complete absence of emojis and the overly analytical, clinical tone ('emotionally flat', 'narrowly task-focused') makes it feel like advice from a therapist rather than a warm, supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Successfully maintains prose format throughout, which is a key strength. However, the prose itself is too formal and analytical rather than conversational."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_tone": "Ground truth opens with 'Oh no, that's such an awkward situation! 😬' - immediate, warm validation. Evaluated response opens with validation but quickly questions the teen's perception, which feels less supportive",
+      "emoji_usage": "Ground truth uses 😬 naturally in opening. Evaluated response has zero emojis, making it feel cold and formal",
+      "language_style": "Ground truth uses casual phrases like 'super professional', 'gonna have to', 'pretty much stuck'. Evaluated response uses clinical language like 'emotionally flat', 'escalate', 'tailor this'",
+      "structure": "Ground truth has shorter, punchier paragraphs with natural flow. Evaluated response has longer, denser paragraphs that feel more like an essay",
+      "validation_approach": "Ground truth validates first, asks context, then gives advice. Evaluated response immediately questions whether the hate is real, which can feel dismissive"
+    }
+  }
+}

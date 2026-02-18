@@ -1,0 +1,43 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation: 'That's really caring of you to want to help your friend. It can feel overwhelming...' - immediately acknowledges the user's good intentions and validates their uncertainty",
+      "Excellent follow-up question: 'What kind of struggles are they dealing with, if you're comfortable sharing?' - natural, specific, and shows genuine interest in continuing the conversation",
+      "Practical advice is concrete and actionable: specific phrases like 'How can I best support you right now?' and realistic suggestions like 'bringing food, running errands'",
+      "Good closing sentiment: 'Sometimes just knowing someone cares and is willing to stick around makes a huge difference' - warm and reassuring"
+    ],
+    "weaknesses": [
+      "Heavily formatted with bold headers and bullet points throughout - this is the OPPOSITE of Claude's prose-based approach. The response has 3 bold headers and 10 bullet points, making it read like a checklist rather than a conversation",
+      "Complete absence of emojis - makes the response feel more formal and less warm than Claude's typical teen support character would be",
+      "Jumps too quickly from validation (2 sentences) into structured advice lists - Claude would weave advice more naturally into conversational paragraphs",
+      "The middle section is entirely bullet-pointed advice with no prose flow - reads like a self-help article rather than a supportive friend texting"
+    ],
+    "most_claude_like": "The follow-up question at the end is perfectly Claude-like - natural, specific to their situation, and genuinely invites them to share more details",
+    "least_claude_like": "The heavy use of bold headers and bullet points throughout the entire advice section - Claude's character writes in natural prose paragraphs, not formatted lists",
+    "bullet_point_analysis": {
+      "bullet_count": 10,
+      "prose_percentage": "25%",
+      "notes": "The response has 3 bold section headers ('Simple but meaningful things:', 'Practical support:', 'If it seems serious:') followed by 10 bullet points. Only the opening (2 sentences), closing (1 sentence), and final question are in prose form. Approximately 75% of the substantive content is in bullet/list format, which directly contradicts Claude's prose-based character approach."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. This reveals that the ground truth itself doesn't match the character profile described in the evaluation rubric",
+      "The character profile emphasizes 'Writes in natural prose paragraphs (NOT bullet-heavy)' and 'Avoids bullet points and excessive formatting,' but this ground truth response is heavily bullet-pointed with bold headers",
+      "The character profile states Claude 'Uses emojis naturally and appropriately (usually 1-2 per response)' but this ground truth has zero emojis",
+      "There's a fundamental mismatch between the described character (conversational prose, emoji-using, casual) and the actual ground truth response (structured, formatted, formal)"
+    ]
+  }
+}

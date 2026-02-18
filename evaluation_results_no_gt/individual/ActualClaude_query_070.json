@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation flowing between paragraphs",
+      "Strong follow-up questions at the end that are specific to the situation (patching up vs. understanding) and invite the teen to share more"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses detached 'it' statements ('It could be that', 'It might help') instead of personal connection ('I think', 'I'd suggest', 'I get that')",
+      "Emotional validation is somewhat generic ('tricky situation', 'tough') rather than deeply empathetic ('Ugh, that guilt feeling', 'We've all been there')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Impersonal tone due to complete absence of first-person language ('I think', 'I'd say', 'I get it')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural transitions between ideas. No headers, bold text, or list formatting detected."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: change 'It might help to let them know' to 'I'd suggest telling them directly' or 'I think you could try letting them know'",
+      "Include one warm emoji early in the response (like 😅 or 💙) to set a supportive tone for this emotional situation",
+      "Make advice more specific with example phrases: instead of 'let them know they're still important,' suggest actual words like 'Hey, you're still my best friend - hanging out with Alex doesn't change that'"
+    ]
+  }
+}

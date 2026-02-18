@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd', 'I totally get', 'I'm so sorry') creating genuine connection",
+      "Immediate emotional validation with specific empathetic phrases like 'That pit in your stomach is so real' and acknowledging 'it's honestly one of the worst feelings'",
+      "Perfect prose formatting with natural paragraph flow - no bullets, headers, or over-structuring"
+    ],
+    "weaknesses": [
+      "Could enhance warmth slightly with one subtle emoji (like 😅 or 💙) given the anxiety topic, though the absence is not problematic",
+      "Practical advice could include specific scripting for how to approach the teacher conversation (what exactly to say)",
+      "Slight abrupt transition with 'Here's the thing though' which minimally dampens the empathetic opening"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting rather than a structured self-help guide",
+    "least_ideal_aspect": "Could provide slightly more specific 'scripts' or exact phrases for talking to the teacher rather than general suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💙) early in the response to enhance visual warmth, though the text alone is already warm",
+      "Provide specific conversation starters for talking to teachers, such as: 'You could say something like: I'm really worried about my grade and want to turn things around. Do you have any advice on what I should focus on?'",
+      "The transition 'Here's the thing though' slightly minimizes the validation - consider softer transitions like 'But honestly?' or 'The good news is...'"
+    ]
+  }
+}

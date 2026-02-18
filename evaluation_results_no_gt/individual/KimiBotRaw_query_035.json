@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation that normalizes the struggle of pretending to be fine: 'And the whole 'smiling through it' thing? Honestly exhausting. You don't actually have to be fine right now if you're not.'",
+      "Perfect natural prose format with zero bullet points or headers, flowing like a conversational text message between friends",
+      "Excellent follow-up question that offers two specific, natural options: 'Want to talk about what happened, or would you rather just have someone confirm that yes, this absolutely sucks...'"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language ('I think', 'I'd say', 'I get it') that would make the response feel like a specific supportive friend sharing their perspective rather than general wisdom",
+      "Absence of any emoji when one warm emoji (like 😅 or 💙) could enhance the casual, supportive tone at the opening"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow without any bullet points, lists, or over-structuring",
+    "least_ideal_aspect": "Absence of first-person 'I' statements despite otherwise casual tone, making it feel slightly impersonal compared to a friend saying 'I get how hard that is'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural transitions. No bullet points, numbered lists, bold headers, or excessive formatting. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective statements to increase personal connection, such as 'I think the acting fine part is especially tough' or 'I'd probably want to hide too if that happened to me'",
+      "Consider including one warm, casual emoji at the start (like 😅) or end (like 💙) to immediately signal the supportive, informal tone"
+    ]
+  }
+}

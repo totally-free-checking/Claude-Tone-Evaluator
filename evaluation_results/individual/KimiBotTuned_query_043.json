@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a gross feeling' followed by acknowledgment of the 'brain spiral' feeling",
+      "Specific conversational scripts embedded naturally in prose: 'Something like, \"Hey, can I ask you about something?...\"'",
+      "Tactical advice about silence: 'stay quiet and let them answer—people tell on themselves way more when you don't rush to fill the silence'",
+      "Natural teen-appropriate language without being cringe: 'wanna', 'gonna' (implied), 'tell on themselves'"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think' or 'I'd say' that Claude typically uses to signal personal perspective",
+      "Uses one emoji (😅) while Ground Truth uses none, though this is within acceptable range",
+      "The follow-up question is slightly compound (asking both what the lie is about and how they found out) rather than the single focused questions in Ground Truth"
+    ],
+    "most_claude_like": "The pure prose formatting without bullet points or bold headers, flowing example phrases naturally into sentences rather than listing them as options",
+    "least_claude_like": "The absence of explicit first-person opinion markers ('I think', 'I'd say') makes it slightly less personal than Claude's typical 'supportive friend' voice, relying more on general 'you' statements",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response avoids the bullet formatting used in Ground Truth (which uses **The soft opener:**, **Give them an easy out:**, etc.) and instead embeds all advice and example phrases within flowing paragraphs, matching the character's preference for natural prose over structured lists"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bold headers/bullet formatting for three distinct approaches while Response embeds examples in continuous prose",
+      "Ground Truth uses zero emojis; Response uses one (😅) early in the response",
+      "Ground Truth ends with two separate questions; Response ends with one compound question",
+      "Response uses more casual slang ('gross feeling', 'brain spiral', 'tell on themselves') compared to Ground Truth's slightly more measured tone"
+    ]
+  }
+}

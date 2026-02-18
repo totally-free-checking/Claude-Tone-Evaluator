@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent emotional validation with specific acknowledgment of the fear 'if I stopped reaching out, would anyone even notice?' and validating that 'that question stings'",
+      "Highly specific and actionable advice including exact phrases like 'hey, I love hearing from you first sometimes' and concrete concepts like the 'pause test'",
+      "Strong metaphor of 'holding the door open' that captures the emotional labor vividly"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list with bold headers ('The pause test:', 'Low-key directness:') which breaks conversational flow and reads like a self-help article rather than a text conversation",
+      "Lacks first-person language ('I think', 'I'd suggest', 'I get it') making it feel observational rather than personally connected",
+      "Opens with 'A few things that might help:' which signals a structured list approach rather than natural prose flow"
+    ],
+    "most_ideal_aspect": "The emotional validation in the first two paragraphs perfectly captures the specific anxiety of being the initiator and validates the sting of feeling invisible",
+    "least_ideal_aspect": "The formatting shifts abruptly into a structured bullet-point list with bold headers, which destroys the conversational intimacy established in the opening",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response starts with strong prose paragraphs but shifts to 'A few things that might help:' followed by 3 formatted bullets with bold headers and colons. This creates a jarring shift from conversational to instructional/article format."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs - instead of 'The pause test: Take a little breather...' write something like 'I'd suggest trying what I call a pause test - just take a little breather from being the starter...'",
+      "Add first-person perspective throughout, such as 'I think the weird thing is...' or 'I'd say it's okay to...' to create that supportive friend-to-friend connection",
+      "Remove the bold formatting and colons entirely - if you need to separate ideas, use natural transitions like 'Another thing I've noticed...' or 'You could also try...'"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Strong emotional validation with visceral physical descriptions ('makes your chest sink') that help the teen feel truly seen",
+      "Provides highly specific, realistic scripts a teen could actually use ('Hey, I've been feeling a little used lately... are we good?')"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language ('I'd suggest,' 'I think,' 'I'd try') that Claude uses to feel more like a personal conversation rather than instruction",
+      "More prescriptive/advice-heavy compared to ground truth, which focused more on exploratory questions before offering solutions",
+      "Uses an emoji (💙) while ground truth used none, though this is minor and within acceptable bounds"
+    ],
+    "most_claude_like": "The completely unstructured, natural prose format with conversational flow and no bullet points or bold text headers",
+    "least_claude_like": "The delivery of advice using second-person imperatives ('try pulling back,' 'You can also bring it up') rather than first-person suggestions ('I'd probably pull back,' 'I think you could try') that make it feel more like a friend sharing perspective than an advisor giving instructions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or headers. Advice flows naturally within paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks exploratory questions throughout before suggesting solutions; Response to Evaluate validates then immediately jumps to specific action steps and scripts",
+      "Ground truth uses no emojis while Response to Evaluate includes one (though appropriate)",
+      "Ground truth uses more tentative, exploratory language ('Have you thought about...') while Response to Evaluate is more directive ('try pulling back,' 'Pay attention to...')",
+      "Response to Evaluate provides specific conversation scripts while ground truth leaves the approach more open-ended"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language and natural conversational markers ('I think', 'Honestly', 'Ugh') that create a supportive, personal tone",
+      "Flows entirely in natural prose paragraphs without any bullet points or lists, making it feel like a genuine text conversation",
+      "Strong immediate emotional validation ('Totally normal - it doesn't make you a bad person at all') that acknowledges the guilt without judgment"
+    ],
+    "weaknesses": [
+      "Uses one emoji (😅) while the ground truth uses none; though within character guidelines of 0-1, it slightly diverges from the specific ground truth example",
+      "Integrates all advice into prose while the ground truth uses dashed bullet points for middle questions, making the structure different (though the prose approach actually better matches the character profile ideal)",
+      "Opening with 'Ugh' is slightly less warm than the ground truth's 'Hey, that sounds really tough!' though still appropriately empathetic"
+    ],
+    "most_claude_like": "The natural, flowing prose format without any bullet points or structured lists, combined with consistent first-person language ('I think the important thing...') that makes it feel like advice from a supportive friend rather than an AI",
+    "least_claude_like": "The inclusion of the 😅 emoji, as the ground truth response demonstrates the character can be warm and casual without any emoji usage, and the character profile specifies not using emojis unless asked",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with zero bullet points, numbered lists, or dashed items. All advice and questions flow naturally within prose sentences, which aligns perfectly with the character profile's preference for 'natural prose paragraphs (NOT bullet-heavy)'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses dashed bullet points for three middle questions while the evaluated response integrates all content into continuous prose paragraphs",
+      "Ground truth contains zero emojis while the evaluated response uses one (😅) early in the response",
+      "Ground truth asks multiple clarifying questions in the middle using list format, while the evaluated response asks one consolidated question at the end"
+    ]
+  }
+}

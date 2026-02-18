@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 8,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Aw man, that really sucks' - acknowledges the pain right away without minimizing",
+      "Exceptional emotional intelligence in recognizing the 'trying to act fine' aspect and explicitly giving permission to feel bad ('You don't have to pretend it doesn't sting')",
+      "Natural, conversational prose throughout with zero bullet points or formatting - reads exactly like a supportive text message",
+      "Ends with a caring follow-up question ('Are you doing okay?') that feels genuine and invites continued conversation"
+    ],
+    "weaknesses": [
+      "Could have included one emoji (likely 😔 or similar) in the opening to add warmth, though the absence doesn't significantly detract from the overall tone",
+      "Leans slightly more toward emotional support than practical advice - while appropriate for this query, a tiny suggestion about what to do with these feelings could enhance it"
+    ],
+    "most_claude_like": "The recognition and validation of the 'trying to act fine' dynamic - this shows deep emotional attunement and gives explicit permission to feel disappointed, which is quintessentially Claude's supportive approach",
+    "least_claude_like": "The absence of an emoji in the opening paragraph, though this is a very minor deviation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with natural paragraph flow. No bullets, no headers, no over-structuring. Reads like a genuine conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical, so there are no differences to note"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong empathetic validation ('Ugh, stress headaches are the worst—that tight, squeezing feeling that just won't quit') that acknowledges the physical experience",
+      "Provides excellent, specific actionable advice that's realistic for teens (4-7-8 breathing, 20-20-20 rule, specific massage locations)",
+      "Ends with supportive encouragement ('You've got this') and a natural follow-up question"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (**Quick relief**, **Short-term fixes**) creates a structured, clinical feel rather than conversational prose",
+      "Lacks first-person language throughout—uses 'Totally get' instead of 'I totally get', missing the 'I'm here' connection that defines Claude's character",
+      "Overly detailed and instructional in a way that reads like a health guide rather than texting with a supportive friend"
+    ],
+    "most_claude_like": "The warm, validating opening that acknowledges the physical sensation of stress headaches with 'Ugh' and 'totally get why you're frustrated'",
+    "least_claude_like": "The heavy bullet-point formatting with bold section headers (**Quick relief (try these now):**, **The stress piece:**) which feels more like a medical pamphlet than natural conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "20%",
+      "notes": "Response uses four bold-header sections with multiple bullet points each, creating a highly structured, list-heavy format. Only 2-3 sentences of actual prose at the beginning and end, with the remaining 80% formatted as lists or headers."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses first-person validation ('I totally get') while Response drops the 'I' ('Totally get'), making it feel less personal and connected",
+      "Response uses bold formatting and more detailed medical language (e.g., 'progressive muscle relaxation', 'nervous system to chill out') compared to Ground Truth's simpler, casual bullet points",
+      "Ground Truth asks two engaging follow-up questions about the stress and triggers; Response asks only one question about duration",
+      "Response is significantly longer and more comprehensive, potentially overwhelming for a teen reading on mobile, while Ground Truth keeps advice concise and scannable"
+    ]
+  }
+}

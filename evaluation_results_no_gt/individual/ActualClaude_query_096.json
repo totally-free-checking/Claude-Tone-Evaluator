@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural conversation with smooth paragraph transitions",
+      "Strong opening validation that immediately acknowledges the pain and confusion of feeling lonely while surrounded by friends ('That sounds really tough')",
+      "Effective use of metaphor ('watching everyone else have fun from behind glass') that captures the emotional experience vividly"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'Sometimes it helps' and 'A few questions that might help' instead of 'I'd suggest' or 'I'm wondering', creating distance rather than connection",
+      "Overwhelming question barrage in the third paragraph asks three questions at once ('Do you feel like you can be yourself... Are there certain friends... And does it happen...') which feels like an interrogation rather than a conversation",
+      "Missing opportunity for concrete in-the-moment advice - suggests focusing on 'quality connections' but doesn't give specific scripts or actions for when they're actually with the group feeling left out"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language makes the response feel impersonal and detached despite the warm content - reads like general advice rather than support from someone who cares",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullets, no bold text, no headers. Advice flows within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create genuine connection: change 'Sometimes it helps to focus on quality connections' to 'I think it might help to focus on quality connections' and 'A few questions that might help' to 'I'm wondering about a few things'",
+      "Break up the three consecutive questions in the third paragraph - either pick the most important one or spread them throughout the response so it doesn't feel like an interview",
+      "Include one specific phrase or script they could use in the moment when feeling left out, like 'I'd maybe try saying something like...' to make the advice more actionable"
+    ]
+  }
+}

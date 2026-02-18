@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get it', 'If I were you, I'd start', 'you're stuck there') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs ('I'd start with something super casual...')",
+      "Strong immediate emotional validation opening with 'Ugh, that's the worst' and validating the physical sensation of wanting to hide"
+    ],
+    "weaknesses": [
+      "Slight minimization risk in paragraph 2 ('it probably feels way bigger in the moment than it actually is') could potentially invalidate the teen's experience before fully acknowledging it, though 'Honestly' softens this",
+      "Could include slightly more specific validation about the grief of losing a friendship before pivoting to normalization"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with embedded first-person advice - reads exactly like a supportive friend texting rather than a structured guide",
+    "least_ideal_aspect": "The slight pivot to normalization ('feels way bigger than it actually is') comes before fully sitting with the emotional weight of the awkwardness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice is seamlessly woven into conversational sentences like 'If I were you, I'd start with...'"
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence validating the specific sadness of the friendship ending before the 'it feels bigger than it is' perspective",
+      "The first-person language is excellent - maintain this 'If I were you' and 'I totally get it' style as it creates strong rapport",
+      "The follow-up question about what made things 'go south' is perfect teen vernacular - keep using this casual, non-clinical language"
+    ]
+  }
+}

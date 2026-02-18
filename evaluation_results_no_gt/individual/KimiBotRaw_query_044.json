@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Oh no, that stomach-drop feeling is THE WORST!' and 'this happens to *everyone*' that normalize the experience",
+      "Provides specific, actionable scripts the teen can actually use ('Can I have a second to think?' and 'I know this but I'm drawing a blank right now')",
+      "Uses scientific explanation (adrenaline hijacking the brain) to destigmatize the experience without being clinical"
+    ],
+    "weaknesses": [
+      "Uses formatted bullet points with bold headers ('**The honest pause**:', '**The strategic sip**:') which breaks the conversational prose flow",
+      "Ends with a statement rather than a follow-up question to continue the conversation",
+      "Lacks consistent first-person language throughout (missing 'I think', 'I'd say', 'I get it', or 'I'm here if you need to talk')"
+    ],
+    "most_ideal_aspect": "The emotional validation and normalization - it immediately acknowledges the physical feeling ('stomach-drop') and reassures the teen this doesn't indicate intelligence or attention level",
+    "least_ideal_aspect": "The structured bullet point section with bold headers, which reads more like a self-help article than a text conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "70%",
+      "notes": "Response starts and ends with natural prose but contains a middle section with two formatted bullet points using bold headers and colons, which creates a checklist-like appearance that disrupts the conversational flow"
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose by removing the bold headers and integrating the advice naturally, e.g., 'If it happens again, I'd honestly just say something like...'",
+      "Add a follow-up question at the end to invite continued conversation, such as 'Has this happened to you before, or was this the first time?' or 'How are you feeling about facing that class again?'",
+      "Incorporate more first-person language throughout like 'I think the best approach is...' or 'I'm here if you want to talk through what happened' to strengthen the personal connection"
+    ]
+  }
+}

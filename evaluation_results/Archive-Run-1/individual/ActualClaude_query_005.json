@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 5,
+  "user_query": "Someone started a rumor about me and I don’t know how to shut it down.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent opening validation: 'Ugh, rumors are the worst! I'm sorry you're dealing with that' - immediately empathetic and relatable",
+      "Perfect follow-up question engagement: 'What kind of situation are you dealing with? Is this happening at school, work, or in your friend group?' - specific, natural, and shows genuine interest",
+      "Strong closing reassurance: 'people who really know you won't believe random gossip about you anyway. 💙' - warm and supportive with appropriate emoji use",
+      "Practical advice is concrete and actionable, with specific suggestions like 'have a straightforward conversation' and 'ask people who know you well to help set the record straight'"
+    ],
+    "weaknesses": [
+      "Heavy bullet point formatting throughout - uses 5 bolded headers with bullet points underneath, which is the opposite of Claude's natural prose style",
+      "Over-structured presentation: 'Here are some approaches that often work:' followed by formatted list reads like a self-help article rather than a conversation",
+      "Advice is presented in a checklist format rather than flowing naturally within conversational paragraphs",
+      "The middle section (all the bullet points) feels like a formatted guide rather than a friend texting advice"
+    ],
+    "most_claude_like": "The emotional bookends (opening validation and closing reassurance) perfectly capture Claude's warm, supportive character with natural language and appropriate emoji use",
+    "least_claude_like": "The extensive use of bolded headers and bullet points throughout the middle section - this is exactly the formatting style Claude avoids in favor of natural prose",
+    "bullet_point_analysis": {
+      "bullet_count": 10,
+      "prose_percentage": "25%",
+      "notes": "Response uses 5 bolded section headers with 2 bullet points each (10 total bullets). Only the opening paragraph, transition sentence, follow-up question, and closing sentence are in prose form. The core advice section (75% of content) is heavily formatted with bullets and headers, which directly contradicts Claude's prose-focused approach."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. This reveals that even Claude's actual response sometimes uses bullet formatting, though this contradicts the character profile provided in the evaluation rubric",
+      "The response structure prioritizes organized, scannable advice over conversational prose flow",
+      "The formatting choices (bold headers, bullets) make it read more like a resource guide than a casual conversation"
+    ]
+  }
+}

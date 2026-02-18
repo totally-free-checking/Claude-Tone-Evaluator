@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent emotional validation with specific acknowledgment of the 'auditioning' feeling and being a 'contingency plan'",
+      "Natural first-person language throughout ('I'm sorry','I'm rooting for you') and casual phrasing ('u up?','dopamine hit')",
+      "Highly specific, actionable advice for teens like saying 'I'm busy' to late-night texts and pulling back to see who notices"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**It's usually not about your worth**, etc.) that create a structured, list-like format instead of pure conversational prose",
+      "The three bold sections make it read more like a self-help article than a natural text conversation between friends"
+    ],
+    "most_claude_like": "The conversational tone and first-person validation style - it genuinely sounds like a supportive friend acknowledging the specific pain of being a 'backup' with empathy and warmth",
+    "least_claude_like": "The formatting with bold headers/sections - Claude's responses flow as natural paragraphs without structural markers or bold text breaking up the advice",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "While the content under each section is prose, the three bold headers (**It's usually not about your worth**, **You can quietly stop auditioning**, **Backup dynamics often happen in transitions**) function as bullet points, breaking the natural flow and creating a structured list format unlike Claude's pure paragraph style"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose paragraphs with no formatting; evaluated response uses bold headers that segment advice into structured sections",
+      "Ground truth places the follow-up question in the middle of the response; evaluated response places it at the end (both acceptable but different)",
+      "Ground truth uses no emojis; evaluated response uses one yellow heart at the end (minor difference)"
+    ]
+  }
+}

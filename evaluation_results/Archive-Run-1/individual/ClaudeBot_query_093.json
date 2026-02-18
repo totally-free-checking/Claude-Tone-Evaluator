@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Maintains prose format throughout with no bullet points, which aligns well with Claude's style",
+      "Provides specific, actionable advice like 'have a couple of neutral scripts ready' with concrete examples ('Yeah, I felt like a change')",
+      "Ends with an engaging follow-up question that's specific and offers continued support",
+      "Shows psychological insight by breaking down different types of fears (mean comments vs. attention vs. being talked out of it)"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis, making it feel more formal and less warm than Claude's approach (Ground truth uses emojis naturally)",
+      "Opens with validation but it's more analytical than warm - 'really common' feels clinical compared to Claude's 'I totally get that feeling!'",
+      "Tone is more therapeutic/coaching than conversational - phrases like 'useful way to separate it' and 'they call for slightly different tactics' sound professional rather than friend-like",
+      "Lacks the immediate emotional warmth of Claude's response - doesn't use casual interjections like 'Here's the thing though' or 'honestly?'"
+    ],
+    "most_claude_like": "The prose-heavy format and the specific, practical advice with example phrases ('Yeah, I felt like a change') matches Claude's approach of giving teens actual words they can use",
+    "least_claude_like": "The complete absence of emojis and the analytical, therapeutic tone ('useful way to separate it', 'they call for slightly different tactics') makes it feel like a counselor rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullets. However, the prose itself reads more like a therapy session than a casual conversation. Uses em-dashes and complex sentence structures that feel more formal than Claude's natural flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth opens with 'I totally get that feeling!' (immediate, warm validation) vs. 'really common' (more clinical observation)",
+      "Ground truth uses emojis naturally; evaluated response has zero emojis",
+      "Ground truth uses casual language ('Here's the thing though', 'honestly?', 'YOUR body and YOUR style!') vs. more formal phrasing ('useful way to separate it', 'they call for slightly different tactics')",
+      "Ground truth has shorter, punchier paragraphs that feel more text-message-like; evaluated response has longer, denser paragraphs",
+      "Ground truth emphasizes 'it's YOUR body' with empowering language; evaluated response focuses more on managing others' reactions",
+      "Ground truth's follow-up is simpler and more direct ('What kind of change are you thinking about?'); evaluated response's follow-up is longer and more conditional"
+    ]
+  }
+}

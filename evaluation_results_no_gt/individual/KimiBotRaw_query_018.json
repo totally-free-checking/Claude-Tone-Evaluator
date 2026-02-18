@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Immediate emotional validation with 'That sounds really overwhelming and stressful. I'm sorry you're dealing with that right now.'",
+      "Prioritizes safety appropriately with the immediate check-in about physical safety",
+      "Provides highly specific, actionable advice like the '5-4-3-2-1 trick' and suggesting rain sounds/white noise",
+      "Ends with a natural, caring follow-up question: 'Do you have somewhere else you could go for a bit, or someone you can text right now?'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting with headers like 'Right now:' and 'Afterward' which reads like a self-help article rather than a text conversation",
+      "Uses impersonal framing like 'here are some things that might help' instead of first-person suggestions like 'I'd suggest trying...'",
+      "Over-formatted with bold text throughout (e.g., '**do you feel safe right now?**', '**Noise blockers**') which breaks conversational flow"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies appropriate for a teen's immediate situation including safety planning and grounding techniques",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses structured lists and headers instead of flowing conversational paragraphs, making it feel instructional rather than supportive",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response contains two distinct bullet sections with bolded headers ('Right now:' and bold list items). The middle 60% of the response is heavily structured, with only opening and closing paragraphs in natural prose. Bold formatting is used excessively for emphasis within bullets."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing paragraphs using first-person language, e.g., 'If you have headphones handy, I'd suggest putting on some music or a podcast to muffle the noise. Even just stepping out to the bathroom or backyard for a few minutes can help break that anxious feeling.'",
+      "Add more personal connection throughout the advice sections using 'I' statements like 'I think it might help to...' or 'I'd probably text a friend in that situation...' instead of imperative instructions",
+      "Remove bold formatting and headers entirely; if emphasis is needed, use natural verbal emphasis like 'seriously' or 'honestly' instead of visual formatting"
+    ]
+  }
+}

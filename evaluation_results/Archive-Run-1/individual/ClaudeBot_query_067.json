@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Good prose structure throughout - avoids bullet points and maintains paragraph flow, which matches Claude's style",
+      "Practical advice is specific and actionable, particularly the suggested phrase 'I'm willing to talk about it, but I don't want to make big decisions yet'",
+      "Ends with an engaging follow-up question that invites the teen to share more about their specific concerns",
+      "Length is appropriate - substantial enough to be helpful without being overwhelming"
+    ],
+    "weaknesses": [
+      "Opens with 'That's pretty normal' which is somewhat dismissive compared to Claude's immediate emotional validation ('Oh man, I totally get why that might feel overwhelming!')",
+      "Completely lacks emojis - feels more formal and less warm than Claude's natural emoji use (Claude used 'lol' at the end)",
+      "Tone is more analytical and explanatory ('because it's the moment when classes, activities, and grades start counting') rather than empathetic and relatable",
+      "Jumps into explaining parent psychology before really validating the teen's feelings - Claude validates first, explains second"
+    ],
+    "most_claude_like": "The prose-based structure and the specific, actionable phrase suggestion ('I'm willing to talk about it, but I don't want to make big decisions yet') matches Claude's approach of giving teens exact words they can use",
+    "least_claude_like": "The opening lacks warmth and immediate emotional validation - starting with 'That's pretty normal' feels more like a therapist analyzing the situation than a friend saying 'I get you'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose structure throughout. No bullet points or excessive formatting. This is one of the strongest aspects matching Claude's style."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with strong emotional validation ('Oh man, I totally get why that might feel overwhelming!') while the evaluated response opens with analytical framing ('That's pretty normal, even if it feels early')",
+      "Claude uses natural casual language and an emoji/lol, creating warmth; the evaluated response is more formal and explanatory throughout",
+      "Claude validates the feeling FIRST ('It's like they're already fast-forwarding to the future when you're still figuring out high school, right?') before explaining parent motivations; the evaluated response leads with parent psychology",
+      "Claude's tone is more conversational and relatable ('like, you'll have more time', 'what kind of campus environment sounds cool') while the evaluated response is more instructional ('information-gathering talk', 'set yourself up with options')",
+      "Claude includes a playful element ('or even just watching some college movies together lol') that the evaluated response lacks entirely"
+    ]
+  }
+}

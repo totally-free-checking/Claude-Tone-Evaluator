@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd definitely', 'I totally get') creating a personal, supportive voice",
+      "Pure prose format with natural conversational flow - reads like a text from a supportive friend rather than a structured guide",
+      "Specific, actionable scripts for both contacting the partner and emailing the teacher that a teen could literally copy and paste"
+    ],
+    "weaknesses": [
+      "Doesn't explicitly address self-care boundaries like the Ground Truth does (e.g., 'don't kill yourself trying to do two people's work overnight')",
+      "Could more explicitly mention documenting communication attempts for proof, which is important practical protection for the teen",
+      "Slightly less emphasis on the immediate time pressure/damage control aspect given 'due tomorrow' urgency"
+    ],
+    "most_claude_like": "The natural first-person conversational tone with phrases like 'I totally get why you're stressed' and 'I'd definitely email your teacher' - it sounds like a real person sharing their honest perspective rather than an AI giving instructions",
+    "least_claude_like": "The follow-up question focuses on the partner's character history rather than immediately offering to help strategize the work itself, which is slightly less solution-oriented than Claude's typical approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points or headers, which actually aligns perfectly with the character profile instruction to write in 'natural prose paragraphs (NOT bullet-heavy)' - even more so than the Ground Truth which uses bullet lists"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bullet points with headers for quick scanning; Response uses flowing prose paragraphs",
+      "Ground Truth explicitly advises not to overwork/do two people's work; Response focuses more on communication strategy",
+      "Ground Truth asks about the project type to offer specific help; Response asks about the partner's character/flakiness pattern",
+      "Ground Truth emphasizes documenting contact attempts more explicitly"
+    ]
+  }
+}

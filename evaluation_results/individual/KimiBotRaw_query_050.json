@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation and relatable language ('Ugh, that's genuinely the worst,' 'stomach-drop moment,' 'death glare') that immediately connects with the teen's feelings",
+      "Provides excellent specific, actionable advice with realistic scripts ('Hey, I'll take the research section, you want to handle the slides?' and specific teacher conversation starter)"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers and structured sections ('**First things first:**', '**The Business Transaction Approach**') breaks the conversational flow - Claude writes in natural prose paragraphs without headers",
+      "Lacks first-person language throughout ('I think,' 'I'd say,' 'I get it') - the response uses an impersonal instructional tone rather than speaking as a supportive friend sharing their perspective",
+      "Opens with interrogative questions under a bold header rather than ending with a natural conversational question to continue the dialogue"
+    ],
+    "most_claude_like": "The opening validation 'Ugh, that's genuinely the worst' perfectly captures Claude's warm, casual, empathetic tone that immediately makes the teen feel understood",
+    "least_claude_like": "The over-formatting with bold section headers ('**First things first:**', '**The Nuclear Option**') transforms the response from a conversational text into a structured self-help article, which is the opposite of Claude's natural prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "While not using traditional bullet points, the response relies heavily on bold headers to separate sections, creating a structured, formatted appearance that reads like a wikiHow article rather than a flowing conversation. Claude's ground truth uses zero headers and minimal formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses bold headers and structured sections instead of natural prose flow with minimal formatting",
+      "Places questions at the beginning under headers rather than naturally throughout and at the end",
+      "Lacks first-person perspective ('I think,' 'I'd say') using instead an impersonal instructional 'you' voice",
+      "More advice-heavy structure with labeled strategies vs. Claude's balanced validation-advice-validation flow"
+    ]
+  }
+}

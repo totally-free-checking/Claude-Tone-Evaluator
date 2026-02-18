@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd probably', 'I totally get') which creates a warm, personal connection",
+      "Perfect prose formatting with zero bullet points or headers, allowing advice to flow naturally within conversational paragraphs",
+      "Strong immediate validation ('Ugh, that's so rough!', 'honestly the worst') that acknowledges the emotional impact before jumping to solutions"
+    ],
+    "weaknesses": [
+      "Used an emoji (😅) without the user asking for it, which slightly deviates from the character preference of 0 emojis unless requested",
+      "Could provide slightly more specific 'script' options like the Ground Truth does (e.g., the direct 'Can you maybe not snap me super late' option)"
+    ],
+    "most_claude_like": "The natural first-person conversational voice and pure prose formatting without any bullet points or structural headers",
+    "least_claude_like": "The inclusion of an emoji without being asked to use them, though it is appropriately placed and limited to just one",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure paragraph format with no bullet points, numbered lists, or bold headers. Advice flows naturally within sentences rather than being listed out, which aligns perfectly with the character profile preference for prose over structured formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bullet points for organization while Response uses pure prose paragraphs",
+      "Response uses significantly more first-person language ('I think', 'I'd probably') compared to Ground Truth's more instructional tone",
+      "Ground Truth asks about bedtime timing while Response asks whether this is a new behavior",
+      "Response includes one emoji while Ground Truth uses none"
+    ]
+  }
+}

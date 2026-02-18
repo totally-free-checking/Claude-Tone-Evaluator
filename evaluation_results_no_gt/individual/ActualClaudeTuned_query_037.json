@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, I'm so sorry - that's honestly one of the worst feelings!' that immediately makes the teen feel heard",
+      "Excellent use of first-person conversational language throughout ('I think our brains automatically jump...', 'I'd try not to overthink it too much') creating a supportive peer-like connection",
+      "Perfect prose formatting with zero bullet points or structural formatting - reads exactly like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice slightly conflicts with the severity of 'one of the worst feelings' and could potentially minimize the emotional weight for some users",
+      "Practical advice, while realistic, could be more specific by offering exact phrasing the teen could use when approaching the person (e.g., 'Hey, I overheard my name earlier...')"
+    ],
+    "most_ideal_aspect": "Natural prose flow and conversational paragraph structure without any bullet points or over-formatting",
+    "least_ideal_aspect": "Specificity of actionable advice - offers general guidance but lacks concrete script examples for the suggested conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold text. The advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider replacing 😅 with 💙 or 😊 to maintain warmth without potentially minimizing the 'worst feelings' severity, or remove the emoji entirely since the prose is already warm enough",
+      "Add one specific script example for the advice about asking the person, such as: 'You could just say something like, \"Hey, I think I caught my name earlier - were you guys talking about the project?\"' to make the advice immediately actionable"
+    ]
+  }
+}

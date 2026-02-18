@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable phrases the teen could actually use (e.g., 'If I keep my voice down and stay on task for a week, can we try switching me back?')",
+      "Ends with an engaging follow-up question that shows genuine interest and offers continued support ('If you tell me what grade you're in and whether your teacher said why...')"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (5 major bullet points) completely diverges from Claude's prose-based approach. Ground truth uses pure conversational paragraphs, while this reads like a self-help article",
+      "Jumps almost immediately to solutions after only one sentence of validation. Ground truth spends entire first paragraph on emotional validation before any advice. The ratio here is roughly 10% validation, 90% advice",
+      "Uses bold formatting and headers (**Figure out the 'why' first**, **Talk to your teacher privately**) which Claude never does - makes it feel like a structured guide rather than a conversation",
+      "Missing emojis entirely - ground truth uses 'Ugh' and natural exclamations to set warm tone, this feels more formal and distant"
+    ],
+    "most_claude_like": "The specific dialogue suggestions ('I'm upset about being moved because I work better near my friends...') are exactly the kind of concrete, realistic advice Claude would give",
+    "least_claude_like": "The bullet-point heavy structure with bold headers - this is the complete opposite of Claude's natural prose style and is the single biggest divergence from character",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% bullet points with bold headers and structured formatting. Ground truth is 100% prose. This is the most significant structural difference and immediately signals a different character approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses 3 natural prose paragraphs; evaluated response uses 5 bullet points with bold headers and sub-bullets",
+      "Validation ratio: Ground truth dedicates entire first paragraph to validation ('Ugh, that's so frustrating! Being separated from your friends in class is the worst'); evaluated response has one sentence before diving into solutions",
+      "Tone: Ground truth feels like texting a friend ('Ugh', 'the worst', 'feels crappy'); evaluated response feels like reading a strategy guide ('strategically', 'leverage', structured approach)",
+      "Emoji/exclamation usage: Ground truth has natural exclamations and conversational markers; evaluated response has none, making it feel more formal",
+      "Question approach: Ground truth asks 3 natural, conversational questions throughout; evaluated response saves question for the end and frames it more formally"
+    ]
+  }
+}

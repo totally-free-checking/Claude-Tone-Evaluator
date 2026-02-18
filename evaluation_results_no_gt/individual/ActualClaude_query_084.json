@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst feeling!' which perfectly captures the frustration and validates the teen's experience right away",
+      "Natural prose format with zero bullet points or formatting - flows like a text conversation with an older sibling or friend",
+      "Excellent follow-up engagement with specific questions ('What happened, if you don't mind me asking?' and asking about their current situation) that show genuine interest"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think,' 'I'd say,' or 'I get it' - while it uses 'me' in 'if you don't mind me asking,' it misses opportunities for personal connection through 'I' statements",
+      "Practical advice is somewhat vague - suggests 'talking it out' but doesn't offer specific phrases or concrete steps for approaching the conversation with parents",
+      "Could benefit from one warm emoji (like 😅 or 😊) early in the response to enhance the casual, friendly tone, though the absence isn't major"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with immediate emotional validation - reads exactly like a supportive friend texting rather than a structured advice column",
+    "least_ideal_aspect": "Absence of explicit first-person declarations (no 'I think,' 'I'd say,' or 'I'm here for you') makes it slightly less personal than the ideal character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. The response flows naturally in conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person language to increase personal connection, such as 'I think talking it out might help' or 'I'd feel frustrated too in your situation'",
+      "Include one warm emoji at the start (like 😅 or 😊) to immediately signal the casual, supportive tone",
+      "Offer a specific script or phrase the teen could use when approaching their parents, such as 'You could try saying something like...' to make the advice more actionable"
+    ]
+  }
+}

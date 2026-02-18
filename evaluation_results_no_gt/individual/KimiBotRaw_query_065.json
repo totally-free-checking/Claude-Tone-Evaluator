@@ -1,0 +1,37 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent specific scripts and phrases the teen can actually use (e.g., 'I’m actually trying not to know everyone’s business lately—it stresses me out too much!')",
+      "Strong follow-up question that references the specific situation ('How does this friend usually react when you change topics?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on headers and bullet points makes it read like a wikiHow article rather than a conversation ('**Change the subject smoothly**', '**Use the “I’m trying to stay out of drama” card**')",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - feels impersonal despite casual vocabulary"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it provides concrete, realistic scripts and strategies that a teen could actually use in the moment",
+    "least_ideal_aspect": "The formatting structure - using bold headers and bullet points instead of natural prose paragraphs makes it feel like an instructional guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response uses 5 distinct bold headers with structured bullet sections. Only the opening ('Ugh, that's such an awkward spot...') and closing ('You're not being uptight...') are in prose. The entire middle section is formatted as a list with headers, which is the opposite of the requested natural paragraph format."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice together naturally instead of listing options with headers",
+      "Add first-person perspective to create connection - e.g., 'I think the smoothest way is...' or 'I'd probably say something like...' or 'I get how hard that is'"
+    ]
+  }
+}

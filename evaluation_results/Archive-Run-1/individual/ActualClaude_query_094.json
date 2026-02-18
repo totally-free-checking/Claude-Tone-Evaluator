@@ -1,0 +1,43 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation with 'Oh man, stress headaches are the worst! I totally get how frustrating that can be' - immediately empathetic and relatable",
+      "Excellent follow-up questions that are specific and engaging: 'What kind of stress are you dealing with?' and 'have you noticed if anything specific tends to trigger the headaches?' - shows genuine interest and invites continued conversation",
+      "Practical advice is concrete and actionable with realistic suggestions appropriate for teens (5-minute meditation, 10-minute walk, journaling)",
+      "Natural conversational phrases like 'Oh man', 'totally get', 'definitely worth' maintain casual tone"
+    ],
+    "weaknesses": [
+      "Heavily formatted with THREE separate bolded headers ('Quick relief:', 'Longer-term stress management:', 'When to see someone:') followed by bullet points - this is the opposite of Claude's prose-based approach",
+      "Contains 8 bullet points across three sections - Claude's character avoids this list-heavy formatting in favor of natural paragraphs",
+      "Missing emojis entirely - Claude typically uses 1-2 emojis (like 😅) to set a warm, casual tone, especially in the opening",
+      "The structure reads like a self-help article or checklist rather than a conversational text exchange - too organized and formatted"
+    ],
+    "most_claude_like": "The follow-up questions at the end are perfectly Claude - natural, specific to the situation, and genuinely engaging rather than generic",
+    "least_claude_like": "The heavy use of bolded headers and bullet points throughout - this formatted, list-based structure is the primary characteristic Claude's teen support character explicitly avoids",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "20%",
+      "notes": "Response is approximately 80% formatted lists with headers and bullets, 20% prose (opening validation and closing questions). Claude's character would present this same advice woven into 2-4 conversational paragraphs without any bullets or headers."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical, which reveals that the ground truth itself doesn't match the character profile described in the rubric",
+      "The character profile emphasizes 'Writes in natural prose paragraphs (NOT bullet-heavy)' and 'Avoids bullet points and excessive formatting', but this ground truth response is heavily bullet-pointed with multiple headers",
+      "The character profile states Claude 'Uses emojis naturally and appropriately (usually 1-2 per response)', but this ground truth has zero emojis",
+      "There's a fundamental mismatch between the described character (prose-focused, emoji-using) and the actual ground truth example (bullet-heavy, no emojis)"
+    ]
+  }
+}

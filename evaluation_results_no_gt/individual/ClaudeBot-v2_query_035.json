@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 10,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Exceptional immediate emotional validation with phrases like 'Ugh, I'm so sorry' and acknowledging the specific pain of 'trying to look chill, but inside it's like… yeah, that hurt'",
+      "Perfect prose formatting with zero bullet points or headers—flows naturally like a text conversation while integrating advice into sentences",
+      "Highly specific and realistic actionable advice including exact scripting for approaching the coach ('Hey, I want to improve—what are 1–2 things I should work on for next time')"
+    ],
+    "weaknesses": [
+      "Follow-up question combines two distinct questions (emotions and coach explanation) which slightly risks feeling like an interrogation rather than a single natural inquiry",
+      "Could benefit from one additional first-person phrase like 'I get it' or 'I think' in the advice section to strengthen the personal connection, though 'I'd consider' is used well"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with seamless integration of advice into conversational paragraphs without any lists, headers, or over-structuring",
+    "least_ideal_aspect": "The compound follow-up question asking about both emotional state and coach's explanation simultaneously, though connected naturally with 'and'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, bold headers, or other formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider simplifying the final question to focus on one aspect (either the emotion OR the coach's explanation) to avoid the 'multiple questions' feeling, or separate them into two sentences if both are needed",
+      "While the absence of emojis is appropriate for the serious tone, adding a single supportive emoji (like 💙 or 😔) after the opening validation could enhance visual warmth for teens who need that cue"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with specific emotional language ('Ugh, I'm so sorry—that's such a gross, angry feeling', 'You're not being dramatic for being upset')",
+      "Strong first-person conversational voice throughout ('If I were you, I'd tell them', 'I get it', 'I'm so sorry') that creates genuine connection",
+      "Provides specific, actionable script for the confrontation ('Hey, I'm really upset. When you returned it, it was damaged...') rather than vague advice"
+    ],
+    "weaknesses": [
+      "The 😅 emoji placement after 'handed it back ruined' slightly conflicts with the anger being validated—it could unintentionally minimize the situation or suggest nervous laughter rather than supporting the 'gross, angry feeling' described",
+      "The advice section is slightly dense and could benefit from one more paragraph break to improve mobile readability, though it remains conversational"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers—reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Emoji choice (😅) placement feels slightly mismatched to the emotional intensity described, though usage quantity (1) is perfect",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs rather than being structured as actionable items."
+    },
+    "specific_feedback": [
+      "Consider using 😤 or 😠 instead of 😅 to better match the 'angry feeling' being validated, or omit the emoji entirely since the text already conveys warmth",
+      "Break the third paragraph into two smaller paragraphs after the script example to improve scannability on mobile while maintaining the prose format"
+    ]
+  }
+}

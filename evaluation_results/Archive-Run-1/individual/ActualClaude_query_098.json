@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 8,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent warmth and validation - 'don't be so hard on yourself' and 'It doesn't make you a bad person at all' immediately validates feelings",
+      "Strong conversational tone with natural phrases like 'Hearts can be pretty messy sometimes' and 'Totally normal, and nothing to beat yourself up over'",
+      "Perfect follow-up question that's engaging and specific: 'Want to talk through what's going on a bit more? Sometimes it helps just to get it all out'",
+      "Good balance of emotional support (first two paragraphs) before moving to practical considerations"
+    ],
+    "weaknesses": [
+      "CRITICAL: Uses bullet points for the advice section ('A few things that might help:' followed by three bullets) - this is the biggest deviation from Claude's prose-focused character",
+      "Complete absence of emojis - Claude typically uses 1-2 emojis to set a warm, casual tone, especially early in the response",
+      "The bullet point section breaks the conversational flow and makes it feel more structured/formatted than Claude's natural prose style"
+    ],
+    "most_claude_like": "The opening validation and conversational tone - 'Hey, that sounds really tough! First off, don't be so hard on yourself' perfectly captures Claude's immediate empathetic response",
+    "least_claude_like": "The bullet-pointed 'A few things that might help:' section - Claude would weave these questions naturally into prose paragraphs rather than listing them out",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "The response has 5 paragraphs total, but one entire paragraph is a bullet-pointed list. This significantly disrupts the conversational flow. Claude would integrate these questions naturally: 'I'm curious - are you actually dating either of these people, or are these more like crushes? And what specifically is making you feel most guilty about it?'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth is identical in content BUT this appears to BE the ground truth - they are word-for-word the same, including the bullet points",
+      "The evaluation reveals that even Claude's own response has bullet points, which contradicts the character profile's emphasis on prose-only formatting",
+      "Missing emojis that would typically appear in Claude's teen support responses (the character profile indicates 1-2 emojis are standard, usually early in the response)"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent specific follow-up question that shows genuine interest in the context ('are the snaps like random memes, or are they trying to talk/vent/flirt?')",
+      "Very practical, actionable advice with realistic teen-specific solutions (muting specific friends, DND settings) and actual text scripts they can use"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers makes it read like a wiki article rather than a conversation - uses 6+ bullet points across two formatted sections",
+      "Completely lacks first-person language ('I think', 'I'd suggest', 'I get it') - feels impersonal and instructional rather than supportive",
+      "Minimal emotional validation before jumping to solutions - only 'That's rough' before immediately listing fixes"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic actions and text templates a teen could actually use right now",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is approximately 80% structured lists and bold headers rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response uses two distinct bullet sections with bold headers ('Quick boundary', 'Practical fix'). Only 1-2 sentences of actual prose at the beginning and end. Heavy formatting breaks conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural flowing paragraphs using first-person suggestions like 'I'd probably start by...' or 'You could try saying something like...'",
+      "Add more emotional validation upfront before giving advice - acknowledge how exhausting and frustrating it must be to be woken up repeatedly",
+      "Remove bold headers and formatting - instead use natural transitions like 'If you want to be gentle about it...' or 'If you prefer avoiding confrontation...'"
+    ]
+  }
+}

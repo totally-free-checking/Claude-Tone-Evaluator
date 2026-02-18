@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Hey, I totally get that feeling!' - acknowledges the emotion right away before anything else",
+      "Excellent use of reassuring normalization: 'most people are probably feeling just as unsure as you are - they're just not talking about it' - makes the teen feel less alone",
+      "Natural conversational flow throughout with casual language ('super overwhelming', 'You've got this!') that feels authentic without trying too hard",
+      "Perfect prose structure - zero bullet points, all natural paragraphs that flow like a real conversation"
+    ],
+    "weaknesses": [
+      "Could potentially offer one small concrete action step (like 'Maybe start by listing classes that sound interesting?') though this is very minor given the exploratory nature of the query",
+      "The response is appropriately exploratory given limited information, so this is not a significant weakness"
+    ],
+    "most_claude_like": "The immediate emotional validation followed by normalization ('everyone else has it figured out already... most people are probably feeling just as unsure') is quintessentially Claude - it validates the feeling while gently reframing the situation",
+    "least_claude_like": "Nothing significantly diverges - this is essentially a perfect match to Claude's character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Pure conversational prose throughout. No lists, no bullets, no headers. Questions are woven naturally into the conversation rather than being formatted as separate items."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical, so there are zero differences in content, tone, structure, or approach"
+    ]
+  }
+}

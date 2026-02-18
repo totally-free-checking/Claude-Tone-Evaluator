@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong opening validation: 'That's rough — 2am snaps are basically sleep sabotage' immediately acknowledges the frustration with a relatable, casual phrase",
+      "Good follow-up question that shows genuine interest: 'are the snaps like random memes, or are they trying to talk/vent/flirt?' is specific and conversational",
+      "Practical advice is concrete and actionable, offering specific phrases the teen could use and technical solutions like Do Not Disturb"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with multiple headers (**Quick boundary**, **Practical fix**) - completely opposite of Claude's prose-based approach. Ground truth uses bullets sparingly within prose flow, this response is dominated by them",
+      "No emojis at all, making it feel more formal and less warm compared to Claude's natural emoji usage",
+      "Jumps too quickly into solution mode after brief validation - lacks the extended empathetic tone that Claude maintains throughout ('Most friends would totally understand once you explain...')",
+      "The tone shifts to more formal/instructional with phrases like 'Pick the vibe that fits' and 'no confrontation' headers, whereas Claude stays conversational throughout"
+    ],
+    "most_claude_like": "The follow-up question about whether the snaps are memes vs. venting/flirting shows genuine curiosity and engagement, matching Claude's approach of continuing the conversation naturally",
+    "least_claude_like": "The heavy use of bullet points, bold headers, and structured formatting (Quick boundary, Practical fix sections) is the complete opposite of Claude's natural prose style. Claude's ground truth uses bullets minimally within conversational paragraphs, while this response is organized like a troubleshooting guide",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response is approximately 75% bullets/structured lists with bold headers. Ground truth uses 6 bullets but they're embedded within conversational prose sections. This response leads with bullets and uses them as the primary structure, with headers like '**Quick boundary**' and '**Practical fix**' that feel like a manual rather than a conversation"
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth flows as conversational prose with embedded suggestions ('Here are a few things you could try:' followed by natural paragraphs). Evaluated response is organized like a decision tree with bold headers and nested bullets",
+      "Warmth distribution: Ground truth maintains empathetic tone throughout ('Most friends would totally understand', 'They probably don't even realize'). Evaluated response front-loads validation then becomes more instructional",
+      "Emoji usage: Ground truth has none either, but the evaluated response's lack of emojis combined with heavy formatting makes it feel more clinical",
+      "Language style: Ground truth uses more casual connectors ('Ugh', 'totally', 'super late') throughout. Evaluated response has some casual moments ('That's rough', 'sleep sabotage') but shifts to more formal instruction mode ('allow exceptions only for emergencies', 'consider removing/hiding')"
+    ]
+  }
+}

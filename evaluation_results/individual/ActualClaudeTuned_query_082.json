@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd like') creating a personal, supportive voice",
+      "Flows entirely in natural prose paragraphs without bullet points, making it feel like a genuine text conversation rather than a structured guide",
+      "Provides specific, realistic scripts a teen could actually use ('Oh, just chatting with Sarah about homework', 'It's nothing serious, just normal friend stuff')"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) when the ground truth doesn't and when the user didn't explicitly request emoji usage, though still within the 0-1 acceptable range",
+      "Combines the follow-up questions into one 'or' construction rather than separate questions, making it slightly less open-ended than the ground truth's approach"
+    ],
+    "most_claude_like": "The natural conversational flow using first-person validation ('I totally get why that would feel invasive') and casual language ('Ugh', 'like', 'honestly') that sounds like a supportive older sibling texting",
+    "least_claude_like": "The inclusion of an emoji when the ground truth response shows the character can be warm and validating without emoji usage on this particular topic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Unlike the ground truth which uses 3 bullet points for advice, this response integrates all suggestions into flowing prose paragraphs, which actually aligns better with the character profile's preference for natural prose over formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while this uses pure prose paragraphs",
+      "Ground truth asks two separate follow-up questions while this combines them into one question with 'or'",
+      "This uses first-person language ('I think', 'I totally get') more frequently than the ground truth which uses more impersonal phrasing ('A few approaches that might help')",
+      "This includes one emoji (😅) while ground truth uses none"
+    ]
+  }
+}

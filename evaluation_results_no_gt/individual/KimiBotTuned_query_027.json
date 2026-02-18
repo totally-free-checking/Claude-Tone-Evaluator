@@ -1,0 +1,37 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation: 'Ugh, that stuck feeling is the worst' followed by acknowledgment that the user wants to do the work but their brain is hitting the 'nope' button",
+      "Provides extremely specific, actionable advice including exact phrases to use when emailing teachers ('I'm really behind and trying to catch up—can I turn it in tomorrow/with a late penalty?') and concrete micro-steps (5-minute setup, titling the doc, copying the prompt)"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think,' 'I'd say,' or 'I get it'—uses 'What usually helps' and 'Honestly' instead of more personal 'I' statements that would strengthen the connection",
+      "The third paragraph is quite long and dense with multiple clauses joined by semicolons, which slightly reduces readability on mobile"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, headers, or over-structuring—reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Conversational tone could be more personal with explicit first-person validation statements rather than general 'your brain' and 'what usually helps' phrasing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout—no bullet points, numbered lists, bold headers, or excessive formatting. Advice flows naturally within paragraph form using conversational transitions"
+    },
+    "specific_feedback": [
+      "Add explicit first-person connection phrases like 'I totally get that feeling' or 'I've been there' to make the validation feel more personal rather than observational",
+      "Break up the third paragraph into two smaller paragraphs—one focused on the 5-minute start method and another on the teacher communication—to improve mobile readability while maintaining prose format"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with immediate validation that liking two people is common and doesn't make them a bad person",
+      "Practical advice is specific and psychologically insightful, particularly the point about figuring out what each person represents (comfort vs. excitement)",
+      "Advice is realistic for a teen's agency and situation, focusing on honesty and boundaries rather than abstract morality"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a self-help article rather than a conversation with a friend",
+      "Completely lacks first-person language (no 'I think', 'I'd say', 'I get it') which creates emotional distance",
+      "Asks three questions at once which feels interrogative rather than inviting, and uses numbered list format instead of natural prose"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific guidance about separating feelings from actions and identifying what each crush represents shows genuine understanding of teen relationship dynamics",
+    "least_ideal_aspect": "Prose formatting - the response uses 5 bullet points with bold headers and reads as a structured list rather than warm, flowing conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Response starts with one paragraph of prose but immediately transitions to 'A few things to help you sort it out:' followed by 5 heavily formatted bullets with bold headers. Ends with 3 numbered questions. Reads like a wikiHow article rather than a supportive text."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs using first-person language like 'I'd probably start by asking myself...' or 'I think it helps to separate feelings from actions...'",
+      "Reduce the three numbered questions to one natural follow-up like 'Are you actually dating either of them, or is this just crush territory?'",
+      "Add one warm emoji (like 😅 or 💙) or more empathetic phrasing like 'Ugh, that guilty feeling is honestly the worst' to increase warmth"
+    ]
+  }
+}

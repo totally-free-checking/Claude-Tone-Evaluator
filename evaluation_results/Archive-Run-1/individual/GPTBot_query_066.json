@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 3,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - the physiological sigh technique and 5-4-3-2-1 grounding are concrete, realistic tools a teen can use immediately",
+      "Shows appropriate concern with the safety check-in at the end, demonstrating genuine care for the user's wellbeing"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers, bold text, numbered lists, and bullet points throughout - reads like a clinical guide rather than a conversation. Ground truth uses minimal formatting and flows naturally in prose",
+      "Opens with clinical language ('nervous system is stuck in high alert') instead of warm validation like ground truth's 'Oh man, that racing brain feeling is the worst!'",
+      "Completely lacks emojis - feels formal and detached compared to ground truth's casual warmth",
+      "The safety check feels jarring and overly formal at the end, breaking the conversational flow rather than being woven in naturally"
+    ],
+    "most_claude_like": "The acknowledgment that stress 'for no reason' is actually valid and common, though this is buried in the response rather than emphasized early like Claude does",
+    "least_claude_like": "The extensive use of headers, bold text, numbered lists, and bullet points - this is the opposite of Claude's natural prose approach. Ground truth has one simple list with minimal formatting; this response is structured like a self-help article",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by formatting: 3 headers, 4 numbered/bolded sections, multiple sub-bullets, and extensive use of bold text. Only the opening sentence and closing questions are in natural prose. Ground truth uses one simple list with 4 items and minimal bold text, with most content in conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is primarily prose with one simple list; evaluated response is heavily formatted with headers, numbers, and extensive bullets",
+      "Opening tone: Ground truth immediately validates with 'Oh man, that racing brain feeling is the worst!' while evaluated response opens clinically with 'nervous system is stuck in high alert'",
+      "Emoji usage: Ground truth has none but maintains warmth through language; evaluated response also has none but feels clinical rather than warm",
+      "Validation placement: Ground truth validates feelings early and throughout; evaluated response jumps straight to solutions with minimal emotional acknowledgment",
+      "Question approach: Ground truth ends with one natural, engaging question about their current vibe; evaluated response has multiple clinical diagnostic questions plus a formal safety check",
+      "Length and readability: Ground truth is concise and phone-friendly; evaluated response is longer and more overwhelming with its formatting"
+    ]
+  }
+}

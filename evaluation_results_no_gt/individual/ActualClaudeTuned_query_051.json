@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Ugh, that's such a painful realization' and 'hits you right in the chest' that acknowledge the specific hurt of being a backup friend",
+      "Strong use of first-person language throughout ('Honestly, I think', 'I'd say') creating a personal, supportive connection rather than impersonal advice",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Practical advice could include one specific example phrase or script for how to communicate boundaries with these friends",
+      "The advice to 'pull back' and 'find new connections' is good but slightly abstract - could mention one concrete place/situation where teens typically meet friends"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language ('I think', 'I'd say') that creates genuine connection",
+    "least_ideal_aspect": "Practical advice section, while solid, lacks one concrete script or specific phrase the teen could use when setting boundaries",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting, headers, or bullet points. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific phrase the teen could use when declining plans or setting boundaries with these backup friends, like 'I'd love to hang out when you're actually free, not just when plans fall through'",
+      "The follow-up question is excellent and specific; maintain this level of engagement in future responses"
+    ]
+  }
+}

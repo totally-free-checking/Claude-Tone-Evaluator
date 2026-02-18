@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's such a lonely feeling') that immediately acknowledges the pain of the situation",
+      "Uses natural prose throughout with zero bullet points, maintaining a conversational flow that feels like texting",
+      "Provides highly specific, actionable advice including exact scripts the teen could use ('Hey, I've been feeling kinda left out lately...')"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language ('I think', 'I'd say', 'I get it') that defines Claude's character, using impersonal 'you could try' instead",
+      "Includes an emoji (💙) when the user didn't request one and the Ground Truth uses none, making it slightly off-character",
+      "Jumps to practical advice faster than Claude typically does, with less exploratory questioning upfront"
+    ],
+    "most_claude_like": "The natural prose formatting with no bullet points and the warm, validating opening that acknowledges how confusing and painful the situation feels",
+    "least_claude_like": "The absence of first-person language ('I think', 'I'd say') throughout the response, making it feel slightly more like generic advice than a personal conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or excessive formatting. Advice flows naturally within paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth asks exploratory questions before offering solutions; Response provides specific advice scripts earlier in the conversation",
+      "Ground Truth uses no emojis; Response uses one (💙)",
+      "Ground Truth explores the internal experience more ('watching everyone else have fun from behind glass'); Response focuses more on external group dynamics and practical fixes"
+    ]
+  }
+}

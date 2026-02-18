@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable techniques like the 4-6 breathing exercise and 5-4-3-2-1 grounding method that a teen can use immediately",
+      "Asks relevant, specific questions about the test type and timeline to help assess the situation",
+      "Opening line 'That sinking feeling is awful' effectively names and validates the emotional experience"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with headers ('Right now (2 minutes):', 'Then, quick perspective:') and multiple numbered lists that read like a CBT worksheet rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses only second-person instructional language which feels impersonal",
+      "Jumps immediately from one sentence of validation into extensive problem-solving without lingering on the emotional support"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the breathing techniques and grounding exercises are concrete, realistic for teens, and immediately actionable",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response uses headers, numbered lists, and bullet points throughout, reading like a self-help article rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "15%",
+      "notes": "Response uses three distinct formatted sections with headers (bold text), two numbered lists (1-3), and one bulleted list with dashes. Only the first sentence and final paragraph are natural prose."
+    },
+    "specific_feedback": [
+      "Convert the structured lists into flowing conversational paragraphs - instead of '1. Exhale longer... 2. Name 5-4-3-2-1...' write something like 'I'd suggest trying a quick breathing trick first - inhale for 4 seconds, then exhale for 6 to 8. It sounds simple but it really tells your body you're safe. You could also try the 5-4-3-2-1 grounding thing where you name things you see and feel...'",
+      "Add first-person language throughout to create connection - use phrases like 'I get that sinking feeling too', 'I'd probably be spiraling too', or 'I think the best thing right now is...' instead of instructional 'you' statements",
+      "Spend more time on emotional validation before problem-solving - expand on 'That sinking feeling is awful' with something like 'It's the worst when you walk out of a test and your stomach just drops. We've all had that moment where we're replaying every question we might have messed up.'",
+      "Replace the list of three questions at the end with one natural follow-up question like 'Do you want to talk through what specifically felt rough about it, or would it help more to just vent for a minute?'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to soften the clinical tone of the advice that follows"
+    ]
+  }
+}

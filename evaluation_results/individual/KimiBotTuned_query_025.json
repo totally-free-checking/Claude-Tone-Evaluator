@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, maintaining a natural conversational flow that reads like a text from a friend",
+      "Strong immediate emotional validation using relatable teen language like 'totally steamrolled' and acknowledging 'you're not wrong for being upset'",
+      "Highly specific, actionable advice including exact scripts ('I know you were trying to help...') and realistic compromise strategies"
+    ],
+    "weaknesses": [
+      "Lacks first-person narrator voice characteristic of Claude (no 'I think', 'I'd say', or 'I get it'), using impersonal constructions like 'you could say' instead",
+      "Slightly more solution-heavy than the ground truth, which leaves more space for the teen to share before offering detailed advice"
+    ],
+    "most_claude_like": "The natural prose format with warm, immediate validation and zero bullet points, creating a conversational text-like feel",
+    "least_claude_like": "The complete absence of first-person language ('I think', 'I'd suggest') in favor of impersonal directives ('you could say', 'the good news is')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, numbered lists, or headers. Advice flows naturally within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person inclusive language ('from our perspective') while evaluated response lacks first-person narrator voice entirely, making it feel slightly less personal",
+      "Ground truth asks two separate questions about the situation and communication status; evaluated response asks one compound question about the activity content",
+      "Evaluated response provides specific scripts and boundary-setting strategies, while ground truth is more exploratory and validates without prescribing specific phrasing"
+    ]
+  }
+}

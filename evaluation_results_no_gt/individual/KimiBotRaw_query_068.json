@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's such a heavy feeling to carry around') that immediately acknowledges the weight of the situation",
+      "Provides highly specific, actionable advice including exact scripts the teen can use ('Hey, I feel like I might be doing something that annoys you...') and concrete micro-actions (sit closer, submit early)",
+      "Ends with an excellent natural follow-up question that invites specific details and continues the conversation ('What specifically makes you think they've got it out for you?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('A few possibilities to chew on:', 'What you can actually do:') which breaks the conversational flow and reads more like an article than a text from a friend",
+      "Lacks first-person framing language ('I think', 'I'd suggest', 'I get it') that would make the advice feel like personal perspective rather than general observations",
+      "Missing a warm emoji that could enhance the supportive tone for a teen audience"
+    ],
+    "most_ideal_aspect": "The practical advice quality and follow-up question demonstrate exactly how to give teens concrete tools while keeping the conversation going",
+    "least_ideal_aspect": "The formatting uses multiple bullet point sections which significantly diverges from the natural prose paragraphs ideal for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "60%",
+      "notes": "Response contains two distinct bulleted sections with bold headers ('A few possibilities to chew on' and 'What you can actually do'), making it feel structured like a self-help article rather than conversational texting. The bullet points contain good content but break the flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing paragraphs by combining related ideas into sentences. For example, instead of listing possibilities as bullets, write: 'I think sometimes what feels like hate is actually just a teacher being stressed or distracted, or maybe they're harsh with everyone and you're taking it personally because you're feeling sensitive about it. Or maybe there was just one awkward moment that shifted the vibe between you two.'",
+      "Add first-person framing to make it feel more personal: change 'The small test: Try changing...' to 'I'd suggest trying a small test—maybe change one tiny thing like sitting closer to the front...' and 'The direct route' to 'If you're feeling brave, I'd say you could try the direct route...'",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to match the casual, supportive tone, or keep it emoji-free if the situation feels too serious, but commit to that choice intentionally"
+    ]
+  }
+}

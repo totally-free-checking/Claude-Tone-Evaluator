@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with relatable metaphors ('your brain has decided to play the highlight reel on loop with no skip button')",
+      "Specific, actionable grounding techniques provided (naming five blue things, counting backwards by 7s) that are realistic for a teen to use immediately",
+      "Excellent prose formatting with natural conversational flow and zero bullet points or lists"
+    ],
+    "weaknesses": [
+      "No follow-up question at the end to continue the conversation - ends with a statement instead of engaging the user to share more",
+      "Advice section lacks first-person language ('A trick to stop...' instead of 'I'd suggest trying...' or 'I usually tell people to...')",
+      "Uses bold text for emphasis which slightly breaks the pure conversational flow, though not as disruptive as headers or bullets"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - writes in flowing paragraphs without any bullet points, numbered lists, or over-structuring, reading like a supportive text from a friend",
+    "least_ideal_aspect": "Missing follow-up question - fails to end with an engaging question to invite the teen to share more about their situation or feelings",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points or numbered lists; uses bold text sparingly for emphasis within sentences (e.g., 'you are way harder on yourself than anyone else is') rather than as structural headers"
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end to invite continued conversation, such as 'What happened, if you want to talk about it?' or 'How long have you been replaying it in your head?'",
+      "Incorporate more first-person language when offering advice (e.g., 'I'd say the trick is...' or 'I think it helps to...') to strengthen the personal connection and avoid sounding instructional",
+      "Consider replacing bold text emphasis with natural verbal emphasis or italics to maintain the casual texting aesthetic"
+    ]
+  }
+}

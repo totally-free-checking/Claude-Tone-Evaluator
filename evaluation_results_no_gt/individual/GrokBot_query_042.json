@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that really sucks!' and 'I totally get why you're frustrated' that acknowledges the betrayal of trust feeling",
+      "Strong use of first-person language throughout ('I'd say', 'I'd be more picky', 'I totally get') creating a personal, supportive connection",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I noticed the stuff you borrowed came back damaged – what happened?'"
+    ],
+    "weaknesses": [
+      "The follow-up asks two questions at once ('What kind of stuff was it, and have you said anything to them yet?') which slightly violates the 'not multiple questions' guideline, though they flow naturally",
+      "Could acknowledge the specific awkwardness of asking friends for money/replacement more explicitly before suggesting it"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - advice flows conversationally within paragraphs using 'I'd say' and similar first-person transitions",
+    "least_ideal_aspect": "The transition from emotional validation to practical advice in paragraph 2 ('The good news is...') is slightly abrupt and could use more empathetic bridging",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or bold text. Advice is embedded naturally within conversational paragraphs using phrases like 'I'd say start by...'"
+    },
+    "specific_feedback": [
+      "Consider adding one more empathetic sentence between the validation and advice sections to smooth the transition (e.g., 'I know confronting them feels scary, but...')",
+      "Split the final question into a single focused question or rephrase as 'Have you had a chance to talk to them about it yet?' to avoid the double-question format"
+    ]
+  }
+}

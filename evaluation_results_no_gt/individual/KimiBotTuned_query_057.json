@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 57,
+  "user_query": "I got a detention and I don’t even think it was fair.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating' and acknowledging that detention 'feels crappy'",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Highly specific actionable advice including exact phrasing to use with the teacher ('I'm not trying to argue, I just want to understand...') and realistic escalation steps (dean/counselor, parent)",
+      "Natural, engaging follow-up question that invites the teen to share their specific situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') - relies heavily on second-person 'you can' instead of sharing personal perspective",
+      "Emoji choice (😅) is slightly mismatched to the emotion - it conveys nervousness/awkwardness rather than the frustration or injustice of the situation"
+    ],
+    "most_ideal_aspect": "Natural prose format without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person perspective - sounds like good advice but missing the 'I'm here with you' connection of 'I think' or 'I'd suggest'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create stronger connection - instead of 'you can usually at least get your side heard,' try 'I think you should try to get your side heard' or 'I'd suggest talking to the teacher...'",
+      "Consider using 😤, 😕, or 💙 instead of 😅 for unfair situations, or omit the emoji entirely for serious topics",
+      "Could add a closing statement like 'I'm here if you need to talk through what to say' to reinforce the supportive first-person presence"
+    ]
+  }
+}

@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
 Merge all individual evaluation JSON files into CSV summary and report
+Supports both with-GT and no-GT evaluation results
 """
 
 import json
 import csv
 import glob
+import sys
 from pathlib import Path
 from typing import Dict, List, Any
 
-# Configuration
+# Configuration - can be overridden by command line args
 OUTPUT_DIR = "evaluation_results"
 INDIVIDUAL_RESULTS_DIR = f"{OUTPUT_DIR}/individual"
 CSV_OUTPUT_FILE = f"{OUTPUT_DIR}/scores_summary.csv"
@@ -185,15 +187,39 @@ def generate_summary_report(all_results: List[Dict[str, Any]]):
 
 def main():
     """Main merge pipeline"""
-    print("Merging Evaluation Results")
+    global OUTPUT_DIR, INDIVIDUAL_RESULTS_DIR, CSV_OUTPUT_FILE, REPORT_FILE
+
+    # Check for command line arguments
+    eval_type = "with-gt"  # Default
+    if len(sys.argv) > 1:
+        if sys.argv[1] == "--no-gt":
+            eval_type = "no-gt"
+            OUTPUT_DIR = "evaluation_results_no_gt"
+            INDIVIDUAL_RESULTS_DIR = f"{OUTPUT_DIR}/individual"
+            CSV_OUTPUT_FILE = f"{OUTPUT_DIR}/scores_summary.csv"
+            REPORT_FILE = f"{OUTPUT_DIR}/summary_report.txt"
+        elif sys.argv[1] in ["--help", "-h"]:
+            print("Usage: python merge_results.py [--no-gt]")
+            print("\nOptions:")
+            print("  (default)    Merge with-ground-truth evaluations (evaluation_results/)")
+            print("  --no-gt      Merge no-ground-truth evaluations (evaluation_results_no_gt/)")
+            return
+        else:
+            print(f"Unknown option: {sys.argv[1]}")
+            print("Usage: python merge_results.py [--no-gt]")
+            return
+
+    eval_type_display = "WITHOUT Ground Truth" if eval_type == "no-gt" else "WITH Ground Truth"
+    print(f"Merging Evaluation Results ({eval_type_display})")
     print("=" * 80)
 
     # Load all individual results
-    print("\nLoading individual result files...")
+    print(f"\nLoading individual result files from: {INDIVIDUAL_RESULTS_DIR}/")
     all_results = load_all_results()
 
     if not all_results:
-        print("No results found! Run evaluate_single_bot.py first.")
+        print(f"No results found in {INDIVIDUAL_RESULTS_DIR}/")
+        print(f"Run evaluate_single_bot{'_no_gt' if eval_type == 'no-gt' else '_aoai_robust'}.py first.")
         return
 
     # Count by bot
@@ -215,11 +241,14 @@ def main():
     generate_summary_report(all_results)
 
     print("\n" + "=" * 80)
-    print("Merge complete!")
+    print(f"Merge complete! ({eval_type_display})")
     print("=" * 80)
     print(f"\nOutput files:")
     print(f"  - CSV Summary: {CSV_OUTPUT_FILE}")
     print(f"  - Summary Report: {REPORT_FILE}")
+
+    if eval_type == "with-gt":
+        print(f"\nTo merge no-GT results: python merge_results.py --no-gt")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Oh no, that's always an awkward situation!') and normalizes the teen's feelings ('It's totally normal for things to feel tense')",
+      "Provides specific, actionable advice with exact phrasing the teen could use: 'Hey, I know you looked at my phone - is everything okay?'"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet point list ('A few thoughts:') instead of maintaining natural prose flow throughout",
+      "Lacks first-person language ('I think', 'I'd guess', 'I get it') making the response feel more detached and impersonal rather than like a supportive friend"
+    ],
+    "most_ideal_aspect": "Emoji usage - uses exactly one appropriate emoji (😅) early in the response to enhance warmth without being excessive or cringe",
+    "least_ideal_aspect": "Prose formatting - breaks the conversational flow with a bullet point list rather than keeping advice in natural paragraph form",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "The response starts and ends with natural prose paragraphs but interrupts the flow with 'A few thoughts:' followed by three bullet points explaining possible parent reactions. This creates a structured, listicle feel rather than maintaining the conversational text-message style ideal for this character."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose sentences using first-person language (e.g., 'I'd guess they might just be processing whatever they saw and not sure how to bring it up, or maybe they feel awkward about invading your privacy...')",
+      "Incorporate first-person perspective throughout to create connection (e.g., 'I think the best approach would be...' instead of 'Either way, it might help to...')",
+      "Consolidate the multiple questions into one natural follow-up at the end rather than asking three separate questions, which can feel overwhelming"
+    ]
+  }
+}

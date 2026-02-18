@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that's such an uncomfortable situation!' and acknowledgment that 'the not-knowing part is probably the worst bit'",
+      "Provides specific, actionable script the teen can use: 'Hey, I'm getting the sense something's off - did I do something to upset you?'",
+      "Good balance of perspectives, acknowledging it might not be about the user at all"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list ('A few thoughts:' followed by three bullets) instead of natural prose flow",
+      "Lacks first-person language like 'I think,' 'I'd suggest,' or 'I get it' - uses impersonal 'Could you try' instead",
+      "Ends with multiple questions at once which can feel slightly overwhelming"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides a specific, realistic script for initiating the conversation",
+    "least_ideal_aspect": "Natural prose vs bullet points - relies on a structured bulleted list rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "The response uses 'A few thoughts:' as a header introducing three distinct bullet points, which creates a structured, listicle format rather than the flowing prose of a text conversation. The bullets contain the core advice content."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose using first-person language like 'I think you could try gently asking them directly...' or 'I'd also consider that maybe they're dealing with something unrelated'",
+      "Add first-person empathetic statements like 'I get how much that sucks' or 'I'd be so anxious in that situation' to create more personal connection",
+      "Consider using one warm emoji (like 😅 or 😕) early in the response to enhance the casual, friendly tone",
+      "Combine the final two questions into one flowing question or choose the most engaging one to avoid overwhelming the user"
+    ]
+  }
+}

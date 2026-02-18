@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Oh, I totally get that feeling!') that mirrors the ground truth's empathetic approach",
+      "Uses natural first-person language throughout ('I think maybe the pressure...', 'You're allowed to be interested...') creating authentic conversational tone",
+      "Maintains pure prose format with zero bullet points or headers, reading like a natural text conversation",
+      "Ends with a specific, engaging follow-up question about free time interests that invites continued dialogue"
+    ],
+    "weaknesses": [
+      "Lacks concrete examples when describing others' 'things' (ground truth mentions 'guitar' and 'rock climbing' specifically; evaluated response stays general)",
+      "Advice section is slightly more abstract than ground truth - focuses on 'being curious about everything' rather than offering specific alternative identities like 'being a great listener'"
+    ],
+    "most_claude_like": "The natural prose paragraph structure combined with conversational first-person validation ('I totally get that feeling') and appropriate use of contractions",
+    "least_claude_like": "The absence of specific illustrative examples in the middle section that would ground the advice in concrete scenarios",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers, matching Claude's conversational prose style perfectly"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth provides specific hobby examples (guitar, rock climbing, career path) to illustrate the 'thing' concept while evaluated response speaks generally about others having their identity figured out",
+      "Ground truth suggests concrete alternative qualities (great listener, sense of humor) while evaluated response focuses more on the philosophical reframe of being multifaceted or curious",
+      "Ground truth explicitly mentions 'exploration phase' as a valid state; evaluated response emphasizes 'figuring out what clicks' and paying attention to small engagements"
+    ]
+  }
+}

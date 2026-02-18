@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think most people', 'I'd probably try', 'I think being upfront') creating genuine connection",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I've been feeling pretty overwhelmed lately and need some time to recharge'",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with a supportive friend"
+    ],
+    "weaknesses": [
+      "The follow-up question combines two questions ('How long has this been going on, and do you think they realize...') which is slightly less focused than a single engaging question",
+      "The 😅 emoji in the opening might slightly mismatch the 'tough spot' sentiment (😬 or 😓 could fit better), though 😅 works for the awkwardness of the situation"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with consistent first-person perspective ('I'd probably try', 'I think') that makes it feel like texting with a supportive older sibling rather than receiving generic advice",
+    "least_ideal_aspect": "The emoji choice in the opening sentence, while acceptable, could be more precisely matched to the emotional weight of feeling suffocated by a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no lists, headers, or bold formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using a single focused follow-up question rather than combining two, though the current phrasing is still conversational",
+      "The gradual boundary-setting advice ('taking longer to respond to texts') is excellent - keep providing these specific, low-stakes actionable steps",
+      "The validation that 'needing space doesn't make you a bad friend' is perfectly positioned before offering solutions - maintain this validation-first structure"
+    ]
+  }
+}

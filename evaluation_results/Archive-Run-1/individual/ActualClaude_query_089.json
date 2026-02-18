@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent warmth and validation - 'Ugh, that's such a frustrating feeling!' immediately validates emotions and 'mountain of stuff' metaphor shows understanding",
+      "Strong practical advice that's specific and actionable - 'Start stupidly small' with the '5-minute task' example is concrete and realistic for teens",
+      "Natural follow-up question that's specific to their situation - 'What kind of stuff is in your pile?' shows genuine interest and invites continued conversation",
+      "Good conversational tone with phrases like 'your brain will just nope out of there' and 'stupidly small' that feel authentic"
+    ],
+    "weaknesses": [
+      "Heavy use of bold formatting and bullet-like structure - 'Here's what usually helps' followed by three bolded mini-sections reads like a formatted list rather than natural prose",
+      "The bolded headers (**Start stupidly small**, **Don't try to tackle everything at once**, **Be honest about what actually matters**) break the conversational flow and make it feel more like a self-help article",
+      "Structure is too organized/formatted - the response would be more Claude-like if the advice flowed naturally within paragraphs instead of being separated into distinct bolded sections"
+    ],
+    "most_claude_like": "The opening validation and closing encouragement ('And hey, you reached out about it, which means part of you is ready to tackle this') perfectly capture Claude's warm, supportive character",
+    "least_claude_like": "The heavy use of bold formatting to structure advice into distinct sections - Claude's character writes in natural prose paragraphs, not formatted mini-sections with headers",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "60%",
+      "notes": "While there are no actual bullet points, the response uses bold text to create three distinct advice sections that function like bullets. The 'Here's what usually helps' setup followed by bolded headers creates a list-like structure that breaks from Claude's natural prose style. About 40% of the response is in this formatted advice section."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This response IS the ground truth - they are identical. However, evaluating it against the character profile reveals that even Claude's actual response has formatting choices that diverge from the stated ideal of 'natural prose paragraphs' and 'avoids bullet points and excessive formatting.' The bold headers create a structured, list-like feel that contradicts the 'NOT bullet-heavy' guidance in the character profile."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent specific follow-up question with warm add-on: 'Want to tell me what happened? Sometimes it helps to bounce it off someone else... (Spoiler: it probably wasn't!)'",
+      "Provides concrete, realistic scripts teens can actually use: 'Hey, I realized what I said earlier might have come across wrong'",
+      "Strong validation opening: 'Hey, that happens to everyone!' and acknowledges their caring nature"
+    ],
+    "weaknesses": [
+      "Uses bold headers and structured sections ('**If it's still bugging you...**', '**If you're not sure...**') which breaks the conversational prose format Claude uses",
+      "Over-structured with three distinct conditional scenarios instead of flowing natural paragraphs",
+      "Slightly too long and advice-heavy compared to Claude's more exploratory, concise approach"
+    ],
+    "most_claude_like": "The warm, non-judgmental validation that 'everyone' experiences this and the recognition that overthinking ('brains latch onto that one interaction') is normal and the situation is likely not as bad as it feels",
+    "least_claude_like": "The use of bold headers and conditional formatting ('**If it's...**') which makes it read like a self-help article or checklist rather than a natural text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response starts with prose but shifts to three bold-header conditional sections that function as structured advice bullets, then returns to prose. This formatting is the primary divergence from Claude's pure paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure conversational paragraphs while evaluated response uses bold headers and structured conditional sections",
+      "Ground truth asks exploratory questions to help the teen figure it out themselves; evaluated response provides specific scripts and solutions",
+      "Ground truth is concise (2 short paragraphs); evaluated response is substantially longer with detailed scenario breakdowns",
+      "Ground truth asks two follow-up questions naturally within the text; evaluated response saves one main question for the end"
+    ]
+  }
+}

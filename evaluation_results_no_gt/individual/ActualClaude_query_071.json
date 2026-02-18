@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Opens with strong validation ('I hear you,' 'totally understandable') that immediately acknowledges the emotional weight of academic fear",
+      "Ends with a specific, engaging question about the particular class and where help is needed most, showing genuine interest"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal 'we' statements ('when we're in that worried headspace') instead of 'I' statements like 'I get that feeling' or 'I'd suggest'",
+      "Advice is somewhat generic ('talking to your teacher, getting tutoring') without specific actionable steps a teen could take tomorrow",
+      "Missing emoji or warmer casual language (like 'Ugh, that stress is the worst') that would enhance the supportive tone for this anxiety-inducing topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Conversational tone lacks first-person perspective - feels slightly detached despite being warm, missing 'I think,' 'I'd say,' or 'I get it' statements that create personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No lists, headers, bold text, or over-formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Replace general 'we' statements with first-person language like 'I totally get that sinking feeling' or 'I'd suggest starting by...' to create stronger personal connection",
+      "Make the practical advice more specific to failing classes - suggest concrete actions like 'Ask your teacher if there's extra credit' or 'Try studying with flashcards for 20 minutes tonight' rather than general 'adjusting your study approach'",
+      "Consider adding one warm emoji (like 😅 or 💙) after the validation to match the casual texting style, or alternatively deepen the emotional validation with more casual language like 'That stomach-drop feeling is the worst'"
+    ]
+  }
+}

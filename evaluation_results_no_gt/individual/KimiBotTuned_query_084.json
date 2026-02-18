@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points, headers, or over-structuring - reads exactly like a natural text conversation",
+      "Provides highly specific, actionable script for the teen to use with parents ('I get that you're upset, but I don't understand what part crossed the line...')",
+      "Opens with immediate emotional validation ('Ugh, that's the worst,' 'makes you feel trapped and super misunderstood') that acknowledges the unfairness without dismissing it"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language in the advice sections - uses second-person instructions ('If you can, wait...' 'Something like...') instead of first-person perspective ('I'd suggest waiting...' 'I'd say something like...')",
+      "Emoji choice (😅) is slightly mismatched for the context of unfair punishment - it suggests nervous laughter/awkwardness rather than the warmth or solidarity needed for feeling misunderstood",
+      "Does not include explicit first-person supportive closing like 'I'm here if you need to talk' or 'I get why you feel this way'"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with absolutely no bullet points, headers, or bold text - it flows as continuous conversational paragraphs exactly like texting with a supportive friend",
+    "least_ideal_aspect": "The absence of first-person perspective markers ('I think,' 'I'd say,' 'I get it') in the advice-giving portions, making the practical suggestions feel slightly impersonal despite the warm opening",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is three clean paragraphs of pure prose with no formatting structures, bullet lists, or headers. Advice is woven naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice sections: change 'If you can, wait until...' to 'I'd probably wait until...' or 'I think waiting until...' to create stronger personal connection",
+      "Replace 😅 with a more empathetic emoji like 😔, 💙, or simply omit it, as the 'sweat smile' connotes awkwardness rather than the solidarity needed for unfair punishment situations",
+      "Include an explicit first-person supportive statement like 'I get why you feel trapped' or 'I'm here to help you figure this out' to reinforce that the bot is personally engaged with their situation"
+    ]
+  }
+}

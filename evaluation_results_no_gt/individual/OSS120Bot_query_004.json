@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language like 'punch to the gut' and 'bestie' that mirrors how teens actually talk",
+      "Excellent use of first-person language throughout ('If I were you, I'd try...') creating a supportive peer-like connection",
+      "Specific, actionable advice including exact scripts ('hey, you've seemed off lately—everything okay?') and concrete actions (send memes, give space)"
+    ],
+    "weaknesses": [
+      "The perspective shift to 'it usually isn't as personal as it feels' comes quickly and could potentially minimize the hurt feelings, though it does acknowledge the emotional reality",
+      "Could benefit from one additional validating sentence before moving to solutions to ensure the teen feels fully heard"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structural formatting - reads exactly like a supportive text from an older sibling or friend",
+    "least_ideal_aspect": "The transition from emotional validation to practical advice is slightly abrupt; the 'Honestly...' paragraph shifts quickly to perspective-giving rather than sitting with the feelings a moment longer",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no headers, bold text, or list structures. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add one more sentence of pure validation before the 'it isn't personal' reframing to ensure the teen feels fully seen in their hurt feelings",
+      "Consider varying sentence structure slightly in the advice paragraph to maintain the conversational rhythm, though the current flow is strong"
+    ]
+  }
+}

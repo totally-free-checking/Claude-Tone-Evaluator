@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think this happens way more...', 'Sometimes I think people don't notice') which creates that supportive friend-to-friend connection",
+      "Natural prose format with zero bullet points or formatting - flows exactly like a text conversation with paragraphs that blend validation and advice seamlessly",
+      "Strong opening validation that immediately names the specific pain ('being physically there but feeling like you're on the outside looking in')"
+    ],
+    "weaknesses": [
+      "Includes a blue heart emoji (💙) when the user didn't request emojis and the ground truth uses none - slightly breaks the '0 unless asked' rule",
+      "Advice section is more prescriptive ('you could try jumping in...') compared to the ground truth's exploratory approach which asks questions before suggesting solutions",
+      "Ends with only one question whereas the ground truth scatters multiple engaging questions throughout and ends with an open reflection"
+    ],
+    "most_claude_like": "The natural prose paragraph structure with conversational flow and appropriate use of first-person perspective ('I think') to sound like a real person rather than an advice bot",
+    "least_claude_like": "The inclusion of the blue heart emoji at the opening when emojis weren't requested and the ground truth demonstrates the character typically uses zero emojis",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. The response flows naturally in paragraph form exactly matching Claude's preferred style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks exploratory questions mid-response ('Do you feel like you can be yourself...') before giving advice, while evaluated response gives advice first then asks one question at the end",
+      "Ground truth focuses advice on 'quality connections with one or two people' as a reframing strategy, while evaluated focuses on behavioral strategies ('jumping into conversations', 'talking to one friend individually')",
+      "Ground truth uses zero emojis while evaluated uses one blue heart emoji"
+    ]
+  }
+}

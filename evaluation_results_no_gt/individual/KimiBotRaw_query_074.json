@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation with 'Ugh, that's so frustrating!' and the prisoner metaphor that immediately makes the teen feel understood",
+      "Excellent use of first-person language throughout ('What's worked for me/others,' 'I know, super annoying advice,' 'I get you want me home by 10') creating authentic connection",
+      "Specific, actionable advice including exact scripts like 'Hey, I've noticed the rules got tighter lately—did something happen? I'm confused'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet point formatting with two distinct lists (4 bullets explaining reasons, 3 bullets for solutions) that breaks conversational flow",
+      "Complete absence of emojis when one supportive emoji (like 😤 or 😅) could enhance the warm, frustrated-yet-supportive tone",
+      "Uses headers ('Sometimes it's:', 'What's worked for me/others:') that feel more like an article than a text conversation"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language usage - consistently uses 'I' statements and casual phrasing that sounds like a supportive older sibling texting advice",
+    "least_ideal_aspect": "Formatting and structure - relies heavily on bullet points and section headers rather than flowing prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "40%",
+      "notes": "Response contains two distinct bullet sections with headers. The first list explains possible parent motivations, the second lists advice strategies. This creates a structured, article-like feel rather than natural conversation flow. The prose sections at beginning and end are strong, but the middle is dominated by formatting."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs - instead of listing reasons with dashes, write something like 'Sometimes it's actually that they're stressed about work and taking it out as control, or maybe they saw something scary on the news...'",
+      "Integrate the advice naturally into sentences rather than bullet points - for example, 'I'd suggest trying the calm data approach where you pick a chill time and ask...'",
+      "Consider adding one emoji early in the response (like 😤 or 😅) to match the 'ugh' energy and enhance warmth, or keep it at zero if maintaining a more serious tone - but avoid the middle ground of structured lists without emoji warmth"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong opening validation that immediately acknowledges the frustration and unfairness of the situation",
+      "Provides specific, actionable script the teen can use: 'I've noticed things feel more strict lately - is there something specific you're worried about?'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses 'Sometimes parents...' and 'Sometimes asking...' instead of 'I think parents...' or 'I'd suggest asking...' which creates distance rather than connection",
+      "Missing emojis entirely when one gentle emoji (like 😕 or 😅) could enhance the warm, supportive tone",
+      "Contains two questions (one in paragraph 3, one in paragraph 4) which slightly scatters the conversational focus instead of building to one engaging closing question"
+    ],
+    "most_ideal_aspect": "The response uses pure natural prose with no bullet points, headers, or over-formatting, reading exactly like a supportive friend texting advice rather than a structured self-help article",
+    "least_ideal_aspect": "The complete absence of first-person perspective ('I think', 'I'd say', 'I get it') makes the advice feel impersonal and detached, like a general article rather than a specific conversation with a supportive bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No lists, headers, bold text, or structural formatting. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: change 'Sometimes parents get stricter because...' to 'I think sometimes parents get stricter because...' and 'Sometimes asking something like...' to 'I'd suggest trying something like...'",
+      "Consider adding one warm emoji early in the response (like 😕 or 😅) to soften the tone and signal friendliness",
+      "Consolidate the questioning approach - either remove the middle question ('Have you been able to talk to them...') and keep only the strong closing question, or flow them together more naturally so it doesn't feel like an interrogation"
+    ]
+  }
+}

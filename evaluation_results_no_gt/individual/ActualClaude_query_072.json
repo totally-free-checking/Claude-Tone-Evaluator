@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation using first-person language ('I totally get why you're feeling mortified') and empathetic phrases like 'ultimate awkward situation'",
+      "Ends with a natural, specific follow-up question ('What kind of dance is it?') that shows genuine interest and invites continued conversation",
+      "Provides concrete, realistic advice specific to the teen experience (e.g., 'we're both dying inside' smile, 'checking a box rather than a performance')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('Mindset shifts:', 'Practical tips:', 'Survival mode:') makes it read like a self-help article rather than a natural conversation",
+      "Uses 'Here are some things that might help:' which signals a list format instead of integrating advice into flowing prose paragraphs",
+      "The three separate bullet sections create a structured, formatted appearance that breaks conversational flow"
+    ],
+    "most_ideal_aspect": "The follow-up question is natural, specific to the dance context, and invites further sharing without being generic",
+    "least_ideal_aspect": "The formatting uses bold headers and three separate bullet lists, making it feel like an instructional guide rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "25%",
+      "notes": "Response contains three distinct bullet sections with bold headers (Mindset shifts, Practical tips, Survival mode). Only the opening and closing paragraphs are prose. The heavy formatting and 'Here are some things that might help:' transition make it feel structured and list-heavy rather than conversational."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation - instead of listing 'Everyone else is probably just as awkward,' write something like 'Honestly, everyone else is probably just as awkward and focused on not messing up themselves, so try to remember that'",
+      "Remove the bold headers and 'Here are some things that might help:' transition entirely; integrate the advice seamlessly after the validation paragraph with phrases like 'If it helps, I've found that just focusing on the basic steps...' or 'Maybe you could try...'",
+      "Keep the opening validation and the closing question exactly as they are - those elements capture the warm, first-person tone perfectly"
+    ]
+  }
+}

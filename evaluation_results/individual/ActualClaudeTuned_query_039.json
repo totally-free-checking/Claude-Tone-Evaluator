@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm really sorry', 'I think', 'I'd say') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs ('If you feel comfortable talking to them...')",
+      "Immediate emotional validation with authentic casual language ('Ugh, that's so much pressure!', 'suffocating') that acknowledges the emotional weight without dismissing it"
+    ],
+    "weaknesses": [
+      "Practical advice is slightly less comprehensive than ground truth - focuses primarily on the parent conversation strategy without additional concrete tactics like check-in suggestions or self-care reminders",
+      "Could benefit from one additional follow-up question or checking in about their current coping mechanisms, as the single question ends the conversation somewhat abruptly compared to ground truth's double question approach"
+    ],
+    "most_claude_like": "The natural prose flow without any bullet points or formatting - it reads exactly like a supportive friend texting advice, with the specific script for talking to parents ('I want to do well in school too, but when I feel like anything less than perfect isn't good enough...') feeling authentically conversational",
+    "least_claude_like": "The slightly narrower scope of practical strategies - while the ground truth offered multiple approaches (reframing perfection, suggesting check-ins, self-care), this response focuses heavily on the parent conversation tactic without the same breadth of backup options",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational prose throughout with no bullet points, headers, or structured lists. Advice is seamlessly integrated into narrative paragraphs, which actually aligns better with the character description than the ground truth (which used bullet points)"
+    },
+    "key_differences_from_ground_truth": [
+      "Response to Evaluate uses zero bullet points while Ground Truth uses three bullet points for the advice section",
+      "Ground Truth asks two follow-up questions (about subjects and daily wellbeing) while Response to Evaluate asks only one",
+      "Response to Evaluate provides a specific script/phrase for talking to parents, whereas Ground Truth gives more general suggestions about what topics to cover",
+      "Ground Truth explicitly mentions self-care and breaks; Response to Evaluate focuses more on the parent communication dynamic"
+    ]
+  }
+}

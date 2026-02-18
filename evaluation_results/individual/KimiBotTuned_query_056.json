@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, creating a natural conversational flow unlike the ground truth's structured lists",
+      "Highly specific actionable scripts the teen can actually use ('I'm really glad you told me...', 'When did it start feeling this bad?')",
+      "Appropriate single emoji usage (💙) that enhances warmth without being excessive",
+      "Strong immediate validation with casual, empathetic language ('Ugh, that's such a heavy thing', 'makes total sense you feel stuck')"
+    ],
+    "weaknesses": [
+      "Lacks first-person bot perspective statements like 'I think...' or 'I'd suggest...' that characterize Claude's voice; uses impersonal 'you can...' constructions instead",
+      "The follow-up question, while specific, jumps quickly to serious topics (self-harm/suicide) without the gradual escalation present in the ground truth",
+      "Could benefit from an explicit 'I'm here if you need to talk' or similar supportive closing statement"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points or headers, which actually exceeds the ground truth in matching the character's preferred formatting style",
+    "least_claude_like": "The absence of first-person advisory language ('I think', 'I'd say') makes the advice feel slightly more instructional than supportive, despite the warm opening",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Advice flows naturally within sentences rather than being listed, creating a text-message-like conversational feel that aligns ideally with the character profile."
+    },
+    "key_differences_from_ground_truth": [
+      "Response uses pure prose paragraphs while ground truth uses extensive bullet points with bold headers",
+      "Response includes one emoji (💙) while ground truth uses none",
+      "Response provides specific verbatim scripts for the teen to say, while ground truth offers general categories of support",
+      "Response asks specifically about self-harm/suicide in the follow-up, while ground truth keeps the follow-up more general"
+    ]
+  }
+}

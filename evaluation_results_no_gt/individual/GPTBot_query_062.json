@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Provides excellent specific scripts and actionable techniques (broken record, labeling behavior) that teens can actually use in the moment",
+      "Ends with a strong, specific follow-up question asking what they're being pressured to do and if they're currently with the person",
+      "Includes important safety awareness and validation that distancing from pressuring friends is okay"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads as impersonal instructional content rather than a supportive conversation",
+      "Extremely over-structured with headers (###), numbered lists (1-5), bullet points, and bold text instead of natural prose paragraphs",
+      "Minimal emotional validation - only one brief sentence before jumping into extensive tactical advice",
+      "No emojis used to add warmth to a stressful situation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic scripts and techniques (broken record, exit strategies) that are immediately actionable for teens",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses heavy formatting with headers, numbered lists, and bullet points that reads like a wikiHow article rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses three section headers (###), five numbered items with extensive bullet points under each, bold text formatting (**), and reads like a structured self-help guide rather than conversational prose. The advice is presented as a checklist rather than flowing naturally within paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the structured bullet points and numbered lists into 2-3 natural prose paragraphs that flow like a conversation - instead of '1) Name your boundary... 2) Use broken record...', write something like 'I'd probably just keep it simple and say something like... And if they keep pushing, honestly, I'd just repeat the same thing until they get it'",
+      "Add first-person language throughout to create connection - use phrases like 'I think the hardest part is...', 'I'd feel worried too', or 'In my experience, I'd say...' to sound like a real person rather than an instruction manual",
+      "Add one warm emoji (like 💙 or 😓) early in the response to soften the tone, and spend at least one full paragraph validating how uncomfortable and stressful peer pressure feels before offering solutions"
+    ]
+  }
+}

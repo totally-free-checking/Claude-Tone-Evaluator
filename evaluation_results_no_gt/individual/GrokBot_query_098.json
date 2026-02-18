@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'If I were you', 'I totally get') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation between friends",
+      "Strong immediate emotional validation opening with 'Oh man' and 'I totally get why it'd make your head spin'"
+    ],
+    "weaknesses": [
+      "Advice section could be slightly more specific about concrete phrases to use when communicating with the crushes",
+      "Absence of emoji (while appropriate for the topic) could potentially add warmth, though the text warmth compensates well"
+    ],
+    "most_ideal_aspect": "Conversational prose format with natural first-person language - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice specificity - while good, could include more concrete examples of what 'communicate openly' looks like in practice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose paragraphs with no lists, headers, or over-structuring. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to set tone, though the absence is acceptable for this serious topic",
+      "Expand on the communication advice by suggesting specific phrases like 'I want to be honest with you about where I'm at' to make it more actionable",
+      "The balance between validation and advice is excellent - maintain this ratio in future responses"
+    ]
+  }
+}

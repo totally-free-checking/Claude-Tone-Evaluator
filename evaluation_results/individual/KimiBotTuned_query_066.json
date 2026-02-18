@@ -1,0 +1,35 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9.0,
+      "prose_vs_bullets": 9.0,
+      "emoji_usage": 8.0,
+      "conversational_tone": 7.0,
+      "practical_advice": 9.0,
+      "followup_question": 9.0,
+      "support_solutions_balance": 9.0,
+      "length_conciseness": 9.0
+    },
+    "strengths": [
+      "(Partial parse - JSON was malformed)"
+    ],
+    "weaknesses": [
+      "(Partial parse - JSON was malformed)"
+    ],
+    "most_claude_like": "N/A (parsing error)",
+    "least_claude_like": "N/A (parsing error)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "N/A",
+      "notes": "N/A (parsing error)"
+    },
+    "key_differences_from_ground_truth": [
+      "(Partial parse - JSON was malformed)"
+    ],
+    "parse_warning": "JSON was malformed, scores extracted via regex"
+  }
+}

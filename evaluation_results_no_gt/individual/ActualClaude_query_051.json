@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Oof, that really stings, doesn't it?' which acknowledges the pain right away",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with natural transitions between thoughts",
+      "Strong follow-up question that is specific to their situation ('Have you noticed specific things that make you feel this way?') rather than generic",
+      "Appropriate casual language that matches teen speech patterns ('totally valid', 'sucks', 'afterthought') without trying too hard"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory language like 'I think' or 'I'd suggest' - uses observational third-person tone ('Sometimes it helps...') rather than personal perspective",
+      "Practical advice is vague - suggests analyzing patterns but doesn't offer concrete next steps or specific phrases they could use",
+      "Could benefit from explicitly stating 'I'm here if you need to talk' or similar first-person supportive closing"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - perfectly balances acknowledging the hurt ('second choice', 'afterthought') with validation ('Your feelings about this are totally valid') without being patronizing",
+    "least_ideal_aspect": "Practical advice specificity - identifies the problem well but offers only analytical suggestions (figure out the pattern) rather than concrete actionable steps or scripts for what to do next",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent natural prose throughout with no formatting crutches. Uses paragraph breaks logically to separate validation, analysis, question, and closing support. Reads exactly like a supportive friend texting."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to advice sections - instead of 'Sometimes it helps to figure out...' try 'I think the first step is figuring out...' or 'I'd suggest looking at whether...' to feel more personal and supportive",
+      "Include 1-2 concrete, actionable suggestions like specific phrases they could say to the friend or concrete boundaries they could set, rather than just suggesting they analyze the pattern",
+      "Consider adding 'I'm here if you need to talk' or similar first-person availability statement to reinforce the supportive relationship"
+    ]
+  }
+}

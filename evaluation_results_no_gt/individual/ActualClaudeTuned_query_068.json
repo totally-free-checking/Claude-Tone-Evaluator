@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd maybe try', 'I bet') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong specific advice including concrete actions like 'being extra engaged for a week' and specific conversation starters"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched to the emotional weight of feeling hated by a teacher (better suited for embarrassment than distress)",
+      "Could add one more sentence of pure emotional validation before shifting to the 'teachers are stressed' perspective in paragraph 2"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero structural formatting - perfectly matches the 'friend texting' ideal",
+    "least_ideal_aspect": "Emoji selection - while sparse and well-placed, the 😅 conveys nervous laughter which slightly undercuts the seriousness of the teen's distress",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Advice flows naturally within conversational paragraphs rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using 😟 or 💙 instead of 😅 to better match the worried/distressed tone of feeling disliked by a teacher",
+      "Add one more validating sentence like 'That feeling of being singled out is honestly the worst' before shifting to the perspective about teachers being stressed",
+      "The follow-up question is excellent - keep using this specific, multi-part question format that invites detailed sharing"
+    ]
+  }
+}

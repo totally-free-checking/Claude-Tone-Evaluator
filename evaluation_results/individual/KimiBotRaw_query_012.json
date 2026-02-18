@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows like a natural conversation",
+      "Strong immediate emotional validation with 'Oh man, that sting is real' and 'Totally valid'",
+      "Uses appropriate teen-relevant language like 'vibe' and 'ick' without feeling forced or cringe"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language ('I think', 'I'd say', 'I get it') that defines Claude's voice - stays mostly impersonal",
+      "Slightly longer than Claude's typical concise style (5 paragraphs vs ground truth's 3)",
+      "Follow-up question is good but less specific to the immediate emotional experience than ground truth's question about the type of jealousy"
+    ],
+    "most_claude_like": "The pure prose format with natural paragraph flow and immediate emotional validation without any bullet points or headers",
+    "least_claude_like": "The absence of first-person language ('I think', 'I'd say', 'I'm here') - the response avoids using 'I' statements entirely, making it feel slightly less like a personal conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth is more concise (3 tight paragraphs vs 5 paragraphs), making it more phone-friendly",
+      "Ground truth asks about the specific type of jealousy experienced, while evaluated asks about relationship depth",
+      "Ground truth uses 'lol' and casual punctuation, while evaluated uses slightly more explanatory/reassuring language"
+    ]
+  }
+}

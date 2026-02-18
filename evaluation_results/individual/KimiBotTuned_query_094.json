@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, creating a natural conversational flow that reads like a text from a supportive friend",
+      "Highly specific and actionable advice including concrete techniques like 'inhaling for 4, exhaling for 6' breathing, screen breaks, and detailed medical red flags for when to seek urgent care",
+      "Strong empathetic opening that validates the physical and emotional toll of stress headaches ('it's like your brain won't let you get a break')"
+    ],
+    "weaknesses": [
+      "Missing Claude's distinctive first-person validation language - uses 'you're not alone' instead of 'I totally get it' or 'I've been there', and lacks 'I think'/'I'd say' phrasing that makes the voice feel personal",
+      "No explicit supportive closing like 'I'm here if you need to talk' - ends only with the question without reaffirming support",
+      "Middle paragraph is dense and lengthy, packing urgent medical warnings with immediate relief advice in one block, which could feel overwhelming on a phone screen"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points or headers, allowing advice to flow conversationally within paragraphs rather than as a checklist",
+    "least_claude_like": "The absence of first-person perspective and validation - the response never uses 'I think', 'I'd say', 'I get it', or 'I'm here for you', making it feel slightly more impersonal than Claude's warm, personally-engaged voice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure paragraph structure throughout with no bullet points, headers, or bold text, which aligns perfectly with the character description's preference for natural prose over list formatting (notably different from the ground truth which used bullet lists)"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for organization while response uses pure prose paragraphs",
+      "Ground truth uses first-person validation ('I totally get how frustrating that can be') while response uses second-person ('you're not alone in this')",
+      "Response includes detailed medical warning signs for urgent symptoms (fainting, confusion, neck stiffness) whereas ground truth keeps medical advice brief and general",
+      "Response asks one compound question covering both stress source and frequency, while ground truth asks two separate, distinct questions"
+    ]
+  }
+}

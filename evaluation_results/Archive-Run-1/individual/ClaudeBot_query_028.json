@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable phrases the teen can actually use ('Hey, I realized what I said might've come off rude...')",
+      "Strong follow-up question that's specific and helpful ('If you tell me what you said and the context...'), showing genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - feels too formal and cold compared to Claude's warm 'Oh no, that feeling is the worst!' opening",
+      "Heavy use of quotation marks and structured advice delivery makes it feel like a communication guide rather than a supportive conversation",
+      "Jumps too quickly into solutions without enough emotional validation - Claude spends more time acknowledging the feeling first",
+      "The phrase 'That's a really human situation' feels clinical compared to Claude's more natural 'Oh no, that feeling is the worst!'"
+    ],
+    "most_claude_like": "The practical advice quality is excellent - the specific phrases provided ('Hey, I realized what I said might've come off rude...') are exactly the kind of concrete, actionable help Claude would give",
+    "least_claude_like": "The complete absence of emojis and the immediate jump into structured advice delivery (with multiple quoted example phrases) makes it feel like a professional communication coach rather than a warm, supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the heavy use of quotation marks and structured 'if-then' advice delivery creates a similar effect to bullet points - it reads more like a formatted guide than natural conversation"
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with 'Oh no, that feeling is the worst!' (immediate emotional validation) vs. 'That's a really human situation' (more detached observation)",
+      "Claude uses an emoji and exclamation points to convey warmth; evaluated response has no emojis and feels more formal",
+      "Claude asks exploratory questions first ('What happened?') before offering solutions; evaluated response jumps straight into repair strategies",
+      "Claude's tone is more conversational and friend-like ('which is really sweet'); evaluated response is more instructional ('the cleanest repair is...')",
+      "Claude focuses on understanding the situation first; evaluated response provides multiple solution templates upfront"
+    ]
+  }
+}

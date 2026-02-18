@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation: 'That really sucks to be stuck hearing it from your room. You shouldn’t have to carry that' acknowledges the emotional weight immediately",
+      "Provides excellent specific actionable advice including exact phrases to text friends, specific breathing counts (in 4, hold 2, out 6), and concrete hotline numbers"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting (headers like 'Quick ways to get through the moment', bold text throughout) makes it read like a safety pamphlet rather than a conversation with a friend",
+      "Lacks first-person conversational language - no use of 'I think', 'I'd say', or 'I get it' - instead uses imperative instructional tone throughout"
+    ],
+    "most_ideal_aspect": "The practical advice quality is exemplary, offering realistic immediate coping strategies (brown noise, ice cubes) and safety planning that respects teen agency",
+    "least_ideal_aspect": "The formatting is extremely over-structured with multiple bullet lists and bold headers, completely diverging from the natural prose paragraphs ideal",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses extensive bullet formatting with section headers ('First:', 'Quick ways:', 'If you feel able:', 'For after:') and bold text throughout, resembling a crisis resource guide rather than conversational text"
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation, e.g., 'If I were you, I'd probably put on some headphones with brown noise or turn on a fan to mask the sound...'",
+      "Add first-person empathetic language throughout, such as 'I can't imagine how stressful that must be to hear' or 'I'd feel really overwhelmed too', rather than jumping straight to safety instructions",
+      "Reduce the bold text and headers - instead of '**First: are you safe right now?**', try 'First off - are you safe right now? I need to make sure you're okay...'"
+    ]
+  }
+}

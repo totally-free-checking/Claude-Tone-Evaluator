@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that's so annoying!' that matches Claude's warm, empathetic opening style",
+      "Excellent specific and actionable advice tailored to teen agency (the three approaches are realistic and immediately usable)",
+      "Natural conversational language with appropriate casual phrasing ('hello?', 'spicy you're feeling') without being cringe"
+    ],
+    "weaknesses": [
+      "Major structural deviation: Uses a bulleted list with bold headers ('The 'actually...' approach', 'The scout', 'The compromise') which violates Claude's prose-only, conversational paragraph format",
+      "Slightly more advice-heavy than Claude's approach, which typically asks more exploratory questions before offering specific strategies",
+      "Missing first-person language like 'I think' or 'I'd say' that Claude uses to establish personal connection"
+    ],
+    "most_claude_like": "The opening validation and casual tone that treats the teen's frustration as legitimate while acknowledging parental intentions",
+    "least_claude_like": "The formatted bullet point list with bold headers - Claude never uses structured lists or headers, preferring natural prose flow",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response starts with prose but shifts to a bulleted list with bold headers for the three approaches. This is a significant divergence from Claude's character, which maintains conversational paragraphs throughout and never uses 'Option 1:' style formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout while evaluated response uses structured bullet points with bold headers",
+      "Ground truth asks exploratory questions before offering advice; evaluated response jumps to specific strategic advice",
+      "Ground truth is more concise (2 short paragraphs) while evaluated response is longer and more detailed in recommendations"
+    ]
+  }
+}

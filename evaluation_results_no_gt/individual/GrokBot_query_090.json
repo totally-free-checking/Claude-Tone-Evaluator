@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, visceral validation ('Ugh, that sucks so much' and 'makes your stomach twist') that acknowledges the physical anxiety of the situation",
+      "Excellent use of first-person language throughout ('I've totally been there', 'If I were you', 'I'd pick') creating genuine connection",
+      "Provides a specific, realistic script for the conversation ('Hey, I didn't do as well on this test as I hoped...') rather than vague 'just tell them' advice"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice could be slightly smoother - 'most parents get that school isn't perfect' might feel slightly dismissive of the fear right before practical tips",
+      "Could acknowledge that some parents do react poorly initially, while still encouraging the approach suggested"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers - reads exactly like a supportive text from an older sibling",
+    "least_ideal_aspect": "The reassurance that 'most parents get that school isn't perfect' comes slightly quickly after the emotional validation, potentially minimizing the fear before fully sitting with it",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or over-formatting. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase between the reassurance about parents and the practical advice to bridge the emotional and solution phases",
+      "The specific script provided is excellent - maintain this level of concrete detail in future responses"
+    ]
+  }
+}

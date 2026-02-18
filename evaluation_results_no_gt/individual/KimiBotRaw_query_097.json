@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can use word-for-word (e.g., 'Thanks for asking, that's really flattering, but I don't see you that way')",
+      "Opens with strong emotional validation ('That's such an awkward spot to be in', 'It's totally okay that you don't feel the same way')",
+      "Ends with engaging, specific follow-up questions that address potential specific worries ('Stressed about their reaction, or worried about awkwardness if you see them regularly?')"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory language throughout the advice section (uses 'the golden rule is' and 'You don't need to' instead of 'I'd say...' or 'I think...')",
+      "Uses bold formatting for emphasis ('kind but clear') and sets example quotes on separate lines with italics, making it more structured than pure conversational prose"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic scripts and warns against common mistakes like saying 'not right now'",
+    "least_ideal_aspect": "Conversational tone - the advice section feels instructional rather than personal, missing first-person 'I think/I'd' language that would make it feel like advice from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "85%",
+      "notes": "No bullet markers used, but employs line breaks and asterisks for example quotes, plus bold text for emphasis ('kind but clear'), which creates slight structural formatting compared to pure paragraph prose"
+    },
+    "specific_feedback": [
+      "Rewrite the advice section using first-person perspective like 'I'd suggest being kind but clear' or 'I think the best approach is...' instead of impersonal directives like 'the golden rule is'",
+      "Integrate the example quotes into the natural flow of sentences rather than setting them on separate lines, or alternatively use a single warm emoji (like 😅) at the opening to enhance the conversational feel"
+    ]
+  }
+}

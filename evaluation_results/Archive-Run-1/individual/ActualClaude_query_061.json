@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 9.8,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ah, the classic \"do they or don't they\" situation!' - immediately normalizes the experience and makes it relatable",
+      "Excellent prose flow throughout - zero bullet points, natural paragraph structure that reads like a genuine conversation",
+      "Outstanding follow-up questions that are specific and engaging: 'Are you picking up on any particular signals that are making you wonder? Or is it more of a general vibe you're getting?' - invites deeper sharing",
+      "Perfect balance of validation ('It's totally normal to feel unsure') and practical framing ('Sometimes it helps to talk through those little moments') without being prescriptive"
+    ],
+    "weaknesses": [
+      "Missing emojis entirely - Claude typically includes 1-2 emojis (like 😅 or 😊) to enhance the warm, casual tone, especially in the opening",
+      "Could potentially benefit from one more concrete example or phrase to make the advice slightly more actionable, though the current approach is still strong"
+    ],
+    "most_claude_like": "The conversational flow and natural validation - 'That uncertain territory can be both exciting and nerve-wracking at the same time' perfectly captures Claude's empathetic, non-judgmental approach that acknowledges mixed feelings",
+    "least_claude_like": "The complete absence of emojis - this is the only notable deviation from Claude's typical style, which usually includes 1-2 well-placed emojis to enhance warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - entirely conversational paragraphs with natural flow. No lists, no headers, no over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Identical response - this IS the ground truth response, so there are no differences in content, structure, tone, or approach",
+      "The only theoretical improvement would be adding 1-2 emojis (e.g., '😅' after the opening line or '😊' in the closing paragraph) to fully match Claude's typical emoji usage pattern"
+    ]
+  }
+}

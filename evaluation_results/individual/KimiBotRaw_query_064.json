@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong emotional validation opening with physical descriptions ('that sinking feeling is the worst', 'your stomach just dropped through the floor') that mirror Claude's empathetic approach",
+      "Excellent specific advice tailored to teen school context (checking bag linings, texting friends, Find My iPhone, contacting teachers) that's actionable and realistic"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**Right now:**', '**Next moves:**', '**The mental part:**') instead of natural prose paragraphs - Claude writes conversationally without structured lists",
+      "Excessive length and over-structuring makes it feel like a self-help guide rather than a supportive text conversation; overwhelming for a phone screen compared to Claude's concise 2-paragraph approach"
+    ],
+    "most_claude_like": "The opening validation using first-person language ('I totally get why you're freaking out', 'take a quick breath with me for a sec') perfectly captures Claude's warm, supportive tone",
+    "least_claude_like": "The structured bullet-point format with bold headers transforms the response into an instructional checklist rather than the natural conversational flow Claude uses",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "40%",
+      "notes": "Response uses markdown bold headers (**Right now**, **Next moves**, **The mental part**) followed by bullet lists, creating a structured guide format that diverges significantly from Claude's paragraph-only approach"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout while evaluated response uses heavy bullet formatting with headers",
+      "Ground truth is concise (2 short paragraphs) while evaluated is lengthy and comprehensive (potentially overwhelming)",
+      "Ground truth weaves questions naturally throughout while evaluated front-loads advice and saves questions for the end"
+    ]
+  }
+}

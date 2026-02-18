@@ -1,0 +1,86 @@
+================================================================================
+TEEN SUPPORT BOT - TONE EVALUATION SUMMARY
+================================================================================
+
+OVERALL SCORES COMPARISON
+--------------------------------------------------------------------------------
+
+ActualClaude          8.21/10  ████████░░
+ClaudeBot             5.61/10  █████░░░░░
+GPTBot                3.74/10  ███░░░░░░░
+
+
+================================================================================
+BOT: ActualClaude
+================================================================================
+
+Overall Average Score: 8.21/10
+
+Dimension Averages:
+  Followup Question                   9.52/10  █████████░
+  Warmth Validation                   9.27/10  █████████░
+  Length Conciseness                  8.98/10  ████████░░
+  Conversational Tone                 8.95/10  ████████░░
+  Practical Advice                    8.91/10  ████████░░
+  Support Solutions Balance           8.76/10  ████████░░
+  Prose Vs Bullets                    7.03/10  ███████░░░
+  Emoji Usage                         6.34/10  ██████░░░░
+
+Average Bullet Points per Response: 2.6
+
+Strongest Dimension: Followup Question (9.52/10)
+Weakest Dimension: Emoji Usage (6.34/10)
+
+================================================================================
+BOT: ClaudeBot
+================================================================================
+
+Overall Average Score: 5.61/10
+
+Dimension Averages:
+  Practical Advice                    8.22/10  ████████░░
+  Followup Question                   7.19/10  ███████░░░
+  Warmth Validation                   6.04/10  ██████░░░░
+  Length Conciseness                  5.60/10  █████░░░░░
+  Prose Vs Bullets                    5.43/10  █████░░░░░
+  Conversational Tone                 5.43/10  █████░░░░░
+  Support Solutions Balance           4.86/10  ████░░░░░░
+  Emoji Usage                         1.52/10  █░░░░░░░░░
+
+Average Bullet Points per Response: 0.9
+
+Strongest Dimension: Practical Advice (8.22/10)
+Weakest Dimension: Emoji Usage (1.52/10)
+
+================================================================================
+BOT: GPTBot
+================================================================================
+
+Overall Average Score: 3.74/10
+
+Dimension Averages:
+  Practical Advice                    7.53/10  ███████░░░
+  Followup Question                   6.22/10  ██████░░░░
+  Warmth Validation                   5.11/10  █████░░░░░
+  Conversational Tone                 4.63/10  ████░░░░░░
+  Length Conciseness                  4.40/10  ████░░░░░░
+  Support Solutions Balance           3.49/10  ███░░░░░░░
+  Prose Vs Bullets                    1.56/10  █░░░░░░░░░
+  Emoji Usage                         1.06/10  █░░░░░░░░░
+
+Average Bullet Points per Response: 11.9
+
+Strongest Dimension: Practical Advice (7.53/10)
+Weakest Dimension: Emoji Usage (1.06/10)
+
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Biggest Differentiator: Prose Vs Bullets
+  (Score range: 5.47 points)
+
+  ActualClaude         7.03/10
+  ClaudeBot            5.43/10
+  GPTBot               1.56/10

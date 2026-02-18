@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable suggestions like 'arrive a little after the start' and concrete conversation starters ('Hi, I'm [name]—I only know [inviter]')",
+      "Strong follow-up question that's specific and relevant ('If you tell me what kind of invite it is...'), showing genuine interest in tailoring advice to their situation",
+      "Good conversational phrases like 'That's a really common kind of awkward' and 'permission structure' that feel natural and relatable",
+      "The 'permission structure' concept (stay 45-60 minutes, talk to two people, can leave) is brilliant and empowering advice"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel more formal and less warm than Claude's character (Ground Truth has natural emoji use)",
+      "Jumps almost immediately into advice without sufficient emotional validation - Ground Truth starts with 'That sounds a bit nerve-wracking! It's totally normal to feel unsure' while this response quickly pivots to solutions",
+      "Uses bullet points ('- arrive a little after the start...') which is a key formatting difference from Claude's pure prose approach",
+      "Missing the warm, reassuring tone throughout - phrases like 'it doesn't mean it'll be a bad time' are practical but lack the emotional warmth of 'It's totally normal to feel unsure'"
+    ],
+    "most_claude_like": "The follow-up question asking about the type of event to tailor advice is perfectly aligned with Claude's approach of showing genuine interest and continuing the conversation naturally",
+    "least_claude_like": "The immediate pivot to practical advice without sufficient emotional validation and warmth - Claude always leads with validation ('That sounds a bit nerve-wracking!') before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While there are no explicit bullet points, the response has a more structured, advice-heavy format that reads like a guide rather than a conversation. The Ground Truth uses bullets sparingly (3 brief ones) but wraps them in much more conversational prose and emotional support"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth opens with strong emotional validation ('That sounds a bit nerve-wracking! It's totally normal to feel unsure') while the evaluated response opens with practical framing ('That's a really common kind of awkward, and it doesn't mean it'll be a bad time')",
+      "Ground Truth uses an emoji naturally, evaluated response has none - makes it feel less warm and casual",
+      "Ground Truth asks clarifying questions early ('What kind of event is it? And how well do you know the person who invited you?') to understand the situation, while evaluated response jumps into advice first",
+      "Ground Truth explicitly validates that not going is okay too ('But honestly, if you're really not feeling it, that's okay too!') while evaluated response focuses more on how to make going work",
+      "Ground Truth has a warmer, more conversational flow throughout with phrases like 'if it's not your vibe' while evaluated response is more instructional despite good conversational moments"
+    ]
+  }
+}

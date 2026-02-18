@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation using first-person language ('I'm so sorry,' 'I totally get why you'd feel so exposed') that makes the teen feel immediately heard",
+      "Specific actionable advice including exact scripting for talking to the parent ('I feel really hurt that you read my diary because it was my private space...') which gives them concrete words to use",
+      "Perfect prose formatting with zero bullet points, headers, or over-structuring - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Follow-up question is technically two questions combined ('What made you decide to keep a diary in the first place—do you use it to vent about school or friends?') rather than one focused question",
+      "The transition to advice could include a slightly warmer bridge phrase to maintain the emotional connection before shifting to practical solutions, though it does acknowledge 'you're not overreacting'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or structural formatting - maintains conversational flow throughout",
+    "least_ideal_aspect": "Follow-up question combines two distinct questions about diary origin and usage rather than focusing on one engaging angle or their current emotional state",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, bold text, or headers. Advice flows naturally within conversational prose sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider focusing the follow-up question on one specific angle, such as asking 'How are you feeling right now about the idea of confronting them?' rather than asking about the diary origin and usage simultaneously",
+      "Maintain the current balance of starting with validation before moving to advice - this order is perfect for teen support",
+      "The specific script provided for talking to the parent is excellent - keep offering exact phrasing like this in future responses"
+    ]
+  }
+}

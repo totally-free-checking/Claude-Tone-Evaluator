@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent and comprehensive - offers specific, actionable steps like 'offer to redo a few problems or explain them live' and 'send a short follow-up email summarizing what was discussed'",
+      "Follow-up questions are specific and helpful - asks about subject/assignment, whether they worked together, and what the teacher said exactly, which shows genuine engagement"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered lists - uses headers like '### 1) Don't argue—ask for clarity' and '### 2) Explain *how* you worked' throughout, making it read like a procedural guide rather than a conversation",
+      "Opens with 'That's stressful, but you can handle it best by staying calm' which immediately pivots to solutions without adequate emotional validation - no 'It totally makes sense that you'd be stressed' or 'That's such a frustrating situation' warmth",
+      "Zero emoji usage makes the tone feel formal and cold, especially compared to Claude's natural conversational style",
+      "Uses formal, instructional language like 'Here's a good approach:' and 'Request a short meeting (or reply email) like:' instead of conversational phrases like 'Here are some ways you might handle this'"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, practical, and show genuine interest in helping further - 'If you tell me: 1) what subject/assignment it was...' mirrors Claude's engagement style",
+    "least_claude_like": "The heavy use of numbered headers (### 1), ### 2), etc.) and bullet points throughout makes this read like a formal guide or checklist rather than a supportive conversation - completely opposite to Claude's prose-based approach",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by 6 numbered sections with headers, each containing multiple bullet points. Only the opening sentence and closing paragraph are in prose form. This is the exact opposite of Claude's approach, which uses conversational paragraphs with minimal to no bullets."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses prose paragraphs with one small bulleted section; evaluated response is 80% structured lists with headers",
+      "emotional_opening": "Ground truth: 'That's such a frustrating situation! It totally makes sense that you'd be stressed' vs evaluated: 'That's stressful, but you can handle it' - much less validating",
+      "tone": "Ground truth feels like texting a supportive friend; evaluated response reads like a formal how-to guide or academic advisor memo",
+      "emoji_usage": "Ground truth would likely include 1-2 emojis (😅 or similar); evaluated has none, contributing to formal tone",
+      "length": "Evaluated response is significantly longer and more overwhelming - would be difficult to read on a phone"
+    }
+  }
+}

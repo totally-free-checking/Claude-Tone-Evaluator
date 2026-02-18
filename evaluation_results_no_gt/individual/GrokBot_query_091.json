@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual, empathetic language ('Ugh, that really hurts, doesn't it?' and 'such a crappy, confusing spot to be in')",
+      "Uses first-person language naturally throughout ('I've been there', 'If I were you, I'd...') creating authentic connection",
+      "Provides specific, actionable conversation script the teen can actually use ('Hey, I've noticed you've been hanging out a ton with [person]...')",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Lacks an explicit 'I'm here if you need to talk' or similar ongoing support offer at the end, relying only on the question for engagement",
+      "Could potentially include one subtle emoji (like 💙 or 😅) to enhance warmth, though the absence is acceptable for this serious topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with first-person language usage - flows exactly like a supportive friend texting advice without any structured lists or formal distance",
+    "least_ideal_aspect": "Missing explicit statement of ongoing availability/support (e.g., 'I'm here to listen') which would strengthen the supportive relationship",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, or bold text. Advice is woven seamlessly into conversational prose rather than listed as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding a brief closing like 'I'm here if you want to talk more about it' before the follow-up question to reinforce ongoing support",
+      "The specific conversation script provided is excellent - continue offering exact phrases teens can use in difficult conversations"
+    ]
+  }
+}

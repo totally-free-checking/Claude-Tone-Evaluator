@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent specific actionable advice with concrete techniques like the 5-10 minute timer method and 'rewind with compassion' edit that are realistic for teens to implement",
+      "Strong closing question that specifically asks what part they're stuck on (what they said vs. how people reacted) to invite continued conversation"
+    ],
+    "weaknesses": [
+      "Response is structured as a numbered list (1-5) with bold headers and sub-bullets rather than natural prose paragraphs, reading like a self-help article instead of a text from a friend",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' 'I get it,' or 'My brain does this too' which makes it feel impersonal and instructional rather than supportive"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific techniques (naming the mental event, reality checking, containment timer, compassion edit) are concrete, immediately actionable, and perfectly suited for a teen's agency and situation",
+    "least_ideal_aspect": "Formatting and structure - the response uses a numbered list format with bold text and sub-bullets (5 main points plus nested bullets), which is the opposite of the natural prose paragraphs that characterize the ideal teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response begins with one sentence of prose, then immediately shifts to 'Here are a few things...' followed by a numbered list (1-5) with bold headers. Item 2 contains additional nested bullet points. Only the final paragraph returns to prose. This is heavily over-formatted and structured like a therapy worksheet rather than a conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as natural flowing paragraphs instead of a numbered list - integrate the five techniques into conversational prose that flows naturally, like 'I’ve found a few things help me when I get stuck in that loop. First, I try naming what’s happening out loud...'",
+      "Add first-person language throughout to create connection - use phrases like 'I totally get that brutal loop,' 'My brain does this too,' 'I’d say the worst part is...,' and 'I’m here if you want to talk through it' to sound like a supportive friend rather than an instructional guide",
+      "Expand the emotional validation before jumping to solutions - spend a paragraph acknowledging how awful that replay feels, validating that everyone experiences this, and offering warmth before transitioning to 'Here’s what’s helped me'"
+    ]
+  }
+}

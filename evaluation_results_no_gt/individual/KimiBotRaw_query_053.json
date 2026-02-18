@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong immediate validation using casual empathetic language ('Ugh, that's so frustrating!', 'it really sucks')",
+      "Provides excellent specific actionable advice including exact scripts the teen can use ('Hey, I totally get that life happens, but when plans get cancelled last minute...')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting makes it read like a wikiHow article rather than a conversation with a friend (uses 6 bullets across 2 formatted sections)",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes the response feel impersonal despite casual vocabulary"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies specific to the teen's situation including word-for-word conversation starters",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses structured lists and headers instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "30%",
+      "notes": "Response uses two distinct bullet lists with bold headers ('A few thoughts...', 'What you could try:'), creating a self-help article format rather than natural texting flow. Advice is presented as checklist items rather than integrated into conversational prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural flowing paragraphs - instead of listing 'They might be overwhelmed', try 'I think sometimes people genuinely want to hang out when they make plans, but then crash when the time comes, especially if they have anxiety or ADHD...'",
+      "Add first-person language throughout to create connection: 'I'd say the best approach is...', 'I think you could try...', 'I'm here if you need to talk through it more'",
+      "Consider adding one warm emoji early on (like 😅 or 💙) to enhance the supportive tone, though zero is acceptable"
+    ]
+  }
+}

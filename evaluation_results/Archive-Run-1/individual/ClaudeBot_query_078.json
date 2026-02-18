@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - provides actual phrases they could use ('I'm keeping my circle small right now', 'I've said no a few times. Please stop asking')",
+      "Follow-up question is contextual and useful - 'If you tell me whether this is happening at school, work, online, or in a friend group, I can suggest wording that fits that setting' shows genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Uses bullet points extensively where Claude uses pure prose - 'be civil, don't share personal stuff, don't accept invites, and don't start one-on-one conversations' is formatted as a list within prose, and the overall structure is more instructional",
+      "Completely lacks emojis - makes the response feel more formal and less warm compared to Claude's opening 'Ugh, that's such an awkward situation! 😅'",
+      "Jumps too quickly into advice mode - opens with validation but immediately pivots to solutions without sitting with the feeling first",
+      "Tone is more instructional/advisory than conversational - phrases like 'Consistency matters more than having the perfect wording' and 'The key is not adding a lot of justifications' sound more like a guide than a friend"
+    ],
+    "most_claude_like": "The practical advice quality is excellent - specific phrases, realistic scenarios, and consideration of different contexts (school/work/online) matches Claude's actionable approach",
+    "least_claude_like": "The complete absence of emojis and the instructional, bullet-heavy structure - Claude's response feels like texting a friend, while this reads more like a how-to article",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "While technically written in paragraphs, the response has embedded list-like structures ('be civil, don't share personal stuff, don't accept invites') and reads more like organized advice sections than natural conversation. Claude's bullets are clearly marked but brief; this response has hidden list structures throughout that make it feel more instructional."
+    },
+    "key_differences_from_ground_truth": {
+      "tone_warmth": "Claude opens with 'Ugh, that's such an awkward situation!' with immediate empathy. Evaluated response opens with 'That's an awkward spot' which is validating but more measured and less emotionally connected",
+      "emoji_presence": "Claude uses an emoji early to set warm tone; evaluated response has zero emojis, making it feel more formal",
+      "advice_structure": "Claude uses clear bullets for quick scanning but keeps them brief. Evaluated response embeds advice in longer paragraphs with multiple sub-points, making it denser and more instructional",
+      "conversational_flow": "Claude's language is more casual ('Ugh', 'just... not picking up on social cues?'). Evaluated response is more formal ('rather than trying to \"hint\" your way out', 'people can treat explanations like openings to negotiate')",
+      "length": "Evaluated response is significantly longer and more comprehensive, which makes it feel more like a guide than a supportive conversation"
+    }
+  }
+}

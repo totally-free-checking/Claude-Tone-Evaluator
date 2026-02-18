@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable suggestions like 'you can name it in a low-pressure way: \"I've noticed I'm usually the one who reaches out—if you ever think of it, I'd love for you to text me first sometimes.\"' - this is concrete and realistic",
+      "Good follow-up question that's specific to the situation: 'when you do reach out, do they seem genuinely happy to talk, or does it feel like you're pulling teeth?' - shows genuine interest and helps diagnose the problem"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis, making it feel formal and cold compared to Claude's warm 'That sounds really frustrating! 😅' opening",
+      "Opens with validation but it's more analytical than warm - 'That can feel pretty lonely' is distant compared to Claude's immediate 'That sounds really frustrating! It's such a bummer'",
+      "Too structured and essay-like with phrases like 'There are a few common (and very different) reasons this happens' followed by multiple scenario breakdowns - Claude keeps it conversational",
+      "Much longer and more complex than Claude's response - feels like reading an advice article rather than texting with a supportive friend"
+    ],
+    "most_claude_like": "The follow-up question is natural and diagnostic, asking for specific details to help understand the situation better, which matches Claude's engaged, conversational approach",
+    "least_claude_like": "The complete absence of emojis and the analytical, structured breakdown of 'common reasons' makes it feel like a psychology article rather than a warm, casual conversation with a teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically all prose, the response reads like structured paragraphs with clear analytical sections ('There are a few common reasons...', 'A useful way to sort those apart...', 'If you want to test it gently...'). It's more essay-like than conversational prose. Claude's prose flows more naturally without these clear sectional breaks."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with immediate, enthusiastic validation ('That sounds really frustrating! It's such a bummer') with an emoji, while the evaluated response opens more analytically ('That can feel pretty lonely, even if people do like you')",
+      "Claude keeps it short and conversational (3 brief paragraphs), while the evaluated response is much longer and more comprehensive (5 dense paragraphs)",
+      "Claude uses casual language throughout ('It's such a bummer', 'pretty telling', 'just... not reaching out') while the evaluated response is more formal ('the rhythm has accidentally trained people', 'the engagement is there once you open the door')",
+      "Claude asks a simple clarifying question early ('Are we talking about friends, family, coworkers, or kind of everyone?') to understand context, while the evaluated response provides comprehensive analysis before asking for details",
+      "No emojis at all in evaluated response vs. Claude's natural emoji use"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('I'm so sorry your friend is going through a tough time') and validates the user's caring nature ('that alone shows what a good friend you are')",
+      "Perfect prose formatting with zero bullet points or lists - advice flows naturally within conversational paragraphs like 'You could try something simple like...'",
+      "Provides specific, actionable phrases the teen can actually say to their friend: 'I'm here if you want to talk' and 'I've been thinking about you - how are you holding up?'"
+    ],
+    "weaknesses": [
+      "Could incorporate slightly more first-person perspective framing throughout the advice sections (e.g., 'I think the best approach...' rather than 'sometimes the best thing...')",
+      "The transition to suggesting professional help, while practical, could include slightly more emotional validation to maintain the warm tone throughout"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring, maintaining a conversational text-like flow that reads like a message from a supportive friend",
+    "least_ideal_aspect": "While present in opening and closing, the middle advice sections could use more consistent first-person language ('I'd say', 'I think') to strengthen the personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, bullet points, or headers. Advice flows organically within sentences rather than being listed out, creating an authentic conversational feel."
+    },
+    "specific_feedback": [
+      "Add more first-person framing to the advice sections, such as 'I'd say the best thing you can do...' instead of 'sometimes the best thing you can do...' to strengthen the personal connection",
+      "Consider adding one brief validating statement when transitioning to the topic of serious issues/suggesting adults, such as 'I know that might feel scary to bring up, but...' to maintain warmth throughout"
+    ]
+  }
+}

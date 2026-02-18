@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with physical descriptions of anxiety ('make your chest feel tight and your brain start spiraling') that makes the teen feel truly understood",
+      "Natural conversational flow with teen-appropriate language ('clocking your table','kinda know','wrapped up in their own drama') without trying too hard",
+      "Specific actionable advice including exact phrases to use ('Hey, mind if I sit with you guys today?') and realistic options for different comfort levels"
+    ],
+    "weaknesses": [
+      "Could incorporate more first-person advisory language like 'I think' or 'I'd suggest' to match Claude's personal tone; currently uses more imperative/general advice structure",
+      "Slightly advice-heavy compared to Claude's ground truth, packing multiple strategies (location, phone use, asking to join, reset mindset) into one dense paragraph rather than spacing them out",
+      "Opens with 'I'm so sorry' which is slightly more sympathetic/pitying than Claude's 'that's the worst feeling' which validates without sounding apologetic"
+    ],
+    "most_claude_like": "The prose formatting and natural paragraph flow perfectly matches Claude's approach - no bullet points, headers, or over-formatting, just conversational text that reads like a supportive friend texting",
+    "least_claude_like": "The density of practical advice in the third paragraph diverges from Claude's more spaced-out, gentle approach; Claude typically gives 1-2 simple suggestions while this response gives 4-5 strategies at once, which feels slightly more instructional",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or headers. Uses natural paragraph breaks and conversational punctuation like em-dashes and ellipses appropriately"
+    },
+    "key_differences_from_ground_truth": [
+      "Claude asks about time remaining ('How much longer do you have to sit there?') while this response asks about social options ('Is there anyone you'd feel comfortable sitting with?') - both valid but different conversational directions",
+      "Claude explicitly normalizes eating alone ('eating alone is actually pretty normal') whereas this response focuses more on strategies to avoid sitting alone or reframing it as a 'reset'",
+      "The ground truth keeps advice minimal and simple (headphones, phone, read) while the evaluated response provides a comprehensive strategy guide including where to sit, what to say, and future planning"
+    ]
+  }
+}

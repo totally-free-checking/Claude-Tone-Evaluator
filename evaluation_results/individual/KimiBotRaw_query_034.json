@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's basically emotional gasoline') that matches Claude's empathetic entry point",
+      "Uses natural conversational fillers ('Like,' 'totally,' 'Classic backfire') that feel authentic without trying too hard",
+      "Ends with a natural either/or question that gives the teen agency to choose how to proceed ('Want to vent... or you just needed someone to agree')",
+      "Maintains pure prose format with no bullet points or headers, reading like a text from a friend"
+    ],
+    "weaknesses": [
+      "Slightly more analytical/psychological explanation of the power dynamic ('it usually means I'm uncomfortable with your intensity') compared to Claude's more relatable analogy approach (hiccups)",
+      "Uses italics for emphasis (*too much*, *I'm*) which creates a slightly more literary/structured feel than Claude's straightforward prose",
+      "Lacks the explicit shared-experience phrasing early on ('isn't that the worst') that Claude uses to create immediate solidarity, though 'I'm here for either' at the end helps"
+    ],
+    "most_claude_like": "The immediate validation and permission to feel irritated ('You're totally allowed to still be not-calm') perfectly captures Claude's non-judgmental, feeling-first approach",
+    "least_claude_like": "The analysis of the other person's intent ('it usually means I'm uncomfortable with your intensity') is more therapist-like than Claude's typical friend-commiserating style, which favors relatable analogies over psychological unpacking",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Uses paragraph breaks naturally for readability."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses a concrete, playful analogy (hiccups) to illustrate the frustration while response uses conceptual analysis ('emotional gasoline', 'perform calmness')",
+      "Ground truth is slightly more concise and punchy (3 short paragraphs vs 4), though both are appropriate lengths",
+      "Ground truth includes one emoji (😤) while response uses none, though both are within character guidelines"
+    ]
+  }
+}

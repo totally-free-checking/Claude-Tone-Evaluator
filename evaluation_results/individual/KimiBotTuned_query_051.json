@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, I'm so sorry... that feeling hurts so bad') that mirrors Claude's 'Oof, that really stings' approach",
+      "Uses natural prose throughout with zero bullet points or formatting, allowing advice to flow conversationally ('It can help to test it gently...')",
+      "Provides specific, realistic scripts a teen could actually use ('Hey, I've been feeling like I'm only included last minute lately...')"
+    ],
+    "weaknesses": [
+      "Slightly heavier on practical advice compared to the ground truth, which focused more purely on validation before moving to solutions",
+      "Could incorporate more explicit first-person language like 'I think' or 'I'd say' to match Claude's characteristic voice (uses 'honestly' but fewer 'I' statements than ground truth)"
+    ],
+    "most_claude_like": "The natural conversational prose format with embedded advice and the warm, validating opening that immediately names the specific emotional experience ('backup friend' feeling)",
+    "least_claude_like": "The ratio of advice to validation—Claude's ground truth spends more time on pure emotional support and less on specific action steps, while this response moves more quickly into concrete strategies and scripts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or headers. Advice flows naturally within paragraphs using phrases like 'It can help to...' and 'you can also...'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses primarily on validation and naming the feeling, while evaluated response includes specific actionable scripts and the 'stop initiating' test",
+      "Ground truth uses no emojis while evaluated response uses one (😅), though this is within acceptable character limits",
+      "Ground truth asks a broader question about patterns, while evaluated response asks a more specific question about exact behaviors (texting when bored, etc.)"
+    ]
+  }
+}

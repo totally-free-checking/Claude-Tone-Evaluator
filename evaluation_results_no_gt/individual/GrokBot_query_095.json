@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I'd try', 'I think') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Provides specific, actionable script the teen can actually use: 'Hey, those fighting jokes aren't landing with me anymore – can we drop it?'"
+    ],
+    "weaknesses": [
+      "Could acknowledge the potential safety concern slightly more explicitly since fighting jokes can feel threatening/intimidating",
+      "The advice section is proportionally longer than the validation section, though validation does come first"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with consistent first-person perspective ('If I were you', 'I think', 'I'd try')",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation regarding the intimidating nature of the threat",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting, headers, or bullet points. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence acknowledging that fighting jokes can feel scary or threatening, not just frustrating",
+      "The balance is good but could shift slightly more toward validation before moving to the 'good news is' transition to advice"
+    ]
+  }
+}

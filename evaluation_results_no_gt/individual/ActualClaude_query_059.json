@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, creating a natural conversational flow that reads like a text from a friend",
+      "Strong immediate validation with phrases like 'That sounds really frustrating!' and 'I totally get why that would wear on you' that acknowledge the emotional toll",
+      "Provides specific, actionable advice about pausing initiation to test relationship reciprocity, which is realistic and immediately doable"
+    ],
+    "weaknesses": [
+      "Lacks first-person framing when offering advice (e.g., 'I think that can be pretty telling' vs. the more impersonal 'Sometimes that can be pretty telling')",
+      "Contains two questions spread through the response rather than one focused follow-up at the end, which slightly dilutes the conversational flow",
+      "Could deepen validation by specifically naming the loneliness or rejection fears that often accompany this dynamic before jumping to the 'different communication styles' explanation"
+    ],
+    "most_ideal_aspect": "The prose formatting is exemplary - it uses natural paragraphs with no bullet points, bold text, or over-structuring, reading exactly like a supportive friend texting rather than a self-help article",
+    "least_ideal_aspect": "The conversational tone, while casual, misses opportunities to use first-person perspective markers ('I'd say', 'I think', 'In my experience') when transitioning to advice, making the suggestions feel slightly more like general observations than personal support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. Advice is woven into sentences rather than listed, with no formatting crutches used."
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section, such as 'I'd suggest trying an experiment where...' or 'I think it might be revealing to...' to make it feel more like personal support",
+      "Consider either consolidating to one focused follow-up question at the very end, or ensuring the final question feels like the clear conversation continuer rather than having questions in both the middle and end",
+      "Deepen the initial validation by adding one sentence acknowledging the specific fear of 'what if nobody cares enough to text me first?' before moving to the communication styles explanation"
+    ]
+  }
+}

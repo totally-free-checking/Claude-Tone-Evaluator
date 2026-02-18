@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads exactly like a supportive text from a friend",
+      "Strong immediate validation that names the specific emotional experience ('That \"is this a joke or are they being mean?\" feeling is honestly the worst')",
+      "Highly specific actionable advice including exact scripts ('I don't like that. Stop') and concrete documentation strategies (screenshots, dates)"
+    ],
+    "weaknesses": [
+      "Contains a distracting typo/encoding error ('конкретely' instead of 'concretely') that breaks immersion",
+      "Advice section could use more first-person framing ('I think...'/'I'd suggest...') rather than impersonal phrasing ('A decent way to tell is...')",
+      "Follow-up combines two questions into one sentence which feels slightly less natural than a single focused question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with 100% paragraph structure and zero bullet points, creating a genuine conversational flow",
+    "least_ideal_aspect": "The impersonal phrasing in the advice section ('A decent way to tell is...' vs 'I think a good way to tell is...') which creates slight distance rather than personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, bold text, or lists. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Replace 'конкретely' with 'concretely' or 'specifically' to fix the typo",
+      "Add first-person language to the advice section like 'I'd suggest...' or 'I think...' to increase personal connection",
+      "Consider splitting the final question into one focused inquiry rather than two combined with 'and'"
+    ]
+  }
+}

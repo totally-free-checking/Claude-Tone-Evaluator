@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd probably try') making it feel like personal advice from a friend rather than generic guidance",
+      "Provides specific, actionable script the teen can actually use ('Hey, I noticed you seemed upset...') which is more concrete than the ground truth",
+      "Natural conversational flow with appropriate casual language ('chill', 'totally sucks', 'drama') without trying too hard"
+    ],
+    "weaknesses": [
+      "Includes a boundary-setting statement ('If they're being really unreasonable...') that, while good advice, is slightly more confrontational than Claude's typically softer approach in the ground truth",
+      "The emoji usage (😅), while within acceptable limits, differs from the ground truth which used zero emojis",
+      "Slightly more advice-heavy compared to the ground truth's more exploratory, questioning approach"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational first-person voice ('I'd probably try talking to them', 'I think this happens way more than people talk about') perfectly captures the supportive-friend tone",
+    "least_claude_like": "The inclusion of the boundary-setting caveat about the friend being 'unreasonable' diverges from the ground truth's purely empathetic, reconciliation-focused approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullet points or lists. Advice flows naturally within conversational paragraphs exactly as specified in the character profile."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses first-person perspective ('I'd say', 'I think') extensively whereas ground truth uses more observational/second-person language",
+      "Provides specific dialogue script for the conversation whereas ground truth suggests talking without specific phrasing",
+      "Includes one emoji (😅) while ground truth uses none",
+      "Adds boundary-setting element about unreasonable behavior which ground truth omits",
+      "Asks one focused follow-up question vs ground truth's two questions"
+    ]
+  }
+}

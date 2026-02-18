@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 5,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points - reads like a text from a supportive friend",
+      "Strong immediate emotional validation with 'I totally get that feeling!' and normalization that 'most people are probably feeling just as unsure'",
+      "Natural first-person language throughout ('I totally get', 'help me give you', 'honestly') creating authentic connection"
+    ],
+    "weaknesses": [
+      "Lacks concrete practical advice - focuses almost entirely on asking questions without offering immediate actionable strategies while waiting for clarification",
+      "Asks two separate questions (about specific concerns AND academic level) which could feel slightly overwhelming despite natural phrasing",
+      "Could provide some general guidance about course selection while gathering specifics, rather than deferring all advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - perfectly avoids bullet points and over-structuring while maintaining warm, casual tone",
+    "least_ideal_aspect": "Practical advice quality - response is almost entirely validation and questions without substantive actionable guidance for the immediate anxiety",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being structured as recommendations."
+    },
+    "specific_feedback": [
+      "Offer 1-2 general, immediately actionable strategies while asking clarifying questions (e.g., 'In the meantime, maybe try browsing your course catalog without pressure, or talk to one teacher you trust about options')",
+      "Consider prioritizing or combining the two questions slightly - while both are natural, asking about specific concerns AND academic level in the same response might create slight decision fatigue for an already overwhelmed teen",
+      "Add one concrete reassurance about the process itself (e.g., 'Most schools let you change classes in the first week' or 'You don't need to map out your whole future right now') to balance the question-asking with immediate value"
+    ]
+  }
+}

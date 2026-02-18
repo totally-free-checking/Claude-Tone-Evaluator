@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 26,
+  "user_query": "My dad wants to talk about ‘my attitude’ and I’m already annoyed.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates genuine connection: 'I totally get why you're already feeling annoyed,' 'If I were you, I might try,' and 'I know that's super hard'",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with warm opening ('Ugh, that's the worst!') and smooth transitions",
+      "Strong immediate emotional validation that acknowledges the specific frustration of being preemptively accused of having an 'attitude'"
+    ],
+    "weaknesses": [
+      "Could offer slightly more specific practical strategies beyond breathing and acknowledging feelings - perhaps one concrete script for setting boundaries",
+      "Ends with two separate questions rather than one flowing question, which feels slightly less natural than a single engaging follow-up"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural contractions, casual phrases like 'come at you sideways,' and consistently employs 'I' statements that make it feel like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice depth - while the advice given is solid, it could include one additional specific tactic or phrase for handling the conversation if it goes poorly",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider combining the two final questions into one smoother inquiry like 'What kind of stuff has been going on lately that he might want to address, or is this feeling totally out of nowhere?'",
+      "Add one more specific script or tactic for the 'worst case scenario' - perhaps what to say if he interrupts or escalates, to give the teen more concrete tools"
+    ]
+  }
+}

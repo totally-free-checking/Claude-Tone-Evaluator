@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation: 'That's a really crappy feeling—especially when it's your best friend and you can tell the vibe is off' immediately acknowledges the emotional weight",
+      "Provides excellent specific scripts the teen can actually use: 'Hey, you've seemed a bit distant lately. Did I do something, or are you just going through it? I'm here either way'",
+      "Ends with a specific, engaging offer to help draft a message rather than a generic check-in"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language—no 'I think,' 'I'd say,' or 'I get it' makes it feel like an article rather than a supportive friend",
+      "Immediately pivots from one sentence of validation to 'Here are some solid ways to handle it' followed by heavy formatting",
+      "Uses excessive structure with 6 numbered sections and multiple bullet points instead of conversational paragraphs"
+    ],
+    "most_ideal_aspect": "Practical advice quality—provides realistic, specific text message scripts and actionable steps a teen can actually use right now",
+    "least_ideal_aspect": "Natural prose vs bullet points—reads like a wikiHow article with headers, numbered lists, and sub-bullets rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 14,
+      "prose_percentage": "15%",
+      "notes": "Response uses 6 numbered headers (### 1) through ### 6)) with multiple sub-bullets under each, creating a highly structured, list-heavy format that diverges significantly from the ideal conversational paragraph style"
+    },
+    "specific_feedback": [
+      "Rewrite as 2-3 natural paragraphs instead of numbered sections—flow the advice into sentences like 'I'd probably start with a low-pressure check-in, maybe something like...' rather than 'Here are some solid ways:'",
+      "Add first-person connection throughout—use phrases like 'I get how confusing that must feel' or 'I think the best move here is...' to sound like a real person texting, not a manual",
+      "Move the example text scripts into the prose naturally rather than bullet points, and reduce the total length by focusing on the 2-3 most important suggestions rather than 6 comprehensive options"
+    ]
+  }
+}

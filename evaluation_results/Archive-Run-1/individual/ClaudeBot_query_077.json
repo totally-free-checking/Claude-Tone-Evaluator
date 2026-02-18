@@ -1,0 +1,41 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable guidance about when to break confidence and how to handle different scenarios ('encourage your friend to tell a trusted adult/mentor, doctor/therapist, school counselor')",
+      "Good follow-up question that's specific and urgent ('Is anyone in immediate danger right now—your friend, you, or someone else?') showing genuine concern for safety"
+    ],
+    "weaknesses": [
+      "Uses bullet points/dashes in the middle paragraph listing danger scenarios, which breaks from Claude's pure prose style. Ground truth uses bullets sparingly and naturally, this response uses them for a critical list",
+      "Missing emojis entirely - no warm, casual tone-setters. Ground truth doesn't use emojis here either, but the evaluated response feels more clinical/formal overall, making the absence more noticeable",
+      "Jumps too quickly into detailed safety protocols without enough emotional validation first. Opens with brief validation but immediately pivots to categorizing secrets and safety procedures",
+      "Tone is more instructional/educational ('A useful way to sort it is this:') rather than conversational and supportive like Claude's approach"
+    ],
+    "most_claude_like": "The follow-up question is direct, caring, and appropriately urgent for the situation, showing genuine concern while inviting the teen to share more about their specific circumstances",
+    "least_claude_like": "The bullet-pointed list of danger scenarios (harm, abuse/exploitation, threats, self-harm, etc.) reads like a safety checklist rather than natural conversation, which is the opposite of Claude's prose-focused approach",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "70%",
+      "notes": "The response uses dashes to create a list in the second paragraph, breaking the conversational flow. Ground truth uses bullets but integrates them more naturally into the conversation. This response's list feels more like a clinical assessment tool than supportive dialogue."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth leads with emotional validation and explores the teen's feelings first ('How are you feeling about it?'), while evaluated response leads with categorization and safety protocols",
+      "Ground truth uses gentle, exploratory questions to help the teen think through it themselves, while evaluated response provides more directive instruction about what to do",
+      "Ground truth maintains conversational prose throughout with minimal structure, while evaluated response uses formatted lists and more formal organizational language ('A useful way to sort it is this:')",
+      "Ground truth's tone is warmer and more exploratory ('What's making it feel serious to you?'), while evaluated response is more procedural and safety-focused from the start"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think it feels way worse to you,' 'I'd just own it') creating genuine connection",
+      "Perfect emoji usage with one well-placed 😅 that enhances the warm, slightly humorous tone without being excessive",
+      "Specific, actionable advice including exact phrases to say ('Yeah, rough morning!') and immediate physical actions (tucking feet under desk)",
+      "Natural prose format with zero bullet points or headers - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit emotional validation at the very start (e.g., 'I'm so sorry' or 'That panic is so real') before moving to reassurance",
+      "The phrase 'little disasters' could potentially feel minimizing to some teens, though the context of leaning into humor makes it appropriate here"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains conversational flow throughout with advice embedded naturally in sentences rather than listed",
+    "least_ideal_aspect": "Slightly limited first-person emotional sharing (could add one more 'I' statement about personal experience or 'I get that feeling' to deepen connection)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or bullet lists. Advice flows organically within sentences rather than being structured as actionable items."
+    },
+    "specific_feedback": [
+      "Add one more explicit 'I' statement about relating to the feeling (e.g., 'I know that exact stomach-drop feeling') to deepen first-person connection",
+      "Consider starting with slightly stronger validation like 'Ugh, that's the worst!' before the 'Oh no!' to maximize immediate emotional support",
+      "The current structure is excellent - maintain this balance of validation-reassurance-advice-question for future responses"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating!' and 'I totally get why that would bug you' creates instant rapport",
+      "Perfect prose format with zero bullet points - advice flows naturally within conversational paragraphs like 'You could try being really direct but gentle about it'",
+      "Provides specific, realistic script the teen can actually use: 'I've noticed you've been getting into a lot of the same stuff as me lately, and I'm flattered, but I'd love to see more of your own personal style too!'",
+      "Excellent first-person language throughout ('I think', 'I get', 'I'd love') making it feel like a real person",
+      "Strong specific follow-up question: 'Is this a newer thing with them, or have they always been like this with you?'"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice slightly mismatches the pure frustration tone - it implies nervous laughter/awkwardness which works but isn't perfect for expressing annoyance",
+      "Transition to solutions with 'I think you've got a couple of options here' is slightly abrupt; could use one more validating sentence before shifting to advice mode"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points - maintains perfect conversational flow throughout all four paragraphs without any lists, headers, or over-structuring",
+    "least_ideal_aspect": "Emoji selection - while only using one emoji is correct, the 😅 (sweat smile) suggests awkwardness/nervousness more than the frustration/annoyance the user expressed",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Consider using 😊 or 💙 instead of 😅 for frustration scenarios, or simply omit the emoji since 'Ugh' already conveys tone effectively",
+      "Add one more validating phrase before 'I think you've got a couple of options' such as 'That said,' or 'When you're ready to address it,' to soften the transition from feelings to solutions"
+    ]
+  }
+}

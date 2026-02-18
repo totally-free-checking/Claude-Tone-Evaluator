@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 4.6,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice with concrete examples like 'Want to grab coffee this week?' and clear signals to watch for",
+      "Ends with a strong, specific follow-up question that asks for context (how they know them, ages) and offers to draft a specific message",
+      "Advice is realistic and age-appropriate, acknowledging different comfort levels with directness"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language (no 'I think', 'I'd say', 'I get it') - reads like an impersonal guide rather than a supportive conversation",
+      "Heavy reliance on bullet points and headers (### Signs it might be mutual, ### Low-stakes ways) makes it feel like a wikiHow article instead of a text from a supportive friend",
+      "Minimal emotional validation - only 'That's a really normal spot to be in' before jumping immediately to structured solutions, missing warmth like 'Ugh, that uncertainty is the worst feeling' or 'We've all been there'"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specificity - it gives teens concrete phrases to use and realistic signals to look for, treating them as capable while providing actual tools",
+    "least_ideal_aspect": "The prose formatting and conversational tone - it uses approximately 17 bullet points across structured sections with headers, reading as an instructional manual rather than natural supportive conversation, and completely avoids first-person connection",
+    "bullet_point_analysis": {
+      "bullet_count": 17,
+      "prose_percentage": "15%",
+      "notes": "Response is heavily structured with multiple header sections (###), numbered lists (1, 2, 3), and bullet points throughout. Only 1-2 short paragraphs of actual prose at the beginning and end. Reads like a self-help article or guide rather than a conversational text message."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs instead of bullet lists - flow the advice into sentences like 'I'd probably start by looking for patterns in how they act around you...' rather than listing bullet points",
+      "Add first-person language throughout to create connection: 'I remember how nerve-wracking that uncertainty feels,' 'I'd say the best way to tell is...', 'I'm getting the sense that...'",
+      "Start with genuine emotional validation before any advice: 'Ugh, that limbo feeling is honestly the worst! It's so hard to wonder if someone likes you back.' Spend at least a sentence or two acknowledging the vulnerability of the situation",
+      "Remove all headers (###) and bold text formatting - integrate the advice naturally into flowing text that reads like a supportive older sibling texting advice"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation using natural first-person language ('I'm so sorry', 'I think it's totally reasonable to feel angry')",
+      "Seamless integration of practical advice into conversational prose rather than using lists or headers, including specific script suggestions for talking to the teacher",
+      "Authentic casual tone with natural speech patterns ('Ugh', 'just... doesn't', 'honestly') that feels like texting with a supportive friend"
+    ],
+    "weaknesses": [
+      "Uses one emoji (💙) while the ground truth used none; though within acceptable limits per character guidelines, it slightly deviates from the specific ground truth example",
+      "Does not include the 'document it' or 'support affected classmates' options present in the ground truth, though the advice given is still comprehensive and actionable"
+    ],
+    "most_claude_like": "The natural first-person conversational voice throughout ('I'd maybe consider', 'I think') combined with immediate emotional validation before offering solutions",
+    "least_claude_like": "The inclusion of a heart emoji, whereas the ground truth response used no emojis (though the character profile permits 0-1)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, bold headers, or list formatting, creating a continuous conversational flow unlike the ground truth which used bold headers and list-style formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses structured formatting with bold headers and list items; evaluated response uses continuous prose paragraphs",
+      "Ground truth includes four specific options (talk to teacher, reach out to someone else, document it, support classmates); evaluated response focuses primarily on talking to the teacher/counselor with specific phrasing suggestions",
+      "Ground truth explicitly states 'You're not overreacting'; evaluated response implies validation through 'totally reasonable' language"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's so exhausting!') that immediately acknowledges the draining nature of competitive friends",
+      "Provides specific, actionable phrases the teen can actually use like 'Hey, I'm not trying to compete with you—I'm just sharing'",
+      "Ends with engaging, specific follow-up questions about whether this is new behavior"
+    ],
+    "weaknesses": [
+      "Uses heavy structural formatting with bold headers ('**Don't play the game.**', '**Call it out gently.**') that reads like a self-help article rather than conversational texting",
+      "Lacks first-person language entirely - never uses 'I think', 'I'd suggest', or 'I get it' which makes it feel impersonal despite casual tone",
+      "Transitions to advice with 'A few ways to handle it:' which signals a list format rather than flowing naturally into suggestions"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - consistently acknowledges feelings with phrases like 'totally drains the fun' and 'you deserve friends who celebrate your wins'",
+    "least_ideal_aspect": "Natural prose vs bullet points - relies on four bold headers that segment advice into a list format rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response uses bold headers (**Don't play the game**, **Call it out gently**, etc.) that function as bullet points, breaking conversational flow. The advice sections are essentially formatted as a list despite containing prose sentences."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as flowing paragraphs without bold headers - instead of '**Don't play the game.** When they try...', use 'I'd probably just not play the game. When they try to one-up you...'",
+      "Add first-person perspective throughout: change 'Some people are wired that way' to 'I think some people are just wired that way' and 'you could try' to 'I'd suggest trying'",
+      "Remove the transitional phrase 'A few ways to handle it:' and instead flow naturally from validation to advice with something like 'Honestly, I'd probably try a few different approaches...'"
+    ]
+  }
+}

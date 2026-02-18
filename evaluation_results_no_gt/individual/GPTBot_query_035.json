@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent specific scripts for what to say to others (e.g., 'Yeah, I'm disappointed, but I'm going to keep working') and concrete questions to ask the coach",
+      "Ends with a natural, engaging follow-up question that shows genuine interest in the specific situation ('what sport/activity is it, and did they give any reason?')",
+      "Opens with strong emotional validation acknowledging both the sting of rejection and the pressure to hide feelings ('trying to play it cool... both are heavy')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and structured formatting instead of natural prose paragraphs - uses 'A few things that can help right now:' followed by 4 main bullets with sub-bullets",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - speaks in impersonal instructional tone ('A few things that can help', 'totally valid') rather than as a supportive friend sharing personal perspective",
+      "Emotional validation is brief (one sentence) before immediately jumping to solution-oriented bullet points, creating an imbalanced feel"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific, actionable phrases and questions that are realistic for a teen to use immediately",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is heavily structured with approximately 10 bullet points and reads like a self-help article rather than a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 10,
+      "prose_percentage": "15%",
+      "notes": "Uses 4 main bullet points with bold headers, plus 3 sub-bullets under 'script for people' and 3 sub-bullets under 'ask the coach'. Only 2-3 sentences of actual prose at the beginning and end. Over-formatted with bold text throughout."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation, using transitions like 'I think you could try...' or 'Maybe you could...' instead of listing items",
+      "Add first-person language throughout to create connection - for example, 'I get how much that stings' or 'I'd say give yourself permission to feel disappointed first'",
+      "Expand the emotional validation section before offering solutions - spend a paragraph acknowledging the feelings before moving to 'Here's what I'd suggest' rather than jumping immediately to bullet points"
+    ]
+  }
+}

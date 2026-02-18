@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent practical advice with specific script: 'I've noticed you've been doing a lot of the same things I do...' - this is concrete and immediately actionable",
+      "Strong follow-up question that's specific and relevant: 'What kinds of things are they copying—your style/interests, your plans, or more personal stuff...' - shows genuine interest and invites deeper conversation",
+      "Good acknowledgment of the emotional impact: 'it's starting to feel intrusive or like your choices aren't \"yours\" anymore' - validates the feeling of loss of identity"
+    ],
+    "weaknesses": [
+      "Uses em-dashes and parenthetical asides excessively (clothes/hobbies/phrases/whatever, style/interests, etc.) which creates a more formal, structured feel rather than natural conversation flow",
+      "Completely lacks emojis - makes the response feel more formal and less warm than Claude's approach which uses 😅 or similar to set a casual tone",
+      "Too solution-heavy too quickly - jumps into 'If you want the cleanest way through it' without enough emotional validation first. Claude spends more time in the empathy space before offering solutions",
+      "The phrase 'cleanest way through it' and 'low-drama conversation' feels slightly clinical/adult-oriented rather than teen-casual"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, engaging, and naturally continues the conversation by asking about the exact nature of the copying",
+    "least_claude_like": "The complete absence of emojis and the overly structured, advice-heavy approach with minimal warmth upfront. Claude leads with validation ('Ugh, that sounds really frustrating!') while this response leads with analysis",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While there are no actual bullet points, the response uses heavy em-dash formatting and parenthetical lists (clothes/hobbies/phrases, style/interests/plans) that create a quasi-structured feel. The prose is dense and advice-focused rather than conversational and flowing."
+    },
+    "key_differences_from_ground_truth": {
+      "opening_tone": "Claude opens with 'Ugh, that sounds really frustrating!' with immediate empathy. Evaluated response opens with 'That sounds really irritating' which is more measured and analytical",
+      "emoji_presence": "Claude uses natural emojis to set warm tone; evaluated response has none",
+      "validation_to_advice_ratio": "Claude spends 2 paragraphs on validation/exploration before gently suggesting conversation. Evaluated response quickly moves to 'If you want the cleanest way through it' after brief validation",
+      "language_style": "Claude uses casual phrases like 'your own thing', 'jumping on it', 'pretty suffocating'. Evaluated response uses more formal constructions like 'the cleanest way through it', 'reduce defensiveness', 'tighten the boundary'",
+      "length": "Evaluated response is significantly longer (5 paragraphs vs 3), which makes it feel more like an advice article than a supportive conversation"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language with phrases like 'I'd say' and 'totally get it' that create genuine connection",
+      "Specific actionable advice including exact conversation starters ('Hey, I don't know many people here—what brought you?') that teens can actually use",
+      "Perfect prose formatting with zero bullet points, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Follow-up question combines two queries ('What's the event like, and how well do you know...') which is slightly less focused than a single engaging question",
+      "Could potentially include one more 'I' statement early on (like 'I remember feeling this way') to strengthen the personal connection before giving advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "The follow-up question is slightly compound, asking about both the event type and the relationship with the inviter rather than focusing on one specific angle to deepen the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, numbered lists, or bold headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider focusing the follow-up question on one specific aspect (either the event type OR the relationship with the inviter) to make it feel less like an interview and more like natural curiosity",
+      "The validation is strong but could be slightly more immediate with an 'I'm here' or 'I've been there' type statement to reinforce that you're personally invested in their situation"
+    ]
+  }
+}

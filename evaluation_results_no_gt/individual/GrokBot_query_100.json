@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with phrases like 'Ugh, I totally get that' and 'We've all been there' that normalize the struggle",
+      "Strong first-person language throughout ('I totally get that', 'If I were you, I'd try', 'I promise', 'I know it') creating authentic connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with an older sibling",
+      "Specific, actionable advice that's realistic for teens (jotting down small wins, talking to someone close) without being overwhelming"
+    ],
+    "weaknesses": [
+      "Could provide slightly more specific guidance on how to start the conversation with someone close (e.g., suggesting specific opening phrases)",
+      "The transition from emotional validation to practical advice, while smooth, could include a brief bridge acknowledging that it's okay to try small steps"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with no structural formatting or bullet points to break the intimacy",
+    "least_ideal_aspect": "While the follow-up question is good, it could be slightly more specific about potential contexts (school, family, friends) to help the teen open up more easily",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold text. Advice is seamlessly woven into natural sentences rather than listed as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding one specific conversation starter phrase for talking to someone close (e.g., 'Hey, can I vent for a sec? I'm feeling like nothing I do is measuring up lately') to make the advice even more actionable",
+      "The blue heart emoji placement is perfect - consider keeping this pattern of 0-1 emojis placed early to set tone without cluttering the message"
+    ]
+  }
+}

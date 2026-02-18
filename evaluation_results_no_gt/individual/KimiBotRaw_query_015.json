@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that is *so* frustrating', 'makes your blood boil', 'It's valid to be mad') that immediately acknowledges the teen's anger and privacy violation",
+      "Provides highly specific, actionable advice realistic for teens (door stopper with alarm, decoy strategy, exact scripts to use with siblings/parents, differentiating between minor/adult living situations)",
+      "Ends with a natural, engaging follow-up question about what specific items are being targeted, showing genuine interest in tailoring the advice further"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with bold headers ('First:', 'tactical damage control:', 'The conversation:') and multiple bullet point sections, reading like a tactical guide rather than a conversational text",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses only imperative instructional language ('Don't accuse', 'Try', 'Loop in your parents'), creating distance rather than connection",
+      "Uses zero emojis where one might enhance warmth for this frustrating situation, and relies on bold text formatting instead of natural prose emphasis"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it offers concrete, teen-realistic strategies (cheap Amazon door stopper, decoy items, specific conversation scripts) that acknowledge their limited agency and family dynamics",
+    "least_ideal_aspect": "The prose formatting - it is heavily structured with bold headers, bullet lists, and tactical sections rather than flowing natural paragraphs that feel like texting a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "35%",
+      "notes": "Response uses bold headers to create sections (First, tactical damage control, The conversation, If you're minors/adults) with extensive bullet lists underneath. Only the opening validation and closing question are in natural prose paragraphs. Reads like a self-help article or wikiHow guide rather than a conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs without bold headers or bullet points - integrate the advice into flowing sentences like 'I'd probably start by taking a walk to cool off, then maybe look into a cheap door alarm...'",
+      "Add first-person perspective throughout to create connection: replace imperative commands like 'Don't accuse' with 'I'd try not to accuse them directly because...' and 'I think the best approach would be...'",
+      "Consider adding one warm emoji (like 😤 or 💙) early in the response to match the 'ugh, so frustrating' energy, and remove all bold formatting to maintain conversational text flow"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual interjection ('Ugh, that's so exhausting') and vivid metaphor ('like you can't breathe') to acknowledge the trapped feeling",
+      "Uses natural first-person advisory language throughout ('If I were you, I'd send...', 'I'm gonna be slower to reply') creating a supportive peer-like connection",
+      "Provides specific, actionable script language teens can actually use ('Hey, I'm not always able to text back a lot...') rather than vague suggestions"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while conveying exhaustion, might slightly understate the seriousness if the situation involves potential harassment",
+      "Could include one additional validating sentence between the emotional acknowledgment and the 'If I were you' advice to create even smoother transition",
+      "The escalation advice ('loop in a trusted adult') comes somewhat abruptly at the end of a long sentence; could be separated for emphasis"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "The single emoji choice (😅) for a potentially serious boundary violation situation, though appropriately placed",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using 😊 or 💙 instead of 😅 for serious boundary issues to match the emotional weight while keeping warmth",
+      "Add a brief transitional validation phrase like 'I know it's hard to actually send that text, but...' between the validation and advice sections",
+      "Break the final advice sentence into two shorter ones to emphasize the adult/school staff escalation option as a distinct, important step"
+    ]
+  }
+}

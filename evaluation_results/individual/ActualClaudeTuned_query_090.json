@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - advice flows conversationally within paragraphs rather than being listed out",
+      "Strong first-person language throughout ('I totally get', 'If I were you, I'd probably', 'I'd also think') creating authentic connection",
+      "Specific, actionable advice including exact phrasing the teen could use ('Hey, I got my grade back...')"
+    ],
+    "weaknesses": [
+      "Used an emoji (😅) without being asked, though the character profile prefers 0 emojis unless requested",
+      "The follow-up question about whether parents will be 'disappointed or angry' introduces negative framing that slightly reduces warmth compared to the ground truth's more neutral approach",
+      "Could include slightly more explicit validation that this happens to everyone, not just acknowledging the feeling"
+    ],
+    "most_claude_like": "The natural prose formatting and consistent first-person perspective ('I think', 'I'd say') that makes it feel like texting with a supportive friend rather than reading a self-help article",
+    "least_claude_like": "The inclusion of an emoji without being asked to use them, which slightly deviates from the character's typical restraint with emoji usage",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-structuring. Advice is seamlessly integrated into conversational paragraphs, which actually aligns better with the character profile than the ground truth's heavy bullet formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses heavy bullet points with headers (Before/During/Remember) while response uses pure natural prose",
+      "Response uses first-person language consistently throughout ('I'd probably', 'I think') whereas ground truth shifts to impersonal lists in the middle",
+      "Ground truth ends with encouragement ('You've got this!') while response ends with question only",
+      "Response includes one emoji while ground truth includes none"
+    ]
+  }
+}

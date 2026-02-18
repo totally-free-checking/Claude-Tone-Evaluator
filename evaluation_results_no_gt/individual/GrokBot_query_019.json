@@ -1,0 +1,40 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person empathetic language throughout ('I totally get that sinking feeling', 'I'd say your best move', 'we've all been in spots') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - flows naturally like a text conversation with four well-structured paragraphs",
+      "Provides specific, actionable advice including exact phrasing the teen can use ('I swear I didn't cheat; we both arrived at the same answer this way') and realistic next steps (office hours, involving parents/counselor)"
+    ],
+    "weaknesses": [
+      "The 😅 emoji feels slightly mismatched for the serious topic of academic integrity accusations - it works for awkward moments but may undercut the gravity of being falsely accused of cheating",
+      "Could validate the emotional weight just slightly longer before moving to 'this happens often' normalization, though the balance is still quite good",
+      "The follow-up question, while good, could be slightly more open-ended about feelings before asking about logistics ('How are you feeling about confronting them?' before asking about the class)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains conversational flow throughout with advice embedded in narrative paragraphs rather than lists",
+    "least_ideal_aspect": "Emoji choice (😅) for a serious accusation situation - while placed after a rhetorical question about physical sensations, a nervous sweat emoji may not fully match the gravity of potential academic consequences",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider omitting the emoji or using a more supportive one (like 💙) for serious topics like academic integrity accusations, as 😅 can feel too light for potential disciplinary situations",
+      "The follow-up question could start with an emotional check-in ('How are you holding up with all this?') before asking about the logistics of the class and teacher conversation",
+      "Maintain the strong first-person voice - the current use of 'I think', 'I'd say', and 'I get it' is exactly what makes this feel like a supportive friend rather than a bot"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation: 'That really hurts, and it makes sense you'd feel crushed by it' acknowledges the pain immediately",
+      "Provides excellent specific scripts for difficult conversations, like the suggested wording: 'I've been feeling like I'm not a priority sometimes...' which gives teens exact language to use",
+      "Ends with a natural, specific follow-up question that invites deeper sharing about the particular situation"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' or 'I get it' anywhere, making it feel like an advice column rather than a supportive friend",
+      "Severely over-structured with markdown headers (###), bullet points, and numbered lists instead of conversational prose paragraphs",
+      "Jumps quickly from one sentence of validation into massive amounts of structured advice, creating an imbalanced 'fix-it' vibe rather than emotional support first"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific conversation scripts and boundary-setting examples are realistic and immediately actionable for teens",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response uses headers, bullet lists, and numbered steps (1-5) extensively, reading like a wikiHow article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses ### headers, a 5-item bullet list for 'signs,' and a 5-step numbered list with sub-bullets. Only the first sentence and final question are true prose. Heavy formatting destroys conversational flow."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural paragraphs using first-person language like 'I think you could try...' or 'I'd maybe say something like...' instead of numbered steps and headers",
+      "Move the 'signs' list into a conversational sentence format like 'I wonder if you're noticing patterns like...' rather than bullet points",
+      "Add more emotional validation throughout - after each piece of advice, return to validating feelings with phrases like 'I know that's hard though' or 'That takes courage'",
+      "Remove all markdown formatting (###, **bold**, bullet points) to match the 'texting a friend' aesthetic"
+    ]
+  }
+}

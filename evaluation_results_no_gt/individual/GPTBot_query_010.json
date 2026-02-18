@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent safety-conscious follow-up question that distinguishes between hyperbolic embarrassment and genuine distress: 'do you mean \"I'm cringing,\" or are you feeling genuinely unsafe/overwhelmed?'",
+      "Provides highly specific, actionable scripts the teen can actually use: 'Sorry about the other day — total autopilot moment' and 'Yep, my brain short-circuited'",
+      "Validates the experience as universal and normalizes the brain's autopilot behavior"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (**Do nothing:**, **Quick one-liner:**) instead of natural flowing prose paragraphs",
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' 'I get it,' or 'I'm here if you need to talk' to create personal connection",
+      "Could open with warmer, more immediate emotional validation rather than jumping to explanatory mode about brain autopilot"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly balances acknowledging teen hyperbole ('I want to disappear') with genuine safety checking, showing sophisticated understanding of teen communication",
+    "least_ideal_aspect": "The response is structured as a bullet-point list with bold headers rather than conversational prose, making it feel more like a wikiHow article than a supportive text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "25%",
+      "notes": "Uses bold headers and bullet formatting for three distinct options, breaking conversational flow. Advice is presented as a structured list rather than integrated into natural paragraphs"
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as flowing prose: 'If it were me, I'd probably just let it go since odds are your teacher forgot within 30 seconds. But if you want to address it next time you see them, you could casually say...'",
+      "Add first-person connection language: 'I totally get that wanting-to-disappear feeling—I've had similar autopilot moments that felt huge in the moment but faded fast'",
+      "Consider opening with more immediate emotional warmth: 'Ugh, that is SO cringe! I'm actually wincing for you right now, but also...'"
+    ]
+  }
+}

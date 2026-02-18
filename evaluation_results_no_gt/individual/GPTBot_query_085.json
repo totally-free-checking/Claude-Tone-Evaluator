@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice with exact phrases the teen can use (e.g., 'I’m not up for arguing—can we switch topics?', 'I don’t want to be in the middle—happy to support you, but not as a go-between')",
+      "Includes realistic scenarios for teen social dynamics like group chats, triangulation, and gradual distancing",
+      "Safety check section appropriately addresses potential escalation to unsafe situations"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads like an impersonal manual instead of a supportive conversation",
+      "Opens with only brief validation ('That sounds exhausting') before immediately jumping to 'three levers' and seven structured sections of advice",
+      "Uses corporate/therapeutic language like 'levers', 'mix and match', 'stating impact + your plan' instead of casual teen-appropriate language",
+      "Asks three questions at once at the end, which feels more like an intake form than a natural conversation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific scripts and realistic strategies for handling group conflict are excellent and immediately usable",
+    "least_ideal_aspect": "Prose formatting - the response uses heavy structuring with 7 numbered headers and multiple bullet lists, reading like a wikiHow article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "10%",
+      "notes": "Response is organized into 7 major numbered sections with headers (## 1, ## 2, etc.) and extensive bullet points under each. Reads like a structured self-help guide or therapy worksheet rather than natural prose. Only the opening sentence and closing questions are in paragraph form."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs - remove all headers, numbered lists, and bullet points. Flow the advice naturally within sentences instead of listing options",
+      "Add first-person connection throughout using phrases like 'I think the best approach would be...', 'I'd probably try...', or 'I get how draining that must be' to sound like a real person texting, not a manual",
+      "Move 70% of the practical advice into a follow-up response - start with 2-3 sentences of pure emotional validation and empathy first, then give only the 1-2 most relevant suggestions based on what would help most right now",
+      "Combine the three final questions into one natural follow-up like 'Is this happening more in your group chat or when you're actually hanging out?' instead of listing them interview-style"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent - very specific and actionable with concrete examples like the message templates ('Hey — the project is due tomorrow...')",
+      "Follow-up question is strong and specific - asks for concrete details about assignment type, required parts, and what's already done to provide targeted help"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format for heavy bullet points and numbered sections with headers (## 1), ## 2), etc.) - the exact opposite of Claude's natural paragraph style",
+      "Opens with minimal emotional validation ('That's super stressful') then immediately jumps into structured advice without the warm, empathetic tone Claude establishes ('Oof, that's super stressful! 😬 I feel for you - we've all been there')",
+      "Only uses em-dash punctuation, no emojis at all - feels formal and clinical compared to Claude's warm 😬 emoji that sets the supportive tone",
+      "Reads like a comprehensive guide or article with sections and subsections rather than a conversational response from a supportive friend"
+    ],
+    "most_claude_like": "The practical advice quality and specificity - the message templates and concrete action steps are exactly the kind of immediately actionable guidance Claude provides",
+    "least_claude_like": "The formatting structure - this is formatted like a self-help article with numbered sections, headers, and extensive bullet points, which is the complete opposite of Claude's natural prose paragraph style",
+    "bullet_point_analysis": {
+      "bullet_count": 23,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 6 numbered main sections with ## headers, each containing multiple bullet points. Only the opening sentence and brief transitions are in prose. This is the antithesis of Claude's paragraph-based conversational style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal bullets (3 main points with sub-bullets) within conversational paragraphs. Evaluated response is 85% structured lists with headers.",
+      "emotional_opening": "Ground truth: 'Oof, that's super stressful! 😬 I feel for you - we've all been there' (warm, validating, relatable). Evaluated: 'That's super stressful—especially with a deadline tomorrow' (acknowledges stress but immediately pivots to solutions).",
+      "tone_throughout": "Ground truth maintains conversational warmth throughout ('This situation sucks', 'don't kill yourself trying'). Evaluated response is professional/instructional ('Triage tonight', 'Document everything (quietly)').",
+      "emoji_usage": "Ground truth uses 😬 naturally in opening. Evaluated uses none - feels more formal.",
+      "length": "Evaluated response is significantly longer and more comprehensive, reading like a complete guide rather than a supportive conversation."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points and natural paragraph flow that reads like a text conversation",
+      "Provides highly specific, actionable advice with exact phrases the teen can use ('Sorry, my brain just froze—can you repeat the question?') which is very realistic",
+      "Opens with strong immediate validation ('Ugh, that's the worst') and acknowledges the social anxiety of the situation effectively"
+    ],
+    "weaknesses": [
+      "Lacks first-person language that Claude uses to build connection ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'Honestly, it happens' instead of 'I've been there' or 'I think it happens'",
+      "Shifts to practical advice more quickly than Claude's ground truth, which spends more time on emotional reassurance before offering solutions",
+      "Follow-up question focuses on academic content ('Was it a question you actually knew') rather than the immediate emotional experience ('Did you manage to say anything') like the ground truth"
+    ],
+    "most_claude_like": "The natural prose formatting with zero bullet points and conversational flow that feels like texting with a supportive friend",
+    "least_claude_like": "The absence of first-person perspective-sharing language (no 'I think', 'I'd say', or 'I get it') makes it feel slightly more instructional and less personally connected than Claude's approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within sentences rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person perspective ('Sometimes I think teachers forget') to build rapport; evaluated response lacks 'I' statements entirely",
+      "Ground truth focuses follow-up question on the immediate emotional experience and what happened in the moment; evaluated response asks about academic preparation",
+      "Ground truth emphasizes that the moment will 'blow over quickly' for emotional reassurance; evaluated response moves faster to practical scripts for next time"
+    ]
+  }
+}

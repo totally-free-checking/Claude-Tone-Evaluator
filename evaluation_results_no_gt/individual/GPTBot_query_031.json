@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "The follow-up question is specific and relevant, asking about the platform and timing which shows genuine interest in helping them figure out the specific scenario",
+      "Practical advice is very concrete and realistic for teens, including specific platform behaviors and the 'block/unblock' trick for extreme cases",
+      "Opens with casual acknowledgment ('Oof, classic') that recognizes the relatable awkwardness of the situation"
+    ],
+    "weaknesses": [
+      "Extremely heavy use of bullet points and formatting (headers, bold text) makes it read like a wiki article rather than a supportive conversation - the entire response is structured as lists",
+      "Lacks emotional validation beyond 'Oof, classic' - doesn't acknowledge the embarrassment, anxiety, or 'sinking feeling' of being caught stalking",
+      "Missing first-person supportive language like 'I get it,' 'I'd feel the same way,' or 'I'm here if you need to talk' - feels impersonal and instructional rather than supportive",
+      "Jumps immediately to solutions without reassuring the teen that this happens to everyone or validating their feelings first"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specificity, including platform-specific nuances and realistic damage control options that acknowledge teen social dynamics",
+    "least_ideal_aspect": "The prose formatting - it uses multiple bullet lists, bold headers, and structured sections rather than natural conversational paragraphs, making it feel like a technical guide rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response relies heavily on bullet formatting with bold text markers (**, ###). The structure is: intro sentence, bullet list, header, bullet list, question. This reads like a help article rather than a text conversation. Only the first sentence and last sentence are prose."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without bullet points - instead of listing 'Unlike it immediately' as a bullet, write something like 'I'd say unlike it immediately if you haven't already. That's usually your best move.'",
+      "Add emotional validation before advice: 'That stomach-drop feeling when you realize you liked something from 2019 is THE WORST. I'm so sorry - that kind of accidental deep-scroll reveal is basically a modern teen rite of passage at this point.'",
+      "Use more first-person language throughout: 'I think the best approach is...' or 'I'd probably just...' instead of impersonal instructional language",
+      "Consider adding one warm emoji (like 😅) after 'Oof, classic' to soften the tone and acknowledge the awkwardness"
+    ]
+  }
+}

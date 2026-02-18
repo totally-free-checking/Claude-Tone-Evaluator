@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent prose formatting - no bullet points, flows naturally in paragraphs throughout",
+      "Strong practical advice with specific cognitive reframing ('separating what you actually know from what you're assuming')",
+      "Good follow-up question that's specific to the situation and invites deeper sharing",
+      "Validates that the feeling is normal and doesn't make them dumb"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - makes it feel more formal and less warm than Claude's approach (Ground Truth opens with 😕)",
+      "Tone is more therapeutic/clinical than conversational ('cognitive reframing', 'interpretation', 'vulnerability') - sounds like a counselor rather than a supportive friend",
+      "Opens with validation but it's more measured and intellectual rather than the immediate emotional warmth of 'Aw, that stings!'",
+      "Lacks casual language and natural interjections that make Claude feel relatable ('lol', 'hits different', 'literally everyone with a pulse')"
+    ],
+    "most_claude_like": "The prose formatting is perfect - pure paragraphs with natural flow, exactly matching Claude's style of avoiding bullet points and maintaining conversational structure",
+    "least_claude_like": "The complete absence of emojis and the therapeutic/clinical tone ('vulnerability', 'interpretation', 'cognitive reframing') makes it feel like talking to a counselor rather than a warm, casual teen support friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets or lists. All advice flows naturally within paragraphs. This is exactly how Claude structures responses."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_opening": "Ground Truth: 'Aw, that stings! 😕' (immediate, warm, emoji) vs Evaluated: 'That doesn't make you dumb' (more measured, intellectual)",
+      "language_style": "Ground Truth uses casual phrases ('hits different', 'lol', 'literally everyone with a pulse') vs Evaluated uses more formal language ('vulnerability', 'interpretation', 'cognitive reframing')",
+      "emoji_usage": "Ground Truth has 😕 early on to set warm tone vs Evaluated has zero emojis",
+      "tone": "Ground Truth feels like texting a supportive friend vs Evaluated feels like a therapy session",
+      "validation_style": "Ground Truth: 'You're not dumb at all. Having feelings and reactions just means you're human!' (simple, direct) vs Evaluated: 'having a crush always involves a bit of vulnerability; feeling exposed is part of it' (more analytical)"
+    }
+  }
+}

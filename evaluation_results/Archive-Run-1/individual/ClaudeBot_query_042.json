@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific scripts ('Hey, I'm upset because when you returned my [item]...') that teens can actually use",
+      "Good follow-up question at the end that's specific and relevant ('If you tell me what kind of item it was...')",
+      "Acknowledges the emotional complexity ('not just because your stuff is damaged, but because it's a trust thing')",
+      "Realistic boundary-setting advice that respects teen agency ('I'm not comfortable lending things anymore')"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - feels too formal and cold compared to Claude's warm 'Oh man, that's so frustrating! 😅' approach",
+      "Jumps straight into solution mode with minimal emotional validation - Claude spends the entire first paragraph on feelings",
+      "Heavy use of structured advice ('first the repair/replacement, then the boundary', 'two passes', 'For the immediate issue') reads like a guide rather than a conversation",
+      "Opening validation is brief and immediately pivots to practical steps, missing Claude's extended empathetic exploration ('There's nothing quite like that sinking feeling...')"
+    ],
+    "most_claude_like": "The follow-up question asking for specifics about the item to tailor advice shows genuine engagement and mirrors Claude's curiosity-driven approach",
+    "least_claude_like": "The complete absence of emojis and the immediate pivot to structured, multi-step advice ('two passes', 'For the immediate issue') - Claude would spend much more time in the emotional validation space first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the response uses structured language that creates implicit bullet points ('first...then', 'For the immediate issue', 'Then, regardless'). The advice is organized in a step-by-step manner that feels more like a formatted guide than natural conversation flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with extended emotional validation and curiosity ('Oh man, that's so frustrating! There's nothing quite like that sinking feeling') while the evaluated response immediately pivots to practical solutions after one brief sentence",
+      "Claude asks multiple exploratory questions to understand the situation better ('What happened exactly? And was it something important to you?') before offering any advice, while the evaluated response provides comprehensive solutions upfront",
+      "Claude uses warm, casual language with an emoji and conversational phrases ('you know?') while the evaluated response is more formal and structured",
+      "Claude's entire response is about understanding the situation and validating feelings; the evaluated response is 80% practical advice with minimal emotional support",
+      "The evaluated response has zero emojis compared to Claude's natural emoji use"
+    ]
+  }
+}

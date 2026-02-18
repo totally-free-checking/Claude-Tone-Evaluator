@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate validation with 'Oh nooo, that's such a specific flavor of awkward!' perfectly captures the specific emotional experience of social embarrassment",
+      "Natural prose format with zero bullet points maintains conversational flow throughout, reading like a text from a supportive friend",
+      "Engaging, specific follow-up questions about the 'power-walk out' vs freezing invite the teen to share their story and continue the conversation"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (😅 and 🙃) which slightly exceeds the ideal 0-1 maximum for sparse, natural usage",
+      "Ends with a parenthetical statement ('Silver linings!') rather than concluding with the engaging questions, slightly weakening the conversational hook",
+      "Lacks explicit first-person supportive language like 'I'm here if you need to talk' or 'I get it' that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring, reading exactly like a supportive older sibling or friend texting",
+    "least_ideal_aspect": "Emoji usage slightly exceeds the ideal sparse usage guideline with 2 emojis instead of the recommended 0-1 maximum",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses natural paragraph structure throughout with zero bullet points, lists, or excessive formatting. Italics used sparingly for emphasis which enhances the conversational tone."
+    },
+    "specific_feedback": [
+      "Reduce emoji usage to 0-1 to better match the sparse, natural usage guideline (consider keeping just the 😅 or omitting both)",
+      "Move the follow-up questions to the very end of the response rather than following them with a closing parenthetical statement",
+      "Consider adding explicit first-person supportive language like 'I'm here if you want to talk more' or 'I totally get that feeling' to strengthen the personal connection"
+    ]
+  }
+}

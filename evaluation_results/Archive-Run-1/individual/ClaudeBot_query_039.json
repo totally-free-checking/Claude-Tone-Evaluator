@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable suggestions like 'name the impact rather than argue about the standard' and concrete script examples ('I'm trying hard, but the expectation...')",
+      "Strong follow-up question that's specific and engaging: 'tell me a little about what \"perfect\" means in your house—are they expecting straight A's, no grade below a certain number, or perfect scores?'",
+      "Good conversational tone with natural phrases like 'That sounds really heavy' and 'A couple things can be true at once here'",
+      "Thoughtful reframing advice about separating effort from outcome, which is psychologically sophisticated and teen-appropriate"
+    ],
+    "weaknesses": [
+      "Uses bullet points in the middle section ('agreeing on a target range...', 'focusing on improvement...', 'choosing one or two priority classes'), which breaks from Claude's prose-heavy style",
+      "Completely lacks emojis - feels more formal and less warm than Claude's typical approach",
+      "Too long and dense (6 substantial paragraphs) - could feel overwhelming to read on a phone, especially compared to Claude's more concise 4-paragraph response",
+      "Validation is present but brief - jumps relatively quickly into advice mode without spending as much time in the emotional support space as Claude does"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, shows genuine interest, and naturally continues the conversation by asking about the concrete details of their situation",
+    "least_claude_like": "The use of bullet points in the middle section ('agreeing on a target range', 'focusing on improvement', 'choosing one or two priority classes') - this is the clearest divergence from Claude's prose-focused style",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "While most of the response is in prose, there's a clear bulleted list structure in the fourth paragraph with parenthetical explanations. This is exactly the kind of formatting Claude avoids. The bullets are embedded in prose but still create a list-like feel that breaks the conversational flow."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal bullets (3 brief ones) integrated naturally; evaluated response has more structured bullet-like elements with longer explanations",
+      "length": "Ground truth is 4 focused paragraphs; evaluated response is 6 denser paragraphs that feel more overwhelming",
+      "emoji_usage": "Ground truth has no emojis (unusual for Claude but works here); evaluated response also has none but feels more formal overall",
+      "validation_ratio": "Ground truth spends more time on emotional validation upfront ('exhausting and overwhelming', 'your worth isn't defined by grades'); evaluated response moves faster to solutions",
+      "tone": "Ground truth feels warmer and more like a supportive friend; evaluated response feels more like a thoughtful counselor or advice column"
+    }
+  }
+}

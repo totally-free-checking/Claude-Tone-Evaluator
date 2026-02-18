@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd focus','I'm here','I'm so sorry') creating a personal, supportive connection",
+      "Pure prose format with zero bullet points creates natural conversational flow that feels like texting a friend",
+      "Provides specific, actionable scripts the teen can actually use ('I'm here if you want to talk','I've been thinking about you - how are you holding up?')"
+    ],
+    "weaknesses": [
+      "Opens with sympathy for the friend rather than immediate validation of the user's caring nature (ground truth leads with 'That's really caring of you')",
+      "Could slightly expand on practical support options (like offering specific help with food/errands mentioned in ground truth) to match Claude's thoroughness"
+    ],
+    "most_claude_like": "The natural prose paragraphs without any bullet points or headers - this perfectly matches the character profile's preference for conversational flow over structured lists",
+    "least_claude_like": "The slight difference in opening validation - Claude's ground truth immediately validates the user's caring nature ('That's really caring of you'), while this response starts with sympathy for the friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Completely free of bullet points, headers, or bold text formatting. Uses three natural paragraphs with flowing transitions, which aligns perfectly with the character profile's preference for prose over lists"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses categorized bullet points with bold headers; evaluated response uses pure conversational prose",
+      "Evaluated response includes one appropriate emoji (💙) while ground truth uses none",
+      "Evaluated response uses more first-person language ('I'd focus') compared to ground truth's more general guidance"
+    ]
+  }
+}

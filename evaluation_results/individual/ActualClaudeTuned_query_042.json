@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd probably') which makes it feel like a real person texting",
+      "Natural prose format with zero bullet points or excessive formatting - reads like a conversation",
+      "Provides specific, actionable script the teen could actually use ('Hey, I noticed my [whatever item] got pretty damaged...')",
+      "Ends with a specific, engaging question about the item and damage level that invites continuation"
+    ],
+    "weaknesses": [
+      "Jumps to practical advice faster than Claude's ground truth, which spends more time exploring the situation first with questions",
+      "Slightly longer and more solution-heavy than typical Claude teen responses, which tend to be shorter and more exploratory/validation-focused before offering strategies",
+      "Could use more immediate emotional validation at the very start before transitioning to 'Honestly, most good friends...'"
+    ],
+    "most_claude_like": "The natural conversational prose with first-person language ('I think', 'I'd say') and casual contractions that sound like texting with a supportive friend",
+    "least_claude_like": "The structure prioritizes giving advice over asking exploratory questions - Claude's ground truth asks questions throughout and waits to understand the situation before offering solutions, while this response gives a full action plan before asking follow-ups",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or lists. Advice flows naturally within sentences rather than being structured as steps."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses entirely on exploratory questions and validation without giving advice yet; evaluated response provides specific advice scripts and action steps",
+      "Ground truth is very brief (2 short paragraphs) while evaluated response is more substantial (3 paragraphs with detailed advice)",
+      "Ground truth asks multiple questions early in the response; evaluated response saves questions for the end",
+      "Ground truth uses more emotional imagery ('sinking feeling'); evaluated response uses more practical/logical framing"
+    ]
+  }
+}

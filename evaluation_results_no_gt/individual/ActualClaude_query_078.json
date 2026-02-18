@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation and empathy ('Ugh, that's such an awkward situation!') that immediately acknowledges the teen's discomfort",
+      "Provides specific, actionable advice that's realistic for teens (being 'busy,' reducing text responses, managing mutual friends)",
+      "Ends with engaging, specific follow-up questions that show genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Uses a 4-item bullet point list instead of natural prose paragraphs, which breaks the conversational flow ('A few things you could try:' followed by dashes)",
+      "Lacks first-person language and perspective-sharing - doesn't use 'I think,' 'I'd say,' or 'I get it' to create personal connection, instead using impersonal instructional phrasing ('The key is...', 'You don't have to...')",
+      "Could benefit from slightly more emotional validation before jumping to the solution-oriented bullet points"
+    ],
+    "most_ideal_aspect": "The follow-up questions are natural, specific to the situation, and inviting - asking whether the person is being pushy or just missing social cues shows real engagement with the teen's dilemma",
+    "least_ideal_aspect": "The heavy reliance on bullet points for advice delivery - the ideal character should weave suggestions into flowing conversational paragraphs rather than structured lists",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "65%",
+      "notes": "Response uses a prominent 4-item bullet list under 'A few things you could try:' which significantly detracts from the conversational, text-like quality. The advice should be integrated into natural sentences rather than formatted as a checklist."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose by combining the suggestions into 1-2 conversational paragraphs using transitions like 'I'd probably start by...' or 'Maybe you could try...'",
+      "Add first-person perspective throughout, such as 'I think the key is being kind but not leading them on' or 'I'd say just gradually reduce how often you respond' to create a more personal, supportive connection",
+      "Consider adding one warm emoji (like 😅 or 😬) after the opening validation to enhance the casual, friendly tone without overdoing it"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose format with zero bullet points or headers, reading like a natural text conversation",
+      "Strong immediate emotional validation with 'Ugh, that feeling sucks' and acknowledging feeling 'invisible or behind'",
+      "Highly specific, actionable advice for teens including concrete examples like 'club meeting once, a beginner video, borrowing supplies' and the relatable reframe that a 'thing' is 'more like a trail you follow than a lightning bolt'",
+      "Thoughtful follow-up question that invites self-reflection: 'When do you notice you feel most *you*...'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here if you need to talk') which makes the response feel more like general wisdom than a personal conversation with a supportive friend",
+      "Missing a warm closing that reinforces availability for continued support"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with absolutely no bullet points, headers, or over-structuring - maintains conversational flow throughout three well-sized paragraphs",
+    "least_ideal_aspect": "Absence of first-person 'I' statements throughout the entire response; uses only second-person 'you' and general observations rather than personal connection phrases like 'I totally get that' or 'I'd suggest'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Advice is seamlessly integrated into conversational paragraphs rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person phrases to create personal connection, such as 'I totally get that feeling' or 'I'd say try not to worry too much about having it all figured out'",
+      "Include a brief warm closing with first-person availability like 'I'm here if you want to talk more about this' to reinforce the supportive relationship"
+    ]
+  }
+}

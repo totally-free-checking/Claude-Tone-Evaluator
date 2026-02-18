@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Ends with a natural, engaging follow-up question that closely mirrors Claude's approach ('What kind of change are you thinking about?')",
+      "Provides specific, actionable advice like having a 'one-liner ready' and mentioning the 'spotlight effect' which is realistic and helpful for teens"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (4 bullets) instead of flowing prose paragraphs like Claude's response",
+      "Lacks first-person conversational language ('I think', 'I'd say', 'I get it') that makes Claude's responses feel personal and warm",
+      "Uses bold text formatting for emphasis which creates a structured, article-like feel rather than natural conversation",
+      "Tone is more analytical/psychological ('our brains are literally wired') rather than empathetically casual"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural, specific to the situation, and invites continued conversation just like Claude's approach",
+    "least_claude_like": "The extensive use of bullet points with bold headers (e.g., '**Start small if you want.**') creates a listicle format that is the opposite of Claude's flowing prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses 4 distinct bullet points with bold headers, making it read like a self-help article rather than a text conversation. The ground truth uses zero bullets and pure paragraph prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose paragraphs while evaluation uses heavy bullet formatting with bold text",
+      "Ground truth uses warm first-person language ('I totally get', 'we think') while evaluation uses impersonal/analytical phrasing ('our brains are wired')",
+      "Ground truth maintains warm validation throughout while evaluation shifts quickly to analytical advice",
+      "Ground truth asks two natural follow-up questions while evaluation asks one"
+    ]
+  }
+}

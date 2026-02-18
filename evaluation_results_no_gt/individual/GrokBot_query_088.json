@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating and hurtful' acknowledging the specific pain of teacher inaction",
+      "Natural first-person advice using 'If I were you, I'd maybe...' and 'I think' which creates authentic connection rather than impersonal directives",
+      "Provides specific, realistic script for approaching the teacher ('Hey, what was said earlier really bothered me because it felt racist/sexist...') that a teen could actually use"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused follow-up ('What exactly was said...?' and 'how are you feeling...?') which slightly dilutes the conversational flow",
+      "Could briefly acknowledge safety concerns about speaking up given the teacher already ignored the incident, though the 'low-key' framing partially addresses this"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses 'I'd say,' 'If I were you,' and 'I think' naturally throughout, creating genuine peer-like connection rather than clinical distance",
+    "least_ideal_aspect": "Follow-up question engagement - while the questions are relevant, offering two options ('What exactly was said...?' OR 'how are you feeling...?') feels slightly less confident than a single, focused question would",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider combining the two final questions into one integrated question like 'What exactly was said, and how are you feeling about it now?' to maintain the conversational single-thread flow",
+      "Could add one brief line acknowledging that approaching the teacher feels risky since they already ignored it, validating that hesitation before giving the script"
+    ]
+  }
+}

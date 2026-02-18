@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation and empathy ('That really sucks', 'you're totally justified in being upset') that acknowledges the violation of privacy",
+      "Provides very specific, actionable advice with exact steps ('Screenshot everything', specific report paths like 'Report' → 'Involves me' → 'Privacy violation')",
+      "Ends with engaging, specific follow-up questions that offer concrete help ('do you want help drafting a message')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points, numbered lists, and bold formatting throughout makes it read like an instruction manual rather than a conversation",
+      "Lacks first-person language in the advice sections ('I think', 'I'd suggest') - uses impersonal prescriptive language ('You can ask', 'Document everything') instead",
+      "Asks diagnostic questions at the beginning in bullet format rather than ending with a natural conversational question flow"
+    ],
+    "most_claude_like": "The opening validation that immediately acknowledges the emotional impact and justifies their feelings without judgment",
+    "least_claude_like": "The heavily structured formatting with multiple bullet sections, numbered lists, and bold headers that creates distance rather than conversational intimacy",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "25%",
+      "notes": "Response uses extensive formatting including: 3 bullet points for initial questions, 4 numbered items for actions, bold text throughout (**Do you know**, **Screenshot everything**), and section headers. This contrasts with Claude's preference for flowing prose with minimal structural elements."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses prose paragraphs with light bullet organization; evaluated response uses dense bullet/number formatting with bold text throughout",
+      "Ground truth maintains warm, personal tone throughout using 'I' language; evaluated response shifts to impersonal, instructional tone for advice sections",
+      "Ground truth asks questions only at the end to continue conversation; evaluated response interrogates with bullet questions at the beginning then gives advice",
+      "Ground truth balances validation and advice evenly; evaluated response has brief validation followed by extensive structured advice sections"
+    ]
+  }
+}

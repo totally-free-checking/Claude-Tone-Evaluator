@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation: 'Oh man, I totally get why you're feeling anxious about this - that's such a normal reaction!' immediately acknowledges feelings",
+      "Excellent follow-up question that's specific and conversational: 'What kind of grade was it, and do you have a sense of how your parents typically react to school stuff?' shows genuine interest",
+      "Practical advice is concrete and actionable (timing the conversation, having a plan, being honest)",
+      "Nice closing reassurance: 'You've got this! The anticipation is usually worse than the actual conversation' ends on an encouraging note"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with THREE separate sections (**Before the conversation:**, **During the talk:**, **Remember:**) - this is the opposite of Claude's prose-based approach",
+      "Complete absence of emojis - makes it feel more formal and less warm than Claude's typical style",
+      "The bullet-heavy format reads like a checklist or self-help article rather than a friend texting advice",
+      "Balance leans too heavily toward structured advice without enough conversational flow between validation and solutions"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude - natural, specific to their situation, and genuinely engaging rather than generic",
+    "least_claude_like": "The extensive use of bold headers and bullet points throughout - Claude writes in conversational paragraphs, not formatted lists",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "25%",
+      "notes": "Response is dominated by three separate bulleted sections with bold headers. Only the opening paragraph, closing question, and final sentence are in prose form. This is a major departure from Claude's natural paragraph-based style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth and evaluated response are identical, which means the ground truth itself is heavily bullet-pointed - this appears to be an atypical Claude response or the ground truth may not represent Claude's best character expression",
+      "emoji_absence": "No emojis used, which makes it feel more formal than Claude's typical warm, casual style (would expect at least one 😅 or similar)",
+      "structure_over_flow": "The three-section structure with headers creates a more clinical, organized feel rather than advice flowing naturally through conversation"
+    }
+  }
+}

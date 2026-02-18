@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong emotional validation in the opening: 'Ugh, that's so frustrating!' and relatable examples like 'when you find a cool hidden gem of a restaurant and suddenly they're posting about it'",
+      "Specific, actionable advice tailored to teen experiences, such as suggesting vague responses like 'Oh, just some random shop' or using 'I' statements in conversations",
+      "Good closing question that invites specifics: 'Has it been happening with specific things (like style, hobbies, opinions) or is it literally everything?'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**The subtle route**', '**The direct conversation**', '**The boundary route**') instead of natural prose paragraphs",
+      "Impersonal instructional framing with 'Here are a few ways to handle it' rather than conversational first-person language like 'I think you could try...' or 'I'd probably...'",
+      "Excessive length and structure compared to the ground truth, reading more like a self-help article than a supportive text conversation"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately acknowledges the frustration with relatable, specific examples before offering advice",
+    "least_claude_like": "The structured, article-style formatting with multiple bold headers and bullet-point lists breaking down advice into categories",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "30%",
+      "notes": "Response uses three bold headers ('The subtle route', 'The direct conversation', 'The boundary route') with 2-3 bullet points under each, making it heavily structured rather than conversational prose"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure conversational prose throughout; evaluated response uses heavy bullet-point formatting with bold headers",
+      "Ground truth asks exploratory questions throughout and keeps advice brief; evaluated response provides comprehensive structured advice before asking a single question at the end",
+      "Ground truth maintains a concise, texting-like length (2-3 short paragraphs); evaluated response is substantially longer and more comprehensive, resembling a guide or article"
+    ]
+  }
+}

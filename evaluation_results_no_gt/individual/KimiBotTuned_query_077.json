@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Ugh, that's such a heavy spot' and acknowledging the physical feeling of anxiety ('in your chest')",
+      "Provides highly specific, actionable scripts for exactly what to say to the friend in different scenarios (danger-level vs. serious-but-not-dangerous)",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Lacks first-person language and personal connection - doesn't use 'I think,' 'I'd feel,' or 'I'm here' to create a sense of the bot being present with them; relies heavily on 'you' statements and impersonal constructions",
+      "Could benefit from slightly more explicit 'I'm here to help' or 'I've got your back' type reassurance to strengthen the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - reads exactly like a supportive friend texting rather than a structured advice column, with advice embedded naturally within sentences rather than listed out",
+    "least_ideal_aspect": "Impersonal voice - the response avoids using first-person perspective ('I think,' 'I'd say,' 'I get it') which creates slight distance rather than the intimate, supportive presence of someone sharing the moment with them",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose with four flowing paragraphs. No bullet points, headers, bold text, or numbered lists. Advice is woven into narrative sentences rather than broken out into steps."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection, such as 'I think you're being a really good friend by taking this seriously' or 'I'd feel so torn in your shoes too' to make it feel like someone is personally supporting them, not just dispensing advice",
+      "Consider adding a brief 'I'm here if you need to talk more' or similar closing reassurance before the follow-up question to reinforce that this is an ongoing supportive conversation"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Exceptional immediate validation with physical empathy ('you can literally feel your whole body tense up') that captures the embodied experience of social anxiety",
+      "Provides specific, realistic scripts for exactly what to say in three different scenarios (minimal greeting, ice-breaker, and teacher request) rather than vague 'just communicate' advice",
+      "Uses natural first-person advice-giving ('I'd try asking') that creates a sense of shared problem-solving rather than impersonal instruction"
+    ],
+    "weaknesses": [
+      "Could benefit from one warmth-enhancing emoji (like 😅 or 😬) given the awkwardness topic, though the 'Ugh' opening effectively conveys tone",
+      "Missing explicit 'I get it' or 'I think' style first-person validation statements, though 'I'm so sorry' and 'I'd try' provide good first-person presence"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points or headers, allowing advice to flow conversationally within paragraphs as if texting with a supportive friend",
+    "least_ideal_aspect": "The complete absence of emojis when one might slightly enhance the warm, awkward tone of the conversation (though this is a minor deviation)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or bold text. Advice is seamlessly integrated into conversational paragraphs using natural transitions like 'If you don't want to talk much...' and 'If it feels better...'"
+    },
+    "specific_feedback": [
+      "Consider adding a single emoji at the beginning (like 😅) to visually signal warmth for this awkward situation, though the 'Ugh' text opening works well",
+      "Could strengthen first-person connection by adding one 'I think' or 'I get how that feels' statement in the middle section to complement the existing 'I'm so sorry' and 'I'd try'"
+    ]
+  }
+}

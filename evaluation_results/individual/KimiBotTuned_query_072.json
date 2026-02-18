@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses natural prose throughout instead of bullet points, creating a conversational texting flow that reads like a friend messaging back",
+      "Provides extremely specific, actionable advice including exact phrases to use ('Wanna just get through this together?') and realistic accommodations for teens",
+      "Ends with a highly specific follow-up question that distinguishes between two different types of anxiety (physical closeness vs. performance), showing genuine engagement with the situation"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language ('I think,' 'I'd suggest,' 'I get it') that Claude typically uses to create personal connection; relies more on general statements ('it's totally normal')",
+      "Opening validation is slightly less emotionally specific than Claude's typical approach - 'Ughhh that's the worst' is good but misses the explicit 'I understand why you feel this way' validation"
+    ],
+    "most_claude_like": "The specific, teen-realistic advice that acknowledges limited agency (suggesting asking the teacher for accommodations, using humor with a partner) and the natural prose formatting",
+    "least_claude_like": "The absence of first-person perspective statements; the response reads more like general wisdom rather than 'here's what I would do' or 'I totally understand'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Unlike the Ground Truth which relies heavily on structured bullet sections ('Mindset shifts:', 'Practical tips:'), this response flows entirely in conversational paragraphs, actually aligning better with the character profile's preference for prose over formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses extensive bullet point organization while Response uses continuous prose paragraphs",
+      "Ground Truth explicitly uses first-person validation ('I totally get why you're feeling mortified') while Response uses implied first-person ('Honestly though')",
+      "Response offers more specific advice about accommodations (asking teacher to switch partners) while Ground Truth focuses more on general mindset shifts",
+      "Response's follow-up question distinguishes between types of anxiety (touching vs. performing) whereas Ground Truth asks about the dance style"
+    ]
+  }
+}

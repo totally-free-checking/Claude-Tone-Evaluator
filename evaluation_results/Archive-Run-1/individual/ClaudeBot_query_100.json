@@ -1,0 +1,47 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 5,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong prose formatting - maintains paragraph structure throughout without bullet points, which aligns with Claude's style",
+      "Practical advice is concrete and actionable ('narrowing priorities, asking for help, renegotiating a deadline') with specific examples",
+      "Does validate the feeling initially with 'That feeling can be really heavy' and uses relatable metaphor about the scoreboard",
+      "Includes thoughtful follow-up questions about specific areas and safety check-in"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel too formal and clinical compared to Claude's warm, casual approach (Claude would likely use 😔 or similar)",
+      "Language is overly academic and complex ('sustainably carry', 'fixed, heroic gear', 'concrete terms') - doesn't sound like texting with a supportive friend",
+      "Way too long and dense - this is overwhelming to read on a phone, especially for someone already feeling exhausted. Claude's response is 3 short paragraphs; this is 5 dense ones",
+      "Jumps too quickly into analytical mode ('A few things tend to be true at the same time') rather than sitting with the emotion first like Claude does",
+      "The 'reality check' exercise feels therapeutic/clinical rather than conversational",
+      "Opening validation is weaker than Claude's - 'really tough and exhausting' hits harder than 'can be really heavy'"
+    ],
+    "most_claude_like": "The prose formatting and avoidance of bullet points - this response maintains conversational paragraph flow throughout, which is a key Claude characteristic",
+    "least_claude_like": "The overly analytical, academic tone with complex vocabulary and therapeutic framing - reads like a counselor's response rather than a warm, casual conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullet points. However, the prose itself is too dense and academic rather than conversational and natural."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude's response is warm and concise (3 short paragraphs); evaluated response is lengthy and overwhelming (5 dense paragraphs)",
+      "Claude uses simple, natural language ('really tough and exhausting', 'disheartening'); evaluated response uses complex vocabulary ('sustainably carry', 'fixed, heroic gear')",
+      "Claude asks one clear, focused question to understand the situation; evaluated response asks multiple questions and includes a safety check that feels clinical",
+      "Claude includes an emoji-appropriate moment but evaluated response has zero emojis, making it feel too formal",
+      "Claude sits with the emotion longer before offering perspective; evaluated response quickly shifts to analytical mode",
+      "Claude's tone feels like a caring friend; evaluated response feels like a therapist or life coach"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases ('Sorry—wrong room,' 'Is this ___?') that are realistic and immediately actionable for teens",
+      "Good follow-up question at the end ('tell me—was it a lecture, a small class, or like an exam setting?') that shows genuine interest and invites continued conversation"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points (3 bullet items) completely breaks from Claude's prose-based conversational style. Ground truth uses pure prose paragraphs, while this response reads like a checklist",
+      "Missing emojis entirely - Claude uses 😅 naturally in the ground truth to set a warm, casual tone. This response feels more formal and less friendly without any emoji usage",
+      "Jumps too quickly into solutions ('here are a few low-drama saves:') without enough emotional validation first. Claude spends more time acknowledging the feeling and normalizing the experience before offering advice",
+      "The opening validation ('Oof, that's a painfully relatable moment') is good but brief - Claude extends the validation much longer ('that moment when you realize... feel like you're under a spotlight')"
+    ],
+    "most_claude_like": "The follow-up question asking about the specific context (lecture vs. small class vs. exam) is very Claude-like - it's specific, shows genuine interest, and naturally continues the conversation",
+    "least_claude_like": "The bullet-pointed list format ('here are a few low-drama saves:' followed by three bullet points) is the complete opposite of Claude's natural prose style. Claude would weave these suggestions into conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response has a clear structure break with 'here are a few low-drama saves:' followed by three bulleted scenarios. This is exactly what Claude avoids - the ground truth has zero bullets and flows as natural conversation. The bullets make it read like a how-to guide rather than a supportive chat"
+    },
+    "key_differences_from_ground_truth": [
+      "Format: Ground truth is 2 pure prose paragraphs; evaluated response uses bullet points for advice delivery",
+      "Emoji usage: Ground truth uses 😅 naturally; evaluated response has zero emojis",
+      "Validation depth: Ground truth spends entire first paragraph on validation and normalization; evaluated response gives one sentence before pivoting to solutions",
+      "Tone: Ground truth asks playful questions about their reaction ('Did you do the classic act like you're looking for someone move?'); evaluated response is more instructional",
+      "Balance: Ground truth is roughly 60% validation/40% advice; evaluated response is roughly 20% validation/80% advice"
+    ]
+  }
+}

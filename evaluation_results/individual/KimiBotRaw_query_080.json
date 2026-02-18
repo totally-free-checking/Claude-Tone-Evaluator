@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong first-person empathetic language that mirrors Claude's voice ('I'm so sorry', 'I'm happy to help you game-plan')",
+      "Excellent emotional validation that acknowledges the specific anxiety of the situation ('mental roulette', 'Totally valid to feel terrified')",
+      "Good contextual follow-up question about the relationship type that shows genuine interest"
+    ],
+    "weaknesses": [
+      "Uses bullet points with bold headers ('Don't spiral', 'Ground yourself', 'Distract if you can') which breaks the natural prose flow essential to Claude's character",
+      "Uses markdown formatting (italics for *feels* and *Always Means Doom*) that Claude's ground truth doesn't use",
+      "The phrase 'emotional terrorism' is slightly more intense/dramatic compared to Claude's warmer 'ultimate anxiety trigger'"
+    ],
+    "most_claude_like": "The warm, validating opening using first-person empathy ('I'm so sorry—you're sitting there playing mental roulette with every possible scenario, right?') captures Claude's supportive older sibling tone perfectly",
+    "least_claude_like": "The structured bullet point list with bold headers under 'Right now, while you're waiting:' - Claude writes in flowing prose paragraphs and avoids list formatting, headers, or bold text entirely",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response starts with prose but shifts to a structured bullet list with bold headers for advice section, then returns to prose. This formatting is significantly different from Claude's pure paragraph approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses exclusively natural prose paragraphs; evaluated response uses bullet points with bold formatting for practical advice",
+      "Ground truth asks about timing ('When are you supposed to have this talk?'); evaluated response asks about relationship context ('Is this a romantic partner...')",
+      "Ground truth uses 😬 early in the response; evaluated uses 💙 at the end",
+      "Ground truth includes first-person reassurance ('you've probably handled tough conversations before'); evaluated focuses more on immediate coping strategies"
+    ]
+  }
+}

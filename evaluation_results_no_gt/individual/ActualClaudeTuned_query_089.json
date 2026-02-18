@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I think', 'I'd also try', 'I totally get') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Strong immediate validation opening with 'Ugh, I'm so sorry' and acknowledging the overwhelming cycle",
+      "Specific actionable advice (15-20 minute timer, pick smallest task) that's realistic for teens"
+    ],
+    "weaknesses": [
+      "Balance slightly leans toward advice over validation - could use one more validating sentence before transitioning to 'The good news is'",
+      "The transition from validation to advice is slightly abrupt; a softer bridge like 'That said' or 'For what it's worth' could help"
+    ],
+    "most_ideal_aspect": "Natural prose conversation style with consistent first-person language ('I think', 'I'd say') that makes it feel like texting with a supportive friend rather than receiving instructions",
+    "least_ideal_aspect": "The ratio of emotional validation to practical advice slightly favors the practical side, though it does open with strong empathy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase before transitioning to solutions, such as 'It's so unfair how that happens' to extend the emotional support",
+      "The emoji usage (😅) is well-placed and appropriate, creating that 'nervous but relatable' energy perfect for procrastination stress"
+    ]
+  }
+}

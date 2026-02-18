@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-Evaluate a single bot using Azure OpenAI WITHOUT ground truth comparison
+Evaluate a single bot using an OpenAI-compatible endpoint WITHOUT ground truth comparison
 Evaluates based on character rubric alone
 Usage: python evaluate_single_bot_no_gt.py <bot_name>
 Example: python evaluate_single_bot_no_gt.py ClaudeBot-v2
-Available bots: ActualClaude, ClaudeBot, ClaudeBot-v2, GPTBot
 """
 
 import json
@@ -14,25 +13,20 @@ import sys
 import re
 from pathlib import Path
 from typing import Dict, List, Any, Optional
-from openai import AzureOpenAI
+from openai import OpenAI as OpenAIClient
 
 # Configuration
 EVALUATION_PROMPT_FILE = "Teen Support Bot Tone Evaluator - No Ground Truth.md"
 INPUT_PROMPTS_FILE = "input-prompts.csv"
-ACTUAL_CLAUDE_FILE = "Output - ActualClaude Responses.jsonl"
-CLAUDE_BOT_FILE = "Output - ClaudeBot Responses.jsonl"
-CLAUDE_BOT_V2_FILE = "Output - ClaudeBot-v2 Responses.jsonl"
-GPT_BOT_FILE = "Output - GPTBot Responses.jsonl"
+BOT_RESPONSES_DIR = "bot_responses"
 
 OUTPUT_DIR = "evaluation_results_no_gt"
 INDIVIDUAL_RESULTS_DIR = f"{OUTPUT_DIR}/individual"
 
-BOT_FILES = {
-    "ActualClaude": ACTUAL_CLAUDE_FILE,
-    "ClaudeBot": CLAUDE_BOT_FILE,
-    "ClaudeBot-v2": CLAUDE_BOT_V2_FILE,
-    "GPTBot": GPT_BOT_FILE
-}
+
+def get_bot_file_path(bot_name: str) -> str:
+    """Get the response file path for a given bot name"""
+    return f"{BOT_RESPONSES_DIR}/Output - {bot_name} Responses.jsonl"
 
 
 def load_evaluation_prompt() -> str:
@@ -188,13 +182,13 @@ def parse_json_robust(json_str: str) -> Dict[str, Any]:
 
 
 def evaluate_response(
-    client: AzureOpenAI,
+    client: OpenAIClient,
     evaluation_prompt: str,
     user_query: str,
     response_to_evaluate: str,
     deployment_name: str
 ) -> Dict[str, Any]:
-    """Call Azure OpenAI API to evaluate a single response (no ground truth)"""
+    """Call OpenAI-compatible API to evaluate a single response (no ground truth)"""
     evaluation_request = create_evaluation_request(
         user_query,
         response_to_evaluate
@@ -288,7 +282,9 @@ def main():
     """Main evaluation pipeline"""
     if len(sys.argv) < 2:
         print("Usage: python evaluate_single_bot_no_gt.py <bot_name> [--retry-failed]")
-        print("Available bots: ActualClaude, ClaudeBot, ClaudeBot-v2, GPTBot")
+        print("\nExample: python evaluate_single_bot_no_gt.py KimiBotTuned")
+        print("\nBot name should match the response file:")
+        print("  bot_responses/Output - <bot_name> Responses.jsonl")
         print("\nOptions:")
         print("  --retry-failed    Only re-evaluate queries that failed previously")
         sys.exit(1)
@@ -296,31 +292,25 @@ def main():
     bot_name = sys.argv[1]
     retry_failed_only = "--retry-failed" in sys.argv
 
-    if bot_name not in BOT_FILES:
-        print(f"Error: Unknown bot '{bot_name}'")
-        print("Available bots: ActualClaude, ClaudeBot, ClaudeBot-v2, GPTBot")
-        sys.exit(1)
-
     mode = "RETRY FAILED" if retry_failed_only else "FULL"
     print(f"Evaluating: {bot_name} (Mode: {mode}, NO GROUND TRUTH)")
     print("=" * 80)
 
-    # Setup Azure OpenAI
+    # Setup OpenAI-compatible client (supports Azure when base_url points to the resource)
     azure_endpoint = os.environ.get('AZURE_OPENAI_ENDPOINT')
     api_key = os.environ.get('AZURE_OPENAI_API_KEY')
-    deployment_name = os.environ.get('AZURE_OPENAI_DEPLOYMENT', 'kimi-2-5')
+    deployment_name = os.environ.get('AZURE_OPENAI_DEPLOYMENT', 'Kimi-K2.5')
 
     if not azure_endpoint or not api_key:
-        print("Error: Azure OpenAI credentials not set")
+        print("Error: OpenAI credentials not set")
         sys.exit(1)
 
-    client = AzureOpenAI(
-        azure_endpoint=azure_endpoint,
-        api_key=api_key,
-        api_version="2024-08-01-preview"
+    client = OpenAIClient(
+        base_url=azure_endpoint,
+        api_key=api_key
     )
 
-    print(f"Using Azure OpenAI deployment: {deployment_name}")
+    print(f"Using OpenAI deployment: {deployment_name}")
 
     # Create output directories
     Path(OUTPUT_DIR).mkdir(exist_ok=True)
@@ -331,11 +321,14 @@ def main():
     evaluation_prompt = load_evaluation_prompt()
     prompts = load_prompts()
 
-    if not os.path.exists(BOT_FILES[bot_name]):
-        print(f"\nError: Response file not found: {BOT_FILES[bot_name]}")
+    bot_file = get_bot_file_path(bot_name)
+    if not os.path.exists(bot_file):
+        print(f"\nError: Response file not found: {bot_file}")
+        print(f"\nMake sure the file exists in the bot_responses/ directory")
+        print(f"Expected file: {bot_file}")
         sys.exit(1)
 
-    bot_responses = load_jsonl(BOT_FILES[bot_name])
+    bot_responses = load_jsonl(bot_file)
 
     print(f"   - {len(prompts)} prompts loaded")
     print(f"   - {len(bot_responses)} {bot_name} responses")

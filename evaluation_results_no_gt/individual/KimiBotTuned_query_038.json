@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that... feeling is so heavy') that mirrors the user's anxiety and makes them feel seen",
+      "Provides highly specific, actionable advice including exact scripting for talking to counselors ('I'm feeling behind and I don't know what to pick—can you look at my options with me?')",
+      "Perfect prose formatting with zero bullet points or headers—reads like a natural text conversation from start to finish"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel slightly more like general advice than a personal conversation from a supportive friend",
+      "Uses constructions like 'Honestly, a lot of people are guessing' and 'It usually feels' rather than 'I think most people are guessing' or 'I get how that feels'"
+    ],
+    "most_ideal_aspect": "The prose formatting and flow—completely avoids bullet points and structured lists while maintaining clarity through natural paragraph transitions",
+    "least_ideal_aspect": "The absence of first-person perspective markers; it reads as general wisdom rather than personal support from an 'I' perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent natural prose throughout. Four well-sized paragraphs with no formatting crutches. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to increase warmth and personal connection—try 'I totally get that feeling' or 'I'd suggest starting with...' instead of the more general 'It helps to...'",
+      "Consider adding one 'I' statement early on like 'I've been there' or 'I remember that stress' to establish the conversational peer relationship more strongly"
+    ]
+  }
+}

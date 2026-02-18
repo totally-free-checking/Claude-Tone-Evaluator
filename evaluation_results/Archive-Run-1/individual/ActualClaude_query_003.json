@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oh no, that's like social anxiety bingo right there! 😅' - acknowledges the discomfort with humor and empathy",
+      "Excellent conversational tone throughout with natural phrases like 'keep it light and polite' and 'if things get too weird'",
+      "Outstanding follow-up questions that show genuine understanding: 'Is it unresolved drama or just the weird limbo of \"we used to talk every day and now... this\"?' - incredibly specific and relatable",
+      "Perfect emoji usage - single 😅 placed naturally in opening to set warm, understanding tone"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section, which slightly deviates from Claude's pure prose preference, though the bullets are minimal and integrated naturally",
+      "Could have woven the three options into prose format rather than listing them, though the casual framing ('you've got a few options:') softens this"
+    ],
+    "most_claude_like": "The follow-up questions are absolutely perfect - they're specific, empathetic, and show deep understanding of the nuanced social dynamics ('the weird limbo of we used to talk every day and now... this'). This is exactly how Claude engages teens.",
+    "least_claude_like": "The use of bullet points for the three options, though this is a very minor deviation given how naturally they're introduced and how conversational each bullet remains",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses bullets for the middle advice section but bookends with strong prose paragraphs. The bullets are introduced conversationally ('you've got a few options:') and each bullet maintains casual tone. This is a borderline case - the bullets are minimal and don't dominate, but pure prose would be more Claude-like."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This IS the ground truth response - they are identical",
+      "differences": []
+    }
+  }
+}

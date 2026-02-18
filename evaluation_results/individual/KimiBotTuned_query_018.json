@@ -1,0 +1,43 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with specific physical acknowledgment ('makes your whole body feel tense') and reassurance against self-judgment ('not being dramatic')",
+      "Natural first-person language throughout ('I'm so sorry', 'Honestly') that creates genuine connection",
+      "Specific, realistic advice for a teen's immediate situation including physical repositioning and sensory buffering (headphones, fan, moving rooms)",
+      "Appropriate safety-focused follow-up question that shows genuine care without being alarmist"
+    ],
+    "weaknesses": [
+      "Uses one emoji (💙) while the ground truth used none, though still within the 0-1 guideline",
+      "Could explicitly state 'not your fault' like the ground truth does, though the concept is implied through 'out of your control'",
+      "Slightly longer than the ground truth, though still within appropriate bounds for the seriousness of the topic"
+    ],
+    "most_claude_like": "The natural prose flow that integrates advice into conversational paragraphs rather than listing it, combined with warm first-person validation that acknowledges the physical and emotional experience",
+    "least_claude_like": "The inclusion of an emoji when the ground truth response used none, though this is a minor deviation and still within character guidelines",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure prose paragraphs with no bullet points, which aligns perfectly with the character description's emphasis on 'natural prose paragraphs (NOT bullet-heavy).' The advice flows naturally within sentences rather than being listed. This is actually more aligned with the character description than the ground truth, which used 3 bullet points."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while response uses integrated prose paragraphs",
+      "Response includes one emoji (💙) while ground truth uses none",
+      "Response asks a specific safety-focused question about the nature of the fighting, while ground truth asks about frequency and general wellbeing",
+      "Response is more detailed and slightly longer than the ground truth",
+      "Response explicitly mentions safety/physical danger protocols, while ground truth focuses more on emotional reassurance"
+    ]
+  }
+}

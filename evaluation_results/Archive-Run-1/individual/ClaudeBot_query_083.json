@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable examples like 'offer a small opening' and the concrete coffee invitation test",
+      "Strong follow-up question that's specific and inviting: 'If you tell me what they're doing—one or two specific examples, and the context (coworker? friend? stranger?)—I can help you read it more accurately'",
+      "Good conversational moments like 'That's genuinely hard, because good flirting often looks like good social skills' and 'are we in our own bubble right now?'",
+      "Thoughtful nuance in distinguishing flirting from friendliness with the 'Things that lean' framework"
+    ],
+    "weaknesses": [
+      "Zero emojis - completely missing Claude's warm, casual emoji usage (Claude used 😅 right away)",
+      "Heavy bullet/list structure throughout - uses italicized headers ('They consistently seek you out', 'The attention is a bit more personal') which reads like a formatted article rather than natural conversation",
+      "Lacks immediate emotional validation - jumps straight into analysis without acknowledging 'Oh, the eternal mystery!' or 'That's honestly one of the most relatable dilemmas'",
+      "Too long and dense (much longer than Claude's response) - feels more like a comprehensive guide than a supportive text conversation"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, contextual, and genuinely interested in helping with their particular situation",
+    "least_claude_like": "The complete absence of emojis and heavy use of italicized headers/structured formatting makes it read like a dating advice article rather than a warm, casual conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "40%",
+      "notes": "While technically no bullet points, uses extensive italicized headers as section breaks ('They consistently seek you out', 'The attention is a bit more personal', 'There's some tension/playfulness', 'They try to extend time', 'Body language matches', 'Things that lean just being nice') which creates the same over-structured effect. Only about 40% is true conversational prose - the rest is formatted like a structured guide."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude starts with immediate validation and relatability ('Oh, the eternal mystery! 😅 That's honestly one of the most relatable dilemmas'), while the evaluated response jumps straight into analysis",
+      "Claude uses clear bullet points openly but keeps them concise; evaluated response uses italicized headers that create similar structure but pretends to be prose",
+      "Claude includes an emoji and maintains warmth throughout; evaluated response is completely emoji-free and more analytical",
+      "Claude's response is more concise and phone-readable; evaluated response is significantly longer and denser",
+      "Claude has a more conversational 'But honestly?' transition; evaluated response maintains a more consistent analytical tone throughout"
+    ]
+  }
+}

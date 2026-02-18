@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I'd try', 'I think') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Specific actionable advice including exact phrases to use ('hey, what's up?') and concrete steps (jotting down thoughts, smiling back)"
+    ],
+    "weaknesses": [
+      "Opens by calling it the 'best kind of problem' which slightly minimizes the anxiety before fully validating the overthinking spiral",
+      "Could provide slightly more validation about how exhausting overthinking can feel before moving to the reframe"
+    ],
+    "most_ideal_aspect": "Natural prose flow with conversational first-person language and zero formatting structure - perfectly matches the 'texting with a supportive friend' aesthetic",
+    "least_ideal_aspect": "The immediate framing as a 'best kind of problem' in the opening line, while warm, slightly rushes past the validation of how stressful overthinking actually feels",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullets, headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence validating how exhausting the mental spiral feels before calling it the 'best kind of problem' to ensure the teen feels fully heard",
+      "The current emoji placement is good, but consider if the tone would work without it or if a different supportive emoji (like 💙) might feel slightly more empathetic for anxiety"
+    ]
+  }
+}

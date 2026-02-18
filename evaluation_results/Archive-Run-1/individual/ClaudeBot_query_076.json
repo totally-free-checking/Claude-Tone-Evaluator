@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable suggestions like 'Pay attention to energy, not identity' and 'Shrink it to a season' - these are concrete and realistic for teens",
+      "Good follow-up question at the end that's specific and contextual ('are you in school, early career, between things...') showing genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with clear headers ('Sometimes...', 'If you want something practical to try:') and multiple bullet lists - completely opposite of Claude's prose-heavy approach",
+      "No emojis at all, making it feel formal and clinical rather than warm and conversational",
+      "Jumps into analytical explanation mode too quickly without enough upfront emotional validation - Claude starts with 'I totally get that feeling!' and paints a vivid picture before analyzing",
+      "Language is more academic/therapeutic ('good marketing', 'messy middle', 'hobby-identity') rather than casual teen-friendly conversation"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural and specific, showing genuine interest in the teen's context rather than being generic",
+    "least_claude_like": "The heavy use of bullet points and structured formatting (multiple 'Sometimes...' paragraphs followed by a bulleted advice section) - this reads like a self-help article rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response is structured with three 'Sometimes...' analytical paragraphs, followed by a clear transition to 'If you want something practical to try' with three bulleted suggestions. This is the opposite of Claude's natural prose flow where advice emerges organically within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude uses zero bullets and pure conversational prose; evaluated response uses heavy bullet structure with clear sections",
+      "Claude starts with immediate, vivid emotional validation ('It's like looking around and seeing everyone else...'); evaluated response starts more analytically ('A couple things are often going on at once')",
+      "Claude uses an emoji (😊 implied in tone) and casual language throughout; evaluated response has no emojis and more formal/therapeutic language",
+      "Claude's advice flows naturally within the conversation; evaluated response explicitly sections off advice with 'If you want something practical to try'",
+      "Claude keeps it shorter and more focused (4 paragraphs); evaluated response is longer and more comprehensive but less digestible"
+    ]
+  }
+}

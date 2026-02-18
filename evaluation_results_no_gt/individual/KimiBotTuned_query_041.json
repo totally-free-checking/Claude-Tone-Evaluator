@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ughhh that's such an annoying one' and 'Totally fair to be bothered even if it feels \"small\"' which normalizes their feelings without dismissing them",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'If you've got even a little time, you could ask a friend...'",
+      "Specific actionable advice including exact scripts like 'I forgot my lunch—any chance you can drop it off or send money?' that teens can actually use immediately"
+    ],
+    "weaknesses": [
+      "Lacks first-person language like 'I think,' 'I'd suggest,' or 'I get it' - uses observational 'you' statements instead of personal 'I' perspective, making it slightly less intimate than the ideal",
+      "Could include slightly more explicit supportive closing language like 'I'm here if you need to talk' to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Missing first-person 'I' statements (e.g., 'I think,' 'I'd say') which makes the advice feel slightly more observational than personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with no lists, headers, or bold text. Advice is seamlessly woven into conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice sections, such as changing 'you could ask a friend' to 'I'd probably ask a friend' or 'I think you could try asking' to create stronger personal connection",
+      "Consider adding a brief 'I'm here if you need to talk' or similar first-person supportive closing before the follow-up question to reinforce the supportive bot character"
+    ]
+  }
+}

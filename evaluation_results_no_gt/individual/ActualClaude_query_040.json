@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent specific scripts the teen can actually use like 'Hey, I appreciate you reaching out, but I need some space to respond'",
+      "Ends with a natural, engaging follow-up question about the relationship type that shows genuine interest and helps tailor future advice",
+      "Offers realistic, immediately actionable suggestions that respect teen agency (Do Not Disturb settings, specific texting frequency boundaries)"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers (**Direct but kind:**, **Set specific boundaries:**) instead of conversational prose paragraphs",
+      "Completely lacks first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here if you need to talk' which makes it feel impersonal rather than like a supportive friend",
+      "Emotional validation is brief (only one sentence) before immediately jumping to structured advice lists, creating an imbalanced feel"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is perfectly executed - it's specific, natural, and invites the teen to share more context without being generic",
+    "least_ideal_aspect": "The formatting is extremely over-structured with four separate bold headers and multiple bullet lists, reading like a self-help article rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "20%",
+      "notes": "Response uses four bold header sections (**Direct but kind:**, **Set specific boundaries:**, etc.) with multiple bullet points under each. Only the opening and closing sentences are prose. This is the opposite of the ideal conversational paragraph format."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs that flow conversationally - instead of listing options, weave them into sentences like 'I'd probably start by saying something like...' or 'You could try telling them...'",
+      "Add first-person connection throughout - use phrases like 'I get how overwhelming that feels', 'I'd say the best approach is...', or 'I'm here if you need to talk through it more' to sound like a real person rather than an advice column",
+      "Expand the emotional validation section before giving advice - spend a paragraph acknowledging how stressful and suffocating constant notifications feel before moving to solutions"
+    ]
+  }
+}

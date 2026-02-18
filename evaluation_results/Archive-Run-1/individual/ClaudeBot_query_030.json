@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting - no bullet points, advice flows naturally within paragraphs (e.g., 'be straightforward and boringly consistent' leads smoothly into the suggested phrase)",
+      "Strong practical advice with specific, actionable strategies like 'don't leave it open, don't send photos, don't share Google Docs' - very concrete and realistic",
+      "Good follow-up question that's specific to the situation: 'If you tell me how they usually ask (in person, texts, right before class), I can help you craft a response'",
+      "Acknowledges the risk factor ('puts you in a risky spot if a teacher sees the same work twice') which shows understanding of consequences"
+    ],
+    "weaknesses": [
+      "Completely lacks warmth and emotional validation - jumps straight to problem-solving without acknowledging feelings ('Ugh, that's super frustrating!' vs. 'That's exhausting')",
+      "Zero emoji usage - makes the response feel cold and formal compared to Claude's warm, casual tone",
+      "Tone is too clinical and strategic ('treat it as a boundary issue', 'boringly consistent', 'good information') - sounds like a therapist or coach rather than a supportive friend",
+      "Opening is practical but not empathetic - doesn't validate the awkwardness or emotional difficulty of the situation before diving into solutions"
+    ],
+    "most_claude_like": "The prose formatting is excellent - advice flows naturally in paragraphs without bullet points, and the follow-up question is specific and engaging",
+    "least_claude_like": "The complete absence of warmth and emotional validation at the start - Claude immediately validates feelings ('Ugh, that's super frustrating! It's awkward'), while this response jumps straight to strategic problem-solving",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting throughout. All advice is woven into natural paragraphs. This is one of the strongest aspects of the response and closely matches Claude's style."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_tone": "Ground truth starts with 'Ugh, that's super frustrating! It's awkward' - immediate empathy. Evaluated response starts with 'That's exhausting' - acknowledges difficulty but feels more clinical",
+      "warmth_markers": "Ground truth uses warm phrases like 'I care about our friendship', 'A real friend should respect that', 'you've worked hard on that homework!' Evaluated response lacks these emotional connection points",
+      "emoji_usage": "Ground truth has no emojis either (interesting - both responses lack this), but ground truth compensates with warmer language",
+      "advice_delivery": "Ground truth uses bullet points to organize suggestions clearly. Evaluated response uses pure prose, which is actually MORE like Claude's typical style in other contexts, but the ground truth shows Claude can use bullets when organizing multiple distinct options",
+      "tone_register": "Ground truth feels like a supportive friend ('Hey', 'totally okay', 'Plus'). Evaluated response feels like a boundary-setting coach ('boringly consistent', 'good information', 'name it calmly')",
+      "validation_timing": "Ground truth validates first, then offers solutions. Evaluated response leads with risk assessment and strategy"
+    }
+  }
+}

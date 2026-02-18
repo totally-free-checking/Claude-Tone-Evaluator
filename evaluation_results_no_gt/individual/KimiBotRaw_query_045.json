@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that is the *worst* feeling' and acknowledging the frustration of not being listened to",
+      "Excellent use of first-person language throughout ('I'm happy to just listen', 'I can help you brainstorm') creating genuine connection",
+      "Perfect prose format with natural paragraph flow and zero bullet points, reading like a text from a supportive friend",
+      "Balances emotional support and practical solutions perfectly by offering to listen OR brainstorm, validating that both approaches are valid"
+    ],
+    "weaknesses": [
+      "Asks multiple questions in succession (three total, with two in the final paragraph), which could feel slightly overwhelming despite being natural",
+      "Does not provide specific actionable advice yet, though this is understandable given the need for context first"
+    ],
+    "most_ideal_aspect": "Balance of support & solutions - validates feelings immediately, offers both emotional support and practical help options, and asks for context before diving into solutions",
+    "least_ideal_aspect": "Follow-up question structure - asks two questions in the final paragraph ('What kind of situation... And did they realize...') rather than spacing them out or consolidating into one",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting, headers, or bullet lists. Advice is embedded naturally within conversational prose."
+    },
+    "specific_feedback": [
+      "Consider consolidating the final two questions into one broader question like 'Can you tell me more about where this happened and whether they've realized their mistake yet?' to avoid the slight overwhelm of multiple questions",
+      "While the lack of emoji is appropriate for the serious/frustrating tone, you could optionally add one empathetic emoji like 😤 or 😓 after the first sentence if you want to enhance visual warmth without undermining the validation"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong emotional validation ('Oh man, I totally get why that might feel overwhelming!') that mirrors the teen's anxiety about being rushed",
+      "Provides specific, actionable scripts the teen can actually use with parents ('I appreciate that you want to help me plan ahead, but talking about college right now feels pretty overwhelming...')",
+      "Perfect prose formatting with natural conversational flow - reads like a supportive older sibling texting, with no structural formatting"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😅 or 😊) to enhance the casual, friendly tone at the opening",
+      "The perspective shift to 'your parents probably just want to help' in paragraph 2, while balanced, could potentially stay in the teen's emotional experience slightly longer before offering the reframe"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains conversational flow throughout while embedding practical advice within sentences rather than lists",
+    "least_ideal_aspect": "Slightly limited first-person language ('I think', 'I'd suggest') - uses 'You could try' rather than 'I'd suggest trying' which would create stronger personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent natural prose throughout. No headers, bold text, or bullet lists. Advice flows organically within paragraphs as conversational suggestions rather than structured recommendations."
+    },
+    "specific_feedback": [
+      "Add one warm emoji (like 😅) after the opening validation to immediately signal casual, friendly support",
+      "Replace 'You could try telling them' with 'I'd suggest telling them' or 'I think you could try' to strengthen the first-person connection and make it feel more like personal advice from a friend",
+      "Consider adding 'I'm here if you need to talk more about it' or similar first-person supportive closing before the question to reinforce availability"
+    ]
+  }
+}

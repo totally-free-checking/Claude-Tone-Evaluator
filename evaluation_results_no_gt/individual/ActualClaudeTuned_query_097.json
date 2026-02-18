@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd avoid') creating genuine connection",
+      "Provides specific, realistic scripts the teen can actually use ('I'm really flattered, but I just see us as friends')",
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Opens with immediate emotional validation ('Ugh, that's so awkward!', 'We've all been in that uncomfortable spot')"
+    ],
+    "weaknesses": [
+      "Ends with two questions back-to-back rather than one focused follow-up",
+      "The advice section is slightly longer than the validation section, though still well-balanced"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational first-person language ('I think', 'I'd say') and zero bullet points or over-structuring",
+    "least_ideal_aspect": "Double-barreled ending question (asking both how they asked and if worried about awkwardness simultaneously)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consolidate the final two questions into one focused question, or ask the second one in a follow-up response to keep the conversation flowing naturally",
+      "Consider adding one brief validating phrase in the middle of the advice section to break up the practical tips and maintain emotional connection throughout"
+    ]
+  }
+}

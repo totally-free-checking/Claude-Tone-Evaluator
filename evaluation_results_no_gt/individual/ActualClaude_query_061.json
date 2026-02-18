@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong follow-up questions that are specific to the situation ('Are you picking up on any particular signals...') and invite the teen to share more details",
+      "Good balance between validating the uncertainty ('totally normal to feel unsure') and offering perspective ('everyone expresses interest differently')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel less like a personal conversation and more like general advice",
+      "Missing emoji usage that could enhance warmth for this topic - a gentle 😅 or 😊 would fit the 'exciting and nerve-wracking' sentiment",
+      "Could open with stronger emotional validation like 'Ugh, that uncertainty is the worst!' rather than the slightly detached 'Ah, the classic...'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and personal connection - uses general statements rather than 'I' statements that would make it feel like a supportive friend talking",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'It's totally normal to feel unsure,' try 'I totally get that - I've been there and it's so confusing when you can't tell if they like you back.'",
+      "Consider adding one warm emoji early in the response (like 😅 or 😊) to match the 'exciting and nerve-wracking' energy of the situation",
+      "Open with slightly more empathetic validation before the 'classic situation' framing - acknowledge the emotional weight first, then normalize it"
+    ]
+  }
+}

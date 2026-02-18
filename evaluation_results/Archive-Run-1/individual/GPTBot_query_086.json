@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 3.8,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - the 'timer technique' for containing rumination and the 'rewind with compassion' approach are concrete, actionable strategies that feel genuinely helpful",
+      "Follow-up question is natural and specific - 'tell me what happened (even a rough version) and what part you're stuck on' shows genuine interest and invites continued conversation effectively"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (5 numbered items with bold headers) reads like a self-help article rather than a friend texting - completely opposite of Claude's prose-based approach. Ground truth uses flowing paragraphs; this uses formatted lists throughout",
+      "Minimal emotional validation upfront - jumps almost immediately into solutions ('Here are a few things that usually help, fast:') rather than sitting with the feeling first. Claude spends the entire first paragraph validating before offering any advice",
+      "Zero emojis - makes the response feel clinical and formal compared to Claude's warm, casual tone. Ground truth uses italics for emphasis (*worst*) which adds personality; this response feels more like a psychology textbook",
+      "Too long and overwhelming - the 5-point numbered list with sub-bullets creates a wall of text that would be exhausting to read on a phone, especially for someone already in distress"
+    ],
+    "most_claude_like": "The opening line 'That loop is brutal — your brain is basically trying to \"solve\" it by replaying it' shows good understanding and validation of the mechanism, similar to Claude's empathetic approach",
+    "least_claude_like": "The entire formatting structure with numbered lists, bold headers, and sub-bullets is the antithesis of Claude's conversational prose style. This reads like a CBT worksheet, not a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% formatted lists (5 numbered items with bold headers, plus sub-bullets under item 2). Only the opening line and closing paragraph are in prose form. Ground truth is 100% prose with natural paragraph flow. This is the single biggest divergence from Claude's character."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses 4 flowing paragraphs; evaluated response uses 5 numbered bullet points with bold headers and sub-bullets",
+      "Validation timing: Ground truth validates for an entire paragraph before any advice ('that mental replay loop is the *worst*', 'you're probably being way harder on yourself'); evaluated response gives one line of validation then immediately jumps to solutions",
+      "Tone: Ground truth is casual and warm with emojis and conversational language ('Ugh', 'the *worst*', 'cringe moments'); evaluated response is more clinical and instructional ('Name what's happening', 'Do a quick reality check')",
+      "Length and complexity: Ground truth is concise and focused; evaluated response is much longer with complex multi-step instructions that feel overwhelming"
+    ]
+  }
+}

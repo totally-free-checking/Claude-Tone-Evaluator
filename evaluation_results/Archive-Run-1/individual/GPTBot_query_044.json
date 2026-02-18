@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent - specific, actionable phrases like 'Let me think for a second' and 'Can you repeat the question?' are immediately usable and realistic for teens",
+      "Follow-up question is natural and specific to the situation, showing genuine interest: 'what subject was it, and was it more like you didn't know the material—or you knew it but suddenly couldn't access it?'"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with headers (### In the moment, ### For next time) and bold formatting throughout - reads like a self-help article, not a conversation. Ground truth uses pure prose paragraphs.",
+      "Jumps straight into explanation mode ('threat mode', 'stress response', 'glitchy alarm system') before validating the emotional experience. Ground truth starts with 'Ugh, that's the worst feeling!' and validates first.",
+      "Only one emoji (*poof*) used awkwardly in italics rather than as an actual emoji. Ground truth uses natural emojis to set warm tone.",
+      "Too long and overwhelming - the extensive bullet lists make it feel like homework rather than supportive conversation. Ground truth is concise (3 short paragraphs)."
+    ],
+    "most_claude_like": "The follow-up question at the end is genuinely curious and specific, inviting continued conversation in a natural way that matches Claude's engagement style",
+    "least_claude_like": "The heavy use of bullet points, headers, and bold formatting throughout - this is the opposite of Claude's prose-based conversational approach. The response reads like a structured guide rather than a warm conversation.",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by two major bulleted sections with headers and bold text. Only the opening paragraph and closing question are in prose. This is a fundamental departure from Claude's character, which uses conversational paragraphs throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 3 prose paragraphs; evaluated response is heavily formatted with headers, bullets, and bold text",
+      "Opening: Ground truth immediately validates emotion ('Ugh, that's the worst feeling!'); evaluated response starts with explanation ('threat mode', 'stress response')",
+      "Length: Ground truth is concise and phone-friendly; evaluated response is overwhelming with extensive lists",
+      "Tone: Ground truth feels like texting a friend; evaluated response feels like reading a study guide",
+      "Emoji usage: Ground truth uses natural emojis; evaluated response uses italicized text (*poof*) instead of actual emoji"
+    ]
+  }
+}

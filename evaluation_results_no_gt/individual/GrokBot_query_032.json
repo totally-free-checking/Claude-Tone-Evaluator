@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that sucks so much' and 'I totally get that sinking feeling' that acknowledges the specific anxiety of not knowing why someone is upset",
+      "Strong first-person language throughout ('If I were you, I'd try...', 'I've been there') creating genuine connection rather than impersonal advice",
+      "Provides specific, actionable script ('Hey, everything okay between us? You've seemed a bit off') that teens can actually use in the moment"
+    ],
+    "weaknesses": [
+      "The phrase 'it might not even be something you did' could potentially minimize the teen's intuition, though it balances this by validating that 'it feels way bigger in the moment'",
+      "Slightly verbose in the middle paragraph where it explains why people clam up, though this does provide helpful perspective"
+    ],
+    "most_ideal_aspect": "The conversational prose format and first-person language - it reads exactly like a supportive friend texting, with natural contractions, casual phrasing ('low-key', 'give 'em'), and no bullet points or over-structuring",
+    "least_ideal_aspect": "Nothing significantly diverges from the ideal; if anything, the response could be slightly more concise, but the length is still within the ideal 2-4 paragraph range",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no bullet points, headers, or bold text. Advice flows organically within sentences rather than being listed out"
+    },
+    "specific_feedback": [
+      "Continue providing specific scripts or phrases teens can use, as the 'Hey, everything okay between us?' example is incredibly helpful",
+      "The balance of validation-to-advice ratio is excellent here - maintain this pattern of validating first, then offering the 'If I were you' perspective"
+    ]
+  }
+}

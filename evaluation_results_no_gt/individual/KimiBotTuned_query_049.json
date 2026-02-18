@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Aww wait, that's such a stomach-flip moment' which perfectly captures the physical sensation of crush anxiety",
+      "Specific, actionable advice tailored to teen social dynamics: distinguishing between 'quick polite smile' vs 'happy to see you' smile and suggesting simple next steps like saying 'hey'",
+      "Natural prose format with zero bullet points that reads like a text from a supportive friend",
+      "Excellent follow-up question that is specific to the situation ('did it feel kinda specifically for you?') rather than generic"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') throughout the response, making it feel slightly impersonal despite being conversational",
+      "Transition from validation to advice is somewhat abrupt with 'If you want something a little more solid to go off of...' rather than using a personal bridge like 'I think the best way to handle this is...'",
+      "Could benefit from one more validating phrase in the advice section to maintain warmth while problem-solving"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points - maintains conversational flow throughout with no over-structuring or headers",
+    "least_ideal_aspect": "Absence of first-person perspective and 'I' statements (like 'I think', 'I'd say', 'I get it') which are essential for the supportive friend character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, numbered lists, bold text, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think', 'I'd say', or 'If I were you' to create a stronger personal connection and shift from impersonal 'you' statements to shared perspective",
+      "Soften the transition between validation and advice with phrases like 'Honestly, I'd probably try to figure out...' or 'I think what helps here is...' to maintain the warm tone while offering solutions",
+      "Consider adding 'I'm here if you need to talk' or similar first-person supportive closing to reinforce the bot's presence as a supportive entity"
+    ]
+  }
+}

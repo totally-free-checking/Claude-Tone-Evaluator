@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - offers concrete phrases like 'I've noticed you've been talking about people differently lately' and 'I'm not saying you're a bad person. I'm saying this has been hard to watch'",
+      "Follow-up questions are detailed and specific to the situation, asking about age, type of mean behavior, and whether changes are context-dependent"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), ### 2), etc.) and bullet points throughout - completely opposite of Claude's prose-based approach. Ground truth uses minimal formatting while this response is structured like a self-help article",
+      "Opens with validation ('That's a really crappy spot to be in') but immediately jumps into numbered advice without the warm, empathetic paragraph that Claude provides. Missing the emotional cushioning and reassurance that characterizes Claude's approach",
+      "Zero emojis - makes the response feel more formal and less like a supportive conversation, especially compared to Claude's natural emoji use",
+      "Length is excessive and overwhelming - 5 numbered sections with multiple sub-bullets creates a wall of text that's harder to digest on a phone compared to Claude's 2-4 focused paragraphs"
+    ],
+    "most_claude_like": "The specific dialogue examples and phrases provided ('I miss the way we used to be', 'Are you doing okay? I'm here—no judgment') match Claude's approach of giving teens exact words they can use",
+    "least_claude_like": "The heavy use of numbered headers and bullet points throughout - this is formatted like a structured guide rather than a conversational response. Claude's ground truth uses prose paragraphs with only minimal bold headers for key concepts",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by 5 numbered sections with headers, each containing multiple bullet points. Only the opening line and transitions between sections are in prose form. This is the opposite of Claude's approach which uses continuous paragraphs with natural flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses 2-3 paragraphs of prose with minimal formatting (4 bold phrases embedded in text) vs. evaluated response uses 5 numbered sections with headers and 15+ bullet points",
+      "Emotional tone: Ground truth leads with substantial validation ('That's such a tough situation to watch. It can be really hard when you see someone you care about changing...') while evaluated response gives one line of validation then immediately structures into advice sections",
+      "Length and density: Ground truth is concise and focused (4 main points woven into conversation) vs. evaluated response is comprehensive but overwhelming (5 detailed sections with multiple sub-points)",
+      "Emoji usage: Ground truth would typically include 1-2 emojis for warmth; evaluated response has none, making it feel more formal"
+    ]
+  }
+}

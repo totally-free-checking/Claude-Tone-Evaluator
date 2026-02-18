@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates genuine connection ('I'd be ready to snap too', 'If I were you, I'd try', 'I'm so sorry')",
+      "Perfect prose formatting with zero bullet points - reads exactly like a supportive friend texting",
+      "Specific actionable advice including exact script wording the teen can use ('I'm not okay with you going through my things...')"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched with the word 'infuriating' (😅 typically conveys nervousness/awkwardness rather than anger/frustration)",
+      "The advice paragraph is slightly dense - could benefit from being broken into two smaller paragraphs for better readability on mobile"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with consistent first-person perspective ('I think', 'I'd say', 'If I were you') that makes it feel like a real person rather than an AI",
+    "least_ideal_aspect": "Emoji selection doesn't perfectly match the emotional intensity described (using a nervous/awkward emoji for an 'infuriating' situation)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using 😤 or 😠 instead of 😅 when describing anger/frustration, or omit the emoji entirely for serious boundary violations",
+      "Break the third paragraph (advice section) into two smaller paragraphs after the quoted script to improve mobile readability while maintaining prose format",
+      "Continue the excellent use of 'If I were you' and 'I'd' phrasing - this first-person approach is exactly what makes the response feel supportive and personal"
+    ]
+  }
+}

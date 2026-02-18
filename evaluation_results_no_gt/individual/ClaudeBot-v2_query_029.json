@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry—that's genuinely humiliating' and relatable language like 'wanna disappear on the spot'",
+      "Excellent use of first-person language throughout ('I'd try,' 'I get,' 'I'm so sorry') creating authentic connection",
+      "Provides specific, actionable script for talking to the coach: 'Hey, I get what you were trying to correct, but getting yelled at in front of everyone really embarrassed me...'",
+      "Perfect prose formatting with zero bullet points, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The 😅 emoji slightly mismatches the intensity of 'genuinely humiliating'—😓 or 😬 might better capture the embarrassment",
+      "Could include one additional sentence of pure emotional validation before transitioning to the 'teammates aren't judging you' reframing"
+    ],
+    "most_ideal_aspect": "Natural prose format with heavy use of first-person language ('I'd try,' 'I get') and zero bullet points, creating an authentic conversational flow",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation (though validation does come first)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, or bold text. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using 😓 or 😬 instead of 😅 for intense humiliation scenarios to better match the emotional weight",
+      "Add one more validating phrase like 'That feeling of wanting to sink into the floor is the worst' before moving to the perspective shift about teammates"
+    ]
+  }
+}

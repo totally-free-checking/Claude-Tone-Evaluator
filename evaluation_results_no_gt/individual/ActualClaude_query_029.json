@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Oof, that sounds really tough and embarrassing' and 'It's totally normal to feel upset about this - anyone would!'",
+      "Good follow-up questions at the end that are specific to the situation ('is this a pattern with this coach or more of a one-off thing?')",
+      "Offers realistic, actionable advice for a teen's agency level (talking to teammates, considering a private conversation with coach)"
+    ],
+    "weaknesses": [
+      "Uses a bullet point list ('When you're ready, it might help to think about:' followed by three bullets) instead of natural prose paragraphs as required",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'it might help to think about' and 'sometimes coaches think'",
+      "Could benefit from slightly more warmth in the middle section which feels somewhat clinical"
+    ],
+    "most_ideal_aspect": "The follow-up questions at the end are natural, conversational, and show genuine interest in the specific details of the teen's situation",
+    "least_ideal_aspect": "The use of bullet points to deliver advice instead of flowing prose paragraphs - this reads like a self-help checklist rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Uses 'When you're ready, it might help to think about:' followed by a bulleted list of three questions/advice points. This is exactly the red flag pattern mentioned in the instructions ('Here are X ways to handle this:' followed by numbered items). The bullets break the conversational flow and make it feel structured rather than like texting with a friend."
+    },
+    "specific_feedback": [
+      "Convert the bullet point section to natural prose: instead of 'When you're ready, it might help to think about:' followed by bullets, write something like 'I'd suggest taking some time to think about whether this was a specific trigger or if your coach has a habit of being harsh. Maybe you could even have a private conversation with them to clear the air, or talk to teammates you trust for perspective.'",
+      "Add first-person language throughout to create connection: use phrases like 'I get how humiliating that feels,' 'I'd say give yourself some time to process first,' or 'I'm here if you need to talk more about it.'",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to enhance the supportive tone, or ensure the language conveys slightly more personal warmth to compensate for the absence of emojis."
+    ]
+  }
+}

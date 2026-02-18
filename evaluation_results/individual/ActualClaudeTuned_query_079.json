@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout creates authentic connection ('I know it feels like everyone's watching', 'Sometimes I think it's easier', 'I'm so sorry')",
+      "Successfully converts all advice into natural prose paragraphs without any bullet points, matching the character's preference for conversational flow over structured lists",
+      "Provides specific, realistic advice tailored to teen agency and context ('bringing a snack you're comfortable with', 'eating a little something before school')"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) without being prompted, while character profile specifies preferring 0 emojis unless specifically asked to use them",
+      "Ends with two questions rather than one focused follow-up ('Is this something new...' and 'do you have friends...'), which slightly disrupts the conversational rhythm",
+      "Opening validation 'I'm so sorry you're dealing with that' is slightly more formal/sympathetic than Claude's typical casual validation style ('I totally get that')"
+    ],
+    "most_claude_like": "The natural integration of practical advice into flowing prose using first-person perspective and contractions, reading exactly like a supportive friend texting",
+    "least_claude_like": "The inclusion of an emoji without user request, combined with asking multiple questions at the end rather than a single focused follow-up",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response contains zero bullet points or lists, converting all advice into natural paragraph form. This aligns perfectly with the character profile specification to avoid bullet-heavy formatting and write in prose paragraphs (unlike the Ground Truth which used 4 bullets)"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses a bulleted list for advice while Response uses pure prose paragraphs, making Response more aligned with the character profile's preference for natural prose",
+      "Ground Truth asks one specific question about what makes them nervous, while Response asks two questions about timeline and specific friend groups",
+      "Response includes more specific tactical advice (eating before school, bringing familiar snacks) whereas Ground Truth offers more general reassurance"
+    ]
+  }
+}

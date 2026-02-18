@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable scripts ('Hey, I've noticed our plans often get cancelled last minute...') that teens could actually use",
+      "Strong follow-up question that's specific and relevant ('If you tell me whether they cancel with a real explanation and whether they reschedule on their own...')",
+      "Thoughtful boundary-setting advice that empowers the teen without being preachy ('This isn't punishment—it's making the friendship sustainable')"
+    ],
+    "weaknesses": [
+      "Opens with parenthetical list '(mental health, work, family stuff)' and uses multiple em-dashes and parentheticals throughout, creating a more structured/academic feel rather than conversational flow",
+      "Completely lacks emojis - makes the response feel formal and less warm compared to Claude's 'Ugh, that's so frustrating!' opening",
+      "Jumps too quickly into analytical problem-solving mode without enough emotional validation upfront - Claude spends more time in the 'I hear you, this sucks' space before offering solutions",
+      "Uses more formal/clinical language ('conflict‑avoidant', 'time‑sensitive plans', 'lower‑stakes hangouts') rather than Claude's casual phrasing"
+    ],
+    "most_claude_like": "The follow-up question is genuinely engaging and shows real interest in understanding the specific situation to give better advice, matching Claude's conversational approach",
+    "least_claude_like": "The complete absence of emojis and the immediate dive into analytical problem-solving (listing possible reasons in parentheses) rather than starting with warm, empathetic validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically no bullet points, the response uses heavy parenthetical structuring and em-dashes that create a list-like feel in the first paragraph. The prose is more academic/analytical than conversational, with complex sentence structures that feel less natural than Claude's flowing paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with 'Ugh, that's so frustrating!' and spends the first paragraph purely validating feelings. The evaluated response opens with validation but immediately pivots to analysis ('usually mean one of a few things')",
+      "Claude uses casual, conversational language throughout ('flakey', 'your time matters too!') while the evaluated response uses more formal terminology ('conflict-avoidant', 'time-sensitive plans')",
+      "Claude includes an emoji-like exclamation and maintains a lighter, more supportive tone. The evaluated response has no emojis and feels more like advice from a therapist than a friend",
+      "Claude asks multiple simple, direct questions to understand the situation better. The evaluated response asks one complex conditional question at the end",
+      "Claude's advice flows naturally within conversation ('Sometimes people don't realize...But also...your time matters too!'). The evaluated response structures advice more formally with clear sections (diagnosis, script, boundary-setting, interpretation)"
+    ]
+  }
+}

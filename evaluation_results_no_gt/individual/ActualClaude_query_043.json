@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use (\"Hey, I've been feeling a bit confused about [situation]...\")",
+      "Opens with immediate emotional validation (\"That's such a tough spot to be in!\") that acknowledges the difficulty of uncertainty"
+    ],
+    "weaknesses": [
+      "Uses heavy formatting with bold headers (**The soft opener:**, **Give them an easy out:**, **Direct but kind:**) that reads like a self-help article rather than natural conversation",
+      "Completely lacks first-person language (no \"I think,\" \"I'd say,\" or \"I get it\") making it feel instructional rather than personal",
+      "Ends with two questions at once (\"What's your gut telling you...\" and \"How do you think your friend...\") which feels overwhelming rather than naturally conversational"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides three distinct, realistic conversation starters that a teen could actually use",
+    "least_ideal_aspect": "Natural prose formatting - uses bold headers and structured list format instead of flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response uses three bold headers (**The soft opener:**, **Give them an easy out:**, **Direct but kind:**) that function as bullet points, preceded by 'A few gentle approaches you could try:' which explicitly signals a list format. Only the opening and closing are true prose."
+    },
+    "specific_feedback": [
+      "Convert the three bold headers into flowing prose paragraphs that naturally introduce the scripts (e.g., 'If you want to ease into it, you could try saying something like...')",
+      "Add first-person language throughout, such as 'I think the key here is...' or 'I'd probably start with...' to create personal connection",
+      "Choose one follow-up question instead of two - either ask about their gut feeling OR how the friend handles direct questions, not both",
+      "Remove the transitional phrase 'A few gentle approaches you could try:' which signals a formal list structure"
+    ]
+  }
+}

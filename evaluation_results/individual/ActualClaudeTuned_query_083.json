@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'If I were you', 'I'd maybe try') creating a personal, supportive voice",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs rather than being listed",
+      "Opens with immediate emotional validation ('Ugh, that's like one of the most confusing situations ever') and normalizes the experience ('everyone has been there')"
+    ],
+    "weaknesses": [
+      "Could potentially include slightly more emotional validation before transitioning to advice (currently about 25% validation, 75% advice)",
+      "The phrase 'more touchy' when describing physical proximity is slightly less precise than the ground truth's 'light touching (like on the arm)'"
+    ],
+    "most_claude_like": "The natural conversational prose format combined with consistent first-person perspective ('If I were you, I'd...') makes it feel like texting with a supportive friend rather than reading a guide",
+    "least_claude_like": "While the content is excellent, it lacks the structured 'Possible flirting signs' list present in the ground truth, though this actually aligns better with the character profile's preference for prose over bullets",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points, headers, or bold text. Advice is woven naturally into conversational sentences rather than being listed, which aligns perfectly with the character profile's preference for prose over formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points and bold headers for flirting signs; Response integrates all advice into flowing prose paragraphs",
+      "Response uses significantly more first-person language ('I think', 'If I were you') compared to ground truth's more impersonal lists",
+      "Response ends with a more detailed, specific question offering an either/or choice ('specific things... or general vibe') versus ground truth's broader question"
+    ]
+  }
+}

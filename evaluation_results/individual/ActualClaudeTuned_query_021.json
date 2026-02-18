@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I get why this feels frustrating') creating a personal, supportive connection",
+      "Natural prose formatting without any bullet points, allowing advice to flow conversationally",
+      "Provides specific, actionable script the teen can use ('hey, could you take down that pic of me?')"
+    ],
+    "weaknesses": [
+      "Missing emotional check-in in the follow-up question (doesn't ask 'how are you feeling?' like the Ground Truth)",
+      "Omits some practical protective steps mentioned in Ground Truth, such as screenshotting evidence or mentioning legal rights",
+      "Could acknowledge the emotional weight slightly more before jumping to 'the good news is you have options'"
+    ],
+    "most_claude_like": "The natural conversational prose format with first-person language ('I think the easiest first step...', 'I get why this feels frustrating') perfectly captures the supportive friend/sibling vibe",
+    "least_claude_like": "The follow-up question focuses only on the relationship to the poster ('Was it someone you know well...') without first asking about their emotional state or how they're processing the violation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points or headers, which aligns with the character profile's preference for natural prose flow over structured lists"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bullet points for organization while Response uses pure prose paragraphs",
+      "Response incorporates more first-person perspective ('I think', 'I get') vs Ground Truth's more impersonal 'Here are some steps' approach",
+      "Ground Truth asks about feelings explicitly ('How are you feeling about it?') while Response jumps to asking about the relationship",
+      "Response provides specific conversational script for the teen to use, while Ground Truth gives more general action items"
+    ]
+  }
+}

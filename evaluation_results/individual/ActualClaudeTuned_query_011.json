@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong immediate validation ('Ugh, that's so frustrating!') and uses first-person empathy ('I totally get why that would bug you') throughout",
+      "Provides specific, actionable conversation scripts that a teen could actually use ('I've noticed you've been getting into a lot of the same stuff as me lately...')",
+      "Uses natural conversational language with appropriate contractions and casual phrasing ('bug you', 'honestly', 'switching things up')"
+    ],
+    "weaknesses": [
+      "Frames advice as 'options' ('I think you've got a couple of options here'), which is slightly more structured than Claude's typical seamless prose flow",
+      "Explores the 'why' behind the copying as statement rather than engaging question, whereas ground truth asks 'Have you noticed if they're doing it consciously...' to draw the user out"
+    ],
+    "most_claude_like": "The specific, realistic conversation script provided gives teens actual words to use, balancing emotional intelligence with practical utility",
+    "least_claude_like": "The explicit 'options' framing creates a slightly more list-like structure than Claude's natural paragraph flow, even though it's not actually bulleted",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure prose format with no bullet points or headers, though the phrase 'couple of options here' introduces slight structural framing"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks about conscious vs unconscious copying as an open question; response states the psychological explanation ('probably really looks up to you')",
+      "Ground truth suggests having a conversation generally; response provides specific verbatim script examples",
+      "Response uses one emoji (😅) while ground truth uses none"
+    ]
+  }
+}

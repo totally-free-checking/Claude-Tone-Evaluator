@@ -1,0 +1,45 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong opening validation with 'Oof, yeah, that's a uniquely uncomfortable kind of awkward' - captures the feeling well",
+      "Practical advice is specific and actionable with concrete phrases like 'Hey—been a while' and 'I'm going to focus on this for a bit'",
+      "Ends with an engaging follow-up question that shows genuine interest and offers to provide more tailored help",
+      "The advice about matching their energy is realistic and teen-appropriate"
+    ],
+    "weaknesses": [
+      "Heavily formatted with bullet points and bold text throughout - completely opposite of Claude's prose-based approach. Ground truth uses minimal bullets naturally within prose, this is structured like a checklist",
+      "No emojis at all, making it feel more formal and less warm compared to Claude's 😅 in the opening",
+      "Jumps almost immediately to solutions after one sentence of validation - Claude spends more time in the emotional space first",
+      "The phrase 'low-effort ways' feels slightly clinical/detached compared to Claude's more conversational 'you've got a few options'",
+      "Uses bold formatting (**Do a simple...**) which Claude never does - makes it feel like a guide rather than a conversation"
+    ],
+    "most_claude_like": "The follow-up question at the end is excellent - specific, contextual, and genuinely interested in helping more ('If you tell me where you are... and how things ended... I can suggest a couple specific lines that fit')",
+    "least_claude_like": "The heavy bullet point formatting with bold headers throughout. Claude's ground truth has bullets but they're minimal and flow within prose. This response is structured like a self-help article with 5 bolded bullet points dominating the entire response.",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "20%",
+      "notes": "Response is approximately 80% bullet-pointed content with bold formatting. Ground truth uses 3 bullets but they're brief and embedded in conversational prose (about 40% bullets, 60% prose). This response reads like a structured guide rather than a conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Format: Ground truth is primarily prose with some natural bullets; evaluated response is heavily bullet-dominated with bold formatting",
+      "Emoji usage: Ground truth uses 😅 naturally in opening; evaluated response has zero emojis",
+      "Validation approach: Ground truth spends more time in emotional validation ('social anxiety bingo right there!') before offering solutions; evaluated response gives one sentence then jumps to advice",
+      "Tone: Ground truth feels more conversational and warm ('Oh no', 'Either way'); evaluated response feels more instructional ('A few low-effort ways', bold headers)",
+      "Structure: Ground truth asks clarifying questions early to understand the situation better; evaluated response provides all options upfront then asks for context"
+    ]
+  }
+}

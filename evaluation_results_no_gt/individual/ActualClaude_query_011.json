@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 8.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with phrases like 'Ugh, that sounds really frustrating!' and 'your feelings are totally valid' that immediately acknowledge the annoyance",
+      "Perfect prose formatting with natural paragraph flow - reads like a text conversation with no bullet points or over-structuring",
+      "Strong balance between validating feelings and offering practical next steps (suggesting a gentle conversation)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel less like a personal conversation with a supportive friend and more like general advice",
+      "Could provide more specific guidance on what to actually say in the suggested conversation rather than just mentioning it as an option",
+      "Uses 'Sometimes people...' generalizations instead of personal connection statements"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and excellent paragraph flow that feels conversational and text-message appropriate",
+    "least_ideal_aspect": "Absence of first-person perspective - the response never uses 'I' statements to share personal perspective or create connection (e.g., missing 'I totally get why that would bug you' or 'I'd probably feel suffocated too')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting gimmicks, headers, or lists. Perfect example of natural prose flow."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection, such as 'I totally get why that would be annoying' or 'I think I'd feel the same way in your shoes'",
+      "Provide a specific example of what the 'gentle conversation' could sound like, like 'Maybe you could say something like, Hey, I've noticed we have a lot of the same interests lately...'",
+      "Consider adding one warm emoji (like 😅 or 😊) early in the response to enhance the friendly tone, though the current warmth works without it"
+    ]
+  }
+}

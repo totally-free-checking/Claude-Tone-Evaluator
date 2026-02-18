@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('That hurts, and it makes total sense you'd feel...') that immediately normalizes the teen's embarrassment",
+      "Ends with an excellent specific follow-up question asking about the context (school/work/party) and details of what they saw, showing genuine interest in continuing the conversation",
+      "Provides concrete, realistic advice including an exact script ('Hey, do you want to grab coffee sometime?') that's appropriate for teen agency"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (6 total bullet points) with bold formatting (**Name the feeling**, **Reality-check**) that reads like a self-help article rather than a text conversation",
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' 'I get it,' or 'I'm here' which makes it feel impersonal and detached rather than like a supportive friend",
+      "Uses clinical/therapeutic language like 'your brain just did a very normal thing' and 'Name the feeling' which feels more like a psychology worksheet than casual peer support"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is exemplary - it's specific to the situation, asks for details about where it happened and what they observed, and naturally invites the teen to continue sharing",
+    "least_ideal_aspect": "The formatting is excessively structured with bullet points, numbered lists, and bold text throughout, completely breaking the conversational flow that should read like natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "35%",
+      "notes": "Response contains a 3-item bullet list ('They could just be friends...') and a 3-step numbered list with bold headers ('1) Name the feeling...'). Heavy use of bold formatting (**text**) creates a structured, instructional feel rather than conversational flow."
+    },
+    "specific_feedback": [
+      "Convert all bullet points and numbered lists into flowing prose paragraphs - instead of listing '1) Name the feeling 2) Reality-check...', write it as a natural sentence like 'I'd start by just naming what you're feeling, then maybe reality-check that story you're telling yourself...'",
+      "Add first-person language throughout to create connection - use phrases like 'I totally get that sinking feeling,' 'I'd probably feel the same way,' or 'I'm here if you need to talk through it' to sound like a real person rather than an advice column",
+      "Remove the bold formatting and clinical framing ('your brain did a normal thing') and replace with casual validation like 'Ugh, that's such a gut-punch feeling' to maintain the warm, friend-like tone throughout"
+    ]
+  }
+}

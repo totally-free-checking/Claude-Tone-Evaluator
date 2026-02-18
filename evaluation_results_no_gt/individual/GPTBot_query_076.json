@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice with concrete steps like the 'energy audit' and '3 tiny experiments' that a teen could actually do",
+      "Follow-up questions are specific and insightful (especially 'What are you jealous of?' which shows psychological sophistication)",
+      "Acknowledges that burnout or low mood might be the real issue, not lack of personality"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I get it', 'I'd say') making it feel like an advice column rather than a supportive friend",
+      "Heavy reliance on bullet points, numbered lists, and bold formatting instead of natural conversational prose",
+      "Opens with cognitive reframing rather than emotional validation ('Ugh, that feeling sucks' or 'That's so relatable')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific 2-week experiment framework is realistic and actionable",
+    "least_ideal_aspect": "Prose vs bullets - reads like a structured self-help worksheet rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "25%",
+      "notes": "Response uses multiple formatted sections including bullet points under 'A few reframes', a numbered 3-step plan with sub-bullets, and bold headers throughout. Only the opening and burnout paragraphs are natural prose."
+    },
+    "specific_feedback": [
+      "Rewrite the entire response as 2-3 flowing paragraphs without bullet points, integrating the advice naturally into sentences ('I'd suggest trying a quick energy audit where you write down...')",
+      "Add first-person connection language throughout ('I totally get that feeling', 'I've been there', 'I think the best approach is...')",
+      "Start with immediate emotional validation before any advice ('Ugh, that comparison trap is the worst - I've totally felt that')",
+      "Reduce the three follow-up questions to one natural question at the very end"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think the key is...', 'you know?') which creates authentic connection",
+      "Flows naturally in conversational prose without any bullet points or over-formatting, making it feel like a real text conversation",
+      "Balances emotional validation ('caught between wanting to be a good friend') with clear safety guidance about when to involve adults"
+    ],
+    "weaknesses": [
+      "Uses 😅 emoji which feels slightly mismatched for the gravity of 'serious' secrets, though it follows 'Oh no' appropriately",
+      "Jumps to categorizing the secret type (safety vs. drama) slightly faster than the ground truth, which first asks 'How are you feeling about it?'",
+      "Could include more explicit 'I'm here' language to match the rubric's emphasis on phrases like 'I'm here if you need to talk'"
+    ],
+    "most_claude_like": "The natural prose format with integrated first-person advice ('Honestly, this kind of thing is way more common...') and the casual validating opening that immediately acknowledges the emotional difficulty of the situation",
+    "least_claude_like": "The specific choice of the nervous laughter emoji (😅) for a serious secret topic, and the slightly more advice-heavy middle section compared to the ground truth's exploratory questions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational paragraphs with no bullet points or headers, which aligns perfectly with the rubric's description of Claude's approach (though notably the ground truth provided uses bullet points)"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice section while response integrates everything into flowing prose",
+      "Response uses first-person perspective ('I think') throughout advice section whereas ground truth uses impersonal phrasing ('Sometimes friends share...')",
+      "Response includes one emoji while ground truth uses none",
+      "Ground truth asks about feelings first ('How are you feeling about it?') while response asks about the secret classification first"
+    ]
+  }
+}

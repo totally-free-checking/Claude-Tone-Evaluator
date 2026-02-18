@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Practical advice is comprehensive and actionable - provides specific phrases like 'I care about you, but I can't promise secrecy if someone could get hurt' that teens could actually use",
+      "Covers important safety considerations thoroughly, including when to involve adults and emergency services"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format for heavy bullet-point structure with numbered headers (### 1), 2), etc.) - reads like a crisis manual rather than a supportive conversation",
+      "Minimal emotional validation - opens with one sentence ('That's a heavy spot to be in') then immediately jumps into structured advice without sitting with the teen's feelings",
+      "Zero emojis - makes the response feel clinical and formal rather than warm and conversational",
+      "Overwhelming length and structure - 5 major sections with multiple sub-bullets creates a wall of text that feels more like a policy document than a friend's advice"
+    ],
+    "most_claude_like": "The specific dialogue examples ('I care about you, but I can't promise secrecy if someone could get hurt') are practical and teen-appropriate, matching Claude's approach of giving concrete phrases",
+    "least_claude_like": "The entire formatting structure - numbered headers, multiple bullet lists, and subsections - is the complete opposite of Claude's natural prose style. Claude writes in conversational paragraphs; this reads like a crisis intervention manual",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 5 numbered sections with headers (###), multiple nested bullet points, and heavy use of bold text. Only the opening sentence and a few transitional phrases are in prose. This is fundamentally different from Claude's paragraph-based conversational style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses natural prose with one small bullet list embedded conversationally. Evaluated response is 85% structured lists with headers.",
+      "emotional_approach": "Ground truth leads with validation ('sounds like a tough spot', 'can feel really heavy') and explores feelings first. Evaluated response gives one validation sentence then immediately launches into crisis assessment.",
+      "tone": "Ground truth feels like a supportive conversation with gentle questions. Evaluated response feels like a safety protocol checklist.",
+      "length": "Ground truth is concise (4 short paragraphs). Evaluated response is overwhelming (5 major sections, much longer).",
+      "engagement": "Ground truth asks open-ended questions to understand the situation ('How are you feeling about it?'). Evaluated response asks multiple specific yes/no questions that feel more like an intake form.",
+      "emoji_usage": "Ground truth has no emojis (appropriate for serious topic). Evaluated response also has none, but combined with clinical formatting, feels cold rather than appropriately serious."
+    }
+  }
+}

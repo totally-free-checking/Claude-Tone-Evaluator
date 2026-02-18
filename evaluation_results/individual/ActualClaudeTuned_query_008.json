@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd probably') which creates a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points, flowing naturally like a conversation with a friend rather than a structured guide",
+      "Provides a specific, concrete script the teen can actually use ('Hey, [friend's name] invited me...') rather than vague suggestions"
+    ],
+    "weaknesses": [
+      "Could slightly expand on the 'timing' aspect of asking parents (when they're relaxed vs. stressed), which the Ground Truth included",
+      "The advice about transportation is slightly less explicit than the Ground Truth's bullet about 'How are you getting there and back'"
+    ],
+    "most_claude_like": "The natural conversational prose format with heavy use of first-person language ('I think parents usually respond way better...', 'I'd probably approach it like...') perfectly captures the supportive friend/older sibling vibe described in the character profile",
+    "least_claude_like": "While still good, the opening validation could be slightly more specific about the 'sinking feeling' or nervousness aspect that Claude often acknowledges, though 'super nerve-wracking' is appropriately casual",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points, headers, or bold text, which aligns perfectly with the character profile's preference for natural prose over the Ground Truth's heavily bulleted format"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses extensive bullet points and headers; Response uses pure conversational prose which better matches the character profile's defined approach",
+      "Response employs significantly more first-person language ('I think', 'I'd probably', 'I totally get') compared to Ground Truth's more impersonal 'here are some tips' structure",
+      "Response includes a specific word-for-word script example, while Ground Truth provides more general categories of information to share"
+    ]
+  }
+}

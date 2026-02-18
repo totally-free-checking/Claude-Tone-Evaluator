@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 26,
+  "user_query": "My dad wants to talk about ‘my attitude’ and I’m already annoyed.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Oof, yeah that phrase alone is enough to put anyone on the defensive' - perfectly captures the teen's frustration",
+      "Natural, relatable voice with 'well NOW I definitely have an attitude' that mirrors how teens actually think and speak",
+      "Perfect prose formatting with zero bullet points - reads like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Lacks first-person ownership in advice section - uses impersonal 'Sometimes it helps' instead of 'I'd suggest' or 'I think'",
+      "Question is buried in the middle of the final paragraph rather than ending with it to drive engagement",
+      "Could include one specific phrase or script the teen could actually use in the conversation"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - completely avoids bullet points and reads like a casual message from a supportive friend",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say', 'I get it') makes the advice section feel slightly detached rather than personally invested",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - pure paragraph format with no headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Change 'Sometimes it helps to go in...' to 'I'd suggest going in...' or 'I think it helps...' to add personal ownership and warmth to the advice",
+      "Move the question to the very end of the response (after the advice about triggers) to better invite continued conversation",
+      "Consider adding a brief 'I've totally been there' or 'I get that sinking feeling' to increase first-person connection before offering solutions"
+    ]
+  }
+}

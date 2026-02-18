@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong empathetic metaphor ('live grenade') that immediately validates the awkwardness of the situation",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I accidentally learned something about you...', 'I can tell you're processing something heavy')",
+      "Ends with a natural, engaging follow-up question that shows genuine interest in the specifics of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bold headers (**Zip it**, **Consider the source**, etc.) creates a structured, manual-like feel instead of conversational prose",
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') makes it feel impersonal despite casual word choice",
+      "Uses detached framing like 'Here's the usual playbook' rather than personal perspective"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and specific actions tailored to different scenarios (overhearing vs. direct confession)",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses four bold headers that function as bullet points, creating a checklist format rather than flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "38%",
+      "notes": "Response uses bold headers (**Zip it, obviously**, **Consider the source**, **Act normal**, **Set boundaries if needed**) that function as bullet points, with explanatory text under each. Only the opening two paragraphs and closing question are true prose."
+    },
+    "specific_feedback": [
+      "Convert bold headers into flowing prose with first-person perspective: instead of '**Zip it, obviously.**', try 'I'd definitely keep it to yourself, even if you're dying to talk about it with someone else'",
+      "Add first-person language throughout to create connection: 'I think the best approach is...', 'I'd probably act normal and give them space...', 'I get how stressful that must feel'",
+      "Consider adding one warm emoji (like 😅 or 😬) in the opening paragraph to enhance the casual, friendly tone"
+    ]
+  }
+}

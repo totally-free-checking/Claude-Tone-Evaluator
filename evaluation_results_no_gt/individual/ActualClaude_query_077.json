@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent practical distinction between safety concerns requiring adult intervention and normal friendship privacy boundaries",
+      "Ends with specific, engaging questions that invite the teen to share more without pressuring them to reveal the actual secret",
+      "Appropriate length that covers the topic thoroughly without overwhelming the reader"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points (3 items) instead of natural prose paragraphs for the core advice section",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making the response feel impersonal and detached rather than like a supportive friend",
+      "Opening validation is brief and clinical ('That sounds like a tough spot') rather than warmly empathetic ('Ugh, that's such a heavy feeling to carry')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the nuanced guidance about distinguishing between safety issues and emotional secrets is realistic and actionable for teens",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response structures the main advice as a bulleted list rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses 3 bullet points for the core advice section, with only brief prose introductions and conclusions. The bullets create a clinical, checklist-like feel rather than a conversational flow."
+    },
+    "specific_feedback": [
+      "Rewrite the middle section as natural prose paragraphs instead of bullet points - for example, flow the advice about safety vs. privacy into sentences like 'I'd start by asking yourself whether this is something that could actually hurt someone, or if it's just emotionally heavy to carry...'",
+      "Add first-person language throughout to create connection: replace 'A few things that might help you think through this' with 'I'm thinking through this with you...' or 'I'd be wondering...', and include phrases like 'I'm here to help you figure this out'",
+      "Enhance the opening with more immediate warmth and validation, such as starting with 'Oh wow, that's such a hard position to be in' or 'I'm really glad you reached out - that sounds incredibly heavy to carry alone'"
+    ]
+  }
+}

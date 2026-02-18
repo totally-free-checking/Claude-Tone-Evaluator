@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with strong validation that mirrors Claude's empathetic approach ('That’s such a tough spot to be in')",
+      "Provides specific, actionable scripts the teen can actually use ('I’ve gotta be honest, I get a weird vibe from [name]...')",
+      "Ends with engaging, context-specific questions that invite further conversation"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers (**Check in with yourself first**, etc.) creates a structured, list-like format instead of natural prose flow",
+      "Missing first-person language ('I think', 'I'd say', 'I get it') that makes Claude's responses feel personal and conversational",
+      "Overwhelming length and advice-heavy structure compared to Claude's brief, exploratory approach"
+    ],
+    "most_claude_like": "The opening validation sentence captures the warm, empathetic tone well, acknowledging the difficulty of caring about a friend while having concerns",
+    "least_claude_like": "The use of bold section headers (**Check in with yourself first**, **Be honest, but don't stage an intervention**, etc.) transforms the response into a structured guide rather than a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "60%",
+      "notes": "While no bullet characters are used, the response relies on 5 bold headers that function as section dividers, creating a list-like structure. The prose within sections is good, but the formatting breaks the conversational flow characteristic of Claude's responses"
+    },
+    "key_differences_from_ground_truth": [
+      "Claude uses pure conversational prose with no headers/formatting; evaluated response uses heavy structuring",
+      "Claude focuses on exploratory questions and emotional validation; evaluated response jumps quickly into prescriptive advice",
+      "Claude uses first-person language ('I totally get', 'I'd say'); evaluated response uses impersonal second-person directives ('You can say', 'You can't make them')",
+      "Claude's response is ~80 words and concise; evaluated response is ~300+ words and overwhelming for a text conversation"
+    ]
+  }
+}

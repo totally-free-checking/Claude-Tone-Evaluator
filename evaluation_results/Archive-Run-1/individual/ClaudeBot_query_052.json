@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable script: 'I've realized I need to step away from this...' - this is concrete and immediately usable",
+      "Strong follow-up question that's specific and relevant: 'If you tell me what kind of activity this is... I can help you craft a message' - shows genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points ('A few frames that often help:' followed by three bullets) - Claude writes in pure prose, not lists",
+      "Completely missing emojis - Claude uses 1-2 emojis naturally to set a warm tone, this response has zero",
+      "Jumps straight into analytical framework ('A useful first distinction is...') before adequately validating the emotional experience - Claude validates feelings first",
+      "Overly clinical/therapeutic language ('frames', 'distinction', 'boundary') - Claude is more casual and conversational"
+    ],
+    "most_claude_like": "The specific exit script and offer to help craft a message based on the situation - this is exactly the kind of practical, actionable advice Claude provides",
+    "least_claude_like": "The bullet-pointed 'frames' section and complete absence of emojis - Claude writes in conversational prose with natural emoji use, not structured lists",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response includes a clear bullet-pointed list ('A few frames that often help:') which is a major departure from Claude's prose-only style. The bullets break up what could have been natural conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth starts with immediate warm validation ('I totally get that feeling - guilt around quitting something can be really tough to deal with!') while evaluated response starts more analytically",
+      "Ground truth uses emojis naturally, evaluated response has none",
+      "Ground truth is pure prose throughout, evaluated response uses bullet points for key advice",
+      "Ground truth has more casual language ('pretty common', 'just a gentle reminder') vs. evaluated response's more formal tone ('A useful first distinction', 'A few frames')",
+      "Ground truth asks exploratory questions early ('What's making you feel guilty about it?') while evaluated response front-loads analysis before engaging"
+    ]
+  }
+}

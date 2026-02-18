@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating!' and 'I totally get why that would feel annoying'",
+      "Perfect natural prose format with zero bullet points or headers - flows like a text conversation",
+      "Provides specific, actionable script for the teen to use: 'Hey mom, I appreciate that you're thinking of me, but I wish you'd asked me first before signing me up'",
+      "Strong first-person language throughout ('I think', 'I totally get', 'I'd say' implied in tone)"
+    ],
+    "weaknesses": [
+      "Emoji choice (😅) slightly mismatches the emotion - suggests nervous laughter/embarrassment rather than frustration at loss of autonomy",
+      "Could validate the specific feeling of losing control over one's own schedule slightly more before moving to advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - writes in flowing conversational paragraphs without any bullet points, headers, or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji appropriateness - while using only one emoji is perfect, the 😅 (nervous sweat smile) doesn't quite match the frustration of having autonomy violated",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response consists of four clean paragraphs with no bullet points, numbered lists, bold text, or headers. Advice is woven naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Consider using 😤 or 😠 instead of 😅 for frustration scenarios, or omit the emoji entirely since the warm tone is already established through words",
+      "Could add one more sentence validating the specific feeling of 'it's my schedule and I should have a say' before moving to the 'parents mean well' explanation to strengthen the emotional support"
+    ]
+  }
+}

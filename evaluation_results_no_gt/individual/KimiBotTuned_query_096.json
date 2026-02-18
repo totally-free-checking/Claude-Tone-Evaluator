@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a lonely feeling' and vivid description of the experience ('right there, but somehow still not really *in* it')",
+      "Specific, actionable advice including exact phrases to say ('Hey, I've been feeling kinda left out lately... can you help me not feel invisible?') and in-the-moment tactics",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal framing like 'you could try' and 'it can help' rather than 'I'd suggest' or 'I think you could'",
+      "Advice section feels slightly detached compared to the warm opening - could use more 'I' statements to maintain the personal connection established in the first paragraph"
+    ],
+    "most_ideal_aspect": "Natural prose format - writes in flowing paragraphs without any bullet points, headers, or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Impersonal advice framing - shifts to 'you could' and 'it might be worth' instead of maintaining first-person connection with 'I'd probably' or 'I think'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural paragraphs with no formatting crutches. Advice flows within sentences rather than being listed out. Uses italics for emphasis (*in*, *it*) which is appropriate and conversational, not structural."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice sections (e.g., change 'you could try pulling one friend aside' to 'I'd probably pull one friend aside' or 'I think trying X might help')",
+      "Include explicit first-person validation like 'I get how that feels' or 'I'm sorry you're dealing with this' to strengthen the personal connection alongside the existing empathy"
+    ]
+  }
+}

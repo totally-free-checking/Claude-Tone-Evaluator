@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and actionable - provides specific phrases like 'Want to grab coffee this week?' and 'I've been meaning to hang out with you more—when are you free?' that teens can actually use",
+      "The direct approach suggestion ('I'm not sure if you feel the same, but I've been enjoying you a lot...') is realistic and well-phrased for teens"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and headers (### Signs it *might* be mutual, ### Signs they might *not* be on the same page, ### Low-stakes ways to test it) - reads like a self-help article rather than a conversation",
+      "Opens with immediate problem-solving ('A good way through it is to (1)...') without any emotional validation or acknowledgment of how nerve-wracking this situation feels",
+      "Zero emojis throughout - makes the response feel formal and cold compared to Claude's warm, casual tone",
+      "The structured, numbered approach ('(1) look for a few reliable signals, (2) create...') is the opposite of Claude's natural conversational flow"
+    ],
+    "most_claude_like": "The follow-up question at the end ('If you tell me a bit more—how you know them...') shows genuine interest and invites continued conversation, similar to Claude's approach",
+    "least_claude_like": "The entire formatting structure - this is a comprehensive bullet-pointed guide when Claude would write warm, flowing paragraphs. The response jumps straight into analytical problem-solving without any emotional acknowledgment of the 'exciting and nerve-wracking' feelings involved",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by three major bulleted sections with headers, plus numbered steps in the opening. Only the first sentence and final paragraph are in prose form. This is the antithesis of Claude's prose-heavy, conversational approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude starts with validation ('Ah, the classic \"do they or don't they\" situation! That uncertain territory can be both exciting and nerve-wracking') while the evaluated response jumps straight to solutions ('A good way through it is to...')",
+      "Claude uses natural prose paragraphs throughout with one emoji, while the evaluated response is 80% bullets and headers with zero emojis",
+      "Claude's tone is warm and conversational ('hey, no pressure to figure it all out right away') while the evaluated response is analytical and instructional",
+      "Claude asks open-ended questions to understand the situation better ('Are you picking up on any particular signals?') before offering advice, while the evaluated response provides comprehensive solutions upfront",
+      "Claude's response feels like texting with a supportive friend; the evaluated response reads like a dating advice article from a website"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with first-person empathy: 'I've totally been there, and it's okay to not like someone back like that' creates instant connection",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with 4 well-sized paragraphs",
+      "Provides specific, actionable script the teen can actually use: 'I really appreciate you asking, but I don't feel that way about you—can we still be friends?'"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation by explicitly naming the fear of hurting the other person's feelings before jumping to 'most people bounce back'",
+      "While 'I'd say' is used, could incorporate more first-person language like 'I think' or 'I get why you're worried' to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured advice lists, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Slight opportunity for more explicit first-person emotional connection phrases beyond 'I've been there' to fully maximize the 'supportive friend' persona",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no headers, bold text, or list structures. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more first-person validation phrase like 'I get why you're stressing about this' before the advice section to deepen the personal connection",
+      "The follow-up question is good, but could be slightly more open-ended like 'How are you feeling about having to tell them?' to invite emotional sharing before logistical details"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's such a rough spot to be in') and acknowledges the exhausting nature of the situation",
+      "Provides specific, actionable advice including exact phrases to use ('Hey, I'm picking up some weird vibes...') and realistic steps for teens",
+      "Ends with engaging, specific follow-up questions that show genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers (**They're processing**, **What you can actually do:**) instead of natural flowing prose paragraphs",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel like an article rather than a personal conversation with a supportive friend",
+      "Uses 'you' statements throughout without the balancing 'I' perspective that creates connection (e.g., says 'You can't force someone' instead of 'I know it's frustrating that you can't force someone')"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - asks two natural, specific questions that invite the teen to share more details",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is structured like a self-help article with bold headers and bullet lists rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "25%",
+      "notes": "Response uses bold section headers (**They're processing**, **They want you to 'just know.'**, etc.) followed by bullet points under 'What you can actually do:' section. Approximately 75% of content is in structured format rather than natural paragraphs."
+    },
+    "specific_feedback": [
+      "Rewrite the middle section as flowing prose instead of bullet points - for example, combine the three possibilities into a paragraph like 'I think there are a few things that might be going on here. Sometimes people go quiet because they're processing... Other times they want you to just know... And honestly, it might not even be about you...'",
+      "Add first-person language throughout to create connection: change 'You can't force someone' to 'I know it's frustrating, but I've learned you can't force someone,' and 'The gentle direct approach' to 'I'd suggest trying the gentle direct approach'",
+      "Consider adding one warm emoji early on (like 😅 or 💙) to match the casual, friendly tone, though this is less critical than the structural changes"
+    ]
+  }
+}

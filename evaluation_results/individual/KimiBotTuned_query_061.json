@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points and smooth conversational flow throughout",
+      "Provides specific, actionable advice tailored to teen social dynamics (e.g., 'This reminded me of you lol', suggesting casual hangouts)",
+      "Strong warm opening that immediately validates the confusing feelings with relatable language ('that feeling is so real', 'make your brain go in circles')"
+    ],
+    "weaknesses": [
+      "Lacks first-person language like 'I think', 'I'd say', or 'I get it' that Claude uses to feel more personal and supportive",
+      "Heavier focus on tactical solutions compared to Claude's more exploratory, validation-first approach",
+      "Uses an emoji (😅) which Claude typically avoids unless specifically requested"
+    ],
+    "most_claude_like": "The natural prose paragraph structure without any bullet points or over-formatting, maintaining a conversational flow that feels like texting with a supportive friend",
+    "least_claude_like": "The emphasis on specific tactical steps and 'testing the vibe' rather than Claude's more open-ended, exploratory approach focused on discussing feelings and signals",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or lists. Advice is woven naturally into sentences rather than presented as actionable items."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses on exploring feelings and uncertainty with open-ended curiosity, while evaluated response jumps to concrete strategies for testing interest",
+      "Ground truth uses no emojis and relies on words for warmth ('Ah', 'totally'), while evaluated response uses one emoji and slightly more casual slang ('Aww yeah')",
+      "Ground truth emphasizes that 'everyone expresses interest differently' and normalizes confusion, while evaluated response focuses more on interpreting specific behavioral signals"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points and natural paragraph flow that reads like a text conversation",
+      "Strong specific follow-up question at the end that shows genuine curiosity about the situation ('Did they say why they moved you, or did it just happen with no explanation?')",
+      "Very concrete actionable advice including specific timing ('give it a day'), duration ('30 seconds after class'), and exact scripts the teen can use when talking to the teacher"
+    ],
+    "weaknesses": [
+      "Missing first-person language that defines Claude's character - uses observational language ('it usually isn't personal,' 'Teachers sometimes do it') instead of personal perspective ('I think,' 'I'd say,' 'I get that')",
+      "Jumps to problem-solving advice faster than Claude's ground truth response, which spends more time validating and gathering context before offering solutions",
+      "Slightly heavier on prescriptive advice compared to the ground truth's exploratory, empathetic questioning approach"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points or headers, creating a conversational text-like flow that feels intimate and readable on a phone",
+    "least_claude_like": "The absence of first-person perspective language - Claude's character consistently uses 'I think,' 'I'd say,' and 'I get it' to sound like a supportive friend sharing personal perspective, while this response uses more impersonal observational statements",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or headers. Advice flows naturally within sentences rather than being itemized, matching Claude's conversational paragraph style exactly"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person language throughout ('I get that it still feels crappy,' 'you'd rather sit') to create personal connection; evaluated response lacks 'I' statements and feels more like general observations",
+      "Ground truth prioritizes emotional validation and asks exploratory questions before giving advice; evaluated response moves to practical solutions and specific scripts earlier in the conversation",
+      "Ground truth uses no emojis; evaluated response uses one (😅) though this is within acceptable character guidelines"
+    ]
+  }
+}

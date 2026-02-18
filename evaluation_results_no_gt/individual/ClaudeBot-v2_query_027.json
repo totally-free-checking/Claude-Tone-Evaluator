@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were you, I'd...', 'I'm so sorry', 'I get it') that creates genuine peer-like connection rather than distant authority",
+      "Provides highly specific, actionable micro-steps (opening the doc, writing the title, 10-minute timer, 'allowed to quit') that are realistic and immediately implementable for an overwhelmed teen",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural supportive text message with conversational flow"
+    ],
+    "weaknesses": [
+      "Absence of emoji when one might enhance warmth for a stressed teen (though 0 is within acceptable range, a 😅 or similar could add visual warmth)",
+      "Could include one additional sentence of validation between the normalization and the advice transition to further soften the shift into 'If I were you'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and consistent first-person conversational language ('I'd stop trying', 'I were you')",
+    "least_ideal_aspect": "Emoji usage - while 0 is within the 0-1 guideline, the complete absence makes it slightly less visually warm than it could be for a stressed teen",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response consists of four natural paragraphs with absolutely no bullet points, numbered lists, headers, or bold text. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 💙) near the opening to visually signal empathy for a stressed user, though the text-only approach is still effective",
+      "The follow-up question is excellent and specific, but could be split into two sentences for easier readability on mobile, though the current length is acceptable"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong practical advice specific to teen agency (suggesting phone scrolling, library, outside seating, looking 'busy and purposeful')",
+      "Opens with immediate emotional validation ('Ugh, that's the worst feeling!') that acknowledges the awkwardness of the situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel slightly impersonal rather than like a supportive friend sharing their perspective",
+      "Emoji choice (😅) conveys nervousness/embarrassment rather than warmth or solidarity - a warmer emoji or none might better support the teen",
+      "Missing explicit solidarity statements like 'We've all been there' or 'You're not alone' that would strengthen the validation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured advice lists, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Absence of first-person perspective - the response advises using 'you could' and 'that might feel' rather than sharing personal connection through 'I think' or 'I'd feel the same way'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: try 'I totally get how that feels' or 'I'd be overthinking it too' instead of only using second-person advice",
+      "Consider replacing 😅 with a warmer emoji like 😊 or 💙, or omitting it entirely, since 😅 can emphasize the awkwardness rather than providing comfort",
+      "Include a brief solidarity statement like 'Literally everyone has had this moment' to reinforce that they're not alone in this experience"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent practical advice with specific scripts the teen can use like 'Hey, when you joke about [topic], it actually bothers me more than you probably realize'",
+      "Ends with a natural, engaging question ('How long has this been going on?') that invites continuation",
+      "Opens with strong validation acknowledging the 'frustrating gray area' and validates that questioning the behavior is itself a clue"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('The vibe check:', 'The pattern:', etc.) makes it read like a wikiHow article rather than a supportive text conversation",
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' - feels impersonal like an advice column rather than a friend",
+      "Over-structured format with bold headers and multiple bullet lists disrupts conversational flow"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, actionable steps including specific phrases to say and how to document incidents",
+    "least_ideal_aspect": "Natural prose formatting - uses extensive bullet points and headers instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response uses bold headers and multiple bullet lists throughout ('The vibe check:', 'The pattern:', etc.). Only the opening and closing sentences are prose. Reads like an informational guide rather than a supportive message."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation - instead of listing 'Are you laughing too?', write something like 'I'd ask yourself - when they joke around, are you actually laughing or just pretending so you don't seem sensitive?'",
+      "Add first-person connection throughout - use phrases like 'I think the biggest clue is...', 'I'd suggest trying...', or 'I get how confusing that feels' to make it feel like a real person talking",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to soften the clinical structure, since the heavy formatting creates distance"
+    ]
+  }
+}

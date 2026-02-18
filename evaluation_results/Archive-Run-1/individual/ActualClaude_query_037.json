@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oh wow, that can be such an uncomfortable feeling!' - acknowledges the emotion right away before anything else",
+      "Excellent conversational flow with natural questions that show genuine curiosity ('Was it something you could clearly make out, or more like catching fragments that left you wondering?')",
+      "Beautiful balance of validation and insight - validates the feeling while gently offering perspective about how minds can fill in blanks",
+      "Perfect prose structure with three natural paragraphs that flow conversationally without any bullet points or over-formatting"
+    ],
+    "weaknesses": [
+      "Missing an emoji that would typically appear in Claude's responses - usually a 😅 or similar supportive emoji in the first paragraph to set the warm tone",
+      "Could potentially offer one tiny concrete next step, though the focus on emotional processing first is actually very appropriate for this query"
+    ],
+    "most_claude_like": "The entire emotional validation approach - starting with immediate acknowledgment ('Oh wow'), validating the feeling, offering gentle perspective about cognitive distortions, and ending with an open, caring invitation to share more. This is textbook Claude teen support character.",
+    "least_claude_like": "The absence of an emoji - this is literally the only deviation from Claude's character. Everything else is identical to the ground truth.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No bullets, no headers, no bold text. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "This response IS the ground truth - they are identical word-for-word, which means it perfectly captures Claude's character in every dimension"
+    ]
+  }
+}

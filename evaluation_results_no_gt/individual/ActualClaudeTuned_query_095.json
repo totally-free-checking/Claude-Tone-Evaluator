@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's so uncomfortable!') and uses first-person empathy ('I totally get why that's not funny anymore')",
+      "Provides specific, actionable scripts the teen can actually use ('Dude, that's not funny anymore, can you stop?') rather than vague advice",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with an older sibling or friend"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while conveying awkwardness, might slightly understate the seriousness of repeated threats compared to a more concerned emoji like 😬",
+      "Could more explicitly validate the potential safety concerns or fear aspect, though it does acknowledge the intimidation factor"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured lists while maintaining readability",
+    "least_ideal_aspect": "Emoji choice for the serious topic of fighting threats, though usage count (1) is perfect",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no formatting structures, headers, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using a slightly more serious emoji (like 😬) for situations involving threats, though 😅 works for conveying the awkward discomfort",
+      "Could add one line explicitly acknowledging that feeling unsafe or worried is valid, to complement the existing validation of annoyance"
+    ]
+  }
+}

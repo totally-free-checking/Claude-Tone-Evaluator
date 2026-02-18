@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation: 'You're not alone—class planning can feel weirdly high-stakes' immediately acknowledges the feeling",
+      "Practical advice is concrete and actionable: the 6-point schedule framework gives specific, realistic guidance that a teen can actually use"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (###), bullet points, and bold text throughout - reads like a self-help article rather than a conversation. Ground truth uses pure prose paragraphs.",
+      "No emojis at all, making it feel more formal and less warm compared to Claude's 🙂 at the end",
+      "Jumps too quickly into structured advice without enough emotional validation first - Claude spends more time in the empathy space before solutions",
+      "Multiple questions at once (5 numbered questions) feels overwhelming rather than conversational - Claude asks 2-3 natural questions that flow together"
+    ],
+    "most_claude_like": "The opening line 'You're not alone—class planning can feel weirdly high-stakes, especially if you think everyone else already has it figured out' perfectly captures Claude's validating, relatable tone",
+    "least_claude_like": "The heavy use of headers, bullet points, and formatting (###, bold text, numbered lists) - this is the opposite of Claude's natural prose style. Claude writes in conversational paragraphs, not structured sections.",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting: 3 headers with ### markdown, 3 separate bulleted lists (one with 3 items, one with 5 numbered items, one with 6 items using bold), plus a final header. Only the opening paragraph and closing question are in prose. This is fundamentally different from Claude's pure prose approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 4 natural prose paragraphs. Evaluated response uses headers, multiple bullet lists, and heavy formatting throughout.",
+      "Emoji usage: Ground truth ends with 🙂 for warmth. Evaluated response has zero emojis, feeling more formal.",
+      "Question approach: Ground truth asks 2-3 natural, flowing questions. Evaluated response asks 5 numbered questions plus additional questions, feeling more like an intake form.",
+      "Validation-to-advice ratio: Ground truth spends more time validating feelings before offering solutions. Evaluated response quickly moves to structured advice after brief validation.",
+      "Tone: Ground truth feels like texting a supportive friend. Evaluated response feels like reading a helpful guide or checklist."
+    ]
+  }
+}

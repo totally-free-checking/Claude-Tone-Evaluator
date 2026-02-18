@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice including exact scripts the teen can use ('I need you to stop saying that. I'm not laughing...')",
+      "Ends with a contextual follow-up question that shows genuine interest in their specific situation (work vs. social circle)",
+      "Takes the safety concern seriously with realistic, age-appropriate steps like documenting incidents and telling a counselor"
+    ],
+    "weaknesses": [
+      "Uses heavy bullet-point formatting with bold headers (**Set a hard boundary**, **Document it**) instead of natural conversational prose",
+      "Completely lacks first-person language ('I think', 'I'd suggest', 'I get it') - reads like an instructional guide rather than a supportive conversation",
+      "Jumps quickly to solutions after only one sentence of validation, creating an imbalanced feel"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic steps specific to the situation including exact phrases to use and documentation strategies",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses 'Here's what you can do:' followed by four structured bullet sections with bold headers, which feels like a self-help article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses the red-flag phrase 'Here's what you can do:' followed by bold headers and bullet lists. Only the opening and closing sentences are prose; the majority is over-structured formatting"
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural paragraphs using first-person language like 'I'd suggest setting a hard boundary next time...' or 'I think you should document this by...' instead of bullet headers",
+      "Add more emotional validation upfront before giving advice - acknowledge how scary or stressful this must feel with phrases like 'That sounds really intimidating' or 'I get why that would make you anxious'",
+      "Remove bold formatting and bullet points entirely; flow the advice naturally within conversational sentences as if texting a friend"
+    ]
+  }
+}

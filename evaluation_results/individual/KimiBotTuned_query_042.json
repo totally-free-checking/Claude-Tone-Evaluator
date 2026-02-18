@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that's so frustrating' and 'you're not being dramatic' which acknowledges the legitimacy of their feelings",
+      "Excellent follow-up question at the end that is specific to the situation ('What was it they ruined, and did they say sorry or act like it's no big deal?') showing genuine interest",
+      "Provides concrete, realistic scripts a teen could actually use ('Hey, I'm upset because when I got it back it was ruined')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I'm here') which is essential to Claude's conversational, supportive friend persona - it reads as impersonal instructions rather than 'here's what I'd do'",
+      "Jumps immediately to specific conflict resolution advice and scripts rather than first exploring the emotional context and what happened, unlike the ground truth which asks 'What happened exactly?' before advising",
+      "Has a somewhat structured, instructional feel with sequential steps ('If you can...', 'and then follow with...', 'If they try...') rather than the natural flowing prose of the ground truth"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately normalizes their feelings with 'of course you're mad' and 'you're not being dramatic' captures the supportive, non-judgmental tone perfectly",
+    "least_claude_like": "The absence of any first-person perspective ('I think', 'I'd say', 'I get it') makes it feel like generic advice rather than a supportive friend sharing their thoughts; Claude consistently uses first-person to create intimacy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "95%",
+      "notes": "While technically prose, the response has a list-like instructional structure with sequential conditional statements ('If you can...', 'and then...', 'If they try...', 'And for the future...') that feels more like a guide than a natural conversation. The ground truth uses pure conversational flow without this step-by-step formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth prioritizes emotional exploration and asks clarifying questions before offering advice; this response immediately jumps to specific scripts and conflict resolution tactics",
+      "Ground truth uses first-person language throughout ('I'm curious', 'you know?') to create a personal connection; this response uses exclusively second-person ('you can', 'you're not') creating distance",
+      "Ground truth focuses on the friendship dynamics and feelings first; this focuses on the transactional aspect (replacement/payment) and boundary-setting immediately"
+    ]
+  }
+}

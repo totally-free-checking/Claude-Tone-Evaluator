@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 4.6,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable phrases the teen can actually use in the moment (e.g., 'I'm here to get the work done. Can we keep it respectful?')",
+      "Addresses multiple severity levels of the situation, from awkward avoidance to actual bullying, showing nuanced understanding",
+      "The follow-up questions are specific to the situation rather than generic, asking about assignment length and specific behaviors"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with numbered headers (### 1, ### 2, etc.) and bullet points throughout, reading like a wikiHow article rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal instructional tone throughout",
+      "Minimal emotional validation upfront ('Oof, that's rough') immediately followed by 'you've basically got two goals' - jumps straight to problem-solving without making the teen feel heard",
+      "Uses markdown formatting (### headers, bullet lists) that feels clinical and formal rather than like texting a friend"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are realistic, specific to teen social dynamics, and include actual scripts they can use",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is almost entirely structured as numbered lists with sub-bullets, completely violating the conversational paragraph format",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Uses 5 main numbered sections with markdown headers (###), multiple sub-bullets under each, and ends with 3 additional bullet-pointed questions. Only 1-2 sentences at the beginning are in prose format."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as 2-3 flowing paragraphs using first-person language like 'I'd probably try to keep it strictly business...' or 'I think the best thing you can do is...' instead of numbered instructions",
+      "Add genuine emotional validation before any advice - expand on 'Oof' with something like 'That sinking feeling when you see the partner assignment is the worst. I'm so sorry you're dealing with that.'",
+      "Remove all markdown headers (###) and bullet points. If you need to separate ideas, use natural transitions like 'Another thing that might help...' or 'If that doesn't work...'",
+      "Convert the final questions into natural prose: 'If you want to talk through this more, I'm curious - what exactly have they done that makes you think they hate you? And is this a quick one-day thing or a longer project?'"
+    ]
+  }
+}

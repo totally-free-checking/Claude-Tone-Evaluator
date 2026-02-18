@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 5,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect opening validation: 'Oh that's such an awkward position to be in!' immediately acknowledges the discomfort and validates the feeling",
+      "Excellent follow-up questions that are specific and engaging: 'Did it seem intentional or more like an \"oops\" moment?' shows genuine interest and invites continued conversation",
+      "Natural conversational tone throughout with casual phrasing like 'getting the vibe' and 'oops moment'",
+      "Strong balance of emotional support and practical advice, with validation coming first before offering solutions"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section ('A few thoughts:' followed by three bullets), which goes against Claude's prose-heavy character approach",
+      "Missing emojis entirely - Claude typically uses 1-2 emojis (like 😅) to enhance warmth, especially in the opening",
+      "The 'A few thoughts:' header introduces unnecessary structure that makes it feel more formatted than conversational"
+    ],
+    "most_claude_like": "The follow-up questions are perfectly Claude - specific, natural, and genuinely engaging ('What's your gut feeling about the situation? Did it seem intentional or more like an \"oops\" moment?')",
+    "least_claude_like": "The bullet point structure in the middle section - Claude would integrate this advice into flowing prose paragraphs rather than listing it out with bullets",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "50%",
+      "notes": "Response is split between prose paragraphs (opening and closing) and a bulleted list in the middle. The 'A few thoughts:' header followed by three bullet points is the main formatting issue. Claude would weave these same ideas into conversational paragraphs instead."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "This IS the ground truth response, so there are no differences in content or structure",
+      "note": "This evaluation reveals that even Claude's actual responses sometimes use bullet points, though the character profile emphasizes prose. This suggests the character may be more flexible than the strict 'no bullets' guideline implies, or this represents a deviation from the ideal character."
+    }
+  }
+}

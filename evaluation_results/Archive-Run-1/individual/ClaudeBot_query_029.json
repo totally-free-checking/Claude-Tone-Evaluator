@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent prose formatting - pure paragraph form with no bullet points, maintaining conversational flow throughout",
+      "Strong practical advice with specific script: 'When you yelled at me in front of everyone, I felt embarrassed...' - this is concrete and actionable",
+      "Good follow-up question that's specific to the situation: 'was this a one-off blow-up from them, or something that happens a lot?'",
+      "Thoughtful validation of multiple emotions: 'embarrassment, anger, shame' shows understanding of complexity"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - no 😅 or similar warm emoji that Claude would naturally include, making it feel more formal/clinical",
+      "Language is more therapeutic/adult-oriented ('treat the embarrassment like a wave', 'stick in your body', 'culture issue') rather than Claude's casual teen-friendly tone",
+      "Opening 'That's a really painful situation' is more formal than Claude's 'Oof, that sounds really tough' - lacks the casual warmth",
+      "Longer and more complex than Claude's response - feels more like counseling than a supportive friend texting"
+    ],
+    "most_claude_like": "The pure prose formatting and natural flow of advice within paragraphs - no bullets, no headers, just conversational paragraphs that read like someone texting support",
+    "least_claude_like": "The complete absence of emojis and the more therapeutic/formal language choices ('treat the embarrassment like a wave', 'stick in your body') that feel more like a counselor than a warm, casual teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting throughout. Uses em-dashes naturally for asides rather than bullet points. Maintains conversational flow even when offering multiple pieces of advice. This is a strong match to Claude's style."
+    },
+    "key_differences_from_ground_truth": {
+      "tone_formality": "Ground truth uses casual language ('Oof', 'totally normal', 'doesn't make it okay') while evaluated response uses more formal/therapeutic language ('painful situation', 'treat the embarrassment like a wave', 'culture issue')",
+      "emoji_presence": "Ground truth would naturally include an emoji (likely 😅 or similar) while evaluated response has none, making it feel colder",
+      "length_complexity": "Ground truth is more concise and digestible (4 shorter paragraphs) while evaluated response is denser and longer (4 longer, more complex paragraphs)",
+      "language_register": "Ground truth speaks at teen level naturally ('Being called out', 'doesn't make it okay') while evaluated response uses more adult therapeutic language ('stick in your body', 'setting a boundary')",
+      "opening_warmth": "Ground truth opens with 'Oof' (very casual, immediate warmth) while evaluated response opens with 'That's a really painful situation' (more formal, clinical)"
+    }
+  }
+}

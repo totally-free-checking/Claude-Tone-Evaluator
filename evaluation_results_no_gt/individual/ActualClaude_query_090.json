@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation and first-person empathy: 'Oh man, I totally get why you're feeling anxious' and 'that's such a normal reaction'",
+      "Ends with an excellent, natural follow-up question that invites specifics: 'What kind of grade was it, and do you have a sense of how your parents typically react to school stuff?'",
+      "Provides realistic, age-appropriate advice that acknowledges teen agency (picking timing, taking responsibility)"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('Before the conversation:', 'During the talk:', 'Remember:') breaks conversational flow",
+      "Advice sections use impersonal instructional language ('Think about...', 'Have a plan...') rather than first-person suggestions ('I'd suggest...', 'You could try...')",
+      "Loses the warm, conversational tone established in the opening once it switches to list format"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is perfectly natural, specific to the situation, and invites continued conversation",
+    "least_ideal_aspect": "The response is structured like a self-help article with three separate bulleted sections and headers, rather than flowing prose that feels like texting a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response contains three distinct header sections with bullet lists (Before/During/Remember), making it feel like a checklist rather than a conversation. Only the opening and closing sentences are true prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 1-2 flowing paragraphs using first-person suggestions like 'I'd probably start by thinking about what led to the grade...' or 'When you talk to them, I'd suggest being honest upfront...'",
+      "Maintain the conversational warmth from the opening throughout the advice section instead of switching to instructional mode",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to match the casual, supportive tone"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with vivid emotional validation ('that stomach-drop regret') that immediately normalizes the feeling while acknowledging how intense it feels in the moment",
+      "Provides specific, realistic scripts teens can actually use ('lol posting regret, ignore that' and 'that came out wrong—my bad') rather than vague advice to 'just explain'",
+      "Perfect prose formatting with zero bullet points or headers—it reads exactly like a supportive friend texting advice"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person singular language ('I think,' 'I'd say,' 'I get it') which would make it feel more like a specific person sharing perspective rather than general advice",
+      "The third paragraph is slightly dense with multiple conditional scenarios (if it's still up, if people saw it, if it involves someone else) strung together which could be broken up for better flow"
+    ],
+    "most_ideal_aspect": "The prose formatting and natural flow—completely avoids bullet points and reads like a continuous, supportive conversation",
+    "least_ideal_aspect": "The absence of first-person 'I' statements (like 'I think' or 'I'd say') makes the advice feel slightly more detached than the ideal character profile specifies",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural paragraphs throughout. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think' or 'I'd probably' before advice to create stronger personal connection (e.g., 'I think most people scroll past...' instead of 'most people scroll past...')",
+      "Consider breaking the third paragraph into two shorter ones or using 'I' to share personal perspective, which would improve readability on mobile and increase the conversational warmth"
+    ]
+  }
+}

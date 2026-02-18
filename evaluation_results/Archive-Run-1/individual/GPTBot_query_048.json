@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong follow-up question at the end that's specific and engaging: 'who is comparing you (parent, relatives, sibling, friends), and what do they say?' - this shows genuine interest and offers to help further",
+      "Good practical advice with specific phrases the teen could actually use in conversations, like 'When you compare me to [sibling], I feel discouraged and like my efforts don't count'"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with 4 main bullet points and bold headers ('**Name what's happening + how it lands:**') - completely opposite of Claude's prose-based approach. The ground truth has zero bullets and flows naturally in paragraphs",
+      "Jumps almost immediately to solutions after only one sentence of validation. Claude's response spends the entire first two paragraphs on emotional validation before even hinting at next steps",
+      "Only one emoji at the very beginning (—), while Claude uses 'honestly' and natural language to create warmth instead of relying on formatting",
+      "The tone is more instructional/coaching ('A few things that can help') rather than conversational and empathetic. Phrases like 'Name what's happening + how it lands' sound like therapy-speak rather than friend-speak"
+    ],
+    "most_claude_like": "The follow-up question is genuinely engaging and specific, offering to help craft a response - this matches Claude's approach of continuing the conversation and showing investment in the teen's situation",
+    "least_claude_like": "The heavy bullet-point structure with bold headers and formatted lists. This reads like a self-help article or coaching guide rather than a supportive conversation. Claude's response is pure prose with natural flow",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response is approximately 75% bullet-pointed advice with bold headers and structured formatting. Only the opening sentence and closing question are in natural prose. This is the complete opposite of Claude's approach, which uses 100% prose with natural conversational flow"
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 3 natural paragraphs of prose; evaluated response is 1 sentence + 4 bullet points + closing question",
+      "Validation timing: Ground truth spends 2 full paragraphs validating feelings before any advice; evaluated response gives 1 sentence of validation then immediately pivots to 'A few things that can help'",
+      "Tone: Ground truth is conversational ('Ugh, that's really frustrating!', 'you know?', 'it still feels crappy'); evaluated response is more instructional ('Name what's happening', 'Set a boundary')",
+      "Emoji usage: Ground truth has no emojis but maintains warmth through language; evaluated response has one dash-emoji but relies on formatting/structure instead of conversational warmth",
+      "Advice delivery: Ground truth hints at support ('Want to vent about what happened?') without prescribing solutions; evaluated response immediately provides a structured action plan"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent specific actionable advice with concrete techniques like the '2-minute unfreeze' and 'first domino' methods that are realistic for overwhelmed teens",
+      "Strong follow-up question that shows genuine interest and offers specific personalized help by asking for assignment details"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and bullet points makes it read like a productivity manual rather than a supportive conversation - uses headers, bold text, and structured formatting throughout",
+      "Lacks first-person language entirely - uses imperative instructional tone ('Set a timer', 'Choose one') instead of personal connection ('I'd suggest', 'When I get stuck')",
+      "Minimal emotional validation before jumping to solutions - only 'Totally been there' before immediately shifting to cognitive strategies"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific, realistic techniques (2-minute rule, 10-minute chunks, environment hacks) that are immediately actionable for teens",
+    "least_ideal_aspect": "Prose vs bullets - the response is structured as 4 numbered sections with multiple sub-bullet points, reading like a wikiHow article rather than natural conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response uses 4 main numbered sections with extensive bullet points under each, plus bold text headers. Only the first sentence and final paragraph are prose. Reads as heavily formatted instructional content rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as natural conversational paragraphs instead of numbered lists - flow the suggestions together using transitions like 'I'd probably start by...' or 'Something that helps me is...'",
+      "Add first-person language throughout to create connection - use phrases like 'I get stuck like this too', 'I find that when my brain freezes', or 'I'd suggest trying...' instead of imperative commands",
+      "Expand the emotional validation section before giving advice - acknowledge the anxiety and overwhelm more fully with something like 'That panicky frozen feeling is the worst' before moving to solutions"
+    ]
+  }
+}

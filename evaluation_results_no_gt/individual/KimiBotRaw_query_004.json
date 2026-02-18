@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong emotional validation opening with 'Ugh, that's such a gut-punch feeling' and 'throwing energy into a void' which creates immediate empathy",
+      "Specific, actionable text templates that teens can actually copy and send, including the nuanced distinction between general check-in and addressing potential conflict"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting (4 bulleted possibilities with bold headers, section headers like 'What to do right now:', and blockquotes) instead of natural prose paragraphs",
+      "Asks two questions at once at the end ('How long has this been going on? And are they usually...') which feels more like an interview than a natural conversation flow",
+      "Lacks first-person advisory language like 'I think' or 'I'd say' - uses imperative commands ('try a soft landing') rather than personal recommendations"
+    ],
+    "most_ideal_aspect": "The specific text message templates provided are realistic, emotionally intelligent, and account for different scenarios (whether the issue is about the user or external stress)",
+    "least_ideal_aspect": "The formatting structure with multiple bullet points, bold headers, and section breaks makes it read like a wikiHow article rather than a supportive text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses 4 bullet points with bold subheaders (e.g., 'They’re in a depressive dip or burnout'), plus section headers ('What to do right now:', 'The hard part:'), and blockquote formatting. Only the opening and closing are true prose paragraphs."
+    },
+    "specific_feedback": [
+      "Rewrite the middle section as flowing prose instead of bullet points - describe the possibilities conversationally like 'I wonder if they might be dealing with depression or burnout - sometimes texting feels impossible when your brain is fried... Or maybe it's phone fatigue...'",
+      "Change the imperative advice to first-person perspective: instead of 'try a soft landing,' write 'I'd probably send something soft like...' and instead of 'Give it a few days,' write 'I think I'd give it a few days'",
+      "Choose one follow-up question instead of two - either ask about the duration OR ask about their usual behavior, not both, to keep it feeling like a natural conversation rather than a checklist"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 0.0,
+    "dimension_scores": {},
+    "error": "Empty response from API"
+  }
+}

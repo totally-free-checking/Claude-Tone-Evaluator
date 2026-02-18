@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that's the worst' and 'you're just trying to exist as your own person' that makes the teen feel seen",
+      "Specific, actionable advice including concrete techniques like the 'gray rock method' with exact phrases to use ('Hmm, interesting') and the 'wins list' concept",
+      "Natural, engaging follow-up question that offers specific options ('what specifically they're comparing, or is it just the general vibe?') and ends with supportive first-person 'I'm here for either'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured bullet points with bold headers ('The \"apples to oranges\" reframe') which reads like a self-help article rather than conversational texting",
+      "Lacks first-person language throughout the body - missing 'I think', 'I'd suggest', or 'I get it' makes the advice feel impersonal despite casual word choice",
+      "No emoji usage when one supportive emoji could enhance the warm, validating tone established in the opening"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic techniques (gray rock method, apples-to-oranges reframe, wins list) with concrete phrases and actions teens can immediately implement",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses a formatted list with bold headers and bullet points for the core advice section instead of integrating suggestions into flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Single section containing 3 bullet points with bold headers; approximately 40% of the response content is delivered in structured list format rather than prose"
+    },
+    "specific_feedback": [
+      "Convert the bullet point section into 1-2 flowing prose paragraphs, integrating the three suggestions naturally into sentences rather than listing them with bold headers and dashes",
+      "Add first-person perspective throughout using phrases like 'I think the gray rock method might help' or 'I'd suggest trying to remember...' to create the feeling of a personal conversation rather than general advice",
+      "Consider opening with one warm emoji (like 😅 or 💙) to immediately signal the supportive, casual tone, or add one after the opening validation"
+    ]
+  }
+}

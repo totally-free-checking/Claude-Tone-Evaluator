@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd just') which creates authentic connection",
+      "Opens with identical warm validation to ground truth ('Oh no! That's one of those moments...') and maintains empathetic tone",
+      "Provides specific, immediately actionable advice for a teen in class ('tucking your feet under your desk', 'slip out at a natural break')"
+    ],
+    "weaknesses": [
+      "Follow-up question focuses narrowly on shoe details rather than broadening to check in on their overall wellbeing like the ground truth does",
+      "Slightly heavier on practical advice versus emotional validation compared to the ground truth's balance",
+      "Missing the 'bold fashion choice' framing option that the ground truth includes as an alternative way to reframe the situation"
+    ],
+    "most_claude_like": "The natural conversational prose format with zero bullet points and appropriate use of first-person perspective ('I think it feels way worse to you than it actually looks')",
+    "least_claude_like": "The placement and nature of the follow-up question - asking about shoe specifics at the end feels more like gathering info than the ground truth's warmer check-in about the rest of their day",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with natural paragraph breaks, no lists or headers, reads like a text message from a supportive friend"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks about shoe type in the middle and ends with a broader emotional check-in ('How's the rest of your day'), while evaluated response moves the shoe question to the end which feels less like opening space for ongoing conversation",
+      "Evaluated response includes more tactical immediate advice (tucking feet, slipping out) but omits the 'bold fashion choice' reframe that ground truth offers",
+      "Ground truth uses 'you're definitely not the first person' while evaluated uses 'We've all been there' - both valid but slightly different validation approaches"
+    ]
+  }
+}

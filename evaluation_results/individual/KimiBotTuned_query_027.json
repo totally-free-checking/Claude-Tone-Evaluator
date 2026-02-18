@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 8.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent specific actionable advice including the exact script for messaging a teacher ('I'm really behind and trying to catch up—can I turn it in tomorrow/with a late penalty?')",
+      "Strong emotional validation that normalizes the freeze response ('your brain isn't being lazy, it's kinda overwhelmed and trying to protect you')",
+      "Natural conversational language without being cringe ('stupidly small', 'hitting the nope button')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think', 'I'd say', or 'I get it' that Claude uses to establish personal connection (uses 'What usually helps is' instead)",
+      "Uses an emoji (😅) while the ground truth used none; though within the 0-1 limit, it wasn't requested",
+      "The follow-up question is slightly compound, asking for both the subject and details about all five assignments at once"
+    ],
+    "most_claude_like": "The validation of the brain freeze feeling and the specific, realistic advice that acknowledges teen agency limitations (like suggesting they can ask for an extension)",
+    "least_claude_like": "The absence of first-person 'I' statements (such as 'I think', 'I'd suggest', or 'I totally get it') makes it feel slightly less like a personal conversation and more like general advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure natural prose with no bullet points, bold headers, or structured formatting, flowing as continuous paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Includes specific advice about contacting teachers for extensions which the ground truth omitted",
+      "Uses one emoji (😅) while ground truth used zero",
+      "Does not use bold text formatting for emphasis (ground truth uses bolded phrases like '**Pick the tiniest possible step**')",
+      "Asks for specific details about all five assignments rather than asking which feels 'least terrible'"
+    ]
+  }
+}

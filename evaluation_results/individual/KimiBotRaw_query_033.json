@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 4.9,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong opening validation with 'Ugh, that's honestly the worst' and acknowledging it's 'super valid to be mad'",
+      "Provides specific, actionable scripts like 'Hey, is this permanent? I was wondering what I did' that teens can actually use"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers (**What you can actually do:**) instead of natural prose conversation",
+      "Completely lacks first-person language ('I think', 'I get it', 'I'd say') making it feel impersonal compared to Claude's voice",
+      "Ends with encouragement and emoji instead of follow-up questions to continue the conversation"
+    ],
+    "most_claude_like": "The casual, validating opening that immediately acknowledges the frustration with 'Ugh' and 'honestly the worst'",
+    "least_claude_like": "The structured bullet-point format with bold headers that reads like a self-help article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "25%",
+      "notes": "Response uses extensive bullet formatting including 'A few possibilities:' list and three bold-headed approach sections (**The low-key approach:**, etc.), making it feel like a wikiHow article rather than conversational prose"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure conversational prose with natural flow; evaluated response uses heavy bullet-pointing and bold headers",
+      "Ground truth ends with engaging follow-up questions to continue conversation; evaluated response ends with a statement and emoji",
+      "Ground truth uses first-person perspective ('I get that'); evaluated response is completely impersonal with no 'I' statements",
+      "Ground truth is brief and question-focused; evaluated response is longer and advice-heavy without checking back in"
+    ]
+  }
+}

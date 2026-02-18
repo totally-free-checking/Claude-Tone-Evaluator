@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent practical advice with specific word-for-word scripts the teen can use (e.g., 'I care about you, but this feels really big for me to carry alone')",
+      "Appropriate and responsible safety considerations for a potentially serious situation",
+      "Perfect emoji usage with a single supportive heart at the end that enhances warmth without being excessive"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and bold headers instead of natural conversational flow (4 numbered points with headers)",
+      "Lacks first-person language entirely - no use of 'I think,' 'I'd say,' or 'I get it' makes it feel instructional rather than personal",
+      "Jumps quickly from brief validation to clinical safety protocol before returning to advice"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic scripts and actionable steps",
+    "least_ideal_aspect": "Natural prose vs bullet points - over-structured with numbered lists and bold headers rather than flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses 4 distinct numbered points with bold headers (1-4), creating a listicle format. The safety check is also set apart with bold formatting. The content between these structures is prose, but the visual and structural impact is heavily formatted rather than conversational."
+    },
+    "specific_feedback": [
+      "Convert the four numbered points into flowing paragraphs that naturally transition between ideas using phrases like 'Another thing to consider' or 'I'd also think about'",
+      "Incorporate first-person language throughout, such as 'I think you're being a really good friend by caring about this' or 'I'd feel overwhelmed too' to create personal connection",
+      "Integrate the safety check more organically into the warm tone rather than using bold formatting and clinical language like 'Before anything else:'"
+    ]
+  }
+}

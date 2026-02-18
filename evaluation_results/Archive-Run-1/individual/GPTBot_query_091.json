@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - the suggested conversation script ('I've been feeling like sometimes I'm only included because of [person]...') is realistic and helpful",
+      "Follow-up questions at the end are specific and relevant to the situation, showing genuine interest in understanding more ('What happened that made you suspect this?', 'How do they act when the other person isn't involved?')"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure completely diverges from Claude's prose style - contains numbered lists (1-5), bullet points for signs, and bold headers throughout, reading like a self-help article rather than a conversation",
+      "Minimal emotional validation upfront - opens with brief acknowledgment ('That sucks') but immediately jumps into analytical mode with 'signs to look for' rather than sitting with the teen's feelings first",
+      "No emojis at all, making the tone feel formal and clinical despite some casual language",
+      "The balance is heavily skewed toward solutions/analysis (80%) versus emotional support (20%), opposite of Claude's approach of validating first, then offering advice"
+    ],
+    "most_claude_like": "The specific conversation script provided ('I've been feeling like sometimes I'm only included because of [person]...') matches Claude's approach of giving teens exact words they can use",
+    "least_claude_like": "The heavily structured, bullet-pointed format with numbered steps and bold headers - this reads like a checklist or article, completely opposite to Claude's natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured lists: 4 bullet points for signs, 5 numbered steps with bold headers for actions, and 3 bullet points for follow-up questions. Only the opening sentence and brief transitions are in prose form. This is the antithesis of Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose paragraphs throughout; evaluated response is 80% bullets and numbered lists",
+      "Ground truth leads with strong emotional validation ('That's such a frustrating feeling - like you're being treated as a stepping stone'); evaluated response gives minimal validation before jumping to analysis",
+      "Ground truth has natural emoji usage (none shown but typical for Claude); evaluated response has zero emojis, feeling more formal",
+      "Ground truth maintains conversational flow; evaluated response reads like a structured guide with headers like '**Check the pattern, not one moment**' and '**Protect your self-respect**'",
+      "Ground truth balances support and advice naturally; evaluated response is heavily weighted toward analytical problem-solving"
+    ]
+  }
+}

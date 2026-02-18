@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a text from a supportive friend",
+      "Strong use of first-person language throughout ('I think', 'I'd focus', 'I'm here' implied through tone) making it feel personal and authentic",
+      "Provides specific, actionable advice including exact phrasing the teen could use ('Hey, I noticed [specific thing] - how did that make you feel?')"
+    ],
+    "weaknesses": [
+      "Question comes only at the end rather than interspersed throughout like the ground truth, making it slightly less conversational",
+      "Uses an emoji (😅) when the user didn't request one and the ground truth uses none, though it's within acceptable limits",
+      "Slightly heavier on advice compared to the ground truth, which focused more on asking questions first to understand the situation better"
+    ],
+    "most_claude_like": "The natural prose flow and first-person perspective ('I think the best thing you can do', 'I'd focus on still being a good friend') perfectly captures the supportive friend/sibling vibe",
+    "least_claude_like": "The structural choice to give advice before asking questions, whereas Claude typically asks exploratory questions earlier to show curiosity about the specific situation before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks exploratory questions immediately in the second sentence; evaluated response saves the question for the end after giving advice",
+      "Ground truth uses no emojis; evaluated response includes one (😅)",
+      "Ground truth focuses primarily on validation and information-gathering; evaluated response provides more immediate concrete advice and scripts",
+      "Ground truth asks multiple specific questions about the friend's behavior and relationship dynamics; evaluated response asks one compound question at the end"
+    ]
+  }
+}

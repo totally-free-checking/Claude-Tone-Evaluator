@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 3.5,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 2,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice with concrete scripts the teen can use ('I understand the concern. Can you tell me which parts match...')",
+      "Offers realistic, age-appropriate strategies like using Google Docs history or offering to redo problems live",
+      "Covers multiple scenarios (studying together vs. copying, escalation procedures) showing thorough understanding of academic integrity processes"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language and conversational warmth - reads like an administrative handbook rather than a supportive friend ('Here's a good approach:', 'Teachers are looking for a believable process')",
+      "Heavy over-formatting with 6 numbered headers, multiple bullet lists, and structured sections destroys conversational flow",
+      "Minimal emotional validation - only 'That's stressful' before immediately pivoting to solutions, with no empathetic language like 'I'm so sorry' or 'That must feel awful'",
+      "Ends with a clinical intake-style list of three questions rather than a natural, curious follow-up"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific scripts and concrete steps (timestamps, offering to redo problems, follow-up emails) are realistic and immediately actionable for a teen in this situation",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response uses heavy formatting with ### headers, numbered sections (1-6), and bullet lists throughout, reading like a wikiHow article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 16,
+      "prose_percentage": "15%",
+      "notes": "Response uses 6 major numbered headers (### 1 through ### 6) with extensive bullet points under each. The only prose is the initial sentence and brief transitions. Reads as a structured guide rather than conversational text."
+    },
+    "specific_feedback": [
+      "Replace the structured headers and bullets with natural paragraphs: 'First, I'd suggest staying calm and asking for clarity. You could say something like... Then, if they ask for proof, show them your process by sharing...'",
+      "Add genuine emotional validation upfront using first-person empathy: 'Oh wow, that's such a stressful situation! I can feel my stomach dropping just imagining being accused of cheating when you didn't. That feels so unfair and scary.'",
+      "Change the ending from a numbered list of three questions to one natural follow-up: 'What subject was this for? And did you happen to study with that other person at all, even if you didn't copy?'",
+      "Remove all ### headers and bold text formatting to make it feel like a text from a supportive older sibling rather than an academic integrity manual"
+    ]
+  }
+}

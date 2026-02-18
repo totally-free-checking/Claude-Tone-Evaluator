@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I totally get', 'I think') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Strong immediate emotional validation starting with 'Ugh' and acknowledging the draining nature of the situation"
+    ],
+    "weaknesses": [
+      "Could provide one specific script example for 'pulling back' (e.g., 'Hey, I've been swamped lately') to make advice more concrete",
+      "The 😅 emoji slightly mismatches the 'draining' emotion described (better fit for awkward situations vs. exhausting ones)"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational first-person language that sounds like a supportive friend texting",
+    "least_ideal_aspect": "Minor mismatch between the 😅 emoji and the described 'draining' feeling (though usage count is perfect)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational paragraphs with no lists, headers, or structural formatting - reads exactly like a supportive text message"
+    },
+    "specific_feedback": [
+      "Consider adding a specific example phrase for the 'pulling back' strategy, such as suggesting they could say 'Hey, I've been super busy lately' to create natural space",
+      "While the single emoji usage is ideal, 😓 or 😔 might better match the 'draining' emotion than 😅 which implies nervous laughter/awkwardness"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 9.8,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ugh, that mental replay loop is the *worst*' - instantly acknowledges the feeling and makes it relatable",
+      "Excellent prose structure throughout - zero bullet points, natural conversational flow in every paragraph",
+      "Outstanding follow-up question that offers flexibility ('if you don't mind me asking... Or if you'd rather not get into details, that's cool too') - shows genuine interest while respecting boundaries",
+      "Beautiful balance of validation and perspective-giving ('you're probably being way harder on yourself than anyone else is') without dismissing the feeling"
+    ],
+    "weaknesses": [
+      "Missing emoji usage - Claude's response would typically include 1-2 emojis (likely 😅 or similar) to enhance the warm, casual tone, especially in the opening",
+      "Could have one more concrete actionable tip beyond 'be kind to yourself' - though the advice given is solid, it's slightly more abstract than Claude sometimes provides"
+    ],
+    "most_claude_like": "The conversational tone and prose structure are absolutely perfect - 'it's like, part of the human experience package deal' is exactly the kind of natural, casual phrasing Claude uses, and the entire response flows like a real conversation without any formatting crutches",
+    "least_claude_like": "The complete absence of emojis - while everything else is spot-on, Claude typically includes 1-2 emojis to enhance warmth and relatability, especially for this type of vulnerable teen moment",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - four natural paragraphs that flow conversationally. No bullets, no headers, no over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This response IS the ground truth - they are identical",
+      "differences": []
+    }
+  }
+}

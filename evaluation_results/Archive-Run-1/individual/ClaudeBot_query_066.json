@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong prose formatting - maintains paragraph structure throughout with no bullet points, which matches Claude's style well",
+      "Practical advice is specific and actionable - the physiological sigh technique is concrete and the brain dump method includes clear steps ('write every thought fragment down as fast as you can')",
+      "Good follow-up question that's specific to the situation ('is this mostly showing up at night/when you're trying to rest, or is it hitting you throughout the day too?')",
+      "Validates the difficulty of 'stress for no reason' by explaining the physiological basis, which shows understanding"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes the response feel more clinical and less warm compared to Claude's casual, supportive tone",
+      "Opening validation is weaker - 'That sounds really uncomfortable' is more formal than Claude's 'Oh man, that racing brain feeling is the worst!' which immediately connects",
+      "Language is more clinical/educational ('nervous system stuck in a revved-up state', 'physiological sigh') rather than conversational - Claude uses simpler, more relatable language",
+      "The crisis line addition at the end, while well-intentioned, feels somewhat out of place for this query and adds a more formal, cautious tone that Claude doesn't use for this level of concern"
+    ],
+    "most_claude_like": "The prose-based formatting and the specific, actionable breathing technique with clear instructions ('inhale gently through your nose, then take a quick second \"top-up\" sip of air')",
+    "least_claude_like": "The complete absence of emojis and the more clinical, educational tone throughout - Claude would use warmer, more casual language like 'racing brain feeling' instead of 'nervous system stuck in a revved-up state'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullet points. However, the Ground Truth actually uses bold headers with bullet points for the advice section, so this response is actually MORE prose-focused than Claude's actual response, which is interesting."
+    },
+    "key_differences_from_ground_truth": [
+      "Tone: Ground Truth opens with 'Oh man, that racing brain feeling is the worst!' (casual, empathetic) vs. 'That sounds really uncomfortable' (more formal, clinical)",
+      "Language style: Ground Truth uses conversational phrases ('word-vomit', 'ping-ponging around', 'sounds silly but') while the evaluated response uses more technical language ('nervous system', 'physiological sigh', 'downshift signal')",
+      "Emoji usage: Ground Truth has no emojis either (interesting - both responses lack them), but Ground Truth compensates with much warmer, more casual language",
+      "Structure: Ground Truth actually uses bold headers and bullet points for advice, while evaluated response stays in pure prose - this is a reversal of what might be expected",
+      "Crisis line mention: Evaluated response adds crisis resources which Ground Truth doesn't include for this level of concern, making it feel more cautious/formal"
+    ]
+  }
+}

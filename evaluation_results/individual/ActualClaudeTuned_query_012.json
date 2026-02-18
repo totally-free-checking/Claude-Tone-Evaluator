@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I think', 'I get why') which creates authentic connection",
+      "Natural prose format with zero bullet points, flowing like a real conversation between friends",
+      "Strong specific follow-up question that distinguishes between flirty vs. normal conversation to better understand the situation"
+    ],
+    "weaknesses": [
+      "Slightly minimizing language ('feels way worse than it actually is') compared to Claude's more validating approach of acknowledging why brains 'run wild' without dismissing the feeling",
+      "Transitions to practical advice slightly faster than Claude's ground truth, which lingered longer on emotional validation before offering perspective",
+      "Could more explicitly validate the 'feeling dumb' aspect that the user specifically mentioned, rather than just saying 'you're not dumb'"
+    ],
+    "most_claude_like": "The natural first-person conversational voice using 'I think', 'I get it', and 'I'm sorry' creates that supportive friend/older sibling dynamic perfectly",
+    "least_claude_like": "The phrase 'I think this feels way worse than it actually is right now' minimizes the teen's emotional experience slightly by suggesting their perception is exaggerated, whereas Claude validates the feeling as completely natural without framing it as overreaction",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Response flows naturally in paragraphs exactly matching Claude's conversational style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses more teen-specific vernacular ('hits different', 'lol') while evaluated uses slightly more standard casual language ('hits you right in the gut')",
+      "Ground truth focuses validation specifically on the 'feeling dumb' aspect with 'our brains can really run wild', while evaluated focuses more on reframing the situation as 'not serious'",
+      "Ground truth asks about the internal experience type of jealousy, while evaluated asks about the external observable behavior (flirty vs normal)"
+    ]
+  }
+}

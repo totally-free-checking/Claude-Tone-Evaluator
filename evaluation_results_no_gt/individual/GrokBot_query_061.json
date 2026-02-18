@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person conditional language like 'If I were you, I'd start...' and 'I totally get why it's on your mind' which creates personal connection",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with natural transitions between validation and advice",
+      "Strong immediate emotional validation using vivid language like 'fluttery uncertainty' and 'exciting but kinda torturous feeling' that captures the teen's experience"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit 'we've all been there' type validation to normalize the experience before moving to advice",
+      "Practical advice section, while good, could offer one specific example phrase or text message script the teen could actually use to reduce anxiety"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting without any structured lists or corporate formatting",
+    "least_ideal_aspect": "Could balance the length slightly more toward validation since the advice section is proportionally longer than the emotional support section",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural transitions. No headers, bold text, or bullet lists. Advice is woven into narrative sentences rather than listed as steps."
+    },
+    "specific_feedback": [
+      "Add one more validating phrase like 'We've all been there' or 'That uncertainty is the worst' before transitioning to advice to strengthen the emotional support",
+      "Consider including a specific script example like 'You could try saying something like...' to make the advice even more actionable for an anxious teen"
+    ]
+  }
+}

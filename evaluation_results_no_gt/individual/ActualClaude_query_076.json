@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'I totally get that feeling!' and vivid description of the social comparison experience",
+      "Strong use of first-person language throughout ('I think', 'honestly') creating a personal connection",
+      "Natural conversational phrasing like 'capital-T Thing' and 'stumbled across what clicks' that feels authentic without trying too hard"
+    ],
+    "weaknesses": [
+      "Advice section could include one concrete example of a small hobby or interest to explore, making it more actionable",
+      "While the absence of emojis is appropriate for the tone, a single subtle emoji (like 🤔) could enhance warmth slightly"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice is somewhat general; could offer one specific 'try this' suggestion for finding interests",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or over-formatting. Uses natural paragraph breaks that flow like conversation."
+    },
+    "specific_feedback": [
+      "Consider adding one concrete example of a low-pressure way to explore interests (like 'trying a new playlist genre' or 'doodling while watching shows') to make the advice more actionable",
+      "The response is strong overall; maintain this balance of validation-first followed by perspective-shifting advice"
+    ]
+  }
+}

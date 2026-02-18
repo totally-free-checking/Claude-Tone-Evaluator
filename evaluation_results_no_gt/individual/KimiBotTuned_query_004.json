@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst' and acknowledging the anxiety spiral of 'Did I do something?'",
+      "Specific, actionable text scripts the user can literally copy-paste ('Hey, you've felt kinda off over text lately—are we good?')",
+      "Perfect natural prose format with zero bullet points, reading like a supportive friend texting",
+      "Excellent follow-up question that distinguishes between text vs. in-person behavior to help diagnose the situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person bot language like 'I think,' 'I'd say,' or 'I get it'—the response never explicitly positions the bot as sharing the experience or being present ('I'm here if you need to talk')",
+      "Advice is delivered in second-person 'you could try' rather than first-person 'I'd suggest' or 'I think the best approach would be', creating slight emotional distance"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow—completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "First-person language and personal connection—the bot doesn't use 'I' statements to express empathy or offer itself as support, instead remaining observational",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting aids, bullet lists, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person connection phrases like 'I totally get why your brain would spiral' or 'I'd be stressing too if my best friend went dry on me' to create more personal rapport",
+      "Include a brief 'I'm here to help you figure this out' or 'I'm happy to talk through this more' to establish the bot as a supportive presence, not just an advice dispenser"
+    ]
+  }
+}

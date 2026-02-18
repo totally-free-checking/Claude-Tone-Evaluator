@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - provides actual scripts ('I really care about you, and I've been feeling overwhelmed lately...') and concrete alternatives like suggesting weekly calls",
+      "Ends with a strong follow-up question that's specific and invites more detail ('If you tell me what \"clingy\" looks like here...')",
+      "Good use of prose format - mostly paragraph-based without excessive bullet points",
+      "Addresses escalation scenarios thoughtfully (guilt-tripping, monitoring behavior)"
+    ],
+    "weaknesses": [
+      "Opens with validation but it's clinical and detached ('Wanting space doesn't make you a bad friend') - lacks the warmth and empathy of Claude's 'Oh man, that's such a tricky situation!'",
+      "Zero emojis throughout - makes it feel formal and cold compared to Claude's warm, casual tone",
+      "Language is too formal and therapeutic ('broken-record response', 'useful information', 'manage their own anxiety') - sounds like a counselor, not a supportive friend",
+      "Too long and overwhelming - five dense paragraphs that feel like a lecture rather than a conversation. Claude's response is more digestible"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, relevant, and shows genuine interest in helping with the exact situation ('If you tell me what \"clingy\" looks like here...')",
+    "least_claude_like": "The complete absence of emojis and the formal, therapeutic tone ('broken-record response', 'useful information') makes it sound like a psychology textbook rather than a supportive teen conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Good use of prose format throughout. However, Claude's ground truth does use some bullets for organizing specific suggestions, so pure prose isn't necessarily more Claude-like here. The response avoids bullets entirely but compensates with very dense paragraphs."
+    },
+    "key_differences_from_ground_truth": {
+      "tone_warmth": "Claude opens with 'Oh man, that's such a tricky situation!' - immediately warm and validating. Evaluated response opens with a clinical statement about boundaries.",
+      "emoji_usage": "Claude uses no emojis in this particular response either, but the evaluated response's formal tone makes the absence more noticeable and cold.",
+      "language_style": "Claude uses casual, natural language ('Oh man', 'totally normal', 'breathing room'). Evaluated response uses therapeutic jargon ('broken-record response', 'manage their own anxiety', 'useful information').",
+      "structure": "Claude provides digestible chunks with some bullets for clarity. Evaluated response is five dense paragraphs that feel overwhelming.",
+      "validation_approach": "Claude validates immediately and warmly ('It's totally normal to need some breathing room'). Evaluated response validates but in a detached, clinical way.",
+      "advice_depth": "Evaluated response goes much deeper into escalation scenarios (guilt-tripping, blocking) which, while thorough, may be overwhelming for a basic 'friend is clingy' question."
+    }
+  }
+}

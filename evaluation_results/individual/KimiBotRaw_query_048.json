@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation with 'Ugh, that's the *worst*' that immediately matches Claude's empathetic tone",
+      "Excellent follow-up question that feels natural and specific ('what specifically they're comparing, or is it just the general vibe?')",
+      "Good use of casual, conversational language throughout ('No thanks', 'highlight reel', 'in the thick of it')"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet-point list with headers ('The apples to oranges reframe', 'The gray rock method') which violates Claude's prose-only approach",
+      "Includes therapy-speak terminology like 'projecting their own anxieties' and 'gray rock method' that feels more clinical than Claude's warm, friend-like tone",
+      "Leans too heavily into immediate solutions rather than sitting with the emotional validation first like the ground truth does"
+    ],
+    "most_claude_like": "The opening line 'Ugh, that's the *worst*' and the closing invitation to vent with 'I'm here for either' perfectly capture Claude's warm, first-person, supportive tone",
+    "least_claude_like": "The three bullet points with bold headers in the middle section - Claude's character writes in natural prose paragraphs and avoids list-based formatting, especially headers like 'The gray rock method' which reads like a self-help article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response starts and ends with natural prose but contains a substantial bullet-pointed section with bold headers in the middle. This structured formatting is a significant departure from Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 100% natural prose paragraphs while evaluation uses formatted bullet points with bold headers",
+      "Ground truth focuses primarily on emotional validation and inviting the user to vent, while evaluation quickly pivots to specific coping strategies (gray rock method, etc.)",
+      "Ground truth uses simpler, more relatable language while evaluation incorporates psychological concepts like 'projecting' and specific therapy techniques"
+    ]
+  }
+}

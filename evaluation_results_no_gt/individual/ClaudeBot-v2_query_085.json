@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd...', 'I'm gonna sit this one out', 'I'd talk to them') creating a personal, supportive connection",
+      "Provides specific, word-for-word scripts the teen can actually use in the moment ('I'm not trying to pick sides, I'm gonna sit this one out' and 'I like you guys, but the fighting is stressing me out—can we keep me out of it?')",
+      "Perfect prose formatting with natural paragraph flow—no bullets, headers, or over-structuring, reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one warm emoji (like 😓 or 😅) early on to visually reinforce the 'exhausting' sentiment, though the warmth comes through strongly in text alone",
+      "The advice paragraph is slightly dense; breaking it into two smaller paragraphs might improve readability on mobile, though it's still well within acceptable limits"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with zero bullet points or structural formatting—maintains perfect conversational flow while delivering substantial advice",
+    "least_ideal_aspect": "Emoji usage (while appropriate to have none for this serious topic, one subtle emoji could have enhanced the warm tone slightly)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji at the start (like 😓 or 😅) to match the 'exhausting' sentiment and add visual warmth, though this is optional",
+      "The response is excellent overall—maintain this balance of immediate validation followed by specific, actionable scripts and natural first-person language"
+    ]
+  }
+}

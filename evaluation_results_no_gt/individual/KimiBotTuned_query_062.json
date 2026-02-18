@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate visceral validation using teen-appropriate language like 'gross' and 'your stomach is screaming nope' that makes the discomfort feel physically understood",
+      "Specific actionable scripts ('I'm not doing that,' 'Nah, I'm not comfortable with that') and exit strategies (texting a friend, blaming parents) that are realistic for teens to use in high-pressure moments",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive friend texting advice"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language ('I think,' 'I'd say,' 'I'm here') which makes the advice feel slightly impersonal rather than coming from a specific supportive individual",
+      "The advice paragraph is quite dense and could benefit from being split into two paragraphs for better mobile readability, though it maintains good flow"
+    ],
+    "most_ideal_aspect": "Natural prose format with absolutely no bullet points, headers, or over-formatting - maintains conversational flow throughout while delivering substantial advice",
+    "least_ideal_aspect": "First-person language usage - the response avoids using 'I' statements entirely (no 'I think,' 'I'd suggest,' or 'I'm here if you need to talk'), making it feel slightly less like a specific person and more like general guidance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no lists, headers, or bold text. The advice flows naturally within sentences rather than being itemized, perfectly matching the ideal character's conversational style."
+    },
+    "specific_feedback": [
+      "Add first-person ownership to recommendations, such as changing 'If you can, keep it simple' to 'I'd keep it simple and firm' or 'I think the best approach is' to create a stronger sense of a specific supportive person talking",
+      "Consider splitting the long third paragraph after 'change the subject or leave' to create a new paragraph starting with 'If you're stuck in the moment' for better visual breathing room on mobile screens"
+    ]
+  }
+}

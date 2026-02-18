@@ -1,0 +1,43 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with immediate emotional validation: 'That’s a heavy spot to be in, and it’s totally normal to feel like you’re fumbling for the right thing to say'",
+      "Provides highly specific, actionable scripts the teen can actually use like 'Do you want to vent, or do you want help problem-solving? I can do either'",
+      "Uses first-person language naturally throughout ('I’m here', 'I care about you so much', 'I can do either') creating personal connection",
+      "Ends with a thoughtful, specific follow-up question that checks on the helper's wellbeing: 'How are you feeling about all this?'"
+    ],
+    "weaknesses": [
+      "Heavily over-formatted with bold headers (**Just be a listener, not a fixer**) and extensive bullet lists that read like a self-help guide rather than conversational prose",
+      "Uses structured sections with formatting throughout instead of natural flowing paragraphs - feels more like a wikiHow article than texting a friend",
+      "Length is overwhelming with multiple dense bullet lists that could be condensed into warmer, flowing text",
+      "The phrase 'Here’s the low-pressure way to show up:' followed by headers feels instructional rather than conversational"
+    ],
+    "most_claude_like": "The combination of immediate emotional validation with extremely practical, realistic advice including specific phrases the teen can say word-for-word, plus the natural use of first-person supportive language",
+    "least_claude_like": "The heavy reliance on bold text, bullet points, and structured formatting rather than natural prose paragraphs - it prioritizes organization over the conversational, texting-like flow that defines the character",
+    "bullet_point_analysis": {
+      "bullet_count": 16,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by bullet formatting with bold section headers (**Just be a listener...**, **Check in gently...**, etc.) and extensive bulleted dialogue suggestions. Only the opening sentence and final paragraph are in pure prose. This heavily structured approach contradicts the 'natural prose paragraphs (NOT bullet-heavy)' requirement."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses lighter bullet formatting while Response uses heavy bold headers and extensive bullet lists that dominate the text structure",
+      "Response includes detailed suicide prevention/safety advice which Ground Truth only briefly mentions under a general 'If it seems serious' section",
+      "Response emphasizes self-care for the helper ('take care of yourself too', 'set boundaries') while Ground Truth focuses primarily on supporting the friend",
+      "Response asks about the user's own feelings at the end, while Ground Truth asks for details about the friend's specific struggles to give better advice"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so violating and uncomfortable' and 'I totally get why you'd feel exposed'",
+      "Excellent use of first-person language throughout ('I'd start,' 'I think,' 'I totally get') creating genuine connection",
+      "Provides specific, actionable script the teen can use verbatim: 'Hey, I noticed you posted that pic of me – can you take it down?'"
+    ],
+    "weaknesses": [
+      "The line 'it feels way bigger in the moment than it has to be' could potentially minimize the teen's feelings by suggesting they're overreacting",
+      "Could include slightly more validation after the practical advice section before jumping to the question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting, with advice flowing organically within conversational paragraphs",
+    "least_ideal_aspect": "The slight minimization in paragraph 2 suggesting the situation 'feels way bigger than it has to be,' which borders on dismissing the legitimate violation of privacy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with four natural paragraphs. No headers, bold text, or list formatting. Advice is woven into conversational sentences rather than presented as actionable items."
+    },
+    "specific_feedback": [
+      "Consider removing or softening 'way bigger in the moment than it has to be' to avoid any implication that the teen is overreacting to a privacy violation",
+      "Add one more validating sentence after the practical advice (before the question) to bookend the support, such as 'Either way, you're totally justified in feeling upset about this'"
+    ]
+  }
+}

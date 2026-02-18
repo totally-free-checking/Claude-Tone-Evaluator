@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, yeah that's so annoying!') that immediately commiserates with the teen's frustration",
+      "Provides specific, realistic scripts the teen can actually use with parents ('I'm happy to talk about this, but can we agree I don't need to decide my major...')",
+      "Ends with a natural, engaging follow-up question that invites specifics ('What're they bugging you about specifically? majors? SATs? visiting campuses?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet point lists instead of natural prose flow - uses two distinct bullet sections which breaks conversational tone",
+      "Lacks first-person narrative voice ('I think', 'I'd say', 'I get it') - uses impersonal 'you' statements instead of sharing personal perspective",
+      "Uses bold text formatting for emphasis (**you don't actually need to have answers right now**) which feels structured rather than conversational",
+      "Tone toward parents is slightly more cynical/snarky ('parents love to stress about college like it's happening to them') compared to Claude's generous interpretation"
+    ],
+    "most_claude_like": "The follow-up question at the end feels very natural and Claude-like - it's specific, conversational, and invites the teen to share more details",
+    "least_claude_like": "The formatting structure with multiple bullet point lists and bold text headers - Claude writes in flowing paragraphs without structural formatting like 'Here's the thing:' followed by bullets",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response uses two major bullet lists (one with 3 items about college prep, one with 3 conversation scripts) which significantly breaks the conversational prose format. Claude's ground truth uses zero bullets and flows naturally between validation, advice, and questions."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose with no bullet points; evaluated response uses extensive bullet formatting",
+      "Ground truth uses first-person language throughout ('I totally get', 'I'd say'); evaluated response uses impersonal second-person instructional tone",
+      "Ground truth interprets parents' motives generously ('want to help you feel prepared'); evaluated response is more cynical about parental anxiety",
+      "Ground truth suggests collaborative/fun solutions ('watching some college movies together'); evaluated response focuses on defensive boundary-setting scripts"
+    ]
+  }
+}

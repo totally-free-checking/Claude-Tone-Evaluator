@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with phrases like 'that stomach-drop moment is so real' and 'I'd wanna disappear too' that create instant solidarity",
+      "Specific actionable advice including exact phrases to say ('Yeah, I grabbed shoes in the dark… bold choice today') and concrete tactics (tucking feet under desk, waiting for bathroom break)",
+      "Perfect prose formatting with natural paragraph flow - reads exactly like a supportive friend texting, with zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Could include slightly more first-person language like 'I think' or 'I'd say' to strengthen the personal connection, though it does use 'I'd wanna' and 'I'd just keep'",
+      "The balance slightly favors practical advice over emotional validation (2 paragraphs emotional/reassurance vs 1 paragraph practical advice), though it does lead with validation"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational flow - completely avoids bullet points and reads like authentic casual texting with phrases like 'Oh nooo' and 'so real'",
+    "least_ideal_aspect": "Slight imbalance toward practical solutions over emotional validation, though it still opens with strong empathy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. Advice is embedded conversationally within sentences rather than listed out. No headers, bold text, or structural formatting used."
+    },
+    "specific_feedback": [
+      "Consider adding one more 'I' statement like 'I think you're handling this really well' or 'I'd be mortified too' to strengthen the first-person connection",
+      "The response is excellent overall - maintain this level of specific scripting for advice (giving exact words to use) as it helps teens enormously in awkward social situations"
+    ]
+  }
+}

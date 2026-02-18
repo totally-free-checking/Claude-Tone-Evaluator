@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 5,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers, reading like a casual text conversation",
+      "Strong immediate validation with 'Oh wow, that can be such an uncomfortable feeling' and 'sitting heavy on your mind'",
+      "Appropriate restraint with emojis (none used) for this sensitive topic while maintaining warmth through language"
+    ],
+    "weaknesses": [
+      "Lacks first-person connection language like 'I think,' 'I'd feel,' or 'I get it' - uses only 'I can imagine' once, feeling slightly impersonal",
+      "Asks three questions at once (How are you feeling/Was it clear/Want to talk), which can feel overwhelming rather than engaging",
+      "Very light on practical advice or concrete coping strategies, offering only the cognitive insight about 'filling in blanks' without actionable steps"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, creating a conversational flow that feels like texting a friend",
+    "least_ideal_aspect": "Insufficient balance of practical advice - focuses almost entirely on emotional validation and questioning without offering concrete strategies for handling the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs, no lists or headers, maintains conversational flow throughout"
+    },
+    "specific_feedback": [
+      "Add first-person connection statements like 'I'd be totally spiraling if that happened to me' or 'I think you're handling this really well by reaching out' to create more personal connection",
+      "Consolidate the multiple questions into one specific follow-up like 'Do you want to tell me what you overheard, or is it too raw right now?' to avoid overwhelming the user",
+      "Include one concrete coping strategy before the questions, such as 'Maybe try writing down exactly what words you heard vs. what you're worried they meant - sometimes seeing it on paper helps clarify if it's as bad as it feels'"
+    ]
+  }
+}

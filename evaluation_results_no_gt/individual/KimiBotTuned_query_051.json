@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry… that 'I'm only good enough when it's convenient' feeling hurts so bad' which names the specific pain and validates it",
+      "Perfect prose formatting with zero bullet points—flows naturally from validation to advice to follow-up like a real conversation",
+      "Highly specific actionable advice including an exact script the teen can use: 'Hey, I've been feeling like I'm only included last minute lately, and it's been kinda hurting. Am I imagining that?'",
+      "Excellent follow-up question that asks for specific examples (texting when bored, inviting when others can't) rather than generic 'how are you feeling'"
+    ],
+    "weaknesses": [
+      "Advice section uses impersonal constructions like 'It can help to…' and 'you can also…' rather than first-person suggestions like 'I think you could try…' or 'I'd suggest…' which would feel more supportive and personal",
+      "The 😅 emoji choice is slightly mismatched to the emotional weight of the topic (feeling hurt about friendship), though only one emoji is used"
+    ],
+    "most_ideal_aspect": "Natural prose flow with zero bullet points or formatting—reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Lack of first-person framing in the advice section (uses 'it can help' and 'you can' instead of 'I think you should' or 'I'd try')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural transitions. No headers, bold text, or list formatting. Advice is woven into conversational sentences rather than presented as steps."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice section like 'I think you could try…' or 'I'd suggest…' instead of 'It can help to…' to make it feel more like personal guidance from a friend",
+      "Consider using 😔 or 💙 instead of 😅 for painful emotional topics, or omit the emoji entirely, as 😅 can sometimes read as making light of the situation",
+      "Include an explicit 'I'm here if you need to talk' or similar first-person availability statement to reinforce the supportive relationship"
+    ]
+  }
+}

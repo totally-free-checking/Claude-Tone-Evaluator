@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 57,
+  "user_query": "I got a detention and I don’t even think it was fair.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 5,
+      "followup_question": 4,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with casual validation ('That sucks') that acknowledges the frustration",
+      "Appropriate length that doesn't overwhelm while showing willingness to help",
+      "Asks specific, relevant questions about the situation that show understanding of school discipline processes"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points (4 items) makes it feel like an intake form rather than a conversation",
+      "Validation is extremely brief (one sentence) before jumping to investigative problem-solving",
+      "Questions feel like an interrogation rather than natural conversation flow ('Any witnesses or written stuff...')",
+      "Lacks first-person empathetic language throughout the questioning phase"
+    ],
+    "most_ideal_aspect": "Length and conciseness - the response is appropriately sized for a phone screen and doesn't ramble",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses 4 bullet points and numbered parenthetical items instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response starts with prose but shifts to a bulleted list of 4 investigative questions, followed by one final prose question. The bullets create a clinical, form-like feel rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet-pointed questions into natural prose: instead of listing questions, try 'I'd want to hear what actually happened - like what the teacher said versus what went down step by step. Also, were there any witnesses or emails that back up your side?'",
+      "Expand the emotional validation before problem-solving: add 1-2 more sentences acknowledging how unfair school discipline feels, maybe sharing that 'I get how frustrating it is when you feel targeted or misunderstood'",
+      "Reduce the number of questions asked at once - pick the 1-2 most important follow-ups rather than interrogating with 5 questions total"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, I'm so sorry—that's honestly the worst' and explicit confirmation that 'Your feelings are 100% valid'",
+      "Very specific, actionable advice with exact phrases the teen can use like 'That's a weird thing to say to someone' and 'I'd rather you not talk about my appearance, thanks'",
+      "Strong follow-up question that is specific to the situation: 'Want to share who's doing it? I might be able to help you workshop a specific response'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatted headers (**If it's safe to push back:**, **If it's at work/school:**) which breaks the conversational flow",
+      "Missing first-person language in the advice sections ('I think you could try...' or 'I'd probably say...') - uses impersonal structures instead",
+      "Could use one subtle emoji to enhance warmth given the emotional difficulty of the topic"
+    ],
+    "most_ideal_aspect": "The balance of emotional validation and practical advice - it validates feelings first, offers concrete scripts for different scenarios, acknowledges safety concerns, and reaffirms support at the end",
+    "least_ideal_aspect": "The formatting structure with bold headers and bullet points makes it read like a wiki article rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "35%",
+      "notes": "Response starts and ends with prose but the core advice is delivered through three categorized bullet sections with bold headers. The middle section is essentially a formatted list rather than conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose by removing the headers and integrating the advice naturally: 'If it's safe to push back, you could try a direct shutdown like... Or you could use the uncomfortable pause strategy where you just stare at them...'",
+      "Add more first-person perspective throughout the advice portion, such as 'I think the direct approach works best' or 'I'd probably document this if it's at school'",
+      "Consider adding one subtle supportive emoji (like 💙 or 😤) early in the response to signal warmth, or keep it emoji-free but add more casual interjections like 'honestly' or 'yk?' to maintain the texting vibe"
+    ]
+  }
+}

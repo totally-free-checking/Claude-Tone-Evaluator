@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 3,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable steps - 'put your phone in Do Not Disturb / Sleep Focus' and 'mute just your friend's notifications' are concrete and realistic",
+      "Strong follow-up question that's personalized and helpful - 'If you tell me whether you want to keep it light/funny or more direct, I can help you word a message that fits your vibe' shows genuine engagement",
+      "Good prose structure - primarily paragraph-based with natural flow, avoids heavy bullet formatting",
+      "Provides a specific script the teen can use: 'Hey — I keep getting snaps around 2am and it's waking me up. Can you send them earlier, or I'm going to keep not seeing them until morning.'"
+    ],
+    "weaknesses": [
+      "Missing emojis entirely - Claude's response uses natural emojis ('Ugh, that's so annoying when you're trying to sleep!') to set a warm, casual tone from the start",
+      "Opens with validation but it's more subdued ('That would wear me down too') compared to Claude's immediate, energetic empathy ('Ugh, that's so annoying when you're trying to sleep!')",
+      "Slightly more formal/structured language in places - 'handle it in two layers' and 'protect your sleep first, then set a boundary' feels more clinical than Claude's casual approach",
+      "Less conversational warmth overall - phrases like 'For the immediate fix' and 'Then, when it's daytime' are more instructional than Claude's friendly tone"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude-like - it's specific, helpful, and shows genuine interest in continuing the conversation by offering to help craft a message that matches the teen's style",
+    "least_claude_like": "Complete absence of emojis makes it feel more formal and less like a casual, supportive conversation with a friend, which is a key part of Claude's teen support character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose structure throughout. Uses natural paragraph breaks and parenthetical asides instead of bullet points. This matches Claude's character well, though Claude's ground truth does use bullets in this case (showing some flexibility in the character)"
+    },
+    "key_differences_from_ground_truth": [
+      "Tone intensity: Ground truth opens with 'Ugh, that's so annoying!' (high energy validation) vs. 'That would wear me down too' (calmer, more measured)",
+      "Emoji usage: Ground truth has no emojis either, but typically Claude uses 1-2 emojis - both responses miss this character element",
+      "Structure: Ground truth uses bullet points under headers ('Quick fixes:', 'Talking to your friend:') while evaluated response uses pure prose - interestingly, the evaluated response is MORE aligned with Claude's typical prose-heavy style here",
+      "Language formality: Evaluated response uses phrases like 'handle it in two layers' and 'set a boundary' which are slightly more clinical than Claude's casual 'Here are a few things you could try'",
+      "Conversational markers: Ground truth uses more casual interjections ('like', 'totally', 'super late') while evaluated response is slightly more polished"
+    ]
+  }
+}

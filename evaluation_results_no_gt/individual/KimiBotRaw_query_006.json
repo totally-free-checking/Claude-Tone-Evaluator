@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with excellent emotional validation ('Oh no, that sinking feeling after a test is literally the worst!') that immediately acknowledges the teen's panic",
+      "Uses natural, relatable language like 'our brains are really dramatic storytellers' and 'I know that sounds like textbook advice, but seriously' which creates authentic connection",
+      "Provides specific, actionable advice like the 4-7-8 breathing technique and checking for drop-lowest-test policies rather than generic platitudes"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**For right now:**', '**When you’re ready:**') breaks the conversational flow and reads more like a self-help article than a text from a friend",
+      "Lacks first-person singular language like 'I think' or 'I'd suggest' - uses 'we/our' which is good but misses opportunities for personal connection ('I'd say try not to check answers...')",
+      "No emoji used when one (like 😅 or 💙) could have enhanced the warm, supportive tone for this anxiety-inducing situation"
+    ],
+    "most_ideal_aspect": "Conversational tone and language - phrases like 'literally the worst' and 'dramatic storytellers' feel natural and age-appropriate without trying too hard",
+    "least_ideal_aspect": "Prose vs bullet formatting - the response shifts from warm paragraphs into structured bullet lists with bold headers, which disrupts the natural conversational flow ideal for teen support",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "40%",
+      "notes": "Response starts with 2 paragraphs of prose but then switches to 2 sections with bold headers and bullet lists. The advice is good but the formatting is too structured and checklist-like, resembling a wikiHow article rather than a supportive text conversation"
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs - instead of '**For right now:**' with bullets, try something like 'If I were you, I'd try not to obsessively check answers online right now - it'll just keep you in panic mode. Maybe do something physical instead, like a walk or even just washing your face...'",
+      "Add more first-person singular statements like 'I think you're being harder on yourself than you need to be' or 'I'd suggest waiting until tomorrow to worry about next steps' to create stronger personal connection",
+      "Consider adding one warm emoji early in the response (like 😅 after 'literally the worst') to reinforce the supportive tone, or keep it text-only if maintaining a more serious supportive tone"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong emotional validation at the start: 'That's a really uncomfortable situation, and it makes sense you'd feel stuck' - immediately acknowledges feelings",
+      "Excellent practical advice with specific phrases to use: 'When X was said today, it felt racist/sexist and it changed the tone of the room' - gives concrete language",
+      "Good conversational tone in places: 'especially if you're the target—so it's also completely valid' uses natural phrasing and em-dashes",
+      "Ends with an engaging, specific follow-up question that offers concrete help: 'If you tell me two things... I can help you draft a message'"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel more formal and less warm than Claude's character (0 emojis vs Claude's natural 1-2)",
+      "Significantly longer than Claude's response (4 dense paragraphs vs Claude's 3 more digestible ones) - feels overwhelming for phone reading",
+      "Uses bold formatting for emphasis ('**Talk to the teacher privately**' style thinking) which Claude avoids - though not as bullet-heavy as worst cases",
+      "More academic/formal phrasing in places: 'signal (even unintentionally)', 'whoever handles student conduct and equity' - less casual than Claude's 'A few options you might consider'"
+    ],
+    "most_claude_like": "The practical advice quality is excellent - specific phrases to use, concrete next steps, realistic options that acknowledge teen agency and safety",
+    "least_claude_like": "Complete absence of emojis makes it feel too formal and less like a warm, supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Good - maintains prose format throughout. However, the paragraphs are denser and longer than Claude's style, and there's an implicit list structure in how options are presented even without bullets"
+    },
+    "key_differences_from_ground_truth": {
+      "tone": "More formal and academic vs Claude's casual warmth",
+      "length": "Significantly longer (4 dense paragraphs vs 3 readable ones)",
+      "emoji_usage": "Zero emojis vs Claude's natural use",
+      "opening": "Claude starts with 'That really sucks' (more casual) vs 'That's a really uncomfortable situation' (more formal)",
+      "advice_structure": "Claude uses clear labeled options with bold headers, this response embeds everything in prose which is good but makes it harder to scan",
+      "validation_ratio": "Jumps more quickly into solutions vs Claude's stronger upfront validation before advice"
+    }
+  }
+}

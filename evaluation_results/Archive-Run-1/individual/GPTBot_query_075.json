@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent - very specific and actionable with concrete phrases like 'How do you know [host]?' and tactical tips like arriving early",
+      "Ends with an engaging follow-up question that shows genuine interest and offers to provide more tailored advice based on the situation"
+    ],
+    "weaknesses": [
+      "Completely bullet-point heavy structure - the entire response is formatted as a list with bold headers, which is the opposite of Claude's prose-based approach. Ground truth uses prose paragraphs with only a small bulleted section embedded naturally",
+      "Minimal emotional validation - opens with 'Totally normal to feel weird about that' but immediately jumps to solutions without the warmth and empathy Claude shows ('That sounds a bit nerve-wracking! It's totally normal to feel unsure')",
+      "Zero emojis - makes the response feel more formal and less warm compared to Claude's natural, casual tone",
+      "Too long and overwhelming - 7 major bullet points with sub-bullets creates a wall of text that feels like a comprehensive guide rather than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up question at the end ('If you tell me what kind of invite it is...') is very Claude-like - specific, engaging, and shows genuine interest in continuing the conversation",
+    "least_claude_like": "The heavy bullet-point formatting with bold headers throughout - this reads like a self-help article or life coach checklist rather than a warm, conversational response from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% bullet points with bold formatting. Ground truth is roughly 70% prose with only one small bulleted section (3 items) embedded naturally. This is the most significant deviation from Claude's character."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses conversational paragraphs with one small embedded bullet list; evaluated response is almost entirely bullets with bold headers",
+      "Emotional tone: Ground truth leads with strong validation ('nerve-wracking', 'totally normal to feel unsure') and asks exploratory questions before advice; evaluated response gives minimal validation and jumps straight to solutions",
+      "Length and density: Ground truth is concise (4 short paragraphs); evaluated response is much longer with 7+ detailed bullet points that feel overwhelming",
+      "Emoji usage: Ground truth would typically include 1-2 emojis for warmth; evaluated response has none, making it feel more formal",
+      "Balance: Ground truth balances 'it's okay not to go' with practical tips; evaluated response is almost entirely tactical advice without acknowledging the emotional permission to decline"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('That's a really draining feeling—like you're carrying the whole connection on your back') that immediately acknowledges the emotional weight",
+      "Provides excellent specific scripts the teen can actually use ('Hey, I've noticed I'm usually the one to reach out...' and 'I miss hearing from you—can you ping me when you're free this week?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (3 diagnostic bullets, 4 numbered options, 2 script bullets) instead of natural prose paragraphs",
+      "Lacks first-person conversational language throughout—no 'I think,' 'I'd suggest,' or 'I get it' until the very last sentence, making it feel impersonal and clinical"
+    ],
+    "most_ideal_aspect": "Practical advice quality—offers concrete, realistic scripts and specific actions (like the 'pause and gather data' week) that a teen can actually implement",
+    "least_ideal_aspect": "Prose formatting—the response is structured like a self-help article with multiple bullet lists and numbered options rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "25%",
+      "notes": "Response contains 3 diagnostic bullet points, 4 numbered option items, and 2 script bullet points. The heavy structuring makes it read like a wikiHow article rather than a supportive text from a friend. Advice is delivered in list format rather than woven into natural sentences."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs instead of numbered lists—e.g., 'If you want to test this without drama, you could try pausing for a week to see who reaches out. This helps you figure out if they're just busy or actually coasting.'",
+      "Add first-person language throughout to create connection: 'I think the best approach is...' or 'I'd suggest trying...' instead of the impersonal 'Here are a few options'",
+      "Consider adding one warm emoji early (like 💙 or 😅) to set a casual tone, and make the follow-up question more conversational: 'Is this mainly about one person, or does it happen with everyone? I'd love to help you figure out the next step.'"
+    ]
+  }
+}

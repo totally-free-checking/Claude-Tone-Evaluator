@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate and sustained emotional validation with phrases like 'That feeling is absolutely exhausting' and 'I'm really sorry you're sitting with it right now'",
+      "Excellent use of first-person natural language throughout ('Can I tell you something?', 'I know that sounds like annoying semantics', 'I'm here to listen')",
+      "Perfect prose formatting with zero bullet points and natural conversational flow between ideas"
+    ],
+    "weaknesses": [
+      "Language occasionally veers slightly abstract ('semantics', 'metric') which may feel slightly distant for some teens, though still accessible",
+      "Could benefit from one concrete behavioral suggestion alongside the cognitive reframing (e.g., a specific self-compassion exercise)"
+    ],
+    "most_ideal_aspect": "Natural prose flow with consistent first-person empathetic voice that feels like texting a supportive friend",
+    "least_ideal_aspect": "Slightly limited concrete actionable strategies - relies heavily on cognitive reframing without one specific 'try this today' technique",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no lists, headers, or bold formatting. Italics used sparingly for emphasis only."
+    },
+    "specific_feedback": [
+      "Consider adding one small concrete action step (like 'try writing down what you actually accomplished today, even if it feels small') to complement the cognitive reframing",
+      "The opening is strong, but adding a single warm emoji (like 💙) could enhance the emotional connection for teens who respond to visual warmth, though the absence is also appropriate for the serious tone"
+    ]
+  }
+}

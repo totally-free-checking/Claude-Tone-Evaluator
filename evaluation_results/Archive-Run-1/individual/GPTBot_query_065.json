@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent - specific phrases are actionable and realistic ('I like you, but I'm trying not to talk about people who aren't here')",
+      "Follow-up question is natural and specific ('If you tell me what kind of gossip it is... I can help you craft a line that fits your vibe')",
+      "Some conversational moments work well ('Oof, I don't wanna get into that')"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (###), bold text (**), and extensive bullet points - reads like a self-help article rather than a conversation",
+      "Lacks warm emotional validation at the start - jumps straight to solutions without acknowledging the difficulty of the situation",
+      "Only one emoji in the entire response (😊 would have helped set a warmer tone early)",
+      "Too structured and comprehensive - feels like a complete guide rather than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up question at the end is genuinely engaging and shows interest in personalizing advice to their specific situation",
+    "least_claude_like": "The heavy use of headers, bold formatting, and bullet-point structure - Claude writes in conversational prose paragraphs, not formatted lists",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured sections with headers (### What to say, ### What to do, ### If you want to protect) and extensive bullet points. Only the opening sentence and closing question are in prose form. This is the opposite of Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal formatting (one header for 'approaches') while evaluated response has 5 headers and 12+ bullet points",
+      "emotional_opening": "Ground truth starts with 'That's a tough spot to be in!' with empathy and validation. Evaluated response starts with practical boundary-setting without emotional acknowledgment",
+      "tone_warmth": "Ground truth maintains warmth throughout ('totally understandable', 'The key is staying consistent'). Evaluated response is more instructional and clinical",
+      "structure": "Ground truth flows conversationally with advice embedded in prose. Evaluated response reads like a comprehensive guide with multiple sections",
+      "length": "Evaluated response is significantly longer and more comprehensive, potentially overwhelming rather than supportive"
+    }
+  }
+}

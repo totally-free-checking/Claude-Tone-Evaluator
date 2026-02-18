@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect opening validation with 'Ugh, that's such an awkward situation!' - immediately acknowledges the discomfort and validates the teen's feelings",
+      "Excellent conversational tone throughout with natural phrases like 'you're just not feeling the connection' and 'Sometimes people get the hint and back off naturally'",
+      "Outstanding follow-up question that's specific and engaging: 'Is there something specific about the situation that's making it extra uncomfortable? Like are they being pushy or just... not picking up on social cues?' - shows genuine interest and invites further conversation",
+      "Practical advice is concrete and actionable with specific strategies like 'Be \"busy\" when they suggest plans' and 'Gradually reduce your responses to texts/messages'"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section, which slightly deviates from Claude's preference for pure prose formatting - though this is the actual ground truth response",
+      "Could have included one more emoji (perhaps 😅 after the opening or in the middle) to enhance the warm, casual tone, though the single 'Ugh' works well"
+    ],
+    "most_claude_like": "The entire response structure and tone - from immediate validation ('Ugh, that's such an awkward situation!'), through balanced practical advice, to the engaging two-part follow-up question that shows genuine curiosity about their specific situation",
+    "least_claude_like": "The bullet point formatting in the middle section, though this is actually minimal and the bullets are integrated naturally within the conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Response uses bullets for the practical advice section but bookends them with strong prose paragraphs. The bullets are concise and don't feel overly formatted - no headers, bold text, or numbering. The prose sections (opening validation and closing reflection/question) are substantial and conversational."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This response IS the ground truth - they are identical",
+      "differences": []
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - flows like a text conversation",
+      "Strong immediate emotional validation with 'Ugh, that's such an exhausting feeling' and acknowledging the hurt of one-sided effort",
+      "Highly specific actionable advice including exact script wording ('Hey, I've noticed I'm usually the one who starts convos—are we good?') and realistic 'wait and see' strategy"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') which creates slight distance rather than personal connection",
+      "Could include slightly more explicit reassurance that the feeling is valid before jumping to explanations of why others might not initiate"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured lists, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Missing first-person perspective - uses 'you can try' and 'that tells you' rather than 'I'd suggest' or 'I'm here if you need to talk', making it feel slightly less personally connected",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person phrases like 'I totally get why that feels heavy' or 'I'd feel the same way in your shoes' to create stronger personal connection",
+      "Consider adding a brief 'I'm here if you need to talk' or similar closing reassurance before the follow-up question to reinforce supportive presence"
+    ]
+  }
+}

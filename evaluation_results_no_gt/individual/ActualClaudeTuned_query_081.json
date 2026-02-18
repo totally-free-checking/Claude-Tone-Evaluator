@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd probably', 'I totally get') creating genuine connection",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've been trying to get better sleep lately so I'm putting my phone on silent after 11pm')",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice ('The good news is this is super fixable!') is slightly abrupt and could use one more sentence of emotional acknowledgment",
+      "Could validate the potential awkwardness of setting boundaries with friends before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with no lists, headers, or over-structuring",
+    "least_ideal_aspect": "The pivot from emotional validation to practical solutions happens slightly quickly without acknowledging the social anxiety that might come with telling a friend to stop texting",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, numbered lists, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add one sentence acknowledging the awkwardness of setting boundaries with friends before offering solutions, like 'It can feel weird to tell a friend to back off, but...'",
+      "Consider softening the transition from validation to advice - instead of 'The good news is this is super fixable!', try something like 'That exhaustion is so real, and honestly you deserve uninterrupted sleep. The good news is...'"
+    ]
+  }
+}

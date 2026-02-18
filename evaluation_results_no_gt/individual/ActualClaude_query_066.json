@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent conversational language that feels authentic and teen-appropriate ('Oh man,' 'word-vomit,' 'vibe,' 'ping-ponging around')",
+      "Strong use of first-person perspective ('Sometimes I find it helps') creating genuine connection",
+      "Specific, actionable advice realistic for teens (phone notes, funny videos, walking around the block, 4-7-8 breathing)",
+      "Engaging follow-up question that offers a binary choice relevant to the advice given"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (4 bullets) makes it read like a checklist rather than a conversation",
+      "Could open with slightly deeper emotional validation before jumping to solutions",
+      "Formatting with 'A few things that might help:' followed by structured bullets feels more like a self-help article than a text from a friend"
+    ],
+    "most_ideal_aspect": "Conversational tone and language - uses natural contractions, casual phrasing ('word-vomit,' 'vibe'), and first-person perspective that makes it sound like a supportive peer rather than a bot",
+    "least_ideal_aspect": "Prose vs bullet formatting - the response uses 4 bullet points with bold headers ('Quick brain dump,' 'The 4-7-8 breathing thing,' etc.) which breaks the conversational flow and feels over-structured compared to the ideal prose paragraph format",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses bold headers for each suggestion (Quick brain dump, The 4-7-8 breathing thing, etc.) which creates a listicle format. The advice should flow naturally within paragraphs rather than being itemized. The phrase 'A few things that might help:' signals a shift from conversational to instructional formatting."
+    },
+    "specific_feedback": [
+      "Convert the four bullet points into 1-2 flowing prose paragraphs that weave the suggestions together naturally (e.g., 'When my brain gets like that, I usually try to word-vomit everything onto paper first...')",
+      "Add one warm emoji at the opening to enhance the supportive tone (e.g., 😅 or 💙) since the current response has zero",
+      "Expand the opening validation slightly before offering solutions - perhaps acknowledge how exhausting that mental racing feels"
+    ]
+  }
+}

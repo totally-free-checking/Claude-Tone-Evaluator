@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so annoying!' and acknowledging the disrespect of not being consulted",
+      "Specific, actionable advice with three distinct approaches that consider different levels of teen agency (pushing back vs. compromise)",
+      "Natural teen-appropriate language like 'how spicy you're feeling' and 'classic mom behavior' that avoids being cringe"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers ('The 'actually...' approach:', 'The scout:', 'The compromise:') instead of natural prose paragraphs",
+      "Lacks first-person language ('I think', 'I'd suggest', 'I get it') - uses impersonal 'You've got a few options' instead of personal recommendations",
+      "Ends with two questions at once ('How bad is it? And do you have time to get out of it?') rather than one natural follow-up"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - immediately validates the frustration and acknowledges that parents skipping consent feels disrespectful, creating strong rapport",
+    "least_ideal_aspect": "Natural prose vs. bullet points - shifts into a structured list format with bold headers that reads more like a wikiHow article than a texting conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response starts with strong prose but shifts to a heavily structured middle section with three bolded bullet points describing different approaches. This breaks the conversational flow and feels more like a strategic guide than a friend texting advice. The bold headers ('The 'actually...' approach:', etc.) are particularly formatting-heavy."
+    },
+    "specific_feedback": [
+      "Convert the three bullet points into flowing prose using first-person suggestions like 'I think you could try telling her...' or 'Honestly, I'd probably treat it as reconnaissance...'",
+      "Reduce the ending to one natural follow-up question instead of asking two questions at once",
+      "Incorporate more first-person validation language like 'I get why that bugs you' or 'I'd feel the same way' to make it feel like a personal conversation rather than general advice"
+    ]
+  }
+}

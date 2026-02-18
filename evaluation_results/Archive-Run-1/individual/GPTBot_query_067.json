@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - the specific phrases to use ('I'm open to talking about it, but I don't want this to turn into deciding my whole future right now') are realistic and helpful",
+      "The follow-up question at the end shows genuine interest and offers to help further based on specific details ('If you tell me what they're saying...')"
+    ],
+    "weaknesses": [
+      "Heavily relies on bullet points and numbered lists throughout - the response is structured like a guide/checklist rather than a natural conversation. Ground truth uses pure prose paragraphs.",
+      "Minimal emotional validation upfront - jumps quickly into solution mode with 'A good move is...' rather than sitting with the feeling first like Claude does ('Oh man, I totally get why that might feel overwhelming!')",
+      "Uses bold headers and formatting (**Ask what they actually mean**, **Set a time limit**) which makes it feel like a self-help article rather than a supportive conversation",
+      "Only one emoji attempt ('lol' equivalent missing) - ground truth uses 😅 naturally to set warm tone"
+    ],
+    "most_claude_like": "The practical advice quality is strong - offering specific phrases the teen can actually use and breaking down realistic next steps that acknowledge their limited agency",
+    "least_claude_like": "The heavy use of bullet points, numbered lists, and bold formatting - this reads like a structured guide rather than Claude's conversational prose style. Ground truth has zero bullets and flows naturally in paragraphs.",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured formatting: 2 bullet points for suggested phrases, 3 numbered sections with bold headers, and 4 example bullet points under 'next steps'. Ground truth has 0 bullets and is 100% prose. This is the most significant deviation from Claude's character."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is entirely conversational prose paragraphs; evaluated response is heavily formatted with bullets, numbers, and bold headers",
+      "Emotional validation: Ground truth leads with strong empathy ('Oh man, I totally get why that might feel overwhelming!'); evaluated response has minimal validation ('Yeah, that can feel really early') before jumping to solutions",
+      "Tone: Ground truth feels like texting a supportive friend; evaluated response reads like a structured advice article or guide",
+      "Emoji usage: Ground truth uses 'lol' naturally at the end of a sentence; evaluated response has no emojis at all, making it feel more formal"
+    ]
+  }
+}

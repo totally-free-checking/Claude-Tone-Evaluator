@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 16,
+  "user_query": "I forgot I had practice after school and I planned something else.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Oh no, that's such a frustrating feeling' that normalizes the double-booking experience",
+      "Appropriate emoji usage with a single well-placed 😅 that conveys the awkwardness of the situation without being excessive",
+      "Practical advice is realistic and teen-appropriate, offering three specific actionable options (rescheduling, partial attendance, finding coverage)"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list for the main advice instead of natural prose paragraphs, which breaks the conversational flow ('Sometimes you might be able to:' followed by three bullets)",
+      "Lacks first-person perspective language like 'I think' or 'I'd say' - uses 'you' and 'we' but misses opportunities for personal connection",
+      "Asks multiple questions at the beginning ('What kind of practice is it, and how important is the other thing you planned?') in addition to the ending question, which feels slightly scattered"
+    ],
+    "most_ideal_aspect": "Emoji usage - perfectly executes the 0-1 emoji guideline with a single 😅 placed early to set a warm, relatable tone for an awkward situation",
+    "least_ideal_aspect": "Prose formatting - relies on a bulleted list for core advice rather than flowing natural paragraphs as required by the ideal character",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses a clear bulleted list with three items introduced by 'Sometimes you might be able to:' - this is a significant deviation from the ideal prose-only format. The advice should be woven into conversational sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose: 'Sometimes you might be able to move one to a different time, or show up a bit late to practice, or even see if someone can cover for you...'",
+      "Add first-person language like 'I think the best approach would be...' or 'I'd probably try to...' to create a more personal, supportive connection",
+      "Move the opening questions to the end to create a better flow: validate first, then advise, then ask 'What kind of practice is it?' to engage"
+    ]
+  }
+}

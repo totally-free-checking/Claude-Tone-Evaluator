@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and acknowledging the 'spotlight' feeling",
+      "Excellent use of first-person language throughout ('I'd probably grab', 'I'm so sorry', 'I think' implied in tone)",
+      "Specific, actionable advice with exact phrases a teen could use ('Yo, is this seat taken?', 'How'd you do on the quiz?')",
+      "Perfect prose formatting with natural paragraph flow - no lists or headers"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😅 or 😊) to enhance the casual, friendly tone, though the warmth comes through in text",
+      "The advice section is slightly longer than the validation section, though still well-balanced"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with first-person language - reads exactly like a supportive friend texting advice without any bullet points or over-formatting",
+    "least_ideal_aspect": "Emoji usage - while 0 emojis is acceptable, one well-placed emoji could have enhanced the warmth for this socially awkward situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one emoji (like 😅 after 'trying to act chill' or 😊 at the end) to visually signal warmth in a text-based medium",
+      "The response is exemplary overall - maintain this balance of validation-first followed by specific, low-pressure actionable steps"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Strong immediate emotional validation with 'Ugh, that's such an awkward spot to be in' and acknowledging 'you didn't do anything wrong'",
+      "Provides specific, actionable scripts for what to say: 'Thank you for asking, I'm really flattered, but I don't feel that way'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'The kindest thing is' instead of 'I'd say the kindest thing is'",
+      "Could include more explicit supportive language like 'I'm here if you need to talk' to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Missing first-person perspective and 'I' statements that would make it feel like advice from a specific person rather than general guidance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, bold text, or headers used. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I'd say' or 'I think' before advice to make it feel more personal and conversational (e.g., 'I'd say the kindest thing is...' instead of 'The kindest thing is...')",
+      "Consider adding a brief 'I'm here if you need to talk' or similar closing to reinforce the supportive, personal connection before the follow-up question"
+    ]
+  }
+}

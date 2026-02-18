@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, presenting with shaky hands is the worst' and relatable physical description ('your whole body feel like it's betraying you')",
+      "Perfect natural prose format with zero bullet points - advice flows organically in sentences like 'I'd try taking some deep breaths... If you're holding notes or a clicker...'",
+      "Specific, actionable advice including the concrete 4-4-4 breathing technique and realistic physical strategies (gripping clicker, tucking hands)"
+    ],
+    "weaknesses": [
+      "Follow-up question combines two distinct questions ('What's the topic... or have you practiced...'), which is slightly less focused than a single engaging question",
+      "Could strengthen first-person connection with phrases like 'I think' or 'I find that' rather than 'The good news is there are...' in the transition to advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points or structural formatting",
+    "least_ideal_aspect": "The compound follow-up question that asks about both the topic and practice level in one query",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no headers, bold text, or list formatting. Advice is seamlessly integrated into conversational sentences."
+    },
+    "specific_feedback": [
+      "Consider using 'I think' or 'I'd say' when transitioning to advice to maintain first-person warmth throughout",
+      "Separate the final question into a single focus or use an 'and' instead of 'or' to make it feel more like one continuous thought rather than two distinct questions"
+    ]
+  }
+}

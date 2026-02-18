@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 17,
+  "user_query": "I got a weird vibe from a friend’s boyfriend and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 5.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with strong validation and empathetic language ('Ugh, that's such an uncomfortable spot to be in') that immediately acknowledges the difficulty of the situation",
+      "Ends with a natural, specific follow-up question that invites the user to share more details ('Has he done anything specific that made your alarms go off...')",
+      "Provides realistic, actionable advice with specific scripts the teen could actually use (e.g., 'Hey, I miss our one-on-one time—can we do brunch just us?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and structured formatting contradicts Claude's prose-based conversational style - uses bold headers, bullet lists, and numbered steps instead of flowing paragraphs",
+      "Jumps immediately to extensive advice and categorization without first gathering context, unlike the ground truth which asks questions before advising",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') throughout, instead using instructional 'you' statements that feel more like a guide than a conversation",
+      "Overly long and comprehensive compared to Claude's concise, focused responses - feels overwhelming for a phone screen"
+    ],
+    "most_claude_like": "The opening validation that immediately normalizes the 'weird vibe' feeling and the closing question that naturally invites the user to elaborate on their specific situation",
+    "least_claude_like": "The extensive use of bullet points, numbered lists, and bold headers that transform the response into a structured safety guide rather than a warm conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "15%",
+      "notes": "Response contains multiple bold headers ('Safety vibes', 'Just-not-vibing', 'What you can do right now'), two bullet lists with 4-5 items each, and a numbered 5-step action plan. This is extremely heavy formatting compared to Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth validates briefly then asks exploratory questions before giving advice; evaluated response immediately provides extensive categorized advice without hearing details first",
+      "Ground truth uses natural prose paragraphs exclusively; evaluated response uses heavy formatting (bullets, numbers, bold headers) that reads like an article rather than a text conversation",
+      "Ground truth is concise (2 short paragraphs); evaluated response is lengthy and potentially overwhelming",
+      "Ground truth focuses on relationship dynamics ('how close are you with your friend'); evaluated response focuses on categorizing red flags and action steps"
+    ]
+  }
+}

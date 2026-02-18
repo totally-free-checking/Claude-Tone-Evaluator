@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ugh, that sounds really draining!' - acknowledges the emotional toll right away before anything else",
+      "Excellent conversational flow with natural questions that show genuine curiosity ('Are we talking like heated debates about random stuff, or more personal conflicts?')",
+      "Masterful balance of validation and practical direction - validates feelings, hints at solutions without overwhelming, then re-engages with a specific question",
+      "Natural prose structure throughout - zero bullet points, flows like a real conversation"
+    ],
+    "weaknesses": [
+      "Could have included one emoji in the opening validation to add warmth (though the 'Ugh' does carry emotional weight)",
+      "The practical advice is mentioned but not deeply explored - though this is appropriate for an initial response where gathering more info is the priority"
+    ],
+    "most_claude_like": "The opening 'Ugh, that sounds really draining!' followed by empathetic elaboration is quintessential Claude - it immediately validates the teen's experience with casual, relatable language that makes them feel heard",
+    "least_claude_like": "The absence of an emoji is the only minor deviation - Claude typically includes 1-2 emojis, often in the first paragraph, though the strong conversational tone compensates well",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting. All advice and questions flow naturally within conversational paragraphs. No lists, no headers, no over-structuring. Reads exactly like texting with a supportive friend."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical, so there are zero differences in content, tone, structure, or approach"
+    ]
+  }
+}

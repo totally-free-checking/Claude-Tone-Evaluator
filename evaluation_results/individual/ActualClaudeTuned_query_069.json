@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('Honestly, I think', 'If I were you, I'd', 'I'd maybe try') which creates a supportive, personal connection",
+      "Provides specific, actionable phrases the teen can actually say in the moment ('okay, that's not funny anymore' or 'why do you keep saying that?') rather than vague advice",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation rather than a structured guide"
+    ],
+    "weaknesses": [
+      "Could slightly strengthen the initial validation by explicitly naming the specific emotions (frustration, confusion) like the Ground Truth does, though it does capture the stress well",
+      "The transition from validation to advice is slightly abrupt - could use a softer bridge phrase like 'Trust your gut' before launching into the 'If I were you' advice"
+    ],
+    "most_claude_like": "The natural first-person conversational voice using 'I think', 'I'd say', and 'If I were you' combined with pure paragraph formatting that reads like texting with a supportive friend",
+    "least_claude_like": "The use of an emoji (😅) when the Ground Truth used none, though this is still within character guidelines (0-1 max) and appropriately placed",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure natural prose with no bullet points, headers, or bold formatting. This actually aligns better with the character profile's preference for 'natural prose paragraphs (NOT bullet-heavy)' than the Ground Truth, which used extensive bullet lists and headers."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth used structured bullet points and headers to categorize bullying vs teasing criteria; Response used flowing prose focused on gut feelings and immediate responses",
+      "Ground Truth provided a diagnostic checklist approach; Response offered specific scripted phrases for confrontation",
+      "Response employed more first-person advisory language ('If I were you') while Ground Truth used more second-person imperative ('Trust your gut', 'Have you tried')",
+      "Response included one emoji (😅) while Ground Truth used none"
+    ]
+  }
+}

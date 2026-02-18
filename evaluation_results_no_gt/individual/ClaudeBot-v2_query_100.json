@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.7,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Immediate and specific emotional validation ('I'm so sorry you're feeling this way,' 'genuinely exhausting, like you can't ever fully breathe') that names the exact emotional experience",
+      "Strong first-person advisory language throughout ('If I were you, I'd try,' 'I'd tell them exactly this sentence') creating a personal, supportive presence",
+      "Perfect prose formatting with zero bullet points, headers, or over-structuring—reads exactly like a supportive text from a friend",
+      "Highly specific actionable advice with concrete teen-relevant examples ('one assignment, one convo, one habit,' identifying specific people like 'favorite teacher, counselor, sibling')"
+    ],
+    "weaknesses": [
+      "While 0 emojis is appropriate for the serious tone, a single warm emoji could enhance the supportive connection without undermining gravity",
+      "Could explicitly include 'I'm here if you need to talk' or similar ongoing availability statement to reinforce the first-person supportive presence"
+    ],
+    "most_ideal_aspect": "The natural prose flow and complete absence of bullet points or formatting—advice is woven organically into conversational paragraphs that read like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage, though appropriately minimal (zero), could potentially include one warm supportive emoji to enhance the emotional connection without detracting from the serious topic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response consists of four natural paragraphs with no bullet points, numbered lists, headers, or bold text. Advice flows seamlessly within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm, supportive emoji (such as 💙 or 😊) either after the opening validation or at the very end to enhance emotional warmth without undermining the serious tone",
+      "Explicitly state availability for continued conversation (e.g., 'I'm here if you want to talk more about this') before or alongside the follow-up question to reinforce the first-person supportive presence"
+    ]
+  }
+}

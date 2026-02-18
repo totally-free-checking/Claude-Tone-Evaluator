@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd focus') creating a personal, supportive connection",
+      "Natural prose format with zero bullet points or headers - flows like a real conversation",
+      "Provides specific, actionable scripts like 'Hey, I noticed [specific thing] - how did that make you feel?' that teens can actually use"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while conveying awkwardness, might slightly understate the seriousness of a trust concern (though it works for the 'tough spot' framing)",
+      "Could include slightly more explicit emotional support upfront (e.g., 'That must feel so stressful') before moving to the 'friends have to figure it out' reality"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format with first-person language ('I think', 'I'd focus') makes it feel like texting with a supportive older sibling rather than reading advice",
+    "least_ideal_aspect": "The emoji choice (😅) is the only slightly questionable element for a serious trust concern, though it fits the awkward situation vibe",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, bold text, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using a heart or supportive emoji (💙) or no emoji instead of 😅 for serious trust concerns, though the current choice conveys the awkwardness of the situation well",
+      "Could add one sentence of explicit emotional validation like 'I'm sorry you're carrying this worry' before the practical advice to strengthen the emotional support component"
+    ]
+  }
+}

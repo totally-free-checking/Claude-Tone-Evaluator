@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong immediate validation ('Ugh, that spotlight feeling is the worst') that mirrors Claude's empathetic acknowledgment of the awkwardness",
+      "Normalizes the experience effectively with relatable context ('Sometimes schedules don't line up, sometimes you just needed a breather') and reassurance that it happens to everyone",
+      "Provides creative, specific, and immediately actionable advice realistic for teens (Wikipedia rabbit holes, people-watching backstories, enjoying food without interruption)"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet point list ('Phone dive', 'The observation deck', 'Actual food enjoyment') which violates the character's prose-only approach - Claude's response flows naturally without any list formatting",
+      "Fails to end with a follow-up question to continue the conversation; instead closes with encouragement and an emoji, missing the opportunity to re-engage the user",
+      "Uses an emoji (🍕) when the user didn't request emojis and the ground truth uses none, making it slightly less aligned with the preferred restrained approach"
+    ],
+    "most_claude_like": "The warm, conversational opening that immediately validates the emotional difficulty with 'Ugh, that spotlight feeling is the worst' and the natural use of teen-appropriate casual language throughout",
+    "least_claude_like": "The formatted bullet point list with creative headers for advice instead of flowing prose paragraphs that integrate suggestions naturally into the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response uses three distinct bullet points with bolded headers ('Phone dive', 'The observation deck', 'Actual food enjoyment') which is significantly more structured than Claude's pure prose approach. The bullets account for roughly one-third of the response content, breaking the conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 100% natural prose paragraphs while the evaluated response uses formatted bullet points with headers for practical advice",
+      "Ground truth ends with an engaging follow-up question ('How much longer do you have to sit there?') to continue conversation, while the evaluated response ends with a statement and emoji with no question",
+      "Ground truth uses zero emojis while the evaluated response includes a pizza emoji at the end",
+      "Ground truth presents advice as flowing suggestions within paragraphs ('Like put in headphones, scroll your phone...') while the evaluated response lists them as distinct options"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides very specific, actionable advice with exact text scripts the teen can use ('Sure—what's it about, so I'm not overthinking until then?')",
+      "Includes concrete grounding techniques (4-7-8 breathing, 5-4-3-2-1 sensory exercise) that are immediately helpful for anxiety",
+      "Reality-checks catastrophic thinking by listing alternative explanations for 'we need to talk' beyond worst-case scenarios"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and bullet points makes it read like a wikiHow article rather than a supportive text from a friend",
+      "Lacks first-person language and emotional connection—no 'I get how scary this is,' 'I'm here for you,' or 'I'd feel the same way' to create personal warmth",
+      "Jumps quickly from brief validation to four structured action steps without enough emotional holding space for their terror"
+    ],
+    "most_ideal_aspect": "The practical advice quality is excellent, offering specific scripts and grounding techniques that are realistic and immediately usable",
+    "least_ideal_aspect": "The formatting is extremely structured with numbered lists, bold headers, and sub-bullets, completely diverging from the natural prose paragraph style of a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "15%",
+      "notes": "Response uses 4 main numbered sections with bold headers, plus multiple sub-bullet points under each section, and additional bullet questions at the end. Only the first sentence is prose. Reads as a structured self-help guide rather than conversational support."
+    },
+    "specific_feedback": [
+      "Rewrite as 2-3 flowing paragraphs instead of numbered lists—integrate the advice naturally into sentences like 'If it were me, I'd probably try to get one clarifying detail without sounding too intense, maybe something like...'",
+      "Add first-person empathetic language throughout: 'I get that terrified feeling,' 'I'm so sorry you're dealing with this,' 'I'd be spiraling too,' to create genuine connection rather than instructional distance",
+      "Move the grounding technique into the prose naturally rather than as a separate numbered instruction, and consider adding one warm emoji (like 😅 or 💙) early to soften the tone"
+    ]
+  }
+}

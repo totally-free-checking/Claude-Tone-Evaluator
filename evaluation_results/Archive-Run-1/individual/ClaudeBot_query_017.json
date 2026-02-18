@@ -1,0 +1,46 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 17,
+  "user_query": "I got a weird vibe from a friend’s boyfriend and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable suggestions like 'keep your own transportation' and 'jot down what happened while it's fresh'",
+      "Strong follow-up engagement at the end, asking for more details to provide tailored advice ('tell me what happened... and roughly how close you are with your friend')"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis, making it feel formal and clinical rather than warm and conversational",
+      "Heavily structured with multiple colon-separated lists ('was it something he said, the way he looked at you, pushing boundaries...') instead of natural prose paragraphs",
+      "Jumps immediately into problem-solving mode without sufficient emotional validation - opens with validation but quickly becomes a safety manual",
+      "Far too long and overwhelming (6 dense paragraphs) - would be exhausting to read on a phone and feels more like a crisis handbook than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up question at the end is very Claude-like, showing genuine interest and offering to help think through the specific situation with tailored advice",
+    "least_claude_like": "The complete absence of emojis and the heavily structured, list-heavy format with multiple colon-separated examples reads like a safety guide rather than a warm, conversational response from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "40%",
+      "notes": "While technically no bullet points, the response uses extensive colon-separated lists within sentences ('was it something he said, the way he looked at you, pushing boundaries, getting you alone, making comments about your body...') which creates the same over-structured, checklist feeling. Multiple paragraphs read like enumerated options rather than natural conversation."
+    },
+    "key_differences_from_ground_truth": {
+      "ground_truth_approach": "Claude starts with immediate warm validation ('That's a tough spot to be in!'), uses an emoji-like casual tone, keeps it brief (3 short paragraphs), asks clarifying questions early, and maintains conversational flow throughout",
+      "evaluated_response_approach": "Opens with validation but quickly shifts into comprehensive safety protocol mode, no emojis, much longer (6 paragraphs), uses extensive list-like structures within prose, reads more like a crisis counselor than a supportive friend",
+      "major_differences": [
+        "Length: Ground truth is ~80 words, evaluated response is ~400+ words - nearly 5x longer and overwhelming",
+        "Tone: Ground truth is warm and conversational ('Trust your gut'), evaluated response is clinical and procedural ('make some quiet safety/boundary moves')",
+        "Structure: Ground truth uses natural questions and short paragraphs, evaluated response uses extensive colon-lists and dense information blocks",
+        "Emoji usage: Ground truth would likely include 1-2 emojis for warmth, evaluated response has zero",
+        "Validation balance: Ground truth leads with empathy and stays light, evaluated response front-loads validation but becomes a safety manual"
+      ]
+    }
+  }
+}

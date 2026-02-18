@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides very specific, actionable advice with realistic options (gas station protein boxes, splitting DoorDash, desk drawer stashes) that teens can actually use",
+      "Ends with a natural, engaging follow-up question about walking distance that shows genuine interest in their specific situation",
+      "Uses casual, relatable language like 'hits different' and 'sad granola bar' that fits the teen voice without trying too hard"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers ('**The gas station special**') instead of flowing prose paragraphs - reads like a listicle rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I've been there') which makes it feel impersonal despite casual word choice",
+      "Validation is brief compared to the extensive bulleted advice section, creating an imbalance toward solutions over emotional support"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic solutions specific to the forgotten lunch scenario with actual places and strategies teens can access",
+    "least_ideal_aspect": "Prose formatting - uses four bullet points with bold headers instead of natural paragraph flow, making it feel structured like a wiki article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response starts with one prose paragraph, then shifts to 'here are some low-effort fixes' followed by four formatted bullet points with bold headers (The gas station special, Coffee shop savory, Emergency DoorDash, Desk drawer stash), then ends with one prose paragraph. The bullet format dominates the response and breaks conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural flowing prose: instead of listing options, try 'I'd probably swing by a gas station for a protein box or cheese sticks, or if I wanted something that feels more like a real meal, I'd grab egg bites from a coffee shop...'",
+      "Add first-person perspective throughout: use phrases like 'I've definitely forgotten my lunch before and felt that panic,' 'I'd say your best bet is...' or 'I get why you don't want to make a big deal about it' to create personal connection",
+      "Consider adding one warm emoji (like 😅 or 😊) early in the response to enhance the supportive tone, since this is a lighthearted but relatable annoyance"
+    ]
+  }
+}

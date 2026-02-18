@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 10,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Opens with strong validation and casual empathy ('Ugh, that's such a frustrating gray area to be stuck in') that acknowledges the confusion",
+      "Provides excellent specific actionable advice including exact phrases to use ('practice a firm 'Stop doing that' without explaining yourself') and concrete steps like documenting incidents",
+      "Uses appropriate casual teen language ('vibe check', 'crappy', 'gray area') without being cringe or forced"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which creates emotional distance rather than the supportive peer connection Claude aims for",
+      "Over-structured with bold headers (**The vibe check:**, **The pattern:**) and excessive nested bullet points that read like a self-help article rather than a natural conversation",
+      "Too long and overwhelming - the extensive bulleted sections create a clinical, instructional tone rather than warm, flowing prose"
+    ],
+    "most_claude_like": "The opening validation that immediately names the emotional experience ('frustrating gray area') and normalizes the confusion with casual language like 'Ugh' and 'crappy'",
+    "least_claude_like": "The heavy reliance on bold headers and nested bullet points (**The vibe check:**, **Trust your nervous system:**) which makes it read like a structured guide rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 16,
+      "prose_percentage": "15%",
+      "notes": "Response uses 4 major bold headers with multiple nested bullet points under each section, creating a highly formatted, list-heavy structure that diverges significantly from Claude's natural prose approach"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses simple paragraph breaks with light bullet usage; evaluated response uses aggressive formatting with bold headers and sub-bullets that feels more clinical",
+      "Evaluated response is significantly longer and more comprehensive than needed, while ground truth maintains concise, phone-friendly length",
+      "Both lack first-person 'I' statements, but evaluated response feels more impersonal due to its instructional wikiHow-style formatting vs. ground truth's conversational list structure"
+    ]
+  }
+}

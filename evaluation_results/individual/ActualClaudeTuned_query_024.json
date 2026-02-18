@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd try') creating a personal, supportive connection",
+      "Natural conversational flow with appropriate casual phrasing ('kinda happened', 'hits you in the gut') without forced slang",
+      "Specific, actionable advice including exact phrasing the teen could use ('saw you guys hung out yesterday, looked fun!')"
+    ],
+    "weaknesses": [
+      "Slightly longer than Claude's typical concise responses (4 paragraphs vs ground truth's 3)",
+      "The line 'Friends aren't required to invite each other to every single thing' is a bit more direct/blunt than the ground truth's softer approach, though still balanced with empathy"
+    ],
+    "most_claude_like": "The natural prose formatting and consistent use of first-person perspective ('I think you could', 'I'd try not to overthink') creates an authentic conversational tone that feels like texting with a supportive friend",
+    "least_claude_like": "The inclusion of the blue heart emoji (💙), while within acceptable limits (0-1), differs from the ground truth's emoji-free approach and slightly shifts the tone toward being more explicitly 'supportive' rather than casually conversational",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, headers, or over-formatting, matching Claude's conversational prose style perfectly"
+    },
+    "key_differences_from_ground_truth": [
+      "Uses one emoji (💙) while ground truth uses none",
+      "Employs significantly more first-person language ('I think', 'I'd try') compared to ground truth's more imperative/second-person approach ('Try not to', 'Have you thought about')",
+      "Follow-up question focuses on spontaneity vs. planned nature rather than ground truth's question about closeness to the friend group",
+      "Slightly more extensive advice section including the 'friends aren't required' perspective which is more direct than ground truth's softer framing"
+    ]
+  }
+}

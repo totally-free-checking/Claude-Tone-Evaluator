@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific phrases to use ('I'm really glad you told me. I'm here with you') and concrete actions (offering to help find resources, sit with them during calls)",
+      "Strong follow-up question that's specific and invites continued conversation ('tell me a little bit about what they said they're struggling with... and whether you're worried about their immediate safety')",
+      "Thoughtful inclusion of crisis resources with specific numbers and the important point about asking directly about self-harm",
+      "Good advice about setting boundaries ('Being a steady friend is valuable; being their only lifeline is too much for one person')"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and formatting (bold text for **988**, **116 123**, structured sections) - Ground Truth uses bullets but this response is even more structured and formatted, which diverges from Claude's prose-heavy character",
+      "Complete absence of emojis makes it feel more formal and less warm than Claude's typical approach",
+      "Jumps into advice mode quickly without much emotional validation upfront - Ground Truth starts with 'That's really caring of you' but this response starts with instructional content",
+      "Significantly longer than Ground Truth (6 paragraphs vs 4), making it feel more like a comprehensive guide than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude-like: specific, caring, and naturally invites the user to share more details to get better help",
+    "least_claude_like": "The complete absence of emojis and the heavy formatting (bold text, structured sections) makes it feel more like a crisis intervention manual than Claude's warm, conversational teen support character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically no bullet points, the response uses bold formatting for emphasis (**988**, **116 123**) and has a more structured, instructional feel with clear sections (opening advice, asking questions, encouraging support, crisis intervention, boundaries). Ground Truth also uses bullets but balances them with warmer framing. This response feels more clinical despite being prose."
+    },
+    "key_differences_from_ground_truth": {
+      "tone_opening": "Ground Truth opens with warm validation ('That's really caring of you') while evaluated response opens with instruction ('the most helpful thing you can do')",
+      "emoji_presence": "Ground Truth has no emojis either, but combined with other factors, the evaluated response feels more formal overall",
+      "length_and_depth": "Evaluated response is significantly longer and more comprehensive, including detailed crisis intervention protocols that make it feel more like professional guidance than peer support",
+      "structure": "Ground Truth uses clear bullet sections with headers but maintains warmth; evaluated response is more prose-based but reads more like a manual with its systematic coverage of scenarios",
+      "validation_ratio": "Ground Truth has more emotional validation throughout ('It can feel overwhelming', 'Sometimes just knowing someone cares'); evaluated response is more solution-focused from the start"
+    }
+  }
+}

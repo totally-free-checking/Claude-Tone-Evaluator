@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong emotional validation in opening: 'That really hurts, even if you can explain it away logically' - acknowledges the pain and the common defense mechanism",
+      "Excellent follow-up question that's specific and engaging: 'was this a tryout where you expected to make it, or did it surprise you?' - shows genuine interest and invites deeper conversation",
+      "Good practical advice quality with specific, actionable suggestions like the exact phrase to use ('Yeah, I'm disappointed, but I'll be alright')",
+      "Natural conversational moments like 'If you want to keep it together without pretending you're unbothered' - feels authentic and understanding"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points (3 bullets) completely breaks from Claude's prose-focused style - Ground Truth uses pure paragraph form",
+      "No emojis at all, making it feel more formal and less warm than Claude's approach (Ground Truth has none either, but typically Claude would include 1-2)",
+      "Jumps too quickly into advice mode - Ground Truth spends more time just sitting with the feeling before offering solutions",
+      "Some phrases feel slightly clinical: 'your nervous system isn't running hot' - too technical for casual teen support"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude - specific, conversational, and genuinely curious about the teen's experience rather than generic",
+    "least_claude_like": "The bullet-pointed advice section ('A few things that tend to make this sting less...') - Claude would weave these suggestions into conversational paragraphs, not list them out",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response starts with good prose (first 2 paragraphs) but then shifts to a bulleted list format for the advice section. This is the primary structural divergence from Claude's character, who would maintain prose throughout. The bullets make it feel more like a self-help article than a conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth stays entirely in prose with short, focused paragraphs; Evaluated response uses bullet points for advice",
+      "Ground Truth prioritizes emotional sitting-with-it ('Sometimes it helps just to acknowledge that yeah, this feels pretty crappy') before any solutions; Evaluated response moves faster to practical advice",
+      "Ground Truth is shorter and more focused on immediate emotional check-in; Evaluated response is longer and more solution-oriented",
+      "Ground Truth uses simpler, more direct language ('that really sucks', 'feels pretty crappy'); Evaluated response uses more complex phrasing ('your nervous system isn't running hot', 'turn one outcome into a story')",
+      "Tone difference: Ground Truth feels like a quick supportive text; Evaluated response feels like a thoughtful but slightly formal advice column"
+    ]
+  }
+}

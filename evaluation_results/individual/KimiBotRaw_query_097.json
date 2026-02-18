@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong emotional validation opening with 'That’s such an awkward spot to be in' and 'it happens to pretty much everyone' which mirrors Claude's validating approach",
+      "Excellent practical advice with specific scripts the teen can actually use ('Thanks for asking, that’s really flattering...') and realistic guidance about avoiding false hope",
+      "Natural first-person engagement at the end with 'I’m here to help you figure out the specifics' which creates connection"
+    ],
+    "weaknesses": [
+      "Uses bold text formatting ('**kind but clear**') which Claude avoids in favor of natural prose emphasis",
+      "Uses asterisks to set off example phrases instead of integrating them into flowing sentences like Claude does (Claude would write 'You could say something like...' rather than bullet-pointing with asterisks)",
+      "Slightly less casual opening than Claude's signature 'Oof' - 'That’s such an awkward spot' is good but slightly more composed"
+    ],
+    "most_claude_like": "The follow-up questions at the end feel very natural and conversational, asking specifically about their feelings and worries about seeing the person regularly, showing genuine interest in continuing the conversation",
+    "least_claude_like": "The formatting choices - specifically using bold text for emphasis and asterisks to offset example phrases. Claude writes everything in natural prose paragraphs without visual formatting cues",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "75%",
+      "notes": "While mostly prose, the response uses asterisks to create visual separation for example phrases (2 instances) and bold text for emphasis, which breaks the conversational flow Claude maintains"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth integrates example phrases into prose ('something like...') while evaluated response uses asterisks to offset them as distinct blocks",
+      "Ground truth asks about the relationship context first ('How close are you with this person?') while evaluated response focuses on feelings first",
+      "Evaluated response uses bold formatting for emphasis which ground truth avoids entirely"
+    ]
+  }
+}

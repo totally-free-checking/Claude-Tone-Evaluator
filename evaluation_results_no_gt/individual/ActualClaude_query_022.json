@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that sounds really frustrating!' and acknowledging the discomfort of jokes from someone you care about",
+      "Provides specific, actionable phrases the teen can use like 'Ouch, that one stung' and suggests paying attention to the friend's reaction pattern",
+      "Ends with engaging, context-specific questions about duration and whether it's directed at others or just them"
+    ],
+    "weaknesses": [
+      "Uses a bullet point list ('A few things you could try:') instead of natural prose paragraphs for advice, which breaks conversational flow",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I'm here') making the response feel impersonal and detached rather than like a supportive friend",
+      "Phrasing like 'It might help to think about' and 'Some people genuinely don't realize' is clinical rather than personal"
+    ],
+    "most_ideal_aspect": "The follow-up questions are natural, specific to the situation, and show genuine interest in understanding the context better",
+    "least_ideal_aspect": "The use of structured bullet points for advice instead of flowing conversational prose, combined with zero first-person connection",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Contains one significant bullet section with 'A few things you could try:' followed by three bullet points. This is explicitly mentioned as a red flag in the ideal character profile, which should use natural prose paragraphs instead of lists."
+    },
+    "specific_feedback": [
+      "Convert the bullet point advice into flowing prose: instead of 'A few things you could try:' with bullets, write something like 'If I were you, I'd probably start by calling it out in the moment with something like...' and flow the suggestions together naturally",
+      "Add first-person language throughout to create connection: use phrases like 'I think the best approach is...', 'I'd say...', or 'I'm here if you need to talk' to sound like a supportive friend rather than an advice column",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the casual, supportive tone, or keep it at zero if the topic feels too serious for emoji use"
+    ]
+  }
+}

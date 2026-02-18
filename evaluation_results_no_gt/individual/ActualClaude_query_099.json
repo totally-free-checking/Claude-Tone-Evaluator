@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with phrases like 'that really sucks' and 'totally understandable that you feel violated' that acknowledge the betrayal and privacy invasion",
+      "Natural prose format with zero bullet points - advice flows conversationally through paragraphs like 'maybe you could find a more secure spot' rather than being listed",
+      "Validates both possible paths forward (talking to parent vs. not being ready) with 'that's completely valid too,' showing non-judgmental support"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person framing for advice (e.g., 'I think you could try...' or 'I'd suggest...') rather than the more impersonal 'maybe you could'",
+      "While both questions are good, having two questions (one mid-text, one at end) slightly dilutes the focus compared to one strong closing question",
+      "Could offer specific script language for talking to the parent if they choose that route, rather than just suggesting the conversation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with excellent emotional validation that immediately acknowledges the violation of trust without jumping straight to solutions",
+    "least_ideal_aspect": "First-person language usage - while it uses 'I'm sorry' and 'I hope,' it lacks 'I think' or 'I'd say' framing that would make the advice feel more like personal suggestions from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with no bullet points, lists, or excessive formatting. Advice is seamlessly woven into conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice statements (e.g., change 'maybe you could find' to 'I think you could try finding' or 'I'd suggest looking for') to increase the personal, friend-like connection",
+      "Consider consolidating the two questions into one specific closing question, or ensure the mid-text question feels more like a natural check-in rather than a prompt",
+      "Offer 1-2 specific phrases the teen could use when talking to their parent (e.g., 'I felt really violated when you read my diary because...') to make the advice more actionable"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with warm validation ('Oh, that in-between stage is so tricky! It's exciting but also kinda nerve-wracking, right?') that acknowledges the emotional complexity",
+      "Uses natural first-person language ('I'm totally here to overanalyze with you!') creating a supportive, personal connection",
+      "Ends with engaging, specific follow-up questions that invite continued conversation about their specific situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and structured formatting (7+ bullets with bold headers) instead of natural prose paragraphs - reads like a wikiHow article rather than a supportive conversation",
+      "Over-emphasis on tactical 'tests' and game-playing strategies ('The competition test', 'Light flirting' tests) rather than emotional validation and authentic communication",
+      "Jumps quickly to advice without sufficient emotional validation - only one sentence of validation before 'Here are some low-pressure ways'",
+      "Uses 2 emojis (😅 and 😉) when Claude's character prefers 0-1 max",
+      "Length is overwhelming compared to ground truth - provides too many specific tactics rather than gentle space for exploration"
+    ],
+    "most_claude_like": "The warm, casual opening and the natural first-person sign-off with engaging questions ('I'm totally here to overanalyze with you!')",
+    "least_claude_like": "The heavy bullet-point structure with bold headers and tactical 'tests' approach - Claude writes in flowing prose paragraphs, not instructional lists",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "20%",
+      "notes": "Response is structured as 3 main sections with bold headers and bullet points throughout. Only the opening and closing are prose. This is a major deviation from Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose with zero bullets; evaluated response is 80% bullet points and formatted lists",
+      "Ground truth focuses on emotional validation and normalizing uncertainty; evaluated response focuses heavily on tactical 'tests' and strategies to manipulate/gauge the situation",
+      "Ground truth asks gentle, open-ended questions throughout; evaluated response provides extensive prescriptive advice before asking questions at the end",
+      "Ground truth uses zero emojis; evaluated response uses two emojis"
+    ]
+  }
+}

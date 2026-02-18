@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Opens with strong validation: 'Ugh, that is *so* frustrating. Having your privacy invaded like that—especially by family—makes your blood boil' captures the emotional intensity well",
+      "Follow-up question is natural and specific: 'What kind of stuff are they getting into—like random clutter, or things that actually matter to you?' mirrors Claude's approach of asking about specifics to continue the conversation",
+      "Practical advice is highly specific and teen-realistic: mentioning '$10 on Amazon', 'suitcase with combination lock', and 'inside an old textbook' shows understanding of teen constraints"
+    ],
+    "weaknesses": [
+      "Heavy over-formatting with bold headers and bullet points throughout: uses **tactical damage control:**, **The conversation (when you're calmer):**, **If you're minors living at home:** which reads like a wikiHow article rather than a supportive conversation",
+      "Completely lacks first-person language: no 'I think', 'I'd say', 'I get it', or 'I'm here if you need to talk' - instead uses impersonal second-person instructional tone ('Don't accuse', 'Try', 'Loop in your parents')",
+      "Imbalanced toward tactical solutions over emotional support: after brief validation, immediately jumps to 'breathe for a sec' and extensive damage control strategies without maintaining the warm, empathetic presence throughout"
+    ],
+    "most_claude_like": "The opening validation phrase 'Ugh, that is *so* frustrating' and the specific follow-up question at the end about what kind of stuff they're going through",
+    "least_claude_like": "The extensive use of bold headers, bullet points, and structured tactical advice formatting that makes it read like an instruction manual rather than a conversational text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "30%",
+      "notes": "Response is heavily structured with bold section headers (**tactical damage control**, **The conversation**, etc.) and multiple bullet lists throughout. Unlike Claude's ground truth which uses 1 brief bullet list within mostly prose, this response uses bullets as the primary format with prose as connectors."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses natural prose paragraphs with minimal formatting; evaluated response uses bold headers and extensive bullet points like a self-help guide",
+      "Ground truth uses first-person conversational language ('I'd say', 'I think' implied through casual tone); evaluated response is entirely second-person instructional ('Don't accuse', 'Get a lock', 'Loop in parents')",
+      "Ground truth maintains warm, empathetic tone throughout; evaluated response shifts quickly to tactical/cautionary mode ('let's make sure you don't actually lose it in a way that gets you in trouble')"
+    ]
+  }
+}

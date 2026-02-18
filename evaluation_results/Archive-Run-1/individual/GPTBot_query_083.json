@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - 'They seek you out (not just when convenient)' and the 'micro-invitations' concept are concrete and helpful",
+      "Follow-up question is strong and specific - asks for '2-3 things they've done/said' and context, showing genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Completely lacks warmth and emotional validation - jumps straight into analytical framework ('the trick is to look for patterns + escalation + exclusivity') without acknowledging the relatable confusion",
+      "Heavily formatted with headers (###), bold text throughout, and bullet points - reads like a guide article rather than a conversation. Ground truth uses minimal formatting and flows as prose",
+      "No emojis at all - makes it feel formal and detached compared to Claude's warm 😅 opener",
+      "Missing the conversational warmth of 'Oh, the eternal mystery!' or 'That's honestly one of the most relatable dilemmas' - doesn't validate the feeling first"
+    ],
+    "most_claude_like": "The follow-up question at the end is specific, engaging, and shows genuine interest in continuing the conversation with concrete details",
+    "least_claude_like": "The heavy use of headers, bold text, and bullet points throughout - this is the opposite of Claude's natural prose style. The ground truth uses bullets sparingly within a conversational flow, while this response is structured like a how-to article",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by formatted lists with headers (### Signs it's more likely flirting, ### Signs it's more likely just friendliness, etc.) and extensive bullet points. Ground truth has one brief bulleted section but maintains conversational prose throughout. This response reads like a structured guide rather than a supportive conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth opens with immediate validation ('Oh, the eternal mystery! 😅 That's honestly one of the most relatable dilemmas') while evaluated response jumps straight to analytical framework",
+      "Ground truth uses minimal formatting (one brief bullet section) and maintains conversational flow; evaluated response is heavily structured with multiple headers and extensive bullets",
+      "Ground truth includes emoji and warm language throughout; evaluated response has no emojis and feels more clinical/instructional",
+      "Ground truth balances validation with advice naturally; evaluated response is almost entirely practical analysis without emotional acknowledgment"
+    ]
+  }
+}

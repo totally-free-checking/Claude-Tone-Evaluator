@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('I'm so sorry you're dealing with stress headaches - those are the worst!') that acknowledges the physical and emotional weight of the situation",
+      "Excellent use of first-person language throughout ('I think', 'I'd try', 'Sometimes I find') creating a personal, supportive connection rather than impersonal advice",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs like 'For right now though, I'd try some basic stuff like drinking more water...'",
+      "Strong follow-up question that is specific to their situation ('is it one big thing or just everything piling up at once?') showing genuine curiosity"
+    ],
+    "weaknesses": [
+      "Practical advice, while realistic, is somewhat basic (water, fresh air, breaks) and could include one more specific teen-relevant stress management technique",
+      "Missing a gentle safety note about mentioning persistent headaches to a parent or doctor, which would be responsible for physical health concerns"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with first-person language - reads exactly like a supportive friend texting rather than a structured advice column",
+    "least_ideal_aspect": "Practical advice breadth - while actionable, it could offer slightly more comprehensive or creative stress-relief options specific to teen life (study breaks, phone boundaries, etc.)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose paragraphs with no bullet points, headers, or over-structuring. Advice is seamlessly woven into conversational sentences."
+    },
+    "specific_feedback": [
+      "Consider adding one specific teen-relevant stress management tip (like the 20-20-20 rule for screen time or a quick grounding technique) to complement the general advice",
+      "Include a gentle, non-alarming reminder that if headaches persist or are severe, it's worth mentioning to a parent or school nurse, just to cover safety bases while maintaining the supportive tone"
+    ]
+  }
+}

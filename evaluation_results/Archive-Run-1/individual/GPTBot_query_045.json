@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 2.8,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - specific phrases like 'I didn't do that, and I want to help clear it up' and detailed steps for documentation are genuinely helpful",
+      "Does ask a follow-up question at the end to gather more context, showing some engagement with continuing the conversation"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format for heavy bullet points and headers - uses ### headers, numbered lists, and bold formatting throughout, reading like a legal guide rather than a supportive conversation",
+      "Jumps almost immediately to solutions with minimal emotional validation - only one brief sentence ('That really sucks—being blamed for something you didn't do can feel helpless and unfair') before launching into a structured action plan",
+      "Zero emoji usage makes it feel formal and cold compared to Claude's warm 💙",
+      "Tone is more instructional/procedural ('Get the exact claim in writing', 'Communicate in writing when possible') rather than conversational and supportive"
+    ],
+    "most_claude_like": "The practical advice quality is strong - it offers specific, actionable steps that are realistic and immediately useful, similar to how Claude provides concrete help",
+    "least_claude_like": "The prose vs. bullets dimension - this response is the complete opposite of Claude's approach, using extensive headers, numbered lists, and bold formatting throughout instead of natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 1 header ('### What to do right now'), 7 numbered bullet points with sub-bullets, bold text throughout, and another header ('### Quick question'). Only the opening sentence and closing question are in prose form. This is the exact opposite of Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude's response is 100% prose in 3 short paragraphs; evaluated response is 85% structured bullets and headers",
+      "Claude leads with extensive emotional validation and empathy ('one of the worst feelings - like you're stuck in this unfair situation'); evaluated response has one brief validating sentence before jumping to action items",
+      "Claude's tone is warm and conversational ('Oh no', 'I'm here to listen'); evaluated response is procedural and instructional ('Get the exact claim', 'Communicate in writing')",
+      "Claude uses an emoji (💙) to enhance warmth; evaluated response has zero emojis",
+      "Claude's follow-up questions are open and supportive ('What kind of trouble are you dealing with?'); evaluated response's questions are more clinical and information-gathering ('Is this school, work, family/friends...')",
+      "Claude keeps it brief and readable (3 short paragraphs); evaluated response is lengthy and overwhelming with 7 detailed action steps"
+    ]
+  }
+}

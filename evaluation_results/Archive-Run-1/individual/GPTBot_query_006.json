@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - the breathing technique (4 seconds in, 6-8 out) and 5-4-3-2-1 grounding exercise are concrete, actionable, and appropriate for panic management",
+      "Follow-up questions are specific and relevant - asking about when they'll get the grade, type of exam, and what went wrong shows genuine interest and helps gather useful information",
+      "Reality check phrase ('I feel panicked, but I don't have all the information yet') is a helpful cognitive reframing tool that's realistic for teens to use"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (3 major sections with numbered/bulleted lists) completely diverges from Claude's prose-based approach - Ground Truth uses minimal bullets while this response is dominated by them",
+      "No emoji usage at all makes it feel clinical and formal compared to Claude's warm 😟 that immediately sets a supportive tone",
+      "Jumps almost immediately into solution mode with breathing exercises before adequately validating the emotional experience - Ground Truth spends more time acknowledging the feeling first",
+      "Headers like '**Right now (2 minutes):**' and '**Then, quick perspective:**' create an instructional/clinical feel rather than conversational flow"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, relevant, and show genuine interest in understanding the situation better to provide tailored help",
+    "least_claude_like": "The heavily structured, bullet-pointed format with bold headers reads like a crisis intervention manual rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured lists with bold headers. Has 3 numbered items under 'Right now', 3 bullet points under 'perspective', and 3 numbered questions. Only the opening sentence and transition phrases are in prose form. This is the opposite of Claude's approach which uses prose paragraphs with minimal bullets."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground Truth uses mostly prose with one small bulleted section; Evaluated response is heavily structured with multiple numbered/bulleted sections and bold headers",
+      "emotional_validation": "Ground Truth leads with extended validation ('that sinking feeling after a test is the worst', 'you might be being harder on yourself') before solutions; Evaluated response quickly moves to breathing exercises after one validating sentence",
+      "tone": "Ground Truth feels conversational and warm with emoji and casual phrasing; Evaluated response feels more clinical/instructional despite good intentions",
+      "emoji_presence": "Ground Truth uses 😟 naturally in opening; Evaluated response has zero emojis making it feel more formal",
+      "advice_delivery": "Ground Truth weaves advice into conversational paragraphs; Evaluated response delivers advice as structured steps and lists"
+    }
+  }
+}

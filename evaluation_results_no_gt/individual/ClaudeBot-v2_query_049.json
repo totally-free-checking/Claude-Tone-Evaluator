@@ -1,0 +1,41 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate warm validation with 'Ughhh I'm so sorry, that's such a stomach-flip moment' and the relatable 'slow motion' brain replay metaphor",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Highly specific actionable advice including exact phrases to use ('how'd you do on the homework/test?' or 'how's your day going?')",
+      "Excellent engaging follow-up question that is specific to the situation (asking about eye contact duration)"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person framing in the advice section (uses 'you could' instead of 'I think you could' or 'I'd suggest')",
+      "Could benefit from one more 'I' statement like 'I'm here if you need to talk' to reinforce personal connection",
+      "The transition from validation to perspective ('it feels way bigger in your head') is slightly quick, though softened by 'Honestly'"
+    ],
+    "most_ideal_aspect": "Natural prose format with engaging specific follow-up question - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Absence of first-person 'I think' or 'I'd say' language in the advice portion, making suggestions slightly less personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting, no headers, no bold text, and no lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice using 'I think' or 'I'd probably' (e.g., 'I think you could test the waters by...') to match the character's voice",
+      "Consider adding a brief closing like 'I'm here if you need to talk' to reinforce the supportive first-person presence",
+      "The emoji usage is perfect at one 😅 - maintain this restraint in future responses"
+    ]
+  }
+}

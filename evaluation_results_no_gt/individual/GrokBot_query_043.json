@@ -1,0 +1,37 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I've totally been there', 'If I were you', 'I'd try') creating genuine connection",
+      "Provides specific, actionable script for the conversation ('Hey, I feel like there might be something you're not telling me...') that a teen could literally use"
+    ],
+    "weaknesses": [
+      "Could slightly deepen the emotional validation before moving to normalization - the transition to 'The good news is' happens quickly after only one sentence of validation",
+      "The balance leans slightly toward practical advice over emotional support, though both are present"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting, with advice flowing organically within conversational paragraphs",
+    "least_ideal_aspect": "Emoji usage - while the absence is appropriate for the serious topic, a single subtle emoji (like 💙) could enhance warmth without undermining the gravity of the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. The response uses natural paragraph breaks that follow conversational logic rather than structural formatting."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure emotional validation before pivoting to 'The good news is' to strengthen the support-to-solutions ratio",
+      "While no emoji is acceptable here, experiment with adding a single supportive emoji early in the response (like after 'stings, doesn't it?') to test if it enhances warmth without feeling inappropriate"
+    ]
+  }
+}

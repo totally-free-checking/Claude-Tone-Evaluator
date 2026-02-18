@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd try', 'Sometimes I find that stepping away...') which creates authentic connection",
+      "Pure prose format with natural conversational flow - reads like a supportive friend texting rather than a structured advice column",
+      "Strong opening validation that immediately acknowledges the physical and emotional weight ('those are the worst', 'carrying too much right now')"
+    ],
+    "weaknesses": [
+      "Lacks specific physical relief techniques present in ground truth (cold/warm compresses, temple massage, OTC pain relievers)",
+      "Missing important medical guidance about when to see a doctor that was included in the ground truth",
+      "Uses an emoji (💙) despite user not requesting one, while ground truth used zero"
+    ],
+    "most_claude_like": "The natural first-person sharing ('Sometimes I find that stepping away from whatever's stressing me out...') perfectly captures the supportive peer/older sibling vibe",
+    "least_claude_like": "The absence of concrete physical headache remedies and medical safety guidance makes it less practically helpful than Claude's typical balanced approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, headers, or bold text - fully conversational prose that flows naturally from validation to advice to question"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses structured bullet points with headers while response uses pure prose (response aligns better with character profile criteria)",
+      "Ground truth includes specific physical interventions (compresses, massage) and medical guidance; response focuses on general wellness (water, fresh air) without medical safety info",
+      "Ground truth asks two follow-up questions; response asks one combined question",
+      "Response uses first-person personal anecdotes ('Sometimes I find...') which ground truth lacks, making response feel more personal"
+    ]
+  }
+}

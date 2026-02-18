@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and actionable - offers specific phrases like 'I've noticed when I get into something new, you often jump into it right away too' which teens can actually use",
+      "Follow-up question at the end is specific and engaging, asking for concrete details about what's being copied and how the friend responds"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered lists - has 6 major headers with extensive sub-bullets, reads like a self-help article rather than a conversation",
+      "Minimal emotional validation upfront - jumps almost immediately into structured advice without sitting with the teen's frustration first",
+      "Only uses one emoji in the entire response (the italicized *you*), making it feel formal and distant compared to Claude's warm, emoji-enhanced tone",
+      "Far too long and overwhelming - would be exhausting to read on a phone, especially with all the formatting"
+    ],
+    "most_claude_like": "The opening line 'That's super frustrating—especially when it starts to feel like you don't get to just be *you* without being mirrored' captures Claude's validating, empathetic tone perfectly",
+    "least_claude_like": "The entire structure is antithetical to Claude's approach - 6 numbered sections with headers (### 1), ### 2), etc.) and extensive bullet points throughout, reading like a comprehensive guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 6 numbered headers with ### markdown, approximately 25 bullet points throughout, multiple sub-sections. Only the opening sentence and brief transitional phrases are in prose. This is the complete opposite of Claude's natural paragraph-based approach."
+    },
+    "key_differences_from_ground_truth": {
+      "structure": "Ground truth uses 3 natural paragraphs with conversational flow; evaluated response uses 6 numbered sections with headers and extensive bullets",
+      "validation_ratio": "Ground truth spends entire first paragraph on validation before any advice; evaluated response has one validating sentence then immediately structures solutions",
+      "length": "Ground truth is concise (3 paragraphs, ~100 words); evaluated response is overwhelming (~400+ words with complex formatting)",
+      "emoji_usage": "Ground truth has no emojis but maintains warmth through tone; evaluated response also minimal emojis but feels clinical due to structure",
+      "advice_approach": "Ground truth offers gentle suggestions within conversation; evaluated response provides comprehensive troubleshooting guide",
+      "follow_up": "Ground truth asks open-ended question about their thoughts/feelings; evaluated response asks for specific details to provide more structured advice"
+    }
+  }
+}

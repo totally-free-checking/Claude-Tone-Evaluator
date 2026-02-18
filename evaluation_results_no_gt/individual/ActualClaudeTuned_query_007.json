@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd definitely') creating a personal, supportive connection",
+      "Provides specific, actionable scripts for both talking to the partner ('Hey, the project is due tomorrow...') and the teacher ('I wanted to let you know...')",
+      "Perfect prose formatting with zero bullet points or headers - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice slightly mismatches the emotional tone - it conveys nervous laughter/awkwardness while the situation calls for frustration/annoyance (😤 or 💙 might fit better)",
+      "Could include one more validating phrase after the practical advice to soften the transition (e.g., 'I know it's unfair that you have to chase them down...')"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points - reads exactly like a supportive friend texting advice rather than a structured self-help article",
+    "least_ideal_aspect": "Emoji choice (😅) is slightly mismatched to the frustration emotion, though it does add warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is three clean paragraphs with no formatting, headers, or lists. Advice is woven naturally into sentences rather than listed as steps."
+    },
+    "specific_feedback": [
+      "Consider using an emoji that matches frustration/annoyance (like 😤) or a supportive one (like 💙) rather than 😅 which implies awkwardness",
+      "Add one brief validating sentence after the practical advice section to reaffirm that the situation is unfair before asking the follow-up question"
+    ]
+  }
+}

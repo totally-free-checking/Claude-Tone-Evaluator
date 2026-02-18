@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable physical description ('your stomach just drops') that captures the visceral feeling of being talked about",
+      "Specific, actionable advice including exact scripts the teen can use ('Hey, I overheard my name earlier—was that about me?') and realistic strategies for different social scenarios",
+      "Excellent natural prose format with zero bullet points, reading like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes the advice feel slightly impersonal rather than coming from a specific supportive voice",
+      "Missing explicit supportive closing like 'I'm here if you need to talk' that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "The follow-up question ('Did you actually hear what they were saying, or did you mostly just catch your name and the vibe?') is perfectly natural, specific to the situation, and invites continued conversation",
+    "least_ideal_aspect": "The absence of first-person perspective language ('I think', 'I'd say') makes the response feel more like general advice than personal support from someone who truly gets it",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or bullet lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to increase connection, such as 'I think the best approach would be...' or 'I'd probably ask them directly...' or 'I get how sick that feeling is'",
+      "Consider adding a brief closing statement like 'I'm here if you need to talk through it more' to reinforce that this is a supportive conversation, not just one-off advice"
+    ]
+  }
+}

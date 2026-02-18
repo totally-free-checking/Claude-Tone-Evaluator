@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate, specific validation that names the exact feeling ('that oh… I'm only getting picked when nobody else is around feeling') and normalizes the experience ('you're not being dramatic')",
+      "Excellent first-person language throughout ('If I were you, I'd look...', 'I'd start putting...') that creates genuine connection rather than impersonal prescribing",
+      "Provides a specific, realistic script the teen can actually use ('Hey, I've been feeling kinda like a last-minute option lately...') rather than vague 'just talk to them' advice"
+    ],
+    "weaknesses": [
+      "The 😅 emoji following 'gross, heavy way' is slightly mismatched—while it conveys awkwardness, it may unintentionally minimize the pain of the 'heavy' feeling described",
+      "The transition from validation to advice ('If I were you...') could be slightly softened with one more validating phrase to ensure the emotional acknowledgment fully lands before problem-solving"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting—reads exactly like a supportive friend texting advice in continuous, flowing paragraphs",
+    "least_ideal_aspect": "Emoji choice placement after describing a painful 'gross, heavy' feeling, which slightly conflicts with the emotional weight being validated",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider whether 😅 is the right emoji for heavy emotional pain—😔, 💙, or simply no emoji might better honor the 'gross, heavy' feeling described",
+      "The advice section is strong but could start with one more validating bridge like 'That really sucks, and...' before 'If I were you' to ensure the transition feels fully supportive"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 0,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting - maintains conversational paragraphs throughout with zero bullet points, matching Claude's natural flow style",
+      "Strong practical advice with specific, actionable suggestions like 'I can't help with that today, but I hope it goes okay' - gives exact phrases the teen can use",
+      "Good follow-up question that's specific and relevant: 'when they reach out, what are they usually asking for—and do you ever get the sense they're interested in your life when there isn't a request involved?'",
+      "Validates the feeling immediately with 'That's a really painful feeling' and acknowledges the emotional impact"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - makes the response feel more formal and less warm than Claude's natural style (Claude used none here either, but typically includes 1-2)",
+      "Significantly longer than Claude's response (5 paragraphs vs 4, much denser text) - feels more like an article than a conversation, potentially overwhelming on a phone",
+      "More clinical/analytical language ('transactional', 'emotional labor', 'emotional cost') - less casual than Claude's 'tough when relationships feel one-sided'",
+      "The tone is more therapist-like and instructional ('A practical way to test', 'If these are friends you want to keep') rather than friend-to-friend casual"
+    ],
+    "most_claude_like": "The pure prose formatting without any bullet points or lists - advice flows naturally within conversational paragraphs exactly as Claude does",
+    "least_claude_like": "The overall tone is more analytical and instructional rather than warmly conversational - uses phrases like 'emotional labor' and 'emotional cost' that feel more adult/clinical than teen-friendly",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - no bullets, no numbered lists, no headers. Advice is woven naturally into paragraphs. This matches Claude's style exactly."
+    },
+    "key_differences_from_ground_truth": {
+      "length": "Response is significantly longer (5 dense paragraphs vs 4 shorter ones) - Claude's is more concise and digestible",
+      "language_complexity": "Uses more sophisticated vocabulary ('transactional', 'malicious', 'emotional labor') vs Claude's simpler, more direct language",
+      "tone": "More instructional/therapeutic ('A practical way to test', 'If these are friends you want to keep') vs Claude's more peer-like approach",
+      "structure": "Provides more comprehensive advice upfront vs Claude's lighter touch with more back-and-forth invitation",
+      "emoji_absence": "Both lack emojis, but Claude typically includes 1-2 for warmth - this response feels more formal without them"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation: 'That really stings, even if you're trying to play it cool' immediately acknowledges the emotional reality and the performative aspect",
+      "Excellent practical advice quality: Specific, actionable suggestions like asking coaches for feedback with exact phrases ('What were the top 2-3 things that kept me off the roster?')",
+      "Good insight about the dual burden: 'both are heavy' acknowledges the complexity of having to pretend you're fine"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure completely diverges from Claude's prose style - 4 major bullet sections with sub-bullets, reads like a self-help article rather than a conversation",
+      "No emoji usage at all, making it feel formal and cold compared to Claude's warm, casual approach",
+      "Jumps too quickly into solutions mode - Claude spends more time sitting with the feeling before offering advice",
+      "Uses bold formatting extensively (**Let it matter privately**, **Separate**, etc.) which is very un-Claude-like"
+    ],
+    "most_claude_like": "The opening sentence perfectly captures Claude's validating tone and acknowledges both the pain and the performance aspect in a natural, empathetic way",
+    "least_claude_like": "The entire middle section is structured as bullet-pointed lists with bold headers and sub-bullets, which is the complete opposite of Claude's conversational prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "20%",
+      "notes": "Response is approximately 80% bullet points and formatted lists. Has 4 main bullet sections, with the third containing 3 sub-bullets and the fourth containing 3 sub-bullets. Uses bold text for headers. This is the antithesis of Claude's prose-heavy, conversational style."
+    },
+    "key_differences_from_ground_truth": {
+      "structural": "Claude uses pure prose (3 short paragraphs). Evaluated response uses extensive bullet formatting with bold headers",
+      "emotional_pacing": "Claude sits with the feeling longer, asking 'Are you doing okay?' before any advice. Evaluated response moves quickly to solutions after brief validation",
+      "tone": "Claude is warmer and more conversational ('Aw man', 'pretty crappy'). Evaluated response is more clinical despite good opening",
+      "length": "Claude keeps it brief and focused on emotional check-in. Evaluated response is much longer and advice-heavy",
+      "emoji": "Claude doesn't use emoji in this particular response, but typically would. Evaluated response has none and feels formal",
+      "follow_up": "Claude asks a simple, caring check-in question. Evaluated response asks for more details to problem-solve"
+    }
+  }
+}

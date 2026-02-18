@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific conversation scripts teens can actually use (e.g., 'Hey, I got invited to [Name]'s party...' and 'How about I go for two hours and you pick me up at 10?')",
+      "Warm, validating opening that acknowledges the mixed emotions ('exciting but also super nerve-wracking, I get it') and ends with encouragement ('You've got this!')",
+      "Realistic suggestions that respect teen agency while acknowledging parental concerns, including compromise strategies and handling rejection gracefully"
+    ],
+    "weaknesses": [
+      "Over-structured with bold headers functioning as bullet points (**Pick your moment**, **Lead with the details**, etc.), making it read like a wikiHow article rather than a natural conversation between friends",
+      "No follow-up question to continue the dialogue—ends abruptly with 'Good luck! 🎉' instead of engaging the user to share more about their specific situation",
+      "Heavy imbalance toward practical solutions (approximately 85% advice) with minimal emotional support beyond the opening sentence; lacks mid-response check-ins"
+    ],
+    "most_ideal_aspect": "Practical advice quality—provides specific, actionable scripts and realistic compromises that teens can actually use immediately",
+    "least_ideal_aspect": "Prose formatting—relies on headers and structured list-like sections instead of flowing natural paragraphs with transitions",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "75%",
+      "notes": "Response uses 5 bold headers (**Pick your moment**, **Lead with the details**, **Anticipate the worry**, **Offer a compromise**, **If they say no…**) that function as bullet points, creating a listicle structure. While the content under each header is prose, the overall formatting is heavily structured and over-formatted, resembling a blog post or guide rather than a casual text conversation."
+    },
+    "specific_feedback": [
+      "Convert the structured headers into flowing paragraphs with natural transitions like 'First, I'd suggest waiting for a chill moment...' and 'Then, maybe try leading with the details...' instead of imperative commands",
+      "Add a follow-up question at the end to continue the conversation, such as 'What part are you most nervous about—the timing or what they might say?' or 'Do you think they'll be more worried about supervision or the late night?'",
+      "Incorporate more first-person language throughout the advice sections ('I'd probably wait until...' instead of 'Pick your moment', 'I think showing them you've thought about logistics helps' instead of 'The key is showing...')",
+      "Balance the advice-heavy content with more emotional validation mid-response, such as checking in about their specific fears or acknowledging that rejection feels really disappointing"
+    ]
+  }
+}

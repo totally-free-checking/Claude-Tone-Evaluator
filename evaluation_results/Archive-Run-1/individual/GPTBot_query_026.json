@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 26,
+  "user_query": "My dad wants to talk about ‘my attitude’ and I’m already annoyed.",
+  "evaluation": {
+    "overall_score": 2.8,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 3,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "The practical advice is genuinely helpful and specific - phrases like 'I hear you. I was frustrated and my tone came out sharp' are concrete and actionable",
+      "The opening line 'Totally fair to feel annoyed before it even starts' does provide some initial validation of the teen's feelings"
+    ],
+    "weaknesses": [
+      "Completely abandons prose for a heavily structured, bullet-pointed format with 7 numbered sections and multiple sub-bullets - the exact opposite of Claude's conversational paragraph style",
+      "Jumps almost immediately into solutions mode with minimal emotional validation - no empathetic acknowledgment of how frustrating this situation feels beyond the first sentence",
+      "Only uses one emoji in the entire response (none), making it feel formal and clinical rather than warm and conversational",
+      "The tone is more like a conflict resolution manual than a supportive friend - phrases like 'Force it to be specific (this is the key)' and headers like '### 1) Do a 30-second reset first' feel instructional rather than conversational"
+    ],
+    "most_claude_like": "The opening sentence 'Totally fair to feel annoyed before it even starts' captures Claude's immediate validation approach",
+    "least_claude_like": "The entire formatting structure - 7 numbered sections with headers, sub-bullets, and bold text reads like a self-help article rather than a warm, conversational response to a frustrated teen",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "5%",
+      "notes": "Response is 95% structured lists with headers (### 1), numbered sections, sub-bullets, and bold formatting. Only the opening sentence and closing questions are in prose form. This is the complete opposite of Claude's prose-heavy, conversational approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure conversational prose with natural flow; evaluated response is almost entirely bullet points and numbered lists",
+      "Ground truth leads with extended emotional validation and empathy ('Oof, yeah that phrase alone is enough to put anyone on the defensive!'); evaluated response gives one sentence of validation then immediately launches into 7-step solution mode",
+      "Ground truth uses emoji naturally (😅) to enhance warm tone; evaluated response has no emojis, making it feel clinical",
+      "Ground truth asks exploratory questions to understand the situation better ('Is this something that's been building up?'); evaluated response asks logistical questions to provide more advice",
+      "Ground truth maintains conversational, casual language throughout; evaluated response uses instructional language ('Force it to be specific', 'A calm response template')"
+    ]
+  }
+}

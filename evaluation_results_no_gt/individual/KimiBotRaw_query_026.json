@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 26,
+  "user_query": "My dad wants to talk about ‘my attitude’ and I’m already annoyed.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation using 'Ugh, that pre-conversation dread is the worst' and the relatable metaphor about walking into a meeting without an agenda",
+      "Provides extremely specific, actionable scripts the teen can actually use like 'Okay, but can I have a sec to switch gears? I literally just walked in' and 'I'm struggling to see what you want me to do differently here'",
+      "Ends with a natural, engaging follow-up question about whether these talks are 'rare blowups or a regular weekly special' that invites continued conversation"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**Buy yourself a minute**, **The 'attitude' translation game**, etc.) that function as bullet points rather than flowing prose, making it read like a self-help article instead of a text conversation",
+      "Lacks first-person language throughout - uses impersonal 'you' advice format ('When he says attitude, he usually means...') instead of 'I think...' or 'I'd try...' which creates distance rather than connection",
+      "Could benefit from one warm emoji (like 😅 or 😬) to match the 'ugh' sentiment in the opening"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific word-for-word phrases the teen can use in the conversation, making the advice immediately actionable and realistic",
+    "least_ideal_aspect": "Prose formatting - relies on bold headers and structured sections rather than natural paragraph flow, breaking the conversational texting format",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses three bold headers (**Buy yourself a minute**, **The 'attitude' translation game**, **The reality check line**) that function as bullet points, with only the first paragraph and final sentence before the question written in natural prose. The formatting is too structured for a casual conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as flowing prose using first-person language: instead of '**Buy yourself a minute.** If you walk in hot...' try 'I'd start by buying yourself a minute. If you walk in hot, it'll escalate fast, so I'd try saying...'",
+      "Add first-person perspective throughout: change 'When he says attitude, he usually means...' to 'I think when he says attitude, he usually means...' and 'Asking Can you give me a specific example? sometimes shifts it...' to 'I'd ask for a specific example - something like...'",
+      "Consider adding one emoji at the start (like 😅 or 😬) to enhance the warm, commiserating tone established by 'Ugh'"
+    ]
+  }
+}

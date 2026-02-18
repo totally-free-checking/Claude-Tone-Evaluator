@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong validation: 'Ugh, that's the worst! Group projects are already stressful enough without carrying someone else's weight' immediately acknowledges the frustration",
+      "Provides highly specific, actionable advice with exact text templates the teen can copy/paste ('Hey, project’s due tomorrow at [time]. I’m handling [X and Y]...') and realistic steps like documenting everything for the professor",
+      "Uses appropriate casual teen language like 'Cover your butt,' 'ghosted,' and 'losing your mind' without sounding forced"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think,' 'I'd say,' 'I get it') - instead uses impersonal imperative commands ('Send a clear text,' 'Look at what needs to get done,' 'Screenshot the lack of responses') which feels like an instruction manual rather than a friend texting",
+      "Heavy over-reliance on bullet points and headers ('**Tonight's game plan:**', '**Cover your butt:**', '**Tomorrow morning:**') makes it read like a wikiHow article or self-help listicle rather than natural prose conversation",
+      "Fails to end with any follow-up question to continue the conversation - closes with a statement ('You've got this!') instead of engaging the user to share more about their specific situation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic scripts and immediate action steps appropriate for the urgent timeline",
+    "least_ideal_aspect": "Natural prose formatting - the response is structured as four separate bullet-pointed sections with bold headers, reading like a checklist rather than a conversational message",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response uses heavy formatting with bold headers (**Tonight's game plan:**, **Cover your butt:**, etc.) and bullet lists for the majority of content. Only the opening sentence and closing paragraph are natural prose, making it feel like a structured guide rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet-pointed advice into natural conversational paragraphs using first-person language - instead of 'Send a clear text,' write 'I'd probably send them something like...' and flow the advice naturally as if telling a story",
+      "Add an engaging follow-up question at the end to invite continued conversation, such as 'Have they responded to you at all today, or have they been totally MIA?' or 'What part of the project are you most worried about finishing?'",
+      "Integrate emotional check-ins throughout the response, not just at the beginning - for example, between advice sections add 'I know that probably feels overwhelming to even read' or 'How are you holding up right now?'"
+    ]
+  }
+}

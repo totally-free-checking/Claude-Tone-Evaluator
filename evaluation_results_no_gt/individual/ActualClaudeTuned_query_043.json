@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a tough spot to be in!' and describing the 'nagging feeling' that won't go away",
+      "Excellent use of first-person language throughout: 'I think the best approach,' 'I'm not trying to pry,' 'I'm here if you want to talk'",
+      "Provides specific, realistic scripts the teen can actually use: 'Hey, I feel like something's been off lately - are you okay?' and 'I get the sense you're not telling me the whole story...'",
+      "Perfect prose formatting with zero bullet points or headers - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The response assumes the friend is definitely lying ('if you catch them in more lies') rather than leaving room for the possibility that the teen might be misreading the situation, which could increase anxiety",
+      "While the 😅 emoji fits the awkwardness of the situation, a more supportive emoji like 💙 or 😊 might better match the emotional vulnerability of suspecting betrayal"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and specific first-person language ('I think,' 'I'd say') that makes it feel like a supportive friend texting rather than an AI giving instructions",
+    "least_ideal_aspect": "The slight assumption that the friend is definitely lying rather than validating that the teen might be feeling insecure or misreading signals, which could help the teen consider multiple perspectives",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, or headers. Advice is woven into prose sentences rather than listed as steps."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence validating that the friend might not actually be lying - that sometimes we misread signals when we're anxious, which would help the teen feel less certain of the betrayal and more open-minded",
+      "The transition from validation to advice is smooth, but you could add a brief acknowledgment like 'That said, if you do want to address it...' to make the shift even more natural"
+    ]
+  }
+}

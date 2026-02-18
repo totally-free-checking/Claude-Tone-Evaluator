@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent - provides specific, actionable scripts teens can actually use ('Hey, I got invited to a party at [name]'s house...')",
+      "Follow-up question is personalized and specific ('If you tell me your age, what time the party is, and what your parents usually worry about...') showing genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (### 1), 2), 3), 4)) and bullet points throughout - reads like a guide article rather than a conversation. Ground truth uses some bullets but maintains more prose flow",
+      "Opens with minimal emotional validation ('Totally fair — asking can feel awkward') compared to Claude's warmer 'That's exciting about the party invite! Asking parents can feel nerve-wracking'",
+      "Zero emojis - makes it feel more formal and less like a supportive friend texting",
+      "Over-structured with numbered options and a separate 'Helpful details' section - Claude's response integrates advice more naturally into conversational flow"
+    ],
+    "most_claude_like": "The specific dialogue scripts provided ('Hey, I got invited to...', 'I get why you'd worry...') are exactly the kind of concrete, actionable advice Claude gives",
+    "least_claude_like": "The heavy use of headers, numbered lists, and bullet points throughout - this reads like a structured guide rather than a warm conversation. Claude uses some bullets but maintains much more prose",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured formatting: 4 numbered headers with ### markdown, followed by a bulleted list section. Only the opening line and closing paragraph are pure prose. Ground truth has bullets but they're embedded within conversational paragraphs, not the primary structure"
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses bullets as supporting elements within prose; evaluated response is structured as numbered options with headers",
+      "emotional_opening": "Ground truth starts with excitement validation ('That's exciting!'); evaluated response is more matter-of-fact ('Totally fair')",
+      "emoji_presence": "Ground truth has no emojis either, but combined with the heavy formatting, the evaluated response feels more clinical",
+      "advice_integration": "Ground truth weaves advice into conversational flow; evaluated response presents it as discrete options to choose from"
+    }
+  }
+}

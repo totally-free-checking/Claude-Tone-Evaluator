@@ -1,0 +1,45 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable steps like the breathing technique (inhale 4, hold 4, exhale 6) and concrete follow-up text examples",
+      "Good reality check section that acknowledges multiple possibilities without dismissing the teen's feelings ('The only thing you *know* from \"read\" is: they saw it and didn't respond yet')"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (###), bold text (**), and extensive bullet points throughout - reads like a self-help article rather than a conversation. Ground truth uses pure prose with natural flow.",
+      "Jumps almost immediately into solutions ('First: slow the spiral') with minimal emotional validation upfront. Ground truth starts with 'Oof, that stinging feeling' and validates extensively before offering advice.",
+      "Only one emoji in the entire response (😅 is missing entirely). Ground truth uses emojis naturally to set warm tone.",
+      "Overly long and overwhelming (multiple sections with headers) compared to ground truth's concise 2-3 paragraph approach. Would be difficult to read on a phone.",
+      "The tone shifts between casual ('Ugh, that feeling is brutal') and clinical/therapeutic ('anxiety, not a fact', 'threat-scanning', 'anxious attachment triggers'). Ground truth maintains consistent conversational warmth.",
+      "Ends with 4 numbered questions which feels like an intake form rather than one natural follow-up question. Ground truth asks one simple, conversational question."
+    ],
+    "most_claude_like": "The opening line 'Ugh, that feeling is brutal' captures Claude's immediate validation style well",
+    "least_claude_like": "The extensive use of headers, bullet points, and structured sections (###, **, -) makes this read like a formatted article rather than a warm conversation - the opposite of Claude's prose-based approach",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by formatting: 4 major headers with ### markdown, extensive bullet lists under each section, bold text throughout. Only the opening line and brief transitions are in prose. Ground truth has ZERO bullets and is 100% conversational prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is pure prose in 3 natural paragraphs. Evaluated response has 4 major sections with headers, 15+ bullet points, and heavy formatting.",
+      "Validation timing: Ground truth leads with extensive emotional validation ('Oof, that stinging feeling', 'I totally get why you're spiraling') before any advice. Evaluated response gives one line of validation then immediately jumps to 'First: slow the spiral'.",
+      "Length: Ground truth is concise and phone-readable (3 paragraphs). Evaluated response is overwhelming with multiple sections that would require significant scrolling.",
+      "Follow-up: Ground truth ends with one natural question ('What did you message them about?'). Evaluated response ends with 4 numbered intake-style questions.",
+      "Tone consistency: Ground truth maintains warm, casual tone throughout. Evaluated response oscillates between casual and clinical/therapeutic language.",
+      "Emoji usage: Ground truth uses emojis naturally. Evaluated response has none, making it feel more formal despite casual opening."
+    ]
+  }
+}

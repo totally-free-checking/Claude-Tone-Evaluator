@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that's the worst' and acknowledging feeling 'trapped and super misunderstood'",
+      "Excellent natural prose format with zero bullet points and smooth paragraph flow",
+      "Highly specific and actionable advice including exact phrases to use ('I get that you're upset, but I don't understand what part crossed the line') and realistic compromise strategies"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory language like 'I think,' 'I'd suggest,' or 'I get it' - uses observational/third-person phrasing instead ('parents often respond better,' 'it happens a lot')",
+      "Significantly longer and more advice-heavy than the ground truth, jumping quickly into conflict resolution strategies rather than prioritizing emotional support and venting space",
+      "Follow-up question focuses on gathering facts ('what did they say... and how long') rather than the ground truth's focus on feelings and immediate coping ('Are you stuck at home...')"
+    ],
+    "most_claude_like": "The immediate, warm validation opening with 'Ugh, that's the worst' and maintaining a completely natural prose format without any bullet points or over-formatting",
+    "least_claude_like": "The instructional tone with specific dialogue scripting and conflict resolution strategy, which feels more like advice-column problem-solving than Claude's supportive 'let's talk through what went down' listening approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out, perfectly matching Claude's conversational prose style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth prioritizes creating space to vent and talk through feelings first; response immediately moves to practical conflict resolution strategies and specific scripting",
+      "Ground truth is concise (roughly 50 words) and open-ended; response is substantially longer (roughly 130 words) with detailed step-by-step conversation tactics",
+      "Ground truth asks about the teen's current emotional state and feasibility of talking; response asks for factual details about the grounding duration and specific infraction"
+    ]
+  }
+}

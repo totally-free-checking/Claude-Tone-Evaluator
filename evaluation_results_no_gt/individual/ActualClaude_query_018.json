@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'I'm really sorry you're dealing with that' and specifically naming the 'stressed, helpless feeling'",
+      "Practical advice is realistic and teen-appropriate (headphones, texting friends, emphasizing it's not their fault)",
+      "Good follow-up questions that show genuine interest in their specific situation"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list for advice instead of natural prose flow ('A few things that might help in the moment:' followed by 3 bullets)",
+      "Lacks first-person language when giving suggestions (says 'A few things that might help' instead of 'I think you could try' or 'I'd suggest')",
+      "Slightly formal structure with 'A few things that might help' rather than conversational flow"
+    ],
+    "most_ideal_aspect": "The emotional validation at the beginning perfectly captures the warm, empathetic tone needed for this sensitive situation",
+    "least_ideal_aspect": "The bullet-point formatting for advice breaks the conversational, texting-like flow that should be natural prose",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response uses a single bulleted section with 3 items, breaking the conversational flow. The advice section is formatted as a list rather than integrated into natural paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to flowing prose: 'If you can, I'd suggest putting on headphones or playing some music to drown it out. Maybe text a friend or find something to distract yourself. And remember - their fighting isn't your fault or responsibility.'",
+      "Add first-person perspective to advice: Instead of 'A few things that might help,' try 'I think the best thing you can do right now is...' or 'I'd probably put on headphones...'",
+      "Consider adding one warm emoji at the start (like 💙 or 😔) to enhance the supportive tone, though this is optional for such a serious topic"
+    ]
+  }
+}

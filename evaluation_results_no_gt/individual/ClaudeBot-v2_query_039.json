@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd try', 'I'm so sorry', 'I'd say') creating a personal, supportive connection",
+      "Opens with immediate, specific emotional validation ('Ugh, I'm so sorry', 'that pressure is *so* heavy', 'holding your breath') that names the exact feeling",
+      "Provides concrete, actionable scripts the teen can literally use ('I want to do well, but when it has to be perfect...') rather than vague advice",
+      "Perfect prose formatting with natural paragraph flow - zero bullet points, headers, or over-structuring"
+    ],
+    "weaknesses": [
+      "The third paragraph is slightly dense with multiple suggestions (conversation timing, script, backup evidence, self-care) which could potentially be overwhelming, though all advice is high quality",
+      "Could include slightly more validation in the middle section before jumping to the 'If I were you' advice, though the transition is fairly smooth"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with first-person advice delivery - reads exactly like a supportive friend texting advice without any structured formatting",
+    "least_ideal_aspect": "The advice paragraph packs multiple strategies (conversation approach, concrete evidence, self-care defense) into one dense block which slightly reduces the 'breathing room' between ideas",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, numbered lists, headers, or bold text (except the single heart emoji). Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider breaking the third paragraph into two smaller chunks to give the reader mental breathing room between the conversation script and the self-care reminder",
+      "The follow-up question is excellent and specific, but could be made even more conversational by shortening slightly (e.g., 'Are they talking straight A's in everything, or is there one specific class they're fixated on?')"
+    ]
+  }
+}

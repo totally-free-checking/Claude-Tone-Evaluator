@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation: 'That really sucks—especially when it feels like you're the only one missing out' effectively captures the teen's frustration",
+      "Excellent practical advice quality with specific, actionable suggestions like exact phrases to use ('What's the main thing you're worried about?') and concrete details to offer parents",
+      "Natural conversational tone in places: 'That really sucks', 'It's annoying, but it's effective' feels authentic and relatable",
+      "Good follow-up engagement at the end, asking for specific details to provide more tailored help"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), ### 2), etc.) and extensive bullet points throughout - completely opposite of Claude's prose-based approach",
+      "No emoji usage at all, making it feel more formal and less warm than Claude's character",
+      "Jumps too quickly into solutions mode - the emotional validation is brief (one sentence) before diving into a structured list of strategies",
+      "Way too long and overwhelming - 5 major sections with multiple sub-bullets would be difficult to read on a phone and feels more like a guide than a conversation"
+    ],
+    "most_claude_like": "The opening line 'That really sucks—especially when it feels like you're the only one missing out' perfectly captures Claude's immediate validation approach and conversational tone",
+    "least_claude_like": "The extensive use of numbered headers (### 1), ### 2), etc.) with nested bullet points throughout - this is the exact opposite of Claude's natural prose paragraph style",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting with 5 numbered sections (using markdown headers), each containing multiple bullet points. Only the opening paragraph and brief transitional sentences are in prose form. This is fundamentally different from Claude's approach which uses conversational paragraphs with at most a few naturally integrated bullets."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses mostly prose with one small bulleted section naturally integrated. Evaluated response is 85% structured lists with headers.",
+      "emotional_support": "Ground truth maintains warmth throughout ('I know it doesn't make the disappointment go away right now'). Evaluated response front-loads validation then becomes very tactical.",
+      "length": "Ground truth is 3 focused paragraphs. Evaluated response is 5 major sections that would require significant scrolling.",
+      "emoji_usage": "Ground truth would typically include 1-2 emojis. Evaluated response has none.",
+      "tone_consistency": "Ground truth maintains conversational warmth throughout. Evaluated response shifts from conversational opening to instructional/guide-like middle sections."
+    }
+  }
+}

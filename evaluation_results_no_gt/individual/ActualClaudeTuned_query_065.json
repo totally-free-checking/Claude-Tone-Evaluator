@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I think', 'I'd try', 'I'm gonna') that creates genuine connection and sounds like a supportive friend",
+      "Provides specific, realistic scripts the teen can actually use ('I'm gonna stay out of this one', 'I don't really want to get involved in that situation')",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with natural transitions between validation and advice"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation about the fear of damaging the friendship before moving to solutions, though the current validation is strong",
+      "The transition from normalizing the situation to giving advice is slightly abrupt - a brief acknowledgment of how hard boundary-setting can be would strengthen the bridge"
+    ],
+    "most_ideal_aspect": "Natural prose conversation style with consistent first-person language ('I think', 'I'd say') and zero formatting structure - reads exactly like a supportive older sibling texting advice",
+    "least_ideal_aspect": "While the balance is good, it could spend one more sentence acknowledging the difficulty of potentially upsetting a friend before jumping to the practical scripts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence acknowledging the specific fear that setting boundaries might hurt the friendship, before offering the scripts",
+      "The follow-up question is excellent and specific, but could be split into two separate questions for easier answering (though the current 'or' construction works well)"
+    ]
+  }
+}

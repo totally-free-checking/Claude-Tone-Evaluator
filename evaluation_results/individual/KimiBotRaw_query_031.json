@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 0,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with warm validation and relatable metaphor ('digital equivalent of tripping in public') that normalizes the embarrassment",
+      "Uses casual, age-appropriate language ('deep-like', 'risky business, lol', 'literally everyone') that feels authentic to teen conversation",
+      "Provides specific, realistic platform advice (Instagram notification behavior, covering up with recent likes) that's immediately actionable"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - Claude nearly always ends with a natural question to continue the conversation, but this ends with a statement ('We've all been there!')",
+      "Over-formatted with bold headers and bullet points ('**Damage control options:**', '**Unlike immediately**') making it feel more like an instruction manual than a conversational text",
+      "Lacks first-person connection language ('I think', 'I'd say', 'I'm here if you need to talk') that makes Claude's responses feel personally engaged"
+    ],
+    "most_claude_like": "The validating opening that immediately normalizes the experience by comparing it to something embarrassing but universal, acknowledging the 'mortifying' feeling while reassuring that it happens to everyone",
+    "least_claude_like": "The absence of any follow-up question to invite further conversation - this is a signature element of Claude's teen support approach that creates ongoing dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Uses heavy formatting with bold headers ('**Damage control options:**') and bold bullet starters, making it more structured and list-like than the ground truth. Claude's response uses bullets but with less aggressive formatting and more flowing prose between sections."
+    },
+    "key_differences_from_ground_truth": [
+      "No closing question to continue the conversation (ground truth asks 'What kind of post was it?')",
+      "Uses 💀 emoji at the end which is less warm/supportive than Claude's 😊 and creates a slightly different tone",
+      "More impersonal formatting with bold headers and bullet lists compared to Claude's conversational paragraph flow with lighter bullet usage",
+      "Lacks the 'thumb betrays you' type of vivid, empathetic imagery that makes the ground truth feel more connected to the physical experience"
+    ]
+  }
+}

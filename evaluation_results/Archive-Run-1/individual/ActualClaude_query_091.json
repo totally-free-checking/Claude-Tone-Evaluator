@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'That's such a frustrating feeling - like you're being treated as a stepping stone rather than valued for who you are' - acknowledges the emotional weight right away",
+      "Excellent prose structure with three natural paragraphs that flow conversationally without any bullet points or over-formatting",
+      "Strong follow-up questions that are specific and engaging: 'Are they suddenly being extra friendly but mostly asking about or wanting to hang out when this other person is around?' shows genuine interest and helps the teen reflect",
+      "Perfect balance of validation ('It's totally valid to feel hurt') and practical consideration ('Have you thought about whether you want to address it with them directly')"
+    ],
+    "weaknesses": [
+      "Missing an emoji that would typically appear in Claude's responses - usually a 😅 or similar supportive emoji in the first paragraph to set a warm, casual tone",
+      "Could potentially include one more concrete example of what to look for or a specific phrase they could use if they decide to address it"
+    ],
+    "most_claude_like": "The natural prose flow and immediate emotional validation ('like you're being treated as a stepping stone rather than valued for who you are') perfectly captures Claude's empathetic, conversational character",
+    "least_claude_like": "The absence of any emoji - Claude typically uses 1-2 emojis naturally, often early in the response to establish warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with three natural paragraphs. No bullet points, headers, or over-formatting. Reads like a genuine conversation rather than a structured response."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical, so there are no differences in content, structure, or approach",
+      "The only potential enhancement would be adding an emoji (typically 😅) in the first paragraph, which Claude often includes but not always"
+    ]
+  }
+}

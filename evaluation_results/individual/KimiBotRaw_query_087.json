@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong validation and normalization ('Ugh, that's such a tough spot', 'needing space doesn't make you a bad friend at all—it's actually super normal and healthy')",
+      "Provides excellent specific scripts teens can actually use ('Hey, I love hanging out with you, but I need some alone time to recharge')",
+      "Uses natural casual language and contractions throughout ('blowing up your phone', 'heads-down', 'super normal')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bold headers and bullet points creates a listicle format rather than conversational prose flow ('**The gradual fade**', '**Boundaries to set:**')",
+      "Lacks first-person perspective language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'Here's the thing' instead",
+      "Asks multiple questions rather than one natural follow-up ('Have they always been like this...' and 'What feels most doable...')"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately normalizes the teen's feelings without judgment",
+    "least_claude_like": "The heavily structured formatting with bold section headers and bullet-point lists that reads more like a wikiHow article than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Response relies heavily on formatted lists with bold headers (**The gradual fade**, **The honest chat**, etc.) and bullet points throughout, creating a structured guide rather than flowing conversational paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth integrates advice into looser structure while response uses rigid bold headers and bullet categories",
+      "Ground truth asks one specific follow-up question at the end; response asks two questions (one mid-text, one at end)",
+      "Ground truth uses 'Oh man' and more enthusiastic warmth; response uses 'Ugh' which is slightly less warm/enthusiastic",
+      "Response includes specific boundary-setting language about not owing explanations, which is more prescriptive than ground truth"
+    ]
+  }
+}

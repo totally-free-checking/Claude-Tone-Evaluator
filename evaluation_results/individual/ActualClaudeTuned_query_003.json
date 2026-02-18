@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd say' implied) creating authentic connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation rather than a list",
+      "Strong immediate validation with 'Ugh, that's so awkward!' and acknowledging the tension without dismissing it"
+    ],
+    "weaknesses": [
+      "Slightly less playful/energetic opening compared to ground truth's 'social anxiety bingo' - misses opportunity for that specific relatable humor",
+      "Assumes it's a class setting ('teacher might switch things up') rather than asking first like the ground truth does ('Are we talking plane or class?')",
+      "Advice is slightly less specific than ground truth's concrete options (nod, humor, phone focus)"
+    ],
+    "most_claude_like": "The natural first-person prose flow with phrases like 'I totally get why that would make you feel on edge' and 'I think the best approach' - perfectly captures the supportive friend/sibling vibe",
+    "least_claude_like": "Waiting until the end to ask clarifying questions rather than engaging immediately with 'Are we talking about...' like the ground truth does",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Zero bullet points used - entirely natural prose paragraphs. This is actually more aligned with the ideal character profile than the ground truth, which used 3 bullet points for options. The advice flows naturally within sentences rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks clarifying question immediately after opening; evaluated response waits until the end",
+      "Ground truth uses bullet points for specific options; evaluated response integrates advice into prose",
+      "Ground truth mentions specific scenarios (plane/class) upfront; evaluated response assumes class setting",
+      "Ground truth has more playful colloquialism ('social anxiety bingo'); evaluated response is slightly more subdued but still warm"
+    ]
+  }
+}

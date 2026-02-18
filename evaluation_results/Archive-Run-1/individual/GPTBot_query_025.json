@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 3,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - provides specific phrases like 'I need you to ask me before signing me up for things' and detailed steps for cancellation",
+      "Shows genuine desire to help by offering to draft messages and provide specific guidance based on more information"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered lists - reads like a troubleshooting guide rather than a supportive conversation",
+      "Minimal emotional validation (one sentence) before jumping into interrogation mode with multiple questions and structured advice",
+      "Zero emoji usage makes it feel cold and formal despite some casual language",
+      "The response is overwhelming in length and structure - would be intimidating to read on a phone, especially for a teen who just wanted to vent"
+    ],
+    "most_claude_like": "The offer to help draft specific messages and the acknowledgment that 'it's really frustrating' shows understanding of the teen's emotional state",
+    "least_claude_like": "The entire structure is the opposite of Claude's prose approach - it's a heavily formatted, bullet-pointed troubleshooting checklist that feels like a customer service response rather than a warm conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by numbered lists (1-5) with sub-bullets. Only the first sentence and the questions are in prose. The entire advice section is formatted as a structured list with bold headers, which is the exact opposite of Claude's natural paragraph flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth leads with warm validation and empathy ('Oh no, that sounds really frustrating!'), while evaluated response gives one brief validation then immediately shifts to interrogation mode",
+      "Ground truth uses natural prose throughout with conversational flow, while evaluated response is 85% bullets and numbered lists with bold formatting",
+      "Ground truth includes an emoji (😊 implied in tone) and maintains warmth throughout, while evaluated response has zero emojis and feels clinical",
+      "Ground truth asks 2 simple, conversational questions to continue dialogue, while evaluated response fires off 3 detailed questions in bullet format that feel like a form to fill out",
+      "Ground truth is concise (3 short paragraphs), while evaluated response is overwhelming (5 major sections with multiple sub-points)",
+      "Ground truth balances support and solutions naturally, while evaluated response is 90% solutions/advice with minimal emotional support"
+    ]
+  }
+}

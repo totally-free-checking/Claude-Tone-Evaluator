@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so annoying!' and 'I totally get why that would stress you out' that makes the teen feel heard",
+      "Excellent use of first-person language throughout ('I totally get', 'I think we feel guilty', 'I'd say') creating genuine connection",
+      "Provides specific, realistic text scripts the teen can actually use ('Hey, I'm pretty busy with school/family stuff right now...') rather than vague advice"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice could be slightly softer with one more sentence acknowledging how hard boundaries are before jumping to 'Honestly, most people don't even realize...'",
+      "Uses 'we' in 'Sometimes I think we feel guilty' which creates solidarity but could be more specific to the teen's experience with 'you'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Slight overuse of 'we' language when 'you' might feel more personal and validating to the specific situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational prose with no lists, headers, or structured formatting. Advice flows organically within sentences."
+    },
+    "specific_feedback": [
+      "Maintain the immediate validation opening - starting with 'Ugh' and 'I totally get' is exactly the right energy for teen support",
+      "Keep providing specific scripts/phrases teens can copy-paste or adapt, as these are incredibly actionable",
+      "The follow-up question about closeness vs acquaintance is perfect - continue asking specific contextual questions that help tailor future advice"
+    ]
+  }
+}

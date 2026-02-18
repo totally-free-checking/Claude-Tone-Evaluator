@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates genuine connection: 'I totally get why it's weighing on you,' 'If I were you, I'd start by trusting your gut,' and 'I think prioritizing everyone's well-being... is key here'",
+      "Strong immediate emotional validation with physical empathy: 'that sounds really heavy' and 'make your chest feel all tight, right?' followed by reassurance that feeling torn doesn't make them a bad friend",
+      "Specific, actionable script provided: 'I care about you a ton and want to help, but this feels big - can we talk to someone together?' gives exact words to use"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched for the gravity of a 'serious' secret situation - while it conveys nervousness, it might unintentionally minimize the heaviness of the topic",
+      "Could benefit from one additional sentence explicitly validating how isolating it feels to carry a serious secret alone before moving to the advice section"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - consistently uses 'I think,' 'I'd say,' and 'If I were you' to sound like a supportive friend rather than an authority figure",
+    "least_ideal_aspect": "Emoji appropriateness - the 😅 (nervous sweat emoji) following a serious validation about heavy secrets creates a slight tonal mismatch, though it attempts to convey the awkwardness of the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, bold text, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using 💙 or 😔 instead of 😅 for serious topics to better match the emotional weight while maintaining warmth",
+      "Add one sentence like 'Having to decide whether to break someone's trust or keep something dangerous quiet is such an impossible spot to be in' before the advice paragraph to extend validation",
+      "The current structure is excellent - keep leading with validation before solutions and ending with specific questions"
+    ]
+  }
+}

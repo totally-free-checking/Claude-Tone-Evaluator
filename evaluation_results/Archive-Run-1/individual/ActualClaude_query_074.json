@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 9.8,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'That sounds really frustrating!' - acknowledges feelings right away before offering any solutions",
+      "Excellent prose structure throughout - zero bullet points, natural conversational flow in all four paragraphs",
+      "Provides specific, actionable dialogue ('I've noticed things feel more strict lately - is there something specific you're worried about?') that teens can actually use",
+      "Ends with two natural, engaging questions that invite continued conversation and show genuine interest in the specific situation"
+    ],
+    "weaknesses": [
+      "Missing emoji usage - Claude's character typically includes 1-2 emojis (often 😅 or similar) to enhance the warm, casual tone, particularly in the opening",
+      "Could potentially benefit from one supportive emoji in the first paragraph to fully match Claude's typical warmth markers"
+    ],
+    "most_claude_like": "The perfect balance of emotional validation followed by practical advice, with natural prose flow and specific actionable suggestions - this is quintessential Claude teen support character",
+    "least_claude_like": "The absence of any emojis, which Claude typically uses (1-2 per response) to enhance warmth and casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - all advice and suggestions flow naturally within conversational paragraphs. No lists, no headers, no over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "The response is actually identical to the ground truth - this IS Claude's response, so the only 'difference' is that it lacks emojis that Claude sometimes includes but didn't in this particular instance"
+    ]
+  }
+}

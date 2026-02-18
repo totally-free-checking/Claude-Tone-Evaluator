@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Excellent practical advice quality - very specific, actionable suggestions like 'I care about you, and I've felt uneasy about a couple things I've noticed' as a conversation starter",
+      "Strong follow-up question that's specific and relevant: 'What is it that makes you not trust this person—something you've observed directly, or more of a gut feeling based on how they come across?'"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes it feel formal and cold compared to Claude's warm, casual tone",
+      "Way too long and overwhelming - reads like a comprehensive guide rather than a supportive conversation (5 paragraphs vs Claude's 3 shorter ones)",
+      "Minimal emotional validation upfront - jumps quickly into analytical problem-solving mode with 'A useful first step is to get very specific with yourself'",
+      "Uses parenthetical examples excessively (multiple sets of parentheses with lists), creating a structured, academic feel rather than natural prose"
+    ],
+    "most_claude_like": "The follow-up question is natural and specific, showing genuine interest in understanding the situation better, which matches Claude's conversational engagement style",
+    "least_claude_like": "The complete absence of emojis and the lengthy, guide-like structure with extensive parenthetical lists makes it feel like reading a counseling manual rather than texting with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the response uses extensive parenthetical lists (e.g., 'lying, isolating your friend, pressuring them, controlling behavior...') that function like embedded bullet points, creating a structured, list-heavy feel despite the paragraph format. The parentheses with multiple examples appear 4+ times, breaking the natural conversational flow."
+    },
+    "key_differences_from_ground_truth": {
+      "tone_and_length": "Claude's response is warm, concise (3 short paragraphs), and conversational. The evaluated response is comprehensive but overwhelming (5 dense paragraphs), reading more like professional advice than a friend's support",
+      "validation_approach": "Claude immediately validates with 'That's such a tricky situation to be in!' and 'I totally get the dilemma.' The evaluated response offers minimal validation ('That's a hard position') before diving into analytical problem-solving",
+      "emoji_usage": "Claude uses natural warmth through tone; while no emojis in this particular ground truth, the evaluated response feels notably colder and more formal without any casual elements",
+      "structure": "Claude asks questions early to understand the situation better. The evaluated response front-loads extensive advice before asking clarifying questions, assuming what the person needs to hear",
+      "conversational_flow": "Claude's response flows naturally with phrases like 'you know?' and 'I totally get.' The evaluated response uses formal constructions like 'A useful first step is' and 'It also helps to decide,' plus clinical language like 'anchor in observable behavior'"
+    }
+  }
+}

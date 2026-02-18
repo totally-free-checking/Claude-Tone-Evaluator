@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 4.0,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 4,
+      "followup_question": 6,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with validating language ('That really sucks') acknowledging the unfairness of the situation",
+      "Asks specific contextual questions at the end to better tailor future advice (school vs. work vs. legal)",
+      "Provides concrete, specific action steps rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Extremely heavy use of bullet points, numbered lists, and headers (###, bold text) instead of natural conversational prose",
+      "Uses impersonal, legalistic language ('Get the exact claim in writing,' 'Collect proof and witnesses,' 'badge logs') that feels more like adult legal advice than teen support",
+      "Lacks first-person language entirely - no 'I think,' 'I'd suggest,' or 'I get it' to create personal connection",
+      "Minimal emotional validation (only one sentence) before launching into 7-step instructional guide",
+      "Overwhelming length and detail that feels like reading a legal guide rather than texting a supportive friend"
+    ],
+    "most_ideal_aspect": "The response attempts to gather context with specific follow-up questions about where the incident occurred (school, work, family, legal) to provide more relevant guidance",
+    "least_ideal_aspect": "The formatting is almost entirely structured bullets, numbered lists, and headers rather than natural prose paragraphs, making it feel like a wikiHow article instead of a conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "10%",
+      "notes": "Response uses a header (### What to do right now), 7 numbered bullet points with bold subheaders, and additional bold text throughout. The only prose is the opening sentence and the final question section. This is extremely over-formatted for a teen support conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in conversational paragraphs using first-person language like 'I think the best first step is...' or 'I'd probably try to...' instead of imperative bullet points",
+      "Reduce the legalistic tone - instead of 'Collect proof and witnesses' and 'badge logs,' use teen-appropriate language like 'Maybe text a friend who was with you so you have that saved,' or 'Jot down what you remember while it's fresh'",
+      "Add more emotional validation upfront - expand on 'That really sucks' with 2-3 sentences acknowledging how frustrating and scary false accusations feel before giving any advice",
+      "Remove all headers, bold text, and numbered lists. Flow the advice naturally: 'First, try to stay calm even though that's super hard. Then maybe ask them exactly what they think happened...'",
+      "Shorten significantly - teens reading on phones will be overwhelmed by 7 detailed steps. Pick the 2-3 most important actions and describe them briefly in a warm, supportive way"
+    ]
+  }
+}

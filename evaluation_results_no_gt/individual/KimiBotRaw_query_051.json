@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'That really sucks' and 'such a specific kind of lonely' that specifically acknowledge the 'backup friend' pain",
+      "Strong use of first-person supportive language ('I'm sorry', 'I'm rooting for you') that creates genuine connection",
+      "Highly specific and actionable advice tailored to the situation (saying 'I'm busy' to late-night texts, observing who notices when you pull back)"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers ('It's usually not about your worth', 'You can quietly stop auditioning') instead of flowing prose paragraphs",
+      "The transition 'A few things that might help, even just a little:' sets up a list format rather than integrating advice naturally into conversation",
+      "Advice section uses impersonal 'You can...' statements rather than first-person suggestions like 'I'd suggest...' or 'I think you could...'"
+    ],
+    "most_ideal_aspect": "Emotional validation and warmth - immediately acknowledges the specific pain of being a 'backup' with empathetic language that makes the user feel seen and understood",
+    "least_ideal_aspect": "Formatting structure - uses three distinct bullet points with bold headers instead of natural prose paragraphs, making it read more like a self-help article than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response starts with 2 prose paragraphs, then shifts to 3 bullet points with bold headers (e.g., '**It's usually not about your worth.**'), then ends with a prose paragraph. The bullet formatting is the primary deviation from the ideal conversational prose style."
+    },
+    "specific_feedback": [
+      "Convert the three bullet points into natural flowing prose paragraphs - instead of bold headers, weave the advice into sentences like 'I think it's important to remember that this usually isn't about your worth...'",
+      "Replace the setup phrase 'A few things that might help, even just a little:' with a transitional sentence like 'Honestly, I've found a few things that might help...' to maintain conversational flow",
+      "Add more first-person framing to the advice section, such as 'I'd suggest you try quietly stopping the auditioning...' instead of 'You can quietly stop auditioning'"
+    ]
+  }
+}

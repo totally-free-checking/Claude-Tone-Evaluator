@@ -1,0 +1,44 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 5,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate validation ('Ugh, that can be pretty annoying!') that perfectly captures teen frustration while normalizing the experience",
+      "Excellent follow-up questions that are specific and thoughtful ('How pushy are they being about it? Are they more curious or actually concerned about something specific?')",
+      "Natural conversational tone throughout with appropriate contractions and casual language ('super common', 'pretty annoying')",
+      "Practical advice is specific and actionable with concrete example phrases teens can actually use"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section, which goes against Claude's prose-heavy character approach - should integrate these suggestions into paragraph form",
+      "Missing emojis entirely - Claude typically uses 1-2 emojis (like 😅) to enhance the warm, casual tone, especially in the opening",
+      "The bullet point structure makes it feel more like a list of options rather than a flowing conversation"
+    ],
+    "most_claude_like": "The follow-up questions are perfectly executed - they're natural, specific to the situation, show genuine interest, and invite continued conversation without feeling generic or forced",
+    "least_claude_like": "The bullet point formatting in the middle section - Claude's character strongly prefers natural prose paragraphs where advice flows conversationally rather than being listed out",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "50%",
+      "notes": "Response has a clear prose opening and closing, but the middle advice section uses three bullet points. This creates a structured 'list of options' feel rather than Claude's preferred conversational flow where suggestions are woven into natural paragraphs"
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This IS the ground truth response, so there are no differences. However, evaluating it against the character profile reveals areas where even Claude's actual response could be more aligned with the stated character preferences",
+      "observations": [
+        "The bullet points are the main deviation from the 'natural prose' character trait described in the rubric",
+        "The absence of emojis is notable given the character description emphasizes using them naturally (1-2 per response)",
+        "Otherwise, this response strongly embodies the character: warm validation, conversational tone, practical advice, excellent follow-up questions, and good balance"
+      ]
+    }
+  }
+}

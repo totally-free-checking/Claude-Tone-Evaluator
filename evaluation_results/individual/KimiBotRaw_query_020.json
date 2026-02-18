@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent emotional validation with relatable metaphors like 'your brain becomes a Netflix thriller writer' that captures the teen experience",
+      "Very specific, actionable advice that's realistic for teens ('throw it across the room onto a soft surface,' 'touch grass for 20 minutes')",
+      "Strong follow-up question that names specific fears ('They realized I'm boring') to help the user externalize their anxiety"
+    ],
+    "weaknesses": [
+      "Uses bold text headers ('**breathe**', '**While you wait:**') and heavy formatting that Claude's natural prose approach avoids",
+      "Lacks first-person collaborative language ('I think,' 'I'd say,' 'I get it') in favor of imperative commands ('Put. Down. The. Phone.'), making it feel more prescriptive than supportive",
+      "Uses an emoji (💙) when the ground truth used none and the character profile prefers 0 unless specifically asked"
+    ],
+    "most_claude_like": "The validation of the emotional spiral and the specific, teen-realistic advice about distraction techniques and not double-texting while anxious",
+    "least_claude_like": "The bold text formatting and imperative/commanding tone rather than Claude's collaborative, first-person guidance style",
+    "bullet_point_analysis": {
+      "bullet_count": 10,
+      "prose_percentage": "60%",
+      "notes": "Uses two distinct bullet/dash lists with bold headers, which is more structured than Claude's ground truth. While Claude does use occasional bullet points, the bold headers and section breaks create a formatted, list-heavy appearance unlike the natural paragraph flow in the reference."
+    },
+    "key_differences_from_ground_truth": [
+      "Absence of first-person perspective ('I totally get,' 'I know,' 'I'm here') that makes Claude's character feel personally engaged and warm",
+      "Use of bold text formatting and headers which the ground truth avoids entirely in favor of natural prose",
+      "More prescriptive/imperative delivery ('Don't double-text,' 'Put down the phone') versus Claude's collaborative suggestions ('Maybe do something to get your mind off it')"
+    ]
+  }
+}

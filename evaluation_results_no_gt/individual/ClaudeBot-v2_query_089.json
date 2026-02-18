@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd pick...', 'I’d do a quick brain-dump') creating a personal, supportive connection rather than impersonal directives",
+      "Strong immediate emotional validation with 'Ugh, I'm so sorry' and the reassurance 'You're not lazy or broken — you're overwhelmed'",
+      "Specific, actionable advice realistic for teens (10-minute chunks, brain dump in notes app, permission to submit imperfect work) embedded naturally in prose"
+    ],
+    "weaknesses": [
+      "The emoji 😅 following 'heavy' creates a slight tonal mismatch—while it conveys relatability, it may inadvertently minimize the weight of the feeling described",
+      "Could benefit from one additional validating sentence before the advice paragraph to further strengthen the emotional support component"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers, using first-person perspective ('If I were you...') that reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Slight tonal ambiguity with the emoji choice following the word 'heavy', though this is a minor issue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, or headers. Advice flows naturally within conversational sentences rather than being formatted as actionable items."
+    },
+    "specific_feedback": [
+      "Consider using 😟 or 😔 instead of 😅 when acknowledging heavy emotions to better match the emotional weight described",
+      "Maintain this level of first-person language ('I think', 'I'd say') and natural prose formatting in future responses as it creates strong authentic connection"
+    ]
+  }
+}

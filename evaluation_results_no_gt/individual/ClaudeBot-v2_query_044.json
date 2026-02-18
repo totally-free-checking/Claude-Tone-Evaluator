@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 9.5,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and relatable phrasing like 'brain just left the chat' that captures the teen experience",
+      "Excellent use of first-person language throughout ('I'd try', 'I'm so sorry') creating a personal, supportive connection",
+      "Specific, actionable advice with exact scripts the teen can use ('Wait—can you repeat the question?', 'I'm stuck—could you come back to me?')"
+    ],
+    "weaknesses": [
+      "The advice paragraph is slightly dense with multiple suggestions; could benefit from one more line break to improve mobile readability",
+      "Could explicitly validate the 'embarrassment' feeling one more time after the advice to close the emotional loop"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format with zero bullet points or headers, flowing exactly like a supportive friend texting",
+    "least_ideal_aspect": "The advice section packs many suggestions into one paragraph, making it slightly less digestible than the ideal 2-3 sentence paragraph flow",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or bold text. Uses natural paragraph breaks that follow conversational logic (validation → normalization → advice → question)."
+    },
+    "specific_feedback": [
+      "Consider breaking the third paragraph into two smaller paragraphs after 'restart your brain' to improve readability on mobile devices",
+      "Maintain the excellent first-person perspective ('I think', 'I'd say') as it creates strong rapport; avoid drifting into impersonal 'One should' or 'It is recommended' language"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation using casual language ('Ugh, that's such an exhausting feeling') that immediately acknowledges the emotional weight",
+      "Writes in pure natural prose without any bullet points or formatting, flowing like a text conversation",
+      "Provides specific, actionable advice including an exact script the teen could use ('Hey, I've noticed I'm usually the one who starts convos—are we good?')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person validation statements like 'I get it' or 'I totally understand' found in the ground truth; uses more general 'this happens to a lot of people' instead",
+      "Places the clarifying question at the end rather than earlier in the conversation as Claude does in the ground truth",
+      "Uses 'Honestly' and 'If you wanna' but misses opportunities for explicit first-person perspective like 'I think' or 'I'd say'"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational flow without any bullet points or over-structuring, perfectly matching Claude's paragraph-based approach",
+    "least_claude_like": "The absence of explicit first-person empathetic language (like 'I totally get why that would wear on you') in favor of more general statements about other people",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullet points, headers, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks the clarifying question ('Are we talking about friends...') in the second paragraph, while the evaluated response saves it for the end",
+      "Ground truth uses explicit first-person validation ('I totally get why that would wear on you'), while the evaluated response uses more impersonal generalizations ('this happens to a lot of people')",
+      "The evaluated response provides more specific tactical advice (including the exact script to use) compared to the ground truth's more open-ended suggestion",
+      "The evaluated response includes one emoji (😅) while the ground truth uses none"
+    ]
+  }
+}

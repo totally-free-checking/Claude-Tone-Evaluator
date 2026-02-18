@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation: 'That sounds like a tough spot to be in. It can feel really heavy...' immediately acknowledges the emotional weight",
+      "Excellent follow-up questions that are specific and thoughtful: 'without sharing the actual secret, can you tell me what's making you unsure about keeping it?' shows genuine interest and understanding",
+      "Good practical framework for thinking through the situation (safety vs. emotional weight distinction)",
+      "Natural conversational tone with appropriate contractions and casual phrasing"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points - the entire advice section is formatted as a bulleted list, which is a major departure from Claude's prose-heavy style",
+      "Complete absence of emojis - makes the response feel more formal and less warm than Claude's typical approach",
+      "The bullet point structure makes it read more like a checklist or guide rather than a natural conversation",
+      "Lacks the casual interjections or natural flow that would come from pure prose formatting"
+    ],
+    "most_claude_like": "The follow-up questions are perfectly executed - natural, specific, and show genuine care without being invasive ('without sharing the actual secret' is a thoughtful touch)",
+    "least_claude_like": "The bullet-pointed advice section completely breaks from Claude's prose-based conversational style, making it feel more like a structured guide than a supportive chat",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "The response has strong prose bookends (opening validation and closing questions) but the middle section is entirely bullet-pointed. This creates a jarring shift from conversational to structured format. Claude would integrate these points into flowing paragraphs instead."
+    },
+    "key_differences_from_ground_truth": [
+      "Identical content and structure - this appears to be the exact same response as the ground truth",
+      "No differences detected in wording, formatting, or approach",
+      "This is actually Claude's response being evaluated against itself"
+    ]
+  }
+}

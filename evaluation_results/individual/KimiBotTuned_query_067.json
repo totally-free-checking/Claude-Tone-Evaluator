@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points and conversational flow throughout",
+      "Strong use of first-person language and casual contractions ('I'm down to talk', 'I get overwhelmed', 'that's such a weird pressure-y feeling')",
+      "Provides specific, realistic scripts the teen can actually use with parents ('Can we keep this more general?', 'I'm not ready to decide anything')"
+    ],
+    "weaknesses": [
+      "Opening validation is slightly less warm/emphatic than Ground Truth - uses 'Ugh' instead of 'Oh man, I totally get why that might feel overwhelming' and lacks the metaphor about 'fast-forwarding to the future'",
+      "Missing the 'fun alternatives' approach that Ground Truth includes (suggesting movies, campus visits, or enjoyable aspects of college exploration)",
+      "Follow-up question focuses on parents' intentions rather than the teen's feelings, which is slightly less emotionally centered"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational first-person language ('I can talk', 'I'm down to talk') perfectly captures the texting-a-friend vibe without any bullet points or over-structuring",
+    "least_claude_like": "The emoji usage (😅) - while appropriate and within the 0-1 guideline - differs from the Ground Truth's emoji-free approach, and the opening lacks the immediate emphatic validation ('I totally get why that might feel overwhelming') that Claude typically leads with",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth offers positive/fun alternatives (campus visits, college movies) while Response focuses only on boundary-setting and deflection scripts",
+      "Ground Truth leads with stronger emotional validation and metaphor ('fast-forwarding to the future') while Response jumps slightly faster to practical advice",
+      "Ground Truth asks about the teen's specific stress points (pressure, timeline, too much too soon) while Response asks about parents' motivations (grades, money, picking colleges)"
+    ]
+  }
+}

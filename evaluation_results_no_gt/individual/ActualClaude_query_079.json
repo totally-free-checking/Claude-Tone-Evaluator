@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using first-person language ('I totally get that') and reassurance ('You're definitely not alone')",
+      "Ends with an excellent, natural follow-up question that invites specifics ('Is there something specific about eating around others that makes you most nervous?')",
+      "Uses casual, age-appropriate language throughout ('literally everyone eats,' 'way too focused,' 'click with')"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list format ('A few things that might help:' followed by 4 bullets) instead of natural prose paragraphs, breaking conversational flow",
+      "Advice section lacks first-person suggestions ('I'd suggest,' 'I think') and uses impersonal imperative commands ('Start small,' 'Remember that,' 'Try to find')",
+      "Could deepen emotional validation to match the intensity of the nervousness described (goes with 'awkward' rather than acknowledging the anxiety)"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly matches the ideal character - it's natural, specific to the situation, and genuinely invites the teen to share more without being generic",
+    "least_ideal_aspect": "The bullet-point formatting for advice delivery - the ideal character should weave suggestions into conversational prose rather than listing them out like a self-help article",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response uses a header 'A few things that might help:' followed by 4 distinct bullet points, creating a structured list format rather than flowing prose. The advice is presented as a checklist rather than integrated into a conversational narrative."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose paragraphs using first-person language like 'I'd maybe start by eating with just one friend you trust...' or 'I think it helps to remember that people are usually way too focused...' instead of bullet commands",
+      "Add slightly deeper emotional validation acknowledging the physical feelings of anxiety (e.g., 'That tight-chest feeling when you think everyone's watching') before moving to solutions",
+      "Either maintain the clean no-emoji look or add one warm emoji early (like 😅) to match the casual tone, but avoid the middle ground of uncertainty"
+    ]
+  }
+}

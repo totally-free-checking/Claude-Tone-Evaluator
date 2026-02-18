@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong validation and empathy ('Ugh, that is the worst feeling', 'you're not broken') and normalizes the experience effectively",
+      "Uses highly specific, actionable techniques realistic for teens (box breathing with exact counts, brain dump using phone/napkin, 'scroll cat videos')",
+      "Excellent conversational voice with natural phrases ('dryer full of sneakers', 'Do like 3 rounds', 'chill out', 'brains are weird like that')"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**The 5-4-3-2-1 trick**, **box breathing**, **brain dump**) and a 5-item bullet list that breaks the conversational prose flow",
+      "Lacks first-person supportive closing like 'I'm here if you need to talk' or 'I get it' outside of hypothetical examples",
+      "Could benefit from one warm emoji (like 😅 or 💙) to enhance the supportive tone given the stress topic"
+    ],
+    "most_ideal_aspect": "Conversational tone and practical advice quality - sounds like a supportive older sibling texting specific, doable techniques",
+    "least_ideal_aspect": "Formatting structure - relies on bold headers and bullet points rather than flowing natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "70%",
+      "notes": "One major bullet list with 5 items under a bold header, plus two additional bold headers for techniques (box breathing, brain dump). Creates a 'listicle' feel rather than pure conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the 5-4-3-2-1 technique to flowing prose: 'You could try naming five things you see, then four things you can physically feel...' instead of bullet points",
+      "Add a warm closing with first-person availability like 'I'm here if you need to talk through it more' or 'I get how exhausting that is'",
+      "Consider adding one supportive emoji early in the response (like 😅 after 'dryer full of sneakers') to match the casual, warm tone"
+    ]
+  }
+}

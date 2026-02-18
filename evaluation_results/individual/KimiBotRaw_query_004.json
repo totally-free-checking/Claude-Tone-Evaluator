@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent emotional validation with vivid, relatable language like 'throwing energy into a void' and 'the silence feels extra loud'",
+      "Provides specific, actionable text message scripts that teens can actually copy and send",
+      "Natural conversational voice with appropriate casual phrasing ('tempting, I know', 'spiral into they hate me territory')"
+    ],
+    "weaknesses": [
+      "Heavy over-formatting with bold headers ('What to do right now:', 'The hard part:') and excessive bullet points compared to Claude's simpler prose approach",
+      "Much longer than necessary - the ground truth is concise and punchy while this response feels like a comprehensive guide",
+      "Uses a heart emoji when the ground truth uses none and the user didn't request emojis"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately acknowledges the emotional difficulty with casual language ('Ugh', 'gut-punch feeling')",
+    "least_claude_like": "The structured formatting with bold section headers and bullet-point lists instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "35%",
+      "notes": "Response uses bold headers to introduce bullet sections and block quotes for suggested messages, making it feel more like an article than a text conversation. Ground truth uses only one simple bullet list without headers."
+    },
+    "key_differences_from_ground_truth": [
+      "Over-structured with bold headers and multiple formatting styles vs ground truth's simple single bullet list",
+      "Significantly longer and more comprehensive vs ground truth's concise, punchy brevity",
+      "Suggests waiting days/weeks before addressing it vs ground truth's more immediate approach",
+      "Uses emoji when ground truth does not"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout with natural 'I' statements like 'I want to understand' and 'I'd rather talk it out'",
+      "Provides specific, realistic scripts the teen can actually use ('Hey, I feel like things have been kinda off between us...') rather than vague advice",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation"
+    ],
+    "weaknesses": [
+      "Could explicitly acknowledge the possibility that it's unrelated to them (ground truth mentions this, evaluated response only implies it)",
+      "Slightly more prescriptive/detailed in the advice section compared to ground truth's lighter touch"
+    ],
+    "most_claude_like": "The natural conversational prose format with first-person language ('I feel like', 'I'll give you space') and warm validation ('You're not crazy for noticing it')",
+    "least_claude_like": "The specific question at the end focuses on medium (in person vs text) rather than feelings/gut instinct like the ground truth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points or lists, which aligns with the character profile's preference for natural prose over the ground truth's bulleted 'A few thoughts' format"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while evaluated response uses flowing prose paragraphs",
+      "Ground truth explicitly lists 'unrelated to you' as a possibility; evaluated response focuses more on the interaction dynamic and not taking blame",
+      "Ground truth asks about gut feelings and previous attempts; evaluated response asks about communication medium (school vs text)"
+    ]
+  }
+}

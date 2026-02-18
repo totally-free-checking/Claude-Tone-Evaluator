@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's the worst') and acknowledges the specific feelings of tension and humiliation",
+      "Provides highly specific, actionable scripts for what to say to both the partner ('Let's just split it up...') and the teacher, making the advice immediately usable",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language ('I think', 'I'd say', 'I get it') throughout the response, using second-person 'you' and impersonal constructions instead",
+      "Could include a brief statement of ongoing support like 'I'm here if you need to talk' to establish the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose format with specific dialogue scripts integrated seamlessly into conversational paragraphs rather than listed as bullet points",
+    "least_ideal_aspect": "Absence of first-person language makes the advice feel slightly impersonal despite the warm tone; reads more like general guidance than 'what I would do'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective phrases like 'I think the best approach is...' or 'I'd try to keep it...' to make it feel more like advice from a supportive friend rather than general instructions",
+      "Consider adding a brief closing statement like 'I'm here if you need to talk through it more' to reinforce the supportive relationship and open the door for continued conversation"
+    ]
+  }
+}

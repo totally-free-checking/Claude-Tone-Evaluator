@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Oh no, the dreaded accidental deep-like!') and normalizes the experience ('happens to literally everyone','We've all been there')",
+      "Provides specific, realistic advice tailored to teen social media behavior (unliking quickly, platform-specific notification behavior, the 'cover-up' strategy)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think','I'd say','I get it') - uses impersonal 'you could' and imperative statements instead of conversational friend-to-friend advice",
+      "Heavy reliance on bullet points and bold headers ('Damage control options:', 'Reality check:') instead of natural prose paragraphs",
+      "Ends with no follow-up question to continue the conversation - just a closing statement"
+    ],
+    "most_ideal_aspect": "The emotional validation and normalization of the 'deep-like' anxiety - successfully makes the teen feel less alone in an embarrassing moment",
+    "least_ideal_aspect": "The formatting structure - uses bullet points with bold headers like a self-help article rather than flowing conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses 'Damage control options:' followed by three bullet points with bold headers (Unlike immediately, Don't mention it, The cover-up), then 'Reality check:' section. This reads like a wikiHow article rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose instead of bullet points - e.g., 'If I were you, I'd unlike it immediately since the notification often disappears if you're fast enough. Then I'd just not mention it at all...'",
+      "Add a follow-up question at the end to invite continued conversation, such as 'How old was the post you liked?' or 'Is this someone you still see at school?'",
+      "Incorporate first-person language throughout ('I think the best move is...', 'I get why you're panicking...') to create the feeling of talking to a supportive friend rather than reading an article"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts the teen can actually use word-for-word ('Thanks for asking! I'm flattered, but I don't feel that way')",
+      "Ends with a strong, specific follow-up question that invites continuation and shows interest in tailoring the advice ('If you tell me how they asked...')",
+      "Covers multiple realistic scenarios (text vs in-person, wanting to stay friends vs not) showing understanding of teen social dynamics"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal instructional tone throughout ('The goal is:', 'Simple, kind replies')",
+      "Heavy over-reliance on bullet points, headers, and bold formatting instead of natural prose paragraphs - reads like a wikiHow article",
+      "Minimal emotional validation upfront - only 'Totally okay' before jumping immediately to practical solutions without acknowledging the awkwardness or anxiety of the situation",
+      "Uses 'pick one' format which feels like a menu rather than a friend helping craft a personal response"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic scripts for different scenarios that a teen could actually say",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is structured almost entirely as formatted lists with headers and bullet points rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response uses multiple headers (###), bold text sections, and bullet lists for different scenarios. Only the opening sentence and closing sentence are prose. The entire advice section is formatted as selectable options rather than flowing conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the entire response as 2-3 natural paragraphs instead of bullet lists - integrate the script examples into sentences like 'You could say something like...' or 'I'd probably go with...'",
+      "Add first-person empathetic language at the beginning such as 'Ugh, I know that sinking feeling when someone asks you out and you have to let them down - it's so awkward' before giving advice",
+      "Remove all headers (###), bold formatting, and 'pick one' instructions - instead flow naturally between ideas as if texting a friend",
+      "Balance the content with more emotional validation upfront (at least 30-40% of the response) before diving into specific scripts, acknowledging that saying no is hard and the teen might feel guilty"
+    ]
+  }
+}

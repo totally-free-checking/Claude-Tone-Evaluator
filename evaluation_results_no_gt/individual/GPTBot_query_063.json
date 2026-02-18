@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts for exactly what to say in the moment ('Sorry—wrong room,' small nod, leave)",
+      "Ends with a highly contextual follow-up question that shows genuine interest in the specific situation (lecture vs. small class vs. exam)",
+      "Reframes the situation helpfully by explaining that people stare because a door breaks focus, not because they judge you"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points (3 items) makes it read like an instruction manual rather than a conversational text from a friend",
+      "Completely lacks first-person language ('I think,' 'I'd say,' 'I get it') which creates emotional distance rather than connection",
+      "Could open with stronger emotional validation—while 'painfully relatable' is good, it misses the opportunity to say 'I've totally done this' or 'That sinking feeling is the worst'"
+    ],
+    "most_ideal_aspect": "Practical advice quality—offers concrete, realistic scripts for exactly what to say in multiple scenarios (wrong room entirely vs. wrong section)",
+    "least_ideal_aspect": "Prose formatting—the response relies on a structured bullet list for the core advice rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "The response uses 'here are a few low-drama saves:' to introduce a 3-item bullet list that comprises the majority of the advice. This creates a self-help article format rather than natural texting flow. The bullets contain good content but should be woven into narrative sentences."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to flowing prose: 'If it happens again, I'd just glance at the board and say something like, \"Sorry—wrong room\" with a small nod before leaving. If you're not totally sure, you could ask, \"Is this [class name]?\" and if they say no, just say \"Thanks!\" and bounce.'",
+      "Add first-person connection throughout: 'I know that stomach-drop feeling—I've walked into the wrong room before and it's mortifying,' or 'I'd say the best thing you can do right now is...'",
+      "Consider adding one warm emoji (like 😅 or 😬) after 'Oof' to match the casual, empathetic tone of the opening"
+    ]
+  }
+}

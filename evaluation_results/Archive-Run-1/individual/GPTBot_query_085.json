@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and actionable - offers specific phrases like 'I'm not up for arguing—can we switch topics?' and concrete strategies across multiple scenarios",
+      "Follow-up questions at the end are specific and relevant ('Is this mostly in a group chat or in-person?', 'Do the arguments get personal/mean, or is it more like debating?')"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered lists - has 7 major sections with headers, multiple sub-bullets, and reads like a comprehensive guide rather than a conversation",
+      "Opens with minimal emotional validation ('That sounds exhausting.') then immediately jumps into solution mode without the warm, empathetic tone Claude establishes ('Ugh, that sounds really draining! Being around constant arguing can be so exhausting and stressful.')",
+      "Zero emoji usage makes it feel formal and clinical rather than warm and conversational",
+      "Length is overwhelming (7 sections with multiple subsections) - would be difficult to read on a phone and feels more like a self-help article than a supportive text conversation"
+    ],
+    "most_claude_like": "The follow-up questions at the end show genuine interest and are specific to the situation, inviting the teen to share more details",
+    "least_claude_like": "The entire formatting approach - this is structured like a comprehensive guide with 7 numbered sections, headers, and extensive bullet points, completely opposite to Claude's natural prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 35,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 7 numbered main sections with ## headers, multiple bullet points under each section, and sub-bullets. Only the opening sentence and closing paragraph are in prose form. This is the antithesis of Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth starts with strong emotional validation and asks clarifying questions BEFORE offering advice; evaluated response jumps straight into solutions after one brief sentence",
+      "Ground truth is 3 short, conversational paragraphs with natural flow; evaluated response is 7 structured sections with headers and extensive bullet points",
+      "Ground truth uses an emoji (😊 implied in tone) and casual language ('Ugh', 'really draining'); evaluated response has zero emojis and more formal phrasing",
+      "Ground truth focuses on understanding the situation first; evaluated response assumes it knows what advice is needed and provides an exhaustive list",
+      "Ground truth maintains conversational tone throughout; evaluated response reads like a self-help article or counseling resource"
+    ]
+  }
+}

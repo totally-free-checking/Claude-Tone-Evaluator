@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ugh, that sounds really frustrating!' - captures the feeling instantly and empathetically",
+      "Excellent conversational flow with natural phrases like 'right?', 'pretty suffocating', and 'Either way though' that feel authentic",
+      "Beautiful balance of validation ('your feelings are totally valid') followed by gentle exploration of the friend's perspective, then practical next steps",
+      "Strong follow-up question that's specific and shows understanding of potential social awkwardness teens face"
+    ],
+    "weaknesses": [
+      "Could have included 1-2 emojis to enhance the warm, casual tone (typically Claude uses 😅 or similar in the opening)",
+      "While the advice about having a conversation is good, it could have been slightly more specific with a suggested phrase or approach"
+    ],
+    "most_claude_like": "The immediate emotional validation followed by the empathetic reframing ('Sometimes people copy others because they genuinely admire them') perfectly captures Claude's approach of validating feelings while gently offering perspective",
+    "least_claude_like": "The absence of emojis is the only notable divergence - Claude typically includes 1-2 emojis, often in the opening paragraph to set a warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. Three natural paragraphs with conversational flow. Zero bullet points, headers, or over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. This represents the gold standard for Claude's teen support character."
+    ]
+  }
+}

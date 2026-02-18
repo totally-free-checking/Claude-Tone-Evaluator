@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation and empathy: 'Ugh, that's such a rough spot to be in—the silent treatment... is honestly one of the most stressful things to navigate' mirrors Claude's warmth",
+      "Follow-up questions are natural and specific: 'How long has this been going on? And do you have a gut feeling...' shows genuine interest in continuing the conversation",
+      "Practical advice is realistic and teen-appropriate, including specific script suggestions like 'Hey, I'm picking up some weird vibes and I care about you'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bold headers and bullet points ('**They're processing.**', '**What you can actually do:**') creates a structured, article-like format instead of Claude's conversational prose",
+      "Lacks first-person language entirely - no 'I think', 'I'd say', or 'I get it' which makes it feel impersonal and analytical compared to Claude's ground truth which uses 'I'm getting the sense' and 'I do'",
+      "Over-categorized with four bold headers functioning as bullet points plus additional dash bullets, making it feel like a self-help list rather than a friend texting"
+    ],
+    "most_claude_like": "The opening validation and the natural, specific follow-up questions at the end that invite the teen to share more details",
+    "least_claude_like": "The heavy formatting with bold headers and bullet points throughout, creating a structured, impersonal layout rather than flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Uses 4 bold headers acting as section titles plus 3 dash bullet points under 'What you can actually do.' Ground truth uses only 3 simple dash bullets within prose. This response is heavily structured like an article rather than conversational text."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses natural first-person language ('I'm getting', 'I do') while evaluated response uses entirely third-person analytical tone ('Sometimes people', 'They could be')",
+      "Ground truth is primarily prose with minimal bullets; evaluated response uses bold headers and extensive bullet formatting creating a listicle structure",
+      "Ground truth is concise (2 paragraphs + 3 short bullets + 1 paragraph); evaluated response is significantly longer with categorized sections that feel more like a guide than a conversation"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Practical advice is excellent - offers specific scripts ('I've realized I need to step away from [activity]'), concrete steps for responsible quitting, and actionable frameworks",
+      "Does end with an engaging follow-up question that invites specifics ('If you tell me what the activity is... I can help you craft the exact message')"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered sections - has 5 major headers with ## formatting, multiple nested bullet lists, making it read like a self-help article rather than a conversation",
+      "Missing emojis entirely - no warmth markers that Claude naturally uses to set a supportive tone",
+      "Jumps too quickly into structured advice without enough upfront emotional validation - Claude starts with 'I totally get that feeling' and explores the guilt first, while this response immediately moves to categorizing guilt types",
+      "Far too long and overwhelming - this is a wall of text that would be exhausting to read on a phone, whereas Claude keeps it to 3-4 readable paragraphs"
+    ],
+    "most_claude_like": "The follow-up question at the end ('If you tell me what the activity is... and why you feel guilty, I can help you craft the exact message') is specific, engaging, and shows genuine interest in continuing the conversation",
+    "least_claude_like": "The heavy use of formatting with ## headers, numbered sections (1-5), and nested bullet points throughout - this is the complete opposite of Claude's natural prose style and makes it feel like reading a structured guide rather than having a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting: 5 numbered sections with ## headers, multiple nested bullet lists under each section, bold text throughout. Only the opening paragraph and closing invitation are in prose. This is fundamentally different from Claude's conversational paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Claude uses 4 natural prose paragraphs; evaluated response uses 5 numbered sections with headers and extensive bullet points",
+      "Emotional approach: Claude leads with validation and explores feelings first ('What's making you feel guilty about it?'); evaluated response immediately categorizes guilt types in a clinical framework",
+      "Tone: Claude is warm and conversational ('I totally get that feeling', 'just a gentle reminder'); evaluated response is more instructional and formal ('A few angles that usually help', 'Sort out what kind of guilt')",
+      "Length: Claude is concise and phone-friendly; evaluated response is overwhelming with too much information at once",
+      "Emoji usage: Claude would naturally include 1-2 emojis for warmth; evaluated response has none"
+    ]
+  }
+}

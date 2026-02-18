@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases to use: 'I care about you, and I also spend time with other people. What part of this upset you?' - this is concrete and actionable",
+      "Good use of prose paragraphs throughout, avoiding bullet points and maintaining conversational flow",
+      "Ends with a natural, specific follow-up question that shows genuine interest in understanding the situation better",
+      "Nuanced analysis of the situation, distinguishing between valid feelings and unreasonable expectations"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - feels too formal and clinical compared to Claude's warm, casual approach with 😅 or similar",
+      "Jumps straight into analysis without immediate emotional validation - no 'That sounds tough!' or 'Oof, that's rough' opening",
+      "Tone is more like a therapist or counselor than a supportive friend - uses clinical language like 'separate two things,' 'patterns,' 'firm up boundaries'",
+      "Too long and dense for a teen audience - four substantial paragraphs that feel more like an article than a text conversation"
+    ],
+    "most_claude_like": "The follow-up question at the end is natural and specific, genuinely trying to understand the nuance of the situation rather than being generic",
+    "least_claude_like": "The complete absence of warmth and validation at the start - Claude immediately acknowledges feelings ('That sounds like a tricky situation!') while this response launches into analytical framework",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullet points. However, the prose itself reads more academic/therapeutic than conversational, with complex sentence structures and formal transitions"
+    },
+    "key_differences_from_ground_truth": [
+      "Claude starts with immediate validation ('That sounds like a tricky situation!') while the evaluated response starts with analytical framing ('That's a really common kind of conflict')",
+      "Claude uses warm, casual language throughout ('tough when friends get upset') while the evaluated response uses clinical terminology ('controlling expectation,' 'firm up boundaries,' 'patterns')",
+      "Claude includes an emoji (implied warm tone) and keeps it conversational, while the evaluated response has zero emojis and reads more formal",
+      "Claude's response is shorter and more digestible (3 paragraphs) while the evaluated response is denser and longer (4 substantial paragraphs)",
+      "Claude focuses on understanding and connection first ('Have you two talked about why they're upset?') while the evaluated response leads with boundary-setting framework",
+      "Claude's tone is 'supportive older sibling' while the evaluated response reads more like 'therapist giving a session'"
+    ]
+  }
+}

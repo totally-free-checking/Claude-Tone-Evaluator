@@ -1,0 +1,37 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with first-person empathy: 'I totally get that feeling' establishes connection right away",
+      "Natural conversational flow with no formatting artifacts - reads exactly like a supportive friend texting, using phrases like 'if you don't mind me asking' and 'we can think through it together'"
+    ],
+    "weaknesses": [
+      "Practical advice could be slightly more specific about concrete steps for actually initiating the quitting conversation (e.g., specific phrasing for talking to parents/coaches)",
+      "Contains three questions which borders on question-heavy, though they flow naturally within the prose"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - maintains perfect conversational paragraph flow throughout",
+    "least_ideal_aspect": "Practical advice stays somewhat general about the concept of quitting being okay rather than offering specific tactical language for the actual quitting conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific example of how to phrase the quitting conversation once you know what the activity is (e.g., 'You could say something like...')",
+      "The response is strong overall; if adding an emoji, a single 😅 or 💙 after the first sentence could enhance warmth, though the absence is also appropriate for the serious tone of guilt"
+    ]
+  }
+}

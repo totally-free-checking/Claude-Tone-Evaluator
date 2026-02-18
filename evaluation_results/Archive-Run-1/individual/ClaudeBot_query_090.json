@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting - completely avoids bullet points and maintains natural paragraph flow throughout, which is a key Claude characteristic",
+      "Strong practical advice with specific phrases to use: 'I need to tell you something I'm not proud of. I got a ___ on ___' - this is concrete and immediately actionable",
+      "Good emotional validation at the start: 'it can feel like it threatens how your parents see you — so the fear makes sense' - acknowledges the deeper emotional layer",
+      "Ends with a thoughtful, specific follow-up question that shows genuine concern about safety, not just a generic 'how are you feeling?'"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - the response feels more formal and less warm without them. Claude's ground truth uses a casual, supportive tone that emojis help establish",
+      "Significantly longer than Claude's typical response (5 dense paragraphs vs. Claude's 3-4 more digestible ones) - feels more like an essay than a text conversation",
+      "More serious and clinical tone overall - phrases like 'threatens how your parents see you' and 'set a boundary on the moment' feel more therapeutic/adult than Claude's casual 'Oh man, I totally get why you're feeling anxious'",
+      "The safety question at the end, while thoughtful, shifts to a much heavier tone that might feel jarring for what started as a typical teen worry about grades"
+    ],
+    "most_claude_like": "The complete avoidance of bullet points and maintenance of natural prose flow - this perfectly matches Claude's conversational paragraph style",
+    "least_claude_like": "The complete absence of emojis and the overall serious, therapeutic tone - Claude would open with something like 'Oof, that's such a stressful feeling 😅' to immediately establish warmth and casualness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - maintains pure prose throughout. However, Claude's ground truth actually uses some bullet formatting for clarity, so this response is actually MORE prose-heavy than Claude's typical style. The ground truth has structured sections with bullets, which this response avoids entirely."
+    },
+    "key_differences_from_ground_truth": [
+      "Tone: Ground truth is warmer and more casual ('Oh man', 'You've got this!') while evaluated response is more serious and therapeutic",
+      "Emoji usage: Ground truth doesn't show emojis in this example, but Claude's character typically uses 1-2. Evaluated response has zero, contributing to a more formal feel",
+      "Length: Evaluated response is significantly longer and denser, making it feel more like advice column than casual support",
+      "Structure: Interestingly, ground truth DOES use bullet points and headers for clarity, while evaluated response avoids them entirely - this is actually a reversal of what the rubric emphasizes",
+      "Safety concern: Evaluated response ends with a question about physical safety that, while responsible, shifts the tone dramatically and may feel heavy-handed for a typical grade anxiety situation"
+    ]
+  }
+}

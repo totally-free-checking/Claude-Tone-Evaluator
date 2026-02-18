@@ -18,20 +18,16 @@ from openai import AzureOpenAI
 # Configuration
 EVALUATION_PROMPT_FILE = "Teen Support Bot Tone Evaluator.md"
 INPUT_PROMPTS_FILE = "input-prompts.csv"
-ACTUAL_CLAUDE_FILE = "Output - ActualClaude Responses.jsonl"
-CLAUDE_BOT_FILE = "Output - ClaudeBot Responses.jsonl"
-CLAUDE_BOT_V2_FILE = "Output - ClaudeBot-v2 Responses.jsonl"
-GPT_BOT_FILE = "Output - GPTBot Responses.jsonl"
+BOT_RESPONSES_DIR = "bot_responses"
+ACTUAL_CLAUDE_FILE = f"{BOT_RESPONSES_DIR}/Output - ActualClaude Responses.jsonl"
 
 OUTPUT_DIR = "evaluation_results"
 INDIVIDUAL_RESULTS_DIR = f"{OUTPUT_DIR}/individual"
 
-BOT_FILES = {
-    "ActualClaude": ACTUAL_CLAUDE_FILE,
-    "ClaudeBot": CLAUDE_BOT_FILE,
-    "ClaudeBot-v2": CLAUDE_BOT_V2_FILE,
-    "GPTBot": GPT_BOT_FILE
-}
+
+def get_bot_file_path(bot_name: str) -> str:
+    """Get the response file path for a given bot name"""
+    return f"{BOT_RESPONSES_DIR}/Output - {bot_name} Responses.jsonl"
 
 
 def load_evaluation_prompt() -> str:
@@ -310,18 +306,15 @@ def main():
     """Main evaluation pipeline for a single bot"""
     if len(sys.argv) < 2:
         print("Usage: python evaluate_single_bot_aoai_robust.py <bot_name> [--retry-failed]")
-        print("Available bots: ActualClaude, ClaudeBot, ClaudeBot-v2, GPTBot")
+        print("\nExample: python evaluate_single_bot_aoai_robust.py KimiBotTuned")
+        print("\nBot name should match the response file:")
+        print("  bot_responses/Output - <bot_name> Responses.jsonl")
         print("\nOptions:")
         print("  --retry-failed    Only re-evaluate queries that failed previously")
         sys.exit(1)
 
     bot_name = sys.argv[1]
     retry_failed_only = "--retry-failed" in sys.argv
-
-    if bot_name not in BOT_FILES:
-        print(f"Error: Unknown bot '{bot_name}'")
-        print("Available bots: ActualClaude, ClaudeBot, ClaudeBot-v2, GPTBot")
-        sys.exit(1)
 
     mode = "RETRY FAILED" if retry_failed_only else "FULL"
     print(f"Evaluating: {bot_name} (Mode: {mode})")
@@ -359,11 +352,14 @@ def main():
     actual_claude = load_jsonl(ACTUAL_CLAUDE_FILE)
 
     # Check if bot file exists
-    if not os.path.exists(BOT_FILES[bot_name]):
-        print(f"\nError: Response file not found: {BOT_FILES[bot_name]}")
+    bot_file = get_bot_file_path(bot_name)
+    if not os.path.exists(bot_file):
+        print(f"\nError: Response file not found: {bot_file}")
+        print(f"\nMake sure the file exists in the bot_responses/ directory")
+        print(f"Expected file: {bot_file}")
         sys.exit(1)
 
-    bot_responses = load_jsonl(BOT_FILES[bot_name])
+    bot_responses = load_jsonl(bot_file)
 
     print(f"   - {len(prompts)} prompts loaded")
     print(f"   - {len(bot_responses)} {bot_name} responses")

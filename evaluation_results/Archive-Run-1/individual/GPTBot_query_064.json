@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 2,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and actionable - the specific suggestions like 'picture your day backwards' and checking 'sticky spots' are concrete and helpful",
+      "Does end with an engaging follow-up that asks for specific details (what, when, where) to provide more targeted help, showing genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points, headers, and structured lists - reads like a crisis management guide rather than a supportive conversation. Ground truth uses pure prose paragraphs.",
+      "Opens with minimal emotional validation ('That's really scary') then immediately jumps to solutions without sitting with the teen's feelings. Ground truth starts with 'Oh no, that's so stressful! I totally get why you're freaking out' and offers reassurance before advice.",
+      "Zero emoji usage makes it feel formal and clinical compared to ground truth's warm 💙",
+      "Overwhelming length and complexity - the response is 3-4x longer than ground truth with multiple sections, headers, and sub-bullets that would be exhausting to read on a phone during a stressful moment"
+    ],
+    "most_claude_like": "The follow-up question asking for specific details (what you lost, when, where) is engaging and shows genuine interest in helping further, similar to Claude's conversational approach",
+    "least_claude_like": "The entire formatting structure - multiple headers (### Do this in the next 10 minutes, ### Then immediately, ### If it's something high-stakes), numbered lists, bold text throughout, and bullet points everywhere. This is the complete opposite of Claude's natural prose style.",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response is 85% structured lists with headers, numbered items, and sub-bullets. Only the opening sentence and closing paragraph are prose. Ground truth is 100% prose with zero bullets or formatting."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth: 4 natural prose paragraphs. Evaluated response: 3 major sections with headers, 6 numbered items, multiple sub-bullets, bold text throughout",
+      "emotional_approach": "Ground truth leads with strong validation ('Oh no, that's so stressful! I totally get why you're freaking out') and reassurance ('You're gonna be okay'). Evaluated response has minimal validation and jumps straight to action items",
+      "length": "Ground truth: ~80 words, readable in 30 seconds. Evaluated response: ~350 words with complex structure, would take 2-3 minutes to parse",
+      "tone": "Ground truth: warm, conversational, feels like texting a friend ('Take a deep breath for a sec - we can figure this out together'). Evaluated response: instructional, clinical, feels like a crisis manual",
+      "emoji": "Ground truth uses 💙 to reinforce warmth. Evaluated response has zero emojis"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent specific follow-up question at the end that asks about specific competition topics and reactions, showing genuine interest in continuing the conversation",
+      "Provides concrete, realistic scripts and phrases the teen can actually use in the moment (e.g., 'I'm not trying to compete—I'm just sharing')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it')—reads as impersonal instructional manual rather than supportive friend",
+      "Overwhelmingly structured with headers (### 1, ### 2) and bullet points instead of natural prose paragraphs, resembling a wikiHow article",
+      "Minimal emotional validation before jumping into extensive advice—only one brief sentence acknowledging feelings before 5 sections of solutions"
+    ],
+    "most_ideal_aspect": "The follow-up question is natural, specific, and invites continued conversation by asking about the types of competition and the friend's reactions",
+    "least_ideal_aspect": "The response is formatted as a heavily structured list with numbered headers and bullet points rather than conversational prose, making it feel like an instruction manual rather than a text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 13,
+      "prose_percentage": "15%",
+      "notes": "Response uses 5 numbered headers (### 1 through ### 5) with multiple bullet points under each section. Only the opening sentence and final paragraph are prose. The advice is presented as a structured list rather than flowing naturally within paragraphs."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as 2-3 natural prose paragraphs instead of numbered sections with bullets—imagine texting a friend: 'I'd probably start by gently naming it in the moment. Something like...'",
+      "Add first-person language throughout ('I think', 'I'd say', 'I get how annoying that is') to create personal connection rather than imperative instructions",
+      "Start with 2-3 sentences of validation before giving advice—acknowledge how draining and lonely that competitive dynamic feels"
+    ]
+  }
+}

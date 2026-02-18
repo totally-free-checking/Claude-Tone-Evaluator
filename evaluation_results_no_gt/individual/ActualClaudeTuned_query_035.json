@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that really sucks' and describing the feeling as sitting 'heavy in your chest'",
+      "Strong first-person language throughout ('I totally get why', 'I'd try to', 'I get it') that creates genuine connection",
+      "Perfect prose formatting with zero bullet points and natural paragraph flow",
+      "Highly specific follow-up question about next season vs. one-shot opportunity that shows real engagement with the situation"
+    ],
+    "weaknesses": [
+      "Practical advice could include one more concrete action step beyond emotional processing (e.g., specific conversation starter for telling a friend)",
+      "Slightly brief on validating the specific context (sport type, audition, etc.) before moving to general advice"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural contractions, casual phrasing ('bummed', 'sucks'), and 'I' statements throughout to feel like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice specificity - while the emotional processing advice is solid, it could offer one more concrete 'script' or specific action for the immediate aftermath",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one specific phrase or script the teen could use if they decide to open up to someone (e.g., 'You could try saying I'm actually pretty disappointed about it')",
+      "The response is excellent overall; maintain this level of first-person connection and prose formatting in future responses"
+    ]
+  }
+}

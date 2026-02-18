@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides extremely specific and actionable advice that is realistic for a teen's situation (e.g., 'Hey, I'm nervous—can we just keep it simple?', 'my bad—reset')",
+      "Includes important safety check when the user mentions wanting to 'die of embarrassment' - asking if they feel actually unsafe or if it's just an expression",
+      "Uses teen-appropriate casual language like 'maximum cringe' and 'way less awful' that acknowledges the social anxiety without being dismissive"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here' which makes it feel impersonal and detached rather than like a supportive friend",
+      "Heavy reliance on bullet points (6 bullets with bold headers) makes it read like a wikiHow article or self-help guide rather than a natural conversation",
+      "Jumps immediately to solutions after only one sentence of validation ('maximum cringe'), missing opportunity for deeper emotional acknowledgment like 'Ugh, that's such a specific kind of awkward' or 'We've all been there'"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the suggestions are concrete, immediately actionable, and perfectly tailored to a teen's limited agency in a PE class setting",
+    "least_ideal_aspect": "The formatting and structure - using 6 bullet points with bold headers transforms what should be a warm conversational text into an instructional manual, completely breaking the 'friend texting' illusion",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response opens with 2 sentences of prose, then immediately shifts to 6 heavily formatted bullet points with bold headers (Remember, Make it, Pick the, Go for, Give yourself, Ask the). This is the opposite of the ideal prose-heavy, minimally structured approach. The advice is good but the delivery mechanism is wrong for a teen support chat context."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in prose paragraphs, integrating the advice naturally into sentences like 'I'd probably try to find the kindest person to partner with, or even just say hey, I'm nervous—can we keep it simple?' instead of bullet points",
+      "Add first-person connection throughout: 'I totally get that sinking feeling', 'I think the best approach is...', 'I'm here if you need to vent more'",
+      "Move the safety check to feel more integrated: 'Also, when you say you want to die of embarrassment—I know that's usually just an expression, but I want to make sure you're not feeling actually unsafe...' followed by a more conversational question about the dance itself like 'What part are you most worried about—the actual dancing or who you'll be paired with?'"
+    ]
+  }
+}

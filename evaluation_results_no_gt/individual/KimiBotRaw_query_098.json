@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('this is way more common than you think') and reframes guilt as evidence of being a good person",
+      "Excellent follow-up questions at the end that are specific to the situation and invite deeper reflection",
+      "Good balance of emotional support and practical frameworks (guilt check, situation assessment)"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**The guilt check:**, **What's your situation?**, etc.) that function as bullet points, breaking conversational flow",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads as impersonal advice rather than a friend sharing perspective",
+      "No emojis used where one might enhance warmth (though absence is acceptable, a single warm emoji could help)"
+    ],
+    "most_ideal_aspect": "Balance of support and solutions - validates feelings first, offers concrete frameworks for untangling the situation, then re-engages with questions",
+    "least_ideal_aspect": "Prose formatting - uses bold headers and structured sections instead of natural flowing paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses three bold headers (**The guilt check:**, **What's your situation?**, **The 'why' behind the feelings:**) that act as bullet sections. While content under each is prose, the headers create a structured, list-like format rather than continuous conversational text"
+    },
+    "specific_feedback": [
+      "Remove the bold headers and integrate the three sections into flowing paragraphs - instead of **The guilt check:**, try 'I think a good first step is checking whether you're actually doing anything that hurts someone...'",
+      "Add first-person language throughout to create connection - use phrases like 'I'd say', 'I think', or 'I'm wondering' instead of general statements like 'That changes the landscape'",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to match the casual, supportive tone"
+    ]
+  }
+}

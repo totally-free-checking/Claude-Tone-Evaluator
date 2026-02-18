@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that really sucks') and acknowledges the specific pain of questioning yourself",
+      "Uses natural first-person language throughout ('I'd try', 'I totally get', 'I promise') creating genuine connection",
+      "Provides a specific, realistic script for talking to parents ('Hey, when you compare me to [sibling]...') rather than vague 'just communicate' advice"
+    ],
+    "weaknesses": [
+      "The phrase 'you're your own person with your own awesome qualities' borders on generic platitude, though it's saved by the surrounding context",
+      "Could potentially be slightly more concise in the middle paragraph where it explains parental perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "The reassurance about parental perspective ('it often says more about how your parents see things') is helpful but slightly distances from the immediate emotional validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain the excellent use of first-person language ('I'd say', 'I think') which makes it feel like a real person talking",
+      "The specific conversation script provided is exactly the kind of actionable help teens need - keep providing these concrete phrases",
+      "The follow-up question about what specifically is being compared (grades vs personality) is perfect - it shows genuine interest and invites continuation"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 0,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong emotional validation right from the start: 'That really stings' and acknowledging the 'very human reaction to feel hurt, embarrassed, or angry' shows deep empathy",
+      "Excellent prose formatting - pure paragraph form with natural flow, no bullets or over-structuring, reads conversationally",
+      "Practical advice is specific and actionable: provides exact phrasing ('Hey, I saw you all hung out...') and concrete next steps",
+      "Sophisticated balance of validation and solutions: acknowledges feelings while offering both immediate coping strategies and longer-term perspective"
+    ],
+    "weaknesses": [
+      "Complete absence of emojis makes it feel more formal and less like a casual teen conversation - Claude uses 😅 or similar to set a warm tone",
+      "Significantly longer than Claude's response (5 paragraphs vs 4), borders on overwhelming for a phone read",
+      "Tone is more therapeutic/counselor-like with phrases like 'your brain will usually fill in the most painful story' and 'useful information' - less like a friend, more like a professional",
+      "Language is more sophisticated and adult-oriented ('sloppy planning', 'inner circle', 'reset of expectations') compared to Claude's simpler, more teen-accessible phrasing"
+    ],
+    "most_claude_like": "The pure prose formatting and natural paragraph flow - no bullets, no headers, advice woven naturally into conversational sentences exactly as Claude does",
+    "least_claude_like": "The complete absence of emojis and the more clinical, therapeutic tone that reads like a counselor rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets or over-structuring. Advice flows naturally within paragraphs rather than being listed out. This matches Claude's approach exactly."
+    },
+    "key_differences_from_ground_truth": [
+      "No emojis at all vs Claude's natural emoji use ('Oof, that stings!' has more casual energy than just 'That really stings')",
+      "More therapeutic/analytical language ('your brain will usually fill in the most painful story', 'useful information') vs Claude's simpler, more relatable phrasing",
+      "Significantly longer (5 paragraphs) vs Claude's more concise 4 paragraphs - borders on overwhelming",
+      "More formal tone overall - phrases like 'reset of expectations' and 'investing elsewhere' feel more adult/professional than Claude's casual 'How close are you with this friend group usually?'",
+      "Follow-up question is more complex and conditional ('If you tell me a bit more—was this a close friend group...') vs Claude's simpler, more direct questions"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - 'ridiculously small first step' with concrete examples like 'open the doc and write the title' is actionable and realistic",
+      "Follow-up question is personalized and engaging - 'If you tell me what the five assignments are... I'll help you choose' shows genuine interest and offers continued support"
+    ],
+    "weaknesses": [
+      "Opens with clinical explanation ('your brain treats it like too big to begin, so it hits the brakes') instead of immediate emotional validation - Ground Truth starts with 'Ugh, that feeling is THE WORST!'",
+      "Heavy use of bullet-like structure and instructional formatting ('First, do a 2-minute triage... Then pick one target... Now define...') - reads like a productivity guide rather than conversational prose",
+      "Complete absence of emojis makes it feel formal and cold compared to Ground Truth's warm, casual tone",
+      "Language is more clinical/instructional ('triage', 'concrete action', 'define the ridiculously small first step') rather than conversational ('Your brain is basically giving you the silent treatment')"
+    ],
+    "most_claude_like": "The practical advice quality and specificity of actionable steps - offering concrete examples like 'open the doc and write the title' matches Claude's approach of giving teens realistic, immediate actions they can take",
+    "least_claude_like": "The complete absence of emojis and immediate emotional validation - Ground Truth opens with 'Ugh, that feeling is THE WORST!' while this response opens with an analytical explanation of why the brain freezes",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "60%",
+      "notes": "While technically no bullet points, the response uses heavy step-by-step formatting ('First... Then... Now...') and instructional structure that reads like a formatted list disguised as prose. Ground Truth integrates advice naturally within conversational paragraphs with only one small bolded section for emphasis."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth immediately validates emotion ('Ugh, that feeling is THE WORST!') while evaluated response starts with explanation ('That stuck feeling is really common when...')",
+      "Ground Truth uses casual, relatable language ('Your brain is basically giving you the silent treatment', 'Your brain is just being dramatic') while evaluated response uses more formal/instructional language ('triage', 'concrete action', 'guilt-free')",
+      "Ground Truth has natural prose flow with advice woven into conversation, while evaluated response follows a structured step-by-step format ('First... Then... Now...')",
+      "Ground Truth uses emojis naturally, evaluated response has zero emojis making it feel more formal",
+      "Ground Truth's follow-up is casual ('What subject are you dealing with?') while evaluated response is more structured/instructional ('If you tell me what the five assignments are... I'll help you choose')"
+    ]
+  }
+}

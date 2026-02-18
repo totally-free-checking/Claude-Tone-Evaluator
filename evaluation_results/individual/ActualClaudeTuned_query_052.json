@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd say', 'I'm so sorry') which creates that supportive friend-to-friend dynamic",
+      "Writes in natural flowing prose without any bullet points or over-formatting, matching Claude's conversational paragraph style",
+      "Provides specific, realistic advice for teens like 'give some notice if it's a team thing' and 'finish out a season if it's almost over anyway'"
+    ],
+    "weaknesses": [
+      "Uses an emoji (💙) when the ground truth used none; Claude prefers 0 emojis unless specifically asked",
+      "Saves all questions for the end rather than engaging mid-conversation like the ground truth does ('What's making you feel guilty...' appears in paragraph 2 of ground truth)",
+      "Slightly more heavily weighted toward practical advice than emotional validation compared to Claude's approach, which spends more time on validation before moving to solutions"
+    ],
+    "most_claude_like": "The natural prose format with zero bullet points and consistent use of first-person perspective ('I'd say', 'I think') creates that texting-with-a-friend feeling",
+    "least_claude_like": "The inclusion of the blue heart emoji when the user didn't request emojis and the ground truth used none; Claude typically avoids emojis unless asked",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, numbered lists, or headers. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks clarifying questions in the second paragraph while the evaluated response saves all questions for the end",
+      "Ground truth uses zero emojis while evaluated uses one",
+      "Ground truth spends more time on pure emotional validation before offering advice, while evaluated moves more quickly into practical suggestions",
+      "Ground truth opens with 'I totally get that feeling' (empathetic identification) vs 'I'm so sorry you're feeling stuck' (sympathetic concern)"
+    ]
+  }
+}

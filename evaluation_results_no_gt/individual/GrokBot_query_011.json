@@ -1,0 +1,37 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that sounds so annoying!' and 'We've all had that friend' creates instant rapport and normalizes the experience",
+      "Provides specific, actionable scripts the teen can actually use like 'Hey, I've noticed you're doing that thing I just started – it's kinda funny, but I like having my own style too!'"
+    ],
+    "weaknesses": [
+      "Could include one more explicit first-person support statement like 'I'm here if you need to talk' to strengthen the personal connection",
+      "The follow-up question, while good, could be slightly more open-ended to invite deeper sharing beyond just categorizing the copying"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structural formatting - reads exactly like a supportive friend texting in conversational paragraphs",
+    "least_ideal_aspect": "While first-person language is present ('I'd say', 'I totally get'), it could benefit from one more explicit 'I' statement offering personal support or connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or bold text. Advice flows naturally within conversational paragraphs rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding a brief closing validation like 'I'm here if you need to vent more' to reinforce the supportive relationship",
+      "The perspective that the friend admires them is well-handled, but could briefly acknowledge that the annoyance is still totally valid to avoid any hint of minimizing their feelings"
+    ]
+  }
+}

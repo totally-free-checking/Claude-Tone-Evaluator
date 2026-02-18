@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent conversational tone with relatable humor and cultural references (Zapruder film, specific timing analysis) that validates the teen's overthinking without judgment",
+      "Strong first-person connection and empathy ('I know that loop well', 'your brain is currently being a drama queen, and that's totally normal')",
+      "Highly specific and actionable advice with concrete techniques like the '5% weight' rule and 'change the channel' distraction method"
+    ],
+    "weaknesses": [
+      "Uses formatted bullet points with bold headers ('**To stop the spiral:**', '**Assign it a 5% weight.**') instead of natural prose paragraphs as required",
+      "Completely missing a follow-up question at the end to continue the conversation - ends with a statement instead of engagement",
+      "Uses 2 emojis (🔍😅) when the ideal is 0-1 max"
+    ],
+    "most_ideal_aspect": "Conversational tone and voice - uses natural contractions, casual language ('drama queen', 'dumb video'), and first-person validation that sounds like a supportive older sibling",
+    "least_ideal_aspect": "Formatting structure - relies on bullet points with bold headers in the middle section rather than flowing prose, and fails to end with an engaging follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response starts and ends with strong prose but has a clearly delineated advice section with header 'To stop the spiral:' followed by 3 bullet points using bold text formatting, which breaks the conversational flow"
+    },
+    "specific_feedback": [
+      "Convert the bullet point section into 1-2 flowing prose paragraphs that naturally weave the advice together instead of using '**To stop the spiral:**' headers and bullet formatting",
+      "Add a specific follow-up question at the end to invite continued conversation, such as 'Have you two talked much before?' or 'What's your next move gonna be?'",
+      "Remove one emoji to stay within the 0-1 guideline - keep either the 🔍 or 😅 but not both, or consider removing both since the tone is already warm without them"
+    ]
+  }
+}

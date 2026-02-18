@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd also try', 'Sometimes I think') which creates a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs rather than being listed out",
+      "Strong immediate emotional validation ('Ugh, I'm so sorry', 'that cycle is honestly the worst', 'I totally get why you're feeling stuck') that acknowledges the overwhelm before jumping to solutions"
+    ],
+    "weaknesses": [
+      "Uses an emoji without being asked (though the ground truth also does this, the character description prefers 0 unless explicitly requested)",
+      "Could incorporate slightly more colorful casual language (like the ground truth's 'your brain will just nope out of there') to match Claude's playful but natural teen voice"
+    ],
+    "most_claude_like": "The consistent natural prose format and heavy use of first-person perspective ('I think', 'I'd say') makes it feel like a real person texting rather than an AI giving instructions",
+    "least_claude_like": "The placement of the emoji at the beginning (😅) feels slightly less natural than ending with one, though this is a minor deviation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure paragraph format with no bullet points, headers, or bold text. Advice is woven naturally into conversational sentences rather than being structured as a list, which aligns perfectly with the character's preference for prose over formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 3 bullet points for advice while response uses pure prose paragraphs",
+      "Ground truth asks about the composition of the pile (work vs personal) while response asks about the most stressful specific item",
+      "Ground truth includes explicit encouragement about reaching out for help at the end; response integrates encouragement earlier ('The good news is...')"
+    ]
+  }
+}

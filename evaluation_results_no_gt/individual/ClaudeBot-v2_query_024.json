@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with highly relatable physical description ('punch to the stomach') that captures the specific anxiety of being left out",
+      "Excellent use of first-person perspective throughout ('If I were you, I'd...', 'I totally get') creating genuine connection",
+      "Provides specific, realistic script for the conversation including exact wording a teen could use",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The 😅 emoji following the 'punch to the stomach' description slightly conflicts with the severity of the emotional pain described, potentially minimizing the feeling",
+      "Could benefit from one explicit 'I'm here to talk more' type statement before the question to reinforce ongoing support"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational first-person language - reads exactly like a supportive friend texting advice without any structured lists or headers",
+    "least_ideal_aspect": "Emoji choice placement immediately after describing emotional pain, which slightly undercuts the validation though remains within acceptable teen communication styles",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, bold text, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider moving the emoji to after the normalization sentence rather than the pain description, or using 😊 or 💙 to maintain warmth without minimizing the hurt",
+      "Add one brief 'I'm here if you need to talk more' or similar closing before the question to explicitly offer continued support"
+    ]
+  }
+}

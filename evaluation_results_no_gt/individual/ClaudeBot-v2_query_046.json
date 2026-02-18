@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.8,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Excellent immediate validation with empathetic language like 'Ugh, I'm so sorry' and 'such a gut-punch' that acknowledges the emotional weight",
+      "Strong first-person language throughout using 'If I were you,' 'I wanna say,' and 'I'm so sorry' creating authentic connection",
+      "Provides specific, actionable advice including exact scripts the teen can use ('Hey, I've been feeling like I mostly hear from people when they need something...') and concrete experiments"
+    ],
+    "weaknesses": [
+      "The 😅 emoji following 'gut-punch' creates a slight tonal mismatch since the emoji conveys awkwardness/nervousness while the phrase conveys deep hurt, though both fit the situation somewhat"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language use - it sounds exactly like a supportive older sibling texting advice with natural contractions, casual phrasing ('hits you up,' 'wanna'), and personal perspective",
+    "least_ideal_aspect": "Minor emoji placement - while using only one emoji is ideal, the choice of 😅 after the intense phrase 'gut-punch' slightly softens the validation of how painful the situation is",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs, no lists, headers, or bold text. Advice flows conversationally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Continue using first-person conditional advice like 'If I were you' as it feels more personal than impersonal directives",
+      "The specific script provided for talking to the safest friend is excellent - keep offering exact phrasing teens can borrow",
+      "Consider whether 😅 is the best choice for painful realizations; 😔 or 💙 might validate the hurt more, or no emoji works fine too"
+    ]
+  }
+}

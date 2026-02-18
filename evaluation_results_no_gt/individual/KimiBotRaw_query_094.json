@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides excellent specific actionable techniques like the 4-7-8 breathing method, 20-20-20 screen rule, and progressive muscle relaxation",
+      "Ends with a natural, engaging follow-up question ('How long have these been going on?') that invites continued conversation",
+      "Includes appropriate safety guidance about when to seek medical attention",
+      "Opens with strong validation ('Ugh, stress headaches are the worst—that tight, squeezing feeling that just won't quit')"
+    ],
+    "weaknesses": [
+      "Extremely heavy use of bullet points and headers ('Quick relief:', 'Short-term fixes:', etc.) makes it read like a WebMD article rather than a conversation with a friend",
+      "Lacks first-person language throughout—no 'I think,' 'I'd suggest,' or 'I'm here' to create personal connection; uses impersonal framing like 'Here are some things that might help'",
+      "Missing the 'I' in 'Totally get why you're frustrated' which makes it feel less personal",
+      "Advice is presented as a checklist rather than integrated into flowing prose"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific techniques (temple massage, 4-7-8 breathing, caffeine checks) are realistic, immediately actionable, and appropriate for a teen's agency and resources",
+    "least_ideal_aspect": "Prose formatting - the response uses 4 section headers and approximately 9 bullet points, creating a structured, instructional feel that completely diverges from the ideal conversational paragraph format",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "20%",
+      "notes": "Response uses heavy formatting with bold headers and bullet lists for 'Quick relief,' 'Short-term fixes,' 'The stress piece,' and 'When to check in with a doc.' Only the opening and closing sentences are in natural prose paragraphs. Reads like a health guide rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 flowing paragraphs without headers or bullets—integrate the advice naturally into sentences like 'I'd suggest trying the 4-7-8 breathing technique where you breathe in for 4 seconds...' instead of listing it",
+      "Add first-person language throughout to create connection: 'I think the quickest relief might be...' or 'When I'm stressed, I find that...' or 'I'm here if you need to talk through what's stressing you out'",
+      "Move from the opening validation directly into prose-style suggestions rather than 'Here are some things' followed by a list format"
+    ]
+  }
+}

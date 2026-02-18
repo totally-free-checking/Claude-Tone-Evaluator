@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with phrases like 'you're not lazy or broken for this' and acknowledging the spiral of guilt",
+      "Highly specific actionable advice including exact wording for emailing teachers about late assignments",
+      "Maintains natural prose format without over-formatting or bullet points"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel less like a personal conversation and more like general advice",
+      "Advice section is dense and packed into one long paragraph rather than being broken up conversationally"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately normalizes the procrastination and removes shame ('your brain just freezes, and then you feel guilty')",
+    "least_claude_like": "The absence of first-person perspective throughout - it reads as impersonal general advice rather than 'I'd say' or 'I think' personal guidance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure paragraph format with no bullet points or bold headers, which aligns with the prose preference, though the advice paragraph is quite dense compared to Ground Truth's bold-header breaks"
+    },
+    "key_differences_from_ground_truth": [
+      "No first-person 'I' statements vs Ground Truth's 'when I'm talking to people in your situation'",
+      "Provides specific email script template for teachers whereas Ground Truth gives broader strategic principles",
+      "Uses 😅 early in response vs Ground Truth's 🙂 at the end; both use 1 emoji appropriately"
+    ]
+  }
+}

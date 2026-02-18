@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice with specific, realistic scripts a teen could actually use (e.g., 'I've gotta be honest, I get a weird vibe from [name]...')",
+      "Strong follow-up question that feels natural and invites specific details about the severity of the situation",
+      "Good emotional validation in the opening paragraph acknowledging the 'stuck' feeling between speaking up and staying quiet"
+    ],
+    "weaknesses": [
+      "Heavily structured format with 5 bold headers and bullet-like sections instead of natural flowing prose ('Check in with yourself first', 'Be honest, but don't stage an intervention')",
+      "Lacks first-person conversational language throughout the advice sections - reads like an instructional article rather than a friend sharing thoughts (missing 'I think', 'I'd say', 'In my experience')",
+      "Transitions immediately from brief validation to 'Here are a few ways...' which feels like a self-help guide rather than a supportive conversation"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific follow-up question demonstrate strong understanding of teen agency and realistic friendship dynamics",
+    "least_ideal_aspect": "The formatting is overly structured with bold headers and list-like sections, violating the natural prose requirement that makes it feel like texting with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "40%",
+      "notes": "Response uses 5 bold headers acting as section dividers with structured subsections. While written in sentences, the format resembles a wikiHow article or guide rather than conversational texting. The phrase 'Here are a few ways to navigate it' explicitly signals a list format."
+    },
+    "specific_feedback": [
+      "Convert the structured advice sections into 2-3 flowing paragraphs using first-person perspective like 'I think the most important thing is...' or 'I'd probably start by checking in with yourself...' instead of imperative headers",
+      "Add more 'I' statements and personal-feeling language throughout the advice portion to maintain the conversational tone established in the first paragraph",
+      "Integrate emotional validation throughout the response rather than front-loading it - acknowledge feelings between advice points with phrases like 'I know that's scary to think about' or 'That part really sucks'"
+    ]
+  }
+}

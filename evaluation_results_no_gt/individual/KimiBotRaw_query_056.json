@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent practical advice with specific, realistic phrases the teen can actually use (e.g., 'I’m grabbing groceries, what can I throw in the cart for you?')",
+      "Strong follow-up question at the end that checks in on the user's own wellbeing ('How are you feeling about all this?')",
+      "Appropriately addresses safety concerns with direct, actionable guidance about crisis situations"
+    ],
+    "weaknesses": [
+      "Over-structured with bold headers and bullet points makes it read like a wikiHow article rather than a supportive conversation ('**Just be a listener, not a fixer.**')",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' - making it feel instructional and impersonal rather than like peer support",
+      "Uses list formatting throughout (approximately 5 headers and 9 bullet points) instead of natural prose paragraphs"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic scripts and actions a teen can actually take right now",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is heavily formatted with headers, bold text, and bullet lists rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 14,
+      "prose_percentage": "25%",
+      "notes": "Response contains 5 bold headers acting as section dividers and approximately 9 bullet points with example phrases. The content is presented as an instructional guide rather than flowing conversation. Advice is delivered in imperative lists rather than woven into natural sentences."
+    },
+    "specific_feedback": [
+      "Rewrite using first-person perspective: instead of 'Just be a listener,' try 'I think the best thing you can do is just listen...'",
+      "Consolidate the example phrases into flowing prose: 'You could say something like, 'That sounds really hard,' or simply, 'I'm here with you.'' instead of bullet lists",
+      "Remove bold headers and let the advice flow naturally from one idea to the next using transitions like 'Also,' or 'If you're worried about safety...'"
+    ]
+  }
+}

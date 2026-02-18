@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get that', 'Sometimes I find', 'I think') which creates authentic connection",
+      "Opens with strong emotional validation using relatable metaphors ('running a marathon you never signed up for')",
+      "Perfect prose formatting with natural flow - no bullet points or headers, reads like a text from a friend",
+      "Appropriate single emoji usage (😅) that enhances the casual, empathetic tone without being excessive"
+    ],
+    "weaknesses": [
+      "Advice is somewhat generic compared to Ground Truth - lacks specific techniques like the 4-7-8 breathing method or structured brain dump instructions",
+      "Doesn't acknowledge potential underlying causes of the stress like Ground Truth does ('there usually IS a reason'), missing opportunity for deeper validation",
+      "Follow-up question is slightly less specific than Ground Truth's distinction between calming vs. distraction approaches"
+    ],
+    "most_claude_like": "The natural first-person conversational voice and pure prose formatting without bullet points - it sounds like a supportive friend texting rather than a structured advice column",
+    "least_claude_like": "The practical advice section lacks the specific, actionable techniques (like specific breathing counts or structured writing exercises) that Claude typically provides",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses continuous prose paragraphs throughout, avoiding the bold headers and bullet formatting seen in the Ground Truth. This actually aligns better with the character description specifying 'natural prose paragraphs' and 'NOT bullet-heavy', creating a more conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bold headers and bullet points for advice sections while Response integrates advice into flowing prose paragraphs",
+      "Ground Truth provides specific structured techniques (4-7-8 breathing, word-vomit brain dump) while Response offers more general suggestions (music, shower, videos)",
+      "Ground Truth explores the 'why' behind unexplained stress ('there usually IS a reason') while Response focuses purely on immediate coping mechanisms",
+      "Ground Truth asks a binary question about preferred approach type (calming vs distraction) while Response asks about past coping history"
+    ]
+  }
+}

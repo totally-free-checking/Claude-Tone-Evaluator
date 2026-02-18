@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong immediate validation using casual language like 'Ugh, I'm so sorry' and 'that seriously sucks' which matches Claude's empathetic tone",
+      "Follow-up question is specific and engaging: 'Who's doing the comparing—your parents, relatives, teachers… and is it about grades, sports, looks, or something else?' showing genuine interest in the details",
+      "Uses natural first-person language throughout like 'I'm so sorry' and provides realistic, actionable scripts a teen could actually use"
+    ],
+    "weaknesses": [
+      "The middle paragraph is overly structured with repetitive 'If... then...' conditional statements ('If it's safe to say something...' 'If you don't want a whole conversation...' 'And if it's your sibling...') which reads more like a strategy guide than conversational prose",
+      "Heavy imbalance toward practical advice over emotional validation - approximately 70% of the response is solution-oriented scripts versus Claude's approach which would offer more space to vent first",
+      "Lacks the deeper emotional acknowledgment present in the ground truth about feeling 'not good enough as you are' and the competition aspect"
+    ],
+    "most_claude_like": "The opening validation paragraph which immediately acknowledges the 'gross, stuck feeling' and uses casual, empathetic language like 'Ugh' and 'seriously sucks' to establish warmth",
+    "least_claude_like": "The multi-scenario advice section that lays out three different conditional strategies with specific scripts - Claude would typically offer one gentle suggestion woven into prose or simply invite venting rather than providing a communication playbook",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "85%",
+      "notes": "While no actual bullet points are used, the second paragraph employs a repetitive conditional structure ('If X... If Y... And if Z...') that functions similarly to a bulleted list of options, making it feel more structured and less conversational than Claude's natural prose flow"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses primarily on validation and invites venting, while evaluated response immediately jumps to problem-solving with specific communication scripts",
+      "Ground truth maintains pure conversational prose throughout, while evaluated response uses structured conditional formatting for advice delivery",
+      "Ground truth emphasizes the emotional impact of feeling unseen and the unfairness of the comparison more deeply, whereas evaluated response focuses on practical boundary-setting strategies"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers, flowing exactly like Claude's conversational style",
+      "Strong immediate emotional validation with 'Ugh, that really sucks' and 'hits you right in the stomach' that matches Claude's 'Oof, that stings' approach",
+      "Specific actionable advice including an exact script the teen could use, making it practical and realistic"
+    ],
+    "weaknesses": [
+      "Suggested script is more direct/confrontational ('I felt kinda left out') compared to Claude's gentler, more casual approach ('How was it?')",
+      "Uses therapy-speak like 'protect your energy' which feels slightly more clinical than Claude's 'clear the air' idiomatic style",
+      "Includes an emoji (💙) when the ground truth uses none and the character prefers 0 unless specifically asked"
+    ],
+    "most_claude_like": "The natural paragraph structure with absolutely no formatting, headers, or bullet points - it reads like a text from a supportive friend",
+    "least_claude_like": "The specific communication script suggested is more direct about expressing hurt feelings, whereas Claude recommends a more casual, indirect approach to test the waters first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or excessive formatting. Uses natural paragraph breaks that flow conversationally."
+    },
+    "key_differences_from_ground_truth": [
+      "Recommends explicitly stating 'I felt kinda left out' vs Claude's suggestion to casually ask 'How was it?' without revealing hurt feelings upfront",
+      "Uses 'protect your energy' and branching out language vs Claude's focus on clearing the air and assessing the friendship pattern",
+      "Includes one heart emoji while Claude's response uses zero emojis"
+    ]
+  }
+}

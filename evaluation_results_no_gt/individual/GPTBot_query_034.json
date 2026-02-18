@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts the teen can actually say in the moment (e.g., 'I'm not able to calm down on command. Give me a minute.')",
+      "Ends with a context-specific follow-up question that invites the user to share more details about who said it and the situation"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads like an impersonal article rather than a supportive friend",
+      "Heavy reliance on bullet points, bold text, and structured formatting instead of natural prose paragraphs",
+      "Minimal emotional validation before jumping into solution-mode - only one brief sentence acknowledging feelings before the fix-it list begins"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete breathing techniques (inhale 4, exhale 6) and specific word-for-word phrases tailored to the 'calm down' trigger",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses 7+ bullet points with bold formatting headers, reading like a self-help worksheet rather than a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response opens with one prose sentence, then immediately shifts to 'A few things you can do right now (pick one):' followed by three main bullet points with bold headers, three sub-bullet script options, and another bold header with bullet for the redirect. Only the final paragraph is prose."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs instead of bullet lists - for example, flow the breathing technique and script suggestions into conversational sentences like 'If I were you, I'd try unclenching your jaw first, then maybe say something like...'",
+      "Add first-person connection throughout - include phrases like 'I hate when people say that to me,' 'I totally get why you'd feel more activated,' or 'I'd probably want to snap back too' to sound like a real person, not a manual",
+      "Expand the emotional validation at the beginning before offering solutions - spend a paragraph acknowledging how invalidating and frustrating that comment feels, maybe share that 'we've all been there' feeling, before moving to the 'what you can do' section"
+    ]
+  }
+}

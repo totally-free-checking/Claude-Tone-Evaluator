@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'massive violation of your privacy and trust' and 'completely exposed and betrayed' that acknowledge the severity of the situation",
+      "Perfect prose formatting with zero bullet points - flows naturally as a conversation with 4 well-structured paragraphs",
+      "Provides specific, actionable advice including an exact script the teen could use ('I need you to know that reading my private notes really hurt me and broke my trust') and realistic safety-focused alternatives"
+    ],
+    "weaknesses": [
+      "Could benefit from an explicit first-person availability statement like 'I'm here if you need to talk' to strengthen the personal connection",
+      "While the absence of emojis is appropriate for the serious topic, one subtle supportive emoji (like 💙) at the end could enhance warmth without undermining the gravity"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and flow - completely avoids bullet points and structured lists, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Could incorporate slightly more varied first-person language beyond 'I'm so sorry' and 'I'd suggest' to fully capture the 'I get it' conversational style",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding a brief first-person availability statement like 'I'm here if you want to talk more about this' to reinforce that you're a supportive presence",
+      "The suggested confrontation script is excellent - consider adding one more alternative for teens who can't safely confront parents, such as 'If talking to them isn't safe right now, maybe we could brainstorm ways to secure your space without them knowing'"
+    ]
+  }
+}

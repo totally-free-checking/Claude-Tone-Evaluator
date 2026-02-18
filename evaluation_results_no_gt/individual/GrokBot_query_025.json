@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I think', 'I get why') creating a personal, supportive connection",
+      "Provides specific, actionable script for the conversation ('Hey Mom, I was kinda surprised...') rather than vague advice",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Absence of emoji (while acceptable under the 0-1 guideline) could have enhanced warmth with a single well-placed 😅 or similar",
+      "The transition to 'The good news is...' comes slightly quickly; could use one more sentence of validation about the frustration of lacking autonomy"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural casual phrasing ('bugs you', 'chill', 'bottling it up') and consistently employs 'I' statements that make it feel like a real person texting rather than an AI giving instructions",
+    "least_ideal_aspect": "Emoji usage - while staying within the 0-1 guideline by using none, a single emoji could have enhanced the warm, casual tone at the opening without being excessive",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 😤) at the beginning to match the 'Ugh' sentiment and enhance visual warmth",
+      "The follow-up question is excellent and specific; maintain this level of engagement in all responses"
+    ]
+  }
+}

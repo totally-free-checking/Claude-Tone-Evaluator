@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong prose formatting - maintains paragraph structure throughout without any bullet points, matching Claude's natural flow style",
+      "Good emotional validation at the start - 'That's a really hard feeling' and acknowledging the 'exposed' feeling shows empathy",
+      "Practical, specific advice that's actionable - suggests concrete things like 'put in headphones, jot a short to-do list' with clear reasoning",
+      "Ends with relevant follow-up questions that show genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - Claude uses 1-2 emojis naturally (like 😅) to set a warm, casual tone. This response feels more formal without them",
+      "Tone is more clinical/therapeutic than conversational - phrases like 'your brain tends to turn up the volume' and 'low-pressure opener' sound more like a counselor than a friend",
+      "Slightly too long and dense - the second paragraph is packed with multiple suggestions that could feel overwhelming compared to Claude's lighter touch",
+      "Opening lacks Claude's casual punch - Claude starts with 'Ugh, that's the worst feeling' which is more immediate and relatable than 'That's a really hard feeling'"
+    ],
+    "most_claude_like": "The pure prose formatting without any bullet points or over-structuring - this perfectly matches Claude's conversational paragraph style",
+    "least_claude_like": "The complete absence of emojis and the more formal, therapeutic tone - Claude would open with something like 'Ugh 😅' to immediately set a casual, warm vibe",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting throughout. No bullets, headers, or over-structuring. Advice flows naturally within sentences using colons and commas rather than lists. This is a strong match to Claude's style."
+    },
+    "key_differences_from_ground_truth": {
+      "tone_formality": "Ground truth is more casual ('Ugh', 'way too focused') vs. evaluated response is more measured ('really hard feeling', 'tends to turn up the volume')",
+      "emoji_presence": "Ground truth has no emojis either (unusual for Claude), but the evaluated response's formal tone makes the absence more noticeable",
+      "advice_density": "Ground truth gives lighter, more digestible suggestions spread across paragraphs. Evaluated response packs many options into one dense paragraph",
+      "opening_impact": "Ground truth's 'Ugh, that's the worst feeling' is more immediate and teen-relatable than 'That's a really hard feeling'",
+      "reassurance_style": "Ground truth directly normalizes ('eating alone is actually pretty normal!') while evaluated response is more explanatory ('your brain tends to...')"
+    }
+  }
+}

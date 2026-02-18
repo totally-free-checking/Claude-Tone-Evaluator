@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a tough spot to be in!' and reassurance that guilt doesn't make them a bad person",
+      "Excellent use of first-person conversational language throughout ('I think,' 'Honestly,' 'I'd say') creating a supportive peer-like connection",
+      "Perfect prose formatting with zero bullet points, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Practical advice could be slightly more specific regarding concrete phrases or scripts for being upfront with the people involved",
+      "The transition from validation to advice could include one more sentence acknowledging the difficulty before moving to 'I think the important thing is...'"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational tone with consistent first-person language ('I think,' 'Honestly') that creates genuine connection without any bullet points or over-structuring",
+    "least_ideal_aspect": "Practical advice section, while solid, lacks specific examples of what to actually say when being upfront with the crushes, making it slightly less actionable than it could be",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural paragraph form with no bullet points, numbered lists, headers, or bold formatting. Flows as continuous conversational prose throughout."
+    },
+    "specific_feedback": [
+      "Consider adding a specific example phrase like 'You could say something like: I really like spending time with you, but I want to be honest that I'm also getting to know someone else right now' to make the advice more actionable",
+      "Extend the validation section by one sentence explicitly naming the specific emotion (e.g., 'That confusion and worry about hurting someone is so heavy to carry') before transitioning to problem-solving"
+    ]
+  }
+}

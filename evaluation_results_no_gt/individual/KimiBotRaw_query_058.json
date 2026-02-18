@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('Totally get that—it’s super common') that normalizes the nervousness",
+      "Provides highly specific, actionable advice realistic for teens (testing waters first, bringing backup, writing bullet points on phone)",
+      "Ends with a natural, engaging question specific to the situation ('What’s making you most nervous about it?')"
+    ],
+    "weaknesses": [
+      "Contains a substantial bulleted list with bold headers ('**Some things that might make it easier:**') that reads like a self-help article rather than conversational texting",
+      "Lacks explicit first-person language like 'I think' or 'I'd say' - uses implied first person ('Totally get that') but misses opportunities for personal connection",
+      "Could benefit from one warm emoji to enhance the supportive tone given the anxiety-inducing topic"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies like writing notes on a phone or bringing a friend for moral support",
+    "least_ideal_aspect": "Prose vs bullet formatting - the four-item bulleted list with bold headers breaks the conversational flow significantly",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "Approximately 60%",
+      "notes": "Response contains a prominent bulleted section with bold headers ('**Some things that might make it easier:**') containing four detailed bullet points, which creates a structured, listicle-like format inconsistent with natural texting prose"
+    },
+    "specific_feedback": [
+      "Convert the bulleted advice section into 1-2 flowing paragraphs using natural transitions like 'You could try testing the waters first...' or 'Another thing that helps is...'",
+      "Add explicit first-person language such as 'I think the best approach is...' or 'I'd say start with...' to create stronger personal connection",
+      "Consider adding one subtle emoji (like 😊 or 💙) early in the response to reinforce warmth, though the absence is acceptable"
+    ]
+  }
+}

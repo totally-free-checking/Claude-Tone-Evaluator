@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong opening validation: 'That's a really painful feeling — and it can be confusing when it happens *while you're literally included*' effectively acknowledges the paradox and validates the emotion",
+      "Practical advice is specific and actionable: 'Give yourself a role: ask a question, start a small side convo' provides concrete phrases and strategies teens can actually use"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with headers ('### Things you can try', '### What helps longer-term') reads like a self-help article rather than a conversation - completely opposite of Claude's prose approach",
+      "Overwhelming length (400+ words vs Claude's ~150) creates a wall of text that would be difficult to read on a phone and feels more like a comprehensive guide than a supportive chat",
+      "No emojis whatsoever makes it feel formal and clinical despite the casual language - Claude uses 0-2 emojis naturally to set a warm tone",
+      "Jumps into extensive advice listing before establishing enough emotional connection - Claude spends more time in validation mode first"
+    ],
+    "most_claude_like": "The opening paragraph's validation and normalization ('A lot of people experience this, and it doesn't mean you're \"bad at friendship\"') perfectly captures Claude's reassuring, non-judgmental tone",
+    "least_claude_like": "The extensive use of bullet points, bold headers, and structured sections (### headings) is the complete opposite of Claude's natural prose style - this is formatted like a blog post or resource guide, not a conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 13,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bulleted lists and structured sections with headers. Has 5 main bullet points explaining reasons, 4 bullets for 'in the moment' advice, 4 bullets for 'longer-term' help, plus 3 numbered follow-up questions. Only the opening/closing paragraphs are prose. This is the exact opposite of Claude's prose-heavy, conversation-first approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Claude uses 4 short prose paragraphs; evaluated response uses headers, multiple bullet sections, and extensive formatting",
+      "Length: Claude's response is ~150 words and conversational; evaluated response is 400+ words and comprehensive/overwhelming",
+      "Advice timing: Claude asks exploratory questions first to understand the situation; evaluated response immediately launches into extensive advice and explanations",
+      "Tone balance: Claude maintains warmth throughout with questions; evaluated response shifts into instructional/educational mode with the structured sections",
+      "Emoji usage: Claude would include 1-2 emojis naturally; evaluated response has none, making it feel more formal",
+      "Follow-up approach: Claude asks 3 open-ended questions naturally in prose; evaluated response lists 3 numbered questions plus adds a crisis intervention paragraph that feels clinical"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is solid and comprehensive - covers different scenarios (told directly vs. secondhand, safety concerns) with specific guidance",
+      "The follow-up question at the end ('tell me roughly what kind of secret this is') is specific and shows genuine interest in helping further"
+    ],
+    "weaknesses": [
+      "Opens with validation but immediately pivots to advice mode - 'A good first step is to think about...' - jumping into problem-solving without sitting with the feeling first",
+      "Heavy use of bullet-like structure with dashes, creating a list-heavy feel rather than conversational prose (three dash-separated points in second paragraph)",
+      "Completely missing emojis - makes the response feel formal and less warm despite the teen support context",
+      "Overly comprehensive and advice-heavy - reads more like a guidance counselor than a supportive friend. The safety exception paragraph, while important, adds formality and weight that Claude's response avoids"
+    ],
+    "most_claude_like": "The final follow-up question is specific and inviting, showing genuine interest in understanding the situation better to provide more tailored support",
+    "least_claude_like": "The immediate pivot to structured advice with dash-separated points, completely lacking the warm, conversational flow and emoji usage that defines Claude's teen support character",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "While not using traditional bullet points, the response uses three dash-separated items in the second paragraph that function as a list. This creates a structured, advice-heavy feel rather than natural conversational flow. The ground truth uses dashes too but integrates them more naturally within a warmer, more exploratory conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth starts with strong emotional validation ('Oh that's such an awkward position!') and explores the situation conversationally before offering thoughts. Evaluated response validates briefly then immediately shifts to advice mode",
+      "Ground truth uses an emoji (😊 implied by tone) and maintains casual, exploratory language ('A few thoughts:', 'What's your gut feeling?'). Evaluated response is more formal and structured",
+      "Ground truth focuses on helping the teen figure out the situation through questions and gentle suggestions. Evaluated response provides comprehensive guidance covering multiple scenarios including safety concerns, making it feel more like official advice than peer support",
+      "Ground truth maintains lightness and curiosity throughout. Evaluated response becomes quite serious and formal, especially in the safety exception paragraph which reads more clinical"
+    ]
+  }
+}

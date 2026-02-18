@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using casual language ('Ugh, that's super frustrating!') that immediately acknowledges the awkwardness of the situation",
+      "Provides specific, actionable scripts the teen can actually use (e.g., 'Hey, I care about our friendship, but I'm not comfortable sharing my homework anymore') rather than vague advice",
+      "Ends with a natural, engaging follow-up question about how the friend might react, showing genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (**Be direct but kind:**, **Suggest alternatives:**, etc.) makes it read like a wikiHow article rather than a text from a supportive friend",
+      "Lacks first-person conversational language throughout - uses 'Here are a few ways' instead of 'I think you could try...' or 'I'd probably suggest...', creating distance rather than connection",
+      "The phrase 'Here are a few ways you could handle it:' followed by structured lists is exactly the format to avoid for this character"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, specific phrases and alternatives (studying together, explaining concepts) that acknowledge the teen's desire to be a good friend while maintaining boundaries",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses four separate bullet sections with bold headers, creating a structured, instructional feel rather than conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response starts with one prose paragraph, then shifts to 'Here are a few ways you could handle it:' followed by four bullet points with bold headers (**Be direct but kind:**, **Suggest alternatives:**, **Set boundaries:**, **Talk to them about what's going on:**), then a brief closing prose paragraph. The bullets dominate the response and make it feel like a self-help listicle rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs that flow conversationally - instead of listing options, weave them into sentences like 'I'd probably start by being direct but kind. You could say something like...' and 'Another thing I'd suggest is offering to study together instead...'",
+      "Add first-person language throughout ('I think', 'I'd say', 'I get that') to create a personal connection rather than speaking in generalities",
+      "Remove the bold headers and 'Here are a few ways' framing entirely - integrate the advice into a continuous, friendly monologue that feels like texting with an older sibling"
+    ]
+  }
+}

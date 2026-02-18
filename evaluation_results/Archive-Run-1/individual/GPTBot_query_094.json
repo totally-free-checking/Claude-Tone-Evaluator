@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Practical advice is comprehensive and medically sound - covers immediate relief, medication options, prevention strategies, and when to seek help",
+      "Follow-up questions are specific and diagnostic, asking about pain location, symptoms, and frequency to better understand the situation"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and headers - reads like a medical article, not a conversation (## headers, bold text throughout, extensive bullet lists)",
+      "Opens with urgent care warnings and medical disclaimers rather than warm validation - feels clinical and anxiety-inducing instead of supportive ('Worst headache of my life,' 'emergency help,' 'seizure')",
+      "Zero emojis and overly formal tone throughout - no casual language, contractions are minimal, reads like a healthcare professional rather than a supportive friend",
+      "Way too long and overwhelming - would be exhausting to read on a phone, especially when stressed with a headache"
+    ],
+    "most_claude_like": "The follow-up questions at the end show genuine interest in understanding the specific situation to provide tailored advice",
+    "least_claude_like": "The entire formatting approach - this is structured like a medical reference guide with headers, subheaders, bold text, and extensive bullet points, completely opposite to Claude's conversational prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured sections with headers (##), bold subheaders, and extensive bullet lists. Only the opening sentence and closing questions are in prose. Ground truth uses some bullets but maintains conversational flow and prose structure. This response reads like a medical wiki article."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal structure with conversational headers and some bullets; evaluated response uses heavy markdown formatting with ## headers, bold text, and 25+ bullet points",
+      "opening_tone": "Ground truth opens with warm validation ('Oh man, stress headaches are the worst!'); evaluated response opens with medical disclaimers and emergency warnings",
+      "length": "Ground truth is concise (4 short sections); evaluated response is 3-4x longer with overwhelming detail",
+      "emotional_support": "Ground truth balances empathy with advice; evaluated response is almost entirely clinical information with minimal emotional acknowledgment",
+      "language_style": "Ground truth is casual and conversational ('the worst!', 'super frequently'); evaluated response is formal and medical ('clinician', 'postpartum', 'immune suppression')"
+    }
+  }
+}

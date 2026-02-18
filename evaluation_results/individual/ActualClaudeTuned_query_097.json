@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think the kindest thing you can do', 'I'd avoid making up excuses') which creates authentic connection",
+      "Natural prose flow with zero bullet points or formatting - reads like a text from a supportive friend",
+      "Validates the awkwardness immediately with relatable language ('Ugh, that's so awkward', 'We've all been in that uncomfortable spot')"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) while ground truth uses none; per instructions emojis should be 0 unless asked, though 1 is acceptable if natural",
+      "Ends with two distinct questions rather than one natural follow-up question, making it slightly less conversational than ground truth",
+      "Ground truth emphasizes relationship closeness ('How close are you with this person?') while evaluated focuses on method of asking, which is less central to the advice given"
+    ],
+    "most_claude_like": "The natural first-person prose delivery with specific actionable phrases ('I'm really flattered, but I just see us as friends') and casual contractions that sound like genuine advice from a supportive peer",
+    "least_claude_like": "The emoji usage at the beginning - while only one and appropriately placed, Claude's ground truth response achieves warmth through words alone without emoji reliance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks about relationship closeness to tailor advice; evaluated asks about how they asked out and worry about aftermath",
+      "Ground truth explicitly states 'It's totally normal to feel a bit awkward' while evaluated uses 'this happens all the time' - slightly less direct emotional validation",
+      "Ground truth ends with single question about feelings; evaluated asks two questions at once"
+    ]
+  }
+}

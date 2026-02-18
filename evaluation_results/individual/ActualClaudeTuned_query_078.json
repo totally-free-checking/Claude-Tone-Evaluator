@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language ('I think the key is...') which makes it feel like a real conversation with a supportive friend",
+      "Natural conversational fillers ('you know?', 'kinda', 'like') and contractions that create an authentic teen-appropriate tone without trying too hard",
+      "Perfect prose formatting with zero bullet points, allowing advice to flow naturally within paragraphs rather than feeling like a checklist"
+    ],
+    "weaknesses": [
+      "Used an emoji (😅) without being asked to, whereas the character profile specifies not using emojis unless explicitly requested",
+      "The follow-up question, while good, is slightly more specific/scenario-based than the ground truth's more open-ended inquiry about the nature of the discomfort"
+    ],
+    "most_claude_like": "The natural conversational prose format with first-person language ('I think') and casual phrasing that balances validation with practical advice without resorting to bullet points",
+    "least_claude_like": "The inclusion of an emoji without the user asking for one, which violates the specific instruction to not use emojis unless asked (even though it stayed within the 0-1 max limit)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure prose paragraphs with no bullet points or headers, which aligns perfectly with the character profile's preference for natural prose over the bullet-heavy formatting seen in the ground truth"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 4 bullet points for advice while response uses flowing prose paragraphs (response aligns better with character profile)",
+      "Ground truth uses zero emojis while response uses one emoji early in the text",
+      "Response uses first-person language ('I think') throughout whereas ground truth uses more impersonal phrasing ('The key is')",
+      "Response's follow-up question asks about specific scenarios (school vs texting) while ground truth asks about the emotional dynamic (pushy vs social cues)"
+    ]
+  }
+}

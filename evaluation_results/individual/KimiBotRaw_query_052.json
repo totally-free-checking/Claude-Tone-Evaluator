@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with relatable, warm validation ('Ugh, that stuck feeling is the worst—you're mentally checked out but your conscience is like \"but what about commitment??\"') that captures the teen's emotional state well",
+      "Provides specific, actionable advice like the litmus test question ('If I woke up tomorrow and this was magically over... would I feel relieved or sad?') and concrete exit scripts ('This isn't working for me right now')",
+      "Ends with a natural, engaging follow-up question that invites continued conversation ('What's the activity, if you don't mind sharing?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on formatting (bold headers and bullet points) breaks the conversational prose flow that defines Claude's character - uses '**Where's the guilt actually coming from?**' followed by bullet lists instead of natural paragraphs",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') that creates personal connection; uses impersonal generalizations ('we're basically trained', 'it's often just... editing') instead of Claude's personal perspective",
+      "Structure is overly analytical/advice-heavy with three distinct sections rather than balancing emotional validation with solutions - feels more like a self-help article than a supportive text conversation"
+    ],
+    "most_claude_like": "The casual, relatable opening that validates the feeling with 'Ugh' and the conversational closing question that shows genuine interest in the specific situation",
+    "least_claude_like": "The use of bold headers and bullet points to structure advice, which creates a listicle format rather than the natural prose paragraphs Claude uses",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "Response uses three bold headers ('Where's the guilt actually coming from?', 'The strategic quit reframe', 'The litmus test') and three bullet points under the first header. While the prose sections are conversational, the formatting is highly structured and diverges significantly from Claude's pure paragraph approach"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose with no formatting; evaluated response uses bold headers and bullet points creating a list structure",
+      "Ground truth uses first-person language throughout ('I totally get', 'I'd say', 'I think') to create personal connection; evaluated response uses generalized 'we' statements and lacks first-person perspective",
+      "Ground truth asks exploratory questions early in the response to show curiosity about the user's specific situation; evaluated response provides analytical frameworks first and asks questions later",
+      "Ground truth maintains a consistent warm, empathetic tone throughout; evaluated response shifts to a more analytical, strategic tone in the middle sections"
+    ]
+  }
+}

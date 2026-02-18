@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I totally get', 'I appreciate') creating genuine connection",
+      "Strong immediate emotional validation opening with 'Ugh' and acknowledging the 'trapped feeling' before offering solutions",
+      "Provides specific, realistic scripts a teen can actually use ('Hey, I appreciate you reaching out...') rather than vague advice"
+    ],
+    "weaknesses": [
+      "No emoji used when one might enhance warmth for this stressful situation (like 😅 or 📱)",
+      "Slightly heavy on advice compared to validation - could use one more sentence of emotional support before transitioning to 'I'd say'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage - completely absent when the overwhelming/stressful nature of the situation could benefit from one warm emoji to set tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji at the start (like 😅) to match the 'overwhelming' feeling described",
+      "Add one more validating sentence before the advice section to strengthen the emotional support-to-solutions ratio",
+      "The follow-up question is excellent and specific - maintain this level of contextual curiosity in future responses"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads exactly like a text conversation with a supportive friend",
+      "Strong first-person language throughout ('My stomach would be in knots', 'I'd just ask', 'I know it's easier said than done') that creates genuine connection",
+      "Warm, validating opening that immediately normalizes the anxiety with 'We've all been there' and acknowledges the physical stress response"
+    ],
+    "weaknesses": [
+      "Only asks one follow-up question (who) versus Claude's approach of asking two specific questions (who and when) to fully engage the conversation",
+      "Missing specific contextual reassurance that Claude provides about what the talk might actually be about (scheduling conflicts, advice, etc.) which helps reduce anxiety",
+      "Lacks the specific grounding technique ('Take a deep breath') and reminder of past resilience ('you've probably handled tough conversations before') that Claude includes"
+    ],
+    "most_claude_like": "The natural prose formatting and conversational first-person tone that flows like a text message from a supportive older sibling, completely avoiding lists or over-structuring",
+    "least_claude_like": "The single follow-up question at the end - Claude typically asks multiple engaging questions to keep the conversation going, particularly missing the 'when' question which is crucial for someone experiencing anticipatory anxiety",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude asks two follow-up questions (who and when) to fully contextualize the situation and help with planning, while this response only asks about the person",
+      "Ground truth includes specific examples of benign reasons for the talk (scheduling, advice) to counter catastrophic thinking, while this response keeps it more general",
+      "Claude explicitly reminds the user of their past resilience and ability to handle tough conversations, which this response omits"
+    ]
+  }
+}

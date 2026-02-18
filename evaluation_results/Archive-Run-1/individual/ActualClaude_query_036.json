@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'That's such a tricky situation to be in!' - acknowledges the emotional complexity right away",
+      "Excellent conversational tone throughout with natural phrases like 'you know?' and 'I totally get the dilemma'",
+      "Multiple thoughtful follow-up questions that show genuine interest and help the teen explore their concerns ('Is it based on specific things they've done, or more of a gut feeling?')",
+      "Pure prose format with natural paragraph flow - zero bullet points or over-formatting"
+    ],
+    "weaknesses": [
+      "Missing an emoji that would typically appear in Claude's responses - usually 1-2 emojis help set the warm, casual tone early on",
+      "Could potentially offer one small piece of practical framing advice before the questions, though the exploratory approach is also valid for this type of query"
+    ],
+    "most_claude_like": "The conversational flow and validation-first approach is perfectly Claude - 'It's tough when you care about someone but have concerns about their partner' immediately validates the teen's protective instinct while acknowledging the complexity",
+    "least_claude_like": "The absence of any emojis is the only notable divergence - Claude typically uses 1-2 emojis (like 😅 or 😊) to enhance the warm, casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - three natural paragraphs that flow conversationally without any lists, bullets, or over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This response IS the ground truth - they are identical",
+      "differences": []
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as conversational paragraphs",
+      "Strong immediate validation using empathetic language like 'Ugh, that's such an uncomfortable spot' and 'you're not being dramatic for wanting out of it'",
+      "Highly specific actionable advice including exact phrases to use ('I'm not really trying to talk about them like that') and redirection scripts ('Anyway, how'd your test go?')",
+      "Engaging follow-up question that shows genuine interest in the specifics of the situation rather than a generic 'How are you feeling?'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes the advice feel slightly observational rather than personal",
+      "Missing warm closing language like 'I'm here if you need to talk' or similar personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains conversational flow throughout while embedding advice naturally within paragraphs",
+    "least_ideal_aspect": "Absence of first-person perspective - uses 'you should' and 'it's fair to' rather than 'I think you should' or 'I'd probably just', creating slight distance rather than the 'supportive friend' intimacy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create more intimacy - instead of 'If you can, try setting...' use 'I think I'd probably just say something like...' or 'Honestly, I'd just set a boundary by saying...'",
+      "Include a brief personal connection at the end like 'I'm here if you need to talk through it more' or 'I get how awkward that feels' to reinforce the supportive friend persona"
+    ]
+  }
+}

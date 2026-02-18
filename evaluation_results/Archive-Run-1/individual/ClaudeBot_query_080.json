@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong practical advice with specific breathing technique (4-4-6/8) and grounding exercise (5-4-3 sensory technique) that's immediately actionable",
+      "Good follow-up engagement asking for context about who said it and when, showing genuine interest in helping further",
+      "Excellent reality-check framing ('A few reality checks that are often true') that normalizes different interpretations",
+      "Provides specific text message templates that teens can actually use, which is very practical"
+    ],
+    "weaknesses": [
+      "Opens with metaphorical language ('hit like a trapdoor') instead of immediate warm validation like Claude's 'Oh no, that phrase is like the ultimate anxiety trigger, isn't it? 😬'",
+      "Uses bullet-like structure with colons and quoted examples throughout, creating a more instructional feel rather than conversational prose",
+      "Completely lacks emojis - makes it feel more formal and less like a supportive friend texting",
+      "Much longer than Claude's response (7 paragraphs vs 5), includes crisis hotline information that feels overly cautious for this situation and breaks the conversational flow"
+    ],
+    "most_claude_like": "The follow-up questions at the end ('If you tell me who said it... and whether it's happening now or later') perfectly match Claude's approach of asking for context to continue the conversation and provide more tailored support",
+    "least_claude_like": "The complete absence of emojis and the heavily structured, instructional tone with multiple quoted text examples and colon-separated explanations - Claude writes in warm, flowing prose while this reads more like a self-help guide",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "70%",
+      "notes": "While there are no explicit bullet points, the response uses heavy structural formatting with colons, quoted examples, and list-like constructions ('can mean anything from X, to Y, to Z'). Multiple quoted text message templates break up the prose. The breathing instruction uses dashes and numbers in a quasi-list format. Overall feels more instructional than conversational."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with immediate emotional validation and an emoji (😬), while the evaluated response opens with a metaphor and clinical language about 'treating ambiguity as danger'",
+      "Claude's response is concise (5 short paragraphs) and conversational throughout, while the evaluated response is much longer (7 paragraphs) and more instructional",
+      "Claude uses natural, casual language ('Oh no', 'isn't it?', 'I know it's easier said than done') while the evaluated response uses more formal constructions ('reality checks that are often true', 'widening the lens')",
+      "Claude balances validation and advice naturally in prose, while the evaluated response front-loads techniques and instructions before emotional support",
+      "The evaluated response includes crisis hotline information that feels out of proportion to the query and breaks Claude's natural conversational flow"
+    ]
+  }
+}

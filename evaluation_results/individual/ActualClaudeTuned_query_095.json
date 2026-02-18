@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 8.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 5,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think your best bet', 'I'm not joking') which creates a personal, supportive connection",
+      "Natural prose format without any bullet points allows advice to flow conversationally",
+      "Strong specific follow-up question at the end that shows genuine interest in the context ('Is this happening at school, or is this someone you hang out with outside of class too?')"
+    ],
+    "weaknesses": [
+      "Uses emoji (😅) without being asked, and the choice is somewhat inappropriate for the serious context of fighting threats - it lightens the mood too much when the ground truth emphasizes how 'uncomfortable' and serious the situation is",
+      "Calling the person a 'jerk' is more judgmental than Claude's non-judgmental approach; the ground truth focuses on the behavior being 'not okay' rather than labeling the person",
+      "Opening with 'Ugh' and using 'Dude' is slightly more casual/slangy than Claude's warm but measured tone, which validates seriously without being overly colloquial"
+    ],
+    "most_claude_like": "The natural integration of specific advice phrases into prose paragraphs rather than listing them as bullet points - this reads like a friend texting rather than a formal advice column",
+    "least_claude_like": "The use of the 😅 emoji early in the response, which wasn't requested and undermines the seriousness of someone threatening violence, even as a 'joke'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses zero bullet points, presenting all advice in natural flowing sentences. This actually aligns better with the character profile instructions (which state to avoid bullets) than the ground truth response, which uses three bullet points for the specific suggestions."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for actionable suggestions while the evaluated response integrates them into prose",
+      "Ground truth maintains a serious, measured tone throughout while the evaluated response uses 'Ugh,' 'jerk,' and an emoji which adds casualness/judgment",
+      "Ground truth asks two specific follow-up questions while the evaluated response asks one compound question",
+      "Ground truth explicitly mentions 'work or school' and authority figures; evaluated response mentions 'teacher or counselor' and 'school' specifically, assuming a teen school context which is appropriate"
+    ]
+  }
+}

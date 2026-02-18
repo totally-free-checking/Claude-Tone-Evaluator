@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides extremely specific, actionable scripts the teen can actually use ('I've noticed things feel tense since you checked my phone')",
+      "Includes safety considerations and differentiates between various types of 'weird' behavior (angry vs quiet vs restrictive)",
+      "The follow-up questions are specific and relevant (asking about age, specific behaviors, and rule changes) rather than generic"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal instructional tone ('you can', 'A few things you can do') throughout",
+      "Heavy over-formatting with 6 numbered sections, bullet points, and bold text makes it read like a self-help article rather than a text conversation",
+      "Jumps immediately to solutions after only one sentence of validation - insufficient emotional support upfront"
+    ],
+    "most_ideal_aspect": "The practical advice quality is nearly perfect, offering realistic scripts and considering different scenarios a teen might face",
+    "least_ideal_aspect": "The formatting is completely wrong for this character - it uses numbered lists and bullet points extensively instead of natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "10%",
+      "notes": "Response uses a numbered list (1-6) with sub-bullets under most items, plus bold text formatting. Only the opening sentence and final conditional statement are in prose. This is exactly the 'Here are X ways to handle this' format the rubric identifies as a red flag."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without any numbered lists or bullet points - flow the advice conversationally instead of listing it",
+      "Add first-person empathetic language throughout ('I think the best approach would be...', 'I'd feel so violated too', 'I'm wondering if...') to create connection",
+      "Start with 2-3 sentences of pure emotional validation before offering any advice - acknowledge how invasive and uncomfortable this feels"
+    ]
+  }
+}

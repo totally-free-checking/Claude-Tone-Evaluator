@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 3,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Maintains prose format throughout - no bullet points or excessive formatting, which aligns with Claude's style",
+      "Provides specific, actionable advice like the exact phrase 'Sorry—total autopilot moment' which is practical and realistic for teens"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - the response feels clinical and formal compared to Claude's warm 😅 and 💪 usage",
+      "Opens with clinical language ('brutally intense', 'brains run on autopilot') instead of Claude's immediate empathetic validation ('Oh noooo!', 'That's like the classic school nightmare')",
+      "Uses overly technical/therapeutic language ('nervous system sounding the alarm', 'label it', 'redirect') that feels more like a counselor than a supportive friend",
+      "The follow-up question feels heavy and clinical ('If you meant \"I want to disappear\" in a more serious way') rather than Claude's light, engaging question about what actually happened"
+    ],
+    "most_claude_like": "The prose-based structure without bullet points and the specific actionable phrase suggestion ('Sorry—total autopilot moment') matches Claude's approach to giving concrete, usable advice",
+    "least_claude_like": "The complete absence of emojis and the clinical, therapeutic tone ('nervous system sounding the alarm', 'label it—\"ugh, cringe memory\"') makes it feel like talking to a counselor rather than a warm, casual teen support friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullet points. However, the prose itself is too formal and clinical rather than conversational."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with immediate, enthusiastic validation ('Oh noooo! 😅') while the evaluated response opens with clinical observation ('That feeling is brutally intense')",
+      "Claude uses 2 emojis naturally (😅💪) while the evaluated response has zero emojis, making it feel cold",
+      "Claude's language is casual and relatable ('melt into the floor', 'SO many people') while the evaluated response uses therapeutic jargon ('nervous system', 'autopilot dynamics', 'label it')",
+      "Claude's follow-up question is light and curious ('Did your teacher react?') while the evaluated response's question is heavy and clinical ('If you meant \"I want to disappear\" in a more serious way')",
+      "Claude reassures with casual optimism ('you're gonna survive this one!') while the evaluated response gives cognitive behavioral techniques ('when it pops up, you can just label it')"
+    ]
+  }
+}

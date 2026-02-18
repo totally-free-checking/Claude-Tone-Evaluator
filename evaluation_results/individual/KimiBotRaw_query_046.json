@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with excellent emotional validation using casual, relatable language ('Ugh, that's such a gut-punch feeling', 'convenience friend') that immediately makes the teen feel understood",
+      "Provides highly specific, actionable advice with exact phrases the teen can use ('Hey, I've got you, but I've been feeling like we only connect when there's a crisis/ask') which is realistic and immediately applicable"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and bold headers ('A few questions to chew on:', 'The gentle test:', 'The boundary:') breaks the conversational prose format; Claude never uses this type of structured formatting",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') that creates a personal connection, making the response feel more like an advice article than a supportive friend texting"
+    ],
+    "most_claude_like": "The opening validation that immediately names the feeling using casual, empathetic language ('gut-punch', 'convenience friend') without dismissing the hurt",
+    "least_claude_like": "The structured formatting with bold headers and bullet-point lists instead of natural flowing prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response starts with prose but shifts to bullet points under 'A few questions to chew on:' and uses bold-header sections ('The gentle test:', 'The boundary:', 'The recalibration:'). This heavy structuring creates a self-help article feel rather than a conversational text."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose paragraphs throughout with no formatting; evaluated response relies heavily on bullet lists and bold headers",
+      "Ground truth is concise (3 short paragraphs); evaluated response is significantly longer with extensive structured advice sections",
+      "Ground truth implies personal perspective through soft suggestions ('It might be worth'); evaluated response lacks first-person singular language ('I think', 'I'd say') entirely",
+      "Ground truth asks a simple timeline question; evaluated response offers a binary choice question that feels more like a therapist's assessment than casual curiosity"
+    ]
+  }
+}

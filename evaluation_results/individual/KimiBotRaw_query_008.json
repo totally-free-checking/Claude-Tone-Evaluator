@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation and empathy ('That's exciting but also super nerve-wracking, I get it') that acknowledges both the excitement and anxiety",
+      "Provides extremely specific, actionable scripts and phrases the teen can literally read to their parents, which is highly practical",
+      "Maintains a casual, teen-appropriate voice throughout ('chill time', 'sketchy', 'whole thing') without sounding forced"
+    ],
+    "weaknesses": [
+      "Completely lacks a follow-up question at the end, which is a core characteristic of Claude's approach (ends with 'Good luck! 🎉' instead of engaging the user further)",
+      "Uses heavy formatting with bold section headers (**Pick your moment**, **Lead with the details**, etc.) that makes it read more like a wikiHow article than a conversational text from a friend",
+      "Shifts to impersonal imperative commands ('Pick your moment', 'Lead with the details') rather than using first-person suggestions ('I think you should', 'I'd suggest')"
+    ],
+    "most_claude_like": "The opening validation that immediately acknowledges the mixed emotions ('exciting but also super nerve-wracking, I get it') captures the warm, empathetic tone perfectly",
+    "least_claude_like": "The absence of any follow-up question to continue the conversation - Claude nearly always ends with a specific, engaging question to invite the teen to share more",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "60%",
+      "notes": "Uses 5 bold headers (**Pick your moment**, **Lead with the details**, **Anticipate the worry**, **Offer a compromise**, **If they say no…**) that function as section dividers/bullets, plus blockquote formatting for example dialogue. While the content under headers is prose paragraphs rather than bullet lists, the heavy structuring creates a formatted, instructional feel rather than natural flowing conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth ends with a specific follow-up question ('What kind of party is it?') while the Response ends with a generic sign-off and emoji without engaging the user to share more",
+      "Ground Truth uses simple dash bullets under headers, while Response uses bold headers with prose paragraphs and blockquotes, creating a more formatted, instructional appearance",
+      "Response provides much more detailed scripting and scenario planning, while Ground Truth offers broader categories with less prescriptive language"
+    ]
+  }
+}

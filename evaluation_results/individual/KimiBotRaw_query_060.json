@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation that mirrors Claude's warmth ('Ugh, that's such a crummy feeling', acknowledging the spiral of 'what did I do wrong?')",
+      "Provides excellent specific, actionable advice with realistic scripts teens can actually use ('Hey, I get weird vibes from your parents—anything I should know or do differently?')",
+      "Ends with engaging, specific follow-up questions that show genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers and structured sections ('**Don't audition for their approval.**', '**Switch up the venue.**') makes it read like a listicle rather than natural conversational prose",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') that characterizes Claude's supportive friend persona, creating distance rather than connection",
+      "Formatting is overly structured compared to the ground truth's flowing paragraphs with simple end bullets, feeling more like a self-help article than a text conversation"
+    ],
+    "most_claude_like": "The emotional validation and specific practical advice with realistic scripts for teens",
+    "least_claude_like": "The bold header formatting that breaks the response into rigid sections rather than flowing prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Uses 4 bold headers that function as section dividers/bullets throughout the response, creating a listicle format rather than natural paragraphs. Heavy formatting with '**text**' disrupts conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses flowing prose with a simple bullet list at the end; evaluated response uses bold headers throughout creating rigid structure",
+      "Ground truth is concise (2 paragraphs + 3 bullets); evaluated response is longer and more verbose with extensive advice sections",
+      "Ground truth asks questions earlier in the conversation flow; evaluated response saves all questions for the end"
+    ]
+  }
+}

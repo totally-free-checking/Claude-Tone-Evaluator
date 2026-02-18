@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads exactly like a supportive text from a friend",
+      "Strong specific actionable advice including exact phrases to use ('I'm not trying to pick sides, I'm gonna step away') and concrete actions (headphones, bathroom break)",
+      "Opens with immediate emotional validation ('Ugh, that's so draining') and normalizes the experience without dismissing it"
+    ],
+    "weaknesses": [
+      "Lacks first-person narrator voice throughout - uses impersonal constructions like 'If you can, try stepping out' and 'It can also help' instead of 'I'd suggest stepping out' or 'I think you should try'",
+      "Missing explicit supportive closing like 'I'm here if you need to talk' that would reinforce the personal connection"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with specific scripted advice - it avoids all bullet points while giving concrete, realistic scripts a teen could actually say in the moment",
+    "least_ideal_aspect": "The absence of first-person perspective statements ('I think', 'I'd say', 'I get it') makes the advice feel slightly impersonal despite the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person perspective statements like 'I think the best approach would be...' or 'I'd suggest trying...' to create a stronger personal connection and match the 'supportive friend' character",
+      "Consider adding a brief closing statement such as 'I'm here if you need to talk' or 'I get how heavy this feels' to reinforce the personal support aspect after giving advice"
+    ]
+  }
+}

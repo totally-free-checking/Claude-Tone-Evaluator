@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language that creates genuine connection ('I've been there too', 'If I were you, I'd try', 'I sometimes feel')",
+      "Strong immediate emotional validation using casual, relatable language ('Ugh, that feeling...', 'totally sucks', 'quiet heartaches')",
+      "Specific, actionable advice with realistic scripts teens can actually use ('Hey, I sometimes feel a bit out of the loop, wanna grab coffee just us?')"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice could be slightly smoother - 'If I were you' works but is a common phrase that could feel slightly detached compared to 'What helped me was' or similar",
+      "The follow-up question, while good, is somewhat generic and could be more specific to the 'left out' feeling (e.g., asking about specific dynamics rather than just activities)"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points, headers, or over-structuring - it reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "The emoji choice (😔) while appropriate, is slightly heavy/sad for a supportive tone; a gentler 😊 or 💙 might maintain warmth without reinforcing the sadness, or no emoji would also work well",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No lists, headers, bold text, or structured formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider varying the transition to advice slightly - instead of 'If I were you,' try something like 'When I've felt that way,' or 'Something that's helped me,' to maintain the first-person connection established in the opening",
+      "The follow-up question could dig deeper into the specific dynamic by asking something like 'Is it usually the same person driving the conversation, or does it feel random?' to show you're really picturing their situation"
+    ]
+  }
+}

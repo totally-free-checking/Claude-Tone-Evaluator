@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent prose formatting - pure paragraph form with natural flow, no bullet points or excessive structure. This matches Claude's style perfectly.",
+      "Very strong practical advice with specific, actionable phrases ('Hey, I might be misreading this, but you've seemed a bit off with me lately'). The advice is realistic and considers different scenarios.",
+      "Good follow-up question that's specific and relevant ('is this someone you see often... or someone more peripheral?'). Shows genuine interest in helping them navigate the situation.",
+      "Strong advice about setting boundaries ('I'm here if you want to talk. Otherwise I'm going to assume we're okay') - practical and empowering."
+    ],
+    "weaknesses": [
+      "Completely missing emojis - the response feels more formal and less warm without them. Claude's response opens with 'Ugh' and has a casual warmth that this lacks.",
+      "Validation is present but more intellectual than emotional. 'That's a really uncomfortable spot to be in' is good, but lacks the visceral empathy of Claude's 'Ugh, that's such an uncomfortable situation! The silent treatment or passive-aggressive vibes are honestly worse than just having it out in the open sometimes.'",
+      "Tone is slightly more analytical/advisory than conversational. Phrases like 'caused by a few different realities' and 'you can't resolve it from inference alone' feel more like a counselor than a friend texting.",
+      "The response is longer and more comprehensive than Claude's, which could feel slightly overwhelming. Claude keeps it tighter and more digestible."
+    ],
+    "most_claude_like": "The pure prose formatting and natural flow of advice within paragraphs - no bullets, no headers, just conversational paragraphs that feel like someone talking through the situation with you.",
+    "least_claude_like": "The complete absence of emojis and the slightly more analytical, less emotionally immediate tone. Claude opens with 'Ugh' and uses exclamation points to convey empathy, while this response feels more measured and advisory.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - no bullets, no numbered lists, no headers. Advice flows naturally within conversational paragraphs. This is exactly how Claude structures responses."
+    },
+    "key_differences_from_ground_truth": [
+      "Missing emojis entirely - Claude's warmth is enhanced by natural emoji use, this feels more formal without them",
+      "Validation is more intellectual ('uncomfortable spot to be in') vs. Claude's more visceral empathy ('Ugh, that's such an uncomfortable situation!')",
+      "Tone is slightly more analytical/advisory ('caused by a few different realities', 'resolve it from inference alone') vs. Claude's more casual, friend-like language",
+      "Longer and more comprehensive - Claude keeps it tighter with 3 bullet thoughts and a question, this goes deeper into multiple scenarios",
+      "Claude uses bullet points for the middle section (the 3 thoughts), while this response avoids them entirely - interestingly, this response is MORE prose-heavy than Claude's actual response"
+    ]
+  }
+}

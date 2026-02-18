@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - the script example ('Hey, I need to tell you something...') is concrete and immediately actionable, better than ground truth",
+      "Follow-up question is natural and specific to the situation, asking about parents' typical reactions and whether it's one-time or ongoing"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (###) and bold text throughout - completely opposite of Claude's prose style. Ground truth uses minimal formatting, this uses extensive markdown",
+      "Missing emotional warmth at the start - opens with 'That's a really tough spot' but immediately pivots to logistics. Ground truth opens with 'Oh man, I totally get why you're feeling anxious' which is much warmer",
+      "Zero emojis - makes it feel formal and cold compared to Claude's natural emoji use",
+      "The safety section about 'yelling, insults, or punishment that feels scary' introduces a darker tone that wasn't in the original query and feels somewhat heavy-handed"
+    ],
+    "most_claude_like": "The follow-up questions at the end are natural and conversational, showing genuine interest in understanding the teen's specific situation to provide better guidance",
+    "least_claude_like": "The extensive use of headers, bold text, and bullet points throughout - this reads like a structured guide or article rather than a warm conversation. Ground truth uses minimal formatting and flows as prose",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by structured sections with headers (###), bold text (**), and extensive bullet points. Only the opening sentence, script example, and closing question are in prose form. Ground truth uses 3 simple headers with minimal bullets, maintaining conversational flow. This response feels like a formatted article."
+    },
+    "key_differences_from_ground_truth": [
+      "Formatting: Ground truth uses minimal structure (3 simple headers, few bullets) while evaluated response is heavily formatted with markdown headers, bold text throughout, and extensive bullet lists",
+      "Emotional tone: Ground truth opens with strong validation ('Oh man, I totally get why you're feeling anxious') and maintains warmth throughout. Evaluated response is more clinical and jumps quickly to logistics",
+      "No emojis: Ground truth doesn't use emojis either, but combined with the heavy formatting and less warm tone, the evaluated response feels significantly more formal",
+      "Safety concerns: Evaluated response introduces concerns about harsh reactions, yelling, and feeling unsafe that weren't implied in the query, potentially adding anxiety rather than reassurance",
+      "Closing: Ground truth ends with encouragement ('You've got this!') before the question. Evaluated response ends only with the question, missing that final supportive note"
+    ]
+  }
+}

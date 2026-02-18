@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 4,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong opening validation: 'Oof, that really stings' matches Claude's empathetic tone perfectly and immediately acknowledges the emotional pain",
+      "Excellent practical advice quality: The suggested phrase 'Hey, I saw you all hung out the other day. I felt left out—was it a planned thing or last minute?' is specific, actionable, and realistic for a teen to actually use",
+      "Good follow-up question that's specific to the situation: 'how did you find out, and is this the first time it's happened?' shows genuine interest and invites continued conversation"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with 4 major bullet points and bold headers ('**Check the story...**', '**Figure out what you want.**') - this is the opposite of Claude's natural prose approach",
+      "Missing emoji usage entirely - Claude uses 1-2 emojis naturally (like 😅) to maintain warmth, but this response has none, making it feel more formal",
+      "The phrase 'Check the story you're telling yourself (gently)' feels more like therapy-speak than natural teen conversation - Claude would say something like 'Try not to jump to conclusions though'",
+      "Over-structured with multiple distinct sections rather than flowing conversational paragraphs - reads like a self-help article rather than a supportive text"
+    ],
+    "most_claude_like": "The opening validation and the specific example phrase for how to approach friends - both capture Claude's warmth and practical, actionable advice perfectly",
+    "least_claude_like": "The heavy bullet-point formatting with bold headers - this is the single biggest divergence from Claude's character, who writes in natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bullet points with bold headers. Only the opening paragraph and closing question are in prose form. Claude's ground truth has 0 bullets and 100% prose. This is the most significant structural difference."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 4 natural prose paragraphs; evaluated response is 1 intro paragraph + 4 bullet points + 1 closing question",
+      "Tone: Ground truth feels like texting a friend ('Try not to jump to conclusions though'); evaluated response feels more like a counseling worksheet ('Check the story you're telling yourself')",
+      "Emoji usage: Ground truth has none in this case but typically would; evaluated response has none and feels more formal as a result",
+      "Flow: Ground truth advice flows naturally within conversational sentences; evaluated response separates advice into distinct categorized sections"
+    ]
+  }
+}

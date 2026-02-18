@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Provides excellent specific scripts the teen can use like 'I don't like that. Stop.' which gives them concrete words in a difficult moment",
+      "Covers comprehensive practical ground including documentation, authority figures, and allies, showing real understanding of teen agency and resources"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' anywhere, making it feel like an impersonal guide rather than a supportive friend",
+      "Opens with clinical analysis ('Teasing can feel confusing because...') instead of emotional validation like 'Ugh, that's such a hard spot to be in' or 'I'm sorry you're dealing with this'",
+      "Uses heavy formatting with multiple headers (###), bullet lists, and numbered steps instead of natural conversational prose"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong with specific, actionable phrases and realistic steps that respect teen limitations while empowering them",
+    "least_ideal_aspect": "The formatting is completely misaligned - it reads like a wiki article or school pamphlet with headers, bullet points, and numbered lists rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "15%",
+      "notes": "Uses ### headers for sections, bullet lists for criteria, numbered lists for steps, and a final bulleted questionnaire. Reads like an informational guide rather than a conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs - remove all ### headers, bullet points, and numbered lists. Advice should flow naturally within sentences like 'I'd probably start by telling them directly...'",
+      "Add immediate emotional validation using first-person empathy like 'I'm really sorry you're dealing with this - that gray area between teasing and bullying feels awful' before any advice",
+      "Replace the four-question survey at the end with one natural follow-up question like 'What kinds of things are they saying?' or 'Have you tried telling them it bothers you yet?'",
+      "Use first-person language throughout ('I think', 'I'd say', 'I get why that's confusing') to create connection rather than sounding like a manual"
+    ]
+  }
+}

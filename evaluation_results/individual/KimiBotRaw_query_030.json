@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 6,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('You’re totally valid for being tired of it') that acknowledges the awkwardness of the situation",
+      "Provides specific, actionable scripts the teen can use word-for-word, including realistic alternatives like studying together"
+    ],
+    "weaknesses": [
+      "Missing follow-up question at the end - Claude's character nearly always ends with an engaging question to continue the conversation",
+      "Uses slightly judgmental language about the friend ('fake friends will disappear', 'good riddance') which is less warm/supportive than Claude's typical approach",
+      "Uses an emoji (😅) when the user didn't ask for one, while the Ground Truth uses none"
+    ],
+    "most_claude_like": "The specific, realistic script suggestions that balance being kind with setting firm boundaries",
+    "least_claude_like": "The complete absence of a follow-up question to continue the dialogue - ending with 'You got this!' instead of an engaging question",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "Heavy reliance on bold headers and bullet points similar to Ground Truth, though character profile prefers natural prose. Structure is: intro paragraph → 4 bold-headed bullets → closing paragraph."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth ends with a specific follow-up question ('How do you think they'd react...'), while Response ends with encouragement and no question",
+      "Response suggests a 'logistics excuse' (white lie) as an option, while Ground Truth focuses on honest communication and understanding the friend's struggles",
+      "Response uses slightly edgier, more judgmental language about the friendship ('homework faucet', 'good riddance'), whereas Ground Truth maintains a more neutral, supportive tone toward preserving the friendship"
+    ]
+  }
+}

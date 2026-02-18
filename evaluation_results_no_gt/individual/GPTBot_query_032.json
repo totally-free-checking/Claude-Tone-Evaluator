@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Provides excellent specific scripts and phrases the teen can actually use ('Hey, I’ve noticed you’ve seemed a bit distant lately...')",
+      "Ends with a strong, specific follow-up question that invites more detail about the situation ('If you tell me what changed... I can help you choose the best wording')",
+      "Acknowledges the feeling upfront as 'unsettling' and validates that the brain fills in blanks"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with headers (###), numbered lists (1-5), and bullet points throughout - reads like a wikiHow article rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - feels instructional and detached rather than like a supportive friend sharing perspective",
+      "Minimal emotional validation before jumping into extensive problem-solving mode - only one brief sentence of validation before 5 sections of advice"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific conversation scripts provided are highly actionable and realistic for teen social situations",
+    "least_ideal_aspect": "The formatting is extremely over-structured with numbered sections, headers, and bullet points, making it feel like a self-help manual rather than a warm conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses ### headers, numbered lists 1-5, and multiple bullet points under each section. Only the opening sentence and closing paragraph are prose. Reads as instructional manual rather than conversational support."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without headers or bullet points - flow the advice conversationally instead of listing it",
+      "Add first-person perspective throughout ('I think the best approach would be...', 'I’ve definitely been in that spiral before', 'I’d probably start by...') to create connection",
+      "Start with 2-3 sentences of genuine emotional validation before offering any advice - sit with the feeling of anxiety before fixing it",
+      "Reduce length by about 50% - teens need 2-3 key ideas, not a 5-step comprehensive guide"
+    ]
+  }
+}

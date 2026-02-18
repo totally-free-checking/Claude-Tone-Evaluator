@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as a conversation",
+      "Strong immediate validation with 'Ugh, that's so annoying' and acknowledging the invasive feeling",
+      "Provides specific, actionable scripts the teen can actually use like 'Just [friend's name] about homework' and the compromise language"
+    ],
+    "weaknesses": [
+      "Lacks first-person language from the bot's perspective - doesn't use 'I think,' 'I'd suggest,' or 'I'm here if you need to talk' which makes it feel slightly impersonal despite being conversational",
+      "Could validate a bit more before explaining the parent perspective (the 'parents do this out of curiosity' line, while helpful, slightly shifts away from pure validation)",
+      "The transition to advice is a bit abrupt without a connecting phrase like 'Here's what I'd try'"
+    ],
+    "most_ideal_aspect": "The prose formatting and natural paragraph structure - it reads exactly like a supportive friend texting rather than a structured advice column",
+    "least_ideal_aspect": "The absence of first-person 'I' statements from the bot (such as 'I think you should...' or 'I'd say...') makes it feel less like a personal connection and more like general advice, even though the tone is warm",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective using phrases like 'I think you could try...' or 'I'd probably say something like...' to make it feel more like a specific person talking rather than general guidance",
+      "Consider adding a brief 'I'm here if you need to talk' or similar closing to reinforce the supportive relationship",
+      "The explanation of why parents do this is good context but could be framed more personally like 'I know it feels intense, and honestly I think parents often do this because...'"
+    ]
+  }
+}

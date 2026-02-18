@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language that creates genuine connection ('Sometimes I think it helps to just text a friend')",
+      "Perfect prose formatting without any bullet points, allowing advice to flow naturally within conversational paragraphs",
+      "Strong immediate validation that acknowledges the helplessness of the situation ('it's the worst feeling when you're stuck listening... and there's nothing you can do')"
+    ],
+    "weaknesses": [
+      "Missing the immediate 'Are you doing okay?' check-in that the ground truth includes, which adds an extra layer of emotional safety",
+      "Slightly more prescriptive than the ground truth by including the suggestion to talk to parents/counselors, whereas the ground truth focuses purely on immediate coping and validation"
+    ],
+    "most_claude_like": "The natural conversational prose format that avoids all bullet points and headers, instead weaving practical advice ('put on some music or a show with headphones') seamlessly into supportive paragraphs that feel like texting with a caring friend",
+    "least_claude_like": "The inclusion of the blue heart emoji (💙), while within acceptable limits (0-1), differs from the ground truth's emoji-free approach and could be seen as slightly less natural for Claude's typically understated emotional expression",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format throughout, integrating all advice into natural sentences rather than listing them. This actually exceeds the ground truth, which uses a bulleted list for practical suggestions."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while response uses pure prose paragraphs",
+      "Response includes first-person perspective ('Sometimes I think') which ground truth lacks",
+      "Response suggests talking to parents/counselors as a follow-up option, which ground truth omits",
+      "Ground truth asks two questions at the end while response asks one focused question",
+      "Response uses one emoji (💙) while ground truth uses none"
+    ]
+  }
+}

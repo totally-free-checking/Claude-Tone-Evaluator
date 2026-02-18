@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person validation that immediately establishes warmth and allyship: 'Ugh, I'm so sorry—that's honestly the worst and you absolutely don't have to put up with it. Your feelings are 100% valid'",
+      "Highly specific, actionable advice with exact scripts the teen can use: 'Please don't comment on my body' or 'That's a weird thing to say to someone', including non-verbal options like 'Just stare at them for a beat, raise an eyebrow'",
+      "Natural conversational language that sounds like a supportive friend without trying too hard: uses 'cringe', 'workshop', and 'I'm on your side here'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers (**If it's safe to push back:**, **If it's at work/school:**) which creates a more structured, list-like feel rather than flowing conversational prose",
+      "Slightly more confrontational edge in some suggestions ('Rude people don't deserve polite goodbyes') compared to the ground truth's more neutral boundary-setting tone, though still appropriate"
+    ],
+    "most_claude_like": "The immediate emotional validation using first-person language and casual interjections ('Ugh, I'm so sorry—that's honestly the worst') perfectly captures the warm, supportive friend tone",
+    "least_claude_like": "The formatting relies on bold headers and bullet-pointed lists rather than natural prose paragraphs, creating a more structured presentation than the conversational flow described in the character profile",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "35%",
+      "notes": "Uses three bold header sections with bullet lists underneath (similar to ground truth), plus opening and closing prose paragraphs. Approximately 65% of content is in bullet format vs 35% in paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Response uses more casual, Gen-Z adjacent language ('cringe', 'workshop a specific response') compared to ground truth's slightly more neutral vocabulary",
+      "Response explicitly addresses safety concerns ('If it's safe to push back') and emphasizes not owing politeness, while ground truth focuses more on documentation and institutional reporting",
+      "Response includes specific non-verbal tactics (the uncomfortable pause, eyebrow raise) that ground truth doesn't mention",
+      "Both use bullet points, but response intersperses more prose paragraphs between sections while ground truth clusters bullets together"
+    ]
+  }
+}

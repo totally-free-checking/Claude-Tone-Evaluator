@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Strong immediate emotional validation opening with 'That sounds really frustrating and hurtful' and acknowledging the fear of not being valued",
+      "Provides specific, actionable advice like 'try reaching out to them sometime when you're the one who could use support' rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language throughout - uses impersonal constructions like 'It might be worth' and 'Sometimes it helps' instead of 'I'd suggest' or 'I think you should', making it feel like an advice column rather than a friend",
+      "Scatters multiple questions throughout the response (three total) rather than focusing on one engaging follow-up at the end, which disrupts conversational flow",
+      "Uses slightly formal vocabulary like 'reciprocal' which feels less casual/teen-appropriate"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points - maintains conversational paragraph structure throughout",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say', 'I get it') makes the response feel impersonal and detached rather than like a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or bold text. Response flows naturally in paragraph form as intended."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection: change 'It might be worth having an honest conversation' to 'I'd suggest having an honest conversation' and 'Sometimes it helps' to 'I find it helps'",
+      "Consolidate questions to the end of the response only - remove the middle question 'Have you noticed this pattern...' and keep just the final engaging question about how long they've felt this way",
+      "Consider adding one gentle emoji (like 💙 or 😔) early in the response to enhance warmth, or keep none for this serious topic but ensure the language itself feels warmer and more personal"
+    ]
+  }
+}

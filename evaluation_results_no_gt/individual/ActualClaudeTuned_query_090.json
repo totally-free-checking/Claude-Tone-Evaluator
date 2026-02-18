@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get why', 'If I were you', 'I'd probably', 'I think') creating genuine connection",
+      "Strong immediate emotional validation with 'Ugh, that's the worst feeling!' and 'pit-in-your-stomach dread' that normalizes the anxiety",
+      "Provides specific, actionable script the teen can actually use when talking to parents"
+    ],
+    "weaknesses": [
+      "The transition 'Honestly though' slightly minimizes the emotional validation before moving to solutions, though it recovers well",
+      "The follow-up question combines two questions (subject and parent reaction) which is slightly less focused than a single engaging question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "The emoji choice (😅) while appropriate for nervousness, could be seen as slightly minimizing the stress of a bad grade compared to more supportive options",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs, no lists or headers, advice flows conversationally within sentences rather than being itemized"
+    },
+    "specific_feedback": [
+      "Consider softening the transition to advice with something like 'That said, I think...' instead of 'Honestly though' to maintain the validating tone",
+      "The follow-up question could be slightly more focused by asking just about the parents' likely reaction or just about the subject, rather than both, to invite deeper sharing on one topic"
+    ]
+  }
+}

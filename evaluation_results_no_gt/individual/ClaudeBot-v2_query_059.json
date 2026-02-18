@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd try...', 'I were you') creating a personal, supportive connection",
+      "Provides specific, actionable script the teen can actually use ('Hey, I've noticed I'm usually the one starting convos—can you hit me up sometimes too?')",
+      "Opens with immediate emotional validation ('Ugh, that's such a crappy feeling') acknowledging the confidence impact before offering solutions"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched with 'crappy feeling' as it typically conveys nervous laughter rather than empathy for a difficult emotion",
+      "Could include slightly more validation about the specific fear of rejection or loneliness before jumping to the 'pull back' strategy"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with zero bullet points or over-structuring, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The emoji choice doesn't perfectly match the emotional weight of the opening validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using 💙 or 😔 instead of 😅 for 'crappy feeling' to better match the empathetic tone, or omit the emoji entirely since the 'Ugh' already conveys the sentiment",
+      "The advice to 'pull back' is good but could be softened with a bit more validation about how scary that might feel, since teens often fear losing friends entirely when they stop initiating"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language like 'Ugh' and acknowledges the 'overwhelming' feeling of the situation",
+      "Uses natural first-person language ('when I'm talking to people in your situation') and teen-appropriate casual phrasing ('nope out', 'stupidly small')",
+      "Ends with a specific, engaging follow-up question about the types of tasks in their pile that invites continued conversation"
+    ],
+    "weaknesses": [
+      "Relies heavily on bullet points with bold headers (**Start stupidly small**, etc.) which breaks the conversational prose flow and reads more like a self-help checklist",
+      "The advice section lacks first-person 'I think' or 'I'd suggest' framing, instead using imperative bullet points that feel less personal",
+      "Transition phrase 'Here's what usually helps when I'm talking to people in your situation' is somewhat clinical and distances the speaker from the advice"
+    ],
+    "most_ideal_aspect": "The follow-up question 'What kind of stuff is in your pile? Work things, personal tasks, or a mix of everything?' is perfectly natural, specific to the situation, and invites the teen to share more without being generic",
+    "least_ideal_aspect": "The use of three bold-header bullet points (**Start stupidly small**, **Don't try to tackle everything at once**, **Be honest about what actually matters**) creates a structured, list-heavy format that diverges significantly from the ideal conversational prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses three distinct bullet points with bold headers to deliver advice, breaking the natural paragraph flow. The advice is sandwiched between prose paragraphs but the bullet formatting makes it feel like a checklist rather than a friend texting advice."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to flowing prose by using first-person suggestions: 'I'd say start with something stupidly small—like literally the easiest 5-minute task you can spot. Sometimes just getting anything off the list helps break that mental logjam. Then maybe pick just 2-3 things max for today so your brain doesn't nope out.'",
+      "Remove bold formatting and headers entirely to maintain the texting-a-friend aesthetic throughout the entire response",
+      "Add more 'I' statements to the advice section like 'I find that...' or 'What I'd do is...' to maintain the personal connection established in the opening"
+    ]
+  }
+}

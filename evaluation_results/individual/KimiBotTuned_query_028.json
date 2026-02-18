@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, maintaining natural conversational flow throughout",
+      "Strong emotional validation opening with 'Ugh, that stomach-drop feeling' and 'makes total sense you're stressing'",
+      "Specific, actionable advice including exact wording for the apology text"
+    ],
+    "weaknesses": [
+      "Follow-up question is actually three questions combined ('What did you say... and was it... and how did they react'), which feels overwhelming rather than naturally conversational",
+      "Lacks first-person language ('I think', 'I'd say', 'I'd probably') when giving advice, using more impersonal phrasing like 'the safest move is' and 'you can say'",
+      "Slightly heavier focus on practical solutions compared to the ground truth, which lingered longer on pure emotional validation"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points, headers, or over-structuring, reading exactly like a supportive text message",
+    "least_claude_like": "The compound follow-up question that asks three things at once instead of a single, focused question to continue the conversation naturally",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural paragraphs with no bullet points, numbered lists, or headers, perfectly matching Claude's prose-only approach"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses primarily on emotional validation and reflection, while evaluated response quickly moves to specific scripting/what to say",
+      "Ground truth asks simple, singular follow-up questions ('What happened?'), while evaluated response asks multiple questions at once",
+      "Ground truth uses 'Oh no' expression of empathy; evaluated uses 'Ugh' and includes one emoji (😅) which ground truth omits"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry… that's such a gross feeling' and acknowledging 'losing your friend in real time' which captures the specific pain of the situation",
+      "Excellent use of first-person language throughout ('If I were you, I'd…', 'I just don't wanna', 'I'm here') creating genuine connection",
+      "Specific, actionable advice with exact scripts the teen can use ('I miss how we used to be…') and realistic boundary-setting strategies"
+    ],
+    "weaknesses": [
+      "Minor typo 'harster' instead of 'harder' in paragraph two",
+      "The emoji 😅 following 'gross feeling' creates slight tonal dissonance—while it works for awkwardness, a more supportive emoji or none might better match the emotional weight",
+      "Two questions at the end, while connected, slightly dilutes the focus compared to one targeted follow-up"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and seamless integration of specific advice within conversational paragraphs",
+    "least_ideal_aspect": "The typo 'way harster' which disrupts the otherwise polished flow",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within paragraph form as if texting a friend."
+    },
+    "specific_feedback": [
+      "Correct 'way harster' to 'way harder' to maintain professionalism",
+      "Consider using 😕 or 😔 instead of 😅 after acknowledging painful feelings, or omit the emoji entirely since the text carries sufficient warmth",
+      "The two final questions work well together, but could be streamlined to: 'When did you first notice them changing—and is it mostly when they're with that group, or directed at you specifically?'"
+    ]
+  }
+}

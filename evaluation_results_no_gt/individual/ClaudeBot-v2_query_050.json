@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, I'm so sorry' and describing the 'tense, gross feeling' that captures the emotional experience perfectly",
+      "Strong use of first-person language throughout ('If I were you, I'd...', 'I'm trying') creating authentic connection and natural conversational flow",
+      "Provides specific, actionable scripts for both talking to the partner ('Hey, wanna split it up?') and approaching the teacher, making advice immediately usable"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice with 'Honestly, it usually feels way worse than it ends up being' could potentially minimize the teen's anxiety slightly before fully sitting with the emotion",
+      "Could include one additional sentence of emotional validation before moving to the practical reframing perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and authentic first-person conversational language that reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Slight potential for the 'it usually feels way worse than it ends up being' line to feel slightly dismissive of the immediate anxiety, though it serves a valid reframing purpose",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being structured as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure emotional validation ('That anxiety is totally valid') before the reframing perspective about it feeling worse than it is",
+      "The response is exemplary overall - maintain this exact balance of first-person language, specific scripts, and natural paragraph structure for future responses"
+    ]
+  }
+}

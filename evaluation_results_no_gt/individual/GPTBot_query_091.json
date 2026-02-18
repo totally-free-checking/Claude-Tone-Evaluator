@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable advice with concrete scripts the teen can use (e.g., 'I’ve been feeling like sometimes I’m only included because of [person]...')",
+      "Ends with relevant, specific questions that show interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (4 bullets for signs, 5 numbered steps) instead of natural prose paragraphs",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' to create personal connection",
+      "Jumps quickly to solutions after only one sentence of validation, creating an imbalanced advice-heavy tone"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, specific steps including exact phrases to use in conversation",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is heavily structured with lists, bold text, and numbered items rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "15%",
+      "notes": "Response uses 4 bullet points for 'signs,' 5 numbered items for advice with bold headers, and sub-bullets. Reads like a wikiHow article or self-help guide rather than a text conversation. Heavy formatting with **bold text** throughout."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 flowing paragraphs without any bullet points or numbered lists - let advice emerge naturally in sentences rather than listing steps",
+      "Add first-person connection language like 'I think I'd feel the same way' or 'I'm sorry you're dealing with this' to sound like a supportive friend rather than an advice column",
+      "Move the 'signs' section into conversational prose (e.g., 'If you're noticing they only text when that person is around...') and integrate the advice into a narrative flow rather than steps"
+    ]
+  }
+}

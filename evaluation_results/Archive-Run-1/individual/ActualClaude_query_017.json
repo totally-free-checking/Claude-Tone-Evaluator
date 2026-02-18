@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 17,
+  "user_query": "I got a weird vibe from a friend’s boyfriend and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 9.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect prose formatting - three natural paragraphs with conversational flow, zero bullet points or over-structuring",
+      "Immediate validation with 'That's a tough spot to be in!' followed by empowering 'Trust your gut' - validates both the situation and the teen's instincts",
+      "Excellent follow-up questions that are specific and thoughtful - asks about the vibe specifics, relationship closeness, and acknowledges different handling approaches",
+      "Natural conversational tone throughout with contractions and casual phrasing ('Can you tell me a bit more', 'just a general feeling?')"
+    ],
+    "weaknesses": [
+      "Missing emoji usage - Claude typically includes 1-2 emojis (often 😅 or similar) to set a warm, casual tone, especially in the opening",
+      "Could have slightly more emotional warmth in the opening - while validating, it could lean into the discomfort more ('Oof, that's such an uncomfortable position' or similar)"
+    ],
+    "most_claude_like": "The follow-up question structure is perfectly Claude - multiple specific, thoughtful questions that show genuine interest and help the teen think through their situation ('Was it something he said, did, or just a general feeling?' and considering relationship closeness)",
+    "least_claude_like": "The complete absence of emojis - Claude's teen support character almost always includes at least one emoji early in the response to establish warmth and casualness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No bullets, no headers, no bold text. Flows conversationally like a text message from a supportive friend."
+    },
+    "key_differences_from_ground_truth": {
+      "note": "This response IS the ground truth - they are identical",
+      "differences": [
+        "No differences - the responses are word-for-word identical"
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation: 'That sounds really frustrating and uncomfortable - I'm sorry you're dealing with that' acknowledges the emotional weight immediately",
+      "Provides specific, actionable phrases the teen can use like 'I don't want to hear comments about my body' and 'That makes me uncomfortable, please stop'",
+      "Ends with an engaging, context-specific follow-up question that shows genuine interest in understanding the situation better"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('Setting boundaries:', 'Depending on the situation:', 'Remember:') makes it read like a self-help article rather than a conversation with a friend",
+      "Lacks first-person language throughout the advice section - uses 'You could try' and 'You might want' instead of 'I think you could' or 'I'd probably suggest', making it feel impersonal",
+      "Missing emojis that could enhance warmth for this sensitive topic - a simple 💙 or 😔 would help convey emotional support"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is natural and engaging, asking specifically about whether it's someone close or a workplace/school situation to help figure out the best approach",
+    "least_ideal_aspect": "The formatting is heavily structured with multiple bullet point sections and headers, completely violating the 'natural prose paragraphs' requirement and making it feel like a wikiHow article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "20%",
+      "notes": "Response uses three headers ('Setting boundaries:', 'Depending on the situation:', 'Remember:') followed by 7 bullet points. Only the opening sentence and closing question are in prose form. This is exactly the 'self-help article' format the character profile warns against"
+    },
+    "specific_feedback": [
+      "Rewrite entirely in paragraph form - instead of bullet points under headers, flow the advice naturally: 'If you want to set a boundary, I'd probably just say something direct like... Or if it's someone at school, you might need to...'",
+      "Add first-person perspective throughout: change 'You could try being direct' to 'I think being direct usually works best - I'd probably say something like...' and 'Sometimes a simple wow works' to 'Honestly, sometimes I just go with a simple wow and change the subject'",
+      "Consider adding one warm emoji early on (like 😔 or 💙) to soften the serious topic, and expand the emotional validation beyond the first sentence to weave it throughout the response"
+    ]
+  }
+}

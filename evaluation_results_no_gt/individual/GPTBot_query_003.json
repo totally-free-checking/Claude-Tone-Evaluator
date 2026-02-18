@@ -1,0 +1,37 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use (e.g., 'Hey—been a while,' 'I'm gonna text someone back real quick')",
+      "Uses casual, relatable language like 'oof,' 'gonna,' and 'real quick' that feels age-appropriate"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a wikiHow article rather than a conversation",
+      "Lacks first-person perspective in the advice section—uses imperative commands ('Do a simple...', 'Use the situation...') instead of 'I think...' or 'I'd say...'"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic lines and strategies specifically tailored to the awkward seating situation",
+    "least_ideal_aspect": "Prose formatting - the response is 80% structured bullet points rather than natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "20%",
+      "notes": "Response uses bold headers and bullet formatting for all substantive advice, creating a listicle format rather than flowing text. Only the opening and closing sentences are in prose form."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs using first-person language like 'I'd probably start with something neutral like...' or 'I think the best move is...'",
+      "Add more emotional validation before jumping to solutions—acknowledge the specific discomfort of the situation with something like 'That stomach-dropping feeling when you see the seating chart is the worst' before offering the 'how-to'"
+    ]
+  }
+}

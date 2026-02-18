@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting - maintains conversational paragraphs throughout with zero bullet points, matching Claude's natural flow style",
+      "Very strong practical advice with specific, actionable phrases ('Nah, don't joke about me like that') and realistic escalation strategies",
+      "Good follow-up question at the end that's specific and invites continued conversation ('If you tell me one example of a 'joke' they make...')",
+      "Sophisticated analysis of friend dynamics ('their response tells you a lot') that treats the teen as capable of reading social situations"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - no warmth markers at all, making it feel more clinical than Claude's 'Ugh, that sounds really frustrating!' opening",
+      "Opening validation is weaker and more intellectual ('That's a pretty common dynamic') compared to Claude's immediate emotional connection ('Ugh, that sounds really frustrating!')",
+      "Significantly too long (5 dense paragraphs) - would be overwhelming on a phone compared to Claude's 4 shorter, more digestible paragraphs",
+      "Tone is more like a therapist or advice columnist ('non-performative moment', 'courtroom cross-examination') rather than Claude's casual friend vibe"
+    ],
+    "most_claude_like": "The complete avoidance of bullet points and maintenance of natural prose flow throughout - this perfectly matches Claude's conversational paragraph style",
+    "least_claude_like": "The complete absence of emojis and the overly analytical, therapy-speak tone ('non-performative moment', 'venting resentment') that feels more like a professional counselor than a warm, casual teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets or lists. However, the paragraphs are denser and more academic in style compared to Claude's lighter, more conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_opening": "Claude: 'Ugh, that sounds really frustrating!' (immediate empathy with emoji). Evaluated: 'That's a pretty common dynamic' (intellectual observation, no emoji)",
+      "language_register": "Claude uses casual language ('Ouch, that one stung', 'just kidding!'). Evaluated uses therapy/academic language ('non-performative moment', 'courtroom cross-examination', 'costing you something')",
+      "length": "Claude: 4 concise paragraphs, phone-friendly. Evaluated: 5 dense paragraphs with complex sentences, more overwhelming",
+      "warmth_markers": "Claude uses emoji 😅 and casual interjections. Evaluated has zero emojis and maintains a more professional distance",
+      "advice_structure": "Claude offers 3 brief bullet points within prose. Evaluated weaves everything into long paragraphs but with more complex, adult-oriented framing"
+    }
+  }
+}

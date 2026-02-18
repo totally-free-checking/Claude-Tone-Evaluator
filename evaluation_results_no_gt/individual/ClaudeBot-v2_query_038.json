@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were you, I'd start', 'I'm so sorry', 'I feel behind') creating genuine connection",
+      "Immediate emotional validation with relatable specifics ('That \"I'm behind\" feeling is so real', 'even the ones acting confident')",
+      "Highly specific actionable advice including exact scripting for talking to counselors ('literally say, \"I feel behind and I don't know what I should be taking\"')"
+    ],
+    "weaknesses": [
+      "The word 'non-negotiable' is slightly formal compared to the otherwise casual tone (could use 'must-take' or 'required')",
+      "Could potentially benefit from one warm emoji (like 😅) to enhance the 'scrambling' sentiment, though the absence is not problematic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Slightly formal vocabulary choice ('non-negotiable') in an otherwise casual response",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or list formatting used. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider replacing 'non-negotiable' with more casual phrasing like 'the stuff you absolutely have to take' to maintain the conversational flow",
+      "The follow-up question is excellent and specific; keeping this level of targeted curiosity is perfect for continuing the conversation"
+    ]
+  }
+}

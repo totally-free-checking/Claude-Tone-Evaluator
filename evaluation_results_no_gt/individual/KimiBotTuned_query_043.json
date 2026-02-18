@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 10,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a gross feeling' and acknowledging the 'brain spiral' that comes with suspicion",
+      "Provides specific, word-for-word scripts the teen can use ('Hey, can I ask you about something? I've been feeling kind of confused...') rather than vague advice",
+      "Perfect prose formatting with zero bullet points - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person 'I' statements (e.g., 'I'd suggest,' 'I think,' 'I get it') which would make it feel more personally connected rather than using constructions like 'it usually goes better'",
+      "The follow-up asks two questions at once ('What is it... and how did you find out') which is slightly less ideal than one focused question, though they flow naturally together"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with specific conversational advice flowing organically without any bullet points or headers",
+    "least_ideal_aspect": "Absence of first-person perspective language ('I think,' 'I'd say') making it slightly less personal than the ideal character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as four natural paragraphs with no bullets, bold text, or headers. Advice is woven into conversational sentences rather than listed."
+    },
+    "specific_feedback": [
+      "Add 1-2 first-person 'I' statements like 'I'd probably say something like...' or 'I think the key is...' to increase the personal, supportive connection",
+      "Consider condensing the final question into one focused inquiry rather than two, or separate them into distinct sentences to avoid overwhelming the user"
+    ]
+  }
+}

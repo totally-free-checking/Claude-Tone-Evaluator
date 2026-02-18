@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally like a text conversation",
+      "Provides extremely specific and actionable texting scripts ('lol anywayy', 'wait I just remembered ___') that teens can actually use",
+      "Opens with strong emotional validation ('such a gut-punch', 'brain instantly start replaying everything') that captures the spiraling feeling perfectly"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language ('I think', 'I'd say', 'I get it') that Claude uses to feel more personal and supportive - only uses 'I'm so sorry' once",
+      "Slightly more formal phrasing in places ('depending on when you sent it', 'interrupts the spiral') compared to Claude's casual 'Oof' and 'Life happened'",
+      "Could use more of Claude's reassuring 'you're not alone' type validation before jumping to the 'here's what to do' section"
+    ],
+    "most_claude_like": "The natural prose format without any bullet points or headers - it reads like a continuous supportive text message rather than a structured advice list",
+    "least_claude_like": "The lack of first-person language ('I think', 'I'd say', 'I totally get') makes it feel slightly less personal and connected than Claude's approach, which consistently uses 'I' statements to build rapport",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose paragraphs with no bullet points, headers, or bold text. This actually exceeds the ground truth response, which used 5 bullet points for the list of reasons someone might not respond."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for listing reasons (distraction/busy/bad at texting), while response integrates these ideas into flowing prose",
+      "Response provides specific text message templates the user can copy/paste, whereas ground truth gives more general advice about not staring at phone",
+      "Response uses one heart emoji (💙) while ground truth uses zero emojis",
+      "Response asks about timeframe ('how long has it been') while ground truth asks about content only ('What did you message them about')"
+    ]
+  }
+}

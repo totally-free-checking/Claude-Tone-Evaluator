@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I get that') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - reads exactly like a supportive friend texting",
+      "Strong immediate validation with 'Ugh, that's so rough!' and acknowledgment that it feels like being treated as 'more of a resource than a real friend'"
+    ],
+    "weaknesses": [
+      "The phrase 'I get' is used twice in close proximity ('I totally get' and 'I get that') which slightly reduces natural flow",
+      "Advice to 'try reaching out when YOU need something' could include a specific example of what that text/conversation might look like"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining clear organization through paragraph breaks",
+    "least_ideal_aspect": "Slight repetition in validation phrasing with multiple uses of 'I get' that could be varied for more natural speech patterns",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, or bold headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Vary the validation phrases slightly - instead of 'I get that' twice, try 'I'd feel the same way' or 'That makes total sense'",
+      "Add one concrete example of what reaching out for help might sound like (e.g., 'Hey, I'm really stressed about this test, can I vent for a sec?') to make the advice more actionable"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I totally get', 'I think', 'I'd just') creating a personal, supportive connection",
+      "Natural conversational flow with teen-appropriate phrasing ('Ugh', 'super tempting', 'cooled off') without forced slang",
+      "Completely avoids bullet points and maintains prose format with smooth transitions between validation and advice",
+      "Provides specific, actionable advice tailored to different contexts (school vs. home) with realistic options for teen agency"
+    ],
+    "weaknesses": [
+      "Transitions to practical advice too quickly compared to ground truth - uses 'The good news is...' in paragraph 2 rather than continuing emotional validation",
+      "Slightly longer than ground truth (4 paragraphs vs 3) and more solution-focused rather than offering to listen/vent first",
+      "Lacks the explicit 'I'm here to listen' offer that appears in ground truth, making it feel slightly less emotionally available"
+    ],
+    "most_claude_like": "The natural first-person conversational voice using contractions and casual phrasing ('I totally get why you're upset', 'I'd just keep being honest') that sounds like texting with a supportive friend",
+    "least_claude_like": "The rapid pivot to problem-solving advice after only one paragraph of validation, whereas Claude's ground truth emphasizes venting and listening before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within paragraphs rather than being listed out"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses on emotional support and venting first ('Sometimes it helps just to vent'); evaluated response jumps immediately to practical solutions ('The good news is...')",
+      "Ground truth explicitly offers listening presence ('I'm here to listen'); evaluated response focuses on actionable steps",
+      "Ground truth asks questions earlier (paragraph 2) to understand the situation before advising; evaluated gives extensive advice before asking the follow-up question",
+      "Ground truth uses one emoji (💙); evaluated uses none (though both are acceptable per character profile)"
+    ]
+  }
+}

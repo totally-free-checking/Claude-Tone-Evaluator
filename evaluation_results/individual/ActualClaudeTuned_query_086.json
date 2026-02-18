@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I promise', 'I know') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Strong immediate validation with 'Ugh, that's the worst feeling!' and acknowledging the urge to disappear"
+    ],
+    "weaknesses": [
+      "The follow-up question is slightly more direct ('What exactly happened') compared to Claude's gentler 'if you don't mind me asking' approach",
+      "Adds specific advice about using humor which, while helpful, wasn't in the ground truth and slightly shifts the balance toward solutions",
+      "Uses an emoji (😅) when the ground truth used zero, though this is within acceptable bounds"
+    ],
+    "most_claude_like": "The natural prose flow with conversational first-person validation - it genuinely sounds like a supportive friend texting rather than an AI giving advice",
+    "least_claude_like": "The slightly more directive tone in the advice section (suggesting specific humor tactics) versus the ground truth's more open-ended emotional support approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or over-structuring. Maintains conversational flow throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth emphasizes 'you're being harder on yourself than anyone else' while evaluated response focuses more on 'everyone messes up' messaging",
+      "Evaluated response includes specific tactical advice (using humor) that ground truth omits in favor of pure emotional validation",
+      "Ground truth uses zero emojis and relies on italics for emphasis (*worst*), while evaluated response uses one emoji (😅) and no formatting"
+    ]
+  }
+}

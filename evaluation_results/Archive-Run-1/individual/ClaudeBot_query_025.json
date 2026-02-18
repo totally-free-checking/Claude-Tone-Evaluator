@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent practical advice with specific phrases the teen can actually use: 'I know you meant well, but I need you to ask me before signing me up for things' - this is concrete and actionable",
+      "Strong follow-up question that's specific and helpful: 'tell me what she signed you up for (and roughly your age), and I can help you craft a message' - shows genuine interest in continuing the conversation",
+      "Good acknowledgment of parent intentions: 'A lot of parents do this thinking they're being helpful' - validates both perspectives",
+      "Offers multiple pathways based on the teen's openness to the activity, showing flexibility and respect for their agency"
+    ],
+    "weaknesses": [
+      "Jumps almost immediately into advice mode without sufficient emotional validation - Claude starts with 'Oh no, that sounds really frustrating!' and sits with the feeling first, while this response moves quickly to solutions",
+      "Uses em-dashes and structured formatting that feels more formal than Claude's natural prose style",
+      "Completely lacks emojis - Claude uses them to set a warm, casual tone (😅 or similar), making this feel more clinical by comparison",
+      "The phrase 'without turning it into a huge fight' assumes conflict that the teen didn't mention, which could feel presumptuous rather than validating"
+    ],
+    "most_claude_like": "The follow-up question asking for specifics (what she signed them up for and their age) to help craft a message - this perfectly matches Claude's approach of continuing the conversation with genuine, practical interest",
+    "least_claude_like": "The complete absence of emojis and the immediate pivot to structured advice without sitting with the emotional frustration first - Claude would start with warmth and validation ('Oh no!', 'totally understandable') before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While there are no explicit bullet points, the response uses structured formatting with em-dashes and quoted phrases that create a more formal, segmented feel rather than Claude's flowing conversational paragraphs. The multiple 'If you...' conditional statements create an implicit list structure even without bullets."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude starts with emotional validation ('Oh no, that sounds really frustrating!') and sits with the feeling before offering advice, while the evaluated response validates but immediately moves to boundary-setting strategies",
+      "Claude uses an emoji and more casual interjections ('Oh no') to create warmth, while the evaluated response is emoji-free and more formal in tone",
+      "Claude asks simple, open questions first ('What did she sign you up for? And have you had a chance to talk to her about it yet?') to understand the situation, while the evaluated response assumes the teen wants advice on how to confront their mom",
+      "Claude's response is shorter and more focused on understanding before advising, while the evaluated response provides comprehensive advice upfront that may feel overwhelming without first establishing what the teen actually needs"
+    ]
+  }
+}

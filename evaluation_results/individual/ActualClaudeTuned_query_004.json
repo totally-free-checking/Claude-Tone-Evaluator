@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd maybe try', 'I totally get') creating a personal, supportive voice that feels like a real conversation",
+      "Opens with identical warm validation to ground truth ('Ugh, that's so frustrating!') and maintains empathetic tone with phrases like 'it's hard not to overthink everything'",
+      "Uses natural prose paragraphs without any bullet points, allowing advice to flow conversationally rather than feeling like a checklist"
+    ],
+    "weaknesses": [
+      "Includes an emoji (😅) when the user didn't explicitly ask for one and the ground truth uses none, slightly deviating from the 'don't use emojis unless asked' guideline",
+      "Missing two specific practical suggestions present in ground truth: suggesting an apology if they think they did something wrong, and proposing an in-person hangout or call as an alternative to texting",
+      "Advice is slightly less specific in terms of offering multiple concrete phrasing options compared to the ground truth's bulleted suggestions"
+    ],
+    "most_claude_like": "The extensive, natural use of first-person language ('I'd maybe try', 'I think', 'I'd give them') that makes the advice feel like it's coming from a supportive friend rather than an impersonal guide",
+    "least_claude_like": "The inclusion of the 😅 emoji when the ground truth response and character guidelines suggest avoiding emojis unless specifically requested",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure conversational prose throughout, presenting advice in flowing paragraphs rather than the bulleted list format used in the ground truth. This actually aligns better with the character profile's preference for prose over bullets, though it differs from the provided ground truth."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses a bulleted list for advice while evaluated response uses continuous prose paragraphs",
+      "Ground truth ends with two separate questions while evaluated combines inquiry into one natural question about in-person vs. text behavior",
+      "Ground truth explicitly suggests meeting in person or calling as a solution, while evaluated focuses on giving space and waiting",
+      "Evaluated response uses one emoji (😅) while ground truth uses none"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout with natural usage of 'I get it,' 'I think,' and 'I'd say' creating authentic connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation between friends",
+      "Highly specific and engaging follow-up question about the type of smile that invites deeper sharing"
+    ],
+    "weaknesses": [
+      "Could offer one more specific conversation starter beyond 'say hi' to make the advice even more actionable",
+      "The transition to 'you're probably reading way more into it' comes slightly quickly - could linger on validating the excitement a moment longer before the gentle reality check"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that sounds like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice could include slightly more specific scripting or conversation topics beyond just smiling back and saying hello",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific conversation starter example (like asking about a class you share or a recent event) to make the 'what to do next' advice more concrete",
+      "While the reality check is gentle and needed, you could add one more sentence validating how exciting/nerve-wracking that moment feels before pivoting to perspective"
+    ]
+  }
+}

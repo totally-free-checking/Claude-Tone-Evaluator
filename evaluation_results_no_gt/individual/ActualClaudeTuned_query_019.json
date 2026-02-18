@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Oh no, that's such a stressful situation!' and 'I'm so sorry you're dealing with this' that acknowledge the specific emotional weight of false accusations",
+      "Perfect natural prose format with zero bullet points or headers, creating a conversational flow that reads like a supportive friend texting",
+      "Strong use of first-person language throughout ('I think your best move,' 'I can imagine how frustrated,' 'I'm so sorry') creating personal connection",
+      "Specific actionable advice including exact script language ('I understand why the similarities look suspicious, but here's exactly how I approached this work...') and concrete evidence suggestions (notes, drafts, browser history)"
+    ],
+    "weaknesses": [
+      "The 😅 emoji placement creates slight tonal dissonance by following immediately after words like 'awful,' 'frustrated,' and 'worried' - the nervous laughter emoji undercuts the serious emotional validation slightly",
+      "Could benefit from mentioning one additional safety net option (like involving a parent or counselor) if the direct conversation doesn't resolve the issue, though the current advice is solid"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and complete absence of bullet points or over-structuring",
+    "least_ideal_aspect": "Emoji choice and placement - using 😅 (nervous laughter) immediately after validating serious feelings of worry and frustration about academic integrity issues",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using 💙, 😟, or no emoji instead of 😅 for serious situations involving academic stress, as the nervous laughter emoji slightly conflicts with the gravity of false cheating accusations",
+      "The follow-up question is excellent and specific; maintain this level of engagement in all responses"
+    ]
+  }
+}

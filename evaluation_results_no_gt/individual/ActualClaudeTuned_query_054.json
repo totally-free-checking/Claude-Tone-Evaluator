@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'I'm so sorry you're dealing with this' and acknowledging the 'violating' nature of the comments",
+      "Provides specific, actionable script the teen can use: 'Hey, can you please stop commenting on my body? It makes me uncomfortable'",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "Could incorporate more first-person language throughout (only uses 'I think' once; could add 'I'd suggest' or 'I get how that feels')",
+      "The transition from validation to advice in paragraph 2 is slightly abrupt with 'You have every right' - could use a softer bridge like 'If I were you, I'd...'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - reads exactly like a supportive friend texting without any over-structuring or bullet points",
+    "least_ideal_aspect": "Limited first-person language usage - relies more on general 'you' statements rather than personal 'I' perspective that would strengthen the connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural paragraphs throughout. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add more first-person perspective throughout, such as 'I'd probably say something like...' or 'I get why that feels so gross' to strengthen the personal connection",
+      "Consider adding one more validating phrase before the practical advice in paragraph 2, such as 'That kind of thing can really mess with your head' to extend the emotional support slightly longer"
+    ]
+  }
+}

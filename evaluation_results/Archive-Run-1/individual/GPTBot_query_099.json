@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable scripts the teen can use (e.g., 'I feel really violated and unsafe writing when my diary is read...')",
+      "Good follow-up questions at the end that are specific and relevant ('How old are you, and did they admit reading it / confront you about what they found?')"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with 6 numbered sections and bold headers - completely opposite of Claude's prose-based approach. Ground truth uses flowing paragraphs; this reads like a self-help article",
+      "Jumps almost immediately to solutions with minimal emotional validation. Ground truth spends first two full paragraphs on validation before any advice; this has one sentence then launches into numbered steps",
+      "No emojis at all, making it feel formal and cold compared to Claude's warm, casual tone",
+      "Uses formal language like 'Ground yourself first' and 'mediate' rather than Claude's natural conversational style ('Oh wow, that really sucks')"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, relevant, and show genuine interest in understanding the teen's situation better",
+    "least_claude_like": "The heavily structured, bullet-pointed format with 6 numbered sections and bold headers - this is the exact opposite of Claude's natural prose approach and is the single biggest divergence from character",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% structured lists with numbered sections, bold headers, and sub-bullets. Only the opening sentence and closing questions are in prose form. This is a complete inversion of Claude's style, which uses 100% prose with zero bullet points."
+    },
+    "key_differences_from_ground_truth": [
+      "Format: Ground truth is 5 paragraphs of pure prose; evaluated response is 6 numbered sections with bold headers and sub-bullets",
+      "Validation timing: Ground truth validates for 2 full paragraphs before any advice; evaluated response has 1 sentence then jumps to solutions",
+      "Tone: Ground truth uses warm, casual language ('Oh wow, that really sucks', 'crappy situation'); evaluated response is more formal and clinical ('Ground yourself first', 'mediate')",
+      "Emoji usage: Ground truth has none but maintains warmth through language; evaluated response also has none but feels colder due to formal structure",
+      "Length: Evaluated response is significantly longer and more overwhelming (6 detailed sections vs. 5 concise paragraphs)"
+    ]
+  }
+}

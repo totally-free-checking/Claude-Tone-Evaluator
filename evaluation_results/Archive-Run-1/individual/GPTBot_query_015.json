@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong opening validation: 'That's infuriating. When someone keeps crossing that line, it starts to feel *really* personal.' - captures the emotional weight effectively",
+      "Practical advice is highly specific and actionable with concrete phrases like 'I'm not okay with you going through my things. It needs to stop.' and realistic solutions like lockboxes and door wedges",
+      "Ends with engaging follow-up questions that are specific to the situation (age, room type, missing items vs snooping) showing genuine interest in tailoring advice"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet structure - uses 6 numbered headers with multiple sub-bullets each, making it read like a self-help article rather than a conversation",
+      "Missing emojis entirely - no 😅, 😤, or any emoji to soften the tone and create warmth, making it feel more formal and less like texting with a friend",
+      "Jumps too quickly from validation to solutions - only 2 sentences of emotional support before launching into a 6-point structured plan, whereas Claude balances validation throughout",
+      "Overwhelming length and structure - the response is far too long with excessive formatting (headers, bold text, numbered sections) that would be difficult to read on a phone and feels more like a comprehensive guide than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, natural, and show genuine interest in understanding the situation better to provide tailored advice",
+    "least_claude_like": "The heavy reliance on numbered headers, bullet points, and structured formatting (## 1), ## 2), etc.) is the complete opposite of Claude's conversational prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response uses 6 major numbered sections with headers, each containing multiple bullet points. Only the opening 2 sentences and closing paragraph are in prose form. The structure reads like a comprehensive guide or article rather than a conversational response. Claude's ground truth uses minimal bullets (4 simple dashes) embedded naturally within prose."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses mostly prose with one small bulleted section (4 items) naturally embedded. Evaluated response is 85% structured bullets/headers.",
+      "emotional_tone": "Ground truth maintains warmth throughout ('Ugh, that's SO frustrating!', 'honestly, they probably should know better'). Evaluated response front-loads validation then becomes clinical.",
+      "length": "Ground truth is concise (4 short paragraphs). Evaluated response is overwhelming (6 major sections with extensive sub-points).",
+      "emoji_usage": "Ground truth would typically include 1-2 emojis. Evaluated response has none.",
+      "conversational_flow": "Ground truth feels like texting with a friend. Evaluated response feels like reading a comprehensive how-to article.",
+      "advice_integration": "Ground truth weaves advice naturally into conversation. Evaluated response compartmentalizes everything into rigid sections."
+    }
+  }
+}

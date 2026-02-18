@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 16,
+  "user_query": "I forgot I had practice after school and I planned something else.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or over-structuring—it reads exactly like a supportive text from a friend",
+      "Strong use of first-person language and personal sharing ('I have to literally put *everything* in my phone or my brain just deletes it immediately') which creates authentic connection",
+      "Practical advice is specific and immediately actionable for a teen's agency (texting coach now, weighing which commitment is harder to reschedule, setting phone reminders)"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end—the response ends with a statement ('you'll figure it out') rather than engaging the user to continue the conversation",
+      "Uses 3 emojis (😅, 😬, 💪) which exceeds the ideal maximum of 0-1 emojis per response",
+      "Could provide slightly more emotional validation before jumping to 'First things first' practical solutions—the pivot to action happens very quickly after the opening sentence"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring—the advice flows conversationally in paragraphs that read like a real text message exchange",
+    "least_ideal_aspect": "The absence of a follow-up question to continue the dialogue—the ideal character nearly always ends with a natural, engaging question to invite the teen to share more",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. The response uses natural paragraph breaks and conversational flow throughout, with advice embedded in sentences rather than listed out"
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end to continue the conversation, such as 'Which thing are you leaning toward prioritizing?' or 'What was the other thing you had planned—was it something you can move easily?'",
+      "Reduce emoji usage from 3 to 0-1 max—consider keeping just the 😅 at the opening or the 💪 at the end, but remove the 😬 which could increase anxiety about getting in trouble",
+      "Add one more sentence of emotional validation before 'First things first' to acknowledge the panic of the moment, such as 'That stomach-drop moment is the worst feeling, but take a breath—you've got this'"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong empathetic validation ('that sinking feeling after a test is literally the worst') that mirrors Claude's approach",
+      "Ends with a natural, engaging follow-up question that shows genuine interest in the teen's current emotional state",
+      "Provides specific, actionable advice like the 4-7-8 breathing technique and avoiding answer-checking online"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers ('**For right now:**', '**When you're ready:**') and bullet points creates a structured, list-heavy format unlike Claude's prose-heavy style",
+      "Uses college-specific terminology ('professors', 'office hours') rather than general teen-appropriate language ('teachers') used in the ground truth",
+      "Lacks Claude's characteristic first-person language ('I think', 'I'd say', 'I get it') throughout most of the response, making it feel more impersonal"
+    ],
+    "most_claude_like": "The opening validation that immediately acknowledges the emotional weight ('that sinking feeling') and the conversational closing question that invites further sharing",
+    "least_claude_like": "The structured formatting with bold section headers and multiple bullet point lists, which reads like a self-help article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "65%",
+      "notes": "Response uses two separate bulleted lists with bold headers ('For right now' and 'When you're ready'), creating a visually structured format that breaks the conversational flow. Ground truth uses only 3 bullets in a single unstructured list."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses bold headers and multiple bullet lists instead of flowing natural prose paragraphs",
+      "References 'professors' and 'office hours' (college context) rather than 'teachers' (general teen context)",
+      "Missing first-person language ('I think', 'I'd say') that makes Claude's responses feel personal and warm"
+    ]
+  }
+}

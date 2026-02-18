@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such an uncomfortable spot to be in' and reassurance that 'you're not being dramatic for being over it'",
+      "Provides specific, actionable scripts the teen can actually say: 'Stop joking about fighting me. I don't like it' and 'I'm not playing. Don't say that to me anymore'",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') - uses impersonal constructions like 'the cleanest move is' instead of 'I think the cleanest move is'",
+      "Emoji choice (😅) is slightly mismatched for the seriousness of physical threat situations, though it conveys awkwardness"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with specific actionable advice including exact phrases to use",
+    "least_ideal_aspect": "Absence of first-person perspective makes the response feel like generic advice rather than a supportive friend saying 'I think' or 'I'd say'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational paragraphs with no bullet points, headers, bold text, or lists - flows exactly like a text conversation"
+    },
+    "specific_feedback": [
+      "Add first-person language throughout, such as 'I think the cleanest move...' or 'I'd say you're not being dramatic...' or 'I'm here if you need to talk' to create personal connection",
+      "Consider replacing 😅 with 💙 or 😊 given the serious nature of physical threats, or simply removing it, as the 😅 may inadvertently minimize the severity of the situation"
+    ]
+  }
+}

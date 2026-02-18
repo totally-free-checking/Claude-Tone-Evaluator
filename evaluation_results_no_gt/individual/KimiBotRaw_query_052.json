@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong immediate validation: 'Ugh, that stuck feeling is the worst—you're mentally checked out but your conscience is like \"but what about commitment??\"' which captures the emotional conflict perfectly",
+      "Provides excellent concrete tools like the litmus test question ('If I woke up tomorrow and this was magically over... would I feel relieved or sad?') and specific scripts ('This isn't working for me right now') that are immediately actionable",
+      "Ends with a natural, specific follow-up question: 'What's the activity, if you don't mind sharing?' which invites continued conversation"
+    ],
+    "weaknesses": [
+      "Uses bold headers ('Where's the guilt actually coming from?', 'The \"strategic quit\" reframe', 'The litmus test') and a bullet point list instead of natural prose paragraphs, making it feel more like a self-help article than a text conversation",
+      "Completely lacks first-person singular language ('I think', 'I'd say', 'I get it') - it uses 'we're' and general statements but never creates the personal connection of a friend sharing their perspective"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific reframes, concrete decision-making tools, and realistic scripts that respect teen agency",
+    "least_ideal_aspect": "Conversational tone and first-person language - reads as impersonal general wisdom rather than a supportive friend sharing personal perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "Response contains three bold headers and one bullet list with three items. While the content between these structures is conversational prose, the formatting breaks the flow of a natural text conversation and creates a structured, article-like appearance"
+    },
+    "specific_feedback": [
+      "Remove the bold headers and bullet points, integrating those questions and ideas into flowing paragraphs. For example, instead of a header and bullets, write: 'I'd start by asking where that guilt is actually coming from. Are you worried about letting specific people down? Is it the sunk-cost fallacy talking? Or does it feel like you're giving up part of your identity?'",
+      "Add first-person language to create personal connection. Instead of 'We're basically trained to see quitting as failure,' try 'I used to think quitting was failing too, but honestly? I've learned it's often just... editing.' or 'I'd say the real question is...'"
+    ]
+  }
+}

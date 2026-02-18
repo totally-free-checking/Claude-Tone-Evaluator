@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I think', 'If I were you', 'I'd maybe') creating genuine connection",
+      "Specific emotional validation with physical description ('anxious knot in your stomach') that shows deep empathy",
+      "Provides concrete, realistic advice including an exact script the teen could use ('I've been feeling overwhelmed...')",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Follow-up question 'What exactly has you feeling on edge...' uses slightly awkward phrasing ('has you feeling' is less common than 'is making you feel')",
+      "Could briefly acknowledge specific common fears (like worrying the counselor will tell parents) before asking the question to show deeper understanding"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - completely avoids bullet points and structured advice, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The follow-up question phrasing is slightly less natural than the rest of the response",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider softening the follow-up question to 'What specifically is making you nervous about it?' or 'Is it worrying they'll tell your parents, or something else?' to match the casual tone more closely",
+      "Could add one more 'I' statement in the middle section like 'I remember feeling that way too' to strengthen the personal connection, though the existing 'If I were you' works well"
+    ]
+  }
+}

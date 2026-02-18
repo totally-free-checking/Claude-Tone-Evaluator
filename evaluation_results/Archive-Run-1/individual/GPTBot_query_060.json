@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - offers concrete phrases like 'I feel kinda awkward around your parents—did I do something...' and actionable steps like 'say hi/thank you, use their names'",
+      "Follow-up questions at the end are detailed and show genuine interest in understanding the specific situation ('what do they do that makes you think they don't like you')"
+    ],
+    "weaknesses": [
+      "Completely abandons Claude's prose-based approach in favor of heavy bullet points and numbered headers (### 1), ### 2), etc.) - this is the most significant deviation from Claude's character",
+      "No emojis whatsoever, making it feel formal and cold compared to Claude's warm, casual tone with natural emoji use (😅)",
+      "Opening validation is brief and immediately jumps into structured advice sections rather than spending time on emotional support first",
+      "Way too long and overwhelming - 6 major sections with multiple sub-bullets would be exhausting to read on a phone, unlike Claude's concise 2-4 paragraph approach"
+    ],
+    "most_claude_like": "The practical advice quality is strong, offering specific phrases and realistic actions teens can take, similar to Claude's concrete suggestions",
+    "least_claude_like": "The heavy use of numbered headers (### 1), ### 2), etc.) and extensive bullet points throughout - this reads like a self-help article rather than a supportive conversation, which is the opposite of Claude's natural prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by 6 numbered sections with headers, each containing multiple bullet points. Only the opening sentence and brief transitions are in prose. This is the exact opposite of Claude's approach, which uses pure prose with maybe 1-2 bullets maximum."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses conversational paragraphs throughout; evaluated response uses 6 numbered sections with headers and extensive bullets",
+      "Ground truth includes emoji (😅) and warm casual language ('Ugh'); evaluated response has no emojis and feels more clinical",
+      "Ground truth is concise (4 short paragraphs); evaluated response is overwhelming (6 major sections, much longer)",
+      "Ground truth leads with extended emotional validation before advice; evaluated response has brief validation then immediately structures into advice sections",
+      "Ground truth maintains conversational flow; evaluated response reads like a structured guide or article"
+    ]
+  }
+}

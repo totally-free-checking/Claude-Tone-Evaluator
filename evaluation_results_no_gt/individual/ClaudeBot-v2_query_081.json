@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so annoying' and acknowledgment of feeling 'cranky and overwhelmed'",
+      "Uses first-person advice format naturally ('If I were you, I'd...') making it feel like peer support rather than lecturing",
+      "Provides specific, actionable script for the conversation: 'Hey lol I keep getting your snaps at like 2am—can you send them earlier?'",
+      "Excellent follow-up question that explores the friendship dynamic ('Do you think they're doing it just because they're up late, or does it feel like they're trying to get your attention specifically?')"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit first-person supportive language like 'I get it' or 'I'm here if you need to talk' to strengthen the personal connection",
+      "The advice paragraph is slightly dense; could break into two shorter paragraphs for better mobile readability"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Slightly limited use of explicit first-person emotional support phrases (e.g., 'I'm here for you') though the tone is warm",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Advice flows naturally within conversational paragraphs using 'or' and 'and then' transitions rather than list formatting."
+    },
+    "specific_feedback": [
+      "Consider adding one brief first-person support statement like 'I'm here if you need to vent more' or 'I get how frustrating that is' to strengthen the personal connection",
+      "The third paragraph could be split after '...notifications at night.' to create more white space for mobile readability, though the content is excellent"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent emotional validation opening with casual language ('Ugh, that's such a rough spot to be in') that immediately makes the teen feel understood",
+      "Provides highly specific, actionable advice with exact phrasing examples ('hey, I've noticed you've been making more jokes about [specific thing]...') that teens can actually use",
+      "Maintains a warm, non-judgmental tone throughout while acknowledging the friend's agency ('you can't really stop it','it's not your job to fix them')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language ('I think','I'd say','I get it') specified in the character profile, using primarily second-person ('you can control') instead",
+      "Heavy reliance on bullet points with bold headers deviates from the prose-heavy conversational style preferred in the character profile",
+      "Slightly longer than ideal, with dense advice sections that could feel overwhelming on a mobile screen compared to the more concise ground truth"
+    ],
+    "most_claude_like": "The opening validation that balances empathy with casual language ('Ugh','rough spot') and acknowledges the emotional difficulty of watching a friend change",
+    "least_claude_like": "The absence of natural first-person perspective ('I think','I'd say') throughout the response, making it feel slightly more instructional than conversational",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Uses bold headers with bullet-style formatting for three main advice sections. While the ground truth also uses formatting, this response relies more heavily on structured lists rather than flowing prose for the practical advice portion."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses italics for emphasis (*powerful*) which the ground truth avoids",
+      "Provides more detailed specific examples and scripts for conversations compared to the ground truth's broader strategic advice",
+      "Ground truth uses 'A few thoughts that might help' implying personal perspective, while this response uses 'Here's the messy part' which is conversational but less first-person focused",
+      "Both use bullet formatting, but this response's bullets are more densely packed with content"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Oh no', 'uniquely awful about being trapped') that immediately acknowledges the awkwardness",
+      "Provides specific, actionable scripts like 'This is awkward, huh? Hope you're doing okay' that teens can actually use",
+      "Ends with an engaging, context-specific follow-up question about duration (wedding vs. plane) that invites continued conversation"
+    ],
+    "weaknesses": [
+      "Uses bold headers and structured sections (**The 'Professional Acquaintance' approach**) which creates a list-like, article format rather than natural conversational prose",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') making it feel more like an advice column than a supportive friend texting",
+      "Presents advice immediately after brief validation rather than asking exploratory questions first, unlike the ground truth"
+    ],
+    "most_claude_like": "The warm, validating opening that uses casual language ('social horror movie scenario') and the specific follow-up question about whether it's a temporary seating situation",
+    "least_claude_like": "The heavy use of bold headers and structured formatting to present options, which reads like a self-help article rather than natural text message conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "While not using traditional bullet points, the response relies on bold headers (**The 'Professional Acquaintance' approach**, etc.) that function as list items, creating a structured, formatted appearance rather than flowing prose. The ground truth uses simple dash bullets but keeps them brief and conversational, whereas this response's bold headers create a more formal, segmented structure."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks clarifying questions before offering advice, while this response jumps straight into structured solutions",
+      "Ground truth uses minimal formatting (simple dashes) while this uses bold headers and section labels that over-structure the response",
+      "Ground truth maintains a continuous conversational flow throughout, while this response shifts into an 'advice article' mode with labeled strategies"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and 'that shaky-hands adrenaline is the worst' that normalizes the physical anxiety response",
+      "Excellent use of first-person language throughout ('If I were you, I'd...', 'I promise it usually reads as...') creating a personal, supportive connection",
+      "Specific, actionable advice including the 4-2-6 breathing technique and concrete 'hand job' suggestions (holding cards, gripping pen) that are immediately usable",
+      "Natural prose format with zero bullet points or headers, reading exactly like a supportive text from an older sibling or friend"
+    ],
+    "weaknesses": [
+      "Could include one additional validating phrase after the practical advice section to bookend the support (e.g., 'You've got this' or a final reassurance)",
+      "The transition from the physiological explanation ('fight-or-flight') to the advice section could be slightly softened with an empathy bridge like 'I know that doesn't make it easier right now, but...'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational flow that reads like a text message",
+    "least_ideal_aspect": "Balance between support and solutions leans slightly toward the practical advice, with the majority of the third paragraph dedicated to techniques rather than emotional support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural transitions between validation, normalization, and advice. No headers, bold text, or list formatting detected. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a brief re-validation or encouragement immediately before the follow-up question (e.g., 'Remember, nobody notices your hands as much as you do') to end on emotional support rather than logistics",
+      "Could explicitly offer continued availability for support ('Text me back after if you want to tell me how it went' or similar) to reinforce the ongoing supportive relationship"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with 'Ugh, I'm so sorry — that's *so* frustrating' and 'you're not being dramatic for being mad' that immediately normalizes the teen's anger and feelings of being singled out",
+      "Strong first-person language throughout ('If I were you, I'd', 'I'm so sorry') creating a personal, supportive connection that feels like a real person rather than generic advice",
+      "Provides specific, realistic scripts the teen can actually say to their teacher ('Hey, can I ask why my seat got moved? I work better when I'm not stressed about it') making the advice immediately actionable"
+    ],
+    "weaknesses": [
+      "While the warmth is strong through text alone, adding one subtle emoji (like 😅 or 💙) could enhance the visual warmth, though this is a minor preference rather than a significant flaw"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format that flows like texting with a supportive older sibling, completely avoiding bullet points or over-structuring while maintaining perfect readability on a phone",
+    "least_ideal_aspect": "The absence of any emoji, while acceptable for the serious tone, slightly misses an opportunity to add visual warmth that could enhance the already strong emotional connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, numbered lists, headers, or bold text. Advice flows organically within conversational sentences rather than being listed out, reading exactly like a supportive text message."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 after 'frustrating' or 💙 at the close) to enhance visual warmth, though the current text-only approach is still very effective",
+      "Continue using the excellent first-person advisory style ('If I were you, I'd') seen here, as it creates strong personal connection while delivering practical guidance"
+    ]
+  }
+}

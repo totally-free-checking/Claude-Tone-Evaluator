@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent specific and actionable advice tailored to the situation (gas station protein boxes, splitting DoorDash, desk drawer stash)",
+      "Natural, engaging follow-up question that invites continuation of the conversation ('Got any good spots within walking distance?')",
+      "Good balance between emotional validation ('you're handling it like a champ') and practical solutions"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (**The gas station special**, etc.) contradicts Claude's prose-only conversational style",
+      "Lacks the immediate, expressive emotional validation that Claude provides ('Ugh, that's such a bummer!')",
+      "Absence of first-person language ('I think', 'I'd say') makes it feel more impersonal compared to Claude's warm, friend-like tone"
+    ],
+    "most_claude_like": "The follow-up question at the end feels natural and conversational, showing genuine interest in their specific situation",
+    "least_claude_like": "The use of bold headers and bullet points to structure advice, which reads like a listicle rather than Claude's flowing prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses bold headers within bullet points (**The gas station special**, **Coffee shop savory**, etc.) which creates a structured, list-like format that diverges significantly from Claude's paragraph-based approach"
+    },
+    "key_differences_from_ground_truth": [
+      "Uses bullet points with bold headers instead of natural prose flow for presenting options",
+      "Opens with calmer validation rather than Claude's immediate empathetic exclamation ('Ugh, that's such a bummer!')",
+      "Missing the warm emoji usage (😅) that adds to Claude's casual, friendly tone"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so rough!' and acknowledgment of the awkward tension",
+      "Excellent use of first-person language throughout ('I think', 'I'd also talk', 'I'd say') creating genuine connection",
+      "Perfect prose formatting with natural conversational flow and zero bullet points",
+      "Specific actionable advice including 'kill them with kindness' and suggesting the friend advocate for them"
+    ],
+    "weaknesses": [
+      "Could provide a specific script or example of what to say when talking to the friend about the situation",
+      "Advice section could slightly expand on concrete phrases to use with the parents when being 'polite and respectful'"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational tone with consistent first-person language that feels like texting a supportive older sibling",
+    "least_ideal_aspect": "Practical advice could be slightly more granular regarding exactly how to broach the conversation with the friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a specific conversation starter script for approaching the friend (e.g., 'Hey, I get the vibe your parents aren't my biggest fan...')",
+      "Could validate additional emotions beyond awkwardness (like hurt or frustration) to show deeper emotional recognition"
+    ]
+  }
+}

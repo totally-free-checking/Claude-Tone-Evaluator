@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - offers concrete phrases like 'I'm not sharing my homework anymore' and 'I can walk you through one problem'",
+      "Does end with a follow-up question that shows interest in helping further ('If you tell me how they usually ask...')"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and headers - uses ### headers and multiple bullet lists throughout, making it read like a self-help article rather than a conversation",
+      "Missing emotional validation at the start - opens with 'That's annoying' which is minimal compared to Claude's warm 'Ugh, that's super frustrating! It's awkward when a friend puts you in that position over and over again'",
+      "Zero emoji usage - makes the response feel cold and formal despite some casual language",
+      "Over-structured with multiple sections and headers ('Pick a clear boundary', 'If they push or guilt-trip you') - feels like a manual rather than a supportive conversation"
+    ],
+    "most_claude_like": "The practical advice quality is strong, offering specific phrases and realistic alternatives like studying together or checking work after completion",
+    "least_claude_like": "The heavy use of headers, bullet points, and structured sections completely diverges from Claude's conversational prose style - this reads like a formatted guide rather than a warm, flowing conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by formatting: 5 ### headers and 15 bullet points. Only the opening sentence and closing question are in prose. This is the opposite of Claude's approach, which uses pure prose with minimal to no bullets."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses conversational prose paragraphs with bold headers only for suggested phrases; evaluated response uses ### markdown headers and extensive bullet lists",
+      "Ground truth opens with strong emotional validation ('Ugh, that's super frustrating! It's awkward...'); evaluated response has minimal validation ('That's annoying')",
+      "Ground truth includes an emoji (😊 implied in tone) and warm language throughout; evaluated response has zero emojis and feels more clinical",
+      "Ground truth balances warmth with advice naturally in flowing paragraphs; evaluated response jumps quickly into structured solutions with minimal emotional support",
+      "Ground truth's follow-up question is warm and specific to their situation ('How do you think they'd react...?'); evaluated response's question is more transactional ('If you tell me how they usually ask...')"
+    ]
+  }
+}

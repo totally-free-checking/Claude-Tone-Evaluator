@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual, empathetic language like 'Ugh, that's so rough!' and 'I totally get why you're feeling embarrassed'",
+      "Maintains perfect prose format with zero bullet points or headers, reading like a natural text conversation with a supportive friend",
+      "Uses consistent first-person language throughout ('I think', 'I totally get', 'I'd say') creating authentic personal connection"
+    ],
+    "weaknesses": [
+      "Practical advice could be more specific about immediate coping strategies for the social embarrassment (e.g., how to handle seeing teammates right after or specific self-talk phrases)",
+      "The shift from validation to perspective ('The thing is, most of your teammates...') happens quickly and could use a brief transitional acknowledgment of their feelings"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with consistent first-person language and zero structural formatting",
+    "least_ideal_aspect": "Practical advice section could include more specific, immediate actionable steps for handling the social aftermath with teammates",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, headers, or bold text, maintaining smooth conversational flow throughout"
+    },
+    "specific_feedback": [
+      "Consider adding one specific self-talk phrase or breathing technique for immediate embarrassment relief before moving to the 'next practice' advice",
+      "Could briefly acknowledge that it's okay to feel upset for a bit before reframing, to avoid rushing past the validation phase"
+    ]
+  }
+}

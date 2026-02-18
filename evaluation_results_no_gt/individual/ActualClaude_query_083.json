@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Uses appropriate emoji (😅) early to set a warm, casual tone for the awkward/flirting topic",
+      "Provides specific, actionable advice realistic for teens (comparing behavior to others, suggesting one-on-one hangouts)",
+      "Ends with engaging, situation-specific questions that invite the user to share more details"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers (**Possible flirting signs:**, **The real test:**) breaks conversational flow and reads like a wiki article rather than a text conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal and detached rather than like a supportive friend sharing perspective",
+      "Opens with validation but quickly pivots to structured lists rather than maintaining warm, conversational prose throughout"
+    ],
+    "most_ideal_aspect": "The follow-up questions at the end are natural and specific ('Are there any specific behaviors that are making you wonder?'), showing genuine interest in the user's situation",
+    "least_ideal_aspect": "The formatting uses 6 bullet points with bold headers, creating a listicle structure that is the opposite of the natural prose paragraphs required for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response uses bold headers (**Possible flirting signs:**, **But honestly?**, **The real test:**) and a 6-item bullet list that dominates the middle section, making it read like an advice article rather than a conversational text"
+    },
+    "specific_feedback": [
+      "Convert the bullet points to natural prose: instead of listing signs, write something like 'I'd look for whether they go out of their way to talk to you specifically, or if they remember those small details you mentioned weeks ago...'",
+      "Add first-person perspective throughout: 'I think the real test is watching how they act with other people,' or 'I get why that's confusing - some people are just naturally warm'",
+      "Remove bold headers and formatting; let the advice flow naturally in paragraphs without structural markers like '**Possible flirting signs:**'"
+    ]
+  }
+}

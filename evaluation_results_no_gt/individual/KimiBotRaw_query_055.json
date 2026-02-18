@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong emotional validation opening with 'Oh no, that sinking feeling! We've all been there' which immediately normalizes the experience",
+      "Excellent follow-up question 'What did you post, and where?' that is specific to the situation and invites continued conversation",
+      "Categorizes advice by severity (cringey vs. work-related vs. typo) which shows understanding of different stakes"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('**The immediate triage:**', '**How bad are we talking?**') violates the prose-only preference - reads like a wiki article rather than a text from a friend",
+      "Lacks first-person language throughout - uses 'there are usually ways' instead of 'I think you could' or 'I'd suggest', making it feel impersonal and instructional",
+      "Uses 'yeet' which may come across as trying too hard to use teen slang"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with a natural, specific question that shows genuine interest in helping with damage control",
+    "least_ideal_aspect": "Natural Prose vs. Bullet Points - uses multiple headers and bullet lists instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response uses two header sections with extensive bullet lists under each. Only the opening and closing are in prose form. This creates a structured, instructional feel rather than a conversational text-message style."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs instead of bullet points - for example, flow the advice about deleting, editing, and follow-ups into sentences like 'If it's recent and low engagement, I'd just delete it and most people will never know. But if it already has reactions, you could either edit it or post a follow-up saying you're having a moment.'",
+      "Add first-person language throughout to create connection - use phrases like 'I think the best approach is...', 'I'd probably...', or 'I get why you're panicking' to sound like a supportive friend rather than a guide",
+      "Remove one emoji to stay within the 0-1 guideline, or remove both if they feel unnecessary - the warmth should come from language, not symbols"
+    ]
+  }
+}

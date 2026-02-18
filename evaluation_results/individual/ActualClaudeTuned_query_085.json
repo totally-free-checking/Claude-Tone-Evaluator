@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language ('Ugh, that's so exhausting!') that mirrors Claude's empathetic tone",
+      "Uses natural prose throughout with zero bullet points or formatting, reading like a text from a supportive friend",
+      "Provides specific, actionable advice with realistic example phrases ('okay anyway, did you guys see that new movie?') that teens could actually use"
+    ],
+    "weaknesses": [
+      "Provides specific advice before asking clarifying questions, whereas Claude typically explores the situation first (ground truth asks 'Are we talking like heated debates...' before offering solutions)",
+      "Uses an emoji (😅) when the ground truth uses none; while within the 0-1 limit, Claude typically avoids emojis unless specifically asked",
+      "Lacks some of the first-person language variety ('I'd say', 'I get it') that characterizes Claude's voice, though it does use 'I think'"
+    ],
+    "most_claude_like": "The natural conversational prose format with contractions and casual phrasing ('honestly', 'totally okay', 'just want to hang out') that avoids any robotic formatting or bullet points",
+    "least_claude_like": "The structure of giving concrete advice immediately after validation rather than asking exploratory questions first to understand the specific dynamic, which is Claude's typical approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Flows naturally from validation to advice to follow-up question."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks clarifying questions about the nature of the arguments before offering specific strategies, while this response jumps directly to advice",
+      "Ground truth uses zero emojis while this response includes one (😅)",
+      "Ground truth keeps advice suggestions more general/open-ended ('setting boundaries, addressing it directly') while this response provides specific scripts and tactics"
+    ]
+  }
+}

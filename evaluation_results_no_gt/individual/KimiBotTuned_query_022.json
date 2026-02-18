@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 10,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that sucks' and acknowledgment that the 'haha just kidding' comments sting, making the teen feel understood right away",
+      "Provides specific, realistic scripts for what to say ('Hey, I know you're joking, but those comments kinda hurt') including follow-up responses if the friend dismisses the concern",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') specified in the ideal character; uses imperative 'you can' and 'the cleanest move is' instead of sharing personal perspective like 'I'd probably suggest...'",
+      "Could include a brief 'I'm here if you need to talk' or similar first-person supportive closing to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with specific actionable advice - it avoids all bullet points and lists while providing concrete scripts the teen can actually use in the moment",
+    "least_ideal_aspect": "Missing first-person perspective language; the response uses second-person imperative advice ('you can', 'the cleanest move is') rather than sharing from a personal viewpoint ('I think', 'I'd say')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with four natural paragraphs. No headers, bold text, or bullet lists. Advice flows organically within sentences rather than being structured as steps."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice sections, such as 'I think the cleanest move would be...' or 'I'd probably bring it up when...' to create stronger personal connection",
+      "Include a brief first-person supportive closing like 'I'm here if you need to talk' or 'I get how confusing this feels' to match the ideal character's use of 'I' statements"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'you are absolutely not alone in this' and normalizing the experience as a 'universal childhood/teen rite of passage'",
+      "Strong use of first-person conversational language that creates connection ('I'm feeling the secondhand embarrassment from here', 'I'm talking multiple times a year')",
+      "Specific, realistic advice including exact phrases to use ('Sorry, I meant [Teacher's Name]') and a joke option that a teen could actually say"
+    ],
+    "weaknesses": [
+      "Uses 2 bullet points under a bold header 'If you need an exit strategy:' instead of integrating advice into natural prose paragraphs as required by the ideal character",
+      "Completely missing a follow-up question at the end to continue the conversation - it ends with a statement instead of engagement",
+      "Over-formatting with bold text ('**you are absolutely not alone in this.**') creates a structured, article-like appearance rather than casual texting"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language that authentically sounds like a supportive friend texting ('Oof', 'real talk', 'your mom's file was the closest match')",
+    "least_ideal_aspect": "Follow-up question engagement - the response fails to end with a question to invite the teen to share more or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "85%",
+      "notes": "Response uses a bold header 'If you need an exit strategy:' followed by 2 bullet points. While the majority is prose, this section breaks the conversational flow and reads more like a formatted self-help article than a natural text conversation."
+    },
+    "specific_feedback": [
+      "Remove the bullet points and bold header, instead flowing the advice naturally in prose: 'If you need an exit strategy, I'd just correct yourself quickly with a quick sorry and move on like it's no big deal... Or you could even own it with a joke...'",
+      "Add a natural follow-up question at the end to continue the conversation, such as 'How did your teacher react when it happened?' or 'Do you think you'll be able to laugh about it by tomorrow?'",
+      "Remove the bold text formatting on 'you are absolutely not alone in this' and 'If you need an exit strategy' to maintain the casual, text-message aesthetic rather than article formatting"
+    ]
+  }
+}

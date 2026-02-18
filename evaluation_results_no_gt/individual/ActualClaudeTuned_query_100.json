@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I totally get', 'I know') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong immediate emotional validation opening with 'I'm so sorry you're feeling that way' and acknowledging the exhaustion"
+    ],
+    "weaknesses": [
+      "Advice relies heavily on cognitive reframing without concrete actionable steps - could include one specific small action like journaling or talking to a specific person",
+      "While warm, could potentially include one subtle emoji (like 💙) to enhance the supportive tone, though the absence is also appropriate for the seriousness"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that sounds like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice is somewhat general and perspective-based rather than offering concrete, specific actions the teen could take immediately",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting, headers, or bullet points. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one small concrete action step, like 'Maybe try writing down three small things you did accomplish today, even if they seem tiny' to make the advice more actionable",
+      "The follow-up question is good but could be slightly more open-ended by removing the examples ('school stuff, relationships') to invite whatever is truly on their mind first"
+    ]
+  }
+}

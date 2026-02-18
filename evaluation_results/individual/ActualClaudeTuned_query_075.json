@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language ('I think', 'I'd maybe try') that creates genuine connection, matching the character's requirement for natural first-person usage",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs unlike the ground truth which used bullet lists",
+      "Opens with immediate emotional validation ('Ugh, that's such an awkward spot') and uses casual, relatable language ('solo', 'anchor', 'on the fence') throughout"
+    ],
+    "weaknesses": [
+      "Could more explicitly normalize the feeling by stating it's common or happens to everyone, rather than just describing the feeling as intimidating",
+      "Focuses more heavily on encouraging attendance rather than explicitly validating that not going is also okay, unlike the ground truth which gave clearer permission to decline",
+      "Places the follow-up question at the end rather than engaging early with exploratory questions about the specific situation"
+    ],
+    "most_claude_like": "The natural first-person conversational language and pure prose formatting without any bullet points - this actually exceeds the ground truth in matching the character's defined approach of using 'I think' and avoiding over-structuring",
+    "least_claude_like": "The slight imbalance toward solution-giving over emotional support compared to the ground truth; it could use more explicit validation that the anxiety is normal and that declining the invitation is equally valid",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational prose throughout with no bullet points or headers, allowing advice to flow naturally within sentences. This is actually more aligned with the character description than the ground truth which used a bulleted list."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while Response uses natural prose paragraphs",
+      "Ground truth asks exploratory questions early (about event type/host) while Response asks about the decision at the end",
+      "Response uses significantly more first-person language ('I think', 'I'd maybe') compared to the more impersonal ground truth",
+      "Ground truth explicitly validates not attending ('if you're really not feeling it, that's okay too') while Response focuses more on encouraging attendance"
+    ]
+  }
+}

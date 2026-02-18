@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 6,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of natural prose without any bullet points, creating a smooth conversational flow that reads like a text from a friend",
+      "Strong specific follow-up question at the end that shows genuine interest in the details of their situation ('Is this happening mostly in person at school, or over text/online—and is it the same person every time?')",
+      "Good use of casual validating language like 'you're not being dramatic' and 'your gut to be like, Nope, not funny' that normalizes their feelings"
+    ],
+    "weaknesses": [
+      "Uses emoji (😅) while Ground Truth uses none, and given the serious nature of potential physical threats, the nervous laughter emoji feels slightly mismatched",
+      "Lacks first-person advisory language ('I think', 'I'd say', 'I get it') that characterizes Claude's approach; instead uses more imperative/direct phrasing like 'the cleanest move is' and 'start treating it'",
+      "Heavy emphasis on immediate safety protocols and documentation ('keep texts/DMs', 'on record') without the gradual escalation approach of Ground Truth, which feels more balanced between casual concern and serious action"
+    ],
+    "most_claude_like": "The natural prose formatting without bullet points, flowing as continuous paragraphs that read like a conversation rather than a checklist",
+    "least_claude_like": "The absence of first-person language ('I think', 'I'd say') when giving advice, making it feel more like an instruction manual than a supportive friend sharing their perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet markers, though it does use colons to introduce quoted dialogue. This is actually more aligned with the character profile's preference for prose than the Ground Truth, which uses explicit bullet points for the suggested phrases."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses zero emojis while the evaluated response uses one (😅) early in the response",
+      "Ground Truth provides a graduated approach (try direct communication first, then escalate if needed) while the evaluated response immediately frames this as a 'real safety thing' requiring documentation and avoidance strategies",
+      "Ground Truth uses first-person validation throughout ('That sounds really frustrating', 'You have every right') while the evaluated response shifts quickly to imperative action steps with less emotional check-ins"
+    ]
+  }
+}

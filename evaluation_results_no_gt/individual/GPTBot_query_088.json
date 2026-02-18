@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 9,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with validation acknowledging that being ignored by the teacher makes it feel like the room is being told the behavior is 'fine'",
+      "Provides extremely specific, actionable advice including exact phrases to use ('That's not appropriate,' 'We're not doing that here') and concrete steps like documenting the incident",
+      "The follow-up questions at the end are specific to the situation (asking about grade level, target of comment, location) rather than generic"
+    ],
+    "weaknesses": [
+      "Completely over-structured with 7 numbered sections, multiple sub-bullets, and headers (###), reading like a legal guide rather than a conversation",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I'm here' to create personal connection; uses impersonal instructional tone ('Here are some practical options','You can ask for concrete protections')",
+      "Validation is limited to one brief sentence before immediately jumping into a massive action plan; feels like a resource manual rather than emotional support",
+      "The follow-up is formatted as a data collection list ('If you tell me: - your grade level...') rather than a natural conversational question"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong with specific, realistic suggestions for teens including exact scripts for confronting the situation and reporting it",
+    "least_ideal_aspect": "The formatting is completely misaligned - it uses heavy bullet-point structure with headers and numbered lists instead of natural prose paragraphs, making it feel like a wiki article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "5%",
+      "notes": "Response uses 7 major numbered sections with headers (###), extensive bullet points under each section, and a list format for the follow-up question. Only 1-2 sentences at the beginning are in prose form."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 natural prose paragraphs instead of the 7-section guide format - advice should flow conversationally ('I'd probably start by writing down what happened while it's fresh...') rather than as numbered steps",
+      "Add first-person connection throughout ('I get how awful that silence feels,' 'I'm here if you need to talk through this,' 'I think you could try saying...') to sound like a supportive friend rather than an instruction manual",
+      "Move the follow-up question into the natural flow of text ('What grade are you in? And was the comment directed at you or someone else? I can help you figure out the best way to report this') instead of a bulleted data request"
+    ]
+  }
+}

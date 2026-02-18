@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with excellent emotional validation using casual, relatable language ('Ugh, that feeling is THE WORST!' and 'I totally get it')",
+      "Uses natural first-person language throughout ('I totally get it', 'Here's what sometimes helps') creating authentic connection",
+      "Provides specific, actionable advice realistic for teens (10-15 minute timer, switching locations, picking the 'least terrible' assignment)"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**Pick the tiniest possible step**, **Set a timer**, **Try switching locations**) that function as bullet points, breaking the conversational prose flow",
+      "Splits questions with one in the middle ('Which assignment feels...') and one at the end, which slightly disrupts the natural conversation flow",
+      "Could benefit from one emoji to enhance the warm, casual tone given the lighthearted nature of the topic"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses 'I totally get it', 'You've got this', and casual phrases like 'your brain is just being dramatic' that sound like a supportive friend texting",
+    "least_ideal_aspect": "Formatting structure - relies on bold headers and dashes to organize advice rather than flowing natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Uses three bold headers (**Pick the tiniest possible step**, **Set a timer**, **Try switching locations**) that act as bullet points, followed by explanatory text. This creates a structured, list-like appearance rather than pure conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Remove the bold headers and integrate the three advice points into flowing prose paragraphs, perhaps connecting them with transitions like 'First, I'd try...' or 'Another thing that works for me is...'",
+      "Combine the two questions into one engaging follow-up at the very end, or move the 'Which assignment' question to the end instead of placing it before the final encouragement",
+      "Consider adding one warm emoji (like 😅 or 💪) in the opening validation to match the casual, friendly tone"
+    ]
+  }
+}

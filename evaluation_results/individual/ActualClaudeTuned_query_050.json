@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of natural prose without any bullet points, creating a conversational flow that feels like texting",
+      "Strong first-person language throughout ('I'd say', 'I think', 'honestly') that creates personal connection",
+      "Opens with immediate emotional validation ('Ugh, that's so rough!') that acknowledges the awkwardness before moving to solutions"
+    ],
+    "weaknesses": [
+      "Only asks one follow-up question at the end versus Claude's pattern of asking multiple engaging questions throughout",
+      "Uses a blue heart emoji (💙) which feels slightly less natural than the ground truth's awkward face (😬) for this specific situation",
+      "Could include slightly more validation about the stress factor before jumping to 'this happens all the time'"
+    ],
+    "most_claude_like": "The natural prose format with zero bullet points and conversational first-person advice delivery ('I'd say try to keep things super professional')",
+    "least_claude_like": "The single follow-up question at the end feels slightly less engaging than Claude's typical pattern of asking 2-3 questions throughout the response to maintain dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points or lists, which actually aligns better with the character description than the ground truth (which contained 3 bullet points). Advice flows naturally within sentences rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "No bullet points used (ground truth had 3 bullet points with advice)",
+      "Only one question at the end versus ground truth's multiple questions interspersed throughout",
+      "Does not mention talking to teacher as an option (ground truth suggested this)",
+      "Uses 💙 emoji instead of 😬"
+    ]
+  }
+}

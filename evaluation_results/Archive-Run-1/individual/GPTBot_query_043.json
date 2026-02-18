@@ -1,0 +1,10 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 0.0,
+    "dimension_scores": {},
+    "error": "Expecting ',' delimiter: line 21 column 60 (char 1298)"
+  }
+}

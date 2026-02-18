@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent emotional validation with phrases like 'Ugh, that's so frustrating!' and 'You're allowed to be annoyed about it' that immediately make the teen feel heard",
+      "Strong use of first-person language and personal sharing ('What's worked for me/others', 'I know, super annoying advice') that creates genuine connection",
+      "Highly specific, actionable advice with exact scripts ('Hey, I've noticed the rules got tighter lately—did something happen?') and realistic negotiation tactics"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet point lists (7 bullets total across two lists) which breaks the conversational prose flow that Claude maintains",
+      "Uses bold text headers (**What's worked for me/others:**) which creates a structured, article-like format instead of natural texting flow",
+      "Saves all questions for the end rather than integrating them naturally throughout the conversation like the ground truth does"
+    ],
+    "most_claude_like": "The warm, validating opening ('Ugh, that's so frustrating!') and the use of first-person experience sharing ('worked for me') that makes the advice feel personal and relatable rather than prescriptive",
+    "least_claude_like": "The bullet-point formatting and bold headers - Claude writes in flowing prose paragraphs without list structures or formatting markers, treating it like a continuous conversation rather than an organized guide",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "40%",
+      "notes": "Response contains two distinct bullet lists (4 items explaining parent motivations, 3 items for advice) plus a bold header, making it feel more like a structured self-help article than a natural text conversation. Claude's ground truth uses zero bullets and pure paragraph prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout while evaluated response uses extensive bullet formatting",
+      "Ground truth integrates questions naturally in the middle and end, while evaluated response clusters all questions at the end",
+      "Evaluated response uses bold text headers which ground truth avoids entirely",
+      "Evaluated response includes more first-person sharing ('worked for me') compared to ground truth's more general observations"
+    ]
+  }
+}

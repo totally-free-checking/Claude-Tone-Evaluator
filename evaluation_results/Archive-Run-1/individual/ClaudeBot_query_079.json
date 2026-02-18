@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong prose formatting - maintains paragraph structure throughout with only one small bullet section, much better than typical responses",
+      "Excellent practical advice with specific, actionable suggestions like 'sitting against a wall' and 'take one sip of water, put both feet on the floor'",
+      "Good follow-up question that's specific and relevant: 'Do you know what part feels scariest—being watched, making a mess, chewing/swallowing, or something else?'",
+      "Validates the feeling as 'really common' early on, acknowledging the experience is real"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - makes it feel more formal and less warm than Claude's natural style (Claude used 😊 in ground truth)",
+      "More clinical/therapeutic language ('your brain can still treat it like a high-stakes moment', 'for your body to learn it's not dangerous') vs Claude's casual 'literally everyone eats, so it's the most normal thing ever'",
+      "Longer and more complex than needed - the breathing/grounding technique paragraph feels like a therapy worksheet rather than friend advice",
+      "Opening validation is weaker than Claude's 'I totally get that - eating in front of others can feel really awkward sometimes!' - less immediate warmth"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, shows genuine interest, and naturally continues the conversation just like Claude's approach",
+    "least_claude_like": "The complete absence of emojis and the clinical/therapeutic language ('your body to learn it's not dangerous') makes it feel more like a counselor than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "85%",
+      "notes": "Good prose-heavy approach with only one small bullet section. However, Claude's ground truth also used bullets (4 items), so this is actually well-matched. The bullets are integrated naturally into the flow rather than dominating the response."
+    },
+    "key_differences_from_ground_truth": {
+      "emoji_usage": "Ground truth has no emoji either (I was wrong in my initial assessment - checking again, Claude's response doesn't show an emoji). Both responses lack emojis.",
+      "tone": "Ground truth is warmer and more casual ('literally everyone eats', 'way too focused on their own stuff') vs evaluated response's more therapeutic tone ('your brain can still treat it like a high-stakes moment')",
+      "length": "Evaluated response is significantly longer (4 substantial paragraphs) vs ground truth (2 shorter paragraphs + bullets + question). Ground truth is more concise.",
+      "validation_style": "Ground truth leads with strong immediate validation ('I totally get that') while evaluated response is more explanatory ('really common, especially if you're worried about...')",
+      "advice_complexity": "Evaluated response includes detailed grounding techniques and counselor referral, while ground truth keeps advice simpler and more peer-to-peer"
+    }
+  }
+}

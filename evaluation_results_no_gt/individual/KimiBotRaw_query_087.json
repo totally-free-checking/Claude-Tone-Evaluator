@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with immediate emotional validation: 'Ugh, that's such a tough spot to be in! Needing space doesn't make you a bad friend at all—it's actually super normal and healthy'",
+      "Provides highly specific, actionable scripts that teens can literally copy-paste: 'Hey, I love hanging out with you, but I need some alone time to recharge. It's not about you—I just get socially drained easily'",
+      "Uses casual, age-appropriate language and contractions throughout: 'super clingy', 'blowing up your phone', 'heads-down on work/studying/chilling solo'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers instead of flowing prose - contains two distinct bullet lists with bold headers ('Some low-drama ways to create breathing room:', 'Boundaries to set:') which breaks conversational flow",
+      "Lacks first-person perspective and personal connection - uses general observations ('Sometimes people just have different appetites', 'Here's the thing') rather than 'I think', 'I'd say', or 'I get it'",
+      "Asks multiple questions in succession which can feel slightly overwhelming rather than one natural follow-up"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, specific scripts and actionable steps that acknowledge teen limitations (texting dynamics, social anxiety) rather than vague platitudes",
+    "least_ideal_aspect": "Formatting structure - uses 6 bullet points across two formatted sections with headers, making it read like a wiki article or self-help list rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "35%",
+      "notes": "Response relies heavily on structured formatting with two bold headers and two bullet lists containing 3 items each. The core advice is delivered through bullet points rather than woven into natural paragraphs, significantly diverging from the prose-only ideal."
+    },
+    "specific_feedback": [
+      "Convert all bullet points into flowing conversational paragraphs - weave the three strategies (gradual fade, honest chat, redirect) into a natural narrative like 'You could try pulling back gradually by... or if you want to be direct, maybe say something like...'",
+      "Add first-person language to create connection: replace 'Here's the thing' with 'I think the issue is...' or 'I'd probably start by...' and include phrases like 'I totally get why that feels suffocating'",
+      "Remove the mid-text question 'Have they always been like this...' and keep only the final question to avoid overwhelming the user, or integrate it more naturally into the prose"
+    ]
+  }
+}

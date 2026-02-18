@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is specific and realistic - mentions platform-specific differences and the block/unblock trick shows real knowledge",
+      "Follow-up question is specific and relevant, asking about platform and timing to give better advice"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (8+ bullet points) completely diverges from Claude's prose-based approach - reads like a troubleshooting guide rather than a conversation",
+      "Almost no emotional validation - jumps straight to solutions with only 'Oof, classic' as acknowledgment, missing Claude's warm 'We've all been there' reassurance",
+      "Only one emoji in entire response (none at all) versus Claude's natural 2-emoji usage that sets warm tone",
+      "Uses headers and bold formatting ('### Damage control options', '**Unlike it immediately**') making it feel like a wiki article rather than supportive conversation"
+    ],
+    "most_claude_like": "The follow-up question asking about specific platform and timing shows genuine interest in helping with the exact situation",
+    "least_claude_like": "The heavily structured bullet-point format with headers and bold text - this is the opposite of Claude's conversational prose style and is the most glaring difference",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "20%",
+      "notes": "Response is approximately 80% bullets/structured lists with headers. Uses '###' header for 'Damage control options' and bold formatting throughout. Only the opening line and closing question are prose. This is the exact opposite of Claude's approach which uses pure prose with advice woven naturally into paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses conversational paragraphs with advice flowing naturally; evaluated response uses heavy bullet points, headers, and bold formatting",
+      "Emotional tone: Ground truth leads with strong validation ('We've all been there', 'your thumb betrays you') and reassurance throughout; evaluated response has minimal validation (just 'Oof, classic')",
+      "Emoji usage: Ground truth uses 2 emojis naturally (😅, 😊); evaluated response has none",
+      "Advice presentation: Ground truth presents options within prose ('The stealth approach:', 'The casual approach:'); evaluated response uses technical bullet lists with bold headers",
+      "Reassurance: Ground truth emphasizes 'most people don't think too hard about random likes' and 'you're probably overthinking it'; evaluated response focuses on technical damage control without emotional comfort"
+    ]
+  }
+}

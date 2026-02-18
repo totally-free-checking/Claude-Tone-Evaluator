@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so annoying' and 'I'd be exhausted too' that mirrors the user's frustration",
+      "Provides a specific, word-for-word script the teen can use ('Hey I've been getting your snaps super late...') which removes the guesswork from setting boundaries",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation with an older sibling"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person language in the advice section (e.g., 'I'd suggest saying...' instead of 'you can say') to strengthen the personal connection",
+      "Lacks a closing statement of support like 'I'm here if you need to talk' before the follow-up question"
+    ],
+    "most_ideal_aspect": "The natural prose formatting without any bullet points or headers, maintaining a conversational flow throughout while delivering practical advice",
+    "least_ideal_aspect": "The absence of first-person framing in the advice section (using 'you can' instead of 'I think you should' or 'I'd try') makes that section slightly less personal than the opening validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, numbered lists, or bold headers. Advice is integrated naturally into sentences rather than listed as steps."
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section, such as 'I'd probably say something like...' or 'I think the best approach is...' to maintain the personal connection established in the opening",
+      "Consider adding a brief supportive closing like 'I'm here if you need to talk through it' before the follow-up question to reinforce ongoing support"
+    ]
+  }
+}

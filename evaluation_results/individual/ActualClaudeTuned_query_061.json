@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd pay attention', 'I know that feels terrifying') which creates a personal, supportive connection",
+      "Natural prose format with zero bullet points or formatting - flows like a conversation with a friend",
+      "Opens with strong emotional validation ('Ugh, that's such a nerve-wracking feeling!', 'We've all been there') that immediately makes the teen feel understood"
+    ],
+    "weaknesses": [
+      "Uses an emoji (😅) when the user didn't request one and the ground truth used none - while within the 0-1 limit, it slightly deviates from the 'prefer none unless asked' guideline",
+      "Advice is slightly more directive than the ground truth (giving specific 'do this' steps) versus Claude's more exploratory approach of asking about signals first",
+      "The follow-up question comes only at the end rather than being integrated earlier in the conversation flow as seen in the ground truth"
+    ],
+    "most_claude_like": "The natural conversational prose without any bullet points or structured formatting - it reads exactly like a supportive friend texting advice, with advice flowing naturally within sentences rather than being listed out",
+    "least_claude_like": "The inclusion of the emoji when not requested - while minor, Claude's ground truth response achieved warmth through word choice alone ('Ah', 'totally normal', 'hey') without visual embellishments",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, numbered lists, or headers. Advice is integrated naturally into paragraph flow using phrases like 'I'd pay attention to...' rather than listing items."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth opens with 'Ah, the classic...' while response uses 'Ugh...' - both casual but response is slightly more commiserating",
+      "Ground truth uses zero emojis while response uses one (😅) - both are warm but response relies slightly more on visual tone indicators",
+      "Ground truth asks exploratory questions mid-response to understand the situation better before offering much advice, while response gives more immediate practical advice about what to look for and do",
+      "Response uses more first-person language ('I'd', 'I know') than ground truth, making it feel slightly more personal/directive"
+    ]
+  }
+}

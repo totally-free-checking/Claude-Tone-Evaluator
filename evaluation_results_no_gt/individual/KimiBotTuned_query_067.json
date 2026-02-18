@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using 'Ugh' and 'weird pressure-y feeling' that perfectly captures the teen's anxiety",
+      "Provides specific, word-for-word scripts the teen can actually use with parents ('Can we keep this more general? I'm not ready to decide anything...')",
+      "Maintains natural prose throughout with zero formatting - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person language from the bot's perspective (like 'I think' or 'I'd say') to strengthen the personal connection",
+      "The follow-up question, while good, lists three options which slightly reduces the open-ended feel"
+    ],
+    "most_ideal_aspect": "The seamless blend of validation and practical scripting - it validates the pressure first, then immediately gives concrete phrases to use without breaking the conversational flow",
+    "least_ideal_aspect": "Slight lack of first-person bot perspective (uses 'you can' instead of 'I'd suggest' or 'I think'), making it slightly less personal than it could be",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Advice flows naturally within paragraphs using conversational transitions like 'If you want to make it less stressful'"
+    },
+    "specific_feedback": [
+      "Add one 'I think' or 'I'd say' statement to make the advice feel more like personal input from a friend rather than general guidance",
+      "Consider shortening the follow-up question slightly or removing the specific examples (grades, money, picking colleges) to make it feel more open-ended and conversational"
+    ]
+  }
+}

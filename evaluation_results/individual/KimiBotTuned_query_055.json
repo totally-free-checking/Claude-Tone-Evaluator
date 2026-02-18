@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent specific advice with actual script lines teens can use like 'lol posting regret, ignore that' or 'that came out wrong—my bad'",
+      "Outstanding follow-up question that shows genuine curiosity by asking specific categories (story/joke/rant) and platform",
+      "Strong opening validation with 'Ugh, that stomach-drop regret' that immediately captures the physical feeling of the situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person 'I' language that Claude uses naturally (ground truth has 'I totally get' and 'We've all been there' while this response uses 'we' only once and no 'I think/I'd say')",
+      "The conditional structure presenting options ('If it's still up... If you're worried... And if it involves...') feels slightly more structured/list-like than Claude's typical flowing prose, even though it avoids actual bullets"
+    ],
+    "most_claude_like": "The natural, casual teen-appropriate language without being cringe - using phrases like 'super loud,' 'way bigger in your head,' and 'my bad' that feel like texting with a supportive friend",
+    "least_claude_like": "The relative lack of first-person perspective statements; Claude typically uses 'I think,' 'I'd say,' or 'I get it' to create personal connection, while this response stays more general/impersonal in perspective despite the casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses conditional sentences ('If it's still up...', 'If you're worried...') to present options rather than bullet points, which actually aligns better with the character profile's preference for prose than the ground truth's use of 4 bullet points"
+    },
+    "key_differences_from_ground_truth": [
+      "Uses one emoji (😅) while ground truth uses none, though this is within the 0-1 guideline",
+      "Provides more specific actionable phrases teens can literally copy-paste, while ground truth gives more general categories",
+      "Saves the 'What kind of post was it?' question for the end rather than asking it early like the ground truth",
+      "Eliminates bullet points entirely while ground truth uses a 4-item bulleted list for options"
+    ]
+  }
+}

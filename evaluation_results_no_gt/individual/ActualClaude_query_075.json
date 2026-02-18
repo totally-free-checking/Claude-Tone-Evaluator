@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('That sounds a bit nerve-wracking!') acknowledging the user's feelings",
+      "Uses casual, teen-appropriate language like 'not your vibe' and 'cliquey' that feels authentic",
+      "Provides specific, realistic advice such as asking the friend to introduce them and giving permission to leave early",
+      "Ends with a natural, engaging question about their gut feeling that invites further conversation"
+    ],
+    "weaknesses": [
+      "Relies on bullet points for core advice delivery ('A few things that might help you decide:') rather than flowing prose",
+      "Completely lacks first-person language ('I think', 'I'd suggest', 'I get it') making the response feel impersonal and detached",
+      "Misses opportunity for stronger emotional validation language like 'We've all been there' or 'That's so relatable'"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are concrete, realistic for a teen's agency, and immediately actionable (asking for introductions, going for a short time, leaving early)",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response structures the main advice as a bulleted list rather than conversational paragraphs, breaking the texting-like flow",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Uses 'A few things that might help you decide:' as a header followed by three bullet points containing the primary practical advice. This creates a structured, listicle format rather than natural conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose by connecting the ideas naturally (e.g., 'I'd suggest asking your friend to introduce you around when you arrive. And honestly? Going for just a short time is totally fine—you can always dip out early if the vibe isn't right. Most people are actually pretty friendly at these things.')",
+      "Integrate first-person language throughout to create connection and warmth (e.g., 'I get how intimidating that feels,' 'I think the best approach is...,' or 'I'm here to help you figure this out')",
+      "Consider adding slightly stronger upfront validation like 'Ugh, that's such a tricky spot' or 'We've all been there' before moving to the questions"
+    ]
+  }
+}

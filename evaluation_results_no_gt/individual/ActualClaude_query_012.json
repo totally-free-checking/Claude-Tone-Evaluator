@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 5,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a text from a friend",
+      "Strong immediate emotional validation with 'Aw, that stings!' and 'You're not dumb at all'",
+      "Natural teen-appropriate language like 'hits different' and 'lol' without trying too hard",
+      "Specific, engaging follow-up question that shows genuine interest in the details ('Was it like a oh no are they into someone else kind of moment...')"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which creates slight emotional distance - uses 'our brains' instead of 'I know how that feels'",
+      "Limited practical advice beyond 'try not to be too hard on yourself' - missing concrete strategies for handling the crush situation or managing jealousy",
+      "Imbalanced toward validation over solutions - approximately 80% emotional support with only 20% actionable guidance"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and reads like a supportive friend texting",
+    "least_ideal_aspect": "Absence of first-person connection language - no 'I' statements to create the feeling of a real person sharing their perspective or being present with them",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: try 'I totally get that sinking feeling' or 'I'd be spiraling too' instead of only using 'you' and 'our'",
+      "Include one concrete action step: suggest something specific like 'Maybe scope out if they're actually flirting or just chatting before you write it off?' or 'If you see them again, try the three-breath rule before your brain spirals'",
+      "Consider a slightly warmer emoji like 😅 or 💙 instead of 😕, or pair the validation with a more hopeful closing tone since 😕 emphasizes the pain rather than the support"
+    ]
+  }
+}

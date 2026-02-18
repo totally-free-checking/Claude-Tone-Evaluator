@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting - maintains conversational paragraphs throughout with zero bullet points, matching Claude's natural flow style",
+      "Strong practical advice with specific, actionable suggestions like the 'small bid for closeness' test and the exact phrase to use: 'I miss you and I'd love to actually plan something'",
+      "Thoughtful follow-up question that's specific and engaging: 'When did you start feeling this way—was there a specific moment that made it click, or has it been building for a while?'",
+      "Sophisticated understanding of the emotional nuance: 'the sense that you're valued, but only when it's convenient' captures the complexity well"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - Claude uses 1-2 emojis naturally (like 😅) to set a warm tone, but this response has zero, making it feel more formal and less like a casual teen conversation",
+      "Jumps too quickly into analytical mode without enough upfront emotional validation - Claude starts with 'Oof, that really stings' and sits with the feeling longer before moving to analysis",
+      "Tone is too sophisticated and adult-oriented - phrases like 'deprioritized,' 'bid for closeness,' 'emotional labor' feel more like therapy-speak than natural teen conversation",
+      "Too long and dense (6 paragraphs) - Claude's response is 4 shorter, more digestible paragraphs. This feels overwhelming for a phone screen"
+    ],
+    "most_claude_like": "The prose formatting and natural flow of advice within conversational paragraphs - no bullets, no headers, just natural storytelling that guides the reader through the advice",
+    "least_claude_like": "The complete absence of emojis and the overly analytical, therapy-influenced language that makes it sound like a counselor rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent adherence to prose format. No bullet points, no numbered lists, no headers. Advice flows naturally within sentences and paragraphs, exactly as Claude does."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with immediate, visceral validation ('Oof, that really stings') and an emoji-free but warm tone. The evaluated response opens more analytically ('That hurts in a very particular way') without the same emotional punch",
+      "Claude uses simpler, more conversational language throughout ('That feeling sucks and I'm sorry') while the evaluated response uses more formal/therapeutic terms ('deprioritized,' 'bid for closeness,' 'emotional labor')",
+      "Claude's response is more concise (4 paragraphs) and digestible, while the evaluated response is denser (6 paragraphs) and more overwhelming",
+      "Claude includes natural warmth markers like 'Oof' and keeps the tone lighter and more relatable, while the evaluated response maintains a more serious, analytical tone throughout",
+      "Complete absence of emojis in evaluated response vs. Claude's natural emoji usage to create warmth"
+    ]
+  }
+}

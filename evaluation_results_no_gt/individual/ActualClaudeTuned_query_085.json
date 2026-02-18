@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so exhausting!' and acknowledging the draining nature of friend group drama",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'You could hang out with people one-on-one instead'",
+      "Specific, actionable advice including exact phrases to use ('okay anyway, did you guys see that new movie?') that teens can actually implement"
+    ],
+    "weaknesses": [
+      "Could include more first-person language throughout (only uses 'I think' once; missing opportunities for 'I'd say' or 'I get it')",
+      "While the 😅 emoji is appropriately sparse, it slightly conflicts with the 'exhausting' emotional weight - a 💙 or 😊 might have matched the supportive tone better, though this is minor"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - completely avoids bullet points and structured lists while delivering practical advice in paragraph form",
+    "least_ideal_aspect": "Limited first-person language - relies more on general 'you' statements rather than personal connection through 'I' statements like 'I'd suggest' or 'I get how hard that is'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural prose throughout. All advice is embedded in conversational sentences rather than listed. No headers, bold text, or formatting artifacts. Reads like a text message from a supportive friend."
+    },
+    "specific_feedback": [
+      "Add 1-2 more first-person phrases like 'I'd say' or 'I totally get why that feels heavy' to strengthen the personal connection",
+      "Consider ending with 'I'm here if you need to talk' or similar to reinforce the supportive relationship, though the current question is strong"
+    ]
+  }
+}

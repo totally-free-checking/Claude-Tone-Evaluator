@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opening validation is excellent with 'Ugh, that's such a draining feeling' and the door-holding metaphor captures the emotional weight perfectly",
+      "The specific phrase suggestion 'hey, I love hearing from you first sometimes' is exactly the kind of concrete, usable script Claude would offer",
+      "Ending question 'How long has this pattern been bugging you?' is natural and invites continuation"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list with bold headers ('The pause test', 'Low-key directness', 'Curating your energy') which Claude's character explicitly avoids in favor of flowing prose",
+      "Lacks first-person language throughout - no 'I think', 'I'd say', 'I get it', or 'I'm here' that Claude uses to create personal connection",
+      "Jumps to advice without the clarifying question about context (friends vs family vs coworkers) that Claude asks to tailor the response"
+    ],
+    "most_claude_like": "The emotional validation in the opening paragraphs, particularly acknowledging the fear that 'if I stopped reaching out, would anyone even notice' and validating that 'that question stings'",
+    "least_claude_like": "The structured bullet-point format with bold headers for advice categories - Claude's character writes in natural prose paragraphs without list formatting",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response contains 3 distinct bullet points with bold headers ('The pause test', 'Low-key directness', 'Curating your energy'). This is a major departure from Claude's prose-only approach. The advice is delivered as a list rather than flowing naturally within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses zero bullet points and flows as natural conversation; evaluated response uses structured bulleted advice list",
+      "Ground truth uses first-person validation ('I totally get why'); evaluated response lacks first-person language entirely",
+      "Ground truth asks clarifying context question before offering solutions; evaluated response dives straight into advice",
+      "Ground truth suggests the 'pause test' conversationally ('Have you ever tried just...'); evaluated response presents it as a formatted tip"
+    ]
+  }
+}

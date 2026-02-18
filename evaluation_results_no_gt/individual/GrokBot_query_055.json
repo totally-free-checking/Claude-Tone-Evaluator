@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'I'm so sorry' and acknowledging 'that sinking regret after hitting post is the worst'",
+      "Excellent use of first-person language throughout including 'I'd say', 'I think', and 'I'm so sorry'",
+      "Perfect prose format with natural conversational flow and zero bullet points or headers",
+      "Natural emoji usage with one well-placed 😅 that enhances the warm, slightly awkward tone of the situation"
+    ],
+    "weaknesses": [
+      "The reassurance 'it feels way bigger in the moment than it probably is' comes quickly in paragraph 2 and could potentially feel minimizing before fully validating the intensity of the regret",
+      "Practical advice could include slightly more specific scripting or examples of what to say when reaching out to friends for support"
+    ],
+    "most_ideal_aspect": "Natural prose format with consistent first-person conversational language that reads like texting with a supportive friend",
+    "least_ideal_aspect": "The slight minimization of feelings with the 'bigger in the moment than it probably is' comment before fully sitting with the emotional weight",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, bullet points, or headers, maintaining smooth conversational flow throughout"
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure validation before the perspective shift about the situation not being a big deal",
+      "Include a specific example of what the teen might text to a friend when asking for support (e.g., 'Hey, I'm spiraling about a post I made...')"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "The follow-up question is excellent—specifically asking about context, smile duration, and usual conversation patterns shows genuine interest and invites the teen to share more",
+      "Practical advice is realistic and actionable, including a specific script ('Hey, how's your day going?') and the smart suggestion to look for patterns rather than overanalyzing one moment"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers ('**Zoom out:**', '**Look for patterns...:**') makes it read like a self-help article rather than a conversation",
+      "Completely lacks first-person language—no 'I think', 'I'd say', or 'I get it'—making it feel impersonal and instructional rather than like a supportive friend",
+      "Minimal emotional validation before jumping to solutions; only 'Totally relatable' acknowledges feelings before immediately shifting to 'Here's a simple way'"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end, which is specific, natural, and shows genuine curiosity about the details of their situation",
+    "least_ideal_aspect": "The formatting structure—using four bold-headed bullet points that read like an instruction manual rather than natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "20%",
+      "notes": "Response starts with one brief paragraph of prose, then immediately shifts to 'Here's a simple way...' followed by four heavily formatted bullet points with bold headers. This creates a checklist feel rather than conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs—instead of '**Zoom out:** Was it...', try writing 'I'd say first, try to zoom out and notice if it was a quick polite smile or the kind that lingers...'",
+      "Add first-person language throughout to create connection—use phrases like 'I think the best approach is...', 'I'd probably look for patterns...', or 'I get how easy it is to spiral on this'",
+      "Start with more emotional validation before giving advice—spend a sentence or two on 'Ugh, that overthinking spiral is the worst' or 'We've all been there, analyzing every micro-expression' before moving to solutions",
+      "Consider adding one warm emoji (like 😅 or 😊) early in the response to match the light, crush-related topic and enhance the friendly tone"
+    ]
+  }
+}

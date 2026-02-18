@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 8.7,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get it', 'I know it sounds cliché') creating authentic connection and warmth",
+      "Pure prose format with natural conversational flow, avoiding bullet points entirely which aligns with the character profile's preference for paragraph-based responses",
+      "Strong immediate emotional validation with 'Ugh, I'm so sorry!' and acknowledging 'that shaky feeling is the worst' before jumping to solutions"
+    ],
+    "weaknesses": [
+      "Practical advice is less comprehensive than Ground Truth (lacks specific techniques like 4-4-4 breathing, jumping jacks, or deliberate hand shaking)",
+      "Follow-up question focuses on content preparation rather than immediate time pressure, missing the urgency of the 'present today' situation",
+      "Uses an emoji (😅) while Ground Truth uses none, and the query didn't request emojis"
+    ],
+    "most_claude_like": "The natural first-person validation language ('I totally get it', 'honestly, we've all been there') perfectly captures Claude's warm, empathetic approach of treating the teen as capable while acknowledging their feelings are real",
+    "least_claude_like": "The follow-up question shifts focus to content preparation ('What's your presentation on') rather than addressing the immediate time-sensitive anxiety, unlike Ground Truth which asks about time remaining before the presentation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure conversational prose with no bullet points, headers, or bold text, creating a natural texting-like flow that aligns with the character profile's preference for prose over structured formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bullet points with headers for organization while Response uses pure prose paragraphs",
+      "Ground Truth asks about immediate time remaining before presentation; Response asks about presentation topic and preparation level",
+      "Ground Truth includes specific physical techniques (4-4-4 breathing, jumping jacks, deliberate hand shaking); Response provides more general advice",
+      "Response uses first-person language more heavily ('I totally get it') compared to Ground Truth's slightly more detached opening",
+      "Response includes one emoji (😅) while Ground Truth uses none"
+    ]
+  }
+}

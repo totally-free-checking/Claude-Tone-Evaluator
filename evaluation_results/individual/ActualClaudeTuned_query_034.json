@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that's the worst!' that mirrors Claude's empathetic opening style",
+      "Strong use of first-person language throughout ('I think,' 'I get why,' 'I'd say') creating authentic conversational flow",
+      "Specific, teen-appropriate advice (listening to music, going for a walk) that's actionable without being overwhelming"
+    ],
+    "weaknesses": [
+      "Slightly more solution-focused than the ground truth, which spent more time purely validating before moving to the question",
+      "The emoji choice (😅) conveys a slightly different energy than the ground truth's frustrated 😤, though still appropriate"
+    ],
+    "most_claude_like": "The natural prose flow with zero bullet points and seamless integration of validation with first-person perspective ('I get why that would make you even more frustrated')",
+    "least_claude_like": "The inclusion of specific coping strategies (music, walking) makes it slightly more advice-heavy than the ground truth's pure validation-and-vent approach, though still well within character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or over-structuring. Maintains conversational paragraph flow throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses a hiccup analogy to illustrate the counterproductive nature of 'calm down' while evaluated response explains it directly",
+      "Ground truth focuses entirely on validation and venting without specific coping suggestions, while evaluated includes concrete decompression activities",
+      "Ground truth places emoji at the end for emphasis while evaluated places it early in the opening line"
+    ]
+  }
+}

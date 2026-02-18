@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I totally get', 'I'd start', 'I promise') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive text from a friend",
+      "Strong immediate validation opening with 'Ugh' and acknowledging the 'spotlight moment' feeling",
+      "Specific, actionable advice including exact comeback phrase 'Yeah, I was feeling a vibe change!'"
+    ],
+    "weaknesses": [
+      "The transition to 'most people are way too wrapped up in their own stuff' in paragraph 2, while true, could potentially feel slightly dismissive of the fear before fully sitting with the emotion",
+      "Could include one more validating phrase after the practical advice to bookend the emotional support"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with absolutely no formatting structure—maintains conversational intimacy perfectly through paragraph form",
+    "least_ideal_aspect": "The balance slightly favors practical advice over emotional validation in the middle section, though it recovers well",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is three clean paragraphs with no bullet points, bold text, headers, or numbered lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating sentence after the practical advice section to reinforce that the fear is valid even while giving tools to handle it",
+      "The current structure is excellent—maintain this level of first-person language ('I think', 'I'd say') in future responses as it creates strong rapport"
+    ]
+  }
+}

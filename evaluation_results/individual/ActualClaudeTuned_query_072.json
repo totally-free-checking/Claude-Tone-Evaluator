@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I'd just try') creating authentic conversational warmth",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation rather than an article",
+      "Strong immediate validation with 'Ugh, that's so rough!' and 'We've all been in those situations' that normalizes the embarrassment"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat less specific than the ground truth - suggests 'go in with humor' but lacks concrete tactics like breathing exercises or specific mindset reframes",
+      "Could offer more specific 'survival mode' strategies for the actual moment of dancing (like the ground truth's 'focus on basic steps' or 'make eye contact')",
+      "Slightly less structured advice compared to ground truth - while the prose format is good, the actionable tips could be more concrete"
+    ],
+    "most_claude_like": "The natural conversational prose format with first-person language ('If I were you, I'd just try...') and immediate emotional validation that sounds like a supportive friend texting",
+    "least_claude_like": "The relative lack of specific, tactical advice for the actual dance moment - the ground truth provides more concrete 'in-the-moment' survival strategies while this response stays more general",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points or headers, which aligns with the character profile's preference for natural prose over structured lists. This differs from the ground truth which used multiple bullet sections."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses structured bullet points with headers (Mindset shifts/Practical tips/Survival mode) while response uses pure prose paragraphs",
+      "Ground truth provides more specific tactical advice (breathing exercises, eye contact tips, 'checking a box' mentality) while response offers more general guidance",
+      "Ground truth asks about the dance type for specific tips; response asks about partner selection process",
+      "Response uses slightly more casual contractions and filler words ('honestly though', 'just try') creating an even more informal tone than the ground truth"
+    ]
+  }
+}

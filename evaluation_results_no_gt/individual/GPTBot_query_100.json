@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with validation: 'That feeling is heavy, and it can be really disorienting when you're putting in real effort' acknowledges the emotional weight",
+      "Includes important safety check at the end: 'are you feeling safe right now, or are these thoughts getting into \"I don't want to be here\" territory?'",
+      "Offers concrete, actionable reframes like redefining 'best' as 'best I can do with what I have today'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (4 diagnostic questions, 4 explanatory bullets, 2 numbered shifts) instead of natural prose",
+      "Complete absence of first-person language - no 'I think,' 'I'd say,' or 'I get it' creates impersonal, clinical distance",
+      "Uses therapeutic/clinical phrasing like 'operating at 70% capacity' and 'goalposts are moving' rather than casual teen-appropriate language"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic reframes and burnout recognition that are actionable for teens",
+    "least_ideal_aspect": "Natural prose vs bullet points - response is structured like a self-help worksheet with multiple lists rather than a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 10,
+      "prose_percentage": "25%",
+      "notes": "Response contains 4 bullet-pointed diagnostic questions, 4 bullet-pointed explanations of causes, and 2 numbered action items. Reads as highly structured and clinical rather than conversational."
+    },
+    "specific_feedback": [
+      "Convert the bullet-pointed questions into natural prose: instead of listing four questions, try 'I'm wondering who gets to decide what's \"enough\" here - is it school, family, or maybe your own expectations?'",
+      "Add first-person connection throughout: use phrases like 'I think that bar might be unrealistic' or 'I'd say you're carrying too much' instead of general statements like 'A lot of the time, that doesn't mean you're failing'",
+      "Reduce the number of questions asked simultaneously; choose one engaging follow-up rather than presenting a four-item diagnostic checklist",
+      "Soften the clinical tone by using casual language like 'Ugh, that's such a brutal feeling' instead of 'disorienting'"
+    ]
+  }
+}

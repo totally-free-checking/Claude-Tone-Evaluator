@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - 'One simple test is to set a clear, calm boundary once and see what they do' gives concrete, actionable guidance with example phrases",
+      "Good use of prose paragraphs throughout - avoids bullet points in the main body and maintains conversational flow in most sections",
+      "Strong follow-up question that's specific and practical - 'where this is happening (school, work, friend group, online?)' shows genuine interest and offers to tailor advice"
+    ],
+    "weaknesses": [
+      "Completely lacks warmth and emotional validation at the start - jumps straight into analytical mode with 'Teasing can sit in a fuzzy middle ground' instead of acknowledging the teen's feelings first",
+      "Zero emojis throughout - makes the response feel formal and detached, missing Claude's warm, casual tone entirely",
+      "Language is too clinical and adult-oriented - phrases like 'power angle and a persistence angle,' 'dodge responsibility,' 'loop in support appropriate to where this is happening' sound like a workplace HR manual rather than a supportive friend",
+      "Too long and dense for a teen audience - five substantial paragraphs with complex sentence structures would be overwhelming on a phone"
+    ],
+    "most_claude_like": "The practical boundary-setting advice with specific phrases ('Don't joke about that,' or 'I don't like that—stop') and the observation about their reaction is exactly the kind of concrete, actionable guidance Claude provides",
+    "least_claude_like": "The complete absence of emotional validation at the beginning - Claude always starts with warmth ('That sounds really frustrating and confusing!') while this response immediately launches into analytical problem-solving mode",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Successfully avoids bullet points in the main response body, maintaining prose format throughout. However, the Ground Truth does use bullets effectively to organize the 'might be bullying' vs 'playful teasing' comparison, which this response handles in dense prose that's harder to scan quickly."
+    },
+    "key_differences_from_ground_truth": {
+      "opening_tone": "Ground Truth: 'That sounds really frustrating and confusing! 😅' - immediate validation with emoji. Evaluated: 'Teasing can sit in a fuzzy middle ground' - analytical and detached",
+      "emotional_support": "Ground Truth validates feelings throughout ('Trust your gut feeling here - if it doesn't feel good to you, that matters'). Evaluated focuses almost entirely on analysis and action steps",
+      "language_register": "Ground Truth uses casual, teen-friendly language ('mean-spirited,' 'just joking'). Evaluated uses formal, adult language ('power angle,' 'persistence angle,' 'loop in support')",
+      "length_and_density": "Ground Truth is concise with clear visual breaks via bullets. Evaluated is much longer with dense paragraphs that would be harder to read on mobile",
+      "emoji_usage": "Ground Truth has natural emoji in opening. Evaluated has none, making it feel cold",
+      "structure": "Ground Truth uses bullets to make comparison scannable. Evaluated keeps prose but becomes harder to quickly digest the key distinctions"
+    }
+  }
+}

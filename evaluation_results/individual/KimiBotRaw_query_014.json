@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation and empathy ('Oh man, that's such an uncomfortable spot to be in', 'you didn't choose to know this, so try not to beat yourself up')",
+      "Provides very specific, actionable scripts the teen can actually use ('Hey, I accidentally learned something about you...', 'I can tell you're processing something heavy')",
+      "Ends with engaging, specific questions that invite continuation ('How'd you end up finding out? Was it an accident or did they actually confide in you?')"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers (**Zip it, obviously.**, **Consider the source.**, etc.) breaks conversational flow and reads like a self-help article rather than a text from a friend",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') making it feel more impersonal and advisory rather than supportive",
+      "Uses detached phrasing like 'Here's the usual playbook' which feels corporate compared to Claude's warmer, more personal approach"
+    ],
+    "most_claude_like": "The immediate emotional validation at the beginning acknowledging the awkwardness of the situation and giving permission to feel anxious about it",
+    "least_claude_like": "The bold header formatting (**Zip it, obviously.**) which creates a structured, list-heavy format rather than natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "While not traditional bullet points, the four bold headers (**Zip it, obviously.**, **Consider the source.**, **Act normal.**, **Set boundaries if needed.**) function as section dividers and create a heavily structured, formatted appearance unlike Claude's preferred natural paragraph flow. The ground truth uses simple dashes which are less intrusive."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses light dash bullets within prose; evaluated response uses aggressive bold headers that dominate the formatting",
+      "Ground truth is concise (2 short paragraphs + light bullets); evaluated response is significantly longer with 4 distinct advice sections",
+      "Ground truth asks one natural follow-up question; evaluated response asks two questions which feels slightly more interrogative",
+      "Evaluated response lacks the casual, observational tone ('It sounds like maybe...') in favor of imperative commands ('Zip it', 'Act normal')"
+    ]
+  }
+}

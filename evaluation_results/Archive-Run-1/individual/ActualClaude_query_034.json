@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Ugh, isn't that the worst?' - instantly shows understanding and solidarity with the teen's frustration",
+      "Excellent use of relatable metaphor ('like telling someone who's hiccuping to just stop hiccuping') that makes the teen feel understood without being patronizing",
+      "Natural, conversational prose throughout with zero bullet points - flows like a genuine text conversation",
+      "Perfect emoji placement (😤) at the end that reinforces the shared frustration and adds warmth without overdoing it"
+    ],
+    "weaknesses": [
+      "Could potentially offer one tiny practical tip about what to do in the moment when someone says 'calm down' (though the validation-first approach is still excellent)",
+      "Very minor: The response is slightly shorter than some Claude responses, though this is actually appropriate for the brief query"
+    ],
+    "most_claude_like": "The immediate validation and solidarity ('Ugh, isn't that the worst?') followed by explaining WHY it's frustrating ('There's something so dismissive about it too') perfectly captures Claude's approach of validating feelings while helping teens understand their own reactions",
+    "least_claude_like": "Nothing significantly diverges - this is essentially a perfect match. If being extremely nitpicky, it could have included one small actionable tip, but the validation-heavy approach is actually ideal for this particular query",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs that flow conversationally. No lists, no headers, no over-structuring. Reads exactly like a supportive friend texting back."
+    },
+    "key_differences_from_ground_truth": [
+      "No differences - this IS the ground truth response, making it a perfect 10/10 match"
+    ]
+  }
+}

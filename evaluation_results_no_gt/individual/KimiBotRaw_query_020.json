@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable physical description ('your stomach drops and suddenly your brain becomes a Netflix thriller writer') that perfectly captures the anxiety spiral",
+      "Highly specific, actionable advice tailored to teen experiences ('Throw it across the room (onto a soft surface please)', 'touch grass', 'Don't double-text while you're anxious')",
+      "Excellent follow-up question that offers specific options ('They realized I'm boring' or 'they're talking to someone better') to make it easier for the teen to respond"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and bold headers (**While you wait:**, **breathe**) breaks the conversational prose flow and reads more like a self-help article",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') that creates personal connection; relies mostly on second-person 'you' and imperative commands",
+      "The 'Reality check options' section uses a bulleted list format instead of integrating these ideas into natural flowing sentences"
+    ],
+    "most_ideal_aspect": "The balance of emotional validation and practical advice - it immediately validates the 'spiral' feeling with empathy ('of course it stings') before offering concrete reality checks and coping strategies, ending with reassurance about self-worth",
+    "least_ideal_aspect": "The formatting structure with bold headers and bullet point lists significantly diverges from the ideal conversational prose format that should read like a text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "70%",
+      "notes": "Response uses a 5-item bulleted list under 'Reality check options' and bold headers (**First: breathe**, **While you wait:**) which creates a structured, article-like format rather than natural paragraph flow"
+    },
+    "specific_feedback": [
+      "Convert the bulleted 'Reality check options' into flowing prose by connecting the ideas with transitions like 'Maybe they opened it while walking and got distracted, or maybe they're overthinking their response because they actually like you...'",
+      "Add first-person connection phrases like 'I think the most likely scenario is...' or 'I'd try to remember that...' to create a more personal, supportive voice rather than instructional 'you should' language",
+      "Remove bold headers and integrate section transitions naturally into the text flow, such as 'While you're waiting, I'd suggest putting down the phone...' instead of **While you wait:**"
+    ]
+  }
+}

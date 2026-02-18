@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'I'm so sorry you're dealing with this right now' and 'That's really tough' that acknowledges the difficulty of the situation",
+      "Excellent use of first-person language throughout ('I know,' 'I think,' 'I'm so sorry') creating a personal, supportive connection",
+      "Natural follow-up question that specifically references the user's 'again' by asking 'Is this something that's been happening a lot lately, or just tonight?' showing active listening"
+    ],
+    "weaknesses": [
+      "Could slightly enhance practical advice by offering specific script suggestions for talking to parents (e.g., 'Hey, I can hear you arguing and it really stresses me out')",
+      "While validation is strong, could briefly acknowledge the specific pain of hearing them 'again' to validate the recurring nature of the distress in the opening lines"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, headers, or over-structuring - reads exactly like a supportive text from a friend",
+    "least_ideal_aspect": "Practical advice section, while realistic, could be slightly more specific about exactly what to say when approaching parents or counselors",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, bold text, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one specific phrase example the teen could use when talking to their parents (e.g., 'When things are calm, you could say something like, 'Hey, I can hear when you guys argue and it really upsets me'')",
+      "The validation is strong but could explicitly name the 'again' aspect early on (e.g., 'Having to hear them fight again must feel exhausting') to show you noticed that detail"
+    ]
+  }
+}

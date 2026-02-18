@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 8,
+      "practical_advice": 6,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating!' and explicit acknowledgment 'It totally makes sense that you're mad about it'",
+      "Perfect natural prose formatting with zero bullet points, headers, or over-structuring",
+      "Uses first-person language naturally with 'I get that it still feels crappy' creating personal connection"
+    ],
+    "weaknesses": [
+      "Asks two questions at once ('How long...?' and 'And are you still able...?') which can feel slightly overwhelming",
+      "Lacks concrete actionable advice or specific phrases to use when talking to the teacher",
+      "No emoji used to enhance warmth for a frustrating situation where one might be appropriate"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with strong immediate emotional validation and conversational flow",
+    "least_ideal_aspect": "Practical advice quality - offers perspective-taking and reframing but no specific action steps or concrete strategies for addressing the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose-only format with three natural paragraphs flowing from validation to perspective to questions, no formatting crutches"
+    },
+    "specific_feedback": [
+      "Include one concrete actionable suggestion before asking questions, such as 'You could ask your teacher privately after class if the move is permanent or just for this unit'",
+      "Use one well-placed emoji like 😤 or 😅 in the opening to enhance warmth for this frustrating situation",
+      "Combine the two final questions into one or ask them sequentially to avoid overwhelming the user with multiple response prompts at once"
+    ]
+  }
+}

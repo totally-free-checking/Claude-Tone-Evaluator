@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, creating a natural conversational flow that reads like a text from a friend",
+      "Strong visceral emotional validation using physical descriptors like 'makes your stomach twist' and 'gross feeling' that deeply acknowledge the teen's distress",
+      "Provides a specific, word-for-word script the teen can use ('I understand why this looks suspicious...') which is immediately actionable and reduces anxiety about what to say"
+    ],
+    "weaknesses": [
+      "Lacks first-person opinion framing language like 'I think' or 'I'd suggest' that Claude uses to establish personal connection; relies on 'Honestly' instead of 'I think'",
+      "Combines two distinct questions into one long question at the end rather than separating them or asking one focused follow-up",
+      "Could balance the validation-to-advice ratio slightly better—the advice section is quite long compared to the emotional validation section"
+    ],
+    "most_claude_like": "The pure prose formatting without any bullet points or headers, which aligns perfectly with the character's texting-like conversational style (unlike the ground truth which used bullet points)",
+    "least_claude_like": "The absence of first-person subjective language ('I think', 'I'd say', 'I get it') in the bot's own voice; the response feels slightly more prescriptive than the warm, personal advisory tone Claude typically uses",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three natural paragraphs with advice embedded in flowing sentences rather than lists, which is actually more aligned with the character profile description than the bullet-heavy ground truth"
+    },
+    "key_differences_from_ground_truth": [
+      "Response uses pure prose while ground truth uses bullet points under headers (Talk to your teacher, Gather evidence, Know your options)",
+      "Response provides specific dialogue scripts the teen can quote verbatim, while ground truth gives more general action categories",
+      "Response uses more visceral, physical emotional language ('stomach twist') compared to ground truth's calmer cognitive validation ('totally makes sense that you'd be stressed')"
+    ]
+  }
+}

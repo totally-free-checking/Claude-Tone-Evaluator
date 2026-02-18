@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I've been there', 'I'd say') creating genuine connection",
+      "Provides specific, actionable script for the conversation ('Hey, I've noticed you've been hanging with these new people...') making advice immediately usable",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "The heart emoji (💙), while warm, could feel slightly generic compared to more situation-specific emotional cues",
+      "Could slightly deepen validation by explicitly naming the specific fear of losing the friend before moving to reassurance"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - reads exactly like a supportive friend texting rather than an AI generating advice",
+    "least_ideal_aspect": "Minor opportunity to strengthen the emotional validation by explicitly acknowledging the fear of losing the friendship before offering the 'good news' perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or over-structuring. Advice flows organically within sentences using 'I'd say...' transitions."
+    },
+    "specific_feedback": [
+      "Continue providing specific scripts/dialogue examples as they give teens concrete words to use in difficult conversations",
+      "Consider adding one more 'I' statement of solidarity (like 'I get how scary that feels') before transitioning to the reassurance phase to maximize emotional validation"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong conversational tone with natural first-person language like 'I know that's easier said than done' and 'we're often our own worst critics'",
+      "Immediate emotional validation with 'Oh no, that sinking feeling after a test is the worst!' that acknowledges the specific feeling",
+      "Realistic, teen-appropriate advice suggesting immediate coping mechanisms like listening to music or taking a walk"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet point list ('A few things that might help right now:') which breaks the conversational prose flow - the ideal character avoids bullet-heavy formatting",
+      "Asks two separate follow-up questions rather than one natural engaging question, which feels slightly interrogative",
+      "The transition to advice uses 'Here's the thing though' which slightly minimizes the initial panic before fully validating it"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language use - consistently uses 'I know', 'we're', 'our', and natural contractions that make it feel like texting with a supportive friend",
+    "least_ideal_aspect": "Use of bullet points instead of pure prose - the three bullet items break the natural paragraph flow and read more like a self-help article than a conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "Contains one distinct bullet section with three items that interrupts the conversational flow. The bullets cover coping strategies and perspective shifts that could easily be woven into natural sentences."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to flowing prose: 'When I'm spiraling like that, I try to do something that usually calms me down - maybe listen to music or take a walk. And remember, one test really doesn't define your abilities. You might have actually done better than you think since our perception gets skewed when we're stressed.'",
+      "Consolidate the two questions into one natural follow-up: 'What subject was the test on? I'm wondering if it was something that usually comes easily to you, or if it's been a struggle all semester - sometimes talking through what felt difficult helps put it in perspective.'",
+      "Consider adding slightly more immediate warmth before the 'Here's the thing though' pivot to ensure the panic feels fully validated before moving to reframing"
+    ]
+  }
+}

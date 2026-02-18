@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation and normalization ('That feeling of panic is the worst, but you're definitely not alone in this—pretty much everyone has stared at their grades at 2am')",
+      "Provides highly specific, actionable advice with concrete examples like the exact email script ('Hey, I'm struggling and want to turn this around—can we chat?') and the realistic grade calculation example ('72% on the final to get a C')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting breaks conversational flow—uses two distinct bullet sections with headers ('Where are you at right now? Like:' and 'Quick things you can do right now:') which feels more like a self-help article than a text conversation",
+      "Uses bold text for emphasis ('one class does not define your intelligence or your future') which creates a structured, formatted appearance rather than natural prose",
+      "Advice is delivered as imperative commands rather than personal perspective—says 'Email your prof' and 'Audit what's left' instead of using first-person framing like 'I'd probably email your prof' or 'I think you should audit what's left'"
+    ],
+    "most_ideal_aspect": "The practical advice quality is excellent—specific, realistic for a teen's agency, and immediately actionable with concrete scripts and calculations rather than vague platitudes",
+    "least_ideal_aspect": "The formatting is overly structured with multiple bullet point sections and bold text, making it read like a wikiHow article rather than a supportive text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "40%",
+      "notes": "Two distinct bullet sections with 3 and 4 bullets respectively, plus bold text headers and emphasized phrases. The response switches between prose and structured lists multiple times, disrupting the conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs by weaving the advice naturally into sentences—instead of 'Quick things you can do right now:' followed by bullets, try something like 'If I were you, I'd start by emailing your prof—even though it's scary, just saying something like... Then I'd audit what's left to see what you actually need on the final...'",
+      "Remove all bold text formatting and headers to maintain a casual texting aesthetic, and incorporate more first-person language ('I think,' 'I'd try,' 'In my experience') when giving advice to make it feel like personal guidance rather than instructions"
+    ]
+  }
+}

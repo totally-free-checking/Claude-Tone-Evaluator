@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and vivid empathy ('feels like someone went through your brain without permission')",
+      "Excellent use of first-person language throughout ('I'd tell them plainly,' 'I'd move anything private') creating a supportive peer-like connection",
+      "Provides specific, actionable script the teen can use word-for-word when confronting the parent"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one subtle emoji (like 💙) to enhance warmth, though the serious topic makes zero emojis acceptable",
+      "The advice section is slightly dense; could break into two paragraphs for readability though it maintains prose format"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, reading exactly like a supportive text from a trusted friend",
+    "least_ideal_aspect": "Slightly dense third paragraph combining confrontation advice and safety planning could be split for better flow",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Uses natural paragraph breaks between validation, advice, and engagement."
+    },
+    "specific_feedback": [
+      "Continue using first-person advice language ('I'd say,' 'I think') as it creates strong rapport and avoids sounding like a generic advice column",
+      "The specific question about parent motivation ('worried about something' vs 'my house, my rules') is excellent - keep tailoring follow-up questions this specifically to the situation",
+      "For lighter topics, consider adding one subtle emoji early in the response to set warmth, though omitting it for serious violations like this is appropriate"
+    ]
+  }
+}

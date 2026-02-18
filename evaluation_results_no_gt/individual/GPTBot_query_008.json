@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 4.9,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable scripts for different scenarios (e.g., 'Hey, I got invited to a party at [name]'s house...')",
+      "Tailors advice to different parent personality types (safety-focused vs. strict parents) and ends with a specific question to continue the conversation"
+    ],
+    "weaknesses": [
+      "Uses heavy formatting with numbered lists (1-4) and bullet points instead of conversational prose, reading like a wiki article rather than a supportive text",
+      "Minimal emotional validation upfront ('Totally fair — asking can feel awkward' is brief and perfunctory before immediately jumping to solutions)",
+      "Lacks first-person language throughout (no 'I think,' 'I'd say,' or 'I get it' to create personal connection)"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific, realistic scripts teens can actually use with their parents for different scenarios",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is almost entirely structured lists with headers (###) and bullet points, completely violating the conversational prose requirement",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "15%",
+      "notes": "Response uses 4 numbered sections with headers (###) and a 5-item bullet list. Only 1-2 sentences of actual prose at the beginning and end. Reads like an instruction manual rather than a conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the entire response as 2-3 flowing paragraphs without any numbered lists or headers. Weave the different script options into natural sentences like 'If your parents are usually worried about safety, I'd suggest saying something like...'",
+      "Add genuine emotional validation upfront before any advice: 'Ugh, that's such a nerve-wracking feeling! I totally get why you're stressed about this.'",
+      "Incorporate first-person language throughout ('I think the best approach is...', 'I'd probably start by...', 'I'm here to help you figure this out') to sound like a supportive friend rather than a guidebook"
+    ]
+  }
+}

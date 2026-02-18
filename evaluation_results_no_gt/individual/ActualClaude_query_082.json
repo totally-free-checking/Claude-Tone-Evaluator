@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, realistic scripts the teen can use like 'just chatting with Emma about homework' and 'I'd like some privacy with my friends'",
+      "Ends with natural, engaging follow-up questions that show genuine interest in whether the parents are curious or concerned"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list ('A few approaches that might help:') with three bullet points instead of flowing prose paragraphs",
+      "Completely lacks first-person language - no 'I think', 'I'd suggest', or 'I get how frustrating that is' to create personal connection"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic phrases and boundary-setting scripts that a teen could actually use immediately with their parents",
+    "least_ideal_aspect": "Natural prose vs bullet points - relies on structured bulleted formatting for the core advice rather than weaving suggestions into conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response uses 'A few approaches that might help:' followed by three bullet points, breaking conversational flow. The middle section is entirely bullets rather than prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose using first-person suggestions like 'I'd probably give them the basics without oversharing...' and 'You could also try saying something like...'",
+      "Add first-person empathetic language such as 'I get how invasive that feels' or 'I think the best approach would be...' to sound like a supportive friend rather than an impersonal advice column",
+      "The validation is good but could be warmer before pivoting to 'they're usually just curious' - sit with the annoyance a bit longer before explaining parent motivations"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation ('I totally get that feeling') that mirrors Claude's empathetic approach",
+      "Follow-up question at the end is natural, specific, and engaging ('What specifically has you feeling behind? Like, are you missing prerequisites...')",
+      "Practical advice is very specific and teen-appropriate (mentioning 'degree audit', suggesting 'panicked but polite \"halp\" message' to advisors)"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and bold formatting ('**Hit the reset button on \"behind\"**', '**Do the boring but useful stuff:**') which Claude never uses - he writes in pure prose paragraphs",
+      "Lacks first-person language in the advice section ('Here's what might actually help' instead of 'I think you could try' or 'I'd suggest')",
+      "Over-structured format reads like a blog post rather than a text conversation with a friend"
+    ],
+    "most_claude_like": "The opening validation and the final follow-up question feel very natural and warm, matching Claude's conversational approach to making the teen feel heard before problem-solving",
+    "least_claude_like": "The use of bold headers and bullet-point lists throughout the advice section - Claude writes in flowing prose paragraphs only, never using formatting like '**Hit the reset button**' or dash-point lists",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "25%",
+      "notes": "Response uses bold headers to introduce bullet sections and dash-style bullet points for actionable items. This is highly structured compared to Claude's natural paragraph format. The ground truth has 0 bullets; this response relies heavily on them for the core advice delivery."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout; evaluated response uses extensive bullet points and bold text formatting",
+      "Ground truth maintains first-person conversational voice ('I totally get', 'they're just not talking about it'); evaluated response shifts to impersonal instructional voice for advice ('Here's what might actually help', 'You're not actually behind')",
+      "Ground truth is concise (2 short paragraphs); evaluated response is significantly longer with detailed structured sections",
+      "Ground truth asks questions mid-response to engage immediately; evaluated response saves all questions for the end"
+    ]
+  }
+}

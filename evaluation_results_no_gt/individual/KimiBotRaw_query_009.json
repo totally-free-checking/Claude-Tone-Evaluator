@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation using relatable language like 'That sinking feeling' and 'genuinely awful' that immediately makes the teen feel understood",
+      "Provides excellent specific scripts the teen can actually use word-for-word ('I can tell something's up since you looked at my phone...') rather than vague suggestions",
+      "Follow-up questions are highly specific and insightful (distinguishing between 'protective-weird or guilty-weird') showing genuine engagement with the situation"
+    ],
+    "weaknesses": [
+      "Uses bold headers ('**The direct approach:**', '**The wait-and-see:**', '**The prep work:**') that function as bullet points, breaking the conversational prose flow and feeling more like a self-help article",
+      "Lacks first-person language throughout - uses observational statements ('Sometimes parents do this thing') instead of personal perspective ('I think parents sometimes...' or 'I'd probably wait...') which creates distance rather than connection",
+      "The structured formatting with labeled approaches feels more instructional than conversational, despite the casual language used within each section"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies with specific phrasing the teen can use immediately, considering multiple scenarios (mental health vs. venting) and respecting teen agency",
+    "least_ideal_aspect": "Natural prose formatting - the use of bold headers to organize three approaches creates a structured, list-like format that diverges significantly from the ideal flowing paragraph style",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response uses three bold headers ('The direct approach:', 'The wait-and-see:', 'The prep work:') that act as bullet points, preceded by 'Here are a few ways to handle the suspense:' which signals a list format. While content within sections is prose, the structural organization is heavily formatted and checklist-like."
+    },
+    "specific_feedback": [
+      "Remove the bold headers and introductory phrase 'Here are a few ways...' and instead weave the three approaches into flowing paragraphs using transitions like 'You could try just naming the awkwardness directly...' or 'If that feels too intense, maybe wait a day...'",
+      "Add first-person perspective throughout using phrases like 'I think the direct approach works best because...' or 'I'd probably feel so anxious in your shoes' to create the feeling of talking with a supportive friend rather than reading general advice",
+      "Consider integrating the advice sections into a more natural narrative flow rather than distinct categorized options, perhaps by suggesting the teen choose based on their personality or the specific vibe they're getting from their parents"
+    ]
+  }
+}

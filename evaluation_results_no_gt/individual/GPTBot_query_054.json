@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with strong validation: 'That really sucks, and you're not overreacting' immediately normalizes their feelings",
+      "Provides extremely specific, actionable phrases the teen can actually use in the moment ('Don't comment on my body,' 'That's a weird thing to say out loud')",
+      "Ends with a specific invitation to share more details so you can tailor help further"
+    ],
+    "weaknesses": [
+      "Completely over-structured with headers (### 1, ### 2) and bullet points throughout - reads like a workplace harassment manual, not a supportive conversation",
+      "Zero first-person language - no 'I think,' 'I'd say,' or 'I get it' - feels impersonal and instructional rather than like a supportive friend",
+      "Massive imbalance between validation (one sentence) and solutions (5 extensive sections with sub-bullets) - feels overwhelming and dismissive of the emotional weight"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific scripts and escalation steps are realistic and immediately usable",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is almost entirely structured lists and headers rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "10%",
+      "notes": "Response uses 5 major headers (### 1 through ### 5) with extensive bullet lists under each. Only 1-2 sentences of actual prose at the beginning. Reads like a wiki article or HR guide rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite this as 2-3 natural paragraphs without any bullet points - flow the advice into sentences like 'If it were me, I'd try saying something like...' instead of listing options",
+      "Add first-person language throughout ('I think the safest approach would be...', 'I'd probably start with...', 'I get why that feels gross') to create connection",
+      "Move the detailed escalation steps to a follow-up message - start with emotional validation and one simple immediate suggestion, then ask the follow-up question to see if they want more detailed strategies"
+    ]
+  }
+}

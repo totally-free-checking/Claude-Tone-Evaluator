@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such an uncomfortable feeling' and 'I'm really sorry you're dealing with that' which makes the teen feel heard right away",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'If it helps, you could start with...'",
+      "Highly specific and realistic advice including concrete examples like 'granola bar, fruit,' specific seating locations ('end of a table, near a wall'), and actionable coping strategies ('sip water, look at your phone')"
+    ],
+    "weaknesses": [
+      "Lacks first-person language in the advice section - uses 'you could' instead of 'I'd suggest' or 'I think you could,' which makes the advice feel slightly less personal",
+      "Could benefit from one more 'I' statement like 'I get how that feels' or 'I've seen friends deal with this' to strengthen the personal connection in the middle section"
+    ],
+    "most_ideal_aspect": "Natural prose flow without any bullet points, headers, or over-formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Missing first-person 'I think/I'd say' language in the practical advice section, making it slightly less personal than ideal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or bold headers. Advice is seamlessly integrated into conversational prose."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice using phrases like 'I'd suggest starting with...' or 'I think sitting with one trusted friend helps' to make it feel more like personal guidance from a friend",
+      "Consider adding 'I'm here if you need to talk' or similar closing support before the final question to reinforce availability"
+    ]
+  }
+}

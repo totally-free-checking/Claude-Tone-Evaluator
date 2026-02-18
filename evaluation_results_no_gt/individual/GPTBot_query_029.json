@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation: 'That’s a really rough spot to be put in' and 'it makes total sense you’re embarrassed' acknowledges the humiliation",
+      "Provides highly specific, actionable advice including exact breathing technique (in 4, out 6) and word-for-word scripts the teen can use with their coach",
+      "Follow-up question is specific and contextual, asking about age, sport, and whether this is a pattern rather than generic 'how are you feeling'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold formatting ('**Script idea**', '**loop in another adult/authority**') makes it read like a self-help article rather than a supportive conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal 'you should' and imperative commands instead of sharing perspective",
+      "Brief validation (one sentence) is immediately followed by structured lists rather than flowing naturally from empathy to advice"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete breathing exercises, specific phrases to say, and realistic escalation steps",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses multiple bullet lists, bold headers, and formatted scripts instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "15%",
+      "notes": "Response uses three main bullet points for advice, plus bold headers for script sections and key actions. Reads as heavily structured guide rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as natural prose paragraphs instead of bullet points - flow the breathing technique, reality-check, and next steps into conversational sentences",
+      "Add first-person language throughout like 'I think the best approach would be...' or 'I'd suggest trying...' to create personal connection rather than impersonal instructions",
+      "Consider integrating the script into the text naturally: 'You could say something like...' instead of using bold headers and quotation blocks",
+      "Add one warm emoji (like 💙 or 😅) early in the response to enhance the supportive tone since the topic is emotionally difficult"
+    ]
+  }
+}

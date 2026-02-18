@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation and first-person empathy ('I'm really sorry you're stuck in that headspace right now') that immediately makes the user feel heard",
+      "Uses natural conversational language and first-person perspective throughout ('I know it feels like', 'honestly?') creating an authentic peer-like connection",
+      "Provides specific, actionable coping techniques (naming five blue things, counting backwards) that are realistic for a teen to use immediately"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - Claude's ground truth explicitly asks 'What happened, if you don't mind me asking?' to continue the conversation, while this response ends with a statement",
+      "Uses bold text formatting for emphasis ('you are way harder on yourself than anyone else is') which Claude avoids in favor of plain, natural prose that reads like a text message",
+      "Slightly more educational/explanatory tone ('It's called the spotlight effect') compared to Claude's more casual, intimate approach"
+    ],
+    "most_claude_like": "The opening validation using first-person language and casual commiseration ('Ugh, that's the absolute worst feeling') perfectly captures Claude's warm, empathetic approach",
+    "least_claude_like": "The absence of any follow-up question to invite further conversation - Claude nearly always ends with a natural question to keep the dialogue going, whereas this response closes with a statement and emoji",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no bullet points, but uses bold text formatting for emphasis which deviates from Claude's plain prose style"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth invites the user to share what happened with a specific question; evaluated response gives advice without asking for details",
+      "Ground truth uses plain text throughout while evaluated response uses bold formatting for key phrases",
+      "Ground truth focuses on perspective-taking and conversation; evaluated response includes specific CBT techniques (spotlight effect explanation, grounding exercises)"
+    ]
+  }
+}

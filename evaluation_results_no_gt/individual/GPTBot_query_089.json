@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 2,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Provides extremely specific, actionable advice that is genuinely helpful for procrastination (the 'shrink the first task' technique with examples like turning 'Write report' into 'Open doc + write 3 bullet points')",
+      "Offers realistic timeframes (10 minutes, 5-minute starter steps) that acknowledge teen overwhelm rather than suggesting unrealistic marathon study sessions",
+      "Includes concrete examples of specific phrases and actions rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses imperative commands ('Do this', 'Pick your', 'Set a timer') instead of 'I'd suggest' or 'I think'",
+      "Heavy over-structuring with headers (##), numbered lists (1-4), bullet points with bold text, and sub-bullets makes it read like a productivity manual rather than a conversation",
+      "Minimal emotional validation - only one sentence acknowledges the feeling before jumping immediately to solutions, and even that is clinical ('usually a mix of overwhelm + unclear next steps') rather than warm ('Ugh, that spiral is the worst')"
+    ],
+    "most_ideal_aspect": "The practical advice quality is excellent - the specific technique of breaking tasks into 5-minute starter steps and the 10-minute timer method is exactly the kind of realistic, immediately actionable help a teen needs",
+    "least_ideal_aspect": "The formatting is completely misaligned - using headers, numbered lists, and bullet points throughout makes it feel like a self-help article or wikiHow guide rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "10%",
+      "notes": "Response uses multiple H2 headers (##), numbered lists (1-4), bullet points with bold labels (- **Due soon**), and sub-bullets. Only 2-3 sentences are actual prose. Reads like a structured guide rather than natural texting conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs - instead of '1. Brain dump (3 min): Write every task...' use 'I'd start by just brain dumping everything onto paper - give yourself 3 minutes to get it all out without organizing. Then pick your top 3...'",
+      "Add genuine emotional validation upfront before any advice - something like 'Ugh, that everything-piling-up feeling is honestly the worst. It feels like you're drowning and somehow also frozen at the same time, right?'",
+      "Replace the numbered 'Two questions' section with a natural follow-up like 'What kinds of things are piling up for you right now? And when you sit down to start, do you usually find yourself scrolling, or is it more that anxious freeze where you don't know where to begin?'"
+    ]
+  }
+}

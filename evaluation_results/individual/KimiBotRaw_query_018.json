@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Opens with strong validation using first-person language ('I'm sorry you're dealing with that') which matches Claude's empathetic approach",
+      "Provides excellent, specific actionable advice realistic for teens (headphones, grounding techniques, texting friends) with safety considerations",
+      "Ends with engaging, specific follow-up questions that show genuine concern about immediate safety and support options"
+    ],
+    "weaknesses": [
+      "Heavy over-use of formatting (bold headers like '**Right now:**' and '**Afterward**') and bullet points creates a clinical, instructional feel rather than conversational prose",
+      "Lacks natural first-person perspective throughout ('I think', 'I'd say', 'I get it') making it feel more like a resource guide than a supportive friend",
+      "Significantly too long and detailed compared to Claude's concise, phone-friendly 2-4 paragraph approach - feels overwhelming"
+    ],
+    "most_claude_like": "The opening validation sentence and closing questions capture the warm, supportive tone well, using natural language and showing genuine care about the teen's wellbeing",
+    "least_claude_like": "The heavy structural formatting with bold section headers and extensive bullet-point lists completely diverges from Claude's natural prose paragraph style",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "30%",
+      "notes": "Response uses bold headers to introduce bullet sections ('**Right now:**', '**Afterward:**') which creates a structured, manual-like appearance. Claude uses minimal bullets (3 simple dashes) integrated naturally; this response uses bullets as the primary delivery method with over 70% of content in list format"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses natural prose paragraphs with only 3 simple bullet points; evaluated response uses heavy formatting, bold headers, and extensive bullet lists",
+      "Ground truth is concise (2 short paragraphs); evaluated response is lengthy and comprehensive, potentially overwhelming for a distressed teen",
+      "Ground truth balances validation with brief advice; evaluated response leans heavily toward detailed practical solutions with less emotional support",
+      "Ground truth uses casual first-person throughout ('I'm really sorry', 'It's tough'); evaluated response shifts to impersonal instructional tone ('First off', 'Here are some things')"
+    ]
+  }
+}

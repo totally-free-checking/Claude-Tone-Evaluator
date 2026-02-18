@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I totally get', 'I'd say' implied in tone) creating a personal, supportive connection",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, making it feel like a text from a friend rather than a list of instructions",
+      "Strong emotional validation opening with 'Ugh, that's so frustrating!' and acknowledging specific feelings like embarrassment and unfairness"
+    ],
+    "weaknesses": [
+      "The follow-up question is slightly less comprehensive than the ground truth (asks only about the outing type, not age)",
+      "Could slightly increase the ratio of practical advice to validation - currently heavy on the emotional support side compared to the ground truth"
+    ],
+    "most_claude_like": "The natural conversational prose format without any bullet points or headers, using casual language like 'Ugh' and 'super unfair' while maintaining first-person perspective throughout",
+    "least_claude_like": "The inclusion of an emoji (😅) when the ground truth uses none, though this is still within the 0-1 acceptable range for the character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, which actually aligns better with the character description than the ground truth (which uses 4 bullet points). Advice is woven naturally into sentences rather than listed."
+    },
+    "key_differences_from_ground_truth": [
+      "Response uses pure prose while ground truth uses bullet points for advice section",
+      "Response includes one emoji (😅) while ground truth uses none",
+      "Response asks only about the type of outing; ground truth asks about both age and outing type",
+      "Response emphasizes 'earning privilege' and specific logistics (hourly check-ins); ground truth emphasizes building trust gradually and showing responsibility in other areas"
+    ]
+  }
+}

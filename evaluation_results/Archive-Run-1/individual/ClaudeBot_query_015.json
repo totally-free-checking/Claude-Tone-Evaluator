@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong opening validation: 'That's infuriating, and it makes sense you're close to snapping—having your privacy ignored can feel really violating' effectively acknowledges the emotional weight",
+      "Excellent practical advice quality with specific, actionable suggestions like exact phrases to use ('I noticed you've been in my room and my drawer has been moved') and concrete solutions (lockbox, doorstop tricks)"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes the response feel formal and clinical despite the content trying to be supportive",
+      "Heavy bullet point usage ('- Set some clear boundaries' style formatting) directly contradicts Claude's prose-focused approach - the ground truth uses bullets sparingly while this response structures advice in list format",
+      "Significantly too long and dense - reads like a comprehensive guide rather than a supportive text conversation. Ground truth is ~150 words, this is ~350 words",
+      "Jumps too quickly into problem-solving mode without enough emotional sitting-with-the-feeling. Ground truth spends more time validating before offering solutions"
+    ],
+    "most_claude_like": "The specific, realistic advice with exact phrases the teen could use ('I noticed you've been in my room...') matches Claude's approach of giving concrete, immediately actionable guidance",
+    "least_claude_like": "The complete absence of emojis combined with the lengthy, structured format makes this read like a self-help article rather than a warm, casual conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically no bullet points are used, the response has a heavily structured, instructional feel with clear sections (cooling down → confrontation → practical solutions). The ground truth uses actual bullets but feels more conversational overall. This response avoids bullets but still feels over-formatted and list-like in its mental organization."
+    },
+    "key_differences_from_ground_truth": [
+      "Length: Ground truth is concise (~150 words) and phone-friendly; evaluated response is more than double the length (~350 words) and feels overwhelming",
+      "Emoji usage: Ground truth opens with 'Ugh' and uses natural exclamations; evaluated response has zero emojis and no casual interjections",
+      "Tone progression: Ground truth validates → offers ideas → asks engaging question. Evaluated response validates briefly → immediately launches into detailed problem-solving → ends with conditional question",
+      "Conversational flow: Ground truth feels like texting ('SO frustrating!', 'though honestly, they probably should know better'); evaluated response feels like reading advice ('it usually works better if', 'On the practical side')",
+      "Question engagement: Ground truth asks two natural, curious questions ('What kind of stuff?' 'Is it just general snooping?'); evaluated response ends with a conditional, transactional question ('If you tell me... I can suggest')"
+    ]
+  }
+}

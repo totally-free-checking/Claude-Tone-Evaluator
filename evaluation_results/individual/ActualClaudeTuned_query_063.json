@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I think everyone's usually too focused', 'I'd just quietly slip out') creating a personal, supportive voice",
+      "Natural prose format with zero bullet points - flows like a conversation with paragraphs that blend validation and advice seamlessly",
+      "Specific, actionable advice that's realistic for a teen ('quietly slip out', 'oops, wrong room!') rather than generic platitudes"
+    ],
+    "weaknesses": [
+      "Slightly longer than Claude's typical 2-3 paragraph preference - the ground truth is more concise while this response expands significantly on the advice section",
+      "Question comes at the very end rather than being integrated earlier in the conversation, making it feel slightly more like a 'closing' than an organic continuation"
+    ],
+    "most_claude_like": "The natural first-person prose voice using 'I think', 'I'd say', and 'I'm' throughout, combined with immediate emotional validation ('Ugh, that's so awkward!') and appropriate single emoji usage",
+    "least_claude_like": "The length and structure - Claude's ground truth is punchier at 2 paragraphs with the question embedded in the middle, while this response is 4 paragraphs with the question tacked on at the end, creating a slightly more 'advice-heavy' feel",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within sentences rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth is more concise (2 paragraphs vs 4) and focuses primarily on emotional validation and asking what they did, while evaluated response provides more extensive practical advice about how to handle the situation",
+      "Ground truth places the follow-up question in the middle of the response ('Did you do the classic...'), creating a more conversational back-and-forth feel, whereas evaluated response saves the question for the end"
+    ]
+  }
+}

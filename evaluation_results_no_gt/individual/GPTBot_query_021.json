@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 3.5,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 5,
+      "conversational_tone": 2,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 2,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Opens with validation that the user is not overreacting and that the situation is unsettling",
+      "Provides comprehensive, specific actionable steps including exact phrases to use when asking for removal",
+      "Takes the situation seriously with appropriate urgency regarding safety and legal considerations"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with headers (## 1), ## 2)), bold text, bullet points, and numbered lists throughout instead of conversational prose",
+      "Uses formal, instructional language like 'Here are practical steps you can take' and legal terminology ('reasonable expectation of privacy,' 'doxx,' 'defame') rather than casual first-person language",
+      "Follow-up questions are formatted as an interrogation list (1), 2), 3), 4)) rather than a natural conversational question",
+      "Lacks first-person perspective entirely - no 'I think,' 'I'd say,' or 'I get it' to create personal connection",
+      "Minimal emotional validation after the first sentence; immediately jumps into procedural steps without acknowledging feelings again"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong with specific, realistic steps for evidence preservation and platform reporting that acknowledge a teen's potential lack of legal resources",
+    "least_ideal_aspect": "The formatting is completely misaligned with the ideal character - it reads as a legal help article or wiki guide with heavy use of headers, bullet points, and numbered lists rather than warm conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 20,
+      "prose_percentage": "5%",
+      "notes": "Response uses extensive formatting including 6 numbered headers (## 1) through ## 6)), multiple bullet points under each section, bold text for emphasis, and a horizontal rule. The text is broken into discrete instructional chunks rather than flowing prose paragraphs."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in conversational paragraphs using first-person language like 'I think you should start by...' or 'I'd feel really unsettled too' instead of headers and bullet points",
+      "Replace the four numbered follow-up questions at the end with one natural question like 'What platform did they post it on? I'm here to help you figure out the exact steps'",
+      "Add emotional validation throughout the response, not just at the beginning - acknowledge how violating and scary this feels between practical suggestions",
+      "Remove legal jargon and formal terminology, replacing with teen-appropriate language while keeping the advice actionable"
+    ]
+  }
+}

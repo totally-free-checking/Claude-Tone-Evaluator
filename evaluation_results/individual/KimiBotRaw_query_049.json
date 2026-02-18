@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 0,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with relatable validation ('I know that loop well') and casual language that matches the teen voice",
+      "Uses first-person language naturally ('I know that loop well') and creates a conversational feel in the opening paragraph",
+      "Provides specific, actionable advice like the '5% weight' concept and 'change the channel' technique that feels realistic for teens"
+    ],
+    "weaknesses": [
+      "Uses bullet points and bold headers ('**To stop the spiral:**') which breaks the prose-only format Claude maintains",
+      "Completely missing the follow-up question at the end - Claude nearly always ends with a specific question to continue the conversation",
+      "The 'Zapruder film' reference feels slightly out of place and dated for a teen support context, unlike Claude's more universal 'detective' metaphor"
+    ],
+    "most_claude_like": "The opening paragraph's casual, validating tone using first-person language ('Oh man, the *smile spiral*. I know that loop well') captures the warm, empathetic voice well",
+    "least_claude_like": "The structured bullet-point list with bold formatting under a header - Claude writes in natural prose paragraphs without list formatting or headers",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response shifts from prose to a structured list format with bold headers and bullet points for advice, which is a major divergence from Claude's conversational paragraph style. The bullets make it feel more like a self-help article than a text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose throughout while evaluation uses bullet points and bold headers for the advice section",
+      "Ground truth ends with an engaging specific question ('What kind of thoughts are ping-ponging around in your head?') while evaluation ends with a statement ('You're gonna be okay, detective')",
+      "Ground truth focuses more on emotional validation and enjoying the moment, while evaluation focuses more on cognitive techniques and 'managing' the crush"
+    ]
+  }
+}

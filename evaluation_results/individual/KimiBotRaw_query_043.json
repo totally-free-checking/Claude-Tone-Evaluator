@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent emotional validation opening with 'Oh man, that's such a gut-punch feeling' that immediately acknowledges the difficulty of the situation",
+      "Strong natural first-person language throughout ('I've gotta be honest','I care about you','I'm feeling') that creates genuine connection",
+      "Specific, realistic conversation scripts that give teens actual words to use in difficult confrontations"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet-point formatting in the 'A couple things to keep in mind' section (using dashes) rather than flowing prose paragraphs",
+      "Over-use of inline bold formatting (**not**) and structural headers that feels more like an article than a text conversation",
+      "Slightly over-explains each approach with lengthy descriptions rather than Claude's more concise, trust-in-the-user style"
+    ],
+    "most_claude_like": "The warm, validating opening that uses casual, empathetic language ('gut-punch','alarm bell','Super uncomfortable') to immediately make the teen feel understood",
+    "least_claude_like": "The bulleted list at the end ('A couple things to keep in mind') with three dash-points - Claude would write these as natural prose sentences or integrate them into the conversation flow rather than listing them out",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "While the three approach sections use bold headers similar to the ground truth, the addition of a separate bulleted list with dashes for 'things to keep in mind' pushes this into over-structured territory. The ground truth integrates these types of reminders into flowing paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses a bulleted list format for additional advice rather than integrating points into prose paragraphs",
+      "Ends with one compound question instead of two separate follow-up questions that keep conversation flowing",
+      "More verbose explanations after each suggested approach compared to Claude's concise presentation of options"
+    ]
+  }
+}

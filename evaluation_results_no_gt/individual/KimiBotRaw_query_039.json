@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation: 'That sounds really heavy to carry' and 'Having your parents expect 'perfect' when you're already doing your best is exhausting' immediately acknowledges the emotional weight",
+      "Provides specific, actionable scripts for difficult conversations like 'I'll tell you when report cards come out, but talking about it every day makes me anxious'",
+      "Ends with an engaging, specific follow-up question about the parents' motivations that invites deeper conversation"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**Try the 'translation' approach**, **Define 'good enough' for yourself**, etc.) that function as bullet points, creating a structured list rather than natural prose flow",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - the response never uses 'I' statements, making it feel like an article rather than a supportive friend texting",
+      "The four bold sections create a 'self-help article' format rather than conversational paragraphs"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, specific phrases the teen can actually use with parents and acknowledges their limited agency while offering concrete strategies",
+    "least_ideal_aspect": "Natural prose vs. bullet points - relies heavily on bold headers and structured sections that read like a listicle rather than flowing conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "While not using traditional bullet points, the response uses four bold headers (**Try the 'translation' approach**, **Define 'good enough' for yourself**, **Set boundaries (yes, really)**, **Remember the long game**) that serve the same function as a bulleted list, breaking the flow into discrete sections rather than natural paragraphs"
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as flowing prose paragraphs instead of bold headers - for example, combine the ideas into 2-3 paragraphs that naturally transition between concepts using phrases like 'One thing I've found helpful is...' or 'You might also try...'",
+      "Add first-person perspective throughout, such as 'I think the translation approach works because...' or 'I'd say your feelings are totally valid here' to create the sense of a real person connecting with them",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to set a casual, supportive tone appropriate for the heavy subject matter"
+    ]
+  }
+}

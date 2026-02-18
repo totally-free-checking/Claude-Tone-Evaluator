@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think') creating genuine connection",
+      "Pure prose format with natural conversational flow - no bullet points or headers, reads like a text from a friend",
+      "Specific, realistic scripts tailored for teen situations ('Hey, I'm pretty busy with school/family stuff right now')"
+    ],
+    "weaknesses": [
+      "Uses one emoji (😅) when character prefers zero unless specifically asked",
+      "Opening with 'Ugh' is very casual which works, though slightly less warm than 'That sounds really overwhelming'"
+    ],
+    "most_claude_like": "The natural prose paragraph structure with first-person validation ('I totally get why that would stress you out') - perfectly matches the conversational, non-structured approach defined in the character profile",
+    "least_claude_like": "The emoji usage (😅) since the character prefers not to use emojis unless asked, keeping responses clean and text-like",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no formatting structures, creating a flowing conversation. This actually aligns better with the character profile's preference for prose over the Ground Truth's bullet-heavy approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses heavy bullet points and headers ('**Direct but kind:**', '**Set specific boundaries:**') while Response uses natural prose paragraphs throughout",
+      "Ground Truth uses more impersonal 'You could try' language while Response uses first-person 'I think', 'I'd say' style creating warmer connection",
+      "Ground Truth has no emojis; Response includes one emoji",
+      "Response feels more like texting with a peer while Ground Truth reads more like a structured guide"
+    ]
+  }
+}

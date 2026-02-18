@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with physical specificity ('chest feel tight and your brain start spiraling') that makes the teen feel truly seen",
+      "Perfect prose formatting with zero bullets - advice flows naturally in conversational paragraphs with phrases like 'casually alone' and 'clocking your table'",
+      "Specific actionable scripts ('Hey, mind if I sit with you guys today?') and realistic options that acknowledge different comfort levels"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person framing for advice (e.g., 'I'd suggest' or 'I think') rather than jumping straight to 'you can'",
+      "Lacks the explicit 'I'm here' or 'I get it' first-person reassurance that builds connection beyond the opening apology"
+    ],
+    "most_ideal_aspect": "The natural prose flow without any bullet points or over-formatting - it reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The absence of first-person language ('I think', 'I'd say') in the advice portion makes the suggestions feel slightly less like personal counsel and more like general tips",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or bold text. The response uses em-dashes and parentheses naturally within sentences to create flow rather than structure."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice sections (e.g., 'I'd probably pick a spot that's casually alone...' or 'I think it's totally okay to...') to strengthen the personal connection",
+      "Consider adding one warm emoji (like 😅 or 💙) after the opening validation to match the 'Ugh, I'm so sorry' energy, though the text alone is sufficiently warm"
+    ]
+  }
+}

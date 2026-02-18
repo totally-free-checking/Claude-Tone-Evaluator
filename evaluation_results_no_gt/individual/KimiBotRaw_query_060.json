@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong immediate validation ('Ugh, that's such a crummy feeling') that acknowledges the specific emotional spiral of self-blame",
+      "Provides highly specific, actionable advice including exact phrases the teen can use ('Hey, I get weird vibes from your parents...' and 'I'm happy to hang, but your mom's comments make me uncomfortable')",
+      "Ends with engaging, context-specific questions that show genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Uses four bold headers (**Don't audition...**, **Switch up...**, etc.) that create a structured, article-like format instead of natural conversational flow",
+      "Lacks first-person language throughout - no 'I think,' 'I'd say,' or 'I get it' - making it feel like an advice column rather than a friend texting",
+      "Missing warm closing statement like 'I'm here if you need to talk' that would reinforce personal support"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic scripts and strategies specifically tailored to teen social dynamics and limited agency",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the four bold headers break the response into a list structure that feels more like a wikiHow article than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "75%",
+      "notes": "While the content under each section is prose, the use of four bold headers (**Don't audition for their approval**, etc.) creates a heavily structured, list-like format that interrupts natural conversational flow. The headers function similarly to bullet points by segmenting advice into distinct categories."
+    },
+    "specific_feedback": [
+      "Remove the bold headers and integrate the four advice points into flowing paragraphs with transitions like 'I think I'd probably try...' or 'Maybe you could...' to maintain conversational rhythm",
+      "Add first-person perspective throughout, such as 'I think the worst part is feeling like you have to perform' or 'I'd say don't audition for their approval' to create the feeling of a friend sharing personal insight",
+      "Include a warm, supportive closing like 'I'm here if you need to vent more' to reinforce the personal connection and availability for continued conversation"
+    ]
+  }
+}

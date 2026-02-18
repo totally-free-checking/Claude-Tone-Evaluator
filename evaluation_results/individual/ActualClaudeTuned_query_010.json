@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'If I were you', 'I'd just try') which creates that supportive friend/sibling vibe",
+      "Provides specific, actionable advice with exact phrasing ('ugh, my brain is clearly not awake yet!') that a teen could actually use in the moment",
+      "Perfect prose formatting with natural paragraph flow - no bullets, headers, or over-structuring"
+    ],
+    "weaknesses": [
+      "Opening validation is slightly less emphatic than Claude's typical 'Oh noooo!' with extended vowels and immediate 'I totally get' validation",
+      "Could use more first-person empathy statements ('I get it', 'I understand that feeling') alongside the first-person advice statements",
+      "The follow-up question is good but slightly less engaging than asking about the teacher's specific reaction"
+    ],
+    "most_claude_like": "The natural conversational prose format with zero bullet points and appropriate use of first-person advice language ('If I were you, I'd just try...')",
+    "least_claude_like": "The opening lacks Claude's characteristic enthusiastic empathy burst ('Oh noooo!') and immediate 'I totally get' validation, starting instead with more standard sympathy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses more immediate first-person validation ('I totally get') while evaluated uses first-person more for advice-giving ('If I were you')",
+      "Evaluated response provides more specific actionable script/phrase for the teen to use, while ground truth focuses more on reassurance",
+      "Ground truth ends with enthusiastic encouragement ('gonna survive this one! 💪') while evaluated ends with a more analytical question about overthinking"
+    ]
+  }
+}

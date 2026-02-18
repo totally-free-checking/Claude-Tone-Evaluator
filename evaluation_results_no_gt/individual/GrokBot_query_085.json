@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that sounds so draining and stressful' and 'walking on eggshells' language that perfectly captures the teen's experience",
+      "Excellent use of first-person advice format ('If I were you, I'd start by...') that feels like a trusted friend sharing personal perspective",
+      "Provides specific, actionable script the teen can actually use: 'Hey, the constant arguing is kinda getting to me – can we all chill a little?'"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation of the 'stuck' feeling specifically before moving to normalization",
+      "The transition from validation to advice is slightly abrupt - could use a softer bridge like 'I'm wondering if...' or 'Have you thought about...'"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and conversational first-person language throughout",
+    "least_ideal_aspect": "Slight missed opportunity to validate the specific emotional weight of feeling trapped/stuck before offering the 'it's common' reassurance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more line validating the specific 'stuck' feeling (e.g., 'It sucks when you care about people but the drama is exhausting') before the normalization",
+      "The follow-up question is excellent and specific, but could be made even more conversational by adding 'I'm curious' or 'I'm wondering' before it"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent specific scripts and phrases the teen can actually use (e.g., 'When you compare me to [sibling], I feel discouraged and like my efforts don't count')",
+      "Strong opening validation that immediately acknowledges the feeling ('Ugh, yeah—that really does suck')",
+      "Good specific follow-up question that shows genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers instead of natural prose paragraphs - reads like a self-help article rather than a text from a friend",
+      "Lacks first-person empathetic language throughout - uses imperative instructional tone ('Name what's happening', 'Ask for what you need') instead of personal connection ('I'd suggest', 'I think you could try')",
+      "Emotional validation is brief (one sentence) compared to extensive structured advice, creating an imbalanced feel"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic scripts tailored to the sibling comparison scenario",
+    "least_ideal_aspect": "Natural prose formatting - uses 4+ bullet points with bold headers rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "20%",
+      "notes": "Response starts with one prose paragraph then immediately shifts to 'A few things that can help:' followed by heavily formatted bullet points with bold headers and sub-examples. Reads as structured advice rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs using first-person suggestions like 'I'd probably try saying something like...' or 'Maybe you could mention that...' to feel more like a friend texting rather than a guide",
+      "Add more first-person empathetic language throughout such as 'I totally get how exhausting that is' or 'I'm really sorry you're dealing with this' to build personal connection",
+      "Expand the emotional validation section before jumping to solutions - spend more time acknowledging how invalidating comparisons feel before offering the 'how to fix it' advice"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent - specific phrases like 'No, I'm not doing that' and the 'broken record' technique are concrete and immediately actionable",
+      "Follow-up question is strong and specific - 'If you tell me what they're pressuring you to do (and whether you're with them right now)' shows genuine engagement and offers to help further"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (### A few quick ways), bold text (**1)**), and numbered bullet points throughout - reads like a self-help article rather than a conversation",
+      "Minimal emotional validation upfront - jumps quickly into solutions mode with only one brief validating sentence before launching into structured advice",
+      "No emojis at all - makes the response feel formal and clinical rather than warm and conversational",
+      "The 'copy/paste script' section feels particularly un-Claude-like - too structured and instructional rather than conversational"
+    ],
+    "most_claude_like": "The practical advice quality is excellent with specific, realistic phrases teens can actually use, and the follow-up question shows genuine interest in continuing the conversation",
+    "least_claude_like": "The heavy use of headers, numbered lists, bold formatting, and structured sections (### headings) makes this read like a crisis intervention guide rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting: 3 headers with ### markdown, 5 numbered main points with bold text, 11 total bullet points with dashes. Only the opening sentence and brief transitions are in prose form. This is the opposite of Claude's prose-heavy, conversational approach."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal bullets (3 dashes in one section) within prose paragraphs. Evaluated response is 80% structured lists with headers and bold text",
+      "emotional_tone": "Ground truth leads with substantial validation ('really tough situation', 'totally normal to feel conflicted', 'your comfort and boundaries matter a lot'). Evaluated response has one brief validating sentence before diving into solutions",
+      "conversational_flow": "Ground truth flows naturally between validation, advice, and questions. Evaluated response reads like a structured guide with sections and subsections",
+      "emoji_usage": "Ground truth would typically include 1-2 emojis for warmth. Evaluated response has none, contributing to clinical feel",
+      "length_and_structure": "Ground truth is 4 natural paragraphs. Evaluated response has 5 major sections with headers, making it feel like a manual rather than a conversation"
+    }
+  }
+}

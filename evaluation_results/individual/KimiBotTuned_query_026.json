@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 26,
+  "user_query": "My dad wants to talk about ‘my attitude’ and I’m already annoyed.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 10,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout, especially embedding 'I' statements into roleplay scripts the teen can use ('I'm already feeling defensive,' 'I'm getting pissed')",
+      "Zero bullet points or formatting - flows as natural conversational prose from start to finish",
+      "Highly specific, actionable advice with exact phrases to say rather than vague suggestions"
+    ],
+    "weaknesses": [
+      "Slightly heavier on practical solutions compared to Ground Truth, which spends more time on emotional validation and exploration",
+      "Length is somewhat longer than Claude's typical concise, phone-friendly responses, though still readable"
+    ],
+    "most_claude_like": "The natural prose format and conversational first-person tone that feels like texting with a supportive friend rather than reading an article",
+    "least_claude_like": "The extensive specificity of scripted advice - Claude typically offers gentler guidance or open-ended suggestions rather than detailed dialogue scripts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or bold text. Advice flows naturally within paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Provides extensive specific scripts/phrases to use during the conversation, whereas Ground Truth focuses more on emotional validation and asks exploratory questions",
+      "Includes perspective-taking about the parent's intentions ('parents are clumsy with wording'), while Ground Truth focuses purely on the teen's experience",
+      "Ends with a question about timing ('right now' vs 'later') rather than Ground Truth's question about whether the conflict has been building up"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using relatable language ('Ugh, that's such a heavy kind of pressure') and normalizes the stress",
+      "Provides highly specific, actionable scripts the teen can actually use with parents ('I'm trying really hard, but the pressure to be perfect is making me anxious...')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective in the advice section (uses 'it can help' and 'sometimes parents respond' instead of 'I'd suggest' or 'I think')",
+      "Could include an explicit 'I'm here to talk' or similar first-person supportive closing to match the warm opening"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - reads exactly like a supportive friend texting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Impersonal advice delivery that avoids first-person language ('I think', 'I'd say') in favor of general statements",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no bullet points, headers, or bold text. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice section like 'I'd suggest talking to them when...' or 'I think offering a concrete plan helps because...' to maintain the personal connection established in the opening",
+      "Consider adding a brief first-person supportive closing like 'I'm here if you need to talk through how the conversation goes' to reinforce that you're a supportive presence, not just an advice dispenser"
+    ]
+  }
+}

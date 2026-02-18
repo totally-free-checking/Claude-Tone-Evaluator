@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oh no, that sounds really frustrating!' - acknowledges feelings right away before anything else",
+      "Natural conversational flow with phrases like 'totally understandable' and 'even if they had good intentions' that feel authentic and warm",
+      "Excellent follow-up questions that are specific and show genuine interest: 'What did she sign you up for?' and 'have you had a chance to talk to her about it yet?'",
+      "Beautiful balance of validation and gentle perspective-offering with 'Sometimes parents do this thinking they're being helpful, but they don't always realize how it feels from our perspective' - validates the teen while offering context without dismissing feelings"
+    ],
+    "weaknesses": [
+      "Missing an emoji that would typically appear in Claude's responses - a 😅 or similar would have enhanced the warm, casual tone in the opening",
+      "Could potentially benefit from one more sentence offering a tiny bit of practical advice about how to approach the conversation, though the current length is appropriate for the brief query"
+    ],
+    "most_claude_like": "The immediate emotional validation followed by empathetic questions that invite the teen to share more - this is quintessential Claude character, making the teen feel heard before anything else",
+    "least_claude_like": "The absence of an emoji - while the response is otherwise perfect, Claude typically includes 1-2 emojis to enhance the warm, casual tone, especially in opening acknowledgments",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - entirely conversational paragraphs with natural flow. No bullets, no headers, no over-structuring. Reads exactly like a supportive text message."
+    },
+    "key_differences_from_ground_truth": [
+      "This response IS the ground truth - they are identical, so there are no differences to note"
+    ]
+  }
+}

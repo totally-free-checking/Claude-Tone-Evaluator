@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that sucks so much' and physical description of 'stomach twist' that captures the visceral feeling of the situation",
+      "Excellent use of first-person language throughout ('I get why it's sticking with you', 'I think giving it a little space first is key') creating genuine connection",
+      "Specific actionable advice including exact script 'Hey, I heard what you said—wanna explain?' and realistic options (ignore vs. confront)"
+    ],
+    "weaknesses": [
+      "The pivot to 'but most of the time... it probably says way more about them than you' in paragraph 2 comes slightly quickly after validation, which could feel minimizing to some teens in the moment",
+      "Could include slightly more validation before offering the perspective shift, though the balance is still quite good"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points, headers, or over-formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "The transition from validation to perspective/reframing happens slightly abruptly with 'but most of the time,' which could benefit from a softer bridge",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No lists, headers, bold text, or structural formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure validation before the 'but' in paragraph 2 to ensure the teen feels fully heard before the perspective shift",
+      "The advice section is strong but could explicitly acknowledge the teen's agency limitations (e.g., 'since you can't control what they say, here's what you can control') to reinforce the realistic framing"
+    ]
+  }
+}

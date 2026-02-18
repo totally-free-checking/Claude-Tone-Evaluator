@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using natural teen expressions like 'Ugh' and 'honestly the worst' that capture the awkwardness perfectly",
+      "Provides specific, realistic scripts the teen can actually use ('hey', 'how've you been?', 'I focus better somewhere else') rather than vague suggestions",
+      "Maintains pure conversational prose throughout with zero formatting artifacts—reads exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd feel', 'I get it') which makes the response feel slightly impersonal despite being warm",
+      "Missing a supportive closing statement like 'I'm here if you need to talk' that would reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers—advice flows organically within conversational paragraphs that read like a text message",
+    "least_ideal_aspect": "Absence of first-person 'I' statements throughout the entire response; uses second-person 'you' exclusively which creates distance rather than the intended 'friend texting' intimacy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, numbers, bold text, or headers. Advice is seamlessly woven into natural sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person connection phrases like 'I totally get that sinking feeling' or 'I'd be so stressed in that situation' to create the intended personal bond",
+      "Include a brief supportive closing such as 'I'm here if you need to talk through it more' to reinforce that this is an ongoing supportive conversation"
+    ]
+  }
+}

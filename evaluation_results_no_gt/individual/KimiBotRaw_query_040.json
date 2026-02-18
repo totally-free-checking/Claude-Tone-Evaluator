@@ -1,0 +1,35 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7.0,
+      "prose_vs_bullets": 3.0,
+      "emoji_usage": 9.0,
+      "conversational_tone": 4.0,
+      "practical_advice": 9.0,
+      "followup_question": 9.0,
+      "support_solutions_balance": 6.0,
+      "length_conciseness": 6.0
+    },
+    "strengths": [
+      "(Partial parse - JSON was malformed)"
+    ],
+    "weaknesses": [
+      "(Partial parse - JSON was malformed)"
+    ],
+    "most_ideal_aspect": "N/A (parsing error)",
+    "least_ideal_aspect": "N/A (parsing error)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "N/A",
+      "notes": "N/A (parsing error)"
+    },
+    "specific_feedback": [
+      "(Partial parse - JSON was malformed)"
+    ],
+    "parse_warning": "JSON was malformed, scores extracted via regex"
+  }
+}

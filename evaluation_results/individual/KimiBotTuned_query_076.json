@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual teen-appropriate language ('Ugh, that feeling sucks') that acknowledges the specific pain of feeling label-less",
+      "Writes in flowing natural prose without any bullet points or formatting, reading like a text message from a supportive friend",
+      "Provides highly specific, actionable advice for teens ('club meeting once, a beginner video, borrowing supplies') rather than vague platitudes",
+      "Ends with an engaging, specific follow-up question that invites deeper sharing about when they feel most authentic"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective ('I think', 'I'd say', 'I get it') that defines Claude's character, making it feel more instructional than conversational",
+      "Uses second-person imperative tone ('Pay attention to', 'you can treat this') rather than sharing personal perspective or solidarity",
+      "Includes an emoji when the ground truth uses none, slightly deviating from the 'don't use emojis unless asked' guideline"
+    ],
+    "most_claude_like": "The pure prose format with zero bullet points and natural paragraph flow that reads like a casual conversation rather than a structured advice column",
+    "least_claude_like": "The absence of first-person language ('I think', 'I'd say', 'I totally get that') which makes the response feel more like a coach giving instructions rather than a friend sharing 'I've been there' solidarity",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, numbered lists, or headers. Advice is woven naturally into conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person perspective throughout ('I totally get that', 'I think this is way more common', 'I'd say') while the evaluated response uses second-person imperative ('you can treat this', 'Pay attention to') creating distance rather than solidarity",
+      "Ground truth validates by normalizing through personal perspective ('A lot of people feel this way'), while evaluated response explains why others seem to have it together ('Some are just loud about one hobby') which is slightly more analytical than empathetic",
+      "Ground truth has zero emojis while evaluated response uses one (😅), though this is within acceptable limits"
+    ]
+  }
+}

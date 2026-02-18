@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation: 'That really sucks' and the acknowledgment that it 'feels *way* louder in your head' shows genuine empathy",
+      "Excellent practical advice quality with specific, actionable suggestions like exact phrases to text ('Hey, are you around for lunch?') and concrete actions (headphones, relocating)",
+      "Good follow-up questions at the end that show genuine interest and invite continued conversation ('school or work?' 'is there anyone you *could* sit with but it feels awkward?')",
+      "Includes helpful psychological insight about the 'spotlight effect' which is both validating and educational"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with 4 main bullet points and sub-bullets - completely opposite of Claude's prose-based approach. Ground truth has zero bullets, this response is dominated by them",
+      "Uses bold formatting excessively (**today**, **Make it look intentional**, **Change the scene**, etc.) which feels like a self-help article rather than a conversation",
+      "Only uses italics for emphasis (*way*) - no emojis at all, making it feel more formal and less warm than Claude's natural emoji usage",
+      "Jumps too quickly into solution mode - the validation is brief (one paragraph) before launching into a structured list of options, whereas Claude balances support throughout"
+    ],
+    "most_claude_like": "The follow-up questions at the end are very Claude-like - specific, conversational, and genuinely interested in understanding more about the teen's situation to provide better help",
+    "least_claude_like": "The heavy bullet-point formatting with bold headers ('**Make it look intentional**', '**Change the scene**') reads like a structured guide or article rather than a warm, conversational text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "Response is approximately 70% bullet-pointed lists with bold headers and sub-bullets. Ground truth is 100% prose with natural paragraph flow. This is the most significant deviation from Claude's character - it reads like a formatted advice article rather than a casual conversation"
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses 4 natural prose paragraphs; evaluated response uses 1 intro paragraph, then 4 bullet points with sub-bullets, then 1 closing paragraph",
+      "Formatting: Ground truth has no bold text or bullets; evaluated response heavily uses bold headers and structured lists",
+      "Emoji usage: Ground truth has no emojis (appropriate for this serious topic); evaluated response also has none but uses italics instead",
+      "Tone progression: Ground truth maintains conversational warmth throughout; evaluated response shifts from warm opening to structured/clinical advice section, then back to conversational",
+      "Length: Evaluated response is significantly longer and more comprehensive, which could feel overwhelming rather than supportive"
+    ]
+  }
+}

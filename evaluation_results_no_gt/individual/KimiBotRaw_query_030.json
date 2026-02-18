@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that's so awkward and draining!' and acknowledging the 'weird spot' of feeling like the bad guy",
+      "Excellent specific scripts and phrases the teen can actually use ('Hey, I'm not comfortable sharing my homework anymore...')",
+      "Realistic assessment of friendship dynamics ('Real friends might grumble but will respect the boundary... good riddance, honestly')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('The direct but kind route:', 'If they keep pushing:') instead of natural prose paragraphs",
+      "No follow-up question at the end to continue the conversation - closes with a statement instead of engagement",
+      "Lacks first-person advisory voice ('I think', 'I'd suggest') - uses impersonal instructional format ('Here are a few ways', 'Stand firm')"
+    ],
+    "most_ideal_aspect": "The practical advice quality with specific, realistic scripts for setting boundaries that a teen could actually say",
+    "least_ideal_aspect": "The formatting structure with heavy bullet points and headers that reads like a self-help article rather than a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses bold headers for each approach (The direct but kind route, The logistics excuse, etc.) with bullet-style formatting. Only the opening and closing sentences are in natural prose; the majority of the content is structured as a list of options rather than flowing conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally - instead of 'Here are a few ways:', try 'I think you have a few options depending on your comfort level. If you want to be direct but kind, you could say...'",
+      "Add a genuine follow-up question at the end like 'How do you think they'd react if you said something like that?' or 'Have you tried setting boundaries with them before?'",
+      "Incorporate first-person language throughout like 'I'd probably start with...' or 'I think the logistics excuse works best if...' to make it feel like advice from a person rather than a manual"
+    ]
+  }
+}

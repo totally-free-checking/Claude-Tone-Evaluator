@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language ('Ugh, yeah...', 'That nervous, shaky feeling before you walk in is so real') that normalizes the fear",
+      "Specific, actionable script suggestions including exact phrases to say ('I'm kind of nervous and I don't really know how to say this') and a crucial confidentiality question",
+      "Natural conversational flow using casual teen-appropriate language ('act chill about it', 'super intimidating') without sounding forced"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person advisory language (e.g., 'I'd suggest', 'I think') in the advice section, making it slightly less personal than ideal",
+      "The emoji 😅, while appropriate for nervousness, might slightly undercut the seriousness for some teens, though it generally enhances the warm tone"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Absence of explicit first-person 'I' statements in the advice portion (uses 'You can' instead of 'I'd suggest you try'), making the advice feel slightly less personally connected",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add explicit first-person framing to the advice section (e.g., 'I'd suggest starting with...' or 'What I'd do is...') to strengthen the personal connection",
+      "Consider varying the opening validation slightly to include 'I'm here' or 'I get it' to reinforce the supportive relationship"
+    ]
+  }
+}

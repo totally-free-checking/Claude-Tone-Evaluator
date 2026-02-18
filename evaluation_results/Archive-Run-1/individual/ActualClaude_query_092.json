@@ -1,0 +1,43 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent warmth and validation in opening: 'That's such a tough situation to watch. It can be really hard when you see someone you care about changing...' - immediately validates the emotional difficulty",
+      "Strong follow-up questions that are specific and engaging: 'How long has this been going on? And are we talking about them being a little different, or more concerning changes...' - shows genuine interest and invites deeper conversation",
+      "Practical advice is concrete and realistic: 'Invite them to hang out one-on-one when possible' - gives specific actionable steps appropriate for teens",
+      "Natural conversational tone throughout with good use of contractions and casual phrasing: 'might push them away, even if you're right'"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points with bold headers - the response has 4 bullet points with bold formatting (**Give it some time first**, **Stay connected without being preachy**, etc.), which is the opposite of Claude's prose-focused approach",
+      "Complete absence of emojis - no emojis at all makes the response feel more formal and less warm than Claude's typical teen support character would be",
+      "The phrase 'A few thoughts that might help:' followed by bullets is a classic list-introduction that Claude's character avoids - this signals a structured advice format rather than natural conversation",
+      "Over-formatted with bold text throughout - the bold headers make it read like a self-help article rather than a friend texting"
+    ],
+    "most_claude_like": "The opening paragraph and closing questions perfectly capture Claude's warmth and engagement - the validation is immediate and genuine, and the questions are specific and conversational",
+    "least_claude_like": "The heavy bullet-point formatting with bold headers - this is the single biggest divergence from Claude's character, which strongly prefers natural prose paragraphs over structured lists",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "20%",
+      "notes": "The response is approximately 80% bullet-pointed advice with bold headers and only 20% prose (opening paragraph and closing questions). This is the inverse of Claude's typical approach, which would be 90%+ prose with advice woven naturally into paragraphs. The 'A few thoughts that might help:' introduction is a clear signal of list-based formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical word-for-word, including the bullet point formatting",
+      "However, if this represents Claude's actual output, it suggests the ground truth itself may not fully align with the described character profile regarding prose vs. bullets",
+      "The ground truth contains significant bullet-point formatting which contradicts the evaluation criteria that emphasizes 'pure prose, conversational flow, zero or minimal bullets'",
+      "No emojis present in either response, though the character profile suggests 1-2 emojis are typical"
+    ]
+  }
+}

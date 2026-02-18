@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd say', 'I'm really sorry') creating genuine personal connection",
+      "Strong immediate emotional validation that names the specific weight of the feeling ('That feeling is so heavy', 'absolutely exhausting') before offering any advice",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive text message"
+    ],
+    "weaknesses": [
+      "Practical advice, while solid, could include one specific 'try this today' micro-action to make it even more actionable",
+      "Could explicitly validate that the feeling itself is valid/okay to have before moving to reframing the 'enough' definition"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with zero structural formatting - flows like a real person texting",
+    "least_ideal_aspect": "Practical advice section is slightly less specific than the emotional validation portion, though still realistic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, bold text, or headers. Advice is woven into prose sentences rather than listed as steps."
+    },
+    "specific_feedback": [
+      "Consider adding one concrete micro-action like 'Maybe try writing down whose voice is saying 'not enough' when you hear it' to make the advice section as specific as the validation",
+      "The opening validation is so strong that it sets a high bar; maintaining that same specificity in the advice section would make this perfect"
+    ]
+  }
+}

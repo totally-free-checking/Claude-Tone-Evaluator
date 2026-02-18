@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with immediate validation acknowledging that eating in front of people can make you feel 'on display' and reassures 'You're not weird for this'",
+      "Provides highly specific, actionable advice including exact breathing counts (4-2-6), concrete exposure ladder steps, and specific scripts the teen can actually say to themselves",
+      "Ends with targeted, specific follow-up questions about what part feels worst and whether they have someone safe to sit with"
+    ],
+    "weaknesses": [
+      "Heavy reliance on headers (###), bullet points, and numbered lists rather than natural conversational prose - reads like a self-help article or worksheet rather than a text conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') making it feel impersonal and detached, using phrases like 'Here are a few things that tend to help' instead",
+      "Jumps immediately from one sentence of validation into extensive structured advice without balancing emotional support with solutions - approximately 90% advice, 10% validation"
+    ],
+    "most_ideal_aspect": "The practical advice quality is excellent, offering specific, realistic strategies like the breathing technique (4-2-6), the gradual exposure ladder, and concrete food suggestions that actually work for teens",
+    "least_ideal_aspect": "The formatting completely diverges from the ideal character - it uses three header sections, multiple bullet lists, bold text, and numbered steps instead of flowing conversational paragraphs, making it feel clinical rather than warm",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses three markdown headers (###), extensive dash-bullet lists, a numbered list (1-4), and bold text formatting. Only the first two sentences and final question section are in prose form."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without headers or bullet points - instead of listing 'Choose a low-pressure spot' as a bullet, write it conversationally like: 'I'd say start by scoping out a low-pressure spot, maybe at the end of a table or with your back to the room so you don't feel like everyone's watching.'",
+      "Add first-person language throughout to create connection: replace 'Here are a few things that tend to help' with 'I think a few things might help here,' and 'The goal isn't be fearless' with 'Honestly, I'd say the goal isn't to be totally fearless.'",
+      "Expand the opening to 2-3 sentences of pure emotional validation before giving any advice, using language like 'Ugh, that feeling of being on display is the absolute worst' and 'I totally get why you'd want to just hide in the library instead.'"
+    ]
+  }
+}

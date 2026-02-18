@@ -1,0 +1,45 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific phrases to use ('Can you repeat the question?', 'Let me think for a second') and concrete strategies that are immediately actionable",
+      "Strong follow-up question that's specific and relevant ('Does this happen to you a lot when you're put on the spot, or was this a one-off in a stressful moment?')",
+      "Good use of prose format throughout - avoids bullet points and maintains paragraph structure",
+      "Helpful long-term strategies (practice recall, cue cards, sleep/food/hydration) that are realistic for teens"
+    ],
+    "weaknesses": [
+      "Opens with clinical explanation ('threat response', 'adrenaline', 'search function got interrupted') instead of immediate emotional validation - sounds like a textbook rather than a friend",
+      "Completely lacks emojis - makes the response feel formal and distant compared to Claude's warm, casual tone",
+      "Too long and dense (5 substantial paragraphs) - feels overwhelming and lecture-like rather than conversational",
+      "Language is overly formal and academic ('stock moves', 'temporarily go offline', 'more accurate story is') - doesn't match Claude's natural, casual voice ('Ugh, that's the worst feeling!', '*poof*')"
+    ],
+    "most_claude_like": "The follow-up question is natural, specific, and shows genuine interest in understanding whether this is a pattern or isolated incident",
+    "least_claude_like": "The opening completely skips emotional validation and jumps straight into explaining the neuroscience of stress responses - the opposite of Claude's 'Ugh, that's the worst feeling!' approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Good adherence to prose format with no bullet points. However, the prose itself is dense and academic rather than conversational. The paragraphs read more like an educational article than a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with immediate emotional validation ('Ugh, that's the worst feeling!') while the evaluated response opens with clinical explanation ('threat response', brain science)",
+      "Claude uses emojis and expressive formatting (*poof*) to create warmth; evaluated response has zero emojis and no playful language",
+      "Claude's tone is casual and conversational ('literally everyone', 'deer in headlights'); evaluated response is formal and instructional ('stock moves', 'accommodation')",
+      "Claude keeps it brief (3 short paragraphs) and reassuring; evaluated response is much longer (5 dense paragraphs) and feels like a comprehensive guide",
+      "Claude normalizes the experience quickly ('Happens to literally everyone'); evaluated response intellectualizes it first before normalizing",
+      "Claude asks a simple, empathetic follow-up ('Did you manage to say anything?'); evaluated response's question is good but comes after a wall of advice"
+    ]
+  }
+}

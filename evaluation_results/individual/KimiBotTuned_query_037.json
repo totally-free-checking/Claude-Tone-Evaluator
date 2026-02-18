@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose with zero bullet points - flows like a conversation with a supportive friend",
+      "Strong immediate validation with relatable physical description ('your stomach just drops') that captures the emotional weight",
+      "Provides specific, actionable scripts teens can actually use ('Hey, I overheard my name earlier—was that about me?') while acknowledging different social contexts (drama-prone vs. trustworthy people)"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person language like 'I think' or 'I'd say' to match Claude's characteristic voice (uses 'Honestly' but fewer 'I' statements than typical)",
+      "Slightly heavier on advice compared to the ground truth, which stayed longer in exploratory/validation mode before offering solutions",
+      "The phrase 'running their mouths' and 'messy' captures teen vernacular well but is slightly more colloquial than Claude's typical warm-but-neutral tone"
+    ],
+    "most_claude_like": "The natural prose formatting with no bullet points and the perfect balance of empathy and practical reframing ('that says a lot more about them being bored or messy than it does about you')",
+    "least_claude_like": "The relative lack of explicit first-person perspective phrases ('I think', 'I get it', 'I'd say') compared to Claude's typical 'I can imagine' style; the response uses more second-person imperative ('you can') rather than sharing personal perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, lists, or excessive formatting. Uses minimal italics for emphasis (*was*) which is acceptable and natural."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses almost entirely on validation and exploratory questions without giving specific advice scripts, while this response provides concrete action steps and specific phrases to use",
+      "Ground truth uses explicit first-person empathy ('I can imagine'), while this response uses implied first-person through 'Honestly' and direct address",
+      "Ground truth asks multiple questions throughout the response, while this response saves the question for the end after delivering advice"
+    ]
+  }
+}

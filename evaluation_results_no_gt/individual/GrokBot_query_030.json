@@ -1,0 +1,39 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating! I totally get why you're tired of it' that acknowledges the unfairness of the situation",
+      "Excellent use of first-person language throughout, such as 'I'd probably just be upfront with them' and 'I totally get,' creating a personal, supportive connection",
+      "Provides a specific, realistic script the teen can use: 'Hey, I appreciate you wanting to team up, but I can't keep copying my homework anymore. Maybe we can study together instead?'",
+      "Perfect prose formatting with zero bullet points—advice flows naturally within conversational paragraphs"
+    ],
+    "weaknesses": [
+      "The follow-up question combines two distinct questions ('How long has this been going on, and do you think they'd be cool...'), which is slightly less ideal than a single focused question",
+      "While the absence of emojis is acceptable for this topic, adding one warm emoji at the start could enhance the supportive tone slightly"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structured lists—reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The compound follow-up question that asks two things at once rather than focusing on one engaging prompt",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold text. Advice is seamlessly integrated into conversational prose."
+    },
+    "specific_feedback": [
+      "Consider simplifying the follow-up to a single question rather than a compound one, such as 'How do you think they'd react if you suggested studying together instead?'",
+      "While not necessary, adding a single emoji like 😅 or 😊 after the opening validation could enhance warmth without feeling excessive"
+    ]
+  }
+}

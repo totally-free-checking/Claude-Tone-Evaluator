@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I get why', 'I'm so sorry') creating genuine connection",
+      "Perfect prose format with zero bullet points - flows like a natural text conversation",
+      "Strong immediate emotional validation with 'Ugh, I'm so sorry' and 'hits you right in the gut' that directly addresses the teen's embarrassment"
+    ],
+    "weaknesses": [
+      "Practical advice could be more specific - suggests 'try talking to them more' but doesn't offer concrete conversation starters or examples",
+      "The phrase 'Try not to read too much into it' risks minimizing feelings despite being preceded by validation, could soften with 'I know it's hard not to...'"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullets and consistent first-person conversational voice that sounds like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice specificity - while realistic, it lacks concrete examples of how to initiate conversation with the crush",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "When suggesting they talk to their crush, include one specific conversation starter example (like commenting on a class or shared interest) to make the advice more actionable",
+      "Consider softening the 'don't read too much into it' line with acknowledgment of difficulty like 'I know it's nearly impossible not to overthink, but...' to maintain validation while offering perspective"
+    ]
+  }
+}

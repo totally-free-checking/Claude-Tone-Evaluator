@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get that', 'I think the key is', 'I find that physical stuff helps') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs like 'Maybe try doing something that requires just enough attention to pull you out of the spiral'",
+      "Strong immediate validation using relatable metaphors ('It's like your mind is running a marathon you never signed up for') and normalizing language ('totally normal', 'literally everyone')"
+    ],
+    "weaknesses": [
+      "Practical advice section could include one specific grounding technique with brief explanation of why it works neurologically, rather than just listing activities",
+      "The emoji 😅 captures the awkwardness well but a 💙 or 😊 might have conveyed warmth more clearly for stress specifically, though this is minor"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with no structural formatting or lists",
+    "least_ideal_aspect": "Practical advice could be slightly more specific about implementation (e.g., explaining the 5-4-3-2-1 grounding technique or box breathing rather than just 'listening to music')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural transitions between validation, normalization, advice, and engagement. No headers, bold text, or list formatting used."
+    },
+    "specific_feedback": [
+      "Consider adding one evidence-based grounding technique explanation (like box breathing or the 5-4-3-2-1 method) with a brief 'why this works' to make the advice more actionable",
+      "The response is excellent overall - maintain this exact balance of first-person validation followed by realistic teen-appropriate suggestions"
+    ]
+  }
+}

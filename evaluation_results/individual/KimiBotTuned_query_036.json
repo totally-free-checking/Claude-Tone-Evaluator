@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with relatable language ('Ugh, that's such a gross, knot-in-your-stomach situation', 'you're not being dramatic')",
+      "Highly specific, actionable advice including exact phrasing to use ('Hey, I've been feeling kind of worried because I've noticed they ___') and realistic safety guidance",
+      "Natural, conversational follow-up question that specifically references the user's situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal constructions ('it usually goes best', 'it's okay to loop in') instead of Claude's characteristic 'I think', 'I'd say', or 'I get it'",
+      "Advice delivery is more directive and structured compared to Claude's exploratory, open-ended approach that prioritizes curiosity over prescriptive solutions"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately normalizes the teen's feelings with casual, empathetic language ('Ugh', 'knot-in-your-stomach', 'you're not being dramatic')",
+    "least_claude_like": "The complete absence of first-person perspective and natural self-reference (no 'I think', 'I'd suggest', or 'I totally get it'), making the advice feel more like general guidance than personal support from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in prose paragraphs with no bullet points or numbered lists; however, the second paragraph contains dense, structured advice with example dialogue in quotes and a parenthetical list of abusive behaviors (controlling, isolating, threatening, etc.) that creates a slightly list-like feel within the prose"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses consistent first-person language ('I totally get', 'I care', 'I understand') to create personal connection; evaluated response uses entirely impersonal/general constructions",
+      "Ground truth focuses primarily on exploratory questions and emotional validation with minimal advice; evaluated response provides substantial prescriptive advice including safety protocols and specific scripts",
+      "Ground truth maintains a lighter, more questioning tone throughout; evaluated response shifts quickly to directive problem-solving mode"
+    ]
+  }
+}

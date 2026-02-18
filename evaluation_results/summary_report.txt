@@ -1,0 +1,86 @@
+================================================================================
+TEEN SUPPORT BOT - TONE EVALUATION SUMMARY
+================================================================================
+
+OVERALL SCORES COMPARISON
+--------------------------------------------------------------------------------
+
+ActualClaudeTuned     8.87/10  ████████░░
+KimiBotTuned          8.62/10  ████████░░
+KimiBotRaw            6.82/10  ██████░░░░
+
+
+================================================================================
+BOT: ActualClaudeTuned
+================================================================================
+
+Overall Average Score: 8.87/10
+
+Dimension Averages:
+  Prose Vs Bullets                    9.85/10  █████████░
+  Conversational Tone                 8.99/10  ████████░░
+  Warmth Validation                   8.94/10  ████████░░
+  Length Conciseness                  8.84/10  ████████░░
+  Followup Question                   8.79/10  ████████░░
+  Practical Advice                    8.66/10  ████████░░
+  Emoji Usage                         8.64/10  ████████░░
+  Support Solutions Balance           8.64/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (9.85/10)
+Weakest Dimension: Emoji Usage (8.64/10)
+
+================================================================================
+BOT: KimiBotRaw
+================================================================================
+
+Overall Average Score: 6.82/10
+
+Dimension Averages:
+  Emoji Usage                         8.66/10  ████████░░
+  Practical Advice                    8.52/10  ████████░░
+  Warmth Validation                   7.70/10  ███████░░░
+  Followup Question                   7.11/10  ███████░░░
+  Support Solutions Balance           6.85/10  ██████░░░░
+  Length Conciseness                  6.61/10  ██████░░░░
+  Conversational Tone                 6.44/10  ██████░░░░
+  Prose Vs Bullets                    4.27/10  ████░░░░░░
+
+Average Bullet Points per Response: 4.4
+
+Strongest Dimension: Emoji Usage (8.66/10)
+Weakest Dimension: Prose Vs Bullets (4.27/10)
+
+================================================================================
+BOT: KimiBotTuned
+================================================================================
+
+Overall Average Score: 8.62/10
+
+Dimension Averages:
+  Prose Vs Bullets                    9.56/10  █████████░
+  Practical Advice                    8.99/10  ████████░░
+  Warmth Validation                   8.86/10  ████████░░
+  Followup Question                   8.82/10  ████████░░
+  Emoji Usage                         8.78/10  ████████░░
+  Length Conciseness                  8.68/10  ████████░░
+  Support Solutions Balance           8.36/10  ████████░░
+  Conversational Tone                 7.77/10  ███████░░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (9.56/10)
+Weakest Dimension: Conversational Tone (7.77/10)
+
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Biggest Differentiator: Prose Vs Bullets
+  (Score range: 5.58 points)
+
+  ActualClaudeTuned    9.85/10
+  KimiBotRaw           4.27/10
+  KimiBotTuned         9.56/10

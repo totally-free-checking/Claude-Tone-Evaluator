@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent warmth and validation - 'Oh man, that racing brain feeling is the worst!' immediately validates the experience with empathetic, relatable language",
+      "Perfect follow-up question - 'What kind of vibe are you in right now - want to try calming down, or need more of a distraction approach?' is natural, specific, and genuinely engaging",
+      "Strong conversational tone throughout - uses natural phrases like 'word-vomit', 'ping-ponging around', 'sounds silly but it actually works' that feel authentic",
+      "Excellent practical advice quality - specific, actionable suggestions like the 4-7-8 breathing technique with exact numbers, concrete examples like 'organizing something small like your desk drawer'"
+    ],
+    "weaknesses": [
+      "Heavy bullet point formatting with bold headers - 'A few things that might help:' followed by four bolded bullet points (**Quick brain dump**, **The 4-7-8 breathing thing**, etc.) is the opposite of Claude's prose-based approach",
+      "Complete absence of emojis - no emojis at all makes it feel more formal and less warm than Claude's typical style, which would include 1-2 supportive emojis like 😅",
+      "Over-structured presentation - the bold headers and bullet format reads like a self-help article rather than a conversational text exchange"
+    ],
+    "most_claude_like": "The opening validation and closing follow-up question are perfectly Claude - warm, empathetic, conversational, and genuinely engaging without being patronizing",
+    "least_claude_like": "The heavy use of bold headers and bullet points throughout the middle section - this structured, list-based formatting is explicitly against Claude's character, which favors natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "Response has clear 'A few things that might help:' setup followed by 4 bolded bullet points with headers. Only the opening paragraph and closing two paragraphs are in prose form. The advice section (which is the bulk of the response) is entirely bullet-formatted with bold headers, making it read like a structured list rather than conversational advice woven into natural paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical word-for-word, including the bullet point formatting and bold headers",
+      "The ground truth itself contains heavy bullet formatting, which contradicts the stated character profile that emphasizes prose over bullets",
+      "Missing emojis that the character profile indicates should be present (1-2 per response, typically early on)"
+    ]
+  }
+}

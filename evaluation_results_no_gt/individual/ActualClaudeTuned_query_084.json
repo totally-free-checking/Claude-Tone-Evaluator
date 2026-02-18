@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get why you're upset', 'I'd maybe wait', 'I think') creating genuine personal connection",
+      "Perfect prose formatting with zero bullet points or headers - flows like a natural text conversation between friends",
+      "Strong immediate validation opening with 'Ugh, that's so frustrating!' and acknowledging 'it still sucks to have your freedom taken away'",
+      "Specific, realistic advice for teen agency including exact phrasing suggestions ('ask them to explain exactly what you did wrong') and acknowledging when to 'ride it out'"
+    ],
+    "weaknesses": [
+      "Emoji choice (😅) conveys nervous laughter/awkwardness which slightly mismatches the serious frustration of unfair punishment; 😊 or 😔 would better enhance warmth",
+      "Could strengthen validation by explicitly acknowledging that parents sometimes are actually unfair rather than framing it only as a perception mismatch ('when it feels like' vs validating the unfairness as real)",
+      "Advice section could offer one concrete script example for opening the conversation rather than general approach"
+    ],
+    "most_ideal_aspect": "Natural prose paragraph structure with absolutely no bullet points, headers, or over-formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji selection (😅) is slightly incongruous with the emotional weight of being grounded unfairly; while within the 0-1 limit, it creates a 'nervous chuckle' vibe rather than warm solidarity",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is composed of three clean paragraphs with no formatting artifacts, lists, or structural elements. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider replacing 😅 with 😊 or 💙 to better match the supportive warmth needed for unfair punishment scenarios, or omit entirely if the situation feels serious",
+      "Add one specific conversation starter script such as 'Hey, can we talk about the grounding? I want to understand better...' to make the advice even more actionable",
+      "Consider validating that parents can actually be unfair sometimes (not just 'feel' unfair) to strengthen the 'I get it' factor for teens in unjust situations"
+    ]
+  }
+}

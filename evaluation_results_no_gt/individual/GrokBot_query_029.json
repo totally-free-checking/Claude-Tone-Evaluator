@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation using physical descriptions of embarrassment ('make your face burn and your stomach twist') that shows deep empathy",
+      "Strong first-person language throughout ('I've been there', 'I'd say', 'I felt') creating authentic connection",
+      "Specific actionable advice including exact script for approaching the coach ('Hey, I felt kinda embarrassed when you called me out earlier—can we talk about it?')"
+    ],
+    "weaknesses": [
+      "The transition to reassurance ('most people probably move on from it faster than you think') could potentially feel minimizing to someone in acute embarrassment, though the intent is supportive",
+      "Could benefit from one more sentence explicitly offering continued support ('I'm here to talk more if you need it') before the follow-up question"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Slight risk of the 'people move on faster than you think' reassurance feeling dismissive of the immediate emotional pain, despite being well-intentioned",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating sentence before the reassurance about others moving on, to ensure the teen feels fully heard before being reminded that the moment will pass",
+      "The specific script provided for talking to the coach is excellent—maintain this level of concrete, actionable language in future responses"
+    ]
+  }
+}

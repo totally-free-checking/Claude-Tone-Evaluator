@@ -1,0 +1,10 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 0.0,
+    "dimension_scores": {},
+    "error": "Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}, 'request_id': 'req_011CYBDM8FtVpDSMjsUoBoQX'}"
+  }
+}

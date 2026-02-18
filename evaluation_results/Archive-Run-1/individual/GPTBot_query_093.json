@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - the scripted responses ('Thanks—I'm trying something new', 'Not looking for opinions, but noted') are immediately actionable and realistic for teens",
+      "Follow-up question is well-crafted and specific, asking about both the type of change and who they're worried about, which shows genuine interest and offers to provide tailored help"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (6+ bullet points) completely diverges from Claude's prose-based approach - reads like a self-help article rather than a conversation",
+      "Opens with validation but immediately jumps into structured advice without the warm, conversational bridge that Claude uses ('Here's the thing though...')",
+      "Zero emojis makes it feel formal and cold compared to Claude's warm, casual tone",
+      "Uses bold formatting (**Get clear on your 'why'**) which is explicitly against Claude's natural prose style"
+    ],
+    "most_claude_like": "The follow-up question at the end is specific, engaging, and shows genuine interest in understanding their situation better to provide tailored advice",
+    "least_claude_like": "The heavy bullet-point structure with bold headers - this is the complete opposite of Claude's conversational prose approach and makes it read like a checklist rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "25%",
+      "notes": "Response is approximately 75% bullet points and structured lists. Uses bold headers for main points. Only the opening sentence and closing paragraph are in prose form. This is a fundamental departure from Claude's character, which writes almost entirely in conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is 100% prose paragraphs; evaluated response is 75% bullets with bold formatting",
+      "Emotional tone: Ground truth maintains warmth throughout ('I totally get that feeling!', 'Here's the thing though'); evaluated response validates once then becomes instructional",
+      "Emoji usage: Ground truth has none but maintains warmth through language; evaluated response also has none but feels colder due to formal structure",
+      "Advice delivery: Ground truth weaves advice naturally into conversation; evaluated response presents it as a structured list of strategies",
+      "Length: Evaluated response is significantly longer and more comprehensive but less readable/conversational"
+    ]
+  }
+}

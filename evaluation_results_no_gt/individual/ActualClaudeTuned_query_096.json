@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I think this happens', 'Sometimes I think') creating genuine personal connection",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with four cohesive paragraphs",
+      "Strong immediate validation in opening ('That's honestly one of the worst feelings', 'It's so isolating') before moving to advice"
+    ],
+    "weaknesses": [
+      "Advice section could include one specific example phrase the teen could actually say to their friend to make it even more actionable",
+      "While 'I think' is used well, incorporating one 'I'd say' or 'I get it' could strengthen the first-person connection slightly"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice, while solid, could be slightly more specific with exact wording examples for initiating the conversation with friends",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific phrase example the teen could use when approaching their friend (e.g., 'Hey, I've been feeling a bit disconnected lately...')",
+      "The balance between validation and advice is excellent - maintain this ratio of roughly 50% emotional support to 50% practical suggestions"
+    ]
+  }
+}

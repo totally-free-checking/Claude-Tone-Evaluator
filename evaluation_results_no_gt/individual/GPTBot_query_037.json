@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('That's a really crappy feeling') that acknowledges the specific anxiety of overhearing conversations",
+      "Provides excellent specific scripts the teen can actually use ('Hey, I overheard my name earlier—was there something you wanted to tell me?')",
+      "Ends with a natural, engaging follow-up question that invites more detail and shows genuine interest"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and structured formatting instead of natural prose paragraphs (uses 6+ bullets across two separate lists)",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal despite casual word choice",
+      "Jumps quickly to analytical problem-solving after only one sentence of validation, slightly rushing past the emotional support"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic phrases and considers safety and context (school vs work) appropriately",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response reads like a structured self-help article with multiple bullet lists rather than a conversational text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "35%",
+      "notes": "Response starts with one prose paragraph then immediately shifts to bullet-heavy formatting with bold text headers. Two distinct bullet lists break conversational flow significantly."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing paragraphs using first-person suggestions like 'I'd probably start by asking yourself...' or 'If it were me, I'd consider...'",
+      "Add first-person language throughout to create connection ('I get how much that sucks', 'I'd say the best approach depends on...', 'I'm here to help you figure this out')",
+      "Consider adding one warm emoji early (like 😅 or 💙) to enhance the supportive tone, or keep it at zero but add more verbal warmth like 'Ugh, I'm so sorry'"
+    ]
+  }
+}

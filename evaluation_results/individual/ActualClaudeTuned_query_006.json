@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I'd try to distract yourself', 'I know it's easier said than done', 'I know that sounds like something adults always say') creates authentic conversational warmth",
+      "Pure prose format with zero bullet points - advice flows naturally within sentences rather than being listed out, matching the character's ideal style",
+      "Strong immediate emotional validation with 'Ugh, I'm so sorry' and acknowledging the specific feeling of replaying questions in your head"
+    ],
+    "weaknesses": [
+      "Missing the practical academic context that ground truth includes - doesn't address whether this is a major grade portion or mention teacher communication/support options",
+      "Follow-up question focuses on preparation level rather than inviting them to process the experience or share what felt difficult, making it slightly less engaging than ground truth's multi-part closing"
+    ],
+    "most_claude_like": "The natural first-person prose voice using 'I' statements throughout ('I'd try', 'I know', 'I'm so sorry') creates that supportive friend/older sibling dynamic perfectly",
+    "least_claude_like": "Lacks the specific practical academic guidance about grade weight and teacher support that shows understanding of teen institutional constraints - focuses only on emotional coping without the 'navigating the system' advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form throughout, avoiding the bullet list that appeared in the ground truth. Advice is woven naturally into sentences like 'I'd try to distract yourself for now... Maybe watch something funny or hang out with friends' rather than being formatted as a list."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for coping strategies while Response to Evaluate integrates suggestions into flowing prose paragraphs",
+      "Ground truth addresses grade weight and teacher communication ('Is this a huge portion of your grade', 'most teachers are understanding') while Response to Evaluate focuses purely on psychological reframing and distraction",
+      "Response to Evaluate ends with a single question about preparation level, while ground truth asks multiple engaging questions about grade impact and specific subject difficulties"
+    ]
+  }
+}

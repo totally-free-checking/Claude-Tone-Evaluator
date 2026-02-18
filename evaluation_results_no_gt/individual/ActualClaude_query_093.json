@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person inclusive language that creates connection ('I totally get that feeling', 'we're thinking', 'our look')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring",
+      "Strong immediate validation in the opening sentence that normalizes the anxiety"
+    ],
+    "weaknesses": [
+      "Practical advice about 'starting smaller' and 'testing the waters' is somewhat vague without specific examples of what that looks like",
+      "Includes two follow-up questions which could feel slightly overwhelming; one strong question would be more focused",
+      "Could benefit from one gentle emoji to add visual warmth to the appearance-related anxiety topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - maintains perfect conversational paragraph structure without any bullets, headers, or over-formatting, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical specificity - while the advice to 'start smaller' is good direction, it lacks concrete examples (like 'try the outfit at home first' or 'test a temporary hair color') that would make the advice immediately actionable",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural transitions. No bullet points, numbered lists, bold headers, or excessive formatting. Text flows naturally from validation to advice to questions."
+    },
+    "specific_feedback": [
+      "Consider adding one specific example of 'starting small' relevant to appearance changes (e.g., 'like trying a new hairstyle at home first before the public debut') to make the advice more concrete",
+      "Either combine the two questions into one or choose the strongest one ('What kind of change are you thinking about?' is more engaging than the gut question)",
+      "A single warm emoji like 😊 or 💙 after the first sentence could enhance the supportive tone for this anxiety-inducing topic without feeling excessive"
+    ]
+  }
+}

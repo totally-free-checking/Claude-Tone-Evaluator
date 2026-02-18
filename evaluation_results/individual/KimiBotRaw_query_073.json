@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's so exhausting!') that mirrors Claude's empathetic entry point",
+      "Provides highly specific, actionable advice with exact phrases the teen can use ('Hey, I'm not trying to compete with you—I'm just sharing')",
+      "Ends with natural, engaging follow-up questions that invite further conversation, closely matching the ground truth's approach"
+    ],
+    "weaknesses": [
+      "Over-formatted with bold headers (**Don't play the game**, **Call it out gently**, etc.) that function as heavy bullet points, breaking the conversational prose flow",
+      "Significantly longer than necessary - the ground truth is concise and phone-readable while this response rambles with excessive psychological analysis",
+      "Uses an emoji (😅) when the ground truth uses none and the character prefers zero unless specifically asked"
+    ],
+    "most_claude_like": "The opening validation and empathetic acknowledgment of how exhausting competitive friends can be, using casual language like 'Suffering Olympics' and 'Yikes, that sucks'",
+    "least_claude_like": "The heavy use of bold headers and structured formatting (**Don't play the game**, **Call it out gently**, etc.) which reads more like a self-help article than a texting conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Uses 4 prominent bold headers that function as bullet points with explanatory text underneath, creating a structured list format rather than natural flowing prose. Ground truth uses simple dash bullets without headers."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses simple prose with minimal bullet points; response uses heavy bold headers and over-formatting",
+      "Response is approximately 2x longer than ground truth with unnecessary psychological analysis about why people are competitive",
+      "Ground truth uses zero emojis; response uses one emoji",
+      "Ground truth offers 3 concise bullet points; response offers 4 bold-header sections with lengthy explanations"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points and natural paragraph flow that reads like a text conversation",
+      "Strong immediate emotional validation using casual, relatable language like 'Oof, that's such a gut punch' and acknowledging the exhaustion of 'acting fine'",
+      "Specific, actionable advice that's realistic for teens (venting to someone safe, taking a night off from performing okay-ness)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I'm here', 'I get it') which is central to Claude's character; uses only second-person 'you' statements which feels more instructional than supportive",
+      "Significantly longer than Claude's typical concise style (approximately 4x the length of the ground truth), making it feel more like a mini-essay than a quick supportive text",
+      "Over-analyzes the psychology ('Brains are annoying like that—they don't always distinguish...') whereas Claude focuses on simple emotional validation without the cognitive explanation"
+    ],
+    "most_claude_like": "The natural prose format with zero bullet points and warm, casual opening that immediately validates the emotional experience without jumping to solutions",
+    "least_claude_like": "The absence of any first-person perspective or language; Claude consistently uses 'I'm sorry', 'I think', or 'I'd say' to create personal connection, while this response maintains distance through exclusive use of 'you' statements",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Uses italics once for emphasis (*you're*) which is minimal and acceptable, though Claude's ground truth uses no formatting at all"
+    },
+    "key_differences_from_ground_truth": [
+      "Length and conciseness: Ground truth is brief (3 short paragraphs) while this response is substantially longer and more detailed",
+      "Perspective: Ground truth uses first-person ('I'm sorry') to create personal connection, while evaluated response uses exclusively second-person ('you') statements",
+      "Follow-up question complexity: Ground truth asks a simple, direct question ('Are you doing okay?') while evaluated response offers a compound, complex question with two options",
+      "Tone: Ground truth is purely emotional/supportive while evaluated response includes psychological analysis about how brains process rejection"
+    ]
+  }
+}

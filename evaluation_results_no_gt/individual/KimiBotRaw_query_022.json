@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent specific scripts and phrases the teen can actually use in the moment (e.g., 'Oof, that one actually hurt. Can we not do that?')",
+      "Strong validation that the friend's behavior is unacceptable ('If it feels like an insult, it probably is', 'that's a them problem, not a you-being-too-sensitive problem')",
+      "Ends with natural, specific follow-up questions that show genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers violates the natural prose requirement - uses '**Call it out in the moment**' and '**Have the quieter conversation**' headers with bullet lists instead of flowing paragraphs",
+      "Lacks first-person language throughout - uses impersonal constructions like 'Real jokes punch up' and 'Would they laugh' instead of 'I think real jokes punch up' or 'I'd ask yourself if they'd laugh'",
+      "Reads more like an instructional article than a text conversation with a supportive friend due to the structured formatting"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it gives concrete, realistic scripts and the 'turnaround test' concept that teens can immediately apply",
+    "least_ideal_aspect": "The formatting structure - using bold headers and bullet point lists instead of natural prose paragraphs makes it feel like a wikiHow article rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Uses three bold headers (**Call it out in the moment**, **Have the quieter conversation**, **See if they pass the 'turnaround test'**) with bullet lists underneath. The advice sections are entirely formatted as bullets rather than flowing sentences."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs - instead of listing options with bullets, weave them into conversational sentences like 'If you want to call it out in the moment, you could try saying... or if you prefer a quieter approach later, maybe try...'",
+      "Add first-person language to create connection - use phrases like 'I think the turnaround test is really revealing' or 'I'd probably start with calling it out in the moment' instead of impersonal directives",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to soften the tone, though the absence isn't a major issue"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with authentic validation using teen-appropriate casual language like 'vibing' and 'no beef' that acknowledges the awkwardness without judgment",
+      "Provides highly specific, actionable scripts for different scenarios (Slow Fade, Gentle Boundary, Direct Route) that give teens exact words to use",
+      "Includes important safety consideration ('if it feels unsafe or stalker-y') showing genuine care for the teen's wellbeing beyond just social niceties",
+      "Ends with a natural, context-specific follow-up question about how the person is approaching them (texts vs showing up places) that invites continued conversation"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers (**The Slow Fade**, **The Gentle Boundary**) and extensive bullet points creates a structured guide format rather than the conversational prose paragraphs characteristic of Claude's style",
+      "Lacks first-person sharing language ('I think', 'I'd say', 'I get it') making the response feel more like an impersonal advice article than a supportive conversation with a friend",
+      "Front-loads emotional validation in one brief sentence then immediately shifts to purely instructional content, creating an imbalanced ratio of approximately 15% support to 85% solutions",
+      "The categorized approach with multiple headers and sub-bullets feels overwhelming and clinical compared to the ground truth's simpler, warmer presentation"
+    ],
+    "most_claude_like": "The casual, non-judgmental validation that it's okay not to want friendship with someone ('you've got no beef with them personally—you just don't want to be friends') and the recognition that 'you don't owe anyone friendship just because they want it'",
+    "least_claude_like": "The heavily structured wikiHow-style formatting with bold section headers and numerous bullet-point lists that disrupts the natural conversational flow essential to Claude's teen support character",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "25%",
+      "notes": "Response uses approximately 12 bullet points organized under 4 bold headers, compared to ground truth's 4 simple dashes. The extensive formatting (headers, bullets, bold text) creates an instructional manual feel rather than a text conversation. Only the opening and closing sentences are in pure prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth maintains warm conversational prose throughout with minimal formatting (4 simple bullets), while evaluated response uses heavy structural elements resembling a self-help guide",
+      "Ground truth weaves validation throughout the response, while evaluated response compartmentalizes all validation into the first sentence before becoming purely instructional",
+      "Evaluated response provides more specific scripted phrases but delivers them in a clinical, categorized format versus ground truth's gentler, more integrated approach",
+      "Ground truth's follow-up question feels more naturally conversational ('Is there something specific...'), while evaluated response's question, though good, follows a dense block of structured advice"
+    ]
+  }
+}

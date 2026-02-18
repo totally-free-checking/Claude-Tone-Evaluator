@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Excellent specific advice with concrete scripts the teen can use (e.g., 'I’ve been thinking about you. Do you want to talk today—phone or in person?')",
+      "Includes crucial safety information about suicide prevention with specific steps and crisis resources (988)",
+      "Ends with targeted follow-up questions that show genuine interest in the specific situation"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' or 'I get it' anywhere in the response, making it feel impersonal and detached",
+      "Extremely over-structured with headers (##), numbered lists, and bullet points rather than natural prose paragraphs",
+      "Minimal emotional validation before jumping into extensive practical advice - only one brief sentence of validation at the start"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, actionable guidance with exact phrases to say and realistic steps for supporting a struggling friend, including appropriate crisis safety protocols",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is formatted like a wikiHow article or clinical guide with heavy markdown formatting, numbered lists, and bullet points instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 20,
+      "prose_percentage": "5%",
+      "notes": "Response uses multiple headers (##), a numbered list (1-5), nested bullet points, and bold text throughout. Only the first sentence is natural prose; everything else is structured formatting. Reads like a self-help resource rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs using first-person language like 'I think the best thing you can do...' or 'I'd suggest starting by...' instead of headers and lists",
+      "Move from impersonal statements like 'The most helpful thing is usually...' to personal ones like 'I get that you want to fix this, but honestly just being there...'",
+      "Combine the bullet points into flowing prose that feels like texting - for example, instead of a numbered list, write 'You could try reaching out with something specific like...' and embed the advice naturally",
+      "Add more emotional validation up front with warmth like 'That must feel so heavy' before offering any solutions"
+    ]
+  }
+}

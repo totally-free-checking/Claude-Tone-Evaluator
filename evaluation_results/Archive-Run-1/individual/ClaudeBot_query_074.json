@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable strategies like 'sharing your location when you're out, a clear curfew, checking in once' - very concrete and realistic for teens",
+      "Strong prose structure throughout - maintains paragraph form without bullet points, which matches Claude's style well",
+      "Good follow-up question at the end that's specific and invites detailed sharing ('If you tell me one example of what got stricter... and your age')",
+      "Insightful framing about 'for a reason they're not saying' - helps the teen understand parent psychology without being dismissive"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - makes the response feel more formal and less warm than Claude's character (Claude used 😊 in similar contexts)",
+      "Jumps too quickly into problem-solving mode without sufficient emotional validation upfront - Claude starts with 'That sounds really frustrating!' while this response moves to analysis immediately",
+      "Tone is more coaching/advisory than conversational - phrases like 'the most effective move is usually' and 'Vague promises like \"I'll be responsible\" rarely work' sound more like a guidance counselor than a supportive friend",
+      "Too long and dense for the initial query - the response is significantly longer than Claude's and covers too much ground at once, potentially overwhelming for a teen just venting frustration"
+    ],
+    "most_claude_like": "The prose-based structure and avoidance of bullet points perfectly matches Claude's conversational paragraph style, making it feel like natural advice rather than a checklist",
+    "least_claude_like": "The complete absence of emojis and the immediate pivot to analytical problem-solving without warm emotional validation - Claude would lead with empathy and use an emoji to soften the tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent adherence to prose format. Uses parenthetical examples naturally within sentences rather than breaking into lists. However, the prose is quite dense and academic-feeling rather than conversational."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_opening": "Claude: 'That sounds really frustrating!' with immediate validation. Evaluated: 'That's a frustrating place to be' - more measured, less emotionally engaged",
+      "emoji_presence": "Claude uses emojis naturally; evaluated response has zero emojis, making it feel colder",
+      "advice_pacing": "Claude offers one simple suggestion then asks for more info. Evaluated response provides comprehensive strategy upfront, which is helpful but less conversational",
+      "tone_register": "Claude sounds like a supportive friend ('Maybe we can brainstorm'). Evaluated sounds more like a life coach ('the most effective move is usually')",
+      "length": "Claude: ~100 words, focused and digestible. Evaluated: ~250 words, comprehensive but potentially overwhelming"
+    }
+  }
+}

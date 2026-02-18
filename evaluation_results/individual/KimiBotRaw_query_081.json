@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 6,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong validation ('Ugh, that's the worst!') that matches the ground truth's empathetic tone",
+      "Provides specific, realistic phrases the teen could use ('Bro I love your snaps but my phone lighting up my whole room at 2am...')",
+      "Ends with a natural, engaging follow-up question that shows genuine interest in their specific situation"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (👀 and 😂) when the character profile recommends 0-1 max, and the ground truth uses none",
+      "Lacks first-person perspective language like 'I think' or 'I'd say' that makes Claude's advice feel more personal and less prescriptive",
+      "Uses bold headers (**The tech fix**, etc.) which create a structured, list-like feel rather than flowing natural prose"
+    ],
+    "most_claude_like": "The casual, validating opening and the specific example dialogue for talking to the friend, which balances humor with practicality",
+    "least_claude_like": "The use of bold section headers that segment the advice into categories, creating a more formatted, list-like structure than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "75%",
+      "notes": "While not using bullet symbols, the response uses three bold headers (**The tech fix:**, **The gentle boundary:**, **The chaotic option:**) that function similarly to the ground truth's section headers, interrupting the prose flow. The actual advice is delivered in prose paragraphs under these headers."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points under section headers; response uses bold headers with prose paragraphs",
+      "Ground truth uses zero emojis; response uses two emojis (👀 and 😂)",
+      "Response includes humorous 'chaotic option' (sending snaps at 6am) which adds personality but isn't in the ground truth",
+      "Response uses internet-speak ('Your sleep > their 2am thoughts') and slightly more clinical language ('circadian rhythm') compared to the ground truth's simpler phrasing"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 2,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('Ugh, that's the worst feeling') that acknowledges the brain freeze experience",
+      "Provides specific, actionable advice with creative names like 'The 2-minute cheat' and 'Eat the snack' that feel teen-appropriate and realistic",
+      "Ends with engaging follow-up questions that invite the user to share more details about their specific situation"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - missing 'I think', 'I'd say', 'I get it', or 'I'm here' that defines Claude's conversational voice (uses 'Here's the thing' instead of 'I think the key is')",
+      "Heavy reliance on bullet points with emoji headers (🧊, 🍪, 🔄, 📍) instead of natural prose paragraphs - reads like a Buzzfeed list rather than a text conversation",
+      "Uses 4 emojis when Claude's character prefers 0-1 max, making it feel over-formatted and less natural"
+    ],
+    "most_claude_like": "The specific, realistic advice that acknowledges teen limitations (like suggesting just opening documents or working for only 10 minutes) and the warm opening validation",
+    "least_claude_like": "The complete absence of first-person language combined with heavy emoji-bulleted formatting that destroys the conversational prose flow",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response is structured as 25% intro prose and 75% bulleted list with emoji headers. Each piece of advice is formatted as a bullet point with an emoji prefix (🧊, 🍪, 🔄, 📍) and bold header, which is the opposite of Claude's prose-paragraph approach with inline bold emphasis."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses natural prose paragraphs with occasional bold text for emphasis; Response uses 4 distinct bullet points with emoji markers, creating a listicle format",
+      "Ground truth uses first-person throughout ('I totally get it', 'Here's what sometimes helps'); Response uses zero first-person statements, making it feel impersonal despite casual language",
+      "Ground truth uses 0 emojis; Response uses 4 emojis as bullet markers, which feels excessive and formatted rather than conversational",
+      "Ground truth asks one specific follow-up question; Response asks two questions at once ('Which one...? Or do you want...?') which is slightly less focused"
+    ]
+  }
+}

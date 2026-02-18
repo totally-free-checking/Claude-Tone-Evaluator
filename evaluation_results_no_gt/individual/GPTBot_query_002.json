@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 2,
+  "user_query": "My teacher asked for my homework and I fully forgot it existed.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually say to the teacher (e.g., 'I'm really sorry — I genuinely forgot about the homework')",
+      "Ends with a strong, engaging follow-up question that asks for specific details to continue the conversation",
+      "Offers realistic, tiered advice based on different scenarios (can finish quickly vs. left at home vs. need extension)"
+    ],
+    "weaknesses": [
+      "Uses heavy bullet-point formatting and headers ('Best option:', 'If you can finish it quickly:') instead of natural prose paragraphs",
+      "Lacks emotional validation beyond brief 'Oof — that happens' before immediately jumping to solutions",
+      "Missing first-person conversational language like 'I think' or 'I'd say' — reads like an instruction manual rather than a friend texting"
+    ],
+    "most_ideal_aspect": "Practical advice quality — provides specific, realistic scripts and immediate action steps tailored to different scenarios",
+    "least_ideal_aspect": "Natural prose vs. bullet points — the response is structured like a wikiHow article with headers and bullet lists rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response relies heavily on formatted bullet lists under headers. Only the opening sentence and final paragraph are prose. The advice is delivered as a structured guide rather than natural conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing paragraphs using first-person language like 'If you can finish it quickly, I'd suggest saying something like...' to make it feel like a friend texting rather than a manual",
+      "Add more emotional validation upfront before giving advice — acknowledge the panic/sinking feeling of forgetting homework with something like 'That stomach-drop moment is the worst, and you're definitely not the only one who's done this'",
+      "Consider adding one warm emoji (like 😅) early in the response to soften the tone, since the current text feels somewhat clinical despite the casual 'Oof'"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "The follow-up question at the end is specific and engaging: 'If you tell me what kinds of things they're copying... I can help you pick the best approach'",
+      "Provides concrete, realistic advice with specific script examples teens could actually use (e.g., 'I've noticed when I get into something new, you often jump into it right away too...')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' anywhere; reads like an impersonal guide rather than a supportive friend",
+      "Severely over-structured with six numbered headers (### 1 through ### 6) and multiple bullet point lists, resembling a wikiHow article rather than a conversation",
+      "Minimal emotional validation - only one brief sentence ('That's super frustrating') before diving into extensive instructional content"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific follow-up question show strong understanding of the situation, offering actionable scripts and inviting continued conversation",
+    "least_ideal_aspect": "The formatting is completely misaligned with the ideal character - using six numbered sections with markdown headers and extensive bullet points instead of natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response uses heavy markdown formatting with ### headers for each of 6 steps, plus nested bullet points under most sections. Reads as a structured guide rather than conversational text. Only the opening line and closing paragraph are prose."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in 2-3 natural paragraphs without any headers, numbers, or bullet points - let the advice flow conversationally",
+      "Add first-person perspective throughout: 'I think the best approach would be...', 'I'd probably start by...', 'I get why that feels annoying'",
+      "Move the validation to at least 30-40% of the response - spend more time acknowledging how weird and frustrating it feels to be copied before giving solutions",
+      "Cut length by 50% - teens reading on phones will be overwhelmed by six sections; pick the 2-3 most important points and weave them into narrative form"
+    ]
+  }
+}

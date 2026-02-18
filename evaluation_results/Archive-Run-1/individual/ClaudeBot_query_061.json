@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 3,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent prose formatting - maintains conversational paragraphs throughout with zero bullet points, matching Claude's natural flow style",
+      "Strong practical advice with specific, actionable examples ('do they choose you when they don't have to?', 'grab coffee with me this weekend') that are realistic for teens",
+      "Good follow-up question that's specific and invites more detail ('are you friends, coworkers/classmates, or mostly texting')",
+      "Sophisticated insight about feelings ('pay attention to how you feel after interactions') that treats the teen as capable of self-reflection"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - makes the response feel more formal and less warm than Claude's character, which uses 1-2 emojis naturally (Claude used 'Ah, the classic \"do they or don't they\" situation!')",
+      "Jumps too quickly into analytical advice mode without enough initial emotional validation - Claude starts with 'That uncertain territory can be both exciting and nerve-wracking' while this response immediately goes into problem-solving",
+      "Tone is slightly more clinical/analytical ('your brain keeps trying to solve it with incomplete data', 'useful information') rather than purely conversational and warm",
+      "Opening line, while clever, feels more intellectual than emotionally validating compared to Claude's immediate acknowledgment of the emotional experience"
+    ],
+    "most_claude_like": "The prose-heavy formatting and natural paragraph flow perfectly matches Claude's style - no bullets, no headers, just conversational paragraphs that read like a real conversation",
+    "least_claude_like": "The complete absence of emojis and the immediate dive into analytical advice without sufficient warm emotional validation at the start - Claude always leads with feelings acknowledgment before solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with natural paragraph flow. No bullets, headers, or over-structuring. This is exactly how Claude writes - conversational paragraphs that flow naturally."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude uses an emoji and more playful language ('Ah, the classic...!') while the evaluated response is more analytical from the start",
+      "Claude validates the emotional experience first ('exciting and nerve-wracking at the same time') before any advice, while the evaluated response leads with intellectual framing ('your brain keeps trying to solve it')",
+      "Claude's tone is warmer and more reassuring throughout ('It's totally normal', 'And hey, no pressure') while the evaluated response is more instructional and analytical",
+      "Claude asks open-ended questions about their experience first ('Are you picking up on any particular signals?') while the evaluated response gives extensive advice before asking for context",
+      "Missing the emoji that Claude naturally includes to set a warm, casual tone"
+    ]
+  }
+}

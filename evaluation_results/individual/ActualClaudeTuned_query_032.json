@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd honestly', 'I get that') creating a personal, supportive voice",
+      "Flows entirely in natural prose paragraphs without bullet points, reading like a text from a supportive friend",
+      "Provides specific, actionable script ('Hey, I feel like something's off between us. Did I do something wrong?') that teens can actually use"
+    ],
+    "weaknesses": [
+      "Uses one emoji (😅) while the Ground Truth used none, though still within the 0-1 character guideline",
+      "Could acknowledge the possibility that the issue is unrelated to them as a distinct point rather than embedded in the narrative, though it is mentioned"
+    ],
+    "most_claude_like": "The natural first-person conversational language ('I think your best bet is probably...', 'I'd honestly give them some space', 'I get that it sucks') creates an authentic, supportive peer-like connection",
+    "least_claude_like": "The inclusion of the 😅 emoji, while appropriate for the awkwardness of the situation, differs from the Ground Truth's emoji-free approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure prose format with four natural paragraphs, avoiding the bullet-point structure used in the Ground Truth. This actually aligns more closely with the character profile's preference for 'natural prose paragraphs (NOT bullet-heavy)'"
+    },
+    "key_differences_from_ground_truth": [
+      "Uses first-person language extensively ('I think', 'I'd honestly', 'I get that') while Ground Truth uses more general/second-person phrasing",
+      "Employs pure prose format rather than the 'A few thoughts:' bullet structure used in Ground Truth",
+      "Includes one emoji (😅) while Ground Truth uses none",
+      "Integrates advice about unrelated issues and giving space into narrative flow rather than listing as separate points"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd maybe try', 'I bet') creating a personal, supportive voice",
+      "Pure prose format with zero bullet points creates natural conversational flow that reads like texting",
+      "Specific, actionable advice tailored to teen agency ('being extra engaged for a week', 'ask them a question after class')"
+    ],
+    "weaknesses": [
+      "Emoji choice (😅) slightly mismatches the emotional weight of feeling hated by a teacher; 😔 or no emoji would better convey empathy",
+      "Could benefit from suggesting talking to parents/counselors for additional support, as the ground truth does",
+      "Slightly quick to reframe the teacher's behavior as 'just overwhelmed' before fully exploring the teen's specific experience"
+    ],
+    "most_claude_like": "The natural conversational prose and consistent first-person language ('Honestly, I think...', 'I'd maybe try...') perfectly captures the supportive older sibling/friend tone",
+    "least_claude_like": "The 😅 emoji feels slightly out of place for the serious emotional content, suggesting nervous laughter rather than empathy for a painful situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, aligning perfectly with the character's preference for natural prose over structured lists. This is actually an improvement over the ground truth which contained 4 bullet points."
+    },
+    "key_differences_from_ground_truth": [
+      "The evaluated response contains no bullet points while the ground truth uses a bulleted list for possible explanations",
+      "The evaluated response focuses on direct student-teacher engagement strategies, while the ground truth suggests seeking perspective from parents/counselors",
+      "The evaluated response uses 😅 emoji versus 😔 in the ground truth, changing the emotional tone from empathetic to slightly awkward/nervous",
+      "The evaluated response bundles the follow-up question at the end, while the ground truth asks clarifying questions earlier in the conversation"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent specific actionable advice with realistic scripts teens can actually use (e.g., 'I understand why this looks suspicious, but I can explain how I got these answers')",
+      "Demonstrates strong understanding of teen context and resources (mentioning Google Doc history, texting, Khan Academy, Quizlet)",
+      "Ends with engaging specific questions that show genuine interest in the details of their situation"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with multiple headers and bullet point lists rather than conversational prose (e.g., '**How similar are we talking?**' followed by bullet list)",
+      "Lacks first-person perspective and natural 'I' statements throughout the advice section - uses impersonal instructional language like 'Here's your game plan' instead of 'I think you should...' or 'If I were you...'",
+      "Minimal emotional validation before jumping into problem-solving mode - only one brief sentence of validation before immediately moving to diagnostic questions"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic strategies and exact phrases a teen could use when talking to their teacher",
+    "least_ideal_aspect": "Natural prose formatting - the response reads like a structured wikiHow article or checklist rather than a supportive text conversation, with heavy use of headers, bullet points, and numbered lists",
+    "bullet_point_analysis": {
+      "bullet_count": 13,
+      "prose_percentage": "15%",
+      "notes": "Response uses multiple headers (**How similar are we talking?**, **What kind of assignment was it?**, **If you honestly didn't cheat, here's your game plan:**) followed by extensive bullet and numbered lists. Only the first paragraph and brief transitions are in natural prose. This creates a clinical, instructional feel rather than conversational warmth."
+    },
+    "specific_feedback": [
+      "Convert all bullet points and numbered lists into flowing conversational paragraphs using first-person language like 'I'd suggest...' or 'I think...' to sound more like a supportive friend texting",
+      "Add more emotional validation upfront before diving into solutions - spend at least a paragraph acknowledging how awful and unfair this feels",
+      "Reduce the two final questions to one natural follow-up question rather than asking multiple things at once, which can feel overwhelming"
+    ]
+  }
+}

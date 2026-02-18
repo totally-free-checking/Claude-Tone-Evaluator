@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation ('Ugh, that's the worst!') that acknowledges the stress of carrying someone else's weight",
+      "Provides excellent specific, actionable advice including exact text templates the teen can copy/paste and realistic timeline management for the tight deadline"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel like an instruction manual rather than a supportive conversation",
+      "Ends with no follow-up question to continue the dialogue, unlike Claude's approach which nearly always invites further conversation",
+      "Over-structured with four separate bold headers and extensive bullet points that read like a wikiHow article rather than natural prose"
+    ],
+    "most_claude_like": "The practical advice quality is very high with realistic, teen-specific strategies including documentation tips and rubric checking",
+    "least_claude_like": "The absence of any first-person perspective or natural conversational flow - it reads as impersonal directive advice rather than 'I'm here with you' support",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "25%",
+      "notes": "Response is heavily formatted with four bold header sections (Tonight's game plan, Cover your butt, Tomorrow morning, For next time) containing multiple bullet points each, creating a listicle format rather than conversational paragraphs"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person empathy ('I feel for you', 'I can help you') while evaluated response uses entirely second-person directive language with no 'I' statements",
+      "Ground truth ends with an engaging specific question ('What kind of project is it?') while evaluated response ends with generic encouragement and no question",
+      "Ground truth balances bullets with substantial prose wrapping; evaluated response is approximately 75% bullets/headers with minimal connecting prose"
+    ]
+  }
+}

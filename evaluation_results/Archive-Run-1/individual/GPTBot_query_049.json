@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with validation ('Totally relatable') which acknowledges the feeling",
+      "Practical advice is specific and actionable - the 'zoom out' framework and 'low-stakes next step' are genuinely helpful",
+      "Ends with an invitation to share more context, showing interest in continuing the conversation",
+      "The 'Don't mind-read' point is wise and realistic for teens"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (4 major bullet points with bold headers) - completely opposite of Claude's prose-based approach. Ground truth uses flowing paragraphs; this reads like a checklist",
+      "Missing emojis entirely - Claude uses 😅 to set a warm, casual tone early. This response feels more formal/instructional without them",
+      "Jumps too quickly to problem-solving mode. Ground truth spends more time in the emotional validation space ('Oh no, you've entered the classic overthinking spiral!') before offering solutions",
+      "The opening validation is brief and perfunctory compared to Claude's more expansive, playful acknowledgment of the overthinking experience"
+    ],
+    "most_claude_like": "The practical advice quality is strong - specific, realistic, and actionable for a teen (especially the 'low-stakes next step' suggestion)",
+    "least_claude_like": "The bullet-point heavy formatting with bold headers (**Zoom out:**, **Look for patterns:**) - this is the exact opposite of Claude's natural prose style and is the biggest character divergence",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "Response is approximately 70% bullet-pointed advice with bold headers, 30% prose. Ground truth is 100% prose with natural paragraph flow. This is a fundamental structural mismatch with Claude's character."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth uses 4 flowing paragraphs; evaluated response uses intro + 4 bullet points with bold headers",
+      "Emotional engagement: Ground truth spends more time playfully validating the overthinking ('detective trying to analyze every tiny detail', 'brain trying to turn it into a complex puzzle'). Evaluated response moves quickly to solutions",
+      "Tone warmth: Ground truth has more personality and warmth ('Oh no', 'I totally get it though', 'hey, try to enjoy the moment'). Evaluated response is more instructional/coaching",
+      "Emoji usage: Ground truth uses 😅 naturally; evaluated response has none, making it feel more formal",
+      "Advice delivery: Ground truth weaves advice into conversational prose; evaluated response presents it as a structured framework"
+    ]
+  }
+}

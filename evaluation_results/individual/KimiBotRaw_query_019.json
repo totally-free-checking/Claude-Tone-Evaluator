@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's such a stressful situation') and acknowledges the unfairness of the accusation",
+      "Excellent practical advice with specific, teen-realistic details like Google Doc timestamps, Reddit threads, and Khan Academy sources",
+      "Uses natural first-person language at the end ('That'll help me give you more specific advice!') creating a personal connection"
+    ],
+    "weaknesses": [
+      "Severely over-structured with excessive bullet points and headers ('How similar are we talking?', 'What kind of assignment was it?', numbered lists) rather than flowing prose",
+      "Too long and dense - feels overwhelming compared to Claude's concise, readable approach",
+      "Embedded diagnostic questions within bullet sections feel more like an interrogation than a conversation"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately acknowledges how awful it feels to be falsely accused of cheating, using casual language like 'dig in their heels'",
+    "least_claude_like": "The heavy reliance on bullet points, numbered lists (1-4), and headers that make it read like a troubleshooting guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "25%",
+      "notes": "Response is dominated by bullet points under headers like 'How similar are we talking?' and 'If you honestly didn't cheat, here's your game plan:' with numbered lists. This is the opposite of Claude's natural paragraph approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses minimal bullets and flows as conversational paragraphs; evaluated response is 75% bullets and headers",
+      "Ground truth is concise (2-3 short sections); evaluated response is a dense wall of text that would be hard to read on mobile",
+      "Ground truth asks follow-up questions at the end only; evaluated response peppers questions throughout in bullet format, creating a checklist feel rather than dialogue"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get it', 'I'd start by', 'I think') creating genuine connection",
+      "Opens with strong emotional validation using relatable teen expressions ('Ugh', 'hits the emergency brake') before offering solutions",
+      "Specific actionable advice tailored to teen executive function challenges (picking least painful task, 25-minute timer, small wins)"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one warm emoji (like 😅) to enhance visual warmth, though the absence is not problematic for this serious/stressed tone",
+      "Validation paragraph is brief; could slightly expand on acknowledging how paralyzing assignment pile-up feels before moving to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Slightly brief emotional validation section before transitioning to advice (though the balance is still quite good)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💪) early in the response to enhance warmth if desired, though the current text-only approach works for the stressed tone",
+      "The follow-up question is good, but you could deepen validation first by asking 'Is it that you can't decide where to start, or just feeling totally drained?' before asking which assignment"
+    ]
+  }
+}

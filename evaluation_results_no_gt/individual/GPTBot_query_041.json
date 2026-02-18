@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable suggestions like grabbing a banana or setting a 10-second reminder for tomorrow",
+      "Strong follow-up question that asks for specific context (location and access) to continue the conversation helpfully",
+      "Opens with validating language ('Ugh, that's genuinely annoying') that acknowledges the feeling without dismissing it"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and structured formatting (4 main bullets with sub-bullets) makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' to create personal connection",
+      "Jumps too quickly from brief validation to extensive solution-listing without enough emotional support or natural prose flow"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly matches the ideal character by being specific, natural, and inviting further conversation about their exact situation",
+    "least_ideal_aspect": "The formatting is the furthest from ideal - using multiple bullet points with bold headers instead of natural prose paragraphs that flow like a text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "20%",
+      "notes": "Response starts with one prose sentence then immediately switches to 'A few low-effort ways...' followed by 4 main bullet points (one with 2 sub-bullets). Uses bold text for headers within bullets. Reads like a productivity checklist rather than conversational support."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs that weave the advice together conversationally - instead of 'Quick triage:' try 'I'd probably start by grabbing whatever's closest - even just a banana or crackers...'",
+      "Add first-person language throughout to create connection: 'I think naming it helps,' 'I'd say don't overthink it,' or 'I get how that throws off your whole vibe'",
+      "Spend more time on emotional validation before offering solutions - expand on 'that sinking feeling' or 'we've all had those days' before moving to the practical tips"
+    ]
+  }
+}

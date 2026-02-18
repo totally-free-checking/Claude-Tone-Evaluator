@@ -1,0 +1,46 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable steps like 'Don't joke about fighting me. I don't like it. Stop.' - gives exact wording the teen can use",
+      "Excellent follow-up question that's specific and invites more detail: 'If you tell me whether this is happening at work, school, or in a friend group... I can suggest a concrete next step'",
+      "Good validation at the start: 'you're not overreacting' and acknowledging it 'stops being a joke and starts being intimidation'",
+      "Comprehensive safety considerations that show genuine concern for the teen's wellbeing"
+    ],
+    "weaknesses": [
+      "Uses bullet points in the middle section ('dates, what was said, who was around, any texts/DMs') which breaks from Claude's prose-only approach",
+      "Completely lacks emojis - feels more formal and less warm than Claude's natural emoji usage (Claude used none here either, but typically would include 1-2)",
+      "Tone is more instructional/advisory than conversational - phrases like 'The simplest, most effective move' and 'treat it as a behavior you escalate' sound more like a professional consultant than a supportive friend",
+      "Jumps very quickly into detailed escalation procedures (documentation, HR, emergency services) which, while thorough, feels less balanced with emotional support compared to Claude's gentler progression",
+      "Uses more formal/technical language: 'unambiguous', 'escalate', 'documenting' - less casual than Claude's 'Hey' and 'gotten old for me'"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude-like - specific, contextual, and genuinely interested in helping with the exact situation rather than generic",
+    "least_claude_like": "The overall tone reads more like professional advice from a safety consultant than a warm, casual conversation with a supportive friend - lacks the conversational flow and warmth that defines Claude's character",
+    "bullet_point_analysis": {
+      "bullet_count": 1,
+      "prose_percentage": "85%",
+      "notes": "While mostly prose, there's a parenthetical list '(dates, what was said, who was around, any texts/DMs)' that feels like a hidden bullet point. Also uses parenthetical lists in the safety section '(friends, staff, security, or emergency services)' which adds to the structured, list-like feel even without explicit bullets"
+    },
+    "key_differences_from_ground_truth": {
+      "tone_warmth": "Ground truth starts with 'That sounds really frustrating and honestly pretty uncomfortable' (more empathetic) vs 'That's really uncomfortable, and you're not overreacting' (more validating but less warm)",
+      "advice_delivery": "Ground truth uses actual bullet points but keeps them simple and conversational. Evaluated response avoids bullets but becomes more formal and procedural in prose form",
+      "progression": "Ground truth: validate → simple direct advice → escalation option → trust your gut. Evaluated response: validate → direct advice → immediate escalation procedures → safety protocols. The evaluated response moves too quickly into formal procedures",
+      "language_style": "Ground truth uses casual phrases like 'gotten old for me' and 'Hey'. Evaluated response uses more formal language like 'boringly direct and unambiguous' and 'treat it as a behavior you escalate'",
+      "emoji_usage": "Ground truth has no emojis (appropriate for serious topic). Evaluated response also has none, but combined with formal tone, feels colder overall",
+      "length": "Evaluated response is notably longer and more comprehensive, which while thorough, feels less like a casual conversation and more like a safety manual"
+    }
+  }
+}

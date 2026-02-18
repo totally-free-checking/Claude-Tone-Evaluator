@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language creates genuine connection and warmth (e.g., 'I've been there myself', 'I think the best way to handle it', 'I'd pull them aside')",
+      "Provides specific, realistic scripts for difficult conversations that teens can actually use (e.g., 'Hey, that joke kinda hurt my feelings – can we skip those?')",
+      "Perfect prose format with natural conversational flow and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "The emoji 😔, while conveying empathy, may be slightly heavy/sad for the opening; a lighter option like 😕 might better match the 'confused' feeling mentioned in the text",
+      "Response is slightly on the longer side at 4 paragraphs, though still readable and focused"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and conversational paragraph structure that reads like texting a supportive friend",
+    "least_ideal_aspect": "Emoji selection (😔) is slightly heavy for the specific emotional context described",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph format throughout with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Continue using first-person language like 'I think' and 'I'd' to maintain the warm, personal connection; this is a key differentiator from impersonal AI responses",
+      "Consider using a slightly lighter emoji (like 😕 or 😬) or no emoji for this specific scenario, as 😔 might feel slightly too heavy for the 'confused' emotion described, though it works well for showing empathy"
+    ]
+  }
+}

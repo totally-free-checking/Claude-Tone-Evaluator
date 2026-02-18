@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides extremely specific and actionable advice including exact phrases the teen could use with their friend (\"Hey, I'm usually dead asleep by like 11pm...\")",
+      "Ends with a natural, engaging follow-up question that shows genuine interest in the specific situation (\"What time do you usually go to bed?\")",
+      "Opens with validating casual language (\"Ugh, that's so annoying\") that acknowledges the frustration immediately"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers (\"**Quick fixes:**\", \"**Talking to your friend:**\") rather than natural prose paragraphs - reads like a wikiHow article instead of a text conversation",
+      "Completely lacks first-person language (no \"I think\", \"I'd say\", \"I get it\", or \"I'm here\") - feels impersonal and advisory rather than supportive",
+      "Jumps quickly from brief validation to solution-mode without exploring the emotional/social dynamics of the friendship or sleep anxiety"
+    ],
+    "most_ideal_aspect": "The practical advice quality and follow-up question demonstrate excellent understanding of teen agency and conversational engagement",
+    "least_ideal_aspect": "The formatting uses structured bullet points and headers instead of flowing conversational prose, making it feel like an instruction manual rather than a supportive chat",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "25%",
+      "notes": "Response uses two bolded headers ('Quick fixes:' and 'Talking to your friend:') followed by 6 bullet points. Only the opening sentence and closing paragraph are in prose form. This heavy structuring prevents the natural conversational flow essential to the character."
+    },
+    "specific_feedback": [
+      "Rewrite the advice sections as natural prose paragraphs instead of bullet lists - for example: 'I'd probably start by just putting your phone on Do Not Disturb mode at night. You can set it to turn on automatically so you don't even have to think about it. And if that doesn't work, maybe just mention casually to your friend that you're usually dead asleep by 11pm...'",
+      "Add first-person perspective throughout to create connection: instead of 'Here are a few things you could try,' use 'I think I'd probably try a couple things here...' and instead of 'Most friends would understand,' try 'I bet they'd totally understand once you explain...'",
+      "Spend more time validating the exhaustion and potential awkwardness of setting boundaries before diving into the solutions - maybe acknowledge how hard it is to tell a friend to stop texting"
+    ]
+  }
+}

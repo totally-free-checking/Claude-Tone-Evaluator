@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate validation and relatable humor ('I totally get that feeling—it's like everyone else got the memo...') that normalizes the teen's insecurity",
+      "Uses specific, actionable advice with the 'three-month trial' approach and concrete examples (rock climbing, watercolor, coding) that are realistic for a teen to try",
+      "Perfect follow-up question that invites continuation ('What kinds of stuff have you been low-key curious about lately...') using natural teen-appropriate language ('low-key')"
+    ],
+    "weaknesses": [
+      "Uses bold formatting for emphasis (**A)**, **B)**, **C)**, **consistency over time**, **'three-month trial'**) which slightly breaks the pure prose ideal of a text conversation",
+      "Could benefit from one warm emoji early on to enhance the friendly tone, though the absence doesn't significantly hurt the warmth"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with a natural, specific question that invites the teen to share more without being generic",
+    "least_ideal_aspect": "Formatting choices - uses bold text and an A/B/C structure within paragraphs that makes it feel slightly more like an article than a casual text, though it maintains conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "95%",
+      "notes": "No actual bullet points used, but employs inline A/B/C labeling and bold text for emphasis within prose paragraphs. Maintains paragraph structure throughout but with occasional typographic structuring that slightly deviates from pure conversational prose."
+    },
+    "specific_feedback": [
+      "Remove the bold formatting and A/B/C labels, integrating those points naturally into sentences (e.g., 'Most people are either faking it, posting highlights, or obsessed with something temporary' instead of labeling them A/B/C)",
+      "Consider adding one warm emoji early in the response (like 😅 or 😊) to match the casual, friendly tone, though this is optional",
+      "Maintain the excellent balance of validation and practical advice - the current structure of validating first, then reframing, then offering the three-month trial, then returning to reassurance is perfect"
+    ]
+  }
+}

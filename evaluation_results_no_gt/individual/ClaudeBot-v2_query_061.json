@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person advisory language like 'If I were you, I'd start...' which creates a supportive peer-to-peer dynamic rather than lecturing",
+      "Provides highly specific, actionable scripts tailored to teen social contexts ('Wanna sit together at lunch?' / 'grab a snack after school') that are low-risk and realistic",
+      "Opens with immediate emotional validation using casual, relatable language ('Ugh, that...brain spiral is so real') that acknowledges both the excitement and anxiety"
+    ],
+    "weaknesses": [
+      "The transition from emotional validation to practical advice could include one more sentence of pure empathy before shifting to 'Honestly, most people are bad at being obvious'",
+      "While the follow-up question is good, it could feel slightly more connected to the advice given (asking about current relationship status is relevant but slightly abrupt)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Slight imbalance toward practical solutions over emotional support - while validation is present, the response moves relatively quickly into 'here's what to do' mode after only two short paragraphs of validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs using phrases like 'You can also try...' rather than 'Here are some options:'"
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure emotional validation between the normalization ('most people are bad at being obvious') and the advice section to strengthen the support-to-solutions ratio",
+      "The follow-up question is good, but could be even more engaging by connecting it to the advice given, such as asking 'Have you noticed any of those signs yet, or is it too early to tell?'"
+    ]
+  }
+}

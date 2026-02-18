@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates genuine connection ('I'm so sorry', 'If I were you, I'd start', 'Honestly, you're not alone')",
+      "Perfect prose formatting with zero bullet points - reads exactly like a supportive friend texting",
+      "Specific, actionable advice tailored to teen agency (sitting with one safe person, bringing easy foods like granola bars, gradual exposure with 'tiny goals')",
+      "Exceptional follow-up question that digs into the specific nature of the anxiety (judgment vs. physical sensation of being watched) rather than generic 'how are you feeling'"
+    ],
+    "weaknesses": [
+      "Zero emojis used, which is appropriate for the topic's seriousness, though a single warm emoji like 😊 or 💙 could enhance the opening without undermining the gravity",
+      "The third paragraph containing all the advice is slightly dense; breaking it into two paragraphs might improve readability on mobile"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with absolutely no bullet points, headers, or over-structuring - it flows exactly like a conversational text from a supportive friend",
+    "least_ideal_aspect": "The absence of emoji when one subtle warm emoji could enhance the opening validation, though this is minor given the topic's sensitive nature",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural prose paragraphs with no lists, headers, bold text, or structural formatting. Advice is seamlessly woven into conversational sentences rather than presented as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😊 or 💙) after the opening validation to enhance warmth, though only if it feels natural for the tone",
+      "The advice paragraph could be split after '...build up over time;' to create a fourth paragraph, making it even more readable on phone screens while maintaining the prose format"
+    ]
+  }
+}

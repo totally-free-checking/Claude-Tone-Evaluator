@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using 'Ugh' and acknowledging the 'uncomfortable spot' to normalize the awkwardness",
+      "Provides specific, realistic scripts the teen can actually use ('You seem nice, but I'm not really looking to make new friends right now') rather than vague advice",
+      "Maintains perfect prose format with zero bullet points, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language in the advice section (no 'I think,' 'I'd suggest,' or 'I get it') which makes it slightly less personal than ideal",
+      "Could include a brief 'I'm here if you need to talk' or similar first-person supportive closing to strengthen the connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - it flows like a real conversation with a supportive friend",
+    "least_ideal_aspect": "Conversational tone lacks explicit first-person framing phrases ('I think,' 'I'd say') in the advice portion, relying more on second-person imperative statements",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within paragraphs using colons and commas rather than list formatting."
+    },
+    "specific_feedback": [
+      "Add explicit first-person language like 'I think the best approach is...' or 'I'd probably say something like...' to make the advice feel more personal and less instructional",
+      "Consider adding a brief first-person supportive closing like 'I'm here if you need to talk through it more' to reinforce the supportive relationship"
+    ]
+  }
+}

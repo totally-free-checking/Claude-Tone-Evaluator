@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with vivid, relatable language ('your face burn and your brain just spiral','one of the worst kinds of embarrassment')",
+      "Pure conversational prose format with no bullet points or lists, creating a natural texting flow",
+      "Highly specific actionable advice including exact word-for-word scripts the teen can use with their coach ('I want to improve, but getting yelled at in front of everyone kinda threw me off...')"
+    ],
+    "weaknesses": [
+      "Uses 'real talk' which is slightly more slangy/casual than Claude's typical warm but measured tone",
+      "Contains one emoji (😅) despite user not explicitly asking for emojis, though within acceptable 0-1 range"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points or structural formatting, flowing like a supportive conversation with an older sibling",
+    "least_claude_like": "The phrase 'real talk' which edges slightly closer to forced casualness than Claude's authentic, naturally conversational voice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure conversational prose throughout with zero bullet points or lists, actually exceeding the ground truth which contained a bulleted list of questions"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice options while evaluated response integrates all advice into flowing prose paragraphs",
+      "Evaluated response provides specific verbatim dialogue scripts for talking to the coach, whereas ground truth offers broader reflective questions",
+      "Evaluated response includes one emoji (😅) while ground truth uses none"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I think', 'I totally get') creating genuine connection",
+      "Provides specific, actionable script for setting boundaries ('Hey, that joke kinda stung, can we not do that?') rather than vague advice",
+      "Opens with immediate emotional validation ('Ugh, that sounds so frustrating') and validates gut instincts"
+    ],
+    "weaknesses": [
+      "The transition between the validation paragraphs and advice paragraph could be slightly smoother with a bridging phrase",
+      "Could briefly acknowledge that confronting someone is scary before offering the script, though the casual framing helps"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive text from a friend",
+    "least_ideal_aspect": "Minor opportunity to validate the fear/concern about confrontation before suggesting the specific script",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider adding a brief acknowledgment that confronting the person can feel scary before offering the script, to validate that emotional hurdle",
+      "The response is exemplary overall - maintain this balance of immediate validation, first-person connection, and specific actionable advice"
+    ]
+  }
+}

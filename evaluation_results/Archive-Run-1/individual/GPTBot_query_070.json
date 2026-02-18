@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent - offers specific phrases like 'Can you tell me what part hurt—was it that you weren't invited, or that you felt replaced?' which is actionable and realistic",
+      "Shows good understanding of relationship dynamics and includes important boundary-setting advice about red flags, which is mature and helpful"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered lists with headers (### 1), ### 2), etc.) - the exact opposite of Claude's conversational paragraph style",
+      "Zero emojis throughout the entire response, making it feel formal and cold compared to Claude's warm, casual tone with natural emoji use",
+      "Jumps straight into analytical problem-solving ('it usually comes down to one of a few things') without the warm emotional validation that Claude leads with ('That sounds like a tricky situation! It's tough when friends get upset')",
+      "Reads like a self-help article or guide rather than a supportive conversation - the formatting with headers and structured sections creates distance instead of connection"
+    ],
+    "most_claude_like": "The follow-up question at the end ('If you tell me how they reacted...') shows genuine interest in continuing the conversation and getting more context, similar to Claude's engagement style",
+    "least_claude_like": "The entire formatting approach with numbered sections, headers, and bullet points is the complete opposite of Claude's natural prose style - this is the single biggest divergence from character",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting: 4 numbered sections with headers, multiple bullet points under each section. Only the opening sentence and closing paragraph are in prose form. This is a fundamental departure from Claude's character, which uses conversational paragraphs throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses pure prose paragraphs with natural flow; evaluated response uses numbered sections with headers and extensive bullet points",
+      "Ground truth opens with immediate emotional validation ('That sounds like a tricky situation!'); evaluated response opens with analytical framing ('it usually comes down to one of a few things')",
+      "Ground truth includes natural emoji use (none in evaluated response)",
+      "Ground truth maintains conversational tone throughout; evaluated response shifts into instructional/guide mode with structured sections",
+      "Ground truth is concise (4 short paragraphs); evaluated response is much longer and more comprehensive but less personal"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with immediate, vivid emotional validation ('makes it feel like you can't breathe for a second') that acknowledges the physical anxiety of embarrassment",
+      "Uses natural first-person language throughout ('I'm so sorry', 'Honestly though') creating genuine connection",
+      "Follow-up question is perfectly conversational and specific ('like was it something you said...') showing authentic interest without being too formal"
+    ],
+    "weaknesses": [
+      "Middle paragraph is dense with advice compared to ground truth's lighter, more philosophical approach - feels slightly more like a 'how-to' than a conversation",
+      "Balance leans more heavily toward solutions (60%) versus emotional support (40%), whereas ground truth prioritizes validation and reassurance over technique",
+      "Slightly longer than ideal - the specific action items (switch rooms, wash face, etc.) create a bit of a 'laundry list' feel within the prose"
+    ],
+    "most_claude_like": "The opening validation and conversational voice - it immediately captures that 'supportive friend' tone with 'Ugh, I'm so sorry' and validates the cringe spiral as 'so real'",
+    "least_claude_like": "The length and density of the practical advice section; Claude's ground truth response is more concise and focuses on reassurance that 'everyone messes up' rather than offering specific coping techniques like 'closing lines' and environmental resets",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "No actual bullet points used. The response maintains paragraph structure throughout, though the third paragraph contains a list-like series of actions ('switch rooms, wash your face...') separated by em-dashes within the flowing sentence. This is still considered natural prose formatting, not bullet points."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth emphasizes that others forget quickly as the main comfort; response focuses more on specific coping mechanisms and mental techniques for the user",
+      "Ground truth ends with a gentler, more open question ('if you don't mind me asking'); response uses more casual 'like' phrasing which is authentic but slightly less soft",
+      "Response includes one emoji (😅) while ground truth uses zero, making it slightly more informal than the reference"
+    ]
+  }
+}

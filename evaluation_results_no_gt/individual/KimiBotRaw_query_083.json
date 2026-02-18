@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('Ugh, this is honestly one of the most stressful social puzzles') that acknowledges the difficulty and stress of the situation",
+      "Provides extremely specific, actionable advice teens can actually use (remembering 'weird specific details,' 'laugh just a little too hard,' 'hold eye contact a beat longer,' 'playful teasing') rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Uses bold headers ('**The extra factor**', '**Body language breadcrumbs**', etc.) that function as bullet points, creating a listicle format instead of natural flowing prose",
+      "Completely lacks first-person language ('I think,' 'I'd say,' 'I get it') - reads like an impersonal article ('Here are a few things,' 'Those are usually') rather than a supportive friend texting"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies specific to teen social dynamics with thoughtful caveats about cultural differences and power imbalances",
+    "least_ideal_aspect": "Conversational tone and prose formatting - the response uses zero first-person connection and relies on bold headers/structured sections instead of natural paragraph flow, making it feel like a wikiHow article rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "70%",
+      "notes": "While the content under each section is written in prose paragraphs, the use of four bold headers ('The extra factor', 'Body language breadcrumbs', 'The jealousy test', 'But honestly?') creates a heavily structured, list-like format that diverges from the ideal conversational paragraph style"
+    },
+    "specific_feedback": [
+      "Rewrite without bold headers - integrate the advice into natural flowing paragraphs that transition smoothly from one idea to the next, like texting a friend",
+      "Add first-person language throughout: instead of 'Here are a few things,' try 'I think the key things to watch for are...' and instead of 'Those are usually green flags,' try 'I'd say those are usually green flags'",
+      "Consider adding one warm emoji early in the response (like 😅 or 😊) to enhance the casual, friendly tone"
+    ]
+  }
+}

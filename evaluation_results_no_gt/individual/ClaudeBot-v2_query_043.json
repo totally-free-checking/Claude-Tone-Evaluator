@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific language about the 'twisty feeling' and second-guessing that captures the exact emotional experience",
+      "Excellent use of first-person language throughout ('If I were you, I'd try...', 'I'm so sorry') creating genuine connection",
+      "Provides specific, word-for-word scripts a teen can actually use ('Can I ask you about something? I've been feeling confused...') rather than vague advice"
+    ],
+    "weaknesses": [
+      "The follow-up question is technically two questions combined, which slightly dilutes the focus, though both are relevant",
+      "The third paragraph is slightly dense with advice; could benefit from a line break before the script example, though this is minor"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format with zero bullet points or formatting - it reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The follow-up question combines two distinct inquiries (what the lie is about vs. how they found out) which could feel slightly overwhelming, though both show genuine interest",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider breaking the advice paragraph into two smaller chunks for easier phone reading, though the content is excellent",
+      "The follow-up question could be simplified to one focused question like 'What makes you think they're lying?' to keep the conversation flowing more naturally, though the current version shows deep engagement"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such an awkward position to be in!' that captures the uncomfortable feeling perfectly",
+      "Excellent use of first-person language ('I think the key is...') that creates a supportive peer-like connection rather than distant authority",
+      "Provides specific, realistic phrases the teen can actually use ('oh I'm pretty busy lately,' 'maybe another time') rather than vague advice"
+    ],
+    "weaknesses": [
+      "Could include slightly more first-person empathy statements (e.g., 'I'd feel torn too') to strengthen the personal connection before moving to solutions",
+      "The transition from validation to advice is slightly abrupt - could use one more sentence bridging the emotional acknowledgment to the practical strategy"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points or structural formatting - it reads exactly like a supportive friend texting advice, with conversational fillers ('you know?', 'kinda', 'like') that create authentic flow.",
+    "least_ideal_aspect": "The balance between support and solutions leans slightly toward the practical advice side; while it opens with validation, it could spend one more sentence sitting with the emotional complexity before offering the 'how to handle it' guidance.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bullet points. The advice flows naturally within conversational paragraphs using transitions like 'The thing is' and 'Like,' maintaining a text-message-like rhythm throughout."
+    },
+    "specific_feedback": [
+      "Add one more first-person empathy statement like 'I'd feel so guilty in that situation too' before the advice section to deepen the emotional connection",
+      "Consider softening the transition to advice with a phrase like 'If you're looking for a way to handle it without being mean, I've found that...' to maintain the supportive tone while shifting to solutions"
+    ]
+  }
+}

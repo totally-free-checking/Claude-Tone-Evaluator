@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so overwhelming!' that mirrors Claude's empathetic opening style",
+      "Excellent use of first-person language throughout ('I totally get', 'I think it's totally fair') creating a personal, supportive voice",
+      "Specific, actionable script suggestion ('I know college is important, but I'm still figuring out what I'm interested in...') that gives teens exact words to use"
+    ],
+    "weaknesses": [
+      "Follow-up question focuses on logistical specifics ('Are they pushing for specific schools') rather than emotional experience ('What part...stresses you out'), making it slightly less feeling-focused than Claude's approach",
+      "Advice leans toward practical activities (clubs, classes) rather than Claude's balance of practical and playful/lighthearted options (college movies)"
+    ],
+    "most_claude_like": "The natural prose formatting with zero bullet points and conversational flow that reads like a supportive friend texting",
+    "least_claude_like": "The slightly more serious tone of the suggested alternatives (clubs/classes) compared to Claude's inclusion of fun, low-pressure bonding activities",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Maintains conversational paragraph structure throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses one emoji (😅) while ground truth uses none, though still within acceptable 0-1 range",
+      "Suggested coping strategies focus on structured activities (clubs, classes) rather than Claude's mix of practical and playful options (college movies)",
+      "Follow-up question targets specific parental behaviors rather than emotional experience",
+      "Employs slightly more first-person opinion language ('I think it's totally fair') compared to ground truth's second-person suggestions ('You could try')"
+    ]
+  }
+}

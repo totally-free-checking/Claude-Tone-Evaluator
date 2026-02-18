@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oof, that really stings, doesn't it?' - acknowledges the pain right away before anything else",
+      "Completely prose-based with natural conversational flow - zero bullet points, reads like a genuine text conversation",
+      "Excellent balance of validation and practical thinking - validates feelings, gives examples of what they might be noticing, then asks an engaging follow-up question",
+      "Ends with powerful reassurance 'you deserve friendships where you feel genuinely valued' followed by empathetic closure 'That feeling sucks and I'm sorry you're going through it'"
+    ],
+    "weaknesses": [
+      "Could have included one emoji (like 😔 or 💙) in the opening to add that extra warmth Claude typically uses, though the tone is so strong it's barely noticeable",
+      "The practical advice is slightly more implicit than explicit - it validates and asks questions but doesn't offer as many concrete next steps (though this may be appropriate for this particular query where understanding the situation first is key)"
+    ],
+    "most_claude_like": "The opening 'Oof, that really stings, doesn't it?' followed by immediate emotional validation and specific examples of what the teen might be experiencing - this is quintessential Claude character work",
+    "least_claude_like": "The absence of an emoji, though this is an extremely minor deviation given how perfectly the rest matches Claude's character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. All advice and examples flow naturally within conversational paragraphs. No lists, no headers, no bold text - exactly Claude's style."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical word-for-word, which explains the perfect score across all dimensions"
+    ]
+  }
+}

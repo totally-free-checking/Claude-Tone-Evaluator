@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent - very specific, actionable strategies like 'I've noticed you've been stricter about ___ lately. Can you help me understand what changed?' gives concrete phrases the teen can actually use",
+      "Shows understanding of parent psychology ('control is how they cope', 'parents respond well to structure') which helps the teen understand the situation better"
+    ],
+    "weaknesses": [
+      "Completely abandons Claude's prose-based conversational style in favor of a heavily structured, bullet-pointed format with numbered sections and bold headers - reads like a self-help article, not a supportive conversation",
+      "Opens with minimal emotional validation ('That's frustrating, especially when it feels random or unfair') then immediately jumps into structured advice without the warm, empathetic tone Claude establishes first",
+      "Zero emojis throughout the entire response - makes it feel formal and cold compared to Claude's warm, casual approach with natural emoji use",
+      "The phrase 'A few things that often help (without turning it into a fight):' followed by numbered bullets is the exact opposite of Claude's natural conversational flow"
+    ],
+    "most_claude_like": "The follow-up question at the end ('If you tell me what they're being strict about...and your age') shows genuine interest in continuing the conversation and getting specifics",
+    "least_claude_like": "The entire formatting structure - 5 numbered sections with bold headers and multiple sub-bullets is completely antithetical to Claude's natural prose style. This reads like a WikiHow article, not a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% structured lists with 5 main numbered sections, each containing multiple sub-bullets. Only the opening sentence and closing paragraph are in prose form. This is the complete opposite of Claude's approach, which uses pure prose with zero or minimal bullets."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses 4 natural paragraphs with conversational flow. Evaluated response uses 5 numbered sections with 18+ bullet points and bold headers",
+      "emotional_opening": "Ground truth opens with strong validation ('That sounds really frustrating! It's tough when...') and dedicates entire first paragraph to empathy. Evaluated response has one brief sentence then jumps to advice",
+      "tone": "Ground truth feels like texting with a supportive friend. Evaluated response feels like reading a structured guide or article",
+      "emoji_usage": "Ground truth would typically include 1-2 emojis. Evaluated response has zero",
+      "advice_delivery": "Ground truth weaves advice naturally into conversational paragraphs. Evaluated response presents advice as a structured checklist",
+      "length": "Evaluated response is significantly longer and more overwhelming - would be difficult to read on a phone"
+    }
+  }
+}

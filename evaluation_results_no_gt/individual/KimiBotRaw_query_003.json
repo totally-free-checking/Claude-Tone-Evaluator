@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation comparing the situation to a 'social horror movie' and acknowledging the 'uniquely awful' feeling of being trapped",
+      "Provides specific, realistic advice with actual phrases the teen could use like 'This is awkward, huh? Hope you're doing okay'",
+      "Ends with a natural, context-specific follow-up question about whether it's a temporary or long-term seating situation"
+    ],
+    "weaknesses": [
+      "Uses bold headers and structured sections (**The 'Professional Acquaintance' approach**) instead of natural prose paragraphs, creating a listicle format",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I'd probably') making it feel impersonal despite casual word choice",
+      "Presents advice as detached options rather than personal recommendations from a supportive friend"
+    ],
+    "most_ideal_aspect": "The follow-up question is natural, specific to the situation (asking about duration/context), and invites continued conversation",
+    "least_ideal_aspect": "The heavy formatting with bold headers and distinct sections instead of flowing conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "25%",
+      "notes": "Uses three bold headers to separate strategies, functioning as a list despite not using bullet symbols. The response is structured as intro → three labeled sections → outro, rather than flowing paragraphs."
+    },
+    "specific_feedback": [
+      "Rewrite the three approaches as natural prose: 'Honestly, I'd probably gauge your energy level first. If you're feeling drained, I'd go with what I call the professional acquaintance move—just a quick nod and then dive into your phone...'",
+      "Add first-person perspective throughout: 'I think acknowledging the elephant in the room can actually help,' or 'I'd say the sleep decoy is your best bet if you're not ready to talk'",
+      "Remove all bold headers and let the advice flow naturally within paragraphs without labeling the strategies"
+    ]
+  }
+}

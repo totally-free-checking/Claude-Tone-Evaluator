@@ -1,0 +1,43 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent emotional validation that immediately normalizes the teen's feelings ('you're not being \"too sensitive\" for feeling hurt')",
+      "Uses pure prose format with natural flow, avoiding the bullet points present in the ground truth",
+      "Provides highly specific, actionable scripts for what to say in the moment ('Hey, I know you're joking, but those comments kinda hurt...')",
+      "Maintains warm, casual language throughout ('the cleanest move', 'fishing for')"
+    ],
+    "weaknesses": [
+      "Lacks first-person bot perspective ('I think', 'I'd say', 'I'm here') that the character profile emphasizes",
+      "Only asks one follow-up question versus the ground truth's multiple engaging questions",
+      "Slightly more prescriptive/advice-heavy compared to the ground truth's exploratory approach",
+      "Uses an emoji (💙) when the ground truth uses none and the query didn't request emojis"
+    ],
+    "most_claude_like": "The prose formatting and natural conversational flow without bullet points, which aligns perfectly with the character profile's preference for paragraph-based responses",
+    "least_claude_like": "The absence of first-person language from the bot's perspective (no 'I think', 'I'd suggest', or 'I'm here if you need to talk') makes it feel slightly more like an advice column than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses zero bullet points, presenting all advice in natural paragraph form. This is actually closer to the stated character ideal than the ground truth, which uses dashed bullet points for the advice section."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice options while evaluated response uses pure prose paragraphs",
+      "Ground truth asks three follow-up questions (duration, others affected, gut feeling) while evaluated asks one specific question about joke types",
+      "Ground truth suggests analyzing the pattern first ('think about whether this is a pattern') while evaluated jumps directly to confrontation scripts",
+      "Evaluated response uses one emoji (💙) while ground truth uses none"
+    ]
+  }
+}

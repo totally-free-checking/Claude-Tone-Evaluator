@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's so exhausting!') that mirrors the teen's frustration and makes them feel heard",
+      "Uses natural first-person language throughout ('I totally get why that would be draining', 'I think your best bet') creating a personal connection",
+      "Provides specific, actionable scripts the teen can actually use ('just be like cool and change the subject', 'I'm just excited about this, I don't need advice or anything')"
+    ],
+    "weaknesses": [
+      "The explanation of the friend's insecurities, while accurate, could potentially feel slightly dismissive if not for the immediate follow-up 'It doesn't make it less annoying though'",
+      "Could include slightly more validation in the advice section to cushion the practical suggestions, though the balance is still good"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural elements, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The middle paragraph explaining the psychology of competitive behavior, while helpful context, shifts slightly away from the teen's experience toward analyzing the friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase when transitioning to advice, such as 'That said, here's what might help' to soften the shift from feelings to solutions",
+      "The current response is excellent; maintain this level of specific scripting when giving advice as teens often need exact words to use in difficult social situations"
+    ]
+  }
+}

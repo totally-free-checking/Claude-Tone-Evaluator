@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Immediate emotional validation with casual, empathetic language ('Aw man, that really sucks' and 'I'm sorry that happened to you')",
+      "Perfect prose formatting with natural paragraph flow - reads exactly like a supportive friend texting",
+      "Excellent use of first-person language ('I'm sorry') and casual contractions that match teen conversational style"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat limited to emotional acknowledgment only - could include one concrete coping strategy or next step",
+      "While the absence of emojis is appropriate for the serious tone, a single supportive emoji could enhance warmth without undermining the gravity of the situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational tone - the response flows like a real text conversation with a supportive friend, using casual language ('put on a brave face', 'pretty crappy') and first-person empathy without any corporate or clinical detachment",
+    "least_ideal_aspect": "Practical advice specificity - while the suggestion to acknowledge feelings is valid, it could benefit from one concrete, actionable suggestion (like talking to a specific friend or coach, or a small immediate activity to process the disappointment)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - response is entirely natural prose with zero bullet points, headers, or over-formatting. The advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific, actionable suggestion for immediate next steps (e.g., 'Maybe text your best friend about it?' or 'Give yourself tonight to feel bummed, then tomorrow we can figure out next steps')",
+      "The response could optionally include one warm emoji (like 💙 or 😔) early on to enhance the supportive tone, though the absence is also appropriate for the serious nature of the disappointment"
+    ]
+  }
+}

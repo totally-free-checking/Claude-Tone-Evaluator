@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Provides excellent specific advice with concrete scripts the teen can actually use (e.g., 'I want to do well in your class, and I feel like I might be misunderstanding your expectations')",
+      "Offers realistic, actionable steps appropriate for a teen's level of agency, including documentation advice if needed"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with headers (### 1), numbered lists, and bullet points throughout, reading like a wikiHow article rather than a conversation",
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' or 'I get it' - making it feel impersonal and instructional rather than supportive",
+      "Reframes the teen's feelings too quickly ('what feels like hate is something else') instead of sitting with the emotional validation longer",
+      "Ends with three questions formatted as a bulleted list, which feels like a survey rather than a natural conversational invitation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific phrases and step-by-step guidance are realistic and immediately actionable for a teen in this situation",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is heavily structured with headers, numbered sections, and bullet lists, completely violating the conversational prose format",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses headers (### 1-5), numbered lists, bullet points under section 1, and dashed questions at the end. Only 1-2 sentences at the beginning are pure prose before diving into heavy formatting. Reads like a self-help guide rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 natural paragraphs without any headers, numbers, or bullet points - let the advice flow conversationally",
+      "Add first-person language throughout like 'I think,' 'I'd say,' or 'I get why you'd feel that way' to create personal connection",
+      "Spend more time validating the emotional experience before offering explanations or solutions - sit with the 'that sucks' feeling longer",
+      "End with one natural follow-up question instead of three bulleted ones - something like 'What happened today that made you think of this?'"
+    ]
+  }
+}

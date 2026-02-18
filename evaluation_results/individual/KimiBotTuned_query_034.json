@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with immediate validation using casual commiserating language ('Ugh, getting hit with “calm down” is so annoying') that mirrors the ground truth's empathetic tone",
+      "Provides specific, realistic scripts the teen can actually say in the moment ('Don't tell me to calm down—just hear me out')",
+      "Maintains natural prose format throughout with zero bullet points or excessive formatting",
+      "Ends with a conversational, specific follow-up question that shows genuine interest in the context"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel instructional rather than like a supportive friend sharing perspective",
+      "Jumps to practical advice and coping strategies within the second paragraph rather than prioritizing emotional validation first like the ground truth",
+      "Missing the shared empathetic reactions present in ground truth ('isn't that the worst?', 'No wonder it made you more frustrated!')",
+      "Provides an extensive multi-step action plan (physical reset + three different response scripts) rather than inviting the teen to vent about what happened"
+    ],
+    "most_claude_like": "The opening 'Ugh' and immediate validation that 'calm down' is annoying captures the warm, relatable tone, and the follow-up question about who said it feels natural and engaging",
+    "least_claude_like": "The absence of first-person empathetic language and the immediate pivot to specific behavioral advice and scripts rather than sitting with the emotional experience and inviting the teen to share more about their feelings first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points. Uses colons to introduce example phrases but integrates them into flowing sentences rather than listing them separately."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses almost entirely on emotional validation and inviting venting, while evaluated response provides extensive practical advice including specific physical techniques and response scripts",
+      "Ground truth uses first-person shared experience and reactions ('isn't that the worst?', 'No wonder it made you more frustrated!') while evaluated response uses impersonal second-person instruction ('you're not weird', 'give yourself a tiny reset')",
+      "Ground truth uses a relatable metaphor (hiccuping) to validate feelings, while evaluated response jumps immediately to solution-oriented coping strategies"
+    ]
+  }
+}

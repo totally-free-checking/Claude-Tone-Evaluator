@@ -1,0 +1,46 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 17,
+  "user_query": "I got a weird vibe from a friend’s boyfriend and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 2,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong practical advice with specific, actionable examples (e.g., 'not to be alone with him', 'keep hangouts group-only')",
+      "Good follow-up questions at the end that show genuine interest ('What exactly happened', 'How your friend seems around him')",
+      "Validates the gut feeling early on ('Trust that weird vibe a little')",
+      "Comprehensive coverage of safety considerations and red flags"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), 2), 3), etc.) and extensive bullet points throughout - completely opposite of Claude's prose style",
+      "No emojis at all, making it feel formal and clinical rather than warm and conversational",
+      "Way too long and overwhelming (5 major sections with multiple sub-bullets) - would be exhausting to read on a phone",
+      "Jumps into extensive advice mode without enough initial emotional validation - feels like a safety manual rather than a supportive conversation",
+      "Uses formal phrasing like 'escalate: involve trusted adults' and 'appropriate support options' instead of natural teen language"
+    ],
+    "most_claude_like": "The follow-up questions at the end are natural and specific to the situation, inviting the teen to share more details in a conversational way",
+    "least_claude_like": "The heavy use of numbered headers and extensive bullet points throughout - Claude writes in conversational paragraphs, not structured lists. This reads like a safety guide rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "25%",
+      "notes": "Response is dominated by 5 numbered sections with headers, each containing multiple bullet points. Only the opening line and closing paragraph are in prose form. This is the exact opposite of Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth is 3 short paragraphs in pure prose; evaluated response is 5 numbered sections with 18+ bullet points",
+      "Ground truth immediately asks questions to understand more; evaluated response delivers extensive advice before asking",
+      "Ground truth is warm and conversational throughout; evaluated response is clinical and instructional",
+      "Ground truth uses natural language ('That's a tough spot!'); evaluated response uses formal phrasing ('escalate: involve trusted adults')",
+      "Ground truth has no emojis but maintains warmth through tone; evaluated response has no emojis AND feels cold/formal",
+      "Ground truth is concise and readable; evaluated response is overwhelming in length and structure"
+    ]
+  }
+}

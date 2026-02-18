@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('surveillance state') that acknowledges the teen's frustration without dismissing it",
+      "Provides extremely specific, actionable scripts the teen can actually use ('Just a friend!' + subject change, 'I love you, but I'm allowed to have private conversations')",
+      "Ends with a natural, context-gathering question about living situation that shows genuine interest in their specific scenario"
+    ],
+    "weaknesses": [
+      "Heavy use of bold headers (**The chill deflection:**, **The gentle boundary:**) creates a listicle format rather than natural prose flow",
+      "Lacks first-person language entirely ('I think', 'I'd say', 'I get it') - feels more like an article than a personal conversation",
+      "The 'cult meeting/Kool-Aid' joke, while funny, is slightly edgier than Claude's typically supportive, straightforward tone"
+    ],
+    "most_claude_like": "The specific, realistic advice with exact phrases a teen could say to their parents, balancing humor with practicality",
+    "least_claude_like": "The over-formatting with bold category headers (**The chill deflection:**, etc.) which turns the response into a structured list rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Uses bold headers with colons acting as bullet categories, creating a heavily structured, list-heavy format rather than flowing prose. The Ground Truth uses simple dash bullets, but this response uses prominent bold formatting that breaks conversational flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses simple dash bullets; Evaluated Response uses prominent bold headers creating a 'listicle' style",
+      "Ground Truth reassures about parents' intentions early on; Evaluated focuses more heavily on the annoyance without the 'they're usually just curious' framing",
+      "Evaluated Response includes edgy humor (cult meeting joke) not present in Claude's more straightforward, gentle approach",
+      "Evaluated Response lacks the first-person perspective ('I think', 'I'd say') that makes Claude feel like a supportive friend rather than an advice columnist"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with flowing paragraphs",
+      "Strong immediate validation that normalizes the anxiety ('ultimate anxiety trigger', 'stomach drop instantly') making the teen feel understood",
+      "Appropriate emoji usage (😬) that enhances the empathetic tone without being excessive"
+    ],
+    "weaknesses": [
+      "Limited first-person language - only uses 'I know' once instead of naturally incorporating 'I think', 'I'd say', or 'I get it' throughout",
+      "Practical advice is somewhat generic ('take a deep breath', 'try not to spiral') and could include more specific coping strategies for the waiting period",
+      "Asks two separate questions (who said it, and when) which slightly dilutes the conversational focus compared to one engaging follow-up"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, creating a genuine conversational flow that feels like texting with a supportive friend",
+    "least_ideal_aspect": "Lack of consistent first-person perspective language - relies on general statements rather than personal connection phrases like 'I think' or 'I'd say'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Response flows naturally through 5 short paragraphs that read like a continuous supportive message."
+    },
+    "specific_feedback": [
+      "Incorporate more first-person language throughout (e.g., 'I totally get why that would freak you out', 'I'd be panicking too', 'I think the worst part is the waiting') to strengthen the personal connection",
+      "Offer more concrete, specific coping strategies for the immediate anxiety (e.g., 'Write down the worst-case scenario and then write three reasons it's probably not that', or 'Text a friend to sit with you while you wait')",
+      "Consider focusing on one strong follow-up question rather than splitting between 'who said it' and 'when' - perhaps combine into 'Who said it and when do you have to talk?'"
+    ]
+  }
+}

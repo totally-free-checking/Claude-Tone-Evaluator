@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that sounds exhausting!' and relatable scenario about the coffee/roaster example",
+      "Specific, actionable advice with realistic teen language like 'Dude, we're just chatting, not keeping score!'",
+      "Good balance of validation followed by advice and ending with engagement"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list for advice instead of natural prose flow ('A few things that might help:' followed by three bullet points)",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal despite casual word choice",
+      "Asks two questions at the end rather than one natural follow-up"
+    ],
+    "most_ideal_aspect": "The immediate emotional validation and relatable specific example (coffee competition) that shows understanding of the teen's frustration",
+    "least_ideal_aspect": "The use of bullet points for practical advice instead of integrating suggestions into conversational prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response uses a clear bulleted list with dashes (-) for three pieces of advice, breaking the conversational flow. The advice should be woven into a natural paragraph instead."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to flowing prose: 'If you want to address it, you could try calling it out gently when it happens, like saying 'Dude, we're just chatting, not keeping score!' Or you could change the subject when they start getting competitive. If it keeps happening, maybe have an honest conversation about how it makes you feel.'",
+      "Add first-person connection throughout: 'I get how annoying that must be when you're just trying to chill,' or 'I think the best approach would be...' to sound more like a supportive friend than an advice manual",
+      "Choose one follow-up question instead of two: combine into something like 'How long has this been going on, and is it something you're just noticing more lately?' or pick the most engaging one"
+    ]
+  }
+}

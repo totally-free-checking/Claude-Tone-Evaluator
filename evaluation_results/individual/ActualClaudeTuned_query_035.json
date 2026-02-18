@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get why you're putting on the \"I'm fine\" face', 'I'd try to let yourself actually feel bummed') which creates authentic connection",
+      "Natural prose flow without any bullet points or formatting - reads like a text from a supportive friend",
+      "Specific, teen-realistic advice about giving yourself 'a day or two to be genuinely upset' and acknowledging the social pressure of 'pity looks'"
+    ],
+    "weaknesses": [
+      "Significantly longer than Claude's typical concise style (4 paragraphs vs ground truth's 2, much more advice-heavy)",
+      "Uses an emoji (💙) when the ground truth used none and the user didn't request emojis, making it slightly less aligned with Claude's restrained approach",
+      "Follow-up question focuses on future plans ('trying again next season') rather than checking in on immediate emotional state like the ground truth ('Are you doing okay?')"
+    ],
+    "most_claude_like": "The natural conversational prose format with first-person validation - specifically the line 'I totally get why you're putting on the \"I'm fine\" face' perfectly captures the warm, empathetic older-sibling tone",
+    "least_claude_like": "The length and density of advice - Claude's ground truth was notably more concise and focused primarily on emotional validation with minimal practical suggestions, whereas this response expands into a full action plan for processing the disappointment",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullet points, headers, or lists. Advice flows naturally within paragraphs rather than being structured as actionable steps"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth is extremely concise (2 short paragraphs) focusing almost entirely on emotional validation, while evaluated response is substantially longer with extended practical advice section",
+      "Ground truth asks about immediate wellbeing ('Are you doing okay?'), while evaluated response asks about future intentions (trying again next season)",
+      "Ground truth uses no emojis, while evaluated response includes one (💙) at the opening"
+    ]
+  }
+}

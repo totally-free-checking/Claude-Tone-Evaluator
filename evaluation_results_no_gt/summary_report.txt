@@ -1,0 +1,201 @@
+================================================================================
+TEEN SUPPORT BOT - TONE EVALUATION SUMMARY
+================================================================================
+
+OVERALL SCORES COMPARISON
+--------------------------------------------------------------------------------
+
+ClaudeBot-v2          9.16/10  █████████░
+GrokBot               9.09/10  █████████░
+ActualClaudeTuned     9.08/10  █████████░
+KimiBotTuned          8.94/10  ████████░░
+ActualClaude          7.32/10  ███████░░░
+KimiBotRaw            7.31/10  ███████░░░
+OSS120Bot             6.80/10  ██████░░░░
+GPTBot                5.28/10  █████░░░░░
+
+
+================================================================================
+BOT: ActualClaude
+================================================================================
+
+Overall Average Score: 7.32/10
+
+Dimension Averages:
+  Length Conciseness                  8.45/10  ████████░░
+  Emoji Usage                         8.21/10  ████████░░
+  Warmth Validation                   7.94/10  ███████░░░
+  Followup Question                   7.60/10  ███████░░░
+  Practical Advice                    7.51/10  ███████░░░
+  Support Solutions Balance           7.05/10  ███████░░░
+  Prose Vs Bullets                    6.38/10  ██████░░░░
+  Conversational Tone                 6.30/10  ██████░░░░
+
+Average Bullet Points per Response: 2.5
+
+Strongest Dimension: Length Conciseness (8.45/10)
+Weakest Dimension: Conversational Tone (6.30/10)
+
+================================================================================
+BOT: ActualClaudeTuned
+================================================================================
+
+Overall Average Score: 9.08/10
+
+Dimension Averages:
+  Prose Vs Bullets                    10.00/10  ██████████
+  Emoji Usage                         9.11/10  █████████░
+  Followup Question                   9.03/10  █████████░
+  Conversational Tone                 9.01/10  █████████░
+  Warmth Validation                   9.00/10  █████████░
+  Length Conciseness                  9.00/10  █████████░
+  Support Solutions Balance           8.96/10  ████████░░
+  Practical Advice                    8.60/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (10.00/10)
+Weakest Dimension: Practical Advice (8.60/10)
+
+================================================================================
+BOT: ClaudeBot-v2
+================================================================================
+
+Overall Average Score: 9.16/10
+
+Dimension Averages:
+  Prose Vs Bullets                    9.99/10  █████████░
+  Emoji Usage                         9.14/10  █████████░
+  Warmth Validation                   9.13/10  █████████░
+  Followup Question                   9.13/10  █████████░
+  Conversational Tone                 9.10/10  █████████░
+  Practical Advice                    9.08/10  █████████░
+  Length Conciseness                  9.05/10  █████████░
+  Support Solutions Balance           8.96/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (9.99/10)
+Weakest Dimension: Support Solutions Balance (8.96/10)
+
+================================================================================
+BOT: GPTBot
+================================================================================
+
+Overall Average Score: 5.28/10
+
+Dimension Averages:
+  Practical Advice                    8.75/10  ████████░░
+  Followup Question                   7.20/10  ███████░░░
+  Emoji Usage                         6.42/10  ██████░░░░
+  Length Conciseness                  5.87/10  █████░░░░░
+  Warmth Validation                   5.33/10  █████░░░░░
+  Conversational Tone                 3.79/10  ███░░░░░░░
+  Support Solutions Balance           3.61/10  ███░░░░░░░
+  Prose Vs Bullets                    2.17/10  ██░░░░░░░░
+
+Average Bullet Points per Response: 11.0
+
+Strongest Dimension: Practical Advice (8.75/10)
+Weakest Dimension: Prose Vs Bullets (2.17/10)
+
+================================================================================
+BOT: GrokBot
+================================================================================
+
+Overall Average Score: 9.09/10
+
+Dimension Averages:
+  Prose Vs Bullets                    10.00/10  ██████████
+  Emoji Usage                         9.08/10  █████████░
+  Conversational Tone                 9.05/10  █████████░
+  Warmth Validation                   9.02/10  █████████░
+  Length Conciseness                  9.00/10  █████████░
+  Followup Question                   8.93/10  ████████░░
+  Practical Advice                    8.91/10  ████████░░
+  Support Solutions Balance           8.90/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (10.00/10)
+Weakest Dimension: Support Solutions Balance (8.90/10)
+
+================================================================================
+BOT: KimiBotRaw
+================================================================================
+
+Overall Average Score: 7.31/10
+
+Dimension Averages:
+  Practical Advice                    8.85/10  ████████░░
+  Warmth Validation                   8.32/10  ████████░░
+  Emoji Usage                         8.21/10  ████████░░
+  Length Conciseness                  7.92/10  ███████░░░
+  Followup Question                   7.72/10  ███████░░░
+  Support Solutions Balance           7.54/10  ███████░░░
+  Conversational Tone                 6.33/10  ██████░░░░
+  Prose Vs Bullets                    4.48/10  ████░░░░░░
+
+Average Bullet Points per Response: 3.9
+
+Strongest Dimension: Practical Advice (8.85/10)
+Weakest Dimension: Prose Vs Bullets (4.48/10)
+
+================================================================================
+BOT: KimiBotTuned
+================================================================================
+
+Overall Average Score: 8.94/10
+
+Dimension Averages:
+  Prose Vs Bullets                    10.00/10  ██████████
+  Emoji Usage                         9.18/10  █████████░
+  Practical Advice                    9.07/10  █████████░
+  Followup Question                   9.05/10  █████████░
+  Warmth Validation                   9.02/10  █████████░
+  Length Conciseness                  9.00/10  █████████░
+  Support Solutions Balance           8.88/10  ████████░░
+  Conversational Tone                 7.67/10  ███████░░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (10.00/10)
+Weakest Dimension: Conversational Tone (7.67/10)
+
+================================================================================
+BOT: OSS120Bot
+================================================================================
+
+Overall Average Score: 6.80/10
+
+Dimension Averages:
+  Prose Vs Bullets                    10.00/10  ██████████
+  Emoji Usage                         9.50/10  █████████░
+  Warmth Validation                   9.00/10  █████████░
+  Conversational Tone                 9.00/10  █████████░
+  Support Solutions Balance           7.00/10  ███████░░░
+  Length Conciseness                  5.50/10  █████░░░░░
+  Practical Advice                    5.00/10  █████░░░░░
+  Followup Question                   5.00/10  █████░░░░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (10.00/10)
+Weakest Dimension: Practical Advice (5.00/10)
+
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Biggest Differentiator: Prose Vs Bullets
+  (Score range: 7.83 points)
+
+  ActualClaude         6.38/10
+  ActualClaudeTuned    10.00/10
+  ClaudeBot-v2         9.99/10
+  GPTBot               2.17/10
+  GrokBot              10.00/10
+  KimiBotRaw           4.48/10
+  KimiBotTuned         10.00/10
+  OSS120Bot            10.00/10

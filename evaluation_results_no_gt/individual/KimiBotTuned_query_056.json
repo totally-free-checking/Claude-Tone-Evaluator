@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('Ugh, that's such a heavy thing') that immediately acknowledges the weight of the situation and normalizes the user's feelings",
+      "Provides extremely specific, actionable scripts the teen can actually use ('I'm really glad you told me. I care about you—do you wanna talk about what been going on?') rather than vague advice",
+      "Handles the serious topic of self-harm/suicide appropriately by giving clear guidance on when and how to involve adults, while maintaining a supportive tone"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout the advice section - uses 'you can' and general statements instead of 'I think' or 'I'd suggest' which would create more personal connection",
+      "The follow-up question, while good, lists multiple specific options (stress/depression, home, self-harm) which feels slightly more clinical/interrogative compared to the warm conversational tone of the rest"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points or headers, flowing seamlessly from validation to practical advice to follow-up question",
+    "least_ideal_aspect": "The absence of first-person perspective language ('I think', 'I'd say', 'I get it') makes the advice feel slightly more instructional than conversational, despite the casual vocabulary",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice is woven into conversational sentences rather than presented as steps."
+    },
+    "specific_feedback": [
+      "Add first-person framing to create connection: change 'A lot of the time what people need most is...' to 'I think what people need most is...' or 'I'd say the most important thing is...'",
+      "Consider softening the follow-up question slightly by removing the list format: instead of listing 'stress/depression stuff, problems at home, or anything about self-harm,' try 'Do you know what kind of struggling they meant? You don't have to tell me details, just wondering if it feels like something you can handle together or if you might need to loop someone else in'"
+    ]
+  }
+}

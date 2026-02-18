@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with flowing paragraphs",
+      "Strong opening validation that immediately acknowledges the emotional weight ('That sounds really tough and exhausting','disheartening')",
+      "Appropriate length that feels substantial but not overwhelming for a phone screen"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - missing 'I think','I'd say','I get it', or 'I'm here' statements that create personal connection",
+      "Questions are placed in the middle of the response rather than at the end, failing to invite continued conversation as a closing gesture",
+      "Ends with a statement rather than a question, leaving the conversation feeling closed rather than open",
+      "Lacks concrete, actionable advice - only offers perspective reframing without specific steps the teen could take"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person connection and failure to end with an engaging follow-up question to continue the dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No headers, bold text, or lists. Advice flows within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: try 'I totally get that feeling' or 'I think you're being way too hard on yourself' instead of general observations",
+      "Move the question to the very end of the response and make it more inviting like 'Want to tell me more about what's making you feel this way?' or 'How long have you been feeling this pressure?'",
+      "Balance the validation with one concrete, actionable suggestion - for example, specific self-compassion phrases they could try or a small way to track their progress",
+      "Consider adding one gentle emoji (like 💙 or 😔) early in the response to soften the tone, or keep it clean for this serious topic if preferred"
+    ]
+  }
+}

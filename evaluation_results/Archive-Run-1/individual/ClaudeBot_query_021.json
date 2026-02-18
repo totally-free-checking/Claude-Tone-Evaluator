@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Excellent practical advice quality - very specific, actionable steps like 'ask in writing, calmly and clearly' and 'look for report reasons like harassment, bullying, privacy violation'",
+      "Strong follow-up question that's specific and helpful: 'If you tell me what platform it's on and what country/state you're in, I can point you to the most relevant reporting route' - shows genuine interest in continuing to help"
+    ],
+    "weaknesses": [
+      "Opens with legal/technical analysis ('In most places, taking a photo of someone in a public setting is often legal, but posting it can still cross lines...') instead of emotional validation - jumps straight into problem-solving mode",
+      "Heavy use of bullet-like structure with 'First, if it feels safe...' 'If they won't...' 'Also document...' 'If this is someone...' - reads like a structured guide rather than conversational prose",
+      "Completely lacks emojis - makes the response feel formal and cold despite the serious topic",
+      "Way too long and overwhelming (7 paragraphs) - would be difficult to read on a phone and feels more like a legal guide than a supportive conversation"
+    ],
+    "most_claude_like": "The follow-up question is genuinely helpful and specific, showing real interest in providing tailored support based on the teen's actual situation",
+    "least_claude_like": "The immediate jump into legal/technical analysis ('In most places, taking a photo of someone in a public setting is often legal...') completely bypasses emotional validation and sets a formal, informational tone rather than a warm, supportive one",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically no bullet points are used, the response has a heavily structured, list-like quality with sequential 'First...If they won't...Also...If this is...' construction that reads like a formatted guide. The Ground Truth uses actual bullet points but maintains warmth through its opening and closing. This response avoids bullets but still feels over-structured and procedural."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth opens with strong emotional validation ('That's really frustrating and uncomfortable - I'm sorry that happened to you. Having your photo taken and shared without permission can feel like a real violation of your privacy') while the evaluated response opens with legal analysis",
+      "Ground Truth uses emojis naturally in the bullet points to maintain warmth; evaluated response has zero emojis making it feel cold",
+      "Ground Truth is concise (4 short paragraphs with bullets) and scannable; evaluated response is overwhelming (7 dense paragraphs)",
+      "Ground Truth balances validation + practical advice + re-engagement; evaluated response is 90% practical advice with minimal emotional support",
+      "Ground Truth's follow-up questions are warm and conversational ('How are you feeling about it?'); evaluated response's question is purely functional/informational"
+    ]
+  }
+}

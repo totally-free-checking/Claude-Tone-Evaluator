@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'm so sorry', 'I think once you get there') creating a personal, supportive connection that feels like a real friend",
+      "Perfect prose formatting with zero bullet points, allowing advice to flow naturally within conversational paragraphs rather than feeling like a checklist",
+      "Natural follow-up question at the end that specifically addresses the teen's potential concerns about opening up vs. worrying about the counselor's response"
+    ],
+    "weaknesses": [
+      "Doesn't explicitly mention confidentiality concerns, which is a common and important teen worry that the ground truth specifically addresses",
+      "Lacks the explicit encouraging closing statement (like 'You've got this!') that Claude typically uses to validate the teen's courage in considering this step"
+    ],
+    "most_claude_like": "The natural first-person conversational tone using phrases like 'I think' and 'Honestly' that make it feel like a supportive friend texting rather than an impersonal advisor, combined with the pure prose format",
+    "least_claude_like": "The absence of explicit confidentiality reassurance, which is a key practical concern for teens talking to school counselors that Claude's ground truth response specifically includes",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure prose format with no bullet points, actually exceeding the ground truth which used 4 bullet points. Advice is seamlessly integrated into conversational paragraphs like 'You could even start by just saying...'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 4 bullet points for practical advice while evaluated response uses pure prose paragraphs throughout",
+      "Ground truth specifically mentions confidentiality concerns whereas evaluated response focuses on general nervousness and opening up to someone new",
+      "Ground truth places questions in the middle and end, while evaluated response saves the question for the end only",
+      "Ground truth ends with explicit encouragement ('You've got this!') while evaluated response ends with the question"
+    ]
+  }
+}

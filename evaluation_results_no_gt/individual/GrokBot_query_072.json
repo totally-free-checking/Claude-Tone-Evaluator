@@ -1,0 +1,40 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I totally get', 'I think' implied in tone) creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive text from a friend",
+      "Strong immediate emotional validation opening with 'Ugh' and physical description ('stomach twist') that validates the embarrassment without dismissing it",
+      "Specific, realistic advice tailored to teen agency (chatting beforehand, hallway practice, talking to teacher) rather than generic platitudes"
+    ],
+    "weaknesses": [
+      "Transition to the follow-up question is slightly abrupt without a soft bridge phrase",
+      "Could benefit from one additional validating phrase after the advice to bookend the emotional support before asking the question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow—completely avoids bullet points and structured advice, instead weaving suggestions naturally into paragraph form like a real conversation",
+    "least_ideal_aspect": "The transition between the advice paragraph and the final question could be smoother to maintain the conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding a brief transitional phrase before the final question (like 'Anyway, enough advice—') to make the shift feel more conversational",
+      "Continue using the first-person language ('I'd say', 'I think') as it creates strong connection and distinguishes this from generic AI responses",
+      "The single emoji placement is ideal—consider keeping this 0-1 emoji pattern for future responses"
+    ]
+  }
+}

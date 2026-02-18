@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst feeling!' that acknowledges the pain of being left on read",
+      "Excellent use of first-person language throughout ('I'd try,' 'I know,' 'your brain') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation between friends",
+      "Specific, realistic advice tailored to teen experience (resisting double texts, distracting from phone-watching)"
+    ],
+    "weaknesses": [
+      "Practical advice could include slightly more specific examples of distraction activities or what to do if they never respond",
+      "While the two follow-up questions are both relevant, having two might feel slightly less focused than one engaging question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational first-person tone - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice section, while solid, could offer one or two more specific actionable scripts or examples for the 'what if they don't respond' scenario",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no bullet points, headers, or over-structuring. The advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific example of a distraction activity (like 'go make a snack' or 'text a friend') to make the advice more concrete",
+      "If offering a follow-up strategy, include a specific phrase they could use later like 'Hey, did you see my text?' to reduce their anxiety about wording"
+    ]
+  }
+}

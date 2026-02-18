@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst feeling!' and acknowledging the 'oh no, what did I just do' panic",
+      "Excellent use of first-person language throughout ('I think it's better', 'Sometimes I think', 'we've all felt') creating genuine connection",
+      "Natural prose format with zero bullet points or formatting - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat limited (only suggests deleting or leaving it up) and could offer more specific strategies for managing the anxiety",
+      "Could validate slightly more about the specific fear of judgment before jumping to 'most people scroll past' perspective"
+    ],
+    "most_ideal_aspect": "Conversational prose format and first-person language usage - perfectly captures the 'supportive friend' voice without any corporate or structured formatting",
+    "least_ideal_aspect": "Practical advice section is slightly basic and could include one more concrete strategy for damage control or self-soothing beyond just deleting",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, bullet points, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific coping strategy for the immediate anxiety (like 'taking a walk for 10 minutes before deciding whether to delete') to complement the delete/keep advice",
+      "The validation is strong but could briefly acknowledge the specific vulnerability of posting regrets before offering the perspective that others don't notice as much"
+    ]
+  }
+}

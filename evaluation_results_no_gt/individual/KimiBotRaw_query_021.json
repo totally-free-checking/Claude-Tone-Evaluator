@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Strong opening validation with 'That really sucks' and acknowledging the violation of consent",
+      "Specific, actionable advice including exact steps for reporting to platforms and screenshotting evidence",
+      "Closing questions offer concrete help options like drafting a message vs handling serious harassment"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and numbered lists (7+ items) instead of natural prose paragraphs",
+      "Shifts to impersonal instructional tone after opening - lacks first-person perspective like 'I'd suggest' or 'I think'",
+      "Asks multiple questions upfront in bullet format rather than integrating naturally at the end",
+      "Legal note about 'right of publicity' may be too complex/adult-oriented for typical teen situations"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic steps a teen can actually take immediately",
+    "least_ideal_aspect": "Natural prose vs bullets - formatted like a guide or article rather than a conversational text",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "20%",
+      "notes": "Response uses headers, bullet points for initial questions, and numbered lists for advice steps. Reads like a help article rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 flowing paragraphs without bullet points - integrate the questions and advice into natural sentences",
+      "Add first-person language throughout the advice section like 'I'd probably start by...' or 'I think the best move would be...' instead of impersonal instructions",
+      "Move all questions to the very end as a natural follow-up rather than interrogating upfront with bullet points",
+      "Remove or simplify the legal note to avoid overwhelming teens with adult legal concepts"
+    ]
+  }
+}

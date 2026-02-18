@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation opening with 'Ugh, that's such a real fear' which immediately normalizes the anxiety",
+      "Specific, actionable advice including exact phrases to use ('Yeah, I wanted to switch it up') which is very helpful for teens who freeze in social situations",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, reading like a text from a friend"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel more like general advice than a personal conversation with Claude",
+      "Missing the empowering ownership language present in ground truth (ground truth emphasizes 'YOUR body and YOUR style' while this focuses more on managing others' reactions)",
+      "Uses impersonal constructions like 'It also helps to have' instead of 'I'd suggest having' or 'You could try'"
+    ],
+    "most_claude_like": "The natural prose formatting and specific practical advice with ready-made phrases for social situations - this captures the actionable, realistic support Claude provides",
+    "least_claude_like": "The absence of first-person perspective throughout the entire response. Unlike the ground truth which uses 'I totally get that feeling' and implies an 'I'd say' conversational tone, this response reads as general guidance rather than a supportive peer saying 'I've got you'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose-only format with 4 natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being itemized"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses first-person validation ('I totally get that feeling') while evaluated response uses no 'I' statements at all, creating distance rather than connection",
+      "Ground truth emphasizes self-ownership and empowerment ('it's YOUR body'), while evaluated response focuses on defensive strategies for handling comments",
+      "Evaluated response provides more specific tactical advice (exact phrases to say) whereas ground truth focuses more on mindset shift about others' attention"
+    ]
+  }
+}

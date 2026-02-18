@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can use like 'I can't help with that right now, but I hope it goes okay' and 'I've been feeling like we mostly talk when you need something'",
+      "Asks targeted follow-up questions about whether this involves one friend or the group and how they respond to boundaries"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points (5 bullets with bold headers) makes it read like a self-help article rather than a supportive conversation",
+      "Lacks first-person language entirely - uses impersonal 'you can' statements instead of 'I'd suggest' or 'I think'",
+      "Minimal emotional validation (only 2 sentences) before immediately jumping to practical solutions",
+      "Uses bold formatting within text (**one friend**, **most of your group**) which feels structured and formal"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, specific strategies with exact phrasing a teen could use",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is organized as a listicle rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Response relies heavily on formatted bullet points with bold headers (e.g., '**Check the pattern gently.**') and action-oriented lists. The only prose is the brief opening validation and final question, making it feel like a wikiHow article rather than a text from a supportive friend."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs that flow conversationally - instead of listing 'Check the pattern gently,' write something like 'I'd maybe start by looking at the last few times you talked...'",
+      "Add first-person language throughout like 'I think,' 'I'd say,' or 'I get why that hurts' to create a personal connection rather than instructional distance",
+      "Expand the emotional validation section before giving advice - sit with the feeling of being used longer before offering solutions",
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to soften the clinical tone",
+      "Consolidate the final two questions into one natural question rather than asking about both the friend count and their response to boundaries simultaneously"
+    ]
+  }
+}

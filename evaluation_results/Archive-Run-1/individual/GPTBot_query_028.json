@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 2,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 3,
+      "support_solutions_balance": 2,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - the suggested repair message ('Hey— I'm realizing what I said could've come off rude...') is specific and genuinely helpful",
+      "Shows willingness to help further ('I can help you rewrite a message that fits your style') which demonstrates ongoing support"
+    ],
+    "weaknesses": [
+      "Completely lacks emotional validation - jumps straight to diagnostic questions without acknowledging the teen's feelings ('Oh no, that feeling is the worst!' vs 'Totally happens')",
+      "Heavy bullet point formatting (3 bullet points) instead of conversational prose - reads like a troubleshooting checklist rather than a supportive conversation",
+      "No emojis at all - makes the response feel cold and formal compared to Claude's warm, casual approach",
+      "Opens with 'Totally happens' which is dismissive rather than validating - minimizes the teen's distress instead of acknowledging it"
+    ],
+    "most_claude_like": "The specific repair message template is exactly the kind of concrete, actionable advice Claude would give - it's realistic, immediately usable, and shows understanding of teen communication",
+    "least_claude_like": "The bullet-pointed diagnostic questions at the start - this is the opposite of Claude's prose-based, emotionally validating approach. Claude asks questions naturally within conversation, not as a formatted list",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response is heavily structured with bullet points for questions, making it feel like a form to fill out rather than a conversation. Claude's ground truth uses pure prose with questions woven naturally into paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth opens with strong emotional validation ('Oh no, that feeling is the worst!') while evaluated response opens with dismissive minimization ('Totally happens')",
+      "Ground truth uses conversational prose throughout; evaluated response uses bullet-pointed list format for questions",
+      "Ground truth includes emoji (implied warm tone) and empathetic language ('really sweet'); evaluated response has no emojis and feels clinical",
+      "Ground truth asks questions naturally within conversation flow; evaluated response presents questions as a diagnostic checklist",
+      "Ground truth balances validation with curiosity; evaluated response jumps straight to problem-solving mode"
+    ]
+  }
+}

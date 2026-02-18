@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable steps like 'I don't like that. Stop.' and concrete boundary-setting language",
+      "Strong follow-up questions at the end that are specific and relevant ('Where is this happening', 'What kinds of things do they say/do')"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers, bold text, and bullet points throughout - reads like a self-help article rather than a conversation (e.g., '### How to tell: teasing vs. bullying', numbered steps)",
+      "Completely lacks emotional validation at the start - jumps straight into definitions and advice without acknowledging the teen's confusion or feelings",
+      "Zero emojis - feels formal and clinical rather than warm and conversational",
+      "The tone is more instructional/educational than supportive - uses phrases like 'A good rule of thumb is' and 'How to tell' which feel like a textbook"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, natural, and show genuine interest in understanding the situation better",
+    "least_claude_like": "The heavy use of headers, bold text, and bullet points throughout - Claude writes in conversational prose paragraphs, not structured lists",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by formatted lists with headers (###), bold text (**), and extensive bullet points. Only the opening sentence and closing questions are in prose form. This is the opposite of Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth starts with immediate emotional validation ('That sounds really frustrating and confusing!') while evaluated response jumps straight to definitions",
+      "Ground truth uses minimal formatting (just two simple bullet sections within prose) while evaluated response has multiple headers, bold text, numbered lists, and extensive bullets",
+      "Ground truth has warm, conversational tone with emoji (😊 implied in tone) while evaluated response is clinical and formal with zero emojis",
+      "Ground truth balances validation and advice naturally in prose; evaluated response is structured like an educational guide with sections and subsections",
+      "Ground truth ends with one natural question; evaluated response has multiple bullet-pointed questions that feel more like an intake form"
+    ]
+  }
+}

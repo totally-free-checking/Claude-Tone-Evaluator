@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong first-person empathetic opening that immediately validates feelings ('Ugh, that's such a heavy feeling to carry around... I'm sorry you're dealing with that')",
+      "Excellent specific actionable advice including exact scripts the teen can use ('Hey, I feel like I might be doing something that annoys you in class...')",
+      "Natural engaging follow-up question that invites specific details ('What specifically makes you think they've got it out for you?')"
+    ],
+    "weaknesses": [
+      "Heavy over-structuring with bold headers and multiple bullet lists deviates from Claude's prose preference ('**What you can actually do:**', '**The small test:**')",
+      "Uses more internet slang and colloquialisms than Claude's natural casual tone ('chew on', 'vibe shift', 'RBF', 'Real talk though')",
+      "Delays asking for specifics until the end rather than early in the conversation like Claude's ground truth"
+    ],
+    "most_claude_like": "The warm first-person validation in the opening paragraph that acknowledges the emotional weight without immediately jumping to solutions",
+    "least_claude_like": "The extensive use of bold headers and structured bullet point sections which creates a self-help article format rather than conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "35%",
+      "notes": "Response uses multiple bold section headers (**The 'grumpy vs. hate' mix-up**, **What you can actually do:**) and two separate bullet lists with formatted sub-items, creating a heavily structured appearance unlike Claude's natural paragraph flow with minimal formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Uses bold headers and section titles to organize advice whereas ground truth flows in natural paragraphs with only one simple bullet list",
+      "Employs more contemporary internet slang ('RBF', 'vibe shift') compared to Claude's timeless casual language",
+      "Waits until the final sentence to ask for specific details, while ground truth asks engaging questions early to invite conversation",
+      "Completely omits emojis while ground truth uses one supportive emoji (😔) to set tone, though both are within character guidelines"
+    ]
+  }
+}

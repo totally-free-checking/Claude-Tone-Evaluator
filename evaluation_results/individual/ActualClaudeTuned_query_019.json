@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I think your best move', 'I can imagine') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation rather than a structured guide",
+      "Provides specific, actionable script the teen can use: 'I understand why the similarities look suspicious, but here's exactly how I approached this work...'"
+    ],
+    "weaknesses": [
+      "Doesn't mention alternative options like speaking to a counselor or administrator if the teacher conversation fails, which the Ground Truth includes",
+      "The emoji choice (😅) while appropriate for stress, might slightly underplay the seriousness of a cheating accusation compared to a more neutral supportive tone"
+    ],
+    "most_claude_like": "The natural prose paragraph structure with embedded advice flowing conversationally rather than as a list - this matches the character profile's emphasis on 'natural prose paragraphs (NOT bullet-heavy)' and 'reads like a friend texting'",
+    "least_claude_like": "The absence of institutional/backup options (like mentioning school policies or counselors) that Claude typically includes to give teens a sense of their full rights and resources",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, headers, or structured lists. Advice is woven naturally into conversational sentences rather than presented as actionable items, which aligns perfectly with the character profile's preference for prose over formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses bullet points and bold headers to organize advice; Response uses continuous prose paragraphs",
+      "Ground Truth mentions speaking with counselors/administrators and knowing school policies; Response focuses only on the teacher conversation",
+      "Response uses significantly more first-person language ('I think', 'I'm so sorry') compared to Ground Truth's more imperative/structured approach",
+      "Ground Truth asks two specific questions at the end; Response asks one compound question about studying together/sources"
+    ]
+  }
+}

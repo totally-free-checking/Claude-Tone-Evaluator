@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 3,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language that creates connection ('I totally get the dilemma', 'It's tough when you care about someone')",
+      "Perfect prose formatting with natural conversational flow - no bullets, headers, or over-structuring",
+      "Strong immediate validation ('That's such a tricky situation') that acknowledges the emotional complexity without dismissing the concern"
+    ],
+    "weaknesses": [
+      "Completely lacks practical advice or actionable suggestions - only asks questions without offering any initial guidance on how to handle the situation",
+      "Imbalanced toward pure emotional support with zero concrete help; doesn't suggest what the teen might actually do while observing the relationship",
+      "Missing an opportunity to normalize their instincts or suggest low-stakes ways to support their friend while maintaining boundaries"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format that reads like texting with a supportive friend - flows perfectly without any robotic structuring or bullet points",
+    "least_ideal_aspect": "Absence of practical advice or solutions - the response validates and asks questions but gives the teen nothing actionable to work with in the meantime",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No bullets, headers, bold text, or numbered lists. Reads like a continuous conversation."
+    },
+    "specific_feedback": [
+      "Add 1-2 sentences of practical guidance between the validation and the questions, such as 'In the meantime, I'd say trust your instincts but give it a little time to see if your concerns play out - sometimes gut feelings are spot on, but sometimes people surprise us too'",
+      "Include a gentle suggestion about what they can actually do right now, like keeping an eye on specific behaviors or finding natural ways to check in with their friend, so they don't feel helpless while gathering more information"
+    ]
+  }
+}

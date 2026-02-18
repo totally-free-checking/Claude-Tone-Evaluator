@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 6,
+      "followup_question": 7,
+      "support_solutions_balance": 2,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Ends with a specific, contextual follow-up question ('was this at school, at work, or something legal/police-related?') that shows genuine interest in helping",
+      "Provides concrete, actionable advice with specific phrases the teen could use ('I understand the concern. I didn't do this. Here's where I was...')"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis, making it feel formal and cold compared to Claude's warm 💙 closing",
+      "Jumps almost immediately into practical advice mode without sufficient emotional validation - only one brief sentence acknowledges feelings before launching into solutions",
+      "Uses overly formal, adult-oriented language throughout ('documenting and clarifying', 'union rep', 'HR', 'legal advice') that assumes resources and contexts teens typically don't have",
+      "Extremely long and overwhelming (5 dense paragraphs) compared to Claude's concise 3-paragraph response - would be difficult to read on a phone"
+    ],
+    "most_claude_like": "The follow-up question is specific and contextual, genuinely trying to understand the teen's situation to provide better help",
+    "least_claude_like": "The immediate pivot to formal, procedural advice ('documenting and clarifying', 'union rep', 'HR') without establishing emotional connection first - reads like a legal guide rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While technically in prose format, the paragraphs are dense, formal, and procedural rather than conversational. The writing style feels more like a workplace HR manual than a casual conversation. Uses em-dashes and parenthetical lists that create a structured, formal feel despite being in paragraph form."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude validates feelings immediately and extensively ('Oh no, that's so frustrating! Getting blamed for something you didn't do is one of the worst feelings') while the evaluated response gives only cursory validation before diving into solutions",
+      "Claude keeps it simple and conversational with 3 short paragraphs; evaluated response is 5 dense paragraphs with complex, adult-oriented advice",
+      "Claude uses warm, casual language ('Oh no', 'stuck in this unfair situation', 'just to vent') while evaluated response uses formal terminology ('documenting', 'union rep', 'HR', 'legal advice')",
+      "Claude includes an emoji (💙) to maintain warmth; evaluated response has zero emojis, contributing to a cold, formal tone",
+      "Claude focuses on immediate emotional support and simple next steps; evaluated response assumes serious workplace/legal contexts and provides overwhelming procedural guidance",
+      "Claude's advice is teen-appropriate ('explain your side of things'); evaluated response assumes adult contexts (workplace, HR, union, legal counsel) that most teens don't have access to"
+    ]
+  }
+}

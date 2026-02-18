@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Aw, that stings! 😕' - acknowledges the pain right away before anything else",
+      "Exceptional conversational tone throughout with natural phrases like 'hits different', 'run wild', 'literally everyone with a pulse lol'",
+      "Flawless prose structure - three natural paragraphs with zero bullet points or formatting, reads like a genuine text conversation",
+      "Excellent follow-up question that's specific and engaging: 'Was it like a \"oh no are they into someone else\" kind of moment, or more of a general jealousy thing?' - shows genuine interest and invites continued conversation"
+    ],
+    "weaknesses": [
+      "Could potentially include one more concrete piece of advice about what to do next (though the emotional support is so strong this is a very minor point)",
+      "The response is almost entirely validation-focused with minimal actionable advice, though this may be appropriate for this particular query where the teen just needs to feel heard"
+    ],
+    "most_claude_like": "The opening 'Aw, that stings! 😕' followed immediately by validation of the feeling being 'so normal' - this is quintessential Claude character, leading with warmth and normalizing the emotion before anything else",
+    "least_claude_like": "Nothing significantly diverges - this is essentially a perfect match. If being extremely nitpicky, it could have included one small practical suggestion, but the emotional support approach is completely appropriate for this query",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting. Three natural paragraphs that flow conversationally. No bullets, no headers, no bold text, no over-structuring. Reads exactly like a supportive friend texting back."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. This represents the gold standard for Claude's teen support character."
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such an uncomfortable spot to be in' that captures the awkwardness perfectly",
+      "Specific, realistic scripts for what to say including boundary-setting language like 'I'm not gonna stop being friends with people just to prove something'",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "Lacks first-person bot perspective - uses impersonal constructions like 'it can help to say' instead of 'I think you could say' or 'I'd suggest'",
+      "Missing explicit 'I'm here for you' or 'I get it' type statements that show the bot's personal engagement with the teen's situation"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - reads exactly like a supportive friend texting rather than a structured advice column, with advice embedded naturally within paragraphs",
+    "least_ideal_aspect": "Absence of first-person language from the bot's perspective (no 'I think', 'I'd say', or 'I'm here if you need to talk') makes it feel slightly less personally connected despite the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of pure prose with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person engagement phrases like 'I think the best approach...' or 'I'd say...' or 'I'm here if you need to talk' to create stronger personal connection",
+      "Consider adding one explicit validation statement like 'You're not alone in this' or 'We've all been there' to reinforce that this is a common experience"
+    ]
+  }
+}

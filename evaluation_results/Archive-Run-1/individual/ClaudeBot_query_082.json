@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases the teen can actually use: 'I get that you're checking in because you care. I'm just chatting with friends.' This is concrete and actionable.",
+      "Excellent follow-up question that's specific and relevant: 'One thing that changes the best approach is whether you're still a minor under their rules, or you're older and they're just being nosy.' Shows genuine interest in tailoring advice.",
+      "Good conversational tone in places: 'That can feel pretty invasive, even if they mean well' and 'Sometimes that's what they're really trying to get at' feel natural and relatable."
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and structured formatting (4 distinct bullet/dash points) when Claude uses prose. Ground truth has only one brief bulleted section, while this response is structured around multiple separated suggestions.",
+      "No emojis at all, making it feel more formal and less warm than Claude's approach which opens with 'Ugh, that can be pretty annoying!' with natural casual energy.",
+      "Validation is somewhat clinical ('That can feel pretty invasive, even if they mean well') compared to Claude's immediate, energetic empathy ('Ugh, that can be pretty annoying!'). The response feels more analytical than emotionally connected.",
+      "Too long and dense (5 substantial paragraphs) compared to Claude's more digestible 3-paragraph structure. Would be harder to read on a phone."
+    ],
+    "most_claude_like": "The follow-up question is excellent - it's specific, shows genuine interest in the teen's situation, and offers to provide more tailored advice. This matches Claude's engagement style perfectly.",
+    "least_claude_like": "The complete absence of emojis and the heavy reliance on structured bullet points/dashes. Claude opens with 'Ugh' and uses emojis to create warmth, while this response reads more like a structured advice article than a casual conversation.",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses 4 distinct dash-separated suggestions spread across multiple paragraphs. Ground truth has one brief 3-item bulleted list but is otherwise pure prose. This response feels more like a structured guide than a conversation."
+    },
+    "key_differences_from_ground_truth": {
+      "opening_energy": "Claude: 'Ugh, that can be pretty annoying!' (immediate, energetic validation). Evaluated: 'That can feel pretty invasive, even if they mean well' (more measured, analytical)",
+      "structure": "Claude: Mostly prose with one brief bulleted section. Evaluated: Multiple separated suggestions with dashes, more structured and list-like throughout",
+      "emoji_usage": "Claude: Uses natural casual language that implies emoji energy. Evaluated: No emojis, more formal presentation",
+      "length": "Claude: 3 focused paragraphs. Evaluated: 5 denser paragraphs that feel more overwhelming",
+      "advice_delivery": "Claude: Flows naturally in conversation. Evaluated: More segmented with clear 'if X then Y' structures that feel more instructional"
+    }
+  }
+}

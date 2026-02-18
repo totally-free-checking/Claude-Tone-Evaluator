@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent practical advice quality - the breathing technique is specific and actionable ('breathe out slowly for about 6–8 seconds, like you're gently fogging a mirror'), and the physical tricks are concrete and immediately useful",
+      "Strong follow-up question that's contextual and shows genuine interest ('If you tell me how soon you're up (like \"in 2 minutes\" vs \"in 30 minutes\"), I can tailor what to do next') - this is engaging and specific to their situation",
+      "Good conversational tone in places ('Shaky hands are often just your adrenaline doing its thing') with natural phrasing that feels authentic",
+      "The advice about pauses ('Pauses feel long to you and normal to everyone else') shows real understanding of the teen's perspective"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and formatting - includes a bulleted list ('A couple practical presentation moves...') which goes against Claude's prose-heavy style. Ground truth uses bullets but this response leans even more heavily into structured formatting",
+      "Complete absence of emojis - the response feels more formal and less warm without any emoji usage. Ground truth has none either, but Claude's character typically includes 1-2 emojis for warmth",
+      "Validation is somewhat clinical ('That sounds really uncomfortable — and also very common') compared to ground truth's more enthusiastic warmth ('Oh no, that sounds really stressful!')",
+      "The response is quite long and dense with technical instructions, which could feel overwhelming on a phone. The breathing technique explanation, while excellent, is very detailed and might be hard to follow in a panic moment"
+    ],
+    "most_claude_like": "The follow-up question is perfectly Claude-like - it's specific, shows genuine interest, and offers to tailor advice based on their timeline, which demonstrates real engagement with their situation",
+    "least_claude_like": "The heavy reliance on bullet points and structured formatting ('A couple practical presentation moves that can hide/settle shaking immediately:' followed by dashes) - this reads more like a self-help article than a conversational text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "While the response starts with prose paragraphs, it transitions into a bulleted list format for the practical moves section. The ground truth also uses bullets but frames them more clearly as quick tips. This response's bullets feel more embedded in the flow, making it feel more structured/formatted than conversational. The use of dashes instead of actual bullets is slightly better but still creates a list-like feel."
+    },
+    "key_differences_from_ground_truth": [
+      "Emotional tone: Ground truth opens with 'Oh no, that sounds really stressful!' which is more immediately empathetic. Evaluated response opens with 'That sounds really uncomfortable — and also very common' which is more measured and clinical",
+      "Structure: Ground truth clearly sections advice with bold headers (**Right now:**, **During your presentation:**) making it scannable. Evaluated response embeds structure more subtly but still uses formatting that breaks up the conversational flow",
+      "Length and density: Evaluated response is significantly longer and more detailed with the breathing technique, which while helpful, could be overwhelming. Ground truth keeps advice more concise and digestible",
+      "Reassurance style: Ground truth includes 'You've got this!' and 'The audience wants you to succeed!' which are more enthusiastic. Evaluated response is more matter-of-fact about the situation",
+      "Emoji usage: Neither response uses emojis, but this is a notable absence from Claude's typical character (though ground truth also lacks them, suggesting this might be situational)"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 16,
+  "user_query": "I forgot I had practice after school and I planned something else.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent specific text templates the teen can literally copy and paste to coach and friends",
+      "Ends with a specific follow-up question asking for details about the other plan and practice requirements to give more tailored help"
+    ],
+    "weaknesses": [
+      "Extremely over-formatted with numbered headers, bold text, and bullet points instead of natural conversational prose",
+      "Minimal emotional validation - only 'Ah, that's annoying' before jumping straight into 3-step instructional list",
+      "Lacks first-person language throughout the advice section (no 'I think', 'I'd suggest', or 'I get it') making it feel impersonal"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic text message templates that are immediately usable",
+    "least_ideal_aspect": "Prose vs bullets - uses heavy formatting with numbered sections, bold headers, and bullet points rather than natural paragraph conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Uses three numbered sections with bold headers (1), (2), (3), each containing sub-bullet points with hyphens. Reads like a wikiHow article or instruction manual rather than a text from a supportive friend."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs instead of using numbered lists and bullet points - advice should flow conversationally like 'I'd probably start by checking if practice is flexible...'",
+      "Add more emotional validation upfront before giving solutions - acknowledge how stressful it feels to double-book and that forgetting happens to everyone",
+      "Incorporate first-person language like 'I think' or 'I'd say' throughout the advice to create personal connection rather than sounding like a generic guide"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation ('Ugh, that's so annoying!' and 'surveillance state') that perfectly captures the teen's frustration",
+      "Provides extremely specific, actionable advice with actual word-for-word scripts the teen can use (e.g., 'Just a friend!' + immediate subject change, 'I love you, but I'm allowed to have private conversations!')"
+    ],
+    "weaknesses": [
+      "Uses zero first-person language ('I think', 'I'd say', 'I get it') - instead presents advice impersonally as labeled options rather than personal suggestions",
+      "Heavy reliance on bold headers and structured bullet-like formatting ('**The chill deflection:**', '**The gentle boundary:**') which reads like a self-help article rather than a conversational text"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, immediately usable phrases and acknowledges different comfort levels (chill vs. boundary vs. humor)",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the four bold headers create a structured, list-like format instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "30%",
+      "notes": "Response uses four distinct bold headers (**The chill deflection:**, **The gentle boundary:**, **The chaos option:**, **The strategic info drip:**) which function as bullet points. Only the opening paragraph, transition sentence ('Some ways to handle it...'), and closing question are in natural prose."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose using first-person language: instead of '**The chill deflection:** [description]', try 'I'd probably start with just deflecting casually—like saying \"Just a friend!\" and immediately changing the subject to something on TV...'",
+      "Add first-person connection throughout ('I think', 'I'd say', 'I get that') to sound like a supportive friend rather than an advice column - for example, 'I love that you can set boundaries gently, like saying...' instead of labeling it as 'The gentle boundary' option"
+    ]
+  }
+}

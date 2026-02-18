@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with 'Ugh, that's the worst' and acknowledging the 'suffocating' feeling",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation",
+      "Highly specific and actionable advice including exact scripts ('Hey, I've noticed the rules got tighter lately...') and realistic negotiation tactics"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'it can help to ask' instead of 'I'd suggest asking'",
+      "Could include more explicit supportive statements like 'I'm here if you need to talk' to establish personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Conversational tone lacks first-person perspective - feels slightly observational/distant rather than personally connected ('it can feel' vs 'I get that feeling')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to create personal connection - instead of 'it can help to ask,' try 'I'd suggest asking' or 'I think you could try'",
+      "Include one explicit 'I'm here' or 'I've got your back' type statement to reinforce that this is a personal conversation, not general advice"
+    ]
+  }
+}

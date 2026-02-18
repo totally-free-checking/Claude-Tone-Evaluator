@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong emotional validation using relatable examples ('like when you find a cool hidden gem of a restaurant') that immediately make the teen feel understood",
+      "Provides highly specific, actionable advice including exact scripts the teen can use ('I've noticed we've been twinning a lot lately...') and realistic deflection phrases ('Oh, just some random shop')",
+      "Ends with an engaging, specific follow-up question that shows genuine interest in the nuances of their situation ('Has it been happening with specific things... or is it literally everything?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('**The subtle route**', '**The direct conversation**', '**The boundary route**') makes it read like a wikiHow article rather than a text conversation with a friend",
+      "Lacks first-person narrative voice - doesn't use 'I'd say', 'I think', or 'I get it' to share personal perspective; instead uses imperative commands ('Start keeping...', 'Mix up...', 'Pick a calm moment')",
+      "Structures advice as categorized lists rather than natural flowing prose, creating distance between the supporter and teen"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic strategies with specific wording teens can actually use in the moment",
+    "least_ideal_aspect": "Prose formatting - uses extensive bullet points, headers, and structured lists instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "20%",
+      "notes": "Response uses three distinct header sections with multiple bullet points under each, creating a very structured, article-like format rather than natural conversation flow"
+    },
+    "specific_feedback": [
+      "Convert the three sections (subtle route, direct conversation, boundary route) into flowing prose paragraphs using first-person language like 'I'd probably start with something subtle...' or 'If that doesn't work, I'd suggest having a direct conversation where you say something like...'",
+      "Add first-person perspective throughout using phrases like 'I get why that feels invasive' or 'I think the best approach depends on your friendship dynamic' to create a more personal, supportive connection rather than an instructional tone",
+      "Remove all headers and bold formatting; instead use transition phrases like 'Another option is...' or 'You could also try...' to maintain the conversational, text-message feel"
+    ]
+  }
+}

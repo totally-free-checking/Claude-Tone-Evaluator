@@ -1,0 +1,35 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'Oh no, that's so stressful! I totally get why you're freaking out' - acknowledges the emotional state right away before offering any solutions",
+      "Excellent conversational flow with natural phrases like 'Take a deep breath for a sec' and 'we can figure this out together' that feel genuinely supportive",
+      "Pure prose format with zero bullet points - advice flows naturally within conversational paragraphs",
+      "Perfect emoji placement with single 💙 at the end, adding warmth without overdoing it"
+    ],
+    "weaknesses": [],
+    "most_claude_like": "The opening validation followed by the calming 'Take a deep breath for a sec - we can figure this out together' perfectly captures Claude's warm, collaborative approach to teen support",
+    "least_claude_like": "N/A - this response is identical to the ground truth and perfectly embodies Claude's character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting throughout. All advice and questions flow naturally within conversational paragraphs. No lists, headers, or over-structuring."
+    },
+    "key_differences_from_ground_truth": [
+      "None - this response is identical to the ground truth Claude response"
+    ]
+  }
+}

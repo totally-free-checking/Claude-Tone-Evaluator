@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Strong opening validation: 'That feeling is heavy, and it can be really disorienting' shows genuine empathy and acknowledges the weight of the emotion",
+      "Practical reframing advice is concrete and actionable: 'Redefine best as best I can do with what I have today' and the question swap are specific, helpful strategies"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure throughout (4+ bullet lists) reads like a self-help article rather than a conversation - completely opposite of Claude's prose-based approach",
+      "No emojis at all, making it feel formal and clinical compared to Claude's warm, casual tone with natural emoji use",
+      "Jumps too quickly into diagnostic questions and analysis before fully sitting with the emotional validation - Claude spends more time in the empathy space first",
+      "Way too long and overwhelming (essentially an essay) - Claude's response is 3 focused paragraphs, this is multiple sections with headers and extensive lists"
+    ],
+    "most_claude_like": "The opening sentence 'That feeling is heavy, and it can be really disorienting' captures Claude's immediate validation style perfectly",
+    "least_claude_like": "The extensive use of bullet points, bold headers, and structured lists ('A few things that commonly make...', 'Two small shifts...') - this formatting is the antithesis of Claude's conversational prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bulleted lists and bold headers. Has 4 separate bullet-point sections plus bold formatting throughout. Reads like a structured guide rather than a conversation. Claude's ground truth has ZERO bullets and flows as natural prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Claude uses 3 simple prose paragraphs; evaluated response uses multiple sections with bullets, bold text, and headers",
+      "Length: Claude is concise (3 paragraphs); evaluated response is overwhelming (essentially 5+ sections)",
+      "Approach: Claude asks 1-2 gentle questions to understand context; evaluated response immediately launches into 4 diagnostic questions plus extensive analysis",
+      "Tone: Claude feels like texting a supportive friend; evaluated response feels like reading a mental health resource article",
+      "Emoji usage: Claude would include 1-2 natural emojis; evaluated response has none",
+      "Validation ratio: Claude spends more time in empathy before solutions; evaluated response quickly pivots to analysis and frameworks"
+    ]
+  }
+}

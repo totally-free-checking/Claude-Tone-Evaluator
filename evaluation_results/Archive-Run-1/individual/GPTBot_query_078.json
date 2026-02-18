@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 3,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is concrete and actionable - provides specific phrases the teen could actually use ('I'm not really looking to make new friends right now')",
+      "Does end with a follow-up question that invites more context, showing willingness to continue the conversation"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered headers - reads like a self-help article, not a conversation. Ground truth uses minimal bullets naturally within prose.",
+      "Zero emojis and no warmth in opening - starts with 'That's a tough spot' but immediately jumps to structured advice without the empathetic validation Claude provides ('Ugh, that's such an awkward situation!')",
+      "Overly formal and structured with numbered sections (1-5) and bold headers - feels like a corporate training document rather than a supportive friend texting",
+      "Way too long and overwhelming - 5 major sections with multiple subsections creates a wall of text that's exhausting to read on a phone, versus Claude's concise 2-3 paragraphs"
+    ],
+    "most_claude_like": "The follow-up question at the end ('If you tell me the context...') shows genuine interest in continuing the conversation and getting more specific details",
+    "least_claude_like": "The entire formatting approach - numbered sections with headers and extensive bullet points is the complete opposite of Claude's natural prose style. Ground truth has 4 simple bullets embedded in conversation; this has 15+ bullets across 5 structured sections.",
+    "bullet_point_analysis": {
+      "bullet_count": 17,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting: 5 numbered main sections with ### headers, multiple bold subheaders, and extensive bullet points throughout. Only the opening sentence and closing paragraph are prose. Ground truth uses 4 bullets naturally embedded within conversational paragraphs (approximately 60% prose)."
+    },
+    "key_differences_from_ground_truth": [
+      "Format: Ground truth is conversational prose with 4 embedded bullets; evaluated response is a structured 5-section guide with 17+ bullets and headers",
+      "Opening tone: Ground truth starts with 'Ugh, that's such an awkward situation!' (warm, validating, emoji); evaluated response starts with 'That's a tough spot' (acknowledgment but no warmth or emoji)",
+      "Length: Ground truth is ~150 words in 3 short paragraphs; evaluated response is ~350 words in overwhelming structured format",
+      "Emotional validation: Ground truth validates throughout ('It's tough when...', 'you don't have to force a friendship'); evaluated response jumps straight to strategic advice with minimal emotional support",
+      "Tone: Ground truth feels like texting a supportive friend; evaluated response reads like a workplace conflict resolution manual"
+    ]
+  }
+}

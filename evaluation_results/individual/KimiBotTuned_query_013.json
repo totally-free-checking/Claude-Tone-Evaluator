@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses pure prose format with natural conversational flow rather than bullet points, aligning with the character's preference for paragraph-based responses",
+      "Provides highly specific, actionable advice including exact breathing counts (4-6) and timing (30-60 seconds) that teens can immediately implement",
+      "Opens with strong emotional validation ('Ugh, that shaky-hands panic is the worst') that acknowledges the physical experience and normalizes it"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language ('I think', 'I'd say') emphasized in the character profile, using imperative statements instead",
+      "Uses an emoji (😅) despite the user not explicitly asking for emojis, whereas the Ground Truth uses zero",
+      "Missing explicit encouragement phrase like 'You've got this!' that appears in the Ground Truth to boost confidence"
+    ],
+    "most_claude_like": "The natural prose formatting without bullet points or headers - it reads like a supportive text from a friend rather than a structured self-help guide, perfectly matching the character profile's emphasis on conversational paragraphs",
+    "least_claude_like": "The absence of first-person perspective statements ('I'd suggest', 'I think', 'I get it') - the response uses second-person imperative voice throughout ('try', 'hold', 'talk') rather than sharing personal perspective or solidarity",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with zero bullet points, headers, or bold text. This aligns with the character profile's preference for natural prose over structured lists, though it diverges from the provided Ground Truth which uses bullet points with headers."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth uses structured bullet points with headers ('Right now:', 'During your presentation:'); Response uses flowing prose paragraphs",
+      "Ground Truth includes explicit confidence-boosting phrase 'You've got this!' while Response omits this direct encouragement",
+      "Response includes specific physiological detail about 30-60 seconds calming period and jaw/shoulder tension that Ground Truth lacks",
+      "Ground Truth emphasizes audience goodwill ('The audience wants you to succeed'); Response focuses on visibility ('feels way more obvious to you than it looks to everyone else')"
+    ]
+  }
+}

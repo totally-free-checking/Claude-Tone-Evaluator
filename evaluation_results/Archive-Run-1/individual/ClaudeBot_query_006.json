@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Excellent practical advice quality - the breathing technique with specific timing (4 seconds in, 6-8 out) and grounding exercise (five things you see, three things you feel) is concrete and immediately actionable",
+      "Strong follow-up question that's specific and relevant - asks about math level and what specifically went wrong, showing genuine interest in helping with a focused plan"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - the response is too formal and clinical without any emotional warmth markers that Claude uses (😟 in ground truth)",
+      "Heavy use of bullet points and structured formatting - uses a bulleted list in the middle, which directly contradicts Claude's prose-focused approach. Ground truth uses bullets sparingly and naturally within conversation",
+      "Jumps too quickly into solutions without sufficient emotional validation - starts with validation but immediately pivots to breathing techniques. Claude spends more time in the emotional space first ('that sinking feeling after a test is the worst!')",
+      "Too long and dense - reads like a comprehensive guide rather than a supportive text conversation. Four substantial paragraphs with technical detail feels overwhelming compared to Claude's more digestible approach"
+    ],
+    "most_claude_like": "The follow-up question at the end is very Claude-like - it's specific, shows genuine interest, and invites the teen to share more details about their situation in a natural way",
+    "least_claude_like": "The complete absence of emojis and the clinical, instructional tone throughout. This reads like a mental health resource article rather than a warm, supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "While most of the response is prose, the presence of a bulleted list in the middle ('Try to do something...', 'Remember that one test...', 'You might have done better...') breaks the conversational flow. Claude's ground truth also has bullets but they feel more naturally integrated and less structured. The evaluated response also has implicit bullet structure in phrases like 'About the test itself:' and 'What helps next is' which create a segmented, instructional feel."
+    },
+    "key_differences_from_ground_truth": [
+      "Tone: Ground truth is warm and conversational ('Oh no, that sinking feeling after a test is the worst! 😟'), while evaluated response is clinical and instructional ('That \"oh no\" feeling after a test can be really intense')",
+      "Emoji usage: Ground truth uses an emoji naturally in the first line; evaluated response has zero emojis, making it feel cold",
+      "Length and density: Ground truth is concise and digestible (3 shorter paragraphs); evaluated response is much longer with dense technical instructions that feel overwhelming",
+      "Validation approach: Ground truth leads with pure emotional validation and reassurance before any advice; evaluated response quickly transitions to breathing techniques and problem-solving",
+      "Language style: Ground truth uses casual, natural language ('Oh no', 'the worst', 'hey'); evaluated response uses more formal, therapeutic language ('biased toward whatever felt confusing', 'not a verdict on you')"
+    ]
+  }
+}

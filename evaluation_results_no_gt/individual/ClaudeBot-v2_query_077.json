@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were you,' 'I'd gently figure,' 'I care about you') creates genuine connection",
+      "Strong immediate emotional validation with visceral language ('stomach-knot feeling,' 'heavy') that normalizes the user's discomfort",
+      "Specific, actionable advice including exact script wording ('I care about you too much to keep this to myself...') and concrete options (going with them to counselor/parent/coach)"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while appropriate for the awkwardness of the situation, might slightly understate the gravity if the secret involves serious safety concerns",
+      "Could potentially use one more validating phrase before transitioning to the problem-solving framework, though the balance is still strong"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The balance between support and solutions leans slightly toward the practical advice side, though it does lead with validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more brief validating statement between paragraphs 2 and 3 to create an even smoother transition from emotional support to practical advice",
+      "The current emoji usage is appropriate, but for very serious safety topics, you might omit it or use a more serious supportive emoji like 💙 instead to match the gravity while keeping warmth"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual, relatable language ('Ugh, that sounds so awkward and uncomfortable - I totally get why it's messing with you')",
+      "Uses first-person language naturally throughout ('I'd say', 'I totally get', 'I get this vibe') creating genuine connection",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I get this vibe from your parents sometimes - any tips?')"
+    ],
+    "weaknesses": [
+      "Transitions quickly from validation to 'the good news' reframing, which could use one more sentence acknowledging how much this situation actually hurts",
+      "Could slightly deepen the emotional validation before moving to the 'parents can be picky' perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains conversational flow throughout while embedding advice naturally within sentences",
+    "least_ideal_aspect": "The pivot from emotional validation to practical reframing happens slightly fast, minimizing the emotional weight before offering perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or structured formatting. Advice flows naturally within paragraph structure as recommended."
+    },
+    "specific_feedback": [
+      "Add one more sentence of deep emotional validation before the 'good news' reframing to really sit with the hurt feelings first",
+      "Consider acknowledging the specific pain of being judged by adults who matter to someone you care about before moving to solutions"
+    ]
+  }
+}

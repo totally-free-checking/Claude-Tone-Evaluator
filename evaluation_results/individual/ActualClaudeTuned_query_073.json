@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get,' 'I think,' 'I'm just') creating a personal, supportive connection",
+      "Integrates advice naturally into prose paragraphs rather than using bullet points, creating better conversational flow",
+      "Provides specific, actionable phrases the teen can actually use ('just be like cool and change the subject,' 'I'm just excited about this, I don't need advice')"
+    ],
+    "weaknesses": [
+      "Includes slightly more psychological analysis about 'insecurities' compared to the ground truth's lighter 'they might not realize' approach, which could feel slightly more analytical",
+      "Uses one emoji (😅) while the ground truth uses none; though within the 0-1 guideline, it's a minor deviation from the specific reference"
+    ],
+    "most_claude_like": "Natural prose formatting without bullet points - the response flows as continuous conversational paragraphs rather than listing advice, which aligns perfectly with the character profile's emphasis on prose over structure",
+    "least_claude_like": "The psychological framing about the friend's 'own insecurities' - while supportive, this is slightly heavier analysis than the ground truth's more neutral 'they might think they're being enthusiastic' framing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses zero bullet points or lists, integrating all advice into natural paragraph flow. This actually exceeds the ground truth response, which used three bullet points for the advice section."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for the advice section while Response to Evaluate integrates advice into prose paragraphs",
+      "Response to Evaluate attributes the behavior to 'insecurities' whereas ground truth attributes it to lack of awareness or enthusiasm",
+      "Response to Evaluate uses one emoji (😅) while ground truth uses none"
+    ]
+  }
+}

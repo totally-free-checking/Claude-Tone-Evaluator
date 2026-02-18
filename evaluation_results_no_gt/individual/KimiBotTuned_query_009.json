@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific language naming the 'icky, exposed feeling' and acknowledging the violation of privacy",
+      "Excellent use of first-person natural language throughout ('I'm so sorry','I get you're trying','Honestly') creating genuine connection",
+      "Provides specific, realistic conversation scripts the teen can actually use ('Hey, you've been acting kinda off...','I get you're trying to keep me safe...')"
+    ],
+    "weaknesses": [
+      "The third paragraph is slightly dense with advice; breaking into two shorter paragraphs could improve mobile readability",
+      "While 😅 works for awkwardness, 😬 might have more precisely matched the 'exposed' vulnerability described"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Slight density in the advice paragraph which packs multiple scenarios and scripts into one block",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Uses quotation marks naturally within sentences to suggest dialogue without breaking conversational flow."
+    },
+    "specific_feedback": [
+      "Consider splitting the third paragraph after 'over-apologizing' to create more white space for mobile readability",
+      "The follow-up question is excellent and specific; maintain this level of contextual engagement in future responses"
+    ]
+  }
+}

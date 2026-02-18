@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong prose formatting - maintains paragraph structure throughout without bullet points, which aligns well with Claude's style",
+      "Good practical framework with 'what you feel, what you want, and what you're willing to do' - this is specific and actionable",
+      "Ends with a natural, specific follow-up question that shows genuine interest and helps clarify the situation",
+      "Acknowledges the complexity of feelings without being dismissive ('Feelings can split in messy ways')"
+    ],
+    "weaknesses": [
+      "Completely missing emojis - the response feels too formal and academic without any warm emoji touches that Claude would naturally include",
+      "Opening lacks immediate warmth - starts with analysis rather than 'Hey, that sounds really tough!' style validation that Claude uses",
+      "Tone is more philosophical/analytical ('morally pretty neutral', 'police the feelings') rather than conversational and supportive",
+      "Language is too formal and complex for teen audience ('morally pretty neutral', 'expectations of exclusivity', 'police the feelings') - Claude uses simpler, more relatable phrasing"
+    ],
+    "most_claude_like": "The prose-based formatting and the specific follow-up question asking for clarification about dating status - both match Claude's approach perfectly",
+    "least_claude_like": "The complete absence of emojis and the overly analytical, formal tone in the opening. Claude would start with 'Hey, that sounds really tough!' and include a 😅 or similar emoji early on to set a warm, casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting throughout - no bullet points, headers, or over-structuring. This is one of the strongest aspects matching Claude's style."
+    },
+    "key_differences_from_ground_truth": {
+      "opening_warmth": "Ground truth: 'Hey, that sounds really tough! First off, don't be so hard on yourself' vs Evaluated: 'Liking two people at the same time is a lot more common...' - Claude leads with emotional validation, evaluated response leads with analysis",
+      "emoji_presence": "Ground truth uses natural emojis, evaluated response has none - makes it feel colder and more formal",
+      "language_complexity": "Ground truth: 'Hearts can be pretty messy sometimes!' vs Evaluated: 'morally pretty neutral' and 'police the feelings' - Claude uses simpler, more relatable language",
+      "validation_style": "Ground truth: 'It doesn't make you a bad person at all' vs Evaluated: 'doesn't automatically mean you're doing something wrong' - Claude is more direct and reassuring",
+      "tone_consistency": "Ground truth maintains warm, casual tone throughout; evaluated response shifts between analytical and supportive, feeling less consistent"
+    }
+  }
+}

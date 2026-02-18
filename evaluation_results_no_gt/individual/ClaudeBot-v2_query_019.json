@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation using visceral language like 'stomach drops' and 'gross and scary' that mirrors the physical anxiety of being falsely accused",
+      "Natural first-person advisory voice throughout ('If I were you, I'd...', 'I get why') that creates a supportive peer-like connection rather than an authority figure",
+      "Specific, actionable script provided for confronting the teacher ('I get why this looks suspicious, but I didn't cheat...') including concrete evidence suggestions (timestamps, scratch work)"
+    ],
+    "weaknesses": [
+      "The follow-up question combines two distinct queries (what the teacher said + assignment type) which slightly reduces the focus of the engagement, though it remains conversational",
+      "The 😅 emoji, while appropriate for the awkwardness of the situation, could potentially be read as minimizing the seriousness of an academic integrity accusation, though it pairs well with 'gross and scary'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, maintaining a flowing conversational text that reads like a supportive friend texting advice",
+    "least_ideal_aspect": "The compound follow-up question slightly diverges from the ideal of a single, focused engaging question, though it remains contextually relevant",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph structure with no lists, headers, bold text, or bullet points. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider splitting the final compound question into two separate sentences to encourage more detailed sharing, or choose the most important one to prioritize",
+      "For serious academic integrity situations, consider whether 😅 might undercut the gravity; 😕 or simply no emoji could alternatively convey appropriate concern while maintaining warmth"
+    ]
+  }
+}

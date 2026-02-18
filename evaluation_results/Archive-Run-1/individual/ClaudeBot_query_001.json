@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - offers multiple realistic strategies (tucking feet under chair, using backpack/jacket as cover, timing an exit)",
+      "Ends with a natural, relevant follow-up question ('Do you have a chance to leave for a minute, or are you stuck until the end of class?') that shows interest in their immediate situation",
+      "Maintains prose format throughout without bullet points, keeping the conversational flow intact",
+      "Provides a specific script they could use ('Yep, two different shoes. Rough morning.') which is concrete and helpful"
+    ],
+    "weaknesses": [
+      "Opens with validation but it's clinical and detached ('That's a surprisingly common nightmare') - lacks the warmth and immediate empathy of Claude's 'Oh no! That's one of those moments that makes your stomach drop, isn't it? 😅'",
+      "Completely missing emojis - makes the response feel more formal and less like a supportive friend texting",
+      "Jumps almost immediately into problem-solving mode without enough emotional acknowledgment - the ground truth spends more time validating feelings before offering solutions",
+      "Tone is more instructional/tactical ('the cleanest fix is', 'If you've got a backpack') rather than conversational and warm - reads more like a strategy guide than a supportive chat"
+    ],
+    "most_claude_like": "The follow-up question is natural and specific to their situation, showing genuine interest in what they can actually do right now",
+    "least_claude_like": "The opening lacks warmth and immediate emotional validation - it acknowledges the feeling intellectually ('surprisingly common nightmare') but doesn't connect emotionally the way Claude does with 'Oh no! That's one of those moments that makes your stomach drop'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains prose format throughout, which aligns with Claude's style. However, the prose itself reads more like tactical instructions than conversational support."
+    },
+    "key_differences_from_ground_truth": {
+      "emotional_tone": "Ground truth leads with strong empathy and validation ('Oh no!', 'makes your stomach drop'), while evaluated response is more matter-of-fact ('surprisingly common nightmare')",
+      "emoji_presence": "Ground truth uses 😅 naturally to set warm tone; evaluated response has zero emojis, making it feel more formal",
+      "advice_timing": "Ground truth validates first, asks clarifying question, THEN offers light advice. Evaluated response jumps into detailed tactical solutions immediately",
+      "conversational_style": "Ground truth feels like texting a friend ('honestly, most people probably won't even notice'); evaluated response feels more like reading instructions ('the cleanest fix is', 'If you can')",
+      "reassurance_approach": "Ground truth emphasizes 'most people won't notice' and 'laugh about it'; evaluated response focuses on tactical concealment strategies, which could increase anxiety rather than reduce it"
+    }
+  }
+}

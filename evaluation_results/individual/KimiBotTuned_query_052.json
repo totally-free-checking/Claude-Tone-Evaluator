@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with phrases like 'Ugh, that guilt is so real' and acknowledging that feeling guilty 'usually just means you care'",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs including the specific script example",
+      "Highly specific and actionable advice including exact phrasing to use when quitting and practical considerations about timing/transition"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') that makes Claude's responses feel like a personal conversation; uses more general 'you' statements instead",
+      "Slightly more advice-heavy compared to Claude's ground truth which spends more time on emotional validation before moving to solutions",
+      "The follow-up question, while good, packs two questions into one sentence which is slightly less conversational than Claude's approach"
+    ],
+    "most_claude_like": "The natural prose formatting without any bullet points or headers, flowing advice within conversational paragraphs that read like a text from a supportive friend",
+    "least_claude_like": "The absence of first-person ownership language (like 'I totally get that' or 'I think') makes it feel slightly more impersonal and advisory rather than like a shared conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format throughout. The suggested script is integrated naturally into the prose flow using quotation marks rather than being formatted as a separate list item or bullet point."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses explicit first-person language ('I totally get', 'I'm asking') to create personal connection; evaluated response uses general second-person statements",
+      "Ground truth asks about the source of guilt before offering solutions; evaluated response provides specific quitting scripts before asking about the guilt source",
+      "Evaluated response includes one emoji (😅) while ground truth uses none - both are acceptable but different",
+      "Evaluated response provides much more specific tactical advice (exact wording, transition planning) compared to Claude's broader emotional permission"
+    ]
+  }
+}

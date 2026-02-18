@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd start...', 'I don't wanna risk getting caught') creating a personal, supportive connection",
+      "Provides specific, word-for-word scripts the teen can actually use ('I can't send you my answers, but I can explain how I did #3') making the advice immediately actionable",
+      "Opens with strong emotional validation ('Ugh, that's so annoying') and normalizes the difficulty of the situation ('you're not being mean for being over it')"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice slightly mismatches the 'annoying' emotion (better suited for awkward/nervous situations), though it works for the 'weird spot' context mentioned",
+      "Could include one additional sentence explicitly acknowledging how hard it is to set boundaries with friends before moving to the solution phase"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - the advice flows conversationally in paragraphs exactly like a supportive friend texting, avoiding any over-structuring or list-making",
+    "least_ideal_aspect": "The emoji choice (😅) is slightly mismatched to the 'annoying' feeling described, though this is a very minor issue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. The response uses natural paragraph breaks that follow conversational logic rather than structural formatting. Advice is embedded within sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Consider using 😊 or 💙 instead of 😅 to better match the 'annoying/frustrating' emotion, or simply omit the emoji since 'Ugh' already conveys tone effectively",
+      "Add one sentence explicitly validating the fear of losing the friendship (e.g., 'I know it's scary to think they might get mad') before offering the scripts to strengthen the emotional support component"
+    ]
+  }
+}

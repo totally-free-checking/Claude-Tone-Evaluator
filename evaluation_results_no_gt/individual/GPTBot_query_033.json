@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent practical advice with specific, realistic scripts the teen can use when talking to their teacher (e.g., 'What do I need to do to earn my seat back?')",
+      "Strong follow-up question that invites continuation and offers personalized help ('If you tell me what grade you're in... I can help you craft the exact thing to say')",
+      "Uses first-person validation effectively in the opening ('Yeah, I'd be mad too')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a wikiHow article rather than a conversation with a friend",
+      "Insufficient emotional validation - only one sentence of support before jumping into 5 bullet points of strategic advice",
+      "Lacks natural prose flow; the structured format creates distance rather than the intimacy of a supportive text exchange"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific scripting for talking to the teacher shows deep understanding of teen agency and social dynamics",
+    "least_ideal_aspect": "The formatting is extremely bullet-heavy with bold headers, which is the opposite of the natural prose paragraphs specified in the ideal character",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response contains 5 distinct bullet points with bold headers (e.g., 'Figure out the 'why' first', 'Talk to your teacher privately'). Only 2 sentences at the beginning are in natural prose. The rest is heavily structured with formatting that resembles a self-help guide rather than a conversational text."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation - instead of 'Figure out the why first,' try 'First, I'd try to figure out why they moved you...'",
+      "Add more emotional validation throughout, not just at the beginning - acknowledge how isolating it feels to be separated from friends before offering the strategic advice",
+      "Keep the excellent specific scripts you provided, but embed them in sentences like 'If it were me, I'd probably say something like...' rather than listing them as bullet points"
+    ]
+  }
+}

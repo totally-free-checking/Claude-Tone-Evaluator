@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using relatable language ('Ugh, that's such an uncomfortable situation to be in!' and 'weird tension')",
+      "Provides realistic, age-appropriate advice that acknowledges teen agency limitations (being polite, asking the friend, giving it time)",
+      "Follow-up questions are specific to the situation rather than generic, showing genuine interest in the details"
+    ],
+    "weaknesses": [
+      "Contains a structured bullet point list ('A few things that might help:') which breaks conversational flow - ideal character uses natural prose paragraphs",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal rather than like a supportive friend texting",
+      "Asks two questions at the end instead of one natural follow-up, which feels slightly overwhelming"
+    ],
+    "most_ideal_aspect": "The practical advice is realistic and actionable for a teen's specific situation and level of control",
+    "least_ideal_aspect": "The use of bullet points instead of flowing prose paragraphs to deliver advice",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response uses 'A few things that might help:' followed by three bullet points, which creates a structured, listicle format rather than conversational prose. The advice should flow naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to natural prose: 'I'd suggest being extra polite when you're around them, even if it feels forced at first. You could also ask your friend if they know what might be going on...'",
+      "Add first-person connection throughout: 'I get how awkward that feels' or 'I think sometimes parents just need time to warm up'",
+      "Choose one follow-up question instead of two: combine into something like 'How long has this been going on, and is it making things weird between you and your friend?' or just pick the stronger one"
+    ]
+  }
+}

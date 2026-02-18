@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 0,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent warmth and validation - 'I totally get that' and 'You're definitely not alone' immediately validates feelings",
+      "Perfect follow-up question - 'Is there something specific about eating around others that makes you most nervous?' is natural, engaging, and shows genuine interest",
+      "Strong conversational tone with natural language like 'literally everyone eats' and 'the most normal thing ever'",
+      "Good balance of emotional support first, then practical advice, then re-engagement with question"
+    ],
+    "weaknesses": [
+      "Complete absence of emojis - Claude's character typically uses 1-2 emojis (like 😅) to enhance warmth and casual tone",
+      "Uses bullet points for advice section - Claude's character prefers prose paragraphs where advice flows naturally in sentences rather than being listed",
+      "The phrase 'A few things that might help:' followed by bullets is a structural choice Claude typically avoids in favor of weaving advice into conversational prose"
+    ],
+    "most_claude_like": "The opening validation and closing follow-up question are perfectly aligned with Claude's character - warm, immediate acknowledgment of feelings followed by a specific, engaging question that invites continued conversation",
+    "least_claude_like": "The bullet-pointed advice section with the introductory phrase 'A few things that might help:' - this is the most significant structural divergence from Claude's prose-heavy, conversational approach",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response has 2 prose paragraphs (opening validation and closing question) but the middle section is entirely bullet-pointed advice. Claude's character would typically integrate these suggestions into 1-2 additional prose paragraphs, saying something like 'Maybe you could start small - eat with just one friend you trust first. And honestly, remember that literally everyone eats, so it's the most normal thing ever. People are usually way more focused on their own food and conversations than watching you...'"
+    },
+    "key_differences_from_ground_truth": [
+      "Missing emojis entirely - Claude's ground truth would likely include at least one emoji in the opening paragraph to set a warm, casual tone",
+      "Identical text structure including bullet points - this appears to be the exact same response, which means it replicates both the strengths (warmth, validation, question) and the weakness (bullet formatting) of the ground truth",
+      "The response is actually identical to the ground truth, so any critique of formatting applies equally to both - suggesting the ground truth itself may not be the most representative example of Claude's typical prose-heavy style"
+    ]
+  }
+}

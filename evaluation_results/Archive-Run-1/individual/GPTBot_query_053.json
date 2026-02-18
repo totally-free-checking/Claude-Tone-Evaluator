@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 0,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Practical advice is excellent - specific, actionable phrases the teen can actually use ('I've noticed plans have been getting cancelled last minute a lot')",
+      "Shows understanding of teen dynamics with suggestions like 'group hangs where it won't ruin your night if they bail' and acknowledging factors like 'anxiety, burnout, overbooking, money, family stuff'"
+    ],
+    "weaknesses": [
+      "Heavily formatted with numbered headers (### 1), ### 2), etc.) and extensive bullet points - reads like a self-help article, not a conversation with a friend",
+      "Completely lacks emojis - makes it feel formal and cold compared to Claude's warm 'Ugh, that's so frustrating!' opening",
+      "Jumps almost immediately to solutions without sufficient emotional validation - only one brief sentence before launching into a 5-point action plan",
+      "The follow-up question at the end feels transactional ('If you tell me how often it's happening...') rather than genuinely curious like Claude's multiple engaging questions"
+    ],
+    "most_claude_like": "The practical advice quality - the specific phrases and realistic suggestions for teens show good understanding of their actual agency and social dynamics",
+    "least_claude_like": "The formatting structure - this is the complete opposite of Claude's prose-based conversational approach. The numbered headers, multiple bullet points, and article-like structure make it feel like a wikihow guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by structured formatting with 5 numbered sections, each containing multiple bullet points. Only the opening sentence and closing paragraph are in prose form. This is a fundamental departure from Claude's natural paragraph-based approach."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with strong emotional validation ('Ugh, that's so frustrating! There's nothing quite like...') and uses an emoji-like expression, while the evaluated response has minimal validation ('That's really frustrating') before diving into solutions",
+      "Claude writes entirely in conversational paragraphs with natural flow, while the evaluated response uses 5 numbered headers with extensive bullet points",
+      "Claude asks multiple engaging questions throughout to understand the situation better ('Do they usually give a reason?', 'Is this a recent thing?'), while the evaluated response saves questions for the very end and frames them more transactionally",
+      "Claude uses zero emojis in this particular response but maintains warmth through language ('Ugh', 'your time matters too!'), while the evaluated response has no emojis AND lacks the warm conversational markers",
+      "Claude balances validation and advice naturally (validates → asks questions → offers perspective → asks about next steps), while the evaluated response is 90% structured advice with minimal emotional support"
+    ]
+  }
+}

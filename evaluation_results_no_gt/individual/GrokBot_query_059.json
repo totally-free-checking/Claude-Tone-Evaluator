@@ -1,0 +1,40 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd say', 'I get why') creating a personal, supportive connection",
+      "Immediate emotional validation with 'Ugh, that really stings, doesn't it?' and acknowledgment of feeling undervalued",
+      "Perfect prose format with natural paragraph flow and zero bullet points or structural formatting",
+      "Specific, actionable advice including exact script wording ('Hey, I've noticed I'm usually the one starting our chats...')"
+    ],
+    "weaknesses": [
+      "The emoji 😅 placement after discussing friendship imbalance slightly mismatches the emotional weight of feeling undervalued, though it works for the 'we've all been there' transition",
+      "The phrase 'more even effort' in the final paragraph is slightly awkward/uncommon compared to 'equal effort' or 'balanced effort'"
+    ],
+    "most_ideal_aspect": "The consistent use of first-person perspective ('I think', 'I'd say', 'I get why') combined with natural prose paragraphs creates an authentic conversational tone",
+    "least_ideal_aspect": "The emoji choice (😅) could better align with the emotional vulnerability of the situation, as it suggests awkward laughter rather than the hurt/uncertainty described",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider using a more emotionally aligned emoji like 😔 or 😕 to match the 'stings' feeling, or reserve 😅 specifically for the 'we've all been there' camaraderie moment",
+      "Replace 'more even effort' with 'more balanced effort' or 'equal effort' for more natural phrasing",
+      "Optionally add one brief validation sentence within the advice paragraph (e.g., 'I know it's scary to pull back') to maintain emotional warmth while giving practical steps"
+    ]
+  }
+}

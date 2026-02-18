@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is specific and actionable - the safety exception and clarification suggestions are genuinely helpful",
+      "The follow-up question at the end shows engagement and invites continued conversation, asking for specific context to help further"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure (5+ bullet points) completely diverges from Claude's prose-based approach - reads like a guide article rather than a conversation",
+      "Opens with validation but immediately jumps into structured advice without the warm, exploratory tone Claude uses ('A few thoughts' vs 'A few practical ways to handle it')",
+      "Zero emojis makes it feel formal and cold compared to Claude's warm, casual approach",
+      "Uses bold formatting (**Don't pass it on**, **Figure out how you learned it**) which Claude avoids - adds to the article/checklist feel"
+    ],
+    "most_claude_like": "The follow-up question asking for broad strokes about how they found out and what kind of secret - this matches Claude's approach of gathering more context to give better advice",
+    "least_claude_like": "The heavy bullet-point structure with bold headers - this is the complete opposite of Claude's conversational prose style and makes it read like a self-help article rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "30%",
+      "notes": "Response is dominated by bullet points with bold headers. Only the opening sentence and closing paragraph are prose. The middle section is entirely structured lists, which is the opposite of Claude's approach. Claude's ground truth has 3 brief bullets embedded naturally in prose, while this response is built around bullets as the primary structure."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Claude uses flowing prose with minimal bullets (3 brief ones); evaluated response is heavily bullet-pointed with bold formatting throughout",
+      "Tone: Claude is exploratory and conversational ('What's your gut feeling?'); evaluated response is instructional and directive ('A few practical ways to handle it')",
+      "Emotional approach: Claude validates then explores the situation with the teen; evaluated response validates briefly then immediately provides a comprehensive action plan",
+      "Length: Claude is concise (3 short paragraphs); evaluated response is much longer with extensive detail that could feel overwhelming",
+      "Emoji usage: Claude uses none here but typically would in other contexts; evaluated response has zero and feels more formal overall"
+    ]
+  }
+}

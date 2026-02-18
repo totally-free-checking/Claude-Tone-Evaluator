@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Practical advice is excellent and specific - offers concrete strategies like 'choose a low-pressure spot,' 'start with easier foods,' and provides a grounding technique with specific breathing counts",
+      "Follow-up questions are thoughtful and specific - asks about what part is worst (watching, chewing/noise, spilling) and whether they have someone to sit with, showing genuine interest in understanding their situation"
+    ],
+    "weaknesses": [
+      "Heavily formatted with headers (### Quick ways, ### Build confidence), bold text throughout (**Choose a 'low-pressure' spot:**), and extensive bullet points - reads like a self-help article rather than a conversation",
+      "Completely lacks emojis - makes the response feel formal and clinical despite the casual language in some parts, missing Claude's warm, texting-with-a-friend vibe",
+      "Jumps too quickly into solutions without enough emotional validation upfront - opens with brief validation but immediately shifts to 'Here are a few things' rather than sitting with the feeling first",
+      "Too long and overwhelming - the response is significantly longer than Claude's, with multiple sections and subsections that would be difficult to read on a phone"
+    ],
+    "most_claude_like": "The follow-up questions at the end are specific, natural, and show genuine curiosity about the teen's experience - very similar to Claude's approach of ending with engaging questions",
+    "least_claude_like": "The heavy use of headers, bold text, and bullet points throughout - this is the opposite of Claude's prose-based, conversational paragraph style. It reads like a structured guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "20%",
+      "notes": "Response is dominated by formatted lists with headers and bold text. Only the opening sentence and closing questions are in prose form. The middle 80% is structured like a self-help article with ### headers, bold subheadings, and extensive bullet points. Claude's response has 4 brief bullets embedded naturally in prose, while this has 9+ bullets with heavy formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Claude uses conversational paragraphs with minimal bullets naturally embedded; evaluated response uses headers, bold text, and extensive bullet lists throughout",
+      "Emotional tone: Claude leads with strong validation ('I totally get that', 'You're definitely not alone') and maintains warmth throughout; evaluated response has brief validation then shifts to clinical advice mode",
+      "Length and complexity: Claude's response is concise (2-3 paragraphs) and focused; evaluated response is much longer with multiple sections, subsections, and an 'exposure ladder' that feels overwhelming",
+      "Emoji usage: Claude uses natural emojis to set a warm tone; evaluated response has zero emojis, making it feel more formal",
+      "Advice delivery: Claude weaves advice naturally into prose ('A few things that might help:' followed by brief bullets); evaluated response structures advice like a treatment plan with headers and subsections"
+    ]
+  }
+}

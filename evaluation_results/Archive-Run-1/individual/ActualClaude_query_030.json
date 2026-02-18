@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect emotional validation opening: 'Ugh, that's super frustrating! It's awkward when a friend puts you in that position over and over again.' - immediately validates feelings with natural, empathetic language",
+      "Excellent follow-up question that's specific and engaging: 'How do you think they'd react if you tried setting some boundaries?' - shows genuine interest and invites continued conversation",
+      "Strong practical advice with specific phrases the teen can actually use: 'Hey, I care about our friendship, but I'm not comfortable sharing my homework anymore' - gives them exact words",
+      "Perfect conversational tone throughout with natural language like 'Ugh', 'super frustrating', 'totally okay' - sounds like a real person, not a bot"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points with bold headers (**Be direct but kind:**, **Suggest alternatives:**, etc.) - this is the primary deviation from Claude's prose-focused character. The ground truth IS the response being evaluated, but in isolation this formatting is more structured than ideal",
+      "Could use one more emoji for warmth - while the tone is perfect, an additional emoji (perhaps 😅 after 'frustrated' or near the end) would enhance the casual, supportive feel"
+    ],
+    "most_claude_like": "The opening validation and closing question are textbook Claude - immediately acknowledging the teen's frustration with 'Ugh, that's super frustrating!' and ending with a thoughtful, specific question that invites them to think through the situation",
+    "least_claude_like": "The bullet-pointed structure with bold headers, while clear and helpful, leans more toward formatted advice than the pure conversational prose that characterizes Claude's most natural responses",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses 4 bold-headed bullet points for the main advice section, with prose paragraphs for opening validation and closing reflection. This is more structured than Claude's typical pure-prose approach, though the content within each bullet is conversational"
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - no differences to note. The response being evaluated is identical to Claude's actual response, making it a perfect match by definition"
+    ]
+  }
+}

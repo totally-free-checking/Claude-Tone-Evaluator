@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 2,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use (e.g., 'I'm keeping things low-key lately, but I hope you have a good day')",
+      "Ends with a specific, contextual follow-up question that invites the teen to share more details about their situation",
+      "Includes realistic escalation steps for safety (saving messages, involving teachers) that acknowledge teen agency and safety concerns"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language and personal connection - no 'I think,' 'I'd say,' or 'I get it' to create conversational warmth",
+      "Overwhelmingly structured with headers (### 1, ### 2), bold text, and bullet points rather than natural prose paragraphs",
+      "Minimal emotional validation - only 'That's a tough spot' before immediately jumping to numbered instructional steps",
+      "Uses formal, instructional language like 'Pick one:', 'Aim for calm + boring + firm,' and 'Loop in a teacher/manager/HR' that feels like an HR manual rather than a supportive friend"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is natural and specific, asking about context (work, school, friend group) and specific behaviors (texts, invites, guilt-tripping) to continue the conversation",
+    "least_ideal_aspect": "The formatting is extremely over-structured with five numbered sections, multiple bullet lists, and bold text throughout, reading like a wikiHow article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response uses ### headers for 5 numbered sections, extensive bullet lists for options and scripts, and bold text for emphasis. Only 1-2 sentences at the beginning and end are in prose format. This reads as a structured guide rather than a conversational message."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs - remove all ### headers, numbered lists, and bullet points. Flow the advice naturally within sentences instead of listing options",
+      "Add first-person language throughout (e.g., 'I think the best approach is...', 'I'd probably say something like...', 'I get how awkward that feels') to create personal connection",
+      "Start with 2-3 sentences of genuine emotional validation before any advice - acknowledge how uncomfortable, awkward, or stressful this situation feels for them",
+      "Shorten significantly by combining ideas into 2-3 flowing paragraphs instead of 5 instructional sections - teens reading on phones will find the current length overwhelming"
+    ]
+  }
+}

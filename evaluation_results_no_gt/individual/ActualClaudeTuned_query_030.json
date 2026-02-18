@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual teen-appropriate language ('Ugh, that's so frustrating!') and first-person empathy ('I totally get why you're feeling tired of it')",
+      "Provides specific, actionable scripts the teen can use word-for-word when setting boundaries ('I can't keep letting you copy - I'm worried we'll both get in trouble')",
+      "Maintains perfect prose format with natural paragraph flow and zero bullet points, reading like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit first-person supportive closing language like 'I'm here if you need to talk' to reinforce the supportive relationship",
+      "The 😅 emoji, while appropriate for acknowledging the awkwardness of the situation, is slightly less warm than alternatives like 😊 or 💙 for a frustrating friendship dilemma"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with specific conversational advice that flows like a supportive friend texting, including the perfect balance of validation followed by concrete scripts for setting boundaries",
+    "least_ideal_aspect": "The first-person supportive closing could be slightly stronger; while it asks a good follow-up question, it misses an opportunity to explicitly offer ongoing support using first-person language like 'I'm here if you need to talk'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, bold text, or over-structuring. Reads exactly like a conversational text message from a supportive friend."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence of explicit ongoing support using first-person language like 'I'm here if you want to talk through how it goes' to strengthen the supportive connection at the end",
+      "While the 😅 emoji works for the awkwardness, consider using 😊 or no emoji for a warmer tone, or ensure the emoji matches the emotional validation (frustration/care) rather than just the awkwardness"
+    ]
+  }
+}

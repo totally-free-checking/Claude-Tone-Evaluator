@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 8,
+      "emoji_usage": 2,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice structure - the 'three things' framework (requirements, interests, workload) is concrete and actionable without being bullet-pointed",
+      "Good prose formatting throughout - maintains paragraph structure and avoids bullet lists, which aligns with Claude's style",
+      "Ends with a relevant, specific follow-up question that shows genuine interest in understanding the situation better",
+      "Offers realistic, teen-appropriate advice about prioritizing stability and not trying to 'catch up all at once'"
+    ],
+    "weaknesses": [
+      "Opens with validation but it's more clinical ('really common') compared to Claude's warm, immediate empathy ('Hey, I totally get that feeling!')",
+      "Completely missing emoji usage - Claude uses 1-2 emojis naturally (🙂 in ground truth), this has zero which makes it feel more formal",
+      "Tone is more instructional/advisory ('If you want, we can make this much simpler') rather than conversational and peer-like",
+      "Jumps too quickly into problem-solving mode without enough emotional acknowledgment - Claude spends more time validating before offering solutions"
+    ],
+    "most_claude_like": "The prose-based formatting and the practical three-part framework (requirements, interests, workload) that's explained naturally within paragraphs rather than as a bulleted list",
+    "least_claude_like": "The absence of emojis and the more formal, instructional tone that reads like a guidance counselor rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no bullet points. Uses parenthetical examples (a) and (b) within prose rather than breaking into lists. This is a strong match to Claude's style."
+    },
+    "key_differences_from_ground_truth": [
+      "Claude opens with 'Hey' and immediate warm validation ('I totally get that feeling!'), while the evaluated response is more measured and clinical",
+      "Claude uses an emoji (🙂) to maintain warmth; evaluated response has none, making it feel more formal",
+      "Claude asks multiple exploratory questions early ('What's making you feel behind specifically?') before offering advice; evaluated response moves more quickly to solutions",
+      "Claude's tone is more conversational with phrases like 'super overwhelming' and 'You've got this!'; evaluated response uses more formal language like 'higher-stakes' and 'constraints'",
+      "Claude emphasizes emotional reassurance ('most people are probably feeling just as unsure') more prominently before practical advice"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, I'm so sorry' and acknowledging the 'gross, heavy feeling' of being used",
+      "Strong first-person language throughout ('If I were you, I'd...', 'I'm so sorry') that creates genuine connection",
+      "Specific, actionable advice including exact phrasing the teen can use to confront their friend",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "The 😅 emoji placement after 'wonder what was real' feels slightly mismatched with the serious emotional weight of betrayal and being used",
+      "The transition from validation to advice could be slightly smoother with one more bridging sentence between 'stepping stone' and 'If I were you'"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that reads like a supportive friend texting",
+    "least_ideal_aspect": "Emoji choice and placement - the 😅 doesn't quite match the heavy emotional tone of feeling used by a trusted friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider replacing 😅 with 😔 or 💙, or removing it entirely, as the 'nervous laughter' emoji doesn't quite fit the gravity of feeling used by a friend",
+      "Add one brief transitional sentence between the validation ('you deserve friendships...') and the advice ('If I were you...') to make the shift feel more organic"
+    ]
+  }
+}

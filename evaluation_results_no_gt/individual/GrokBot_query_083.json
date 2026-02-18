@@ -1,0 +1,38 @@
+{
+  "bot_name": "GrokBot",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I think', 'I get why') creating a personal, supportive connection",
+      "Opens with immediate emotional validation ('Ugh, that confusing vibe is the worst') that acknowledges the mental exhaustion of overanalyzing",
+      "Provides specific, actionable scripts and behaviors ('Hey, you seem extra chatty today, what's up?', 'touch your arm') rather than vague advice"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation by explicitly naming the specific emotions (anxiety, hope, confusion) before moving to solutions",
+      "The phrase 'it feels way bigger in your head than it actually is' risks minimizing the experience slightly, though 'you're not alone' helps balance this"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and seamless integration of advice into conversational paragraphs",
+    "least_ideal_aspect": "Could include one more explicit statement of ongoing support ('I'm here to help figure this out') to strengthen the supportive presence",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Advice flows naturally within sentences and paragraphs."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence explicitly offering ongoing support like 'I'm happy to help you decode specific moments if you want to share them' to strengthen the supportive presence",
+      "The current validation is strong, but explicitly naming the emotional experience ('that anxiety of not knowing') before the 'it's usually bigger in your head' line would make the validation feel even more complete"
+    ]
+  }
+}

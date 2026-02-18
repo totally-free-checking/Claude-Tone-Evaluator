@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 4.0,
+    "dimension_scores": {
+      "warmth_validation": 2,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 5,
+      "conversational_tone": 2,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 2,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Provides specific, actionable message templates the teen can actually copy and paste (e.g., 'Hey—please stop texting repeatedly. If I don’t reply, I’m not available.')",
+      "Ends with a specific, engaging question about the relationship context to continue the conversation",
+      "Includes important safety considerations about harassment and saving screenshots"
+    ],
+    "weaknesses": [
+      "Zero emotional validation upfront - jumps immediately to problem-solving without acknowledging how stressful or overwhelming nonstop texting feels",
+      "Completely lacks first-person language - uses impersonal 'You can...' instead of 'I think...' or 'I'd suggest...'",
+      "Reads like a wikiHow article with heavy formatting (### headers, numbered lists, bullet points) rather than a supportive conversation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, specific scripts and actionable steps (muting, blocking) that a teen can actually use, plus safety awareness",
+    "least_ideal_aspect": "Prose vs bullet points - the response is almost entirely structured with headers, numbered sections, and bullet lists rather than natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 20,
+      "prose_percentage": "5%",
+      "notes": "Extremely over-formatted with ### headers, numbered steps (1-5), bullet lists for message options, and bold text throughout. Reads as instructional manual rather than chat."
+    },
+    "specific_feedback": [
+      "Start with emotional validation before any advice - e.g., 'Ugh, that constant buzzing is so stressful!' or 'That sounds really overwhelming'",
+      "Rewrite entirely as 2-3 conversational paragraphs using first-person language like 'I think the best approach is...' or 'I'd suggest trying...' instead of instructional steps",
+      "Remove all bullet points, headers, and numbered lists - flow the advice naturally within sentences as if texting a friend",
+      "Add one warm emoji early (like 😅 or 💙) to soften the clinical tone, since the topic is interpersonal stress"
+    ]
+  }
+}

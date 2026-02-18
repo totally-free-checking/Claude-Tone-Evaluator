@@ -1,0 +1,42 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 1,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Oh no, that stomach-drop feeling is THE WORST!' which captures the empathetic tone well",
+      "Specific, realistic advice that's actually actionable for a teen (asking for a second to think, the water sip technique)",
+      "Good use of casual, age-appropriate language without being cringe ('Super annoying', 'totally normal')"
+    ],
+    "weaknesses": [
+      "Uses bullet points with bold headers ('The honest pause', 'The strategic sip') which breaks the conversational flow - Claude uses pure prose",
+      "Missing follow-up question entirely - Claude always ends with a natural question to continue the conversation",
+      "Lacks first-person reflective language ('I think', 'I'd say', 'I get it') that makes Claude's responses feel personal and friend-like",
+      "Over-explains the biology ('your body sometimes floods with adrenaline') which feels more clinical than Claude's simple 'poof - completely empty' description"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately normalizes the experience with 'this happens to *everyone*' and reassurance that these moments feel bigger than they are",
+    "least_claude_like": "The formatted bullet point list giving advice - Claude never uses bullet points or bold headers, instead weaving advice naturally into conversational prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "70%",
+      "notes": "Response uses two distinct bullet points with bold headers ('The honest pause', 'The strategic sip'), which is a major deviation from Claude's prose-only approach. The advice itself is good but the formatting makes it feel like a self-help article rather than a text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 100% natural prose paragraphs while evaluation uses structured bullet points with bold text",
+      "Ground truth ends with an engaging follow-up question ('Did you manage to say anything...') while evaluation has no question",
+      "Ground truth uses first-person perspective ('Sometimes I think teachers forget...') while evaluation is more impersonal/explanatory",
+      "Ground truth focuses more on emotional validation and reassurance that it'll blow over, while evaluation shifts quickly to practical tips presented in list format"
+    ]
+  }
+}

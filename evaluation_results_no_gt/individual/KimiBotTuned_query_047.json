@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating' and acknowledging the specific feeling of being treated younger",
+      "Excellent specific advice including exact scripts like 'I'm not trying to fight, I just wanna understand what would make you feel okay with it'",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation"
+    ],
+    "weaknesses": [
+      "Lacks first-person 'I think' or 'I'd' statements in the advice section, using second-person 'you can' instead",
+      "Emoji choice (😅) slightly mismatches the frustration tone, suggesting nervous laughter rather than empathy"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say') in the advice portion makes it slightly less personal than ideal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Incorporate first-person perspective in advice sections, e.g., 'I think you should try...' or 'I'd probably ask them...' to create stronger personal connection",
+      "Consider using 😔 or 😕 instead of 😅 for frustration situations, or omit the emoji entirely, as 😅 implies nervousness rather than empathetic validation"
+    ]
+  }
+}

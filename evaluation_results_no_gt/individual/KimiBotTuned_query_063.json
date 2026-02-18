@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using relatable language like 'Ughhh' and 'instant stomach-drop moment' that perfectly captures the embarrassment",
+      "Provides specific, actionable scripts the teen can actually use ('Oops—wrong room, my bad' and 'Yeah, I totally mixed up the room') rather than vague advice",
+      "Maintains perfect prose format with zero bullet points, reading like a natural text conversation with natural flow between paragraphs"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language like 'I think,' 'I'd say,' or 'I get it' - uses impersonal generalizations ('it always feels,' 'the smoothest move is') instead of personal perspective",
+      "Missing explicit supportive closing language like 'I'm here if you need to talk' or 'I understand how that feels' that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural elements, flowing as conversational paragraphs that read like texting with a supportive friend",
+    "least_ideal_aspect": "Absence of first-person perspective language - the response uses general 'you' and 'it' statements throughout rather than 'I think,' 'I'd say,' or 'I get how that feels'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, bold text, or lists. Advice is woven naturally into paragraph form rather than being listed out"
+    },
+    "specific_feedback": [
+      "Add first-person perspective statements like 'I think the smoothest move is...' or 'I'd say just...' to create more personal connection and match the ideal character voice",
+      "Include one explicit supportive statement like 'I get how embarrassing that feels' or 'I'm here if you need to talk about it more' to increase warmth and first-person presence"
+    ]
+  }
+}

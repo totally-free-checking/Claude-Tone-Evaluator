@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language ('Ugh, that's the worst feeling') that acknowledges the specific anxiety of feeling watched",
+      "Writes in natural prose paragraphs with excellent conversational flow - reads exactly like a supportive friend texting, with no formatting distractions",
+      "Provides specific, actionable advice realistic for a teen's lunch situation (headphones, scrolling phone, people-watching) that addresses the immediate discomfort"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') which creates distance rather than the intended personal connection of a support bot",
+      "Misses opportunity for emoji usage that could enhance warmth - while zero emojis is acceptable, a single supportive emoji early on could reinforce the casual, friendly tone",
+      "Could validate slightly more explicitly before pivoting to the 'most people don't notice' reassurance"
+    ],
+    "most_ideal_aspect": "The prose formatting and natural paragraph structure - it perfectly avoids bullet points, headers, and over-formatting to read like a genuine conversational text",
+    "least_ideal_aspect": "The absence of first-person language throughout the entire response - it never uses 'I' statements to create personal connection or share perspective, making it feel slightly detached despite the casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, headers, bold text, or numbered lists. Advice is integrated smoothly into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'Most people are way too focused...' try 'I think most people are way too focused...' or 'I'd bet most people are...'",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to reinforce the supportive tone, or explicitly state 'I'm here if you need to talk' to establish the bot's presence",
+      "While the advice is good, start with slightly more explicit validation like 'I'm sorry you're dealing with that right now' before moving to the 'people don't notice' reassurance"
+    ]
+  }
+}

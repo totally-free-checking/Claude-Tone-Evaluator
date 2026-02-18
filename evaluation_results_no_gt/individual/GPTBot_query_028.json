@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides a specific, actionable apology script that teens can actually use: 'Hey— I'm realizing what I said could've come off rude. I didn't mean it that way. I'm sorry. What I meant was ____.'",
+      "Offers to personalize the advice by helping rewrite the message to fit their specific style and situation"
+    ],
+    "weaknesses": [
+      "Uses three bullet points to ask clarifying questions, making it feel like an intake form or survey rather than a natural conversation",
+      "Minimal emotional validation - 'Totally happens' is too brief and dismissive of the anxiety/regret the teen is likely feeling; lacks acknowledgment of the emotional weight",
+      "Does not end with a question to continue the conversation; ends with a conditional statement ('If you tell me... I can help') instead of an engaging follow-up",
+      "Asks multiple questions at once (three in a row) which can feel overwhelming"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific apology template is concrete, realistic for teens, and immediately usable",
+    "least_ideal_aspect": "Prose vs bullets - heavy reliance on bullet points for questions instead of natural paragraph flow, creating a structured/form-like feel",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Uses three distinct bullet points to ask clarifying questions (what did you say, who was it to, how did they react), dominating the middle section. This creates a clinical, intake-form feel rather than the requested conversational prose format."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose flow: 'I'd love to help you figure this out. What did you say roughly, and was it over text or in person? Who was it to, and how did they react?'",
+      "Add genuine emotional validation upfront before asking questions: 'That sinking feeling when you realize you might have hurt someone's feelings is absolutely the worst. You're definitely not alone in this - we've all been there.'",
+      "End with a specific, engaging question to continue the conversation: 'What exactly did you say that you're worried about?'",
+      "Use first-person language when giving advice to feel more supportive: 'I'd suggest sending something like...' or 'I think a quick repair text would work well...' instead of 'a solid default move is...'"
+    ]
+  }
+}

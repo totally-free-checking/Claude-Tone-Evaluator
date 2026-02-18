@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses pure prose format without bullet points, integrating advice naturally into conversational paragraphs rather than listing suggestions",
+      "Provides specific, actionable dialogue scripts that teens can actually use with parents (e.g., 'I'm trying really hard, but the pressure to be perfect is making me anxious...')",
+      "Excellent emotional validation with casual, relatable language ('Ugh, that's such a heavy kind of pressure', 'you're not being dramatic', 'doom-convos')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person phrases like 'I think' or 'I'd say' that Claude typically uses to personalize advice and sound more like a friend sharing perspective",
+      "Uses an emoji (💙) which, while within acceptable limits (0-1), differs from the ground truth's no-emoji approach and could be seen as slightly less natural for Claude's typical style"
+    ],
+    "most_claude_like": "The natural prose formatting without bullet points and the specific, realistic scripting advice that feels like a supportive older sibling sharing what they'd do in that situation",
+    "least_claude_like": "The absence of explicit first-person language like 'I think' or 'I'd say' in favor of more general advisory statements ('Sometimes parents respond better...' instead of 'I think parents respond better...')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout, seamlessly integrating practical advice into conversational flow rather than listing suggestions, which aligns perfectly with the character's preference for natural prose over structured formatting"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while response uses integrated prose paragraphs throughout",
+      "Response provides specific word-for-word dialogue scripts whereas ground truth offers more general suggestions",
+      "Response uses one emoji (💙) while ground truth uses none",
+      "Response asks one specific follow-up question while ground truth asks two questions at the end"
+    ]
+  }
+}

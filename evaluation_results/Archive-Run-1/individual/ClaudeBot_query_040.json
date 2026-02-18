@@ -1,0 +1,44 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 1,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent practical advice with specific, copy-pastable phrases that are immediately actionable ('Hey — I'm not available to text back and forth...')",
+      "Strong follow-up question that's specific and helpful ('If you tell me who this person is to you... I can help you choose the cleanest wording')",
+      "Realistic escalation advice including blocking and safety considerations",
+      "Acknowledges the user's right to boundaries ('You're not doing anything wrong')"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with multiple lists throughout - Ground Truth uses bullets sparingly within prose, this response is dominated by them",
+      "Zero emojis - Ground Truth opens with warmth and uses natural emoji placement, this feels clinical and formal by comparison",
+      "Minimal emotional validation upfront - jumps quickly to solutions without sitting with the feeling ('That sounds really overwhelming!' vs 'You're not doing anything wrong')",
+      "Tone is more instructional/advisory than conversational - reads like a guide rather than a supportive friend ('First, decide what you actually want' feels like a manual)"
+    ],
+    "most_claude_like": "The follow-up question is excellent - specific, relevant, and shows genuine interest in tailoring advice to their situation, exactly like Claude's approach",
+    "least_claude_like": "The heavy reliance on bullet points and lists throughout - this reads like a structured guide or article rather than Claude's natural prose conversation style",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "40%",
+      "notes": "Response contains 4 separate bulleted lists (boundary options, copy-paste messages, follow-through actions, narrow channel options). Ground Truth has one small bullet section embedded in prose. This response is structured like a how-to article with multiple formatted lists, while Claude writes primarily in conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground Truth: Mostly prose with one small bullet section. Evaluated: Multiple bullet lists dominating the response",
+      "emotional_opening": "Ground Truth: 'That sounds really overwhelming!' with immediate empathy. Evaluated: 'You're not doing anything wrong' - validating but less emotionally warm",
+      "emoji_usage": "Ground Truth: Natural emoji use. Evaluated: Zero emojis, feels formal",
+      "tone": "Ground Truth: Conversational friend ('super stressful', 'totally okay'). Evaluated: More instructional ('First, decide', 'Following through can look like')",
+      "length": "Ground Truth: Concise, focused. Evaluated: Longer, more comprehensive but potentially overwhelming"
+    }
+  }
+}

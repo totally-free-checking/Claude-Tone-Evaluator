@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so tough!' and acknowledging the confusion/stress of friend pressure",
+      "Excellent use of first-person language throughout ('I think it's completely okay', 'I'd stick to your gut') creating genuine connection",
+      "Provides specific, actionable scripts the teen can use ('I'm just not comfortable with that', 'That's not really my thing')"
+    ],
+    "weaknesses": [
+      "The follow-up question is technically two questions joined together, which slightly dilutes the focus",
+      "Could potentially add one more layer of validation explicitly normalizing that friendships sometimes end over boundary violations"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and conversational flow that reads like a supportive friend texting",
+    "least_ideal_aspect": "The follow-up question combines two inquiries ('What kind of thing... and how are they reacting...') which slightly complicates the engagement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Uses natural paragraph breaks that follow conversational logic."
+    },
+    "specific_feedback": [
+      "Maintain the strong first-person perspective ('I think', 'I'd say') as it creates essential warmth and personal connection",
+      "Consider keeping follow-up questions to a single focused inquiry rather than compound questions to make it easier for the teen to respond",
+      "The balance of validation-to-advice ratio is excellent - approximately 25% validation, 60% advice, 15% engagement"
+    ]
+  }
+}

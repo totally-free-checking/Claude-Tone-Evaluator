@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable physical description ('makes your stomach drop') and validating interjection ('Ugh')",
+      "Natural first-person supportive closing ('I'm here if you want to vent...') that offers multiple pathways forward without being prescriptive",
+      "Perfect prose formatting with zero structural elements - reads exactly like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat limited to perspective-taking ('brains fill in the blanks') without concrete coping strategies for immediate anxiety",
+      "The two questions in sequence ('Are you doing okay? Did you hear...') slightly interrupt the conversational flow, though both are relevant"
+    ],
+    "most_ideal_aspect": "The prose formatting and conversational flow - it uses natural paragraphs without any bullet points, headers, or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The practical advice dimension could include one specific, actionable technique for managing the immediate anxiety of overhearing gossip, rather than only offering perspective and future options",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose with three conversational paragraphs. No lists, headers, bold text, or structural formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one concrete grounding technique for immediate anxiety (like 'take three deep breaths' or 'text a friend') before offering the vent/problem-solve options",
+      "The double question could be smoothed into one flowing question like 'Are you doing okay, and did you catch what they were actually saying?' to feel more conversational"
+    ]
+  }
+}

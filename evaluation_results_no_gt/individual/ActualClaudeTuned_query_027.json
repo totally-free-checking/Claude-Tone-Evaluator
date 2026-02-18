@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('when I'm stuck like that', 'I think the best thing', 'Sometimes I find') creating genuine connection",
+      "Specific, actionable advice with concrete examples ('opening one document or reading one paragraph', 'sit on the floor instead of at your desk')",
+      "Immediate emotional validation with 'Ugh, I'm so sorry - that's the worst feeling!' and 'We've all been in that overwhelmed, paralyzed spot'"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice ('Honestly, when I'm stuck...') could include one more validating sentence to strengthen the emotional support before problem-solving",
+      "The phrase 'if you can swing it' might slightly assume resources (coffee shop) not all teens have, though alternatives are provided"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and seamless conversational flow that reads like a supportive friend texting",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation (though still well-balanced overall)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or over-structuring. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain the strong first-person perspective ('I think', 'I'd say') as it creates authentic connection with teens",
+      "Consider adding one more validating phrase before transitioning to solutions to ensure the teen feels fully heard before receiving advice",
+      "The specific micro-steps suggested (one sentence, one paragraph) are excellent - keep using concrete, immediately actionable examples like these"
+    ]
+  }
+}

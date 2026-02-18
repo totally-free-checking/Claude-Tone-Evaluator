@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong immediate validation ('Ugh, that's the worst') that acknowledges the emotional weight and awkwardness of the situation",
+      "Integrates advice seamlessly into natural prose paragraphs without resorting to bullet points or lists, making it feel like a genuine conversation rather than a self-help article",
+      "Provides exceptionally specific, actionable scripts that teens can actually use word-for-word (e.g., 'do you wanna take slides 1–3 and I'll do 4–6?' and the specific teacher conversation script)"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think,' 'I'd suggest,' or 'I'm here if you need to talk' that Claude typically uses to establish personal connection",
+      "Places the follow-up question only at the end rather than engaging early with a question like the ground truth does, which slightly reduces the conversational back-and-forth feel",
+      "Could include slightly more emotional validation at the close (like acknowledging stress or offering support) rather than jumping straight to the behavioral question"
+    ],
+    "most_claude_like": "The pure prose formatting with zero bullet points and naturally flowing advice paragraphs that read like texting with a supportive friend",
+    "least_claude_like": "The absence of explicit first-person perspective statements ('I think,' 'I'd say') makes it feel slightly more impersonal than Claude's typical 'I'm here with you' approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses zero bullet points or lists, integrating all advice into conversational paragraphs. This actually exceeds the ground truth (which used 3 bullet points) in matching the 'natural prose' ideal."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses bullet points for advice while evaluated response integrates everything into flowing prose paragraphs",
+      "Ground truth asks an engaging question early in the response ('Can I ask...') while evaluated response saves all questions for the end",
+      "Evaluated response provides more specific concrete scripts and examples (slide numbers, exact teacher phrasing) compared to the ground truth's more general suggestions"
+    ]
+  }
+}

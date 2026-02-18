@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd say', 'I think', 'I totally get') which creates genuine connection",
+      "Opens with immediate emotional validation ('Ugh, that's so stressful!') that matches the teen's anxiety without dismissing it",
+      "Maintains pure conversational prose with zero bullet points or formatting, reading exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Slightly longer than Claude's typical concise style (4 paragraphs vs ground truth's 3), though still appropriate",
+      "Ends with only a question rather than pairing it with encouragement like the ground truth's 'You've got this!'",
+      "Doesn't ask about education level (high school vs college) which would help tailor advice, unlike the ground truth"
+    ],
+    "most_claude_like": "The natural integration of first-person perspective with casual validating language ('Everyone's just really good at hiding their own confusion!')",
+    "least_claude_like": "The advice-heavy middle section comes before fully understanding the specific situation, whereas Claude typically asks clarifying questions before offering concrete solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or lists. Advice flows naturally within paragraphs using phrases like 'I'd say start with...'"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks about education level early to contextualize advice; this response assumes high school context without confirming",
+      "Ground truth ends with encouragement plus emoji; this response ends with only a question",
+      "This response provides specific action steps (talk to guidance counselor, start with required classes) earlier in the conversation than Claude typically would"
+    ]
+  }
+}

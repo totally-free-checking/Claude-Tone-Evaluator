@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or structural formatting - reads exactly like a supportive friend texting",
+      "Strong immediate emotional validation starting with 'Ugh' and vividly describing the physical discomfort of the situation ('you can feel the weirdness in the room')",
+      "Highly specific actionable advice including exact phrases the teen can use when talking to their friend ('I feel like your parents don't really like me—did something happen...')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language from the bot's perspective (missing 'I think,' 'I'd suggest,' or 'I get it' statements that would make it feel more like personal advice from a friend)",
+      "The 😅 emoji, while appropriate for awkwardness, might slightly understate the emotional weight of parental disapproval compared to a more supportive emoji like 💙 or simply no emoji for this specific scenario"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - perfectly maintains conversational paragraph structure without any bullet points, headers, or over-formatting",
+    "least_ideal_aspect": "First-person language usage - despite being conversational, it relies on general statements ('the best move is usually') rather than personal perspective ('I'd say the best move is')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely natural prose paragraphs with no bullet points, numbered lists, bold text, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add explicit first-person perspective statements like 'I think you should...' or 'I'd probably try...' to make the advice feel more like it's coming from a specific supportive person rather than general wisdom",
+      "Consider either omitting the emoji or using a warmer one (like 💙) since 😅 can sometimes minimize the hurt feelings involved when parents actively dislike someone, though the usage here is acceptable for the 'awkward' framing"
+    ]
+  }
+}

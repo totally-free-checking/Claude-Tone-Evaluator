@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation and empathy: 'Oh no, that's such an awkward situation!' immediately acknowledges the difficulty",
+      "Provides realistic, actionable advice specific to teen agency like suggesting to 'divide up tasks' and talking to the teacher about switching",
+      "Uses appropriate emoji (😬) once at the beginning to enhance the warm, casual tone without overdoing it"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list for advice ('Keep things super professional...') instead of natural prose paragraphs as required by the ideal character",
+      "Completely lacks first-person language like 'I think,' 'I'd suggest,' or 'I get it' - uses impersonal phrasing like 'A few things that might help' and 'Sometimes it helps' instead",
+      "Asks three separate questions rather than one engaging follow-up, which feels scattered and interview-like"
+    ],
+    "most_ideal_aspect": "Emoji usage - uses exactly one appropriate emoji (😬) to convey the awkwardness of the situation without being excessive",
+    "least_ideal_aspect": "Prose formatting - relies on a bulleted list for the core advice rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "75%",
+      "notes": "Response contains a clear 3-item bulleted list introduced with 'A few things that might help:' which breaks the conversational flow. The advice should be woven into natural sentences rather than formatted as a list."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose by weaving the advice into sentences like 'I'd probably try to keep things super professional and focused on the assignment, and maybe suggest dividing up tasks so you can work somewhat independently...'",
+      "Add first-person language throughout to create connection, such as 'I think the best approach would be...' or 'I'd suggest talking to your teacher...' instead of impersonal statements",
+      "Consolidate the three questions into one natural, engaging follow-up question rather than peppering the response with multiple questions that can feel overwhelming"
+    ]
+  }
+}

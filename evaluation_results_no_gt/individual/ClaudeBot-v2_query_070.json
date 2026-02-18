@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that's such an uncomfortable spot to be in' that captures the awkwardness of the situation",
+      "Strong use of first-person language throughout ('If I were you, I'd try...', 'I do want us to be good') making it feel like advice from a supportive friend",
+      "Provides specific, realistic scripts the teen can actually use word-for-word ('I'm not trying to ditch you—I'm allowed to hang with other people too')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit emotional validation (e.g., 'I'm sorry you're dealing with this') before normalizing the experience",
+      "The transition from validation to advice could be slightly softer; 'If I were you' comes somewhat abruptly after normalization"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with first-person advice delivery - reads exactly like a supportive older sibling or friend texting advice",
+    "least_ideal_aspect": "The emoji choice (😅) works for awkwardness but might slightly underplay the seriousness of a friend being genuinely mad, though it's still appropriate",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one more line of explicit emotional support like 'I'm sorry you're in this position' before jumping to 'this happens a lot' to maximize the validation phase",
+      "The follow-up question is excellent but could be framed slightly more casually like 'Did they seem more jealous and quiet, or were they actually being mean about it?' to match the conversational tone even more closely"
+    ]
+  }
+}

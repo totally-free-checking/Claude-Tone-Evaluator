@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent specific scripts the teen can use like 'Hey, I want to respect you. Is this something you're okay with me knowing...'",
+      "Includes crucial safety exception guidance about when to break confidentiality (self-harm, abuse, etc.)",
+      "Follow-up question is specific to the situation, asking about how they learned the secret and what type it is"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a wiki article rather than a conversation",
+      "Lacks first-person language throughout - no 'I think', 'I'd say', or 'I get why you're worried' to create personal connection",
+      "Minimal emotional validation before jumping to advice - only one brief sentence acknowledging it's uncomfortable"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic steps including specific phrases to say and clear safety guidelines",
+    "least_ideal_aspect": "Prose formatting - uses extensive bullet points, bold text, and structured headers instead of natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "30%",
+      "notes": "Response uses 'A few practical ways to handle it:' as a header, followed by a bulleted list with bold headers (**Don't pass it on**, **Figure out how you learned it**, etc.) and sub-bullets. This creates a very structured, instructional feel rather than a flowing conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation, using transitions like 'I'd probably start by figuring out how you learned it...'",
+      "Add first-person empathetic language throughout, such as 'I totally get why that feels heavy' or 'I think the safest bet is...' to sound like a supportive friend rather than an advice column",
+      "Move the emotional validation to the top and expand it before getting into the practical steps - sit with the feeling first, then problem-solve"
+    ]
+  }
+}

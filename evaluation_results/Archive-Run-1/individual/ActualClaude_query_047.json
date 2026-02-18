@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 0,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong opening validation: 'That sounds really frustrating! It's tough feeling like you're missing out' immediately acknowledges the teen's feelings",
+      "Excellent follow-up questions that are specific and engaging: 'How old are you, if you don't mind me asking? And what kind of outings are we talking about?' shows genuine interest",
+      "Natural conversational tone with good use of contractions and casual phrasing: 'I know it doesn't make the disappointment go away right now'",
+      "Practical, actionable advice that's realistic for teens: specific suggestions about checking in, meeting friends, building trust gradually"
+    ],
+    "weaknesses": [
+      "Complete absence of emojis - this is a significant deviation from Claude's character who would typically include 1-2 emojis (likely 😅 or similar) to maintain warmth",
+      "Uses bullet points for the advice section ('A few things that might help:' followed by 4 bullets) - Claude's character strongly prefers prose format and would weave these suggestions into conversational paragraphs",
+      "The bullet point structure makes it feel slightly more like a checklist than a natural conversation, despite the warm tone elsewhere"
+    ],
+    "most_claude_like": "The emotional validation and follow-up questions are perfectly aligned with Claude's character - starting with immediate empathy and ending with specific, engaging questions that invite continued conversation",
+    "least_claude_like": "The complete absence of emojis combined with the bullet-pointed advice section. Claude would have included at least one emoji (likely early on) and would have integrated the advice suggestions into flowing prose rather than a bulleted list",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "The response has 3 prose paragraphs (opening validation, transition to advice, closing validation) but the middle section uses a clear bullet list structure with 'A few things that might help:' as a header. This is the primary formatting deviation from Claude's pure prose approach."
+    },
+    "key_differences_from_ground_truth": {
+      "identical_text": "The response is actually IDENTICAL to the ground truth response word-for-word",
+      "note": "This is the ground truth response itself, so any 'weaknesses' identified are actually characteristics of Claude's actual response that could be improved to better match the stated character profile. The bullet points and lack of emojis in the ground truth suggest either: (1) the character profile may be idealized vs. actual practice, or (2) this particular ground truth example doesn't fully represent Claude's typical style"
+    }
+  }
+}

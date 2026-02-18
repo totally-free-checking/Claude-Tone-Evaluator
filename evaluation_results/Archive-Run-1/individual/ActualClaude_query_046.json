@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.8,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect immediate validation with 'That sounds really frustrating and hurtful' - acknowledges both the emotional and relational pain right away",
+      "Excellent prose flow throughout - zero bullet points, natural paragraph structure that reads like a genuine conversation",
+      "Strong practical advice woven naturally into prose: 'try reaching out to them sometime when you're the one who could use support - see how they respond' is specific and actionable",
+      "Perfect follow-up question that's specific to the situation: 'How long have you been feeling this way? Is this something recent or a pattern you've noticed building up over time?' shows genuine interest and invites deeper sharing"
+    ],
+    "weaknesses": [
+      "Missing emoji usage - Claude typically includes 1-2 emojis (often 😅 or similar) to set a warm, casual tone, especially in the opening paragraph",
+      "Could potentially benefit from one supportive emoji after the validation to enhance the warmth, though the tone is already very warm through language alone"
+    ],
+    "most_claude_like": "The natural prose structure and conversational flow - advice flows seamlessly within paragraphs ('It might be worth having an honest conversation... or maybe try reaching out...') rather than being listed out, making it feel like genuine friend-to-friend advice",
+    "least_claude_like": "The absence of emojis - while the tone is perfect otherwise, Claude's character typically includes 1-2 well-placed emojis to enhance the casual, supportive feel",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting - all advice and support flows naturally in conversational paragraphs. No lists, no headers, no over-structuring. Reads exactly like a supportive text conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical word-for-word",
+      "The only potential enhancement would be adding 1-2 emojis (e.g., 'That sounds really frustrating and hurtful 😔' or 'makes you question whether people actually value you for who you are 😕') to fully match Claude's typical emoji usage pattern"
+    ]
+  }
+}

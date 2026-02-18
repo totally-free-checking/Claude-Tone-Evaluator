@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 57,
+  "user_query": "I got a detention and I don’t even think it was fair.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Strong immediate emotional validation with 'Ugh, that's so frustrating!' and acknowledging the unfairness",
+      "Uses natural teen-appropriate casual language like 'what actually went down' and 'got in trouble'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel like general observations rather than a personal conversation",
+      "Very limited practical advice - only suggests venting/talking through it without specific strategies for handling the detention or teacher",
+      "Ends with a statement about venting rather than a question to continue the conversation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and no bullet points",
+    "least_ideal_aspect": "Absence of first-person language creates distance rather than the intended supportive friend connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs, no headers, bold text, or lists. Reads like a text message."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout, such as 'I totally get why you're upset' or 'I'd be so annoyed too' to create personal connection",
+      "End with a specific question like 'Do you think you'll try to talk to the teacher about it?' instead of a statement",
+      "Include one emoji like 😤 or 😅 early in the response to enhance warmth",
+      "Offer more concrete advice, such as specific phrases to use when talking to the teacher or ways to make detention less miserable"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, getting hit with “calm down” is so annoying') that mirrors the teen's frustration and normalizes their reaction",
+      "Provides highly specific, actionable scripts the teen can actually use ('Don’t tell me to calm down—just hear me out,' 'I’ll calm down when I feel listened to') rather than vague advice",
+      "Uses natural prose throughout with zero bullet points, reading like a supportive text from a friend rather than a structured self-help guide"
+    ],
+    "weaknesses": [
+      "Lacks first-person 'I' language (e.g., 'I think,' 'I get it,' 'I'd say') which makes it slightly less personal than ideal; relies heavily on 'you' statements instead",
+      "Could include a brief 'I'm here if you need to talk' or similar first-person supportive closing to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring - maintains conversational flow throughout while embedding advice naturally within paragraphs",
+    "least_ideal_aspect": "Absence of first-person language ('I think,' 'I get it,' 'I'm here') makes the response feel slightly impersonal despite being warm and conversational",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Incorporate first-person language like 'I totally get why that would make you feel worse' or 'I think the best approach is...' to create stronger personal connection",
+      "Consider adding a brief first-person supportive closing like 'I'm here if you need to vent more' to reinforce that this is a personal conversation, not generic advice"
+    ]
+  }
+}

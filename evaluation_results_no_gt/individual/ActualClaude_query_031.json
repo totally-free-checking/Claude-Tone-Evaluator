@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate validation with 'Oh no, the classic social media slip-up! 😅 We've all been there' which normalizes the experience and reduces shame",
+      "Specific, actionable advice including exact phrasing to use ('haha yeah, fell down a rabbit hole on your page') that teens can actually copy",
+      "Ends with a natural, context-specific question ('What kind of post was it?') that shows genuine interest in continuing the conversation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**The stealth approach:**') breaks conversational flow and reads like a wikiHow article rather than a friend texting",
+      "Lacks first-person language entirely - uses impersonal 'Here are your options' instead of 'I think you have three options' or 'I'd probably...', creating distance rather than connection",
+      "Could provide deeper emotional validation about the specific anxiety of being 'caught' stalking before jumping to solution-mode"
+    ],
+    "most_ideal_aspect": "The follow-up question is natural, specific to the situation, and invites further conversation without feeling forced",
+    "least_ideal_aspect": "Formatting structure - uses bold headers and bullet lists instead of flowing prose paragraphs, making it feel more like an instruction manual than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses 'Here are your options:' followed by three bold-labeled bullet sections. This heavy structuring prevents natural conversational flow. The advice should be woven into prose paragraphs instead (e.g., 'If it were me, I'd probably unlike it immediately... Or you could just own it and laugh it off...')"
+    },
+    "specific_feedback": [
+      "Convert the three bullet-pointed approaches into flowing prose using first-person framing: 'I think you have a few options here. If it were me, I'd probably start by unliking it immediately and hoping they didn't get the notification yet...'",
+      "Add first-person language throughout to create connection: replace 'Here are your options' with 'I'd say you have three ways to handle this', and 'The good news?' with 'I think the good news is...'",
+      "Remove the bold headers and bullet formatting entirely - write it as continuous paragraphs that flow naturally, like texting a friend"
+    ]
+  }
+}

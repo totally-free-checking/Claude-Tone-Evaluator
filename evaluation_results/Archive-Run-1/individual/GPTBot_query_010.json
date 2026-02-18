@@ -1,0 +1,44 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 2,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases the teen could actually use ('Sorry about the other day — total autopilot moment')",
+      "Good conversational tone in places ('Like, happens-to-everyone-eventually common', 'Your brain just grabbed the closest authority/caretaker label')",
+      "Realistic reassurance about how quickly embarrassment fades",
+      "Appropriate length - not too long or short"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points (3 bullet items) completely breaks from Claude's prose-based approach - this is the biggest divergence",
+      "Only one emoji in entire response (😅 is missing, no 💪), feels more formal/clinical",
+      "Opens with validation but it's brief and quickly moves to solutions - doesn't sit with the feeling long enough",
+      "The follow-up question shifts to checking for crisis ('genuinely unsafe/overwhelmed') which feels more clinical than Claude's natural conversational engagement"
+    ],
+    "most_claude_like": "The practical advice quality is excellent - specific phrases like 'Sorry about the other day — total autopilot moment' and 'Yep, my brain short-circuited' are exactly the kind of actionable, realistic suggestions Claude would give",
+    "least_claude_like": "The bullet-pointed structure with bold headers ('**Do nothing:**', '**Quick one-liner:**', '**If they teased you:**') is the complete opposite of Claude's natural prose flow. Claude would weave these options into conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response is structured as: brief intro paragraph, then 3 bullet points with bold headers, then closing paragraph. This is exactly the format Claude avoids. The advice itself is good but the presentation is too structured/list-like. Claude would say something like 'You could just do nothing - your teacher probably forgot in 30 seconds. Or if you want, next time you see them you could just say...' - all flowing naturally in prose."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 2 emojis naturally (😅, 💪), evaluated response uses 0 - much colder feeling",
+      "Ground truth is pure prose with natural flow, evaluated response breaks into bullet points with bold formatting",
+      "Ground truth sits with the embarrassment longer ('Oh noooo!', 'wanting to just melt into the floor', 'classic school nightmare') before offering solutions, evaluated response moves quickly to advice",
+      "Ground truth's follow-up question is casual and conversational ('Did your teacher react, or did you manage to just keep going?'), evaluated response's question shifts to crisis assessment ('genuinely unsafe/overwhelmed') which feels more like a counselor than a friend",
+      "Ground truth emphasizes the emotional journey ('you'll probably even be able to laugh about it', 'you're gonna survive this one!'), evaluated response is more matter-of-fact about the embarrassment fading"
+    ]
+  }
+}

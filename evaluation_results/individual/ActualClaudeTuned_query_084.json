@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get why you're upset', 'I'd maybe wait', 'I think') which creates genuine connection",
+      "Opens with immediate emotional validation using casual, relatable language ('Ugh, that's so frustrating') matching the ground truth's empathetic approach",
+      "Writes in natural flowing prose without any bullet points or over-formatting, reading like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Includes an emoji (😅) when the ground truth uses none and the character profile specifies not to use emojis unless explicitly asked",
+      "Jumps to practical advice in paragraph 3 whereas the ground truth focuses on exploratory questions first before offering solutions",
+      "Ends with a compound question ('What did they ground you for, and how long...') rather than the ground truth's approach of asking one focused question early and another at the end"
+    ],
+    "most_claude_like": "The natural prose formatting and immediate first-person validation ('I get why you're upset') perfectly captures Claude's conversational, supportive friend persona",
+    "least_claude_like": "The inclusion of the emoji when not requested, and providing specific negotiation advice before fully exploring the situation with questions first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, headers, or bold text, maintaining conversational flow throughout"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 0 emojis while evaluated uses 1 (😅)",
+      "Ground truth asks exploratory questions before giving advice; evaluated provides specific advice ('wait until things cool down', 'ask them to explain') in the middle before asking questions",
+      "Ground truth asks two separate questions at different points; evaluated asks one compound question at the end",
+      "Ground truth is slightly more concise and exploratory; evaluated is more solution-forward"
+    ]
+  }
+}

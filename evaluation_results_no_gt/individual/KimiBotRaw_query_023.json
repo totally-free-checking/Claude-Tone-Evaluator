@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that spotlight feeling is the worst' which perfectly captures the teen's anxiety",
+      "Specific, realistic advice tailored to teen capabilities like 'fall down a Wikipedia rabbit hole' and people-watching with 'ridiculous backstories'",
+      "Excellent emoji usage with single 🍕 at the end that enhances the casual, supportive tone without being excessive"
+    ],
+    "weaknesses": [
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') makes the response feel like generic advice rather than personal support from a friend",
+      "Heavy use of bullet points with bold headers ('**Phone dive**:', '**The observation deck**:') breaks conversational flow and reads like a listicle",
+      "No follow-up question at the end to continue the conversation - closes with statement instead of engagement"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - immediately normalizes the situation with 'It happens to literally everyone at some point' and validates the 'spotlight feeling' without dismissing it",
+    "least_ideal_aspect": "Follow-up question engagement - ends with 'You've got this. 🍕' instead of asking an engaging question to continue the conversation, which is crucial for the supportive bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response starts and ends with strong prose paragraphs but contains a substantial middle section formatted as bullet points with bold headers and colons, which breaks the conversational texting flow"
+    },
+    "specific_feedback": [
+      "Convert the bullet point section into natural prose paragraphs - instead of listing options, weave them into sentences like 'I'd probably pull out my phone and scroll something mindless, or maybe people-watch and make up backstories...'",
+      "Add a follow-up question at the end to invite continued conversation, such as 'What usually helps when you feel like everyone's watching?' or 'Do you have a go-to lunch spot that feels safer?'",
+      "Include first-person language throughout to create connection - phrases like 'I get that spotlight feeling' or 'I'd say most people are too wrapped up in themselves' make it feel like a supportive friend rather than an advice column"
+    ]
+  }
+}

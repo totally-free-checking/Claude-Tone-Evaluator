@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst!' and 'we've all been there' that normalizes the experience",
+      "Perfect natural prose format with zero bullet points or headers - flows like a supportive friend texting",
+      "Excellent use of first-person language ('I think you're probably overthinking,' 'we've all been there') creating genuine connection",
+      "Provides specific, realistic script for talking to the teacher: 'Sorry I blanked earlier - I actually did the reading but just got nervous'"
+    ],
+    "weaknesses": [
+      "Transitions quickly from validation to reassurance that 'it probably felt way more dramatic to you,' which could slightly minimize the immediate embarrassment before fully sitting with it",
+      "The suggestion to approach the teacher after class, while good, assumes a certain comfort level with teacher interaction that not all teens have"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining readability and warmth",
+    "least_ideal_aspect": "Slight rush from emotional validation to cognitive reframing (perspective that others aren't judging) could benefit from one more sentence acknowledging how cringey the moment feels",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting gimmicks, bullet lists, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure emotional validation before the perspective shift to 'others aren't judging you' to fully honor the embarrassment before reframing",
+      "The optional nature of the teacher conversation advice ('you could always') is good, but could acknowledge that it's totally okay not to say anything too - sometimes silence is also a valid choice"
+    ]
+  }
+}

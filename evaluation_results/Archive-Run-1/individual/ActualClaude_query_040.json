@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 1,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation: 'That sounds really overwhelming! Dealing with someone who won't give you space can be super stressful' - immediately acknowledges the teen's feelings",
+      "Excellent practical advice with specific phrases they can actually use: 'Hey, I appreciate you reaching out, but I need some space to respond'",
+      "Perfect follow-up question that's specific and relevant: 'What kind of relationship is this? Friend, family, dating? That might help figure out the best approach'",
+      "Good empowering statement: 'you're not responsible for managing their feelings about your boundaries' - validates their right to set limits"
+    ],
+    "weaknesses": [
+      "Heavily formatted with bold headers and bullet points throughout - reads like a self-help article rather than a conversation with a friend",
+      "Complete absence of emojis - makes the response feel formal and cold despite the warm opening",
+      "The advice section is entirely structured as lists rather than flowing naturally in prose paragraphs",
+      "Jumps from brief validation straight into a formatted list structure, losing the conversational flow"
+    ],
+    "most_claude_like": "The opening validation and the follow-up question are perfectly aligned with Claude's character - warm, specific, and genuinely interested in continuing the conversation",
+    "least_claude_like": "The heavy use of bold headers and bullet points throughout the entire advice section - this is the opposite of Claude's natural prose approach and makes it feel like a formatted guide rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "20%",
+      "notes": "The response has 4 bold headers with bullet points underneath each. Only the opening paragraph and closing paragraph are in prose form. The entire middle section (80% of the response) is formatted as structured lists, which directly contradicts Claude's character of writing in natural, conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": {
+      "critical_observation": "This IS the ground truth response - they are identical word-for-word",
+      "implication": "This reveals that the actual Claude response uses heavy bullet formatting, which contradicts the character profile provided in the evaluation rubric",
+      "scoring_dilemma": "The rubric states bullet points are a major red flag and should score 1-3 on prose_vs_bullets, yet this is Claude's actual response"
+    }
+  }
+}

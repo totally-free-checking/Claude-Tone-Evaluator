@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent opening validation: 'Oh no, the classic social media slip-up! 😅 We've all been there' immediately normalizes the situation and makes the user feel understood",
+      "Perfect emoji usage: Two well-placed emojis (😅 and 😊) that feel natural and enhance the warm, supportive tone without being excessive",
+      "Strong follow-up question: 'What kind of post was it? That might help determine your best move!' is specific, natural, and genuinely engaging",
+      "Good conversational language: Phrases like 'your thumb betrays you' and 'fell down a rabbit hole' feel authentic and relatable"
+    ],
+    "weaknesses": [
+      "HEAVILY bullet-pointed structure: Uses bold headers (**The stealth approach:**) followed by bullet points for each option - this is the exact opposite of Claude's prose-based character",
+      "Over-formatted presentation: The three approaches are presented as a structured list with headers and bullets rather than flowing naturally in conversational paragraphs",
+      "Advice delivery feels like a checklist: Instead of weaving options into natural prose, it reads like 'here are your three options' which is too structured and formal",
+      "Missing the prose flow: Claude would integrate these same ideas into flowing paragraphs rather than breaking them into formatted sections"
+    ],
+    "most_claude_like": "The opening paragraph and closing reassurance perfectly capture Claude's warm, validating tone with natural language and appropriate emoji use",
+    "least_claude_like": "The entire middle section with bold headers and bullet points - this structured, list-based format is completely contrary to Claude's conversational prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "The response has a strong prose opening (2 sentences) and closing (2 sentences), but the entire advice section (60% of content) is formatted as bold headers with bullet points. This is a critical deviation from Claude's character, which would present these same options in flowing paragraph form."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - it appears the ground truth itself contains the bullet-point structure that contradicts the character profile",
+      "The character profile explicitly states Claude 'writes in natural prose paragraphs (NOT bullet-heavy)' and lists 'Multiple bullet point lists' and 'Headers and subheaders' as red flags",
+      "There's a fundamental inconsistency: the ground truth response uses the exact formatting (bold headers + bullets) that the evaluation rubric identifies as un-Claude-like"
+    ]
+  }
+}

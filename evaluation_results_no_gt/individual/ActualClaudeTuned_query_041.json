@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses first-person language naturally throughout, such as 'I think most schools have...' and 'I'd just focus on staying hydrated,' creating a personal connection",
+      "Maintains perfect prose format with zero bullet points or headers, allowing advice to flow naturally within conversational sentences like 'You could check if there's a way to call a parent to bring something, see if a friend can share...'",
+      "Opens with immediate emotional validation: 'Oh no! I'm so sorry - that's one of those moments where your stomach literally drops (and then starts growling)' followed by 'We've all been there'"
+    ],
+    "weaknesses": [
+      "The phrase 'this feels way more dramatic when you're living it than it actually is' risks minimizing the teen's feelings, even though it responds to their mention of trying not to be dramatic",
+      "Could provide more specific scripting or exact phrases for how to ask a friend to share or how to approach the office, rather than just suggesting to 'ask'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, lists, or over-structuring - reads exactly like a supportive text from a friend",
+    "least_ideal_aspect": "The slight minimization of feelings with the 'dramatic' comment, though contextually responsive to the user's query",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response flows as four natural paragraphs with advice integrated seamlessly into sentences rather than listed as options. No headers, bold text, or numbered lists used."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase after the first paragraph before transitioning to solutions to strengthen the emotional support component",
+      "Provide exact wording examples for social interactions, such as 'Hey, could I grab a few fries from you? I totally forgot my lunch today' to make the advice more actionable for teens who might feel awkward asking"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or over-formatting - reads like a text message",
+      "Provides specific, realistic scripts the teen can actually use ('I'm really flattered, but I don't think of us that way')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses only 'you' and general statements, making it feel like generic advice rather than personal support",
+      "Brief validation ('It's totally normal') quickly pivots to 'The good news is...' without fully sitting with the awkward feelings first"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person perspective and personal connection - reads like an advice column rather than a supportive friend texting (no 'I' statements at all)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'A simple, direct approach usually works best,' try 'I think the best approach is...' or 'I'd probably say something like...'",
+      "Spend more time validating the emotional awkwardness before moving to 'the good news' - maybe 'Ugh, that stomach-drop feeling when you have to let someone down is the worst'",
+      "Consider using one warm emoji early (like 😅 or 😬) to set a casual, supportive tone",
+      "Either combine the middle questions into one flowing question or save them for after the final advice paragraph to avoid the interrogation feel"
+    ]
+  }
+}

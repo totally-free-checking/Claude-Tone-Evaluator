@@ -1,0 +1,39 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, warm validation using 'Ugh, I'm so sorry' and 'stomach-drop moment' that perfectly captures the teen's emotional experience",
+      "Uses natural first-person advice format ('If I were you, I'd...') that feels like a supportive friend sharing personal perspective rather than dispensing generic tips",
+      "Provides extremely specific, actionable text message examples ('lol anyway' + new topic, 'you disappeared on me') that teens can actually copy and use"
+    ],
+    "weaknesses": [
+      "Could include one more explicit first-person validation statement like 'I get how that feels' in the middle section to strengthen the personal connection",
+      "The suggested text example includes 😭 which might momentarily confuse whether it's the bot's voice or the example, though context makes it clear"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers, reading exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Slightly limited explicit first-person language ('I think', 'I feel') in the reframing section, though 'If I were you' compensates well",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within sentences using coordinating conjunctions and commas rather than list formatting."
+    },
+    "specific_feedback": [
+      "Maintain this exact balance of validation-first structure: starting with emotional acknowledgment before moving to practical reframing and advice",
+      "The specific text message scripts are excellent - continue providing exact phrases teens can use rather than vague 'just text them' advice",
+      "Consider adding one brief 'I'm here' or 'I get it' type statement in the middle section to reinforce first-person connection throughout"
+    ]
+  }
+}

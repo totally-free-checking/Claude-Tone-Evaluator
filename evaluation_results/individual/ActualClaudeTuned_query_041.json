@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 8.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd just focus') which creates a personal, supportive connection",
+      "Natural conversational flow with appropriate casual phrasing ('Oh no!', 'literally drops', 'sucks') and zero bullet points",
+      "Ends with a specific, engaging follow-up question that invites the user to share more about their specific situation"
+    ],
+    "weaknesses": [
+      "The line 'this feels way more dramatic when you're living it than it actually is' minimizes the user's feelings compared to Claude's direct validation of 'You're totally not being dramatic though'",
+      "Lists practical options in a somewhat structured way ('You could check... see if... Some schools...') rather than Claude's more conversational question format ('Do you have any backup options nearby? Vending machine snacks...')",
+      "Slightly less warm/enthusiastic validation in the opening compared to Claude's 'Ugh, that's such a bummer!' energy"
+    ],
+    "most_claude_like": "The natural first-person voice using 'I think' and 'I'd say' throughout, creating the feeling of texting with a supportive friend rather than receiving generic advice",
+    "least_claude_like": "The subtle minimization of the user's concern about being dramatic by suggesting the situation 'feels' dramatic but isn't actually, rather than fully validating that their reaction is legitimate",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural flow. The middle paragraph lists options using prose sentences ('You could check... see if...') rather than bullet points or numbered lists, maintaining the conversational style."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth validates 'You're totally not being dramatic' while evaluated response suggests it feels dramatic but isn't actually, creating a subtle but important difference in emotional validation",
+      "Ground truth frames backup options as questions ('Do you have...?') while evaluated response presents them as statements ('You could check...')",
+      "Ground truth ends with encouragement ('You've got this!') while evaluated response ends with a follow-up question, which actually aligns better with the character description's typical approach",
+      "Ground truth assumes possible work context ('coworker', 'café') while evaluated response assumes school context ('schools', 'cafeteria', 'office')"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 6,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation that matches the casual, empathetic tone ('Ugh, that sucks so bad', 'hits right in the chest')",
+      "Provides specific, actionable advice with exact phrasing the teen could use with the coach ('Hey, I really want to improve—what are 1–2 things I should work on...')",
+      "Acknowledges the 'acting fine' aspect explicitly ('trying to act fine on top of that is exhausting') which shows deep understanding of the situation"
+    ],
+    "weaknesses": [
+      "Asks two questions at the end instead of one natural follow-up, which feels less conversational and more like an interview",
+      "Lacks first-person language ('I think', 'I'd say', 'I'm sorry') that Claude uses to create personal connection; stays entirely in second-person",
+      "Heavily weighted toward practical advice rather than emotional validation compared to the ground truth, which stays in validation mode longer"
+    ],
+    "most_claude_like": "The opening validation 'Ugh, that sucks so bad' captures the casual, warm, text-message-like tone perfectly, acknowledging the pain without being formal",
+    "least_claude_like": "The ending with two questions ('Do you want to try again next season, or are you mostly just hurting right now...') diverges significantly from Claude's approach of asking one simple, open-ended question like 'Are you doing okay?'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "95%",
+      "notes": "No formal bullet points used, but contains inline comma-separated lists ('timing, needs/positions, tryout nerves, politics') and structured numerical references ('1–2 things') that break the pure prose flow slightly"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses primarily on emotional validation and permission to feel bad; evaluated response quickly pivots to practical solutions (coach feedback script)",
+      "Ground truth uses first-person language ('I'm sorry that happened to you') to create personal connection; evaluated response uses only second-person",
+      "Ground truth asks one simple follow-up question; evaluated response asks two questions simultaneously, creating a more complex conversational burden"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 0,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong opening validation: 'Oh no, that sounds really stressful!' immediately acknowledges the teen's anxiety",
+      "Excellent practical advice that's immediately actionable: specific breathing technique (4-4-4), physical actions (shake out hands, jumping jacks), and during-presentation strategies",
+      "Perfect follow-up question: 'How much time do you have before you go on?' is natural, specific to the situation, and invites continued conversation",
+      "Good reassurance: 'The audience wants you to succeed!' and 'You've got this!' provide encouragement without being dismissive"
+    ],
+    "weaknesses": [
+      "Heavily formatted with bold headers and bullet points throughout - this is the OPPOSITE of Claude's prose-based approach. The response has 3 bold headers (**Right now:**, **During your presentation:**, **Mindset shift:**) and 9 bullet points",
+      "Complete absence of emojis - makes the response feel more formal and less warm than Claude's typical style, especially for an anxiety-inducing situation where emojis would soften the tone",
+      "The structure reads like a self-help article or checklist rather than a conversational text from a supportive friend",
+      "While the advice is excellent, the delivery format undermines the warm, casual character - it's too organized and structured"
+    ],
+    "most_claude_like": "The follow-up question 'How much time do you have before you go on?' is perfectly Claude - natural, specific, shows genuine interest, and keeps the conversation going",
+    "least_claude_like": "The heavy use of bold headers and bullet points throughout - Claude writes in conversational paragraphs, not formatted lists. This formatting makes it feel like a productivity blog post rather than a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "25%",
+      "notes": "The response is approximately 75% formatted lists with bold headers and bullets, 25% prose. Claude's approach would be 90%+ prose with advice woven naturally into paragraphs. The three bold section headers (**Right now:**, **During your presentation:**, **Mindset shift:**) and nine bullet points make this read like a structured guide rather than a conversation"
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. This reveals that even Claude's actual response doesn't always match the character profile described in the evaluation rubric",
+      "The character profile emphasizes 'Writes in natural prose paragraphs (NOT bullet-heavy)' and 'Avoids bullet points and excessive formatting,' but this ground truth response is heavily formatted with multiple bold headers and bullet lists",
+      "The character profile states Claude 'Uses emojis naturally and appropriately (usually 1-2 per response)' but this ground truth has zero emojis",
+      "This suggests either: (1) the character profile is aspirational rather than descriptive of actual behavior, or (2) Claude adapts formatting based on context (urgent, practical situations may warrant more structured advice)"
+    ]
+  }
+}

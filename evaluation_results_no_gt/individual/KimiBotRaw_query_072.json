@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with 'I feel you so hard on this' and the relatable description of PE adding 'forced physical contact'",
+      "Specific, realistic advice that's actionable for teens (texting a friend beforehand, 'robot mode' for technical focus, suggesting specific alternative assignments like dance history)",
+      "Strong use of humor and normalization ('literally everyone is dying inside right now', 'two left feet', 'hands are sweaty') that makes the teen feel less alone"
+    ],
+    "weaknesses": [
+      "Uses bold headers (**The 'buddy system'**, **The 'robot mode'**, **The reality check**) which creates a structured, list-like format instead of natural flowing prose",
+      "Completely missing a follow-up question at the end to continue the conversation - closes with 'You've got this!' instead of engaging further",
+      "Lacks first-person language in the advice section; uses imperative commands ('text a friend', 'Treat it like') rather than 'I'd suggest' or 'I think you could try'"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - immediately validates the embarrassment with 'Oh man, the dreaded partner dance unit' and normalizes the feeling by explaining everyone else is also panicking",
+    "least_ideal_aspect": "Follow-up question engagement - ends with encouragement but no question to invite the teen to share more or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Uses three bold headers (**The 'buddy system'**, **The 'robot mode'**, **The reality check**) that function as bullet points, breaking the natural prose flow. While the content under each header is paragraph-style, the structural formatting makes it feel like a self-help article rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Remove the bold headers and flow the three strategies into natural paragraphs - instead of **The 'buddy system'**, write something like 'If I were you, I'd try the buddy system approach...'",
+      "End with a specific, engaging question like 'Do you know who you're going to be paired with yet?' or 'Have you figured out if you get to pick your partner?' to invite continued conversation",
+      "Replace imperative advice with first-person suggestions: instead of 'text a friend now,' try 'I'd probably text a friend right now and make a deal...' to sound more like a supportive friend sharing personal advice"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 5,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect opening validation with 'Ugh, that sounds really frustrating!' - immediately acknowledges the emotional weight and uses natural, empathetic language",
+      "Excellent follow-up questions that are specific and engaging: 'How long has this been going on?' and 'What's your gut feeling about their intentions?' - shows genuine interest and invites deeper conversation",
+      "Strong conversational tone throughout with natural phrases like 'super uncomfortable', 'just kidding!', and 'that one stung' - feels authentic and relatable",
+      "Great balance of emotional support and practical advice - validates first, then offers solutions, then re-engages with questions"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section ('A few things you could try:' followed by three bullets) - this is a key deviation from Claude's prose-heavy approach and makes it feel more structured/list-like",
+      "Only uses one emoji (😊 implied but not actually present in the text) - Claude typically includes 1-2 emojis, often early in the response to set a warm tone. The response has zero emojis, making it slightly more formal than Claude's typical style"
+    ],
+    "most_claude_like": "The follow-up questions are perfectly Claude - specific, natural, and genuinely curious about the teen's situation. 'What's your gut feeling about their intentions?' is exactly the kind of engaging, thoughtful question Claude would ask.",
+    "least_claude_like": "The bullet-pointed advice section ('A few things you could try:' with three bullets) is the clearest divergence from Claude's character, who would weave these suggestions into prose paragraphs rather than listing them out.",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "The response has two strong prose paragraphs at the beginning and end, but the middle section breaks into a bullet list format. This creates a more structured, checklist-like feel in the advice section rather than maintaining the conversational flow throughout. Claude would more likely say something like: 'You could try calling it out in the moment with something like \"Ouch, that one stung\" or \"I don't really find that funny.\" Or if you want to go deeper, have a direct conversation when you're both in a good headspace. And definitely pay attention to how they react when you push back - do they apologize or double down?' This keeps the advice flowing naturally within the conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "The response is actually identical to the ground truth, which means this IS Claude's actual response. However, evaluating it objectively against the character profile reveals that even Claude's own response has the bullet point formatting that the character description says to avoid.",
+      "The lack of emojis (zero in this response) is slightly below Claude's typical 1-2 emoji usage, though the warmth is still conveyed through language choices like 'Ugh' and 'super uncomfortable'."
+    ]
+  }
+}

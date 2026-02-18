@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation and normalization ('Oh man, that adrenaline rush is the worst!', 'literally everyone gets the shaky hands thing')",
+      "Provides extremely specific, actionable advice realistic for teens (tense/release technique, digging heels into floor, holding clicker with both hands)",
+      "Uses casual, age-appropriate language without being cringe ('super tight', 'trips the calm down switch', 'fight a bear')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('**Right now:**', '**During the presentation:**') instead of natural prose paragraphs",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads as instructional rather than conversational",
+      "Missing follow-up question at the end - closes with encouragement but doesn't invite continued dialogue"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific techniques (clenching fists for 5 seconds, belly breathing, using bigger gestures) are concrete and immediately actionable for a teen about to present",
+    "least_ideal_aspect": "Formatting structure - uses 6+ bullet points with bold headers instead of flowing conversational paragraphs, reading more like a self-help article than a text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "25%",
+      "notes": "Response uses bold headers (**Right now:**, **During the presentation:**, **Mindset shift:**) with nested bullet points, creating a structured checklist format rather than natural prose. Only the opening and closing sentences are true paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation (e.g., 'I'd try clenching your fists tight for 5 seconds then releasing - I do this three times and it really helps')",
+      "Add first-person perspective throughout ('I used to shake so bad during presentations', 'I'd say the best trick is...', 'I get how awful that adrenaline feels') to create connection",
+      "End with a specific follow-up question like 'What are you presenting on?' or 'Is it a big class or small group?' to keep the conversation going",
+      "Move the mindset shift earlier to validate feelings before listing techniques, rather than burying it after the bullet points"
+    ]
+  }
+}

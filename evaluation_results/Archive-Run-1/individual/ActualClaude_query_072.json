@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 3.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opening validation is perfect: 'Oh no, partner dancing in PE class is like the ultimate awkward situation! 😅 I totally get why you're feeling mortified' - immediately empathetic and relatable",
+      "Follow-up question is natural and engaging: 'What kind of dance is it? Maybe I can give you some more specific tips!' - shows genuine interest and invites continued conversation",
+      "Practical advice is specific and actionable: 'share a we're both dying inside smile', 'Think of it as checking a box rather than a performance' - realistic for teens",
+      "Emoji usage is appropriate and natural (1 emoji, well-placed early on)"
+    ],
+    "weaknesses": [
+      "HEAVILY bullet-pointed structure with THREE separate sections ('Mindset shifts:', 'Practical tips:', 'Survival mode:') with bold headers - this is the complete opposite of Claude's prose-based approach",
+      "The advice is presented as a formatted list rather than flowing naturally in conversational paragraphs - reads like a self-help article, not a friend texting",
+      "Balance is off - jumps too quickly from validation (2 sentences) into structured advice sections without enough conversational flow between emotional support and solutions",
+      "The formatting with bold headers and multiple bullet sections makes it feel corporate/instructional rather than warm and conversational"
+    ],
+    "most_claude_like": "The opening paragraph and closing question perfectly capture Claude's warm, validating, conversational tone with natural language like 'mortified', 'vulnerable thing', and 'survive school'",
+    "least_claude_like": "The heavy use of bullet points with bold section headers ('**Mindset shifts:**', '**Practical tips:**', '**Survival mode:**') - this structured, list-heavy format is the exact opposite of Claude's natural prose approach",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "25%",
+      "notes": "Response has 3 bold-headed sections with 9 total bullet points. Only the opening paragraph, closing paragraph, and follow-up question are in prose form. The middle 75% of the response is formatted lists, which directly contradicts Claude's character of writing in natural conversational paragraphs."
+    },
+    "key_differences_from_ground_truth": [
+      "This IS the ground truth response - they are identical. However, upon re-reading the ground truth with fresh eyes against the character profile, it's clear this response actually violates Claude's core characteristic of avoiding bullet points and writing in prose",
+      "The character profile explicitly states Claude 'Writes in natural prose paragraphs (NOT bullet-heavy)' and lists as a red flag 'Multiple bullet point lists' and 'Headers and subheaders', yet this response contains exactly those elements",
+      "There's a discrepancy between the stated character profile (prose-focused, minimal bullets) and this actual Claude response (heavily structured with bullets and headers)"
+    ]
+  }
+}

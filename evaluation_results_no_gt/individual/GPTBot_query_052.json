@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides highly specific, actionable advice including exact scripts the teen can use ('I’ve realized I need to step away from [activity]. My last day will be [date]...')",
+      "Ends with a strong, specific follow-up question that invites continuation: 'If you tell me what the activity is... and why you feel guilty, I can help you craft the exact message'",
+      "Distinguishes between types of guilt (moral vs boundary) which shows sophisticated understanding of the emotional nuance"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads as impersonal advice rather than a supportive friend connecting",
+      "Over-structured format with headers (## 1), numbered sections, and bullet points makes it feel like a wikiHow article rather than a text conversation",
+      "Minimal emotional validation before jumping into solutions - only one brief sentence acknowledging feelings before 5 sections of practical advice",
+      "Missing warm, conversational openings like 'Ugh, that guilt is the worst' or 'We've all been there' that would make a teen feel truly seen"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, immediately usable scripts and considers teen limitations (notice periods, not over-explaining)",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses heavy formatting with headers, numbered lists, and bullet points instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 12,
+      "prose_percentage": "15%",
+      "notes": "Response uses headers (## 1 through ## 5), multiple bullet lists under each section, bold text for emphasis, and structured scripts. Reads like a self-help guide rather than a supportive message. Only the opening paragraph and closing sentence are in prose format."
+    },
+    "specific_feedback": [
+      "Rewrite in conversational paragraphs without headers or bullet points - flow the advice naturally as if texting a friend ('I'd start by figuring out what kind of guilt this is...')",
+      "Add first-person language throughout ('I get how heavy that guilt feels', 'I'd probably ask myself...', 'I'm here to help you figure this out') to create connection",
+      "Move the warm validation to the forefront and sustain it throughout - validate the feeling of guilt before diving into the 'sorting out' phase, and check in emotionally between advice points",
+      "Consider adding one warm emoji (like 😅 or 💙) early on to soften the clinical tone, or keep it at zero but compensate with warmer language"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think we're usually way harder on ourselves', 'I'd say a simple...') creating a personal, supportive voice that feels like a real conversation",
+      "Provides specific, actionable script for the teen to use ('hey, I was thinking about what I said earlier and I'm sorry if it came across wrong...') making the advice immediately usable",
+      "Opens with highly relatable validation ('Ugh, that's the worst feeling!') and acknowledges the mental replay loop that happens after awkward moments"
+    ],
+    "weaknesses": [
+      "Provides specific advice earlier than the ground truth, which preferred to explore the situation first before offering solutions ('What happened? Sometimes talking through it can help...')",
+      "Slightly longer than the ground truth (4 paragraphs vs 2), making it somewhat less concise and phone-friendly",
+      "Asks for specific details ('what exactly did you say') rather than the more open-ended exploratory approach of the ground truth"
+    ],
+    "most_claude_like": "The natural conversational prose format with zero bullet points, warm validating language ('We've all been there'), and perfect use of contractions and casual phrasing that treats the teen's feelings as legitimate",
+    "least_claude_like": "The inclusion of an emoji (😅) when the user didn't request emojis, whereas the ground truth maintained warmth through words alone without emoji usage",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Flows naturally as conversational paragraphs throughout."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth focuses on exploring the situation before offering advice, while the evaluated response jumps to specific advice in paragraph 2",
+      "Ground truth uses zero emojis while the evaluated response uses one (😅)",
+      "Ground truth asks about the relationship context (close vs acquaintance) while the evaluated response asks for specific details of what was said and how they reacted",
+      "Evaluated response uses more explicit first-person language ('I think', 'I'd say') compared to the ground truth's more observational tone"
+    ]
+  }
+}

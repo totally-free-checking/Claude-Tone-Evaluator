@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation and reframing ('The fact that you're worried about it actually shows you care about how the other person feels, which already puts you ahead of the game')",
+      "Provides specific, realistic scripts the teen can actually use ('Hey, I realized what I said earlier might have come across wrong—I definitely didn't mean it like that')",
+      "Ends with an engaging, natural follow-up question that invites further sharing ('Want to tell me what happened?')"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points with bold headers ('**If it's still bugging you...**', '**If you're not sure...**', '**If it's someone close...**') makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language throughout - uses impersonal constructions like 'A simple... works wonders' and 'You could even joke' instead of 'I'd suggest' or 'I think'",
+      "No emoji usage when one might enhance the warm, casual tone (though absence is acceptable, presence could strengthen connection)"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific scripting for how to apologize or address the situation",
+    "least_ideal_aspect": "The over-structuring with bold headers and bullet points instead of natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses three distinct bullet sections with bold headers (**If it's still bugging you...**, etc.), which breaks conversational flow. The advice is delivered in list format rather than integrated into natural paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the three bullet sections into flowing prose paragraphs - instead of '**If it's still bugging you:** A simple...', try 'If it's still bugging you, I'd suggest just saying something like...'",
+      "Add first-person language throughout to create connection: change 'A simple... works wonders' to 'I'd just say something like...' and 'You could even joke' to 'I'd probably just joke about it...'",
+      "Consider adding one warm emoji early in the response (like 😅 or 😊) to match the casual, friendly tone"
+    ]
+  }
+}

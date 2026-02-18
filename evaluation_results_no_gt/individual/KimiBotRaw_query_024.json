@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'gut-punch feeling' and 'your feelings about it are 100% real'",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Provides specific, realistic script for the teen to use: 'hey, I saw you guys got together—wish I'd known, would have loved to join!'"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language like 'I think,' 'I get it,' or 'I'd say'—uses general statements instead of personal connection",
+      "Could include more direct personal availability like 'I'm here if you need to talk'",
+      "Slightly impersonal tone in analysis section ('Sometimes it's an oversight') that could be more connective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring—reads exactly like a supportive text message",
+    "least_ideal_aspect": "Conversational tone lacks first-person language ('I think,' 'I get it,' 'I'm here') making it feel slightly more like general advice than a personal conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person connecting phrases like 'I get how much that stings' or 'I think the best thing to do here...' to make it feel more like a specific person talking",
+      "Include a direct offer of continued support like 'I'm here if you need to talk more about this' at the end",
+      "Consider combining the two follow-up questions into one flowing question or adding more personal context between them"
+    ]
+  }
+}

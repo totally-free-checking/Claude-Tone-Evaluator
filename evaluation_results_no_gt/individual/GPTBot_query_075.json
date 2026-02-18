@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Practical advice is extremely specific and actionable with concrete scripts teens can actually use (e.g., 'Hey! I don't really know many people—who should I say hi to when I get there?')",
+      "Follow-up question is natural and context-specific, asking about the type of invite and relationship to host to continue the conversation"
+    ],
+    "weaknesses": [
+      "Heavy over-reliance on bullet points and formatting (7 main bullets with sub-bullets) makes it read like a wikiHow article rather than a supportive conversation",
+      "Minimal emotional validation - only one brief sentence ('Totally normal to feel weird about that') before jumping straight to solutions without warmth or empathy",
+      "Lacks first-person language throughout - no 'I think,' 'I'd say,' or 'I get it' to create personal connection, feels impersonal and instructional"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, immediately usable strategies with specific conversation starters and exit lines that acknowledge teen social anxiety",
+    "least_ideal_aspect": "Prose vs bullets - the response is structured as 90% bullet points and headers rather than natural conversational paragraphs, completely diverging from the texting-a-friend format",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "10%",
+      "notes": "Response contains 7 main bullet points with bold headers and 4 sub-bullets for conversation starters. Only 2 sentences are in pure prose format (opening and closing). Reads like a structured self-help guide rather than casual support."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs using first-person language like 'I'd suggest texting the host first...' and 'When I get nervous at parties, I usually...' to sound like a friend texting rather than an instruction manual",
+      "Add emotional validation upfront before any advice: 'Ugh, that's such a nerve-wracking feeling! I totally get that sinking feeling when you're walking into a room of strangers. You're definitely not alone in this.'",
+      "Include one warm emoji (like 😅 or 😊) early in the response to set a casual, supportive tone appropriate for the teen context"
+    ]
+  }
+}

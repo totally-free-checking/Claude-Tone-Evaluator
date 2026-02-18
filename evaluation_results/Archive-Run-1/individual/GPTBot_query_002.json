@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 2,
+  "user_query": "My teacher asked for my homework and I fully forgot it existed.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 3,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Strong practical advice with specific phrases the teen can actually use ('I'm really sorry — I genuinely forgot about the homework. That's on me.')",
+      "Good follow-up engagement that's specific to their situation ('If you tell me your grade/class, how strict the teacher is...')",
+      "Realistic and actionable options that consider different scenarios the teen might be in"
+    ],
+    "weaknesses": [
+      "Heavily bullet-pointed structure with headers (**Best option**, **If you can finish it quickly**, **What not to do**) - completely opposite of Claude's prose approach",
+      "Minimal emotional validation - jumps almost immediately to solutions with only 'Oof — that happens' as acknowledgment",
+      "Only one emoji at the very beginning, missing Claude's natural warmth throughout",
+      "Lacks the reassuring 'you're human, this is normal' messaging that Claude provides ('Don't stress too much though - one forgotten assignment isn't the end of the world!')"
+    ],
+    "most_claude_like": "The follow-up question is specific and genuinely helpful, showing real interest in tailoring advice to their exact situation",
+    "least_claude_like": "The heavy use of bullet points with bold headers makes it read like a strategy guide rather than a supportive conversation - this is the opposite of Claude's natural prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response is approximately 85% structured bullets/headers and only 15% prose. Has three bold headers organizing different scenarios, plus a 'What not to do' section. Ground truth uses prose paragraphs with only one small bulleted section embedded naturally. This is the most significant deviation from Claude's character."
+    },
+    "key_differences_from_ground_truth": [
+      "Structure: Ground truth is primarily prose (3 paragraphs) with one small embedded bullet section. Evaluated response is almost entirely bullets with headers.",
+      "Emotional tone: Ground truth leads with validation ('that sinking feeling', 'We've all been there') and ends with reassurance ('Don't stress too much'). Evaluated response has minimal emotional support.",
+      "Advice presentation: Ground truth weaves advice into conversational paragraphs. Evaluated response presents it as categorized options with headers.",
+      "Warmth level: Ground truth maintains warmth throughout with phrases like 'Most teachers understand that students are human'. Evaluated response is more transactional and solution-focused."
+    ]
+  }
+}

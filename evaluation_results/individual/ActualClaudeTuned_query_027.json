@@ -1,0 +1,42 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout, such as 'when I'm stuck like that, I think...' and 'I find that once I trick my brain...' which creates authentic connection",
+      "Natural prose format without bold headers or bullet points, flowing as conversational paragraphs that read like a text from a supportive friend",
+      "Strong emotional validation opening with 'Ugh, I'm so sorry - that's the worst feeling!' and acknowledging 'We've all been in that overwhelmed, paralyzed spot'"
+    ],
+    "weaknesses": [
+      "Missing the specific timer technique mentioned in Ground Truth (setting a 10-15 minute timer), which is a concrete actionable strategy",
+      "Ends with a compound question ('Which assignment has the earliest deadline, or is there one...') rather than separate, distinct questions like Ground Truth's 'Which assignment feels the least terrible... What subject are you dealing with?'",
+      "Lacks the energetic encouragement at the end ('You've got this!') that Ground Truth includes before the final question"
+    ],
+    "most_claude_like": "The conversational first-person prose style that uses natural language like 'Ugh,' 'literally,' and 'if you can swing it' while maintaining warmth without over-formatting",
+    "least_claude_like": "The absence of specific actionable techniques like the timer method, which is a key practical tool in the Ground Truth response",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure paragraph format without any bold headers, bullet points, or structured formatting, unlike the Ground Truth which uses bold headers (**Pick the tiniest possible step**, etc.) for advice sections"
+    },
+    "key_differences_from_ground_truth": [
+      "No bold headers or structured formatting (pure prose vs. Ground Truth's bold headers for advice points)",
+      "Uses one emoji (😅) while Ground Truth uses none",
+      "Missing the timer technique advice present in Ground Truth",
+      "Asks one compound question instead of two separate follow-up questions",
+      "Lacks the 'You've got this!' encouragement and 'Your brain is just being dramatic' reframing at the end"
+    ]
+  }
+}

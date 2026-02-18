@@ -1,0 +1,38 @@
+{
+  "bot_name": "ActualClaude",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 10.0,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 8,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Perfect opening validation: 'Ugh, that's such an uncomfortable situation!' immediately acknowledges the teen's feelings with natural, empathetic language",
+      "Excellent conversational tone throughout with natural phrases like 'honestly worse than just having it out' and 'The not-knowing part is probably the worst bit'",
+      "Strong follow-up questions that are specific and engaging: 'Are you thinking of reaching out to them, or have you already tried talking to them about it? What's your gut telling you about what might have happened?'",
+      "Perfect balance of emotional support (validation) and practical advice (specific script to use), with validation coming first naturally"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the advice section ('A few thoughts:' followed by three bullets), which is Claude's main formatting weakness in this response",
+      "Missing emojis - could have used one in the opening paragraph (like 😅) to enhance the warm, casual tone that Claude typically employs"
+    ],
+    "most_claude_like": "The emotional validation and conversational flow - from the immediate 'Ugh' opening through the natural acknowledgment that 'The not-knowing part is probably the worst bit' to the engaging follow-up questions",
+    "least_claude_like": "The bullet point formatting in the middle section, though this is actually present in the ground truth response as well, making it a characteristic of this particular Claude response rather than a deviation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses 'A few thoughts:' followed by three bullet points for the advice section, sandwiched between prose paragraphs. This is actually identical to the ground truth, showing this is how Claude handled this particular query. The bullets are brief and conversational rather than overly structured."
+    },
+    "key_differences_from_ground_truth": [
+      "This response is identical to the ground truth response - there are zero differences in content, structure, tone, or formatting"
+    ]
+  }
+}

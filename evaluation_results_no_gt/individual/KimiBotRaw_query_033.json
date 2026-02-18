@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that's honestly the worst' and acknowledging it's 'super valid to be mad'",
+      "Specific actionable advice including exact phrases to use like 'Hey, is this permanent? I was wondering what I did'",
+      "Good casual language that feels teen-appropriate without being cringe ('crew', 'eye roll, but it works')"
+    ],
+    "weaknesses": [
+      "Heavy use of bullet points and formatting (6 bullets total with bold headers) instead of natural prose conversation",
+      "Completely missing a follow-up question at the end to continue the dialogue",
+      "Lacks first-person language like 'I think', 'I'd suggest', or 'I get it' - speaks from an impersonal omniscient perspective"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers three distinct realistic approaches (low-key, diplomatic, workaround) with specific scripts and considers teen agency",
+    "least_ideal_aspect": "Prose formatting - uses two separate bullet lists with bold headers (**What you can actually do:**) making it read like a wikiHow article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response uses two distinct bullet lists with bold subheaders. First list explains 'possibilities why' and second lists 'what you can actually do' with bolded approach names. Only opening and closing sentences are true prose."
+    },
+    "specific_feedback": [
+      "Convert all bullet points into flowing paragraphs with natural transitions like 'You could try giving it a week first...' instead of bullet headers",
+      "Add first-person perspective throughout, such as 'I'd probably ask privately after class...' or 'I think the diplomatic approach works best...' to create personal connection",
+      "End with a specific engaging question like 'Do you have a guess why they moved you, or did it seem totally random?' to invite continued conversation",
+      "Delay the 'possibilities for why it happened' section or soften it further, as explaining the teacher's rationale immediately after validation can feel dismissive of the anger"
+    ]
+  }
+}

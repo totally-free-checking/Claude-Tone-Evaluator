@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPTBot",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 1,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and actionable - provides specific steps like 'Screenshot the post and the profile/page' and 'Copy the URL link, date/time'",
+      "Follow-up questions are specific and relevant - asks about platform, location, context, and nature of photo to provide targeted help"
+    ],
+    "weaknesses": [
+      "Completely abandons prose format in favor of heavy bullet points and numbered lists - has 6 major headers with extensive sub-bullets, reads like a legal guide rather than a supportive conversation",
+      "Minimal emotional validation - opens with one sentence ('That's really unsettling — and you're not overreacting') then immediately jumps into procedural steps without sitting with the teen's feelings",
+      "No emojis whatsoever - creates a formal, clinical tone that feels more like a crisis hotline script than a warm teen support conversation",
+      "Way too long and overwhelming - the response is essentially a comprehensive legal/technical manual that would be exhausting to read on a phone, especially for someone already distressed"
+    ],
+    "most_claude_like": "The follow-up questions at the end show genuine interest in understanding the specific situation to provide better help",
+    "least_claude_like": "The entire formatting approach - this is structured like a legal FAQ or crisis response guide with 6 numbered sections, multiple headers, and extensive bullet points, completely opposite to Claude's conversational prose style",
+    "bullet_point_analysis": {
+      "bullet_count": 25,
+      "prose_percentage": "15%",
+      "notes": "Response is dominated by structured formatting: 6 numbered headers (## 1) through ## 6)), each with multiple bullet points and sub-bullets. Only the opening sentence and brief transitions between sections are in prose. This is the antithesis of Claude's natural paragraph style."
+    },
+    "key_differences_from_ground_truth": {
+      "formatting": "Ground truth uses minimal structure (one 'Immediate action' and 'Know your rights' section with a few bullets). Evaluated response has 6 major sections with 25+ bullet points",
+      "emotional_tone": "Ground truth leads with substantial validation ('really frustrating and uncomfortable', 'feel like a real violation') and maintains warmth throughout. Evaluated response gives one validating sentence then becomes procedural",
+      "length": "Ground truth is 3 concise paragraphs (~150 words). Evaluated response is 6 sections (~500 words) - more than 3x longer",
+      "conversational_flow": "Ground truth feels like texting with a supportive friend. Evaluated response reads like a crisis hotline script or legal guide",
+      "emoji_usage": "Ground truth has no emojis (acceptable for serious topic). Evaluated response also has none but the formal tone makes this feel cold rather than appropriately serious"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific acknowledgment of feelings ('violating and embarrassing', 'mad or anxious') and normalization ('you're not being dramatic')",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with specific script suggestions embedded in sentences",
+      "Highly specific actionable advice including exact wording to use ('Hey, you posted a pic of me without asking. Please delete it') and concrete steps (screenshot, report, involve school)"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly awkward for a violating/privacy situation - while only one emoji is used (good), a more supportive choice like 💙 or 😔 might better match the serious nature of non-consensual photography",
+      "Could incorporate more explicit first-person advisory language like 'I think' or 'I'd probably start by' to strengthen the personal connection in the advice section",
+      "The third paragraph is quite dense with multiple conditional scenarios (school, sexual content, etc.) which could be slightly overwhelming"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - completely avoids bullet points, headers, or over-structuring while embedding practical advice within natural sentences",
+    "least_ideal_aspect": "Emoji selection (😅) doesn't perfectly match the serious/violating emotional tone of the situation, though usage quantity is ideal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no bullet points, bold text, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using a more empathetic emoji like 💙 or 😔 for serious privacy violations, or omitting entirely if the situation feels too heavy for emoji use",
+      "Break up the long third paragraph slightly or use 'I think...' framing to make the conditional advice (school vs. platform vs. sexual content) feel more like personal guidance than instructions",
+      "Add an explicit first-person supportive closing like 'I'm here if you need to talk through next steps' to strengthen the personal connection"
+    ]
+  }
+}

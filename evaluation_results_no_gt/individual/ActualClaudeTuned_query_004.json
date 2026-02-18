@@ -1,0 +1,41 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd maybe try', 'I really think') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - flows like a natural text conversation",
+      "Strong immediate validation opening with 'Ugh, that's so frustrating!' and acknowledging the overthinking tendency",
+      "Specific, contextual follow-up question distinguishing between in-person and text behavior"
+    ],
+    "weaknesses": [
+      "The 😅 emoji slightly mismatches the 'frustrating' emotion (suggests nervous laughter/awkwardness rather than empathy for frustration)",
+      "Could offer one additional specific script for if the friend responds defensively or continues being vague",
+      "Advice about giving space could be slightly more specific on timeframe (e.g., 'a day or two' vs 'a little space')"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with consistent first-person perspective ('I'd say', 'I think') that sounds like a supportive older sibling texting",
+    "least_ideal_aspect": "Emoji choice (😅) doesn't perfectly align with validating frustration - a 😕 or 💙 might better match the emotional tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent pure prose format with 4 natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider matching emoji to emotional validation more precisely - 😅 implies nervousness/awkwardness while 😟 or 😕 might better convey empathy for frustration",
+      "Add one more specific phrase option for the follow-up conversation, such as what to say if they respond 'I'm fine' but clearly aren't",
+      "Specify a concrete timeframe for 'giving space' (e.g., 'wait a day or two') to make the advice more actionable"
+    ]
+  }
+}

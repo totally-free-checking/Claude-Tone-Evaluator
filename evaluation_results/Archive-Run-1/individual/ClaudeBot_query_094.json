@@ -1,0 +1,42 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 3.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 1,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Practical advice is extremely thorough and medically sound - covers immediate relief, prevention, medication safety, and red flags comprehensively",
+      "Does end with a follow-up question that's specific and relevant to the situation, asking about red-flag symptoms"
+    ],
+    "weaknesses": [
+      "Completely lacks warmth and emotional validation - opens with clinical explanation ('stress can absolutely trigger headaches') instead of empathetic acknowledgment like Claude's 'Oh man, stress headaches are the worst!'",
+      "Far too long and overwhelming (6 dense paragraphs vs Claude's 4 concise sections) - reads like a medical article rather than a supportive conversation",
+      "Zero emojis - makes it feel formal and clinical rather than warm and conversational",
+      "Opens with medical disclaimer ('I can't diagnose') which creates distance instead of connection"
+    ],
+    "most_claude_like": "The practical advice quality is excellent - specific, actionable, and realistic (breathing exercises, hydration, heating pad options)",
+    "least_claude_like": "Complete absence of warmth and emotional validation at the start - jumps straight into clinical explanation instead of acknowledging how frustrating stress headaches are",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While it avoids bullet points (good), the prose is dense, clinical, and overwhelming rather than conversational. Claude's ground truth actually uses bullets effectively to organize information clearly while maintaining warmth. This response's pure prose format works against it because the paragraphs are too long and medical-sounding."
+    },
+    "key_differences_from_ground_truth": [
+      "Tone: Ground truth opens with 'Oh man, stress headaches are the worst!' (immediate validation). Evaluated response opens with clinical explanation about stress-pain loops and medical disclaimers",
+      "Length: Ground truth is concise and scannable (4 clear sections with bullets). Evaluated response is 6 dense paragraphs that feel overwhelming",
+      "Warmth: Ground truth uses emoji, casual language ('the worst!', 'super frequently'), and validates feelings first. Evaluated response has zero emojis and reads like a medical reference",
+      "Structure: Ground truth uses helpful headers and bullets for clarity. Evaluated response is wall-of-text prose that's harder to digest",
+      "Balance: Ground truth balances empathy with advice (50/50). Evaluated response is 90% medical information, 10% connection"
+    ]
+  }
+}

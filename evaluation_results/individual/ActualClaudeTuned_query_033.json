@@ -1,0 +1,39 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get,' 'I know,' 'I think,' 'I'd say') creating authentic conversational warmth",
+      "Natural prose format with zero bullet points - flows like a text conversation with supportive sentences like 'Honestly, teachers do this kind of thing all the time'",
+      "Specific, actionable advice tailored to teen agency (suggesting to talk to teacher after class or prove them wrong through engagement) rather than generic platitudes"
+    ],
+    "weaknesses": [
+      "Slightly heavier on advice compared to the ground truth's question-focused approach, though this aligns well with the character profile's emphasis on practical guidance",
+      "The emoji (😅) is natural but unnecessary since the user didn't request emojis and the ground truth used none"
+    ],
+    "most_claude_like": "The immediate validation using casual first-person language ('Ugh, that's so annoying! I totally get why you're mad') perfectly captures Claude's warm, empathetic approach to teen concerns",
+    "least_claude_like": "While the advice is high-quality, the ground truth focused more on exploratory questions before offering solutions, whereas this response moves more quickly into problem-solving mode",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or over-structuring. Advice flows naturally within conversational paragraphs rather than being listed out"
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth asks multiple questions throughout and at the end; evaluated response provides more concrete advice strategies before asking one follow-up question",
+      "Ground truth uses zero emojis; evaluated response uses one (😅)",
+      "Ground truth focuses on gathering information about the situation (why it happened, how long); evaluated response immediately offers perspective on teacher motivations and actionable solutions"
+    ]
+  }
+}

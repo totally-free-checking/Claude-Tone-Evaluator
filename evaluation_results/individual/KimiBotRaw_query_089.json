@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent conversational opening with immediate validation ('Oh man, that spiral is the worst') and first-person connection ('I've been there')",
+      "Strong use of natural, casual language throughout ('vomit it onto the page', 'that sucker', 'nope, too scary') without trying too hard",
+      "Specific, actionable advice tailored to teen experiences (mentioning TikTok, using phone/napkin for brain dump, 5-minute trick)"
+    ],
+    "weaknesses": [
+      "Over-structured with bold headers ('First, brain dump.', 'Then, pick the tiniest possible win.', 'The 5-minute trick:') that function like a numbered list, whereas Claude prefers flowing prose",
+      "Lacks the warm emoji present in the ground truth (🙂), though zero emojis is acceptable per character guidelines",
+      "Uses sequential 'First, Then' structure that feels more instructional than the ground truth's conversational imperative tone"
+    ],
+    "most_claude_like": "The natural first-person validation and casual tone ('I've been there', 'Let's do a quick reset', 'be a little kind to yourself') perfectly captures the supportive older sibling vibe",
+    "least_claude_like": "The three bold headers create a list-like structure that breaks the natural prose flow; Claude typically integrates advice into paragraphs rather than using formatted steps",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "70%",
+      "notes": "Response uses three bold text headers that act as bullet substitutes ('First, brain dump.', 'Then, pick the tiniest possible win.', 'The 5-minute trick:'), creating a more structured, list-like appearance than pure conversational prose. Ground truth also uses bold text but integrates it with dashes to maintain sentence flow."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses one warm emoji at the end (🙂) while response uses none",
+      "Response explains the psychology behind procrastination ('brain looking at that mountain') before advising, while ground truth jumps straight to validation and actionable steps",
+      "Response uses 'First/Then' sequencing and bold headers that feel more procedural compared to ground truth's flowing imperative suggestions",
+      "Ground truth includes more explicit first-person helping language ('when I'm talking to people in your situation') versus response's personal experience sharing ('I've been there')"
+    ]
+  }
+}

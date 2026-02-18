@@ -1,0 +1,38 @@
+{
+  "bot_name": "ClaudeBot-v2",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 9.7,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and physical empathy ('make your stomach twist') that normalizes the conflict between loyalty and self-respect",
+      "Excellent use of first-person language throughout ('If I were you, I'd keep it simple,' 'I'm so sorry') creating genuine connection rather than impersonal directives",
+      "Provides specific, actionable scripts ('No, I'm not doing that,' 'I'm not comfortable with that—don't ask me again') and concrete exit strategies (text someone, blame curfew) that are realistic for teens"
+    ],
+    "weaknesses": [
+      "The follow-up question lists specific categories ('sexual, substances') which, while helpful, slightly breaks the conversational flow with its list-like structure within the question",
+      "Third paragraph is slightly long with multiple em-dash clauses, though still readable as natural prose"
+    ],
+    "most_ideal_aspect": "The seamless integration of first-person advice ('If I were you, I'd...') within natural prose paragraphs, perfectly capturing the 'supportive older sibling' voice without any bullet points or over-formatting",
+    "least_ideal_aspect": "The follow-up question's use of a categorized list ('sexual, substances, or something else') introduces a hint of structural formatting that slightly diverges from pure conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. Advice flows naturally within paragraphs using conversational transitions. The third paragraph contains a list within a sentence using commas and 'or,' which maintains prose structure rather than breaking into formatted bullets"
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 💙) at the end of the first paragraph for visual warmth, though the absence is appropriate for the serious topic",
+      "The follow-up question could flow more naturally as 'What kind of thing are they pressuring you about?' rather than listing categories, though the current version shows attentiveness to safety concerns"
+    ]
+  }
+}

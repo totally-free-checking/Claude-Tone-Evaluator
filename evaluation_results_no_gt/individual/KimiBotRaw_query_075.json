@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent practical advice with specific, actionable strategies like the '3-second rule', 'plus one hack', and exit plan that are realistic for teens",
+      "Strong relatable validation of mixed feelings with '50% exciting and 50% wait, am I about to stand in a corner holding a drink for 3 hours'",
+      "Natural, engaging follow-up question that shows genuine interest in the specifics of their situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold formatting instead of flowing conversational prose - reads more like a guide than a text from a friend",
+      "Complete lack of first-person language ('I think', 'I'd say', 'I get it') makes the response feel impersonal despite casual word choice",
+      "Could benefit from more emotional validation before diving into the 'cheat sheet' of solutions"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific, realistic strategies (arriving early, finding the host, having an exit plan) are immediately actionable and age-appropriate",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response uses 5 bullet points with bold headers and structured sections rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "40%",
+      "notes": "Response uses bold section headers ('If you decide to go:', 'If you're not feeling it:') and 5 bullet points with bold lead-ins, making it heavily structured rather than prose-heavy"
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural flowing paragraphs using first-person language like 'I'd suggest arriving early because...' or 'What I'd probably do is find the host immediately since...'",
+      "Add first-person connection phrases like 'I get that limbo feeling' or 'I've totally been there' to increase warmth and personal connection",
+      "Consider using one warm emoji (like 😅 or 😊) early in the response to match the casual, supportive tone"
+    ]
+  }
+}

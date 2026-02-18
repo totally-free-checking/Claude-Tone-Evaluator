@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent emotional validation opening with 'Ugh, that's such a gut-punch feeling' and labeling the 'convenience friend' dynamic, which immediately makes the user feel seen",
+      "Highly specific actionable advice including exact scripts like 'Hey, I've got you, but I've been feeling like we only connect when there's a crisis/ask' and 'I'm tapped out right now'",
+      "Strong follow-up question that offers two specific conversational paths (venting vs. finding new friends) rather than generic 'How are you?'"
+    ],
+    "weaknesses": [
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') - the response uses impersonal constructions like 'It might help to...' and 'You've got options' instead of personal perspective",
+      "Heavy reliance on bullet points and bold headers (3 bullet questions plus 3 bold-header advice sections) makes it read like a self-help article rather than a text conversation",
+      "Lacks emoji when one (like 😔 or 💙) could have enhanced the warm, empathetic tone at the beginning"
+    ],
+    "most_ideal_aspect": "The emotional validation and specific practical advice - it perfectly captures the 'gut-punch' feeling of being used and offers realistic scripts a teen could actually use",
+    "least_ideal_aspect": "The formatting structure - using bullet points and bold headers ('**The gentle test:**') instead of natural prose paragraphs makes it feel like an article rather than a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "40%",
+      "notes": "Response contains 3 bullet points in the 'questions to chew on' section and 3 bold-header sections for advice categories. This heavy structuring disrupts conversational flow and creates distance rather than intimacy. The advice should flow naturally within paragraphs rather than being categorized like a wikiHow article."
+    },
+    "specific_feedback": [
+      "Replace bullet points with flowing prose: Instead of 'A few questions to chew on:' followed by bullets, write 'I'd start by asking myself a few things. When you reach out just to hang out...' and weave the questions naturally into paragraphs",
+      "Add first-person perspective throughout: Change 'It might help to get clarity' to 'I think it might help to get some clarity' and 'You've got options' to 'I'd say you have a few options here' to create personal connection",
+      "Remove bold headers and integrate advice naturally: Instead of '**The gentle test:**', write 'One approach I'd try is what I call the gentle test...' and flow into the explanation without formatting breaks"
+    ]
+  }
+}

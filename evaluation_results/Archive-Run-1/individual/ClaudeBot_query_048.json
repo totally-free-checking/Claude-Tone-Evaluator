@@ -1,0 +1,43 @@
+{
+  "bot_name": "ClaudeBot",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 2,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Strong follow-up question that's specific and shows genuine interest: 'Who's doing the comparing most (parent, other relatives, friends), and is it usually about school/work or something else?' - this matches Claude's engagement style",
+      "Excellent practical advice with specific phrases to use: 'When you compare me to [sibling], I feel discouraged...' - this is concrete and actionable, exactly what Claude would provide",
+      "Good acknowledgment of complexity: 'A couple things can be true at once' - shows nuanced understanding without being preachy"
+    ],
+    "weaknesses": [
+      "Completely lacks emojis - the ground truth opens with 'Ugh' and has natural emotional markers, while this response feels more formal and distant without any emoji warmth",
+      "Jumps too quickly into advice mode - ground truth validates first ('that's really frustrating!'), then explains why it sucks, then offers to listen. This response validates briefly then immediately moves to 'A couple things can be true' which feels more analytical",
+      "Uses semi-formal phrasing that feels less conversational: 'flattened into a ranking' and 'trigger this constant pressure' are more clinical than Claude's natural 'honestly one of the most annoying things' and 'it still feels crappy'",
+      "The structure is more advice-heavy with implicit bullet points (paragraph 2 = why it happens, paragraph 3 = practical advice, paragraph 4 = internal reframe) rather than flowing naturally like a conversation"
+    ],
+    "most_claude_like": "The follow-up question is perfectly executed - specific, natural, shows genuine interest in understanding their situation better, and invites them to share more details",
+    "least_claude_like": "The complete absence of emojis and the immediate pivot to analytical framing ('A couple things can be true at once') rather than sitting with the emotional validation first. Claude's 'Ugh, that's really frustrating!' with natural conversational flow is replaced with a more measured, advice-oriented approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "While there are no explicit bullet points, the response has an implicit structured format: validation → analysis → practical script → internal reframe → question. This feels more organized/formatted than Claude's natural conversational flow. The third paragraph especially reads like advice being delivered in a structured way rather than flowing naturally."
+    },
+    "key_differences_from_ground_truth": [
+      "Emotional tone: Ground truth is warmer and more immediately validating ('Ugh!', 'honestly one of the most annoying things', 'it still feels crappy'). Evaluated response is more measured and analytical ('can be true at once', 'trigger this constant pressure')",
+      "Opening approach: Ground truth validates feelings first and offers to listen ('Want to vent about what happened?'). Evaluated response validates briefly then moves quickly into explaining and advising",
+      "No emojis vs. natural emotional markers in ground truth",
+      "Language register: Ground truth uses more casual, teen-friendly language ('sucks', 'crappy', 'you know?'). Evaluated response uses slightly more formal constructions ('flattened into a ranking', 'deficiency')",
+      "Balance: Ground truth is 70% validation/30% light advice. Evaluated response is more like 40% validation/60% advice and analysis"
+    ]
+  }
+}

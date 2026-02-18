@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst!' and acknowledgment of the specific frustration of getting back damaged items",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring",
+      "Highly conversational and relatable language like 'Are you doing the thing where...' that captures how teens actually talk",
+      "Validates multiple possible reactions (confronting, phasing out, making them pay) without judgment"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think,' 'I'd say,' 'I get it') - uses only impersonal/general statements like 'There's something frustrating' and 'Friends should'",
+      "Does not end with a question to continue the conversation; closes with a definitive statement about friendship instead",
+      "Could provide more specific guidance on how to actually approach the difficult conversation with the friend"
+    ],
+    "most_ideal_aspect": "Natural prose format with immediate emotional validation that sounds like a supportive friend texting",
+    "least_ideal_aspect": "Absence of first-person perspective and failure to end with an engaging follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of pure paragraphs with natural flow. No headers, bold text, or lists. Advice is woven naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create stronger connection, such as 'I'd be so upset too' or 'I think you have every right to say something'",
+      "End with a specific question to invite continuation, such as 'Do you think you'll say something or just let it go?' or 'How bad was the damage?'",
+      "Consider offering one concrete script for confrontation, like 'If you decide to speak up, you could try saying: Hey, I noticed this got damaged when you borrowed it...'"
+    ]
+  }
+}

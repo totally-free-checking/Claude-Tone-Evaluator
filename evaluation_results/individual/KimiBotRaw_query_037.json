@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, relatable validation using casual interjection 'Ugh' and physical description of anxiety ('stomach drop') that teens would instantly recognize",
+      "Uses first-person supportive language naturally ('I'm here if you want to vent') creating genuine connection rather than distant advice-giving",
+      "Maintains pure conversational prose throughout with no formatting crutches - flows like a text message from a supportive friend"
+    ],
+    "weaknesses": [
+      "Ends with a supportive statement rather than a specific question, whereas Claude typically closes with an engaging question to continue the conversation",
+      "Offers distraction as an option which is supportive, but could include slightly more specific guidance on how to process the situation before offering escape routes"
+    ],
+    "most_claude_like": "The natural prose formatting and immediate emotional validation using physical/somatic language ('stomach drop') perfectly captures how Claude validates teen experiences without over-structuring the response",
+    "least_claude_like": "The closing shifts to 'I'm here if you want...' rather than ending with an open question like 'Want to talk through what happened?' - it invites sharing but doesn't actively prompt continuation with a question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullet points, headers, or bold text. Three natural paragraphs that flow like a conversation."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth ends with explicit question 'Want to talk through what happened?' while evaluated ends with supportive availability statement",
+      "Ground truth uses 'I can imagine' to show empathy, while evaluated uses 'I'm here' - both first-person but different approaches",
+      "Evaluated offers 'distraction' as a third option which is a nice teen-specific touch not present in ground truth"
+    ]
+  }
+}

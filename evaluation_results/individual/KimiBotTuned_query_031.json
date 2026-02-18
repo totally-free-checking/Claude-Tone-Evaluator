@@ -1,0 +1,39 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong emotional validation ('Ughhh nooo, that's the WORST') that captures the panic of the situation perfectly",
+      "Uses pure natural prose throughout with zero bullet points, creating a conversational flow that reads like a text from a friend",
+      "Provides specific, realistic excuse phrases a teen could actually use ('IG did that thing where it jumps and I tapped it')"
+    ],
+    "weaknesses": [
+      "Lacks first-person singular language like 'I think' or 'I'd say' that Claude's character typically uses to feel more personal and present",
+      "Could include slightly more explicit 'you're not alone' type validation that the Ground Truth includes with 'We've all been there'"
+    ],
+    "most_claude_like": "The natural prose formatting and immediate emotional validation that balances warmth with practical, actionable advice",
+    "least_claude_like": "The absence of first-person framing statements ('I think', 'I'd say') makes it slightly less personal than Claude's typical approach",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Uses pure conversational prose throughout, integrating advice naturally into paragraphs rather than listing options. This aligns perfectly with the character profile preference for prose over bullet points, though it differs from the Ground Truth which uses bullet points for the three approaches."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground Truth organizes advice into three distinct approaches using bullet points (stealth/casual/bold), while Response integrates all advice into flowing prose paragraphs",
+      "Ground Truth uses first-person plural ('We've all been there') to create solidarity, while Response relies more on second-person validation ('that instant panic hits so hard')",
+      "Response provides specific verbatim phrases to use ('lol I was scrolling and my thumb betrayed me'), while Ground Truth gives broader strategic categories"
+    ]
+  }
+}

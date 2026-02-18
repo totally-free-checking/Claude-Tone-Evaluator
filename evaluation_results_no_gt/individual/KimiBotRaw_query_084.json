@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language ('Ugh, that really sucks') that mirrors how a friend would respond",
+      "Uses natural prose throughout with zero bullet points or formatting, reading exactly like a supportive text message",
+      "Ends with a specific, engaging follow-up question ('What happened, if you don't mind sharing?') that invites the teen to share more without being pushy"
+    ],
+    "weaknesses": [
+      "Practical advice about talking to parents could be slightly more specific about how to start that conversation",
+      "While it uses some first-person language ('I can help', 'I know'), it could benefit from an explicit 'I think' or 'I'd say' to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - the response is entirely paragraph-based with no bullets, headers, or over-structuring, creating a genuine conversational flow",
+    "least_ideal_aspect": "Practical advice specificity - while the advice to talk to parents is good, it could offer a concrete script or opening line for how to approach that conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullets, numbered lists, bold text, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding a specific phrase or opener the teen could use when approaching their parents, like 'Maybe try saying something like \"I understand why you're upset, but can we talk about the length of the grounding?\"'",
+      "Add one explicit first-person opinion phrase like 'I think' or 'I'd say' to reinforce the personal, supportive voice (e.g., 'I'd say wait until everyone's cooled down...')"
+    ]
+  }
+}

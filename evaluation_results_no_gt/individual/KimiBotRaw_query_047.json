@@ -1,0 +1,40 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Ugh, that's the absolute worst feeling' and acknowledging the FOMO",
+      "Provides highly specific, actionable advice including exact scripts the teen can use ('I know you're worried about [safety/time/whatever]—what would make you feel okay about me going?')",
+      "Natural conversational language that avoids being cringe while still feeling relatable ('dig in their heels', 'unlock the door literally')"
+    ],
+    "weaknesses": [
+      "Uses bold headers and structured sections ('The conversation approach', 'The compromise', 'The reality check') which function as bullet points, breaking the natural prose flow",
+      "Lacks explicit first-person language like 'I think' or 'I'd say' - while it uses 'I know', it could feel more personal with more direct first-person perspective",
+      "Could benefit from one warm emoji to enhance the casual, friendly tone given the teen context"
+    ],
+    "most_ideal_aspect": "The emotional validation and practical advice quality - it perfectly balances acknowledging the frustration while offering realistic, specific strategies for talking to parents",
+    "least_ideal_aspect": "The formatting with bold headers and bullet-like structure - this reads more like a self-help article than a text conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response uses three bold headers acting as section dividers ('The conversation approach', 'The compromise', 'The reality check'), which creates a structured, list-like format rather than flowing natural prose. The advice is embedded in paragraphs under these headers, but the formatting breaks conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the three bold headers into flowing transitional sentences (e.g., instead of '**The conversation approach**', try 'Honestly, I'd start with a real conversation...')",
+      "Add one warm emoji early in the response (like 😅 or 😊) to match the casual, friendly tone",
+      "Incorporate more explicit first-person phrases like 'I think' or 'I'd try' to make it feel more like personal advice from a friend rather than general guidance"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "KimiBotRaw",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 6,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong emotional validation ('that sinking feeling! We've all been there') that immediately acknowledges the teen's discomfort",
+      "Provides very specific, actionable advice categorized by severity (cringey vs. work-related vs. typo) that's realistic for a teen's situation",
+      "Ends with a natural, engaging follow-up question ('What did you post, and where?') that invites continued conversation"
+    ],
+    "weaknesses": [
+      "Heavy use of formatting with bold headers ('**The immediate triage:**', '**How bad are we talking?**') and extensive bullet points makes it read like a guide rather than a conversation",
+      "Lacks Claude's characteristic first-person empathetic language ('I think', 'I'd say', 'I get it', 'I'm here') - uses 'me' only in a functional context ('help me give you')",
+      "Uses 2 emojis (😅, 💛) when Claude's ground truth used 0, and the rubric specifies 0-1 max"
+    ],
+    "most_claude_like": "The warm, validating opening that immediately normalizes the experience with 'We've all been there' and acknowledges the specific discomfort of social media regret",
+    "least_claude_like": "The heavily structured formatting with bold headers and bullet-point lists that transforms it from a conversational text into something resembling a wikiHow article",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "35%",
+      "notes": "Response uses two bold headers ('The immediate triage:', 'How bad are we talking?') with multiple bullet points under each, plus bold text within bullets. This is significantly more structured than Claude's prose-heavy approach which integrates options into flowing paragraphs with minimal formatting."
+    },
+    "key_differences_from_ground_truth": [
+      "Uses bold headers and extensive bullet lists vs. Claude's natural prose paragraphs with minimal formatting",
+      "Missing first-person empathetic statements ('I totally get why you're feeling weird about it') that create personal connection",
+      "More clinical/detailed 'triage' approach to advice vs. Claude's gentler, more concise options presented conversationally",
+      "Contains 2 emojis while ground truth contained 0"
+    ]
+  }
+}

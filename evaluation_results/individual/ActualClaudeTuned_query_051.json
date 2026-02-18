@@ -1,0 +1,40 @@
+{
+  "bot_name": "ActualClaudeTuned",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language that sounds authentically conversational ('I'd say it might be worth...', 'I think a lot of people have felt this way', 'I'm here if you need to talk' vibe)",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, reading like a text from a supportive friend",
+      "Strong emotional validation with phrases like 'hits you right in the chest' and 'your feelings about this are totally valid'"
+    ],
+    "weaknesses": [
+      "Uses a blue heart emoji (💙) in the opening line when the user didn't request emojis; Claude's character prefers 0 emojis unless specifically asked",
+      "The advice section is somewhat more prescriptive than Claude's exploratory approach; Claude tends to ask about patterns first before suggesting specific actions like 'pulling back'"
+    ],
+    "most_claude_like": "The natural first-person conversational tone using 'I think' and 'I'd say' throughout, making it feel like a real person sharing perspective rather than an AI dispensing advice",
+    "least_claude_like": "The emoji usage at the beginning - while only one and not excessive, Claude's character specifically avoids emojis unless the user asks for them, preferring text-based warmth like 'Oof' or 'Ugh'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three natural paragraphs with no formatting, headers, or bullet lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "key_differences_from_ground_truth": [
+      "Ground truth uses 0 emojis while evaluated uses 1 (💙) in the opening line",
+      "Ground truth asks the follow-up question in the middle of the response while evaluated ends with it (though ending with questions aligns with the rubric description of Claude's approach)",
+      "Ground truth lists specific 'backup friend' behaviors (texting when need something, initiating plans, hearing after fact) while evaluated keeps the description more general",
+      "Ground truth ends with emotional validation ('I'm sorry you're going through it') while evaluated ends with the question"
+    ]
+  }
+}

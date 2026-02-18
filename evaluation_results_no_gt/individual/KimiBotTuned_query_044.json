@@ -1,0 +1,38 @@
+{
+  "bot_name": "KimiBotTuned",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst' and vivid description of 'that moment where your brain just shuts off' that makes the teen feel truly seen",
+      "Specific, realistic scripts provided for exactly what to say to the teacher ('Sorry, my brain just froze—can you repeat the question?') which gives immediate actionable help",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation with a supportive friend"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think,' 'I'd say,' or 'I get it,' relying instead on general statements which makes it slightly less personal than the ideal character",
+      "Could include one more brief validating phrase after the practical advice to bridge more smoothly into the follow-up question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, lists, or over-structuring, maintaining a conversational flow that reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Absence of explicit first-person framing (e.g., 'I think,' 'I'd suggest') makes the advice feel slightly more general/impersonal rather than coming from a specific supportive voice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is composed entirely of natural paragraphs with no lists, headers, bold text, or structured formatting. Advice flows organically within sentences rather than being listed out, perfectly matching the ideal conversational style."
+    },
+    "specific_feedback": [
+      "Add first-person phrases like 'I think' or 'I'd say' before giving advice (e.g., 'I think it's totally okay to buy yourself a second...') to increase the personal, supportive connection",
+      "Consider adding a brief validating sign-off like 'You've got this' or 'I'm here if you need to talk' before the final question to reinforce emotional support"
+    ]
+  }
+}
