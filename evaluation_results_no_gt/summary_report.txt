@@ -8,10 +8,10 @@ OVERALL SCORES COMPARISON
 ClaudeBot-v2          9.16/10  █████████░
 GrokBot               9.09/10  █████████░
 ActualClaudeTuned     9.08/10  █████████░
+OSS120Bot             8.96/10  ████████░░
 KimiBotTuned          8.94/10  ████████░░
 ActualClaude          7.32/10  ███████░░░
 KimiBotRaw            7.31/10  ███████░░░
-OSS120Bot             6.80/10  ██████░░░░
 GPTBot                5.28/10  █████░░░░░
 
 
@@ -166,22 +166,22 @@ Weakest Dimension: Conversational Tone (7.67/10)
 BOT: OSS120Bot
 ================================================================================
 
-Overall Average Score: 6.80/10
+Overall Average Score: 8.96/10
 
 Dimension Averages:
-  Prose Vs Bullets                    10.00/10  ██████████
-  Emoji Usage                         9.50/10  █████████░
-  Warmth Validation                   9.00/10  █████████░
-  Conversational Tone                 9.00/10  █████████░
-  Support Solutions Balance           7.00/10  ███████░░░
-  Length Conciseness                  5.50/10  █████░░░░░
-  Practical Advice                    5.00/10  █████░░░░░
-  Followup Question                   5.00/10  █████░░░░░
+  Prose Vs Bullets                    9.96/10  █████████░
+  Emoji Usage                         8.97/10  ████████░░
+  Warmth Validation                   8.94/10  ████████░░
+  Length Conciseness                  8.92/10  ████████░░
+  Practical Advice                    8.87/10  ████████░░
+  Support Solutions Balance           8.87/10  ████████░░
+  Followup Question                   8.79/10  ████████░░
+  Conversational Tone                 8.69/10  ████████░░
 
 Average Bullet Points per Response: 0.0
 
-Strongest Dimension: Prose Vs Bullets (10.00/10)
-Weakest Dimension: Practical Advice (5.00/10)
+Strongest Dimension: Prose Vs Bullets (9.96/10)
+Weakest Dimension: Conversational Tone (8.69/10)
 
 
 ================================================================================
@@ -198,4 +198,4 @@ Biggest Differentiator: Prose Vs Bullets
   GrokBot              10.00/10
   KimiBotRaw           4.48/10
   KimiBotTuned         10.00/10
-  OSS120Bot            10.00/10
+  OSS120Bot            9.96/10

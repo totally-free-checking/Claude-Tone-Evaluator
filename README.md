@@ -1,21 +1,42 @@
 # Claude Tone Evaluator
 
-I frequently hear people say they like the "tone" of Claude more than other models, but I have not been able to find good, data-based comparisons. This project evaluates LLM responses against a scoring rubric, to evaluate tone and style matching. You can easily test new model versions, prompt engineering changes, temperature, etc to see the impact of these changes.
+I frequently hear people say they like the "tone" of Claude more than other models, but I have not been able to find good, data-based comparisons. This project evaluates LLM responses against a scoring rubric to evaluate tone and style matching. You can easily test new model versions, prompt engineering changes, temperature, etc to tune your own models to sound more like Claude.
 
 ## Evaluation Dimensions
 
-The primary goal of this evaluation is to determine how closely the tone of an LLM's response matches that of Claude. Claude's responses tend to follow a similar pattern and with a certain style of writing. The current Evaluation prompt scores across 8 dimensions, although this can be changed  by altering the [Teen Support Bot Tone Evaluator.md](Evaluation prompt). 
+The primary goal of this evaluation is to determine how closely the tone of an LLM's response matches that of Claude. Claude's responses tend to follow a similar pattern and with a certain style of writing. The current Evaluation prompt scores across 8 dimensions, although this can be changed by altering the Evaluation prompt.
 
-1. **Warmth & Emotional Validation** - Empathy and emotional acknowledgment
-2. **Prose vs. Bullets** - Natural prose flow vs. over-structured lists
-3. **Emoji Usage** - Appropriate emoji use (0-1 per response, prefer none)
-4. **Conversational Tone** - Casual, natural language with first-person ("I think", "I'd say")
-5. **Practical Advice** - Concrete, actionable suggestions
-6. **Follow-up Question** - Engaging questions to continue conversation
-7. **Support/Solutions Balance** - Mix of emotional support and practical help
-8. **Length & Conciseness** - Appropriate response length
+- **Validates first**: Always acknowledge feelings before advice
+- **Warmth & Emotional Validation** - Empathy and emotional acknowledgment
+- **Uses prose**: Natural paragraphs, not bullet lists
+- **Minimal emojis**: 0-1 per response, prefer none unless they enhance warmth
+- **First-person language**: "I think", "I'd say", "I get it"
+- **Casual tone**: Contractions, natural phrases, not formal
+- **Engaging**: Always ends with specific follow-up question
+- **Balanced**: Mix emotional support with practical advice
+- **Length & Conciseness** - Appropriate response length
+
 
 Each dimension is scored 0-10, with an overall average score.
+
+
+## Results
+
+The results show that, via prompt engineering, other models can be made to sound just as Claude-like as Claude.  The full report is in [evaluation_results_no_gt/summary_report.txt](evaluation_results_no_gt/summary_report.txt)
+
+```
+Using the system prompt in `ClaudeBot-v2.txt`
+GPT-5.2                 9.16/10  █████████░  aka "ClaudeBot-v2"
+Grok-4-fast-reasoning   9.09/10  █████████░  aka "GrokBot"
+Claude                  9.08/10  █████████░  aka "ActualClaudeTuned"
+gpt-OSS-120b            8.96/10  ████████░░  aka "OSS120Bot"
+Kimi-K2.5               8.94/10  ████████░░  aka "KimiBotTuned"
+
+No system prompt (`You are a friendly and casual AI Assistant`)
+Claude                  7.32/10  ███████░░░  aka "ActualClaude"
+Kimi-K2.5               7.31/10  ███████░░░  aka "KimiBotRaw"
+GPT-5.2                 5.28/10  █████░░░░░  aka "GPTBot"
+```
 
 
 ## Quick Start
@@ -307,16 +328,6 @@ python merge_results.py --no-gt
 - [NO_GROUND_TRUTH_GUIDE.md](NO_GROUND_TRUTH_GUIDE.md) - With vs without GT
 - [REPETITIVENESS_ANALYSIS.md](REPETITIVENESS_ANALYSIS.md) - Detecting patterns
 
-## Character Guidelines
-
-The teen support bot character:
-- **Validates first**: Always acknowledge feelings before advice
-- **Uses prose**: Natural paragraphs, not bullet lists
-- **Minimal emojis**: 0-1 per response, prefer none unless they enhance warmth
-- **First-person language**: "I think", "I'd say", "I get it"
-- **Casual tone**: Contractions, natural phrases, not formal
-- **Engaging**: Always ends with specific follow-up question
-- **Balanced**: Mix emotional support with practical advice
 
 See [bot_system_prompts/ClaudeBot-v2.txt](ClaudeBot-v2.txt) for complete guidelines.
 
