@@ -4,7 +4,9 @@ I frequently hear people say they like the "tone" of Claude more than other mode
 
 ## Evaluation Dimensions
 
-The primary goal of this evaluation is to determine how closely the tone of an LLM's response matches that of Claude. Claude's responses tend to follow a similar pattern and with a certain style of writing. The current Evaluation prompt scores across 8 dimensions, although this can be changed by altering the Evaluation prompt.
+The primary goal of this evaluation is to determine how closely the tone of an LLM's response matches that of Claude. To emulate a real-life scenario, we simulate a character chat bot for teenagers. Claude's responses tend to follow a similar pattern and with a certain style of writing. 
+
+The evaluation scores across 8 dimensions, although this can be changed by altering the Evaluation prompt.
 
 - **Validates first**: Always acknowledge feelings before advice
 - **Warmth & Emotional Validation** - Empathy and emotional acknowledgment
