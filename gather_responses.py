@@ -11,10 +11,10 @@ Examples:
   python gather_responses.py ActualClaude --provider anthropic --model claude-sonnet-4-5-20250929
 
   # Azure OpenAI
-  python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 --system-prompt "ClaudeBot_System_Prompt.md"
+  python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 
   # Anthropic with custom prompt
-  python gather_responses.py ActualClaudeTuned --provider anthropic --model claude-sonnet-4-5-20250929 --system-prompt "ClaudeBot_System_Prompt.md"
+  python gather_responses.py ActualClaudeTuned --provider anthropic --model claude-sonnet-4-5-20250929 --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 """
 
 import json
@@ -143,10 +143,10 @@ Examples:
   python gather_responses.py ActualClaude --provider anthropic --model claude-sonnet-4-5-20250929
 
   # Azure OpenAI with system prompt
-  python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 --system-prompt ClaudeBot_System_Prompt.md
+  python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 
   # OpenAI direct
-  python gather_responses.py GPTBot --provider openai --model gpt-4 --system-prompt ClaudeBot_System_Prompt.md
+  python gather_responses.py GPTBot --provider openai --model gpt-4 --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
         """
     )
 

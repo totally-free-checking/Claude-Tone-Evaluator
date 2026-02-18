@@ -115,7 +115,7 @@ GPTBot                3.74/10  ███░░░░░░░  (GPT-4)
 - Make sure all required files exist in `bot_responses/` directory
 - File format: `bot_responses/Output - [BotName] Responses.jsonl`
 - Generate missing files using `gather_responses.py`
-- For tuned versions, use the system prompt from `ClaudeBot_System_Prompt.md`
+- For tuned versions, use the system prompt from `bot_system_prompts/ClaudeBot-v2.txt`
 
 ### Error: Azure OpenAI credentials not set
 - Verify environment variables are set correctly

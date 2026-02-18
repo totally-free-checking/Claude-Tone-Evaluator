@@ -53,7 +53,7 @@ python gather_responses.py ActualClaude --provider anthropic --model claude-sonn
 python gather_responses.py ActualClaudeTuned \
   --provider anthropic \
   --model claude-sonnet-4-5-20250929 \
-  --system-prompt "ClaudeBot_System_Prompt.md"
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 ```
 
 #### 3. KimiBotRaw (Azure OpenAI, No System Prompt)
@@ -68,7 +68,7 @@ python gather_responses.py KimiBotRaw \
 python gather_responses.py KimiBotTuned \
   --provider azure-openai \
   --model kimi-2-5 \
-  --system-prompt "ClaudeBot_System_Prompt.md"
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 ```
 
 #### 5. GPTBot (OpenAI Direct)
@@ -83,7 +83,7 @@ python gather_responses.py GPTBot \
 python gather_responses.py ClaudeBot-v2 \
   --provider azure-openai \
   --model gpt-5-2 \
-  --system-prompt "ClaudeBot_System_Prompt.md"
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 ```
 
 ## Resume Mode
@@ -94,7 +94,7 @@ If the script is interrupted, use `--resume` to continue:
 python gather_responses.py KimiBotTuned \
   --provider azure-openai \
   --model kimi-2-5 \
-  --system-prompt "ClaudeBot_System_Prompt.md" \
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt" \
   --resume
 ```
 
@@ -143,25 +143,25 @@ python gather_responses.py KimiBotRaw \
 python gather_responses.py ActualClaudeTuned \
   --provider anthropic \
   --model claude-sonnet-4-5-20250929 \
-  --system-prompt "ClaudeBot_System_Prompt.md"
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 
 # ClaudeBot - GPT-5.2 old version (if you have old prompt)
 python gather_responses.py ClaudeBot \
   --provider azure-openai \
   --model gpt-5-2 \
-  --system-prompt "ClaudeBot_System_Prompt_Old.md"
+  --system-prompt "bot_system_prompts/ClaudeBot.txt"
 
 # ClaudeBot-v2 - GPT-5.2 new version
 python gather_responses.py ClaudeBot-v2 \
   --provider azure-openai \
   --model gpt-5-2 \
-  --system-prompt "ClaudeBot_System_Prompt.md"
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 
 # KimiBotTuned - Kimi with teen support prompt
 python gather_responses.py KimiBotTuned \
   --provider azure-openai \
   --model kimi-2-5 \
-  --system-prompt "ClaudeBot_System_Prompt.md"
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 ```
 
 ## Features
@@ -189,7 +189,7 @@ python gather_responses.py KimiBotTuned \
 
 1. **Generate responses:**
    ```bash
-   python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 -s ClaudeBot_System_Prompt.md
+   python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 -s bot_system_prompts/ClaudeBot-v2.txt
    ```
 
 2. **Evaluate:**

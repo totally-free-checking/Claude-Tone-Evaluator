@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```powershell
 $env:AZURE_OPENAI_ENDPOINT='https://your-resource.openai.azure.com/'
 $env:AZURE_OPENAI_API_KEY='your-api-key'
-$env:AZURE_OPENAI_DEPLOYMENT='kimi-2-5'  # Your deployment name
+$env:AZURE_OPENAI_DEPLOYMENT='Kimi-K2.5'  # Default deployment name, used for evaluating responses
 ```
 
 **For Anthropic (Claude):**
@@ -43,8 +43,8 @@ $env:OPENAI_API_KEY='your-api-key'
 # Generate responses from any bot
 python gather_responses.py MyBotName \
   --provider azure-openai \
-  --model kimi-2-5 \
-  --system-prompt ClaudeBot_System_Prompt.md
+  --model kimi-2-5 \ # The model to generate responses
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 ```
 
 This creates: `bot_responses/Output - MyBotName Responses.jsonl`
@@ -226,7 +226,7 @@ claude-tone-evaluator/
 python gather_responses.py KimiBotTuned \
   --provider azure-openai \
   --model kimi-2-5 \
-  --system-prompt ClaudeBot_System_Prompt.md
+  --system-prompt "bot_system_prompts/ClaudeBot-v2.txt"
 
 # 2. Check repetitiveness
 python analyze_repetitiveness.py KimiBotTuned
@@ -253,7 +253,7 @@ python merge_results.py
 ```bash
 # Generate responses for all bots
 python gather_responses.py ActualClaude --provider anthropic --model claude-sonnet-4-5-20250929
-python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 -s ClaudeBot_System_Prompt.md
+python gather_responses.py KimiBotTuned --provider azure-openai --model kimi-2-5 -s "bot_system_prompts/ClaudeBot-v2.txt"
 python gather_responses.py GPTBot --provider azure-openai --model gpt-5-2
 
 # Analyze repetitiveness for all
@@ -311,7 +311,6 @@ python merge_results.py
 - [RETRY_FAILED.md](RETRY_FAILED.md) - Handling failures
 - [REPETITIVENESS_ANALYSIS.md](REPETITIVENESS_ANALYSIS.md) - Detecting patterns
 - [IMPROVEMENT_PLAN.md](IMPROVEMENT_PLAN.md) - Improving bot performance
-- [ClaudeBot_System_Prompt.md](ClaudeBot_System_Prompt.md) - System prompt template
 
 ## Character Guidelines
 
@@ -324,7 +323,7 @@ The teen support bot character:
 - **Engaging**: Always ends with specific follow-up question
 - **Balanced**: Mix emotional support with practical advice
 
-See [ClaudeBot_System_Prompt.md](ClaudeBot_System_Prompt.md) for complete guidelines.
+See [bot_system_prompts/ClaudeBot-v2.txt](ClaudeBot-v2.txt) for complete guidelines.
 
 ## Contributing
 
