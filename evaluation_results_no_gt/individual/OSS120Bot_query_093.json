@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I hear you', 'If I were you, I'd', 'I'm trying something new') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation between friends",
+      "Specific actionable advice including concrete examples (haircut, hair color, clothing) and a ready-to-use social script ('I'm trying something new, what do you think?')"
+    ],
+    "weaknesses": [
+      "The phrase 'eye-browsing' is slightly awkward/unusual compared to 'eyeing' or 'browsing'",
+      "Could potentially offer one more sentence of validation after the practical advice section to bookend the emotional support"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with consistent first-person perspective ('If I were you, I'd start with...') that makes it feel like advice from a supportive friend rather than an impersonal guide",
+    "least_ideal_aspect": "The reassurance 'most people are way more focused on their own stuff' while true, transitions slightly quickly from deep empathy to logic; could use one more beat of emotional acknowledgment before the reality check",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural transitions. No headers, bold text, or list formatting. Advice is woven seamlessly into conversational sentences rather than being presented as discrete action items."
+    },
+    "specific_feedback": [
+      "Consider adding one brief validating phrase after the practical advice section to reinforce that their fear is still valid even while taking action",
+      "The emoji usage (😅) is perfectly placed to convey the nervous-excited feeling of changing one's appearance - maintain this level of restraint (0-1 emojis) for future responses"
+    ]
+  }
+}

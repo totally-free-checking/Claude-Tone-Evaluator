@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using relatable casual language ('Ugh, that feeling... is the worst', 'cringe-fest episodes') that normalizes the experience",
+      "Provides specific, actionable advice including exact scripts to use ('yeah, that was awkward, sorry about that') and concrete grounding activities (walk, favorite song, texting)",
+      "Maintains 100% prose format with natural paragraph flow, completely avoiding bullet points, headers, or over-structuring"
+    ],
+    "weaknesses": [
+      "Follow-up consists of two questions rather than one focused inquiry, which slightly splits the conversational focus",
+      "Advice section relies on second-person directives ('try giving yourself', 'think about') rather than first-person suggestions ('I'd suggest', 'I think') which creates slight distance"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Follow-up question splits focus between asking for details ('What’s the situation') and asking about support ('have you had a chance to talk it over') rather than maintaining singular engagement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four cohesive paragraphs with no lists, headers, bold text, or formatting structures. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Strengthen first-person voice in the advice section by using phrases like 'I'd suggest giving yourself...' or 'I think a quick walk...' instead of impersonal directives to create stronger personal connection",
+      "Consolidate the final two questions into one focused inquiry (e.g., 'What exactly happened, and how are you feeling about it now?') or choose the most engaging single question to maintain conversational focus"
+    ]
+  }
+}

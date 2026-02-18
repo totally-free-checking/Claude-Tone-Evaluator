@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using relatable language like 'that sting' and 'gut-punch' that acknowledges the physical feeling of regret",
+      "Maintains perfect prose format throughout with zero bullet points or headers, reading like a natural text conversation",
+      "Provides specific, actionable advice tailored to teen digital life: checking edit/delete functions, posting follow-up comments, and the 'sorry, posted too soon' script"
+    ],
+    "weaknesses": [
+      "Could strengthen first-person perspective with explicit 'I think' or 'I'd suggest' statements in the advice section rather than implied perspective",
+      "The closing question combines two queries ('What's the post about, and are you thinking...') which is slightly complex though still conversational"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or structural elements, maintaining a flowing conversational paragraph style throughout",
+    "least_ideal_aspect": "Slightly implicit first-person language in the advice section where explicit 'I think' or 'I'd try' statements would strengthen the personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, bold text, headers, or numbered lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add explicit first-person framing to advice statements, such as 'I'd probably check if the platform lets you edit...' or 'I think posting a brief follow-up works well...' to strengthen the supportive friend persona",
+      "Consider simplifying the closing question to a single focus, such as 'Are you leaning toward fixing it or just waiting for the feeling to pass?' to maintain the conversational flow while reducing cognitive load"
+    ]
+  }
+}

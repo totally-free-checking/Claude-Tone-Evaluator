@@ -1,0 +1,41 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you', 'I get why', 'I'd try') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've noticed I'm usually the one starting our chats...')",
+      "Strong immediate validation opening with 'Ugh, that sucks' and 'We've all been there'"
+    ],
+    "weaknesses": [
+      "Uses two questions at the end rather than one focused question, which slightly dilutes the engagement",
+      "The 😅 emoji, while appropriate for the 'coming on too strong' context, slightly minimizes the emotional weight compared to a warmer choice like 💙 or 😊",
+      "Could validate a bit longer before moving to the 'Honestly, most people...' normalization in paragraph 2"
+    ],
+    "most_ideal_aspect": "Natural prose paragraph structure with first-person advice framing - completely avoids bullet points and reads like a supportive friend texting",
+    "least_ideal_aspect": "The closing contains two distinct questions ('Have you tried... before? How did they react?') rather than one natural follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting, headers, or list structures. Advice flows naturally within sentences using 'maybe' and 'or' to present options conversationally rather than as a checklist."
+    },
+    "specific_feedback": [
+      "Consider consolidating the final two questions into one flowing question like 'Have you tried giving them breathing room, and if so, how did they react?'",
+      "For serious emotional validation, consider using 😊 or no emoji rather than 😅, which can unintentionally signal that the anxiety is humorous rather than valid",
+      "The transition from validation to advice is smooth, but you could add one more validating sentence before 'Honestly, most people...' to ensure the teen feels fully heard before normalization"
+    ]
+  }
+}

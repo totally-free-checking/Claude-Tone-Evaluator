@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as conversational paragraphs like a friend texting",
+      "Strong practical advice with specific, actionable examples teens can actually use (low-stakes compliment, specific phrasing 'Hey, want to hang out sometime?', concrete cues to watch for)",
+      "Warm opening that validates the emotional experience ('that mix of excitement and nerves is such a classic roller-coaster', 'totally normal to feel a little unsure')"
+    ],
+    "weaknesses": [
+      "Advice section lacks first-person language - uses impersonal 'You could...' and 'If you can, try to...' instead of 'I think you could...' or 'I'd suggest...' which creates distance rather than connection",
+      "Opening with 'I'm so sorry' is slightly mismatched for the context of having a crush (which is exciting/nervous, not tragic), though it quickly recovers by acknowledging the excitement"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Missing first-person language in the advice section - delivers suggestions impersonally ('You could also test the water...') rather than using 'I think...' or 'I'd say...' to create personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, lists, or headers. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice section to sound more personal and supportive - instead of 'You could also test the water...' try 'I think you could test the water...' or 'I'd probably start with...'",
+      "Consider opening with validation that matches the excitement of a crush rather than sympathy - something like 'Oh wow, that mix of excitement and nerves is such a classic roller-coaster, isn't it?' without the 'I'm so sorry' which fits better for sad situations"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that really hurts' and 'I totally get how that could make you feel unsafe' creates instant connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'If you feel safe doing so, you could try a calm but firm line like...'",
+      "Provides specific, actionable script ('Hey, I'm not cool with those comments. Please stop.') that a teen can actually use"
+    ],
+    "weaknesses": [
+      "Could use more first-person language in the advice section (uses 'you could try' rather than 'I'd suggest' or 'I think')",
+      "Missing explicit ongoing support offer like 'I'm here if you need to talk' or 'I'm happy to help you figure this out'"
+    ],
+    "most_ideal_aspect": "Natural prose flow without any bullet points or over-formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "First-person language usage in the advice section - shifts to second-person 'you could' rather than maintaining the 'I think/I'd suggest' perspective throughout",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - response uses four natural paragraphs with no lists, headers, or bold text. Advice is embedded in flowing sentences rather than broken out into steps."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice section (e.g., 'I'd probably try saying...' or 'I think the best approach might be...') to maintain personal connection",
+      "Consider adding a brief closing offer of continued support like 'I'm here if you need to talk through what happens next' to reinforce the supportive relationship"
+    ]
+  }
+}

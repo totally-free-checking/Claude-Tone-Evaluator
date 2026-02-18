@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with physical description ('make your chest feel so tight') that shows deep empathy",
+      "Perfect prose formatting with zero bullet points or headers - reads exactly like a natural text conversation",
+      "Specific, realistic advice tailored to teen agency (suggesting text check-ins, trial run at movie night, shorter curfew compromises)"
+    ],
+    "weaknesses": [
+      "Advice section could use more first-person language ('I'd suggest' or 'I think') instead of 'you could' to strengthen personal connection",
+      "Second paragraph is slightly disconnected from the emotional arc - transitions abruptly from validation to 'it usually feels way worse than it ends up being' without bridging the emotional gap"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured lists while maintaining readability",
+    "least_ideal_aspect": "Slightly impersonal advice delivery that relies on 'you could' and 'maybe try' rather than first-person recommendations like 'I'd suggest'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice section (e.g., 'I'd suggest having a calm chat' instead of 'maybe try having a calm chat') to strengthen the supportive friend persona",
+      "Consider adding one subtle emoji (like 😅 or 💙) after the first sentence to enhance warmth, though the absence is not problematic for this serious topic"
+    ]
+  }
+}

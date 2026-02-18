@@ -1,4 +1,4 @@
-# Running Evaluations with Kimi-2.5 (Azure OpenAI)
+# Running Evaluations
 
 ## Setup
 
@@ -18,64 +18,45 @@ $env:AZURE_OPENAI_DEPLOYMENT='kimi-2-5'  # Your deployment name
 ## Required Response Files
 
 Make sure you have these JSONL files in the `bot_responses/` directory:
-- ✅ `bot_responses/Output - ActualClaude Responses.jsonl` (baseline - Claude Sonnet)
-- ⚠️  `bot_responses/Output - ActualClaudeTuned Responses.jsonl` (Claude Sonnet with tuned system prompt)
 - ✅ `bot_responses/Output - ClaudeBot Responses.jsonl` (GPT-5.2 old version)
-- ⚠️  `bot_responses/Output - ClaudeBot-v2 Responses.jsonl` (GPT-5.2 new version - needs updated system prompt)
-- ✅ `bot_responses/Output - GPTBot Responses.jsonl` (GPT-4)
-- ⚠️  `bot_responses/Output - KimiBotRaw Responses.jsonl` (Kimi-2.5 without system prompt)
-- ⚠️  `bot_responses/Output - KimiBotTuned Responses.jsonl` (Kimi-2.5 with tuned system prompt)
+- ✅  `bot_responses/Output - ClaudeBot-v2 Responses.jsonl` (GPT-5.2 new version - needs updated system prompt)
+- ✅  `bot_responses/Output - KimiBotRaw Responses.jsonl` (Kimi-2.5 without system prompt)
+- ✅  `bot_responses/Output - KimiBotTuned Responses.jsonl` (Kimi-2.5 with tuned system prompt)
+etc...
 
-**Note**: Files marked with ⚠️ need to be generated with appropriate system prompts
 
-**Flexibility**: You can now evaluate ANY bot - just make sure the response file exists in `bot_responses/Output - [YourBotName] Responses.jsonl`
+**Flexibility**: You can evaluate ANY bot - just make sure the response file exists in `bot_responses/Output - [YourBotName] Responses.jsonl`. Each item must have a `query` and `response` field.
 
 ## Running Evaluations
 
-### Option 1: Evaluate All Bots (Recommended)
+### Evaluate Multiple Bots
 
 ```bash
-# Evaluate all 7 bots sequentially
-python evaluate_single_bot_aoai_robust.py ActualClaude
-python evaluate_single_bot_aoai_robust.py ActualClaudeTuned
-python evaluate_single_bot_aoai_robust.py ClaudeBot
-python evaluate_single_bot_aoai_robust.py ClaudeBot-v2
-python evaluate_single_bot_aoai_robust.py GPTBot
-python evaluate_single_bot_aoai_robust.py KimiBotRaw
-python evaluate_single_bot_aoai_robust.py KimiBotTuned
+# Evaluate multiple bots sequentially
+python evaluate_single_bot_no_gt.py Bot1
+python evaluate_single_bot_no_gt.py Bot2
+python evaluate_single_bot_no_gt.py Bot3
 
 # Merge results
-python merge_results.py
+python merge_results.py --no-gt
 ```
 
-### Option 2: Evaluate Individual Bots
 
-```bash
-# Just evaluate specific bots (if others are already done)
-python evaluate_single_bot_aoai_robust.py KimiBotTuned
-python evaluate_single_bot_aoai_robust.py ActualClaudeTuned
+###  Re-evaluate Everything (Clean Slate)
 
-# Merge with existing results
-python merge_results.py
-```
-
-### Option 3: Re-evaluate Everything (Clean Slate)
+If you want to test new responses (e.g., you changed the system prompt), then start with a clean slate:
 
 ```bash
 # Delete existing evaluations
-rm -rf evaluation_results/individual/*
+rm -rf evaluation_results_no_gt/individual/*
 
 # Evaluate all bots
-python evaluate_single_bot_aoai_robust.py ActualClaude
-python evaluate_single_bot_aoai_robust.py ActualClaudeTuned
-python evaluate_single_bot_aoai_robust.py ClaudeBot
-python evaluate_single_bot_aoai_robust.py ClaudeBot-v2
-python evaluate_single_bot_aoai_robust.py GPTBot
-python evaluate_single_bot_aoai_robust.py KimiBotRaw
-python evaluate_single_bot_aoai_robust.py KimiBotTuned
+python evaluate_single_bot_no_gt.py Bot1
+python evaluate_single_bot_no_gt.py Bot2
+python evaluate_single_bot_no_gt.py Bot3
 
 # Generate reports
-python merge_results.py
+python merge_results.py --no-gt
 ```
 
 ## Script Features
@@ -88,9 +69,9 @@ python merge_results.py
 ## Output
 
 After running evaluations and merge:
-- `evaluation_results/individual/` - 700 individual JSON files (100 per bot × 7 bots)
-- `evaluation_results/scores_summary.csv` - All scores in tabular format
-- `evaluation_results/summary_report.txt` - Human-readable comparison report
+- `evaluation_results_no_gt/individual/` - 700 individual JSON files (100 per bot × 7 bots)
+- `evaluation_results_no_gt/scores_summary.csv` - All scores in tabular format
+- `evaluation_results_no_gt/summary_report.txt` - Human-readable comparison report
 
 ## Expected Results
 
@@ -112,10 +93,9 @@ GPTBot                3.74/10  ███░░░░░░░  (GPT-4)
 ## Troubleshooting
 
 ### Error: Response file not found
-- Make sure all required files exist in `bot_responses/` directory
+- Make sure the bot response files exist in `bot_responses/` directory (e.g., `Output - [BotName] Responses.jsonl`)
 - File format: `bot_responses/Output - [BotName] Responses.jsonl`
 - Generate missing files using `gather_responses.py`
-- For tuned versions, use the system prompt from `bot_system_prompts/ClaudeBot-v2.txt`
 
 ### Error: Azure OpenAI credentials not set
 - Verify environment variables are set correctly

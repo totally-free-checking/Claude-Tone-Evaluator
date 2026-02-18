@@ -194,8 +194,19 @@ python gather_responses.py KimiBotTuned \
 
 2. **Evaluate:**
    ```bash
+   python evaluate_single_bot_no_gt.py KimiBotTuned
+   ```
+
+   Or, to compare against a ground truth response, use
+
+   ```bash
    python evaluate_single_bot_aoai_robust.py KimiBotTuned
    ```
+
+   #### Output Location
+   Results are saved to separate directories, so you can compare both approaches if you wish:
+   - **With GT**: `evaluation_results/individual/`
+   - **Without GT**: `evaluation_results_no_gt/individual/`
 
 3. **Check for failures:**
    ```bash
@@ -204,15 +215,32 @@ python gather_responses.py KimiBotTuned \
 
 4. **Retry failed:**
    ```bash
+   python evaluate_single_bot_no_gt.py KimiBotTuned --retry-failed
+   ```
+
+   or
+
+   ```bash
    python evaluate_single_bot_aoai_robust.py KimiBotTuned --retry-failed
    ```
 
 5. **Merge results:**
    ```bash
+   python merge_results.py --no-gt
+   ```
+
+   or
+
+   ```bash
    python merge_results.py
    ```
 
 6. **Review:**
+   - Open `evaluation_results_no_gt/scores_summary.csv`
+   - Read `evaluation_results_no_gt/summary_report.txt`
+   
+   or
+
    - Open `evaluation_results/scores_summary.csv`
    - Read `evaluation_results/summary_report.txt`
 

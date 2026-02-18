@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get why', 'If I were you', 'I'd start') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation",
+      "Strong immediate emotional validation using relatable metaphors ('secret buzzing in your head', 'inside scoop can feel super heavy')",
+      "Provides specific, actionable script the teen can actually use: 'Hey, thanks for sharing that with me. I want to respect what you told me...'"
+    ],
+    "weaknesses": [
+      "Slight minimization with 'it usually isn't as dramatic as it seems' could potentially invalidate the teen's current anxiety, though it's minor",
+      "Transition from validation to advice with 'The good news is' feels slightly abrupt - could use one more validating sentence before pivoting to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with consistent first-person perspective ('I get why', 'If I were you') that makes it feel like texting with a supportive friend rather than reading a self-help article",
+    "least_ideal_aspect": "The phrase 'it usually isn't as dramatic as it seems' risks minimizing the teen's feelings slightly by suggesting their worry is overblown before fully sitting with the discomfort",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural transitions between ideas. Advice is woven into conversational sentences rather than listed as steps. No headers, bold text, or structural formatting used."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase before 'The good news is' to fully acknowledge the weight of the situation before pivoting to reassurance",
+      "The follow-up question is good but could be slightly more open-ended like 'What feels scarier - keeping it quiet or asking them what they need?' to invite deeper reflection rather than just a yes/no feeling check"
+    ]
+  }
+}

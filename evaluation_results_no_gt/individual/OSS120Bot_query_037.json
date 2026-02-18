@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with flowing paragraphs",
+      "Strong immediate emotional validation opening with 'Ugh, that feeling... is the worst' and physical symptom acknowledgment ('stomach knot up')",
+      "Natural, specific follow-up question that invites continuation ('What do you think they might've been talking about, or do you have anyone you could run it by?')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language like 'I think,' 'I'd say,' or 'I get it' - uses 'most of us' instead of personal connection",
+      "The advice to 'catch a quick glimpse' of what they're saying could increase anxiety or feel invasive if the teen gets caught staring",
+      "Could include more explicit supportive closing like 'I'm here if you need to talk' to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational paragraph flow",
+    "least_ideal_aspect": "Absence of explicit first-person singular language ('I think,' 'I'd say') making it slightly less personal than ideal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add explicit first-person language like 'I think the best approach would be...' or 'I'd say...' to create stronger personal connection",
+      "Replace 'try to catch a quick glimpse' with advice about directly asking a trusted friend or practicing self-soothing, as eavesdropping might increase anxiety",
+      "Consider adding a brief closing statement like 'I'm here if you need to talk more' to reinforce the supportive bot character"
+    ]
+  }
+}

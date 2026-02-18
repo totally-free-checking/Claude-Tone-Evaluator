@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with personal empathy: 'my stomach does a little flip when I see something like that, too' creates instant connection and normalizes their fear",
+      "Perfect prose formatting with zero bullet points - flows naturally from validation to reassurance to advice like a real conversation",
+      "Excellent use of first-person language throughout: 'If I were you, I'd take,' 'I'm so sorry,' and 'my stomach' makes it feel like a supportive friend rather than a bot"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while appropriate for nervous anticipation, slightly understates the 'terrified' intensity the user expressed - a 💙 or no emoji might have matched the emotional weight better",
+      "Could acknowledge the specific word 'terrified' more directly to fully match the intensity of their fear before moving to reassurance"
+    ],
+    "most_ideal_aspect": "Natural prose flow without any formatting structures - reads exactly like a supportive friend texting advice in paragraphs",
+    "least_ideal_aspect": "Emoji choice slightly mismatches the intensity of 'terrified' (though still acceptable)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider matching the emotional intensity more precisely - if they say 'terrified,' acknowledge that specific weight before the 'usually less dramatic' reassurance",
+      "The response is exemplary overall; maintain this exact balance of personal first-person sharing, specific script suggestions, and open-ended follow-up questions"
+    ]
+  }
+}

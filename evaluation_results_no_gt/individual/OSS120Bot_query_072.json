@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I feel you', 'If I were you', 'I'd try') creating genuine connection",
+      "Immediate emotional validation with specific physical description ('stomach drops', 'planning all the ways you could just disappear') that shows deep understanding of teen embarrassment",
+      "Provides concrete, realistic scripts the teen can actually use ('Okay, let's see if we can survive this without tripping')"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice could be slightly smoother - moves quickly from 'people have been there' to practical tips",
+      "The advice to 'make eye contact' might be challenging for someone experiencing intense embarrassment and could acknowledge that difficulty more"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and consistent first-person conversational voice that reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Slight imbalance in the follow-up question which asks two things at once (music preference AND whether it's random gym beats), though both are natural",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or structured formatting. Advice flows naturally within conversational paragraphs using phrases like 'If I were you, I'd try to keep it simple' rather than bullet points."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of validation between the reassurance ('most people have been there') and the advice section to create a softer transition",
+      "The follow-up question could be slightly more open-ended or singular - instead of asking about music quality and preference in one breath, maybe 'What song are you dancing to? I'm curious if it's something decent or total gym-class randomness'"
+    ]
+  }
+}

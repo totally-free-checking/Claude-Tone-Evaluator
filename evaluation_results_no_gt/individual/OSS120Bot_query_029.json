@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with phrases like 'I'm so sorry you had to go through that' and 'totally makes your stomach twist' that acknowledge the physical feeling of embarrassment",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs including specific scripting for talking to the coach",
+      "Excellent specific follow-up question offering two realistic options (one-on-one vs. bringing a teammate) that shows genuine interest in their comfort level"
+    ],
+    "weaknesses": [
+      "Could strengthen first-person voice even more with explicit 'I think' or 'I'd say' statements before advice, though it does use 'I get why' and 'I'm so sorry'",
+      "Slightly softens 'yelled at' to 'called out' which may understate the intensity of the user's experience, though it still validates the embarrassment"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "First-person opinion language could be slightly stronger (more 'I think'/'I'd suggest' framing) to enhance the personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, headers, or bold text. Advice is seamlessly woven into conversational prose rather than listed as steps."
+    },
+    "specific_feedback": [
+      "Add one explicit first-person opinion phrase like 'I think the best approach would be...' or 'I'd probably try...' to strengthen the personal voice",
+      "Consider acknowledging the 'yelling' aspect specifically since the user mentioned being yelled at (more intense than called out) while still keeping the warm tone"
+    ]
+  }
+}

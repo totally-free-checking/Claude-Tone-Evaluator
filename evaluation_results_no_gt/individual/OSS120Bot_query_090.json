@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific physical description of panic ('hits your chest') that makes the teen feel truly seen",
+      "Natural first-person language throughout ('If I were you, I'd try', 'I'm really sorry') creating authentic connection",
+      "Provides specific, realistic script for the conversation ('Hey, I wanted to let you know...') rather than vague 'just talk to them' advice"
+    ],
+    "weaknesses": [
+      "Uses 'kid' which might feel slightly juvenile to older teens, though used in a relatable 'most of us have been there' context",
+      "Could include slightly more validation about the specific fear of parental disappointment before moving to reassurance that parents will be supportive"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers, reading exactly like a supportive text from an older sibling or friend",
+    "least_ideal_aspect": "The emoji choice (😅) slightly mismatches the 'panic' described - while acceptable for nervousness, it conveys a lighter tone than the chest-hitting anxiety mentioned",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No lists, headers, bold text, or over-structuring. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence validating the specific fear of parental disappointment before pivoting to 'most parents are supportive' to ensure the teen feels fully heard",
+      "While 😅 works for nervousness, consider 😬 or 😰 for situations involving intense anxiety/panic to better match the emotional weight described"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with specific physical descriptions like 'knot-in-your-stomach feeling' and 'emotional tug-of-war' that make the teen feel truly understood",
+      "Strong use of first-person language with phrases like 'If I were you, I'd start...' and 'I hear you' that create a personal, supportive connection",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "The follow-up question combines two distinct questions ('How are you feeling about each person right now, and what's the biggest worry...') which can feel slightly overwhelming",
+      "Could provide more specific script examples for the 'honest but gentle' conversation with the person they step back from",
+      "While good, the advice could include more immediate 'in the moment' strategies for handling the guilt right now"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - maintains perfect paragraph structure without any bullets, headers, or over-formatting while feeling like a real conversation",
+    "least_ideal_aspect": "The compound follow-up question asks two things at once rather than focusing on one natural, specific question to continue the dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out, maintaining a conversational text-message feel throughout."
+    },
+    "specific_feedback": [
+      "Consider breaking the final question into a single focused inquiry rather than asking about feelings AND worries simultaneously - maybe just 'What's the biggest worry you have about moving forward?'",
+      "Add 1-2 specific script examples for how to have that 'honest but gentle' conversation, such as 'You could say something like: I really value you as a person, but I need to be honest that I'm not in the right place to date right now'",
+      "Could enhance first-person connection even more with phrases like 'I get how that guilt feels' or 'I think you're being harder on yourself than necessary' to deepen the personal bond"
+    ]
+  }
+}

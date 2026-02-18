@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that sucks!' and 'makes your stomach flip' that captures the physical cringe feeling of the situation",
+      "Perfect prose formatting with zero bullet points or headers—flows like a natural text conversation with 4 well-sized paragraphs",
+      "Highly specific practical advice including exact script wording ('Hey, sorry about the random like earlier, was just scrolling') and multiple realistic options (delete, wait it out, or address it)"
+    ],
+    "weaknesses": [
+      "Lacks first-person singular language ('I think', 'I'd say', 'I get it')—uses imperative 'you could' and 'try' instead of sharing personal perspective like 'I'd probably just delete it and play it cool'",
+      "Missing explicit supportive closing like 'I'm here if you need to talk' or similar first-person reassurance that creates a personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points—reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Absence of first-person 'I' language makes the advice feel slightly impersonal despite the warm tone; uses 'you could' directives rather than sharing what 'I would' do in that situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no formatting structures, bullet lists, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create stronger connection—instead of 'If you can, try deleting the like,' use 'I'd probably delete the like right away if I were you' or 'I think the best move is...'",
+      "Include a brief first-person supportive closing like 'I'm here if you want to talk through it more' to reinforce that this is a personal conversation, not just generic advice"
+    ]
+  }
+}

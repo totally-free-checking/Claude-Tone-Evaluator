@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I'd try') creating genuine connection",
+      "Opens with immediate emotional validation using relatable teen language ('gut punch', 'stomach do flips') that acknowledges the spiraling feeling",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs",
+      "Strong follow-up question using casual teen-appropriate language ('What's your vibe') that invites continued conversation"
+    ],
+    "weaknesses": [
+      "The advice section is slightly longer than the validation section, creating a minor imbalance toward solutions over emotional support",
+      "The suggestion to 'focus on things that make you feel good' is somewhat vague compared to the specific texting advice provided"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with embedded first-person advice - reads exactly like a supportive friend texting rather than a structured self-help guide",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation - could use one more sentence of validation before transitioning to the 'If I were you' advice section",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice is seamlessly woven into conversational prose using first-person conditional statements ('If I were you, I'd try...')"
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of validation after 'Honestly, most of us have been there' to extend the emotional support before transitioning to advice",
+      "The self-care suggestion could be more specific (e.g., 'hang with friends' or 'watch your comfort show') to match the concrete texting advice provided"
+    ]
+  }
+}

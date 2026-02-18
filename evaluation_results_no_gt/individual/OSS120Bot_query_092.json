@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, visceral validation ('make your stomach do that weird knot') that captures the physical anxiety of the situation",
+      "Consistently uses first-person language ('I get how weird it feels', 'If I were you, I'd try') creating a personal, supportive connection",
+      "Provides a specific, realistic conversation script ('Hey, I've missed our old hangouts lately...') that the teen can actually use",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or structural formatting"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one subtle emoji to visually punctuate the warmth, though the absence is acceptable for this tone",
+      "The follow-up question is slightly compound (asking about receptiveness OR pushback) which could feel marginally less natural than a single focused question"
+    ],
+    "most_ideal_aspect": "The seamless integration of first-person perspective throughout the response, making it feel like a supportive friend texting rather than an automated system",
+    "least_ideal_aspect": "The complete absence of emojis, while not harmful, misses a subtle opportunity to enhance the warm, casual tone visually",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold formatting. Advice is woven naturally into conversational sentences rather than being presented as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💙) after the opening validation to visually reinforce the warm, casual tone",
+      "The follow-up question could be simplified to a single focus, such as 'Do you think they'd be up for a one-on-one hangout soon?' to feel even more conversational"
+    ]
+  }
+}

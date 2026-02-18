@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person conversational language throughout ('If I were you, I'd start by checking the vibes', 'I get why you'd be wondering') making it feel like a supportive friend",
+      "Strong immediate emotional validation with 'Ugh, that really sucks' and 'can make your stomach drop' acknowledging the specific emotional weight of feeling used",
+      "Specific actionable advice including a concrete script the teen can use: 'Hey, I've noticed we hang out a lot when X is around, and I just want to make sure I'm not just a bridge'"
+    ],
+    "weaknesses": [
+      "The follow-up question assumes the teen has already tried talking about it ('how did they respond when you tried talking about it?'), which contradicts the advice suggesting they haven't had that conversation yet",
+      "The phrase 'it feels way bigger than it probably is' could potentially minimize the teen's feelings, even though it's meant to be reassuring"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and excellent first-person language that reads like a supportive older sibling texting advice",
+    "least_ideal_aspect": "The follow-up question creates a slight logical inconsistency by assuming previous confrontation attempts that the earlier advice suggests haven't happened yet",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, or excessive formatting. Advice flows naturally within conversational sentences."
+    },
+    "specific_feedback": [
+      "Adjust the follow-up question to avoid assuming they've already confronted the friend—try something like 'Have you noticed specific moments when they only reach out around that other person?' instead",
+      "Consider softening 'it feels way bigger than it probably is' to something like 'it can feel huge in the moment, and that makes total sense' to avoid any hint of minimizing their feelings"
+    ]
+  }
+}

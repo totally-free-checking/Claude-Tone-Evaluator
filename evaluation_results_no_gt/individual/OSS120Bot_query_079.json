@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I hear you', 'If I were you', 'I'd start by') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like a text from a friend",
+      "Specific, actionable advice tailored to teen lunch situations (suggesting wraps/smoothies for easy eating, picking a corner spot, grounding techniques)"
+    ],
+    "weaknesses": [
+      "The transition from validation to the reality check ('most people are way more focused on their own plates') happens quickly and could use one more sentence of emotional acknowledgment first",
+      "The grounding move suggestion, while helpful, is slightly more structured/clinical than the rest of the casual tone"
+    ],
+    "most_ideal_aspect": "Natural prose conversation style with consistent first-person perspective ('If I were you, I'd start by...') that makes it feel like a supportive friend rather than an advice column",
+    "least_ideal_aspect": "The slight shift to a more logical/reality-based perspective ('the pressure is usually bigger in our heads') comes quickly after validation without a softer bridge",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural paragraphs with no formatting, headers, or lists. Advice is woven seamlessly into conversational sentences rather than being presented as actionable items."
+    },
+    "specific_feedback": [
+      "Add one more sentence of emotional validation between the opening empathy and the 'most people are focused on their own plates' reality check to soften that transition",
+      "Consider replacing 'grounding move' with more casual language like 'little trick' or 'thing to try' to maintain the conversational vibe throughout"
+    ]
+  }
+}

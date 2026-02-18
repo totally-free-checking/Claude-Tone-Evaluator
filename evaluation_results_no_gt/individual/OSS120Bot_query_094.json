@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers—advice flows naturally within conversational paragraphs like 'If you can, try setting a tiny \"reset\" routine...'",
+      "Strong immediate emotional validation using empathetic first-person language ('I'm so sorry you're dealing with those pounding headaches') and relatable imagery ('punch to the brain')",
+      "Specific, teen-realistic advice including concrete details like '5‑minute stretch every hour' and mentioning school counselors as a resource"
+    ],
+    "weaknesses": [
+      "Advice section uses imperative/commands ('try setting', 'Making a habit') rather than first-person suggestions ('I'd suggest', 'I think you should') which would feel more personal and supportive",
+      "The 😅 emoji choice is slightly mismatched for the context of physical pain/headaches—it conveys nervous laughter/relief rather than empathy or comfort",
+      "Could include an explicit 'I'm here to talk' or similar first-person supportive closing statement"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring—reads exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Limited first-person language in the practical advice section, using detached imperatives rather than personal recommendations like 'I'd try...' or 'In your shoes, I would...'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or bold headers. Advice is seamlessly integrated into conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Replace the 😅 emoji with 💙 or 😔 for physical pain contexts, or omit it entirely, as the sweat-drop smiley suggests nervousness rather than empathy for headaches",
+      "Add first-person framing to advice sentences, changing 'try setting a tiny reset routine' to 'I'd suggest trying a tiny reset routine' or 'What helps me is...' to strengthen the personal connection",
+      "Consider adding an explicit supportive closing like 'I'm here if you need to talk more about this' to reinforce the first-person supportive presence"
+    ]
+  }
+}

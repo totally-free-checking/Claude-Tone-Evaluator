@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with highly relatable physical description ('makes your stomach drop') that captures the specific anxiety of being accused",
+      "Excellent use of first-person advisory voice ('If I were you, I'd ask...') that creates a supportive peer-to-peer dynamic rather than lecturing",
+      "Specific, actionable script provided for the conversation with the teacher ('I'm really surprised you think I cheated...') including concrete evidence to bring"
+    ],
+    "weaknesses": [
+      "The reassurance section ('most teachers have seen this happen before') could include more first-person perspective like 'I've found that...' or 'I think...' to maintain the personal connection",
+      "The advice section shifts briefly to imperative tone ('Bring any notes...') without the conversational buffer of 'I'd suggest you bring...' or 'I think showing them...'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - the response flows as conversational paragraphs without any bullet points, headers, or over-structuring, reading exactly like a supportive text from a friend",
+    "least_ideal_aspect": "Slight dip in first-person language density in the middle section where it shifts to 'you could suggest' rather than maintaining the 'I think you should' or 'I'd suggest' voice established in the opening",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with four natural paragraphs. No bullet points, numbered lists, bold text, or headers. Advice is integrated seamlessly into narrative sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add 'I think' or 'I'd suggest' before the imperative advice in paragraph 3 to maintain first-person warmth throughout (e.g., 'I think you should bring any notes...')",
+      "Consider adding one more validating phrase after the practical advice but before the question to reinforce emotional support after the problem-solving section"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you, I'd') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Specific, actionable advice tailored to teen agency (talking to counselors, checking prerequisites, asking friends)"
+    ],
+    "weaknesses": [
+      "Could slightly deepen the 'you're not alone' validation before transitioning to solutions",
+      "The transition from reassurance to advice is slightly abrupt - could use a softer bridge like 'Here's what I'd do'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Balance between emotional support and practical advice leans slightly toward the practical side, though still well within acceptable range",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, headers, or bold formatting. Advice is woven naturally into sentences rather than listed."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase like 'That stress is so valid' before diving into the action steps",
+      "The current structure is strong, but you could slightly extend the emotional validation section to achieve perfect balance between support and solutions"
+    ]
+  }
+}

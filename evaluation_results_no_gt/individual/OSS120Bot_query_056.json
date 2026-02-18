@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd start...', 'I'm here if you want to talk') creating a personal, supportive connection",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I'm really sorry you're going through this. I'm here if you want to talk or just need someone to listen.'",
+      "Strong physical/emotional validation with 'It totally makes your chest tighten a bit' acknowledging the anxiety of the situation"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while referring to the user's uncertainty, may feel slightly too casual given the serious context of a friend who is 'struggling' (potentially mental health related)",
+      "Could slightly deepen validation of the friend's struggle itself, not just the user's uncertainty about how to respond"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, reading exactly like a supportive text from a friend",
+    "least_ideal_aspect": "Emoji choice (😅) placement after mentioning a friend is struggling creates a slight tonal mismatch for the seriousness of the topic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider replacing 😅 with 💙 or 😊, or omitting entirely, as the 'nervous laughter' connotation may feel dismissive of a potentially serious mental health situation",
+      "Maintain the strong first-person advisory voice ('If I were you...') as this is the most effective element of the response"
+    ]
+  }
+}

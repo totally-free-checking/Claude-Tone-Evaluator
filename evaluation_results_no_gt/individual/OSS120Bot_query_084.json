@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, getting grounded totally sucks' and 'I can hear that frustration' which makes the teen feel understood right away",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Specific, realistic advice tailored to the grounding situation (mini-projects, writing to parents) that acknowledges their limited agency while offering constructive action"
+    ],
+    "weaknesses": [
+      "Limited first-person language in the advice section—uses 'you could' and 'maybe try' instead of 'I'd suggest' or 'I think you should', making the advice feel slightly less personal",
+      "Minor redundancy in the follow-up question ('biggest thing you miss most' combines two phrases that mean the same thing)",
+      "Could benefit from one warm emoji (like 😅) early on to enhance the casual, friendly tone, though the absence isn't problematic"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow and zero bullet points or over-structuring",
+    "least_ideal_aspect": "Lack of first-person perspective in the advice portion (uses second-person 'you could' rather than 'I think' or 'I'd try')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format throughout. The advice section uses a colon followed by examples in commas, which flows naturally as prose rather than structured list"
+    },
+    "specific_feedback": [
+      "Incorporate first-person language into the advice section (e.g., 'I'd suggest trying...' or 'I think writing a note...') to create stronger personal connection",
+      "Fix the redundancy in the final question to either 'What's the biggest thing you miss?' or 'What do you miss most?'",
+      "Consider adding one casual emoji at the start (like 😅 after 'sucks') to reinforce the warm, texting-a-friend vibe"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm really sorry', 'I'd say') creating a personal connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Provides specific, actionable scripts the teen can actually use ('I'm really sorry, but I think it's important to tell someone because it could get dangerous')"
+    ],
+    "weaknesses": [
+      "Uses two questions at the end instead of one focused question ('What's the secret about, and how are you feeling...')",
+      "Emoji choice (😅) feels slightly mismatched with the serious/heavy context of the secret, though only one is used"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "The follow-up question combines two separate questions which slightly dilutes the engagement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no formatting structures, bullet lists, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider using a more supportive emoji like 💙 or 😊 for serious topics, or omitting entirely if the tone feels too heavy for emoji use",
+      "Streamline the ending to one specific question rather than two, such as 'How are you feeling about what to do next?' to keep the conversation focused"
+    ]
+  }
+}

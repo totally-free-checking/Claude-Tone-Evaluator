@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that really sucks' and physical empathy ('make your stomach do flips') that normalizes the stress response",
+      "Excellent first-person language throughout ('I get how heavy that pressure feels,' 'If I were you, I'd try') creating genuine connection",
+      "Provides specific, realistic conversation script for talking to parents rather than vague 'just communicate' advice",
+      "Perfect prose formatting with zero bullet points or headers—reads like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The third paragraph contains a dense list of suggestions (study blocks, planner, reminders, asking for help) strung together with commas that could flow better broken into separate sentences",
+      "Could slightly deepen validation by explicitly naming the specific emotion (fear of disappointing parents) before moving to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow—completely avoids bullet points, headers, or over-structuring while weaving practical advice into paragraph form",
+    "least_ideal_aspect": "The advice paragraph packs multiple suggestions into one long sentence with comma-separated items, slightly reducing readability compared to shorter, punchier sentences",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, bold text, or headers. Advice is naturally integrated into prose sentences using 'You could also...' and 'And don't forget...' transitions."
+    },
+    "specific_feedback": [
+      "Break the third paragraph into two shorter paragraphs—one focused on the parent conversation script and another on study/self-care strategies—to improve mobile readability",
+      "Consider adding one more specific validation phrase about fear of disappointing parents before transitioning to the 'good news' to deepen emotional acknowledgment"
+    ]
+  }
+}

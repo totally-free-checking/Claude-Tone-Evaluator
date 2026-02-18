@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with physical empathy: 'I get how that can make your stomach flip and leave you feeling exposed' acknowledges the visceral reaction to privacy violations",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'If you feel comfortable, you could drop a polite but firm comment...'",
+      "Specific actionable script provided: 'Hey, could you please take this down? I wasn't okay with it being posted' gives exact words to use"
+    ],
+    "weaknesses": [
+      "Emoji choice (😅) following 'feeling exposed' may feel slightly mismatched with the vulnerability of the situation, though the single-emoji count is appropriate",
+      "Could strengthen first-person connection in advice section by using 'I'd suggest' or 'I think' rather than 'you could' to maintain the supportive friend persona"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers - reads exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Slightly impersonal phrasing in the advice section using 'you could' rather than 'I'd recommend' or 'I think you should'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural flow between validation, context, advice tiers, and follow-up question. No formatting crutches used."
+    },
+    "specific_feedback": [
+      "Consider adding more first-person language to the advice section (e.g., 'I'd probably start by...' or 'I think the best first step is...') to maintain the conversational 'friend' voice throughout",
+      "While the single emoji is appropriately sparse, consider whether 😅 fits the seriousness of consent violations, or if 💙 or 😊 might better convey warmth without minimizing the violation"
+    ]
+  }
+}

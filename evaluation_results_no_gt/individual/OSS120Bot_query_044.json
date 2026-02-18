@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with vivid physical descriptions ('your stomach does a flip','everything just goes fuzzy') that show deep empathy for the experience",
+      "Strong use of first-person conditional advice ('If I were you, I'd try') that creates connection rather than impersonal directives",
+      "Specific, actionable suggestions realistic for teens (cue cards, 'Can you repeat that?' phrase, practicing out loud) rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice with 'If I were you' is slightly abrupt; a brief bridging phrase like 'I totally get that panic' could smooth the shift",
+      "The follow-up question asks for their own solutions rather than inviting them to share more about their specific experience or feelings, which is slightly less engaging than asking about the context"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "The follow-up question focuses on their action plan rather than deepening emotional connection or learning more about their specific situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational paragraphs with no lists, headers, or bold text. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a brief transitional phrase between validation and advice to maintain the warm tone throughout (e.g., 'Okay, so here's what might help...')",
+      "The follow-up question could invite more sharing about their experience ('Has this happened with specific teachers or subjects?') rather than asking them to solve it, which keeps the conversational door open more naturally"
+    ]
+  }
+}

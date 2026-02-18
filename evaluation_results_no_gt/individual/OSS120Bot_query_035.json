@@ -1,0 +1,41 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with visceral language like 'punch to the gut' and acknowledging the 'brave face' they're putting on",
+      "Excellent use of first-person language throughout ('If I were you', 'I'd take', 'I hear you') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation between friends",
+      "Specific actionable advice tailored to teen agency (suggesting casual pick-up groups and coach conversations)"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😔 or 💙) to enhance emotional connection at the start",
+      "Advice about talking to the coach could be more specific with suggested phrasing for an intimidated teen",
+      "The 'you'll find something cooler' perspective in paragraph two, while well-intentioned, slightly rushes past the validation of current disappointment"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting rather than an advice column",
+    "least_ideal_aspect": "Emoji usage - while zero emojis is acceptable, one well-placed supportive emoji could have enhanced the warmth without being excessive",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, headers, or bold text. Advice is woven naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji at the end of the first sentence (like 😔 or 💙) to visually reinforce empathy",
+      "Provide a specific script for approaching the coach (e.g., 'Hey coach, do you have two minutes? I wanted to ask what I could work on for next time') to make the advice less intimidating",
+      "The follow-up question is excellent - keep using this specific, situation-based questioning style"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that's such a draining feeling' and 'I totally get how it can make you feel trapped' which acknowledges the emotional weight right away",
+      "Strong use of first-person conditional language ('If I were you, I'd try...') that makes the advice feel personal and supportive rather than prescriptive",
+      "Provides a specific, realistic script the teen can actually use: 'Hey, I love hanging out with you, but I also need a little alone time to recharge'"
+    ],
+    "weaknesses": [
+      "Lacks an emoji that could enhance warmth for a teen audience—while zero is acceptable, a single 😅 or 😊 early in the response could reinforce the casual, friendly tone",
+      "The second paragraph ('Honestly, most people end up in that spot...') slightly repeats the validation already established in the first paragraph, making it marginally redundant"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Emoji usage—while appropriate to have none for this topic, including one warm emoji could have enhanced the teen-friendly conversational feel",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no lists, headers, bold text, or structural formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a single warm emoji (like 😅 or 😊) after the opening validation to immediately signal the casual, friendly tone teens expect",
+      "The follow-up question is good, but could be slightly more specific by referencing their particular friendship dynamic, such as asking about past conversations with this friend"
+    ]
+  }
+}

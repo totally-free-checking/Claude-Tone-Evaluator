@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with vivid, relatable language ('stomach feel like it's doing backflips') that acknowledges the physical feeling of inadequacy",
+      "Natural first-person connection throughout ('I've definitely been there', 'If I were you, I'd try') creating a supportive peer-like relationship",
+      "Perfect prose formatting with zero bullet points, headers, or over-structuring—reads exactly like a supportive text conversation"
+    ],
+    "weaknesses": [
+      "Could benefit from one additional explicit first-person statement (like 'I think' or 'I get it') in the advice section to maintain the personal voice established in the opening",
+      "Emoji choice (😅) slightly mismatches the serious emotional weight of the topic, though it works for the self-deprecating 'I've been there' sentiment"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or structural elements, allowing advice to flow organically within conversational paragraphs",
+    "least_ideal_aspect": "Slight underuse of first-person language in the middle advice section compared to the strong opening—relies more on 'If I were you' rather than 'I think' or 'I'd suggest'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, bold text, or headers. Advice is seamlessly woven into prose sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Consider adding explicit first-person framing like 'I think' or 'In my experience' before specific suggestions to maintain the personal, supportive voice throughout the entire response",
+      "For serious emotional topics like inadequacy, consider using 😊, 💙, or no emoji rather than 😅, which can imply nervous laughter that might slightly undermine the validation of difficult feelings"
+    ]
+  }
+}

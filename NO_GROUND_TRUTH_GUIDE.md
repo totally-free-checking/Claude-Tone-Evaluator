@@ -1,5 +1,11 @@
 # Evaluation Without Ground Truth
 
+You can evaluate responses with or without ground truth. For example, to compare a Kimi response to a Claude response, you can provide the Claude response as ground truth. This uses the evaluation rubric specified in the Evaluator prompt (`Teen Support Bot Tone Evaluator.md`), and also compares to ground truth.
+
+Alternatively, you can rely on the evaluation rubric specified in the Evaluator prompt(`Teen Support Bot Tone Evaluator - No Ground Truth.md`)
+
+Because we are evaluating _tone_, I am more interested in the evaluation rubric, rather than similarity to a single answer. For this reason, I prefer Without Ground Truth (Option 2).
+
 ## Two Evaluation Approaches
 
 ### Option 1: With Ground Truth (Original)
@@ -22,7 +28,7 @@
 
 ---
 
-### Option 2: Without Ground Truth (New)
+### Option 2: Without Ground Truth
 **Files:** `evaluate_single_bot_no_gt.py` + `Teen Support Bot Tone Evaluator - No Ground Truth.md`
 
 **How it works:**
@@ -55,36 +61,6 @@
 - You don't have Claude responses for your queries
 - You want to evaluate responses independently
 - You want to allow for creative differences from Claude
-
----
-
-## Running Evaluations Without Ground Truth
-
-### Setup (same as before)
-```powershell
-$env:AZURE_OPENAI_ENDPOINT='https://your-resource.openai.azure.com/'
-$env:AZURE_OPENAI_API_KEY='your-api-key'
-$env:AZURE_OPENAI_DEPLOYMENT='kimi-2-5'
-```
-
-### Evaluate Bots
-```bash
-# Evaluate all bots without ground truth comparison
-python evaluate_single_bot_no_gt.py ActualClaude
-python evaluate_single_bot_no_gt.py ClaudeBot
-python evaluate_single_bot_no_gt.py ClaudeBot-v2
-python evaluate_single_bot_no_gt.py GPTBot
-
-# Retry failed
-python evaluate_single_bot_no_gt.py ClaudeBot-v2 --retry-failed
-```
-
-### Output Location
-Results are saved to separate directory:
-- **With GT**: `evaluation_results/individual/`
-- **Without GT**: `evaluation_results_no_gt/individual/`
-
-This keeps the two evaluation types separate so you can compare both approaches.
 
 ---
 
@@ -143,34 +119,3 @@ This lets you see:
 - Which approach gives more actionable feedback
 
 ---
-
-## Recommendation
-
-**For your use case (improving ClaudeBot to match Claude):**
-
-Start with **WITH Ground Truth** for now:
-- You already have ActualClaude responses
-- You want to see specific improvements in matching Claude's style
-- Direct comparison helps identify what to change in the system prompt
-
-Later, switch to **WITHOUT Ground Truth** when:
-- You have new queries without Claude responses
-- You want to evaluate in production (no GT available)
-- You want pure rubric-based scoring
-
----
-
-## Next Steps
-
-If you want to use the no-GT approach:
-
-1. **Run evaluations:**
-   ```bash
-   python evaluate_single_bot_no_gt.py ClaudeBot-v2
-   ```
-
-2. **Update merge script** (or I can create a no-GT version)
-
-3. **Compare scores** between with-GT and without-GT approaches
-
-Want me to create a no-GT version of merge_results.py?

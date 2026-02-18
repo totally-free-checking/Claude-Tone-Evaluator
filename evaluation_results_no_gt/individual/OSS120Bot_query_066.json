@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout creates genuine connection ('I'm so sorry', 'I've found', 'I'm curious')",
+      "Perfect prose format with natural paragraph flow and zero bullet points or over-structuring",
+      "Strong immediate validation using empathetic physical metaphors ('punch to the gut') and normalization ('totally normal', 'most of us get stuck')",
+      "Specific, realistic advice tailored to teen agency (5-10 minute timer, doodling, phone-free walk)"
+    ],
+    "weaknesses": [
+      "The 😅 emoji placement after 'punch to the gut' slightly undercuts the empathetic intensity of the physical metaphor",
+      "Could offer slightly more emotional validation before the reassurance that 'it usually isn't as scary as it feels'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and consistent conversational first-person voice that reads like texting with a supportive friend",
+    "least_ideal_aspect": "Emoji choice and placement could better align with the emotional weight of the physical metaphor used",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural flow between validation, advice, and engagement. No lists, headers, bold text, or structural formatting used—reads exactly like a conversation."
+    },
+    "specific_feedback": [
+      "Consider using 💙 or 😊 instead of 😅, or omitting the emoji entirely, to better match the empathetic tone of 'punch to the gut'",
+      "Maintain the current balance of validation-first structure followed by specific actionable advice, as this perfectly models the ideal teen support approach"
+    ]
+  }
+}

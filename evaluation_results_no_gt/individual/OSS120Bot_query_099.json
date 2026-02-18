@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language that creates genuine connection ('If I were you, I'd try', 'I'm really sorry you're going through that')",
+      "Provides specific, actionable script for the teen to use with their parent ('I felt really exposed when you read my diary...') and concrete privacy solutions (locks, passwords)",
+      "Natural conversational flow with appropriate contractions and casual phrasing ('honestly super uncomfortable', 'gut-wrenching moment')"
+    ],
+    "weaknesses": [
+      "Contains dismissive minimizing language that invalidates the teen's current feelings: 'it feels way worse than it actually is in the long run' suggests they're overreacting",
+      "Uses 😅 emoji which is inappropriate for the serious emotional weight of feeling violated; it frames a privacy violation as an awkward 'oops' moment rather than a serious breach of trust"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and excellent first-person conversational voice that sounds like a supportive older sibling texting",
+    "least_ideal_aspect": "The minimizing/dismissive line suggesting the teen's feelings are exaggerated or temporary, which undermines the validation of their sense of violation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or over-structuring. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Remove the dismissive phrase 'it feels way worse than it actually is in the long run' as it minimizes the teen's valid feelings of violation; instead validate that the feeling of violation is real and understandable",
+      "Replace the 😅 emoji with either no emoji or something more supportive like 💙 or 😔, since a nervous-laugh emoji is mismatched with the serious emotional weight of privacy violation",
+      "Consider adding slightly more validation about the specific feeling of violation before moving to the 'most kids have dealt with this' normalization"
+    ]
+  }
+}

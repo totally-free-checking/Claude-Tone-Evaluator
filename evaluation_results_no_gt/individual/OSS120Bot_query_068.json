@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language and advice ('If I were you, I'd try...', 'I'm so sorry') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points or headers—flows like a natural text conversation",
+      "Provides specific, actionable script for the teen to use ('Hey, I've noticed I might be missing something...') making the advice immediately usable"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice, while attempting to convey the awkwardness of the situation, may slightly minimize the emotional weight of feeling hated by an authority figure",
+      "Transitions quickly from validation to reframing ('most teachers aren't out to get anyone')—could use one more sentence of pure emotional acknowledgment before the perspective shift"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow without any structured lists or bullet points—reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Emoji choice (😅) doesn't perfectly align with the severity of feeling hated; a warmer emoji like 💙 or 😊 would better match the supportive tone, or no emoji given the seriousness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is composed entirely of natural paragraphs with no bullet points, numbered lists, headers, or bold formatting. Advice is seamlessly woven into conversational sentences using 'Also' and 'If I were you' transitions."
+    },
+    "specific_feedback": [
+      "Consider replacing 😅 with 💙 or simply omitting the emoji for this specific scenario, as the 'sweat smile' can unintentionally minimize the genuine distress of feeling targeted by a teacher",
+      "Add one more sentence of pure validation before the reframing statement—something like 'That uncertainty can make going to class feel so heavy'—to sit with the feeling longer before moving to solutions"
+    ]
+  }
+}

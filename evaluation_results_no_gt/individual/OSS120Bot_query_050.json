@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get how frustrating','If I were you, I'd try') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Specific actionable advice including exact script for talking to teacher ('Hey, I'm having trouble collaborating...')"
+    ],
+    "weaknesses": [
+      "Slightly long third paragraph that combines multiple suggestions (teacher note, breathing exercises, snacks) which could be overwhelming",
+      "Absence of emoji when one warm emoji (like 😅 or 😬) could have enhanced the opening validation"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - completely avoids bullet points and structured lists while maintaining readability",
+    "least_ideal_aspect": "Length of the advice paragraph which packs multiple distinct strategies (task focus, teacher intervention, self-care) into one dense block",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural transitions. No headers, bold text, or list formatting detected. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider breaking the third paragraph into two smaller chunks for better mobile readability - perhaps separate the teacher conversation advice from the self-care tips",
+      "Adding one subtle emoji (like 😅) after 'Ugh, that really sucks' could enhance warmth without feeling excessive"
+    ]
+  }
+}

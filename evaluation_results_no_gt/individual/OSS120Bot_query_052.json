@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using first-person language: 'I'm really sorry you're stuck in that guilt loop—it totally feels heavy'",
+      "Provides specific, actionable script for quitting: 'Hey, I've realized I can't keep up with [activity] right now...' including placeholders for personalization",
+      "Maintains natural conversational flow throughout with contractions and casual phrasing like 'nagging at you' and 'a lot less dramatic'"
+    ],
+    "weaknesses": [
+      "The follow-up question is technically compound (two questions joined by 'or'), though it flows naturally as a single conversational thread",
+      "Could include slightly more first-person 'I' statements in the reassurance section to strengthen personal connection, though 'If I were you' is well-used"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Slight opportunity for even more first-person language in the middle reassurance paragraph to fully maximize the 'supportive friend' persona",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or bold text. Advice flows naturally within paragraph structure as continuous conversation."
+    },
+    "specific_feedback": [
+      "Consider adding one more first-person validation phrase like 'I get how heavy that feels' to reinforce the personal connection",
+      "The compound question at the end works well, but could be split into two separate sentences for clarity while maintaining the conversational tone"
+    ]
+  }
+}

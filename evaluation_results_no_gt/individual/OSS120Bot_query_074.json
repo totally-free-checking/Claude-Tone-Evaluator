@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that really sucks' and 'I get that sinking feeling' which uses first-person language to create connection",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I've noticed a lot of new rules lately and I'm feeling pretty stuck. Can we talk about what's going on...'",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The follow-up question is technically two questions combined, which slightly dilutes the focus, though they are related",
+      "Could potentially benefit from one warm emoji (like 😅 or 💙) at the opening to set tone, though the absence is acceptable for this serious topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "Nothing significantly diverges; if forced to choose, the absence of any emoji (while appropriate for the topic) means missing an opportunity for visual warmth, though this is minor",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, numbered lists, bold text, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅) after 'Ugh, that really sucks' to enhance visual warmth without undermining the seriousness",
+      "The follow-up question could be simplified to a single focus question like 'What kind of rules have they added lately?' to feel more conversational rather than interrogative"
+    ]
+  }
+}

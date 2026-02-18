@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with visceral empathy ('I get how your stomach can flip and everyone's vibe can feel tense')",
+      "Strong first-person language throughout ('If I were you, I'd try...', 'I get how') creating authentic connection",
+      "Provides specific, actionable script the teen can actually use ('Hey, I hear you, but I'm not comfortable with that...')"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while conveying nervousness/awkwardness, might slightly understate the seriousness of peer pressure compared to more supportive choices like 💙",
+      "Could briefly acknowledge the specific fear of damaging the friendship, which is often the core anxiety in these situations"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting rather than a structured advice column",
+    "least_ideal_aspect": "Emoji choice (😅) is slightly mismatched to the emotional weight of peer pressure, though not inappropriate",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or over-structuring. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider using 💙 or 😟 instead of 😅 for serious peer pressure topics to better match the emotional gravity while maintaining warmth",
+      "Could add one line acknowledging that worrying about losing the friendship is totally normal, since that's often the underlying fear driving the discomfort"
+    ]
+  }
+}

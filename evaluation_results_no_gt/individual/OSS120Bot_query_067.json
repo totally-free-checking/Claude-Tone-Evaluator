@@ -1,0 +1,41 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using relatable language like 'Ugh, that feeling' and 'stomach-flip moment' that perfectly captures the teen's anxiety",
+      "Uses exactly one well-placed emoji (😅) early in the response to enhance the warm, casual tone without being excessive",
+      "Provides specific, actionable script the teen can actually use: 'I'm still figuring out my interests, but I'd love to talk about what options might fit me later'",
+      "Maintains pure prose format with zero bullet points, reading like a natural text conversation rather than a structured guide"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory language like 'I think' or 'I'd suggest' in the advice section; uses 'If you can, try' instead of more personal 'I'd probably try to steer'",
+      "Contains slightly generic platitude: 'it won't magically solve everything overnight' which feels less specific than the rest of the response",
+      "Could include a closing first-person support statement like 'I'm here if you need to talk' to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, maintaining a conversational flow throughout all four paragraphs",
+    "least_ideal_aspect": "Limited use of first-person advisory language ('I think', 'I'd say') in the practical advice section, making the suggestions feel slightly less personal than the validation section",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out, perfectly matching the ideal character profile."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice section, e.g., change 'If you can, try steering' to 'I'd suggest trying to steer' or 'I think it helps to steer'",
+      "Replace the generic 'it won't magically solve everything overnight' with something more specific like 'the pressure won't disappear completely, but it usually gets easier to handle'",
+      "Consider adding a brief first-person closing like 'I'm here if you want to talk through what they say' to reinforce the supportive relationship"
+    ]
+  }
+}

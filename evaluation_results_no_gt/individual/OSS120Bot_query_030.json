@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I hear you', 'If I were you', 'I'd try') creating a personal, supportive connection",
+      "Provides a specific, realistic script the teen can actually use: 'I get that you're stuck, but I can't keep doing the work for you – let's review it together'",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched with 'exhausting' (typically signals nervous laughter/awkwardness rather than exhaustion), though not inappropriate",
+      "Could acknowledge the specific fear of damaging the friendship slightly earlier, though it does address this in the advice paragraph"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured lists while maintaining readability",
+    "least_ideal_aspect": "Emoji selection could be slightly more aligned with the emotional tone (exhaustion/frustration rather than awkwardness)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural transitions between validation, advice, and follow-up question. No formatting crutches used."
+    },
+    "specific_feedback": [
+      "Consider using 😊 or 💙 instead of 😅 to better match the 'exhausted' emotion, or omit the emoji entirely since the warmth comes through strongly in the language",
+      "The validation is strong, but you could add one more sentence acknowledging the specific difficulty of setting boundaries with friends to make it even more relatable"
+    ]
+  }
+}

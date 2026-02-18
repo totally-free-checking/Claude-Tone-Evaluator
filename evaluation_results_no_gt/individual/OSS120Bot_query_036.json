@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd try...', 'I'm really sorry') creating a personal, supportive connection",
+      "Strong immediate emotional validation with relatable imagery ('knot in your chest', 'your gut's yelling') and normalization ('most of us have been there')",
+      "Provides specific, actionable conversation scripts that are realistic for teens to use ('I noticed X and it made me a little nervous')"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while conveying awkwardness, might slightly undercut the seriousness of distrust concerns for some situations, though it fits the 'awkward spot' framing",
+      "Could briefly acknowledge why the friend might be blind to red flags (e.g., 'when you're crushing, it's easy to miss...') to further validate the teen's perspective before moving to advice"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or formatting - flows like a supportive friend texting, with advice embedded naturally in conversational paragraphs",
+    "least_ideal_aspect": "The transition from validation to advice could include one more sentence acknowledging the difficulty of watching a friend potentially get hurt, to strengthen the emotional support before shifting to problem-solving",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. The response uses four natural paragraphs that flow from validation to advice to engagement, exactly matching the ideal conversational style."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence acknowledging how hard it is to watch a friend potentially make mistakes, deepening the validation before offering the 'gather info' strategy",
+      "The follow-up question is excellent but could be slightly more open-ended (e.g., 'What feels scarier: bringing it up or watching them get hurt?') to invite deeper emotional sharing rather than just cognitive prediction"
+    ]
+  }
+}

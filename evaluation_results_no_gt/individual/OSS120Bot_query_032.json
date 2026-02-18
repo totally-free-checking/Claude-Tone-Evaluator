@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with physical empathy ('I get how that knot in your chest can keep looping') that makes the teen feel truly understood",
+      "Strong first-person natural language throughout ('If I were you, I'd try,' 'I get how') creating authentic conversational flow",
+      "Specific actionable script provided ('Hey, I've noticed things feel a bit off lately—everything okay?') with realistic timing advice (give them a day or two)"
+    ],
+    "weaknesses": [
+      "The transition to 'The good news is...' comes slightly quickly after validation, potentially minimizing the emotional weight just a touch before fully sitting with it",
+      "The phrase 'this kind of vibe' is slightly generic compared to the otherwise specific emotional language used elsewhere"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The balance between emotional support and practical solutions leans slightly toward solution-oriented, though still well within acceptable range",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs, no headers, bold text, or lists. Advice flows conversationally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider extending the validation phase slightly longer before moving to 'good news' to fully acknowledge the anxiety of uncertainty",
+      "The current emoji choice (😅) works well for the awkwardness, but ensure it doesn't unintentionally minimize the stress—consider 😊 or no emoji for heavier situations, though here it's appropriate"
+    ]
+  }
+}

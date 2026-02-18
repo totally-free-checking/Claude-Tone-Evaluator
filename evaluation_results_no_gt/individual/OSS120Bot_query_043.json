@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get how uncomfortable it is', 'If I were you', 'I'd try') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've been feeling a bit confused...')"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation of the specific betrayal/suspicion feelings before normalizing with 'most of us have been there'",
+      "The 😅 emoji, while appropriate for the awkwardness, might slightly understate the hurt feelings involved in suspected lying"
+    ],
+    "most_ideal_aspect": "The natural conversational prose and consistent first-person perspective ('If I were you', 'I'd try', 'I value') makes it feel like a supportive friend texting",
+    "least_ideal_aspect": "The transition from validation to advice could include a brief acknowledgment that the friend's suspicion might be valid/justified, not just confusing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within paragraphs."
+    },
+    "specific_feedback": [
+      "Consider validating the specific hurt or betrayal feelings ('It really hurts to feel like someone you trust isn't being straight with you') before moving to normalization",
+      "Could ask one clarifying question earlier about what specifically made them think the friend is lying, to help tailor the advice further"
+    ]
+  }
+}

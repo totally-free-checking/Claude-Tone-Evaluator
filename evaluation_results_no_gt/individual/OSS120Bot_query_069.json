@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with vivid, relatable language like 'gut-kneading moments' and 'uncertainty totally sucks' that acknowledges the emotional weight",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, headers, or over-structuring, reading like a supportive friend texting",
+      "Specific, actionable advice including exact scripting for confronting the person ('Hey, I'm not sure if you're joking...') and realistic next steps like talking to a counselor",
+      "Natural conversational tone using contractions, casual phrases like 'super confusing' and 'gray-area spot,' and first-person validation ('I'm really sorry')"
+    ],
+    "weaknesses": [
+      "Advice section uses impersonal 'You could...' framing rather than first-person 'I think...' or 'I'd suggest...' which would strengthen the personal connection",
+      "Lacks emoji usage which could enhance warmth, though the absence is appropriate for the serious topic and the text conveys warmth effectively"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or structural formatting, creating a genuine conversational flow that feels like texting with a supportive older sibling",
+    "least_ideal_aspect": "Slightly impersonal delivery of practical advice using second-person 'You could...' rather than first-person 'I think you should...' or 'I'd try...' framing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of four natural paragraphs with no formatting structures. Advice flows organically within sentences rather than being listed out, maintaining conversational rhythm throughout."
+    },
+    "specific_feedback": [
+      "Consider adding first-person framing to the advice section, such as 'I'd suggest trying to note...' or 'I think you could bring it up...' to match the warm first-person validation in the opening",
+      "While zero emojis is appropriate for this serious topic, consider ending with a single warm emoji like 💙 or a supportive phrase like 'I'm here if you need to talk' to reinforce ongoing support"
+    ]
+  }
+}

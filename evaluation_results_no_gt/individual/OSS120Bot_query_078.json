@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so awkward' and 'I get how that can make you want to pull back' that makes the teen feel understood",
+      "Provides specific, actionable scripts like 'Hey, I appreciate you reaching out, but I'm not really looking to hang out more right now' that teens can actually use",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation with a supportive friend"
+    ],
+    "weaknesses": [
+      "Ends with two questions at once ('How does the vibe feel...?' and 'Do you think they'll respect it...?') rather than one focused follow-up",
+      "Advice section uses second-person 'you could' framing instead of first-person 'I'd suggest' or 'I think' which would create stronger personal connection",
+      "Lacks emojis entirely - while not required, one warm emoji (like 😅) could enhance the casual, friendly tone"
+    ],
+    "most_ideal_aspect": "Natural prose format with 100% paragraph structure and zero bullet points, creating a genuine conversational flow",
+    "least_ideal_aspect": "Follow-up question engagement - asks two questions simultaneously rather than one specific, focused question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph format throughout with no headers, bold text, or list formatting. Advice flows naturally within sentences rather than being structured as actionable items."
+    },
+    "specific_feedback": [
+      "Combine the two ending questions into one focused question like 'How do you think they'd react if you set that boundary?' to avoid overwhelming the user",
+      "Add one warm emoji early in the response (e.g., 😅 after 'awkward') to match the casual, validating tone",
+      "Use first-person framing in the advice section like 'I'd probably just say...' or 'I think the best approach is...' instead of 'you could' to maintain the personal connection established in the opening"
+    ]
+  }
+}

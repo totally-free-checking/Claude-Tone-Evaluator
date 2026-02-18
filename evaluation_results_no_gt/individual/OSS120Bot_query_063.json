@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'I'm so sorry' and 'I've totally been there' that normalizes the experience",
+      "Perfect prose formatting with zero bullet points - flows naturally from validation to advice to follow-up like a real conversation",
+      "Specific, actionable scripts like 'Oops, sorry, wrong class!' that give the teen exact words to use"
+    ],
+    "weaknesses": [
+      "Advice section could use more explicit first-person framing (e.g., 'I'd suggest' or 'I think') to strengthen the personal connection",
+      "The follow-up question focuses on the logistical outcome (getting to class) rather than checking in on their emotional state after the embarrassment"
+    ],
+    "most_ideal_aspect": "Natural prose format with no bullet points or over-structuring - maintains conversational flow throughout all four paragraphs",
+    "least_ideal_aspect": "Slightly impersonal advice delivery that uses 'If you can, try...' rather than first-person sharing like 'I would just slip out with...'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of paragraph structure with natural transitions. No headers, bold text, or lists. Reads like a text message from a supportive friend."
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section (e.g., 'I'd probably just slip out with a quick...') to make it feel more like personal sharing than instructions",
+      "Consider asking about their feelings in the follow-up (e.g., 'How are you feeling about it now?') in addition to whether they got to class"
+    ]
+  }
+}

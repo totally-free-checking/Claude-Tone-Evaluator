@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were you,' 'I might try,' 'I'm glad') creating genuine connection",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I'm glad you thought of me! How's everything else going?')",
+      "Perfect prose formatting with zero bullet points or over-structuring, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Follow-up question combines two questions into one sentence which is slightly less focused than ideal",
+      "Could include one additional validating phrase before transitioning to advice to strengthen the emotional support-to-solutions ratio"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and consistent first-person language that creates an authentic conversational flow",
+    "least_ideal_aspect": "The follow-up question is slightly complex, asking two things at once ('How do you usually respond... and do you think they'd notice...') rather than one focused question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains perfect paragraph structure throughout with no headers, bold text, or list formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider making the closing question singular and more concise rather than combining two questions",
+      "Add one more brief validating statement between the validation paragraphs and the advice paragraph to create an even smoother transition from feelings to actions"
+    ]
+  }
+}

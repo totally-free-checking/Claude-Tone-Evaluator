@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person perspective throughout ('I'm really sorry', 'If I were you', 'I'd try') creating genuine connection",
+      "Specific, actionable scripts provided ('Hey, I've noticed things feel a bit weird lately...') that teens can actually use",
+      "Perfect prose formatting with natural paragraph flow - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit 'I get it' or 'I hear you' type first-person validation before transitioning to advice",
+      "The follow-up section contains two questions which, while related, slightly risks feeling like an interrogation rather than a single natural inquiry"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and conversational first-person language ('If I were you, I'd try...')",
+    "least_ideal_aspect": "Transition from validation to advice could include one more sentence of explicit emotional acknowledgment before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no headers, bold text, or list structures. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain the strong first-person perspective ('I'd say', 'I think') in future responses as it creates authentic connection",
+      "Consider adding one more validating phrase like 'That really sucks' or 'I get why that feels heavy' before shifting to the 'If I were you' advice section to lengthen the emotional support portion slightly"
+    ]
+  }
+}

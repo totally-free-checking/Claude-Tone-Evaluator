@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that totally hurts' and the physical description of 'stomach drop' that makes the teen feel truly seen and understood",
+      "Excellent natural prose with zero bullet points or formatting, reading exactly like a supportive friend texting rather than an advice article",
+      "Strong use of first-person language throughout ('If I were you', 'I'd try') creating personal connection and specific actionable script ('Hey, I heard you all got together...') that teens can actually use"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice feels slightly mismatched with the hurt feelings described; it conveys nervous laughter/awkwardness rather than empathy for emotional pain",
+      "Could benefit from one additional sentence of validation between the acknowledgment and the 'If I were you' advice to strengthen the emotional support buffer"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero structural elements (no bullets, headers, or bold text), creating an authentic peer-to-peer texting feel",
+    "least_ideal_aspect": "Emoji selection which uses 😅 (nervous/awkward) rather than a more empathetic choice like 💙 or 😔 for a situation involving hurt feelings and exclusion",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. Advice flows organically within sentences ('If I were you, I'd try reaching out...') rather than being listed as actionable items. No headers, bold text, or numbered lists present."
+    },
+    "specific_feedback": [
+      "Replace 😅 with 💙 or 😔 to better match the emotional weight of being excluded, or omit the emoji entirely for serious hurt feelings",
+      "Add one brief validating sentence like 'You deserve to feel included' between the validation and advice sections to strengthen the emotional buffer before moving to solutions",
+      "Maintain the current first-person approach ('If I were you', 'I'd say') as it creates excellent rapport and makes the advice feel personal rather than prescriptive"
+    ]
+  }
+}

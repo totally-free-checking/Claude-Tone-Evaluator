@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with phrases like 'You're definitely not overreacting' and 'I get why it's wearing thin' that immediately normalize the teen's feelings",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs as if texting a friend",
+      "Highly specific actionable advice including exact wording to use ('Hey, I'm not cool with those 'joking' threats') and clear escalation steps to adults"
+    ],
+    "weaknesses": [
+      "The 😅 emoji feels slightly mismatched for a serious safety topic about fighting/threats; it could unintentionally minimize the concern or feel awkward given the context",
+      "Advice section shifts to impersonal second-person ('maybe try') rather than maintaining first-person connection ('I think you could try' or 'I'd probably say') throughout",
+      "Could strengthen validation of the safety concern specifically - acknowledging that feeling physically threatened is scary, not just 'annoying'"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers - maintains perfect conversational flow throughout all paragraphs",
+    "least_ideal_aspect": "Emoji choice (😅) for a serious topic involving potential physical threat - while intended to convey discomfort, it may feel slightly dismissive of the safety concern",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose-only format with no lists, headers, or over-formatting. Advice is woven naturally into paragraph form rather than being listed out."
+    },
+    "specific_feedback": [
+      "Replace 😅 with either no emoji or a more supportive one like 💙 for this serious topic, as the nervous laughter emoji may feel minimizing when discussing potential violence",
+      "Add more first-person language to the advice section (e.g., 'I think you could try saying...' or 'I'd probably go with something like...') to maintain the personal connection established in the opening",
+      "Consider adding one line specifically validating the fear/safety aspect ('It's scary when someone makes you feel unsafe') before calling it 'annoying' to ensure the teen feels their safety concern is taken seriously"
+    ]
+  }
+}

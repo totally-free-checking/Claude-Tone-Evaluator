@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's so annoying') and empathy ('I totally get how that can make you feel a bit trapped')",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a natural text conversation",
+      "Provides specific, actionable script the teen can actually use ('Hey, I love that we have the same taste, but I'd love to see you bring your own spin on things too')"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory language—uses 'you could try' instead of 'I think you could' or 'I'd probably suggest', making it slightly less personal",
+      "Could deepen validation around the 'losing your own vibe' concern before jumping to the explanation about why friends copy"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points or structural formatting",
+    "least_ideal_aspect": "Limited use of first-person perspective in advice-giving (uses 'you could' rather than 'I think' or 'I'd try')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, bold text, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Replace 'you could try' with first-person suggestions like 'I think I'd try...' or 'Honestly, I'd probably...' to sound more like a friend sharing personal advice",
+      "Add one more sentence validating the specific fear of 'losing your own vibe' before explaining why copying happens, to strengthen the emotional support before solutions"
+    ]
+  }
+}

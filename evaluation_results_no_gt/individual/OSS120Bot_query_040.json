@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout, particularly 'If I were you, I'd...' which creates genuine connection and makes advice feel personal rather than prescriptive",
+      "Strong immediate emotional validation with 'I'm so sorry you're dealing with that' and the relatable metaphor 'like your phone's on a treadmill you can't hop off'",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs with specific scripts embedded in sentences"
+    ],
+    "weaknesses": [
+      "Follow-up question asks them to predict another person's reaction ('How do you think they'd react...') which can be anxiety-inducing; a question about their own feelings or hesitations would invite more vulnerable sharing",
+      "Could benefit from slightly more explicit first-person framing in the advice section (e.g., 'I think starting with...' or 'I'd probably say...') to reinforce the supportive friend persona"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with embedded specific advice - it gives concrete scripts ('Hey, I really enjoy chatting...') without breaking into bullet points or lists, maintaining a texting-a-friend feel throughout",
+    "least_ideal_aspect": "The follow-up question focuses on predicting the other person's reaction rather than exploring the teen's own emotions or barriers, which slightly misses an opportunity for deeper emotional connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullets, headers, or bold text. Advice is seamlessly woven into conversational prose using phrases like 'If I were you, I'd start by...'"
+    },
+    "specific_feedback": [
+      "Consider asking about their own feelings or fears rather than asking them to predict the texter's reaction - something like 'What's making you most nervous about sending that first boundary text?'",
+      "Add one more 'I' statement in the advice section like 'I think the key is...' or 'I'd probably feel nervous too, but...' to strengthen the first-person supportive voice"
+    ]
+  }
+}

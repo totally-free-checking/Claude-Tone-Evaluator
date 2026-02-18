@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with phrases like 'Ugh, that sounds really draining' and 'I get how exhausting it is' that acknowledge the emotional weight",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs like 'If you can, try carving out a little quiet zone...'",
+      "Highly specific and actionable advice including exact scripts the teen can use ('Hey, I've noticed things get pretty heated lately...') and realistic options like stepping out for coffee breaks"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective in the advice section - uses 'you could' and 'try' instead of 'I'd suggest' or 'I think you could', making it slightly less personal",
+      "The follow-up question is technically two questions joined together ('How have you tried... and what feels most doable...'), which slightly violates the 'avoid multiple questions at once' guideline"
+    ],
+    "most_ideal_aspect": "Natural prose format with embedded advice - completely avoids bullet points and headers while maintaining conversational flow throughout",
+    "least_ideal_aspect": "Limited first-person language in the advice portion - relies heavily on second-person imperative ('you could') rather than sharing personal perspective ('I'd probably')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice is seamlessly integrated into conversational prose."
+    },
+    "specific_feedback": [
+      "Integrate more first-person language into the advice section, such as 'I'd probably try carving out...' or 'I think the best approach would be...' to increase the personal, friend-to-friend feel",
+      "Consider condensing the follow-up into a single focused question rather than a compound question, or ensure the two parts feel like one natural inquiry"
+    ]
+  }
+}

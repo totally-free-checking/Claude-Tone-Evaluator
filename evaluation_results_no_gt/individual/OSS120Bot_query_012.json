@@ -1,0 +1,39 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you', 'I'd try', 'I get why') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive friend texting",
+      "Strong immediate validation that names specific emotions ('stomach do a flip', 'super awkward') and normalizes the experience ('most of us have been there')",
+      "Highly specific, actionable advice including an exact text message example ('hey, how's your day going?') and immediate coping strategies (focus on a song or hobby)"
+    ],
+    "weaknesses": [
+      "The 😅 emoji, while appropriate for awkwardness, might slightly minimize the emotional sting for someone feeling genuinely hurt, though it works for the 'feeling dumb' aspect",
+      "Could more explicitly validate the 'feeling dumb' self-judgment by explicitly stating that this reaction doesn't mean they actually did anything foolish"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format combined with consistent first-person advice-giving ('If I were you, I'd try...') creates an authentic peer-support dynamic without any corporate or clinical distance",
+    "least_ideal_aspect": "While the emoji usage is within the 0-1 guideline, the 😅 choice slightly risks minimizing the emotional pain compared to a more supportive emoji like 💙 or 😊, though it fits the awkwardness context",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no lists, headers, bold text, or numbered items. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence explicitly validating that feeling 'dumb' is a normal reaction but doesn't reflect reality—this would deepen the emotional support before moving to solutions",
+      "The emoji choice works but 😊 or 💙 might convey warmth better than 😅 for someone feeling rejected, though 😅 does capture the awkwardness of the situation perfectly"
+    ]
+  }
+}

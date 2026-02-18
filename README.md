@@ -97,7 +97,7 @@ The system supports **ANY bot name** - just create response files with this form
 bot_responses/Output - [BotName] Responses.jsonl
 ```
 
-**Example bots (7 currently tracked):**
+**Example bots:**
 - **ActualClaude** - Claude Sonnet 4.5 baseline
 - **ActualClaudeTuned** - Claude with teen support prompt
 - **ClaudeBot** - GPT-5.2 old version
@@ -106,14 +106,9 @@ bot_responses/Output - [BotName] Responses.jsonl
 - **KimiBotRaw** - Kimi-2.5 baseline
 - **KimiBotTuned** - Kimi-2.5 with teen support prompt
 
-See [BOT_LIST.md](BOT_LIST.md) for details.
 
 ## Key Features
 
-### 🔄 Flexible Bot Names
-- No hardcoded bot lists - use any name you want
-- Automatically finds response files in `bot_responses/` directory
-- See [FLEXIBLE_BOT_NAMES.md](FLEXIBLE_BOT_NAMES.md)
 
 ### 🎯 Dual Evaluation Modes
 - **With Ground Truth**: Compare responses to ActualClaude
@@ -231,17 +226,17 @@ python gather_responses.py KimiBotTuned \
 # 2. Check repetitiveness
 python analyze_repetitiveness.py KimiBotTuned
 
-# 3. Evaluate (with ground truth)
-python evaluate_single_bot_aoai_robust.py KimiBotTuned
+# 3. Evaluate (without ground truth)
+python evaluate_single_bot_no_gt.py KimiBotTuned
 
 # 4. Check for failures
 python find_failed_evals.py
 
 # 5. Retry failures
-python evaluate_single_bot_aoai_robust.py KimiBotTuned --retry-failed
+python evaluate_single_bot_no_gt.py KimiBotTuned --retry-failed
 
 # 6. Generate report
-python merge_results.py
+python merge_results.py --no-gt
 
 # 7. Review results
 # - evaluation_results/scores_summary.csv
@@ -262,12 +257,12 @@ python analyze_repetitiveness.py KimiBotTuned
 python analyze_repetitiveness.py GPTBot
 
 # Evaluate all
-python evaluate_single_bot_aoai_robust.py ActualClaude
-python evaluate_single_bot_aoai_robust.py KimiBotTuned
-python evaluate_single_bot_aoai_robust.py GPTBot
+python evaluate_single_bot_no_gt.py ActualClaude
+python evaluate_single_bot_no_gt.py KimiBotTuned
+python evaluate_single_bot_no_gt.py GPTBot
 
 # Merge and compare
-python merge_results.py
+python merge_results.py --no-gt
 ```
 
 ## Cost Estimation
@@ -303,8 +298,6 @@ python merge_results.py
 
 ## Documentation
 
-- [BOT_LIST.md](BOT_LIST.md) - All supported bots
-- [FLEXIBLE_BOT_NAMES.md](FLEXIBLE_BOT_NAMES.md) - Using any bot name
 - [GATHER_RESPONSES.md](GATHER_RESPONSES.md) - Generating responses
 - [RUN_EVALUATIONS.md](RUN_EVALUATIONS.md) - Running evaluations
 - [NO_GROUND_TRUTH_GUIDE.md](NO_GROUND_TRUTH_GUIDE.md) - With vs without GT
@@ -325,13 +318,6 @@ The teen support bot character:
 
 See [bot_system_prompts/ClaudeBot-v2.txt](ClaudeBot-v2.txt) for complete guidelines.
 
-## Contributing
-
-When adding new bots:
-1. Generate responses with `gather_responses.py`
-2. Check repetitiveness with `analyze_repetitiveness.py`
-3. Evaluate with appropriate script
-4. Document in [BOT_LIST.md](BOT_LIST.md) if it's a standard bot
 
 ## License
 

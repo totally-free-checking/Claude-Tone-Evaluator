@@ -1,0 +1,40 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation with specific, relatable descriptions of the feeling ('weird, hollow feeling when you're right there but somehow still on the outside')",
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've been kinda quiet lately, what's been happening with you?')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person language when giving advice (uses imperative 'try nudging' instead of 'I'd suggest nudging' or 'I think you could try')",
+      "Minor grammar error ('a activity' instead of 'an activity')",
+      "Follow-up question is slightly compound (asks two things at once) rather than a single focused question"
+    ],
+    "most_ideal_aspect": "Natural prose format with strong emotional validation - perfectly captures the 'texting with a supportive friend' feel without any bullet points or over-structuring",
+    "least_ideal_aspect": "Absence of first-person perspective in the advice section (shifts to second-person imperative commands rather than sharing personal suggestions)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent natural prose throughout. No bullet points, headers, bold text, or numbered lists. Advice flows organically within paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice section (e.g., 'I'd probably try nudging...' or 'I think you could say...') to make it feel more like personal advice from a friend rather than instructions",
+      "Fix the grammar error: change 'joining a activity' to 'joining an activity'",
+      "Consider making the final question singular and more focused (e.g., 'What's been happening lately that makes you feel most left out?') rather than the compound question"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "OSS120Bot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language ('Ugh, that really sucks') and acknowledges the draining nature of the situation",
+      "Uses first-person language naturally throughout ('If I were you, I'd try...', 'I get how draining that can feel') creating a supportive peer-like connection",
+      "Provides specific, actionable script the teen can actually use verbatim ('Hey, love hearing from you, but 2 am is kinda brutal for me...')"
+    ],
+    "weaknesses": [
+      "The 😅 emoji could potentially minimize the frustration slightly, though it generally works to lighten the tone",
+      "Could briefly acknowledge why the friend might be texting late (anxiety, insomnia) before jumping to boundary-setting, though the 'most friends don't realize' line partially addresses this"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive text from a friend",
+    "least_ideal_aspect": "The follow-up question, while good, is slightly narrower than ideal; it focuses only on the friend's reaction rather than opening space for the teen to share more about their feelings or the friendship dynamic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or bold text. Advice flows naturally within conversational paragraphs using 'If I were you...' framing rather than imperative instructions."
+    },
+    "specific_feedback": [
+      "Consider adding one more line of validation about how hard it is to set boundaries with friends before offering the script, to further emphasize that their exhaustion is valid",
+      "The follow-up question could be slightly more open-ended like 'How are you feeling about bringing this up with them?' to invite emotional processing alongside logistical planning"
+    ]
+  }
+}
