@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally in three conversational paragraphs",
+      "Strong immediate emotional validation with 'Oh wow, that's a tough spot to be in' and acknowledgment of the 'heavy responsibility'",
+      "Perfect emoji usage with single 💙 placed early to set warm tone without being excessive",
+      "Well-balanced structure that validates first, offers practical safety guidance, then re-engages"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd feel', 'I get it') which makes it feel slightly impersonal despite being warm - reads more like general wisdom than a specific person relating to them",
+      "Could use more specific first-person connection like 'I'd be so torn in your situation' or 'I think you're handling this thoughtfully' to strengthen the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads exactly like a supportive text message",
+    "least_ideal_aspect": "Absence of first-person 'I' statements that would create a stronger sense of personal connection and make it feel like a specific supportive individual rather than general advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Flows conversationally from validation to advice to follow-up question."
+    },
+    "specific_feedback": [
+      "Add first-person perspective using 'I' statements like 'I think you're being a really thoughtful friend' or 'I'd feel so conflicted too' to create stronger personal connection",
+      "Consider adding one specific phrase example they could use when talking to their friend or the adult, such as 'You could say something like...' to make the advice more actionable"
+    ]
+  }
+}

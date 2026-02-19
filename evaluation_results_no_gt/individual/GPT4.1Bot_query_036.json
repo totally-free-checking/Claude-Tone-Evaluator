@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were you, I'd probably...', 'I totally get that weird, stomach-twisty feeling', 'I'm here') creating genuine connection",
+      "Strong immediate emotional validation with specific physical descriptors ('stomach-twisty feeling') that teens can relate to",
+      "Provides concrete, realistic script for what to say ('Hey, I just want you to be happy...') rather than vague 'just talk to them' advice",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Could potentially include one subtle emoji (like 😅) early on to enhance warmth, though the absence is not problematic for this topic",
+      "The advice section is slightly longer than the validation section, though the balance is still good"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow—completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "Minor opportunity to add one warm emoji to enhance the casual, friendly tone, though the text-only approach works well for this slightly serious topic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting aids, bullet points, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 😊) at the start to immediately signal warmth, though the current text-only approach is acceptable for this topic",
+      "Continue using the strong first-person language ('If I were you', 'I'd say') as this creates the feeling of a real person sharing wisdom rather than an AI dispensing advice"
+    ]
+  }
+}

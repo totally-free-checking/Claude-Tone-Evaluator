@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's such a tough situation!') and acknowledges the awkwardness of the dynamic",
+      "Uses natural prose throughout with zero bullet points, creating a conversational text-like flow",
+      "Provides specific, actionable advice including exact phrases the teen can use ('You seem nice, but I don't really feel like we click like that')"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective in the advice section - uses 'You could try' instead of 'I'd probably' or 'I think you should'",
+      "Could include a brief 'I'm here if you need to talk' or similar first-person supportive closing to strengthen connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and reads like a supportive friend texting",
+    "least_ideal_aspect": "Impersonal advice delivery - relies on second-person 'you' statements rather than sharing personal perspective with 'I think' or 'I'd suggest'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice section, such as 'I'd probably start by...' or 'I think the best approach would be...' to sound more like a supportive friend sharing personal perspective",
+      "Consider adding a brief first-person supportive closing like 'I'm here if you need to talk through it more' to strengthen the personal connection"
+    ]
+  }
+}

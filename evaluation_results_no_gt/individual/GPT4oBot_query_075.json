@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language and personal perspective ('If I were in your shoes, I'd...', 'I get that totally') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or structural elements - flows like a natural text conversation",
+      "Provides specific, actionable conversation starters ('How do you know [host's name]?') rather than vague advice"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused follow-up, which slightly dilutes the engagement",
+      "Transitions quickly from validation to reframing ('The good part is...') which could use one more beat of pure empathy first"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - completely avoids bullet points and reads like a supportive friend texting",
+    "least_ideal_aspect": "Follow-up question section asks two questions back-to-back rather than a single engaging question to continue the thread",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, headers, bold text, or numbered lists. Advice is seamlessly woven into conversational prose."
+    },
+    "specific_feedback": [
+      "Consider narrowing the ending to one specific question rather than two (e.g., just 'Have you decided if you're going to go yet?' or 'What's your gut feeling telling you?')",
+      "Add one more validating phrase before the pivot to 'the good part is' to let the emotional acknowledgment land more deeply (e.g., 'That anxiety is so valid and real')"
+    ]
+  }
+}

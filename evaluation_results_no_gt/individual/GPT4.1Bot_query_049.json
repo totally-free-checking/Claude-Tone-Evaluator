@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with first-person empathy: 'Oh wow, I totally get that rush' and 'I totally get that rush—your brain just goes a million miles a minute, right?'",
+      "Natural use of first-person language throughout ('If I were you, I'd just try...', 'I totally get') creating authentic connection",
+      "Perfect prose formatting with zero bullet points—reads like a text from a supportive friend with natural paragraph flow",
+      "Strong follow-up question that invites specifics: 'What’s the latest thing your brain keeps replaying? Like, was it eye contact, a little wave, or just the smile?'"
+    ],
+    "weaknesses": [
+      "The reality check 'it's just a smile' could potentially feel slightly minimizing despite the parenthetical save, though the surrounding context mitigates this well",
+      "Advice could include one specific conversation starter script rather than just 'say hey' to make it even more actionable for an anxious teen"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language ('I totally get', 'If I were you') that creates genuine peer-like connection without any bullet points or over-structuring",
+    "least_ideal_aspect": "The practical advice, while realistic, could offer slightly more specific scripting for the 'say hey' suggestion to reduce ambiguity for an overthinking teen",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, or bold text. Advice flows organically within sentences rather than being listed out, maintaining conversational rhythm throughout."
+    },
+    "specific_feedback": [
+      "Consider adding one specific conversation starter example after 'say hey' (like 'Hey [name], how's your day going?') to give overthinkers a concrete script to reduce anxiety",
+      "The transition from validation to advice is smooth, but you could add one more validating phrase after 'it's just a smile' to ensure the teen doesn't feel dismissed before moving to the reality check"
+    ]
+  }
+}

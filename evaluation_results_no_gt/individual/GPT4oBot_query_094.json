@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person validation opening with 'Ugh, I'm so sorry you're dealing with that' and 'stress headaches are the worst' which immediately creates connection",
+      "Perfect prose formatting with zero bullet points - advice flows naturally in conversational paragraphs like 'If you can, start with the basics: drink water...'",
+      "Strong use of first-person language throughout including 'I'm here if you need to vent' and 'trust me' which creates authentic supportive friend persona"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (💙) which exceeds the ideal 0-1 maximum for teen support bot character",
+      "The transition from validation to advice ('But the good thing is...') could pause slightly longer on the physical discomfort before moving to solutions",
+      "Suggests specific apps (Calm/Headspace) which is helpful but slightly risks sounding like a recommendation list rather than personal suggestion"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured lists while embedding practical advice within flowing paragraphs that read like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage slightly exceeds the ideal maximum with 2 heart emojis rather than the recommended 0-1, though they are appropriately placed and supportive",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, or headers. Advice is seamlessly integrated into conversational prose using phrases like 'start with the basics' and 'a lot of people also find' rather than listing items"
+    },
+    "specific_feedback": [
+      "Reduce emoji usage from 2 to 0-1 - consider keeping only the first 💙 or removing both since the warm tone is already established through language",
+      "Add one more sentence validating the physical experience of headaches ('It really sucks when your body is literally aching from everything going on') before transitioning to the 'But the good thing is' advice section",
+      "Consider softening the app recommendations by making them more personal ('I've heard good things about...' or 'Some of my friends use...') rather than naming specific brands which can feel slightly promotional"
+    ]
+  }
+}

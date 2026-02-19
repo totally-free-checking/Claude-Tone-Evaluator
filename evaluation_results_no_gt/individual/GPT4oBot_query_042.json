@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong emotional validation using phrases like 'sinking feeling' and 'super hard to deal with' that immediately acknowledge the hurt",
+      "Provides specific, realistic scripts for the teen to use ('Hey, I noticed [item] was kinda messed up...') that sound natural and age-appropriate",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with an older sibling"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person language like 'I get why you'd feel betrayed' or 'I think you should...' to strengthen the personal connection",
+      "The transition from validation to advice ('The good thing is...') feels slightly impersonal compared to the warm opening"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or headers - maintains conversational flow throughout with advice embedded naturally in sentences",
+    "least_ideal_aspect": "Limited first-person 'I' statements beyond 'If I were you' - misses opportunities to say 'I get it' or 'I think' to reinforce the supportive friend persona",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting gimmicks. Advice is delivered through natural dialogue suggestions rather than listed steps."
+    },
+    "specific_feedback": [
+      "Add one or two more first-person validation phrases like 'I totally get why that stings' or 'I think anyone would feel hurt in your shoes' to deepen the personal connection",
+      "Consider softening the transition to advice with something like 'If it were me, I'd probably want to say something like...' instead of 'The good thing is...' to maintain the warm, personal tone established in the opening"
+    ]
+  }
+}

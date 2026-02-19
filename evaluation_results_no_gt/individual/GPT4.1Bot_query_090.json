@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using 'Ugh, that's the absolute worst feeling' and physical empathy 'your stomach can twist up' which makes the teen feel instantly understood",
+      "Uses consistent first-person language throughout ('Trust me, I know', 'If I were you, I'd', 'I promise') creating a personal, supportive connection rather than impersonal advice",
+      "Provides specific, realistic script for the conversation with parents including the proactive approach of telling them before they see it online, which is actionable and age-appropriate"
+    ],
+    "weaknesses": [
+      "While appropriate for the serious tone, the complete absence of emojis misses a subtle opportunity to add visual warmth that could enhance the supportive feeling",
+      "Could explicitly validate the courage it takes to even consider telling them before transitioning to the advice phase"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, headers, or over-structuring, reading exactly like a supportive text message from an older sibling or friend",
+    "least_ideal_aspect": "Conservative emoji usage - though zero emojis is acceptable for serious topics, one subtle supportive emoji could enhance warmth without undermining the gravity of the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, numbered lists, or bullet points. Advice flows organically within conversational sentences rather than being itemized or structured like a self-help article."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 💙 or 😅) after the opening validation to enhance warmth, though the current text-only approach is acceptable for this anxiety-inducing topic",
+      "Maintain the excellent balance of validation-to-advice ratio seen here: two paragraphs of emotional support before offering practical solutions, which prevents the teen from feeling rushed to fix the problem before their feelings are acknowledged"
+    ]
+  }
+}

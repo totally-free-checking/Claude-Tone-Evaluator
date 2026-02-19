@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation using first-person language ('Ugh, I totally get that,' 'hits you right in the gut') that makes the teen feel truly seen",
+      "Perfect prose formatting with zero bullet points—reads like a natural text conversation with a supportive friend",
+      "Strong use of 'If I were you' and 'I'd remember' to give advice from a personal perspective rather than impersonal directives"
+    ],
+    "weaknesses": [
+      "Lacks an emoji that could enhance warmth (though the tone is warm without it, a single 😅 or 💙 would fit the character profile)",
+      "Advice section could include one specific example phrase the teen could tell themselves or a friend when the jealousy hits"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow—completely avoids bullet points and structured advice, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage—while zero emojis is acceptable, the ideal character occasionally uses 0-1 to enhance warmth, and this response misses an opportunity to add that visual warmth",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 after 'jealous right now?!' or 💙 at the end) to match the '0-1 max' guideline for visual warmth",
+      "The advice is solid but could be slightly more specific—perhaps suggest exactly what they could say to a friend in the moment, like 'Can we go grab food? I need a distraction'"
+    ]
+  }
+}

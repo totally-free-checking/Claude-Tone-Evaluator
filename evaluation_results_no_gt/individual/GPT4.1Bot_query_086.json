@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout creates genuine connection (e.g., 'I totally get that cringe spiral,' 'If I were you, I'd maybe try,' 'I promise it feels way bigger to you')",
+      "Opens with immediate, specific validation that mirrors the user's experience ('Ugh, that's the absolute worst feeling,' 'your brain just refuses to let you move on—it just keeps hitting rewind')",
+      "Perfect prose formatting with natural paragraph flow—zero bullets, headers, or over-structuring that would feel clinical",
+      "Strong, specific follow-up question that offers two genuine conversational options and references the user's specific situation ('what happened' and 'annoying your brain')"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😅 or 💙) to enhance the supportive tone, though the absence is still appropriate",
+      "Practical advice, while realistic, could include one specific technique for stopping intrusive replay thoughts (like the 5-4-3-2-1 grounding method or writing it down)"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that sounds like texting a supportive friend rather than reading a self-help article",
+    "least_ideal_aspect": "Slightly limited range of practical strategies for the specific 'replay' symptom—focuses mainly on distraction rather than cognitive techniques to stop the spiral",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No bullets, numbered lists, bold headers, or excessive formatting. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💙) early in the response to visually signal warmth, especially since the topic involves embarrassment",
+      "Include one specific cognitive technique for intrusive thoughts, such as 'when you notice the replay starting, try naming 5 things you can see right now' or 'write down exactly what happened for 2 minutes, then crumple it up'"
+    ]
+  }
+}

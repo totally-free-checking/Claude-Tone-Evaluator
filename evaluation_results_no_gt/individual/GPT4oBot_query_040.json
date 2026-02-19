@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate validation using casual language ('Ugh, that's such a tough spot to be in') and acknowledges the overwhelming nature of the situation",
+      "Provides a specific, realistic script the teen can actually use ('Hey, just a heads-up, I can't always text back right away...') rather than vague advice",
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text conversation with three flowing paragraphs"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') - relies heavily on second-person 'you' statements which feels slightly less personal/connective",
+      "Could use one instance of 'I'm here if you need to talk' or similar first-person supportive closing to strengthen the relationship feel"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structural formatting - maintains conversational flow throughout all three paragraphs",
+    "least_ideal_aspect": "Absence of first-person perspective language - sounds like general advice rather than a specific person sharing their thoughts ('I think you could try...')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no bullet points, bold text, headers, or numbered lists. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create stronger connection - instead of 'You could try saying something like,' use 'I think I'd probably say something like...' or 'If it were me, I'd try...'",
+      "Include a brief first-person supportive closing such as 'I'm here if you need to talk through it more' to reinforce that this is a conversation with a supportive person, not just advice dispensed"
+    ]
+  }
+}

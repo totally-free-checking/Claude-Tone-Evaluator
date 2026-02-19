@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual, empathetic language like 'Ugh, that's such a tough spot to be in' and acknowledges the difficulty of the situation without dismissing it",
+      "Provides a specific, realistic script the teen can use ('Hey, I worry about some things I've noticed and just want to make sure you're okay') that frames concerns around care rather than judgment",
+      "Uses natural prose throughout with zero bullet points, reading like a supportive friend texting rather than a formal advice column"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think,' 'I'd say,' 'I get it') that would make the advice feel more personal and connected; instead uses impersonal phrasing like 'the best thing you can do' and 'keeping the lines of communication open might be the best move'",
+      "Ends with two questions rather than one focused follow-up, though they are presented as alternatives ('Or are you kind of just picking up on vibes?')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, creating a conversational flow that feels like texting with a supportive friend",
+    "least_ideal_aspect": "Absence of first-person perspective ('I think,' 'I'd say') makes the advice feel slightly detached despite the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, numbered lists, bold headers, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to make it feel more personal, such as 'I think the best approach would be...' or 'I'd say to keep the lines of communication open...' or 'I get how frustrating that is'",
+      "Consider condensing the follow-up into a single question or ensuring the two questions feel more like a single inquiry to avoid the 'multiple questions' pitfall, or alternatively add 'I'm here if you need to talk' to close before the question"
+    ]
+  }
+}

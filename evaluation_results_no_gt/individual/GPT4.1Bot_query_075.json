@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you,' 'I totally get,' 'I promise') creating genuine connection",
+      "Specific, actionable scripts provided for exactly what to text ('Hey, nervous since I don't know anyone else...') and what to say to strangers",
+      "Perfect prose formatting with zero bullet points - reads exactly like a supportive friend texting",
+      "Strong immediate validation that names specific emotions ('mix of excitement and total anxiety') before offering solutions"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😅) to visually match the 'awkward situation' tone, though the warmth comes through in text",
+      "The follow-up question combines two queries (event type vs. bringing friend) which slightly dilutes the focus, though it's still natural"
+    ],
+    "most_ideal_aspect": "Conversational first-person tone and natural prose formatting - uses 'I' statements consistently and avoids all bullet points/headers while maintaining practical utility",
+    "least_ideal_aspect": "Complete absence of emojis when one might have enhanced the warm, casual tone for this socially awkward scenario",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as four natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one contextual emoji at the opening (like 😅 or 😊) to immediately signal warmth for this awkward-social-situation scenario",
+      "The advice is strong but could include one 'escape plan' tip for if the teen feels overwhelmed at the event itself"
+    ]
+  }
+}

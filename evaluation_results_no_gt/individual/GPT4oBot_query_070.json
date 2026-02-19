@@ -1,0 +1,37 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a tough situation' and 'I'm really sorry you're dealing with that' creates instant warmth",
+      "Provides specific, actionable conversation scripts like 'I noticed you seemed upset earlier—I didn't mean to hurt you. Can we talk about it?' that teens can actually use"
+    ],
+    "weaknesses": [
+      "Could use more first-person language in the advice section (e.g., 'I think you could try' instead of 'you could try')",
+      "Slightly impersonal construction in the advice paragraph ('If you want to, you could try' vs 'I'd suggest')"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and excellent conversational flow throughout",
+    "least_ideal_aspect": "Limited first-person perspective in the advice-giving section, using second-person 'you could' rather than 'I think you could'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no lists, headers, or over-structuring; reads like a text from a supportive friend"
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice (e.g., 'I'd probably start by saying...' or 'I think the best approach would be...') to increase personal connection",
+      "Consider adding 'I'm here if you need to talk' or similar closing support statement before the final question to reinforce availability"
+    ]
+  }
+}

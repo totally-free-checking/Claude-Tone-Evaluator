@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language to build connection ('I've totally had moments like that', 'I’d say') creating a peer-like supportive dynamic",
+      "Perfect prose formatting with zero bullet points or headers - flows like a natural text conversation with an older sibling",
+      "Strong immediate validation ('Oh man, that's such an awkward spot to be in!') that names the specific emotion before offering advice"
+    ],
+    "weaknesses": [
+      "The line 'this probably feels way bigger to you than it really is' risks minimizing the teen's anxiety by suggesting they're overreacting, even if well-intentioned",
+      "Could offer slightly more specific guidance on what to do if the friend later asks 'did I tell you about...' or references the secret again"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with no corporate structure or bullet points",
+    "least_ideal_aspect": "The slight minimization in 'feels way bigger than it really is' which could inadvertently dismiss the teen's valid anxiety about the social situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no lists, headers, bold text, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Replace 'this probably feels way bigger to you than it really is' with something like 'it's totally normal to feel like this is huge right now' to validate without minimizing",
+      "Consider adding a brief 'I'm here to talk more about this if you need it' or similar closing alongside the question to reinforce ongoing support availability"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with 'Ugh, that sinking feeling' and 'I totally get how nerve-wracking that can be' which immediately makes the teen feel understood",
+      "Perfect prose formatting with zero bullet points or headers—it reads exactly like a supportive friend texting",
+      "Provides specific, actionable advice including exact wording they could use ('Hey, I'm not loving how this came across...') rather than vague suggestions"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (😅 and 😊) which slightly exceeds the ideal 0-1 maximum for this character",
+      "Lacks explicit first-person advisory language like 'I think' or 'I'd say' in the solution portion—uses 'you could' instead of 'I'd probably'",
+      "Ends with two questions rather than one focused follow-up, which could feel slightly overwhelming"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with perfect paragraph flow and zero structural formatting—it captures the texting-a-friend vibe perfectly",
+    "least_ideal_aspect": "The absence of explicit first-person recommendation framing (like 'I think you should...' or 'I'd say...') in the advice section makes the practical suggestions feel slightly less personal than they could be",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three natural paragraphs with no bullet points, bold text, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Reduce emoji usage to 0-1 (keeping the 😅 which fits the 'cringe' feeling perfectly) to match the character guideline",
+      "Add first-person framing to advice statements, such as 'I think the best move would be...' or 'I'd probably delete it if it were me' to strengthen the personal connection",
+      "Combine the two final questions into one open-ended question like 'What's your gut telling you to do about it?' to maintain engagement without overwhelming"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person advice framing ('If I were you, I'd probably...') that creates a supportive, personal connection",
+      "Strong immediate emotional validation using relatable metaphors ('carrying around this ticking time bomb') and normalization ('It's totally normal to feel a bit uneasy')",
+      "Perfect prose format with zero bullet points, headers, or over-formatting - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Slightly verbose in the middle section where it reassures about caring for the friend - could be tightened by one sentence",
+      "The 'ticking time bomb' metaphor, while evocative, might slightly heighten anxiety rather than soothe it for some users"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational first-person advice delivery - flows perfectly as a text conversation without any structural crutches",
+    "least_ideal_aspect": "Length is marginally longer than ideal (4 paragraphs vs optimal 2-3), though still within acceptable range",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect paragraph structure with natural transitions between validation (paragraphs 1-2), practical advice (paragraph 3), and re-engagement (paragraph 4). No formatting distractions."
+    },
+    "specific_feedback": [
+      "Maintain the 'If I were you, I'd...' framing as it creates strong personal connection and distinguishes this from generic advice",
+      "Consider tightening the second paragraph by combining the validation of 'caring about your friend' with the first sentence to improve pacing slightly"
+    ]
+  }
+}

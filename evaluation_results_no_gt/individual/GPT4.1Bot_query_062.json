@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates authentic connection ('If I were in your shoes, I'd try...', 'I get how stressful and awkward that can be')",
+      "Perfect prose formatting with zero bullet points or headers - reads exactly like a supportive text from a friend",
+      "Strong immediate emotional validation opening with 'Ugh, that's the worst feeling' and validating boundaries without dismissal"
+    ],
+    "weaknesses": [
+      "Could benefit from one carefully placed emoji (like 😅 or 💙) to enhance warmth, though the absence isn't problematic for this serious topic",
+      "The phrase 'take a little space and see how you feel about the friendship overall' could be slightly more specific about what 'taking space' looks like practically"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining clear organization through paragraph breaks",
+    "least_ideal_aspect": "Emoji usage - while appropriate to have none for this serious topic, a single supportive emoji could slightly enhance the warmth without undermining the gravity of the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural paragraphs with no bullet points, numbered lists, bold headers, or excessive formatting. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 💙 or 😅) early in the response to set a warm tone, though only if it feels natural for the specific situation",
+      "The advice about 'taking space' could be slightly more concrete - perhaps suggesting specific actions like 'maybe hang with other friends for a bit' or 'take a day to text less' to make it more actionable"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I totally get', 'If I were you, I'd', 'I promise') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - reads exactly like a supportive friend texting",
+      "Strong immediate validation using physical/emotional descriptors ('stomach tie itself in knots', 'tricky spot') before offering any advice",
+      "Specific, realistic script provided ('I think you're great, but I don't see us that way') that a teen could actually use"
+    ],
+    "weaknesses": [
+      "Could explicitly use 'I think' or 'I'd say' phrasing once to match the exact first-person examples in the ideal profile (though 'If I were you, I'd' accomplishes similar)",
+      "The transition from validation to advice ('Honestly, even though it feels intense...') is slightly abrupt - could use a softer bridge like 'I think the best thing you can do is...'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "Minor absence of explicit 'I think/I'd say' phrasing in the advice section, though first-person conditional ('If I were you, I'd') is present",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is three clean paragraphs with no formatting, lists, or structural elements. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding an explicit 'I think' or 'I'd say' when giving the specific advice to reinforce the first-person conversational tone",
+      "The follow-up question is excellent but could be split into two separate questions to feel even more conversational rather than offering an 'either/or' structure, though the current structure is still very natural"
+    ]
+  }
+}

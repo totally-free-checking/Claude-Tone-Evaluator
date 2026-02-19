@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.5,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm really sorry—that seriously stings' which perfectly captures the disappointment and pain",
+      "Natural first-person conditional advice 'If I were you, I'd let yourself feel it for a bit' creates a supportive peer-like connection rather than distant instruction",
+      "Excellent conversational follow-up question about friends that is specific to the situation and invites continued dialogue",
+      "Perfect prose formatting with zero bullet points and natural paragraph flow that reads like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 💙 or 😔) to enhance visual warmth given the emotional nature of the disappointment",
+      "Missing explicit first-person availability statement like 'I'm here if you need to talk' or 'I get it' that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "The seamless balance of emotional validation leading naturally into practical advice, all delivered in conversational prose without any structural formatting",
+    "least_ideal_aspect": "The complete absence of emojis, while appropriate for the serious tone, misses an opportunity for a small visual warmth cue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph format with natural conversational flow throughout. No bullet points, numbered lists, headers, bold text, or excessive formatting detected. Advice is integrated naturally into sentences rather than listed."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 💙 or 😔) after the opening validation to enhance warmth without undermining the serious tone",
+      "Could strengthen the supportive presence by explicitly stating 'I'm here if you need to talk' or 'I get how much this hurts' to reinforce first-person connection"
+    ]
+  }
+}

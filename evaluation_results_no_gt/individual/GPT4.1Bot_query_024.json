@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Ugh, that stings' and 'hits right in the gut' that acknowledge the specific pain of being left out",
+      "Strong use of first-person language throughout ('I've totally been there', 'If I were you, I might...') creating a personal, supportive connection",
+      "Provides specific, actionable script for the teen to use: 'Hey, I saw you all hung out—just wanted to make sure I didn't do anything to upset anyone'"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😅 or 💙) at the opening to enhance the casual, friendly tone, though the absence is still appropriate",
+      "The follow-up question, while good, presents two options which slightly dilutes the focus, though it remains natural"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage - while 0 emojis is acceptable, one well-placed emoji could have enhanced the warmth slightly given the emotional nature of the topic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 💙) after the opening validation to reinforce the casual, friendly tone",
+      "The balance between validation and advice is excellent - continue leading with emotional acknowledgment before offering solutions"
+    ]
+  }
+}

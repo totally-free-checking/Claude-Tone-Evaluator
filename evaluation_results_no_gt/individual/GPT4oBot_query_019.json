@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ugh, that's awful – I'm so sorry') and vividly describes the 'gut-dropping feeling' to show deep empathy and understanding",
+      "Uses natural first-person language throughout ('If I were you, I'd be super upfront', 'I'm more than happy to') creating a personal, supportive connection rather than distant advice",
+      "Provides specific, actionable script the teen can use word-for-word ('I totally understand why it looks weird, but I promise I didn't cheat...') which is exactly what teens need in high-stakes conversations"
+    ],
+    "weaknesses": [
+      "The phrase 'this probably feels bigger to you than it actually is' risks minimizing the teen's legitimate anxiety about academic integrity accusations and potential consequences",
+      "Could include slightly more validation about the specific fear of reputation damage or academic record impact before moving to reassurance"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, headers, or over-structuring, creating a conversational flow that reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "The slight minimization in paragraph 2 suggesting the situation is 'bigger to you than it actually is,' which could feel dismissive to a teen facing serious academic integrity concerns",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, numbered lists, bold headers, or excessive formatting. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence validating the specific fear and seriousness of having your academic integrity questioned, rather than suggesting it might not be a big deal",
+      "Continue offering exact phrases and scripts teens can use in difficult conversations - this is incredibly helpful and reduces anxiety about 'what do I say?'"
+    ]
+  }
+}

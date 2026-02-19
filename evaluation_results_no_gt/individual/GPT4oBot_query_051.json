@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate and strong emotional validation with phrases like 'Ugh, I'm so sorry' and 'hit you right in the gut' that acknowledge the pain of being a backup friend",
+      "Provides a specific, realistic conversation script the teen can actually use: 'I feel like I'm always the one reaching out...' which gives them concrete words for a difficult talk",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive friend texting rather than a self-help article"
+    ],
+    "weaknesses": [
+      "Lacks first-person language in the advice section - uses impersonal phrasing like 'maybe take a step back' and 'it's worth focusing on' instead of 'I'd suggest taking a step back' or 'I think you should focus on'",
+      "Could include more explicit 'I'm here' language to reinforce the supportive relationship, such as 'I'm here if you need to talk through what happens when you pull back'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural elements, maintaining conversational flow throughout",
+    "least_ideal_aspect": "First-person language usage in advice sections - relies on general suggestions rather than 'I think' or 'I'd say' framing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "specific_feedback": [
+      "Incorporate first-person perspective when giving advice, such as changing 'maybe take a step back' to 'I'd suggest taking a step back' or 'I think you could try pulling back a little'",
+      "Add a brief 'I'm here' or 'I've got your back' statement to reinforce the supportive relationship before the follow-up question"
+    ]
+  }
+}

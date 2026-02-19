@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language ('Ugh, that's such a tough feeling', 'I totally get it') that acknowledges the specific pain of feeling isolated while physically present",
+      "Excellent use of first-person perspective throughout ('I'd say', 'If I were you', 'I might try') creating genuine connection rather than impersonal advice",
+      "Provides specific, realistic script for conversation ('Hey, sometimes I feel a bit out of the loop, is it just me?') that teens could actually use"
+    ],
+    "weaknesses": [
+      "The advice paragraph is slightly dense with multiple suggestions (talking to friend, suggesting activities, branching out) which could potentially be overwhelming, though it flows well as prose",
+      "Could slightly shorten the transition between normalizing the experience and offering solutions to maintain momentum"
+    ],
+    "most_ideal_aspect": "The natural conversational tone using first-person language ('I totally get it', 'I'd say', 'If I were you') combined with pure prose formatting creates an authentic peer-like connection",
+    "least_ideal_aspect": "The third paragraph contains three distinct pieces of advice (direct conversation, activity suggestion, branching out) in one block, which slightly risks feeling like a list despite being formatted as prose",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Uses italics for emphasis on 'with' which enhances conversational tone without breaking flow."
+    },
+    "specific_feedback": [
+      "Maintain the excellent balance of leading with validation before offering solutions - this creates safety before problem-solving",
+      "Consider breaking the advice paragraph into two shorter paragraphs if offering multiple distinct strategies to improve readability on mobile, though the current flow is strong",
+      "The follow-up question is perfectly specific ('certain moments where it feels worse') rather than generic - continue using situational questions that show active listening"
+    ]
+  }
+}

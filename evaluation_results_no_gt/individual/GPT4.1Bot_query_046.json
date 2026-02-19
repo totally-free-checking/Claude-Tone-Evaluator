@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Ugh, that's such a draining feeling' and acknowledging the specific fear that friends don't care about them 'for *you*'",
+      "Perfect use of first-person advice language ('If I were you, I'd...') that creates a supportive peer-like connection rather than distant authority",
+      "Specific, teen-realistic suggestions like sharing 'a funny meme or sharing music you like' that are concrete and immediately actionable"
+    ],
+    "weaknesses": [
+      "Could potentially include one subtle emoji (like 💙) to enhance warmth, though the absence is acceptable given the serious emotional tone",
+      "The transition from validation to the 'pull back' advice could include slightly more cushioning language to ensure it doesn't feel like testing friends is the only option"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Slightly conservative emoji usage - while appropriate for the topic, a single warm emoji could enhance the supportive tone without undermining seriousness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to visually signal emotional support, though only if it feels natural to the specific situation",
+      "The advice to 'pull back' is solid but could be framed slightly more gently (e.g., 'You might try giving yourself a little space to see...') to avoid sounding like a strategy game"
+    ]
+  }
+}

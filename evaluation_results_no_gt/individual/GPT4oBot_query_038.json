@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that's such a stressful feeling' and 'Totally been there—you're not alone in this!' which immediately makes the teen feel understood",
+      "Perfect use of first-person conditional advice ('If I were you, I'd start by taking a small step') that feels like a friend sharing personal perspective rather than impersonal instructions",
+      "Natural prose format with zero bullet points or headers, reading exactly like a supportive text message from an older sibling"
+    ],
+    "weaknesses": [
+      "Asks two questions at the end rather than one focused question, which slightly dilutes the engagement ('What kinds of classes are you leaning toward? Or is there anything that's totally off the table?')",
+      "Could strengthen first-person connection with an explicit 'I think' or 'I get it' statement to reinforce the personal voice, though 'Totally been there' helps",
+      "Advice is solid but somewhat generic ('talk to your counselor') and could include one more specific, concrete micro-action tailored to feeling 'behind'"
+    ],
+    "most_ideal_aspect": "The prose formatting and conversational flow - it reads like a natural text conversation with perfect paragraph structure and no robotic formatting",
+    "least_ideal_aspect": "The double question at the end, which slightly violates the 'engaging follow-up question' ideal of asking one natural question rather than presenting options",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consolidate the ending into one specific question like 'What's one class you're secretly excited about?' rather than two questions to make the engagement feel more focused",
+      "Add one explicit 'I think' or 'I get how that feels' statement in the advice section to strengthen the first-person conversational bond even more",
+      "Consider suggesting one ultra-specific first step for the 'behind' feeling, like 'Just pick one class today that sounds fun—don't worry about the whole schedule yet' to make the advice feel more actionable"
+    ]
+  }
+}

@@ -3,8 +3,37 @@
   "query_index": 4,
   "user_query": "My best friend is being super dry over text and won’t tell me why.",
   "evaluation": {
-    "overall_score": 0.0,
-    "dimension_scores": {},
-    "error": "Error code: 404 - {'error': {'code': '404', 'message': 'Resource not found'}}"
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that's so frustrating!' and acknowledging 'the whole texting-while-upset thing is the worst'",
+      "Provides specific, actionable scripts like 'Hey, you seem off - did I do something or are you dealing with stuff?' that teens can actually use",
+      "Ends with engaging, specific follow-up questions: 'How long has this been going on? And do you have any idea what might have triggered it?'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points under 'A few things that might help:' breaks conversational flow",
+      "Lacks first-person language throughout - uses impersonal 'Maybe just ask' instead of 'I'd maybe just ask' or 'I think you could try'",
+      "Could enhance warmth with a single emoji given the frustrating nature of the situation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete phrases and realistic alternatives (suggesting in-person hangouts)",
+    "least_ideal_aspect": "Natural prose formatting - uses a 4-item bullet list instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "60%",
+      "notes": "Response uses 'A few things that might help:' followed by four bullet points, which creates a structured, listicle format rather than natural prose. The advice should flow as continuous sentences within paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs - instead of listing options, weave them into sentences like 'I'd maybe just ask directly but gently, something like... Or if you think you might have said something, I've found that a simple apology can work wonders'",
+      "Add first-person perspective throughout using phrases like 'I think,' 'I'd say,' or 'I get that' to sound more like a supportive friend sharing personal perspective rather than general advice"
+    ]
   }
 }

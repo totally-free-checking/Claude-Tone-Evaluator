@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were in your shoes, I'd...', 'I know you're joking') creating genuine connection",
+      "Immediate emotional validation with 'Ugh, that's honestly the worst!' and reassurance that they're not being too sensitive",
+      "Specific, realistic scripts provided ('Hey, I know you're joking, but it actually kinda bugs me...' and 'Dude, ouch!') that teens can actually use"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one subtle emoji (like 😅 or 💙) to enhance warmth, though the absence is appropriate for the topic",
+      "The boundary-setting advice at the end ('think about whether you want to spend as much time with them') could be slightly softened with more validation about how hard that decision is"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting advice in flowing paragraphs",
+    "least_ideal_aspect": "Emoji usage (while appropriate at zero for this serious topic, a single well-placed emoji could have enhanced the warmth slightly)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or over-formatting. Advice flows naturally within conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 after 'awkward spot' or 💙 at the end) to enhance warmth without being excessive",
+      "The boundary-setting advice about spending less time with the friend could include a bit more validation about how difficult that choice can be"
+    ]
+  }
+}

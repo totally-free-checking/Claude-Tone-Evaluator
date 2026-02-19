@@ -43,8 +43,10 @@ The results show that, via prompt engineering, other models can be made to sound
 ```
 Using the system prompt in `ClaudeBot-v2.txt`
 GPT-5.2                 9.16/10  █████████░  aka "ClaudeBot-v2"
+GPT-4.1                 9.16/10  █████████░  aka "GPT4.1Bot"
 Grok-4-fast-reasoning   9.09/10  █████████░  aka "GrokBot"
 Claude                  9.08/10  █████████░  aka "ActualClaudeTuned"
+GPT-4o                  9.00/10  █████████░  aka "GPT4oBot"
 gpt-OSS-120b            8.96/10  ████████░░  aka "OSS120Bot"
 Kimi-K2.5               8.94/10  ████████░░  aka "KimiBotTuned"
 

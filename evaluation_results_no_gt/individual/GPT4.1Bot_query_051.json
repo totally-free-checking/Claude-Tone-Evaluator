@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that hurts so much' and specific acknowledgment of the 'second choice' pain",
+      "Excellent use of first-person language throughout ('If I were you, I'd probably,' 'I promise,' 'I'm really sorry') creating genuine connection",
+      "Provides specific, realistic script for the teen to use: 'I feel kinda left out lately, and I wanted to check in with you'"
+    ],
+    "weaknesses": [
+      "Could potentially include one subtle emoji (like 💙) to enhance warmth, though the absence is appropriate for the serious tone",
+      "Uses 'so many people' rather than 'we' which would create slightly stronger solidarity ('We've all been there')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational flow that reads like texting with a supportive friend",
+    "least_ideal_aspect": "Slight missed opportunity for 'we' language to create collective solidarity, though 'so many people' still validates effectively",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 💙 or 😔) at the start if it feels natural, though the serious tone makes the absence acceptable",
+      "Could strengthen the 'you're not alone' message by using 'we' language ('We've all felt that sting') to create more immediate solidarity",
+      "The advice to 'step back just a tiny bit' is excellent but could include a brief reassurance that it's okay to protect their energy while doing so"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong emotional validation: 'Ugh, that's honestly one of the worst feelings' and acknowledges the 'spiraling' anxiety",
+      "Uses natural first-person language throughout: 'If I were in your shoes,' 'I totally get,' and 'I might send' creates genuine connection",
+      "Provides specific, actionable script teens can actually use: 'Hey, you've seemed kinda quiet lately, is everything cool?'",
+      "Maintains perfect prose format with zero bullet points, headers, or over-formatting—reads exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "The pivot to reassurance ('it's about something going on with them, not you') comes quickly; could linger slightly longer on validating the anxiety before problem-solving",
+      "The 😅 emoji, while appropriate for the context, slightly interrupts the empathetic flow of the opening validation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational first-person language that flows like texting with a supportive older sibling or friend",
+    "least_ideal_aspect": "Could deepen initial emotional validation for one more sentence before moving to the 'it's probably not about you' reassurance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, headers, or bold text. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Continue using specific scripts like 'Hey, you've seemed kinda quiet lately, is everything cool?' as they give teens exact words to use in difficult conversations",
+      "Consider adding one more sentence of pure validation ('That uncertainty is so hard to sit with') before pivoting to reassurance that it's not their fault",
+      "The follow-up question about text vs. in-person behavior is excellent and specific—keep asking situation-specific questions that show genuine curiosity about their experience"
+    ]
+  }
+}

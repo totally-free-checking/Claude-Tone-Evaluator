@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating!' and 'It really sucks' that matches the teen's anger perfectly",
+      "Provides specific, actionable script for talking to the teacher ('Hey, I totally get why the change happened...') rather than vague advice",
+      "Uses natural teen-appropriate language like 'vibing,' 'chill,' and 'whatever' without sounding forced"
+    ],
+    "weaknesses": [
+      "The 😅 emoji feels slightly mismatched for a situation where the user is expressing anger/madness rather than embarrassment or awkwardness",
+      "The follow-up question 'any chance it's not as bad as it seems?' could subtly minimize the teen's valid frustration by suggesting they might be overreacting",
+      "Lacks explicit first-person framing in the advice section (e.g., 'I think you could try' vs. 'Maybe for now you could try')"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points, flowing like a text conversation with an older sibling",
+    "least_ideal_aspect": "Emoji choice and placement - the nervous laugh emoji doesn't quite match the emotional tone of anger",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Replace the 😅 with a more empathetic emoji like 😔 or simply omit it, since the user is expressing anger rather than awkwardness",
+      "Add more explicit first-person language to the advice section, such as 'I'd suggest trying...' or 'I think you could...' to make it feel more like personal advice from a friend",
+      "Consider rephrasing the follow-up to avoid minimizing their feelings, perhaps: 'How's the new seat treating you so far?' instead of implying it might not be that bad"
+    ]
+  }
+}

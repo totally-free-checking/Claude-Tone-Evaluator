@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I totally get', 'If I were you, I'd') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong immediate validation ('Ugh, that's so awkward') before offering any advice",
+      "Specific, actionable scripts for the teen to use ('I'm actually super busy, but thanks anyway!')"
+    ],
+    "weaknesses": [
+      "Could benefit from one emoji (like 😅 or 😬) to enhance warmth for this awkward social situation",
+      "Slightly repetitive validation in paragraphs 1 and 2 could be condensed"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - completely avoids bullet points and reads like a supportive friend texting",
+    "least_ideal_aspect": "Absence of emojis when one might enhance the warm, casual tone for this specific awkward social situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one well-placed emoji (like 😅) early in the response to visually signal warmth for this awkward situation",
+      "The validation in paragraph 2 could be slightly condensed to get to the practical advice faster while maintaining the supportive tone"
+    ]
+  }
+}

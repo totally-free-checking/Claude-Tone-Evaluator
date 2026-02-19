@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a stressful feeling' and acknowledging the overthinking pattern",
+      "Perfect prose formatting with zero bullet points or headers - flows like a natural conversation",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I feel like something's up between us. Did I do something to upset you?'"
+    ],
+    "weaknesses": [
+      "Could include slightly more first-person connection phrases like 'I get it' or 'I've been there' to strengthen the personal bond",
+      "The 'give them space' advice, while valid, is somewhat generic compared to the excellent specific script provided"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Could use slightly more first-person language (beyond just 'I'd say') to create stronger personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no lists, headers, or bold text. Advice flows conversationally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add one more first-person validating phrase like 'I totally get that sinking feeling' or 'I've definitely been there' to strengthen the personal connection",
+      "Consider adding a brief 'I'm here if you need to talk' or similar closing to reinforce supportive presence before the follow-up question"
+    ]
+  }
+}

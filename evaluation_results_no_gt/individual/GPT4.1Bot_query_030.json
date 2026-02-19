@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd try', 'I think you'll feel way better', 'I'm down to work through stuff') creating a personal, supportive connection",
+      "Strong immediate emotional validation starting with 'Ugh, that's so annoying' and acknowledging the guilt and awkwardness of the situation",
+      "Provides a specific, realistic script the teen can actually use: 'Hey, I really want you to do well, but I can't keep sharing my homework...'"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation about the fear of damaging the friendship, which is often the underlying worry in these situations",
+      "The 😅 emoji works for the awkwardness but a 💙 or similar might have added slightly more warmth to a stressful situation"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points or structural formatting, flowing like a supportive text conversation",
+    "least_ideal_aspect": "Minor opportunity to validate the potential fear of losing the friendship, though the current validation is still strong",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or bullet lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Continue using the strong first-person perspective ('If I were you', 'I'd say') as it makes the advice feel personal and relatable rather than prescriptive",
+      "Consider acknowledging the specific fear that setting boundaries might hurt the friendship, as that's often the core anxiety in homework-copying situations"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person experiential sharing that creates connection ('My heart always does a backflip when that happens', 'I've definitely done both and the earth did not swallow me whole')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points - reads exactly like a text from a supportive friend",
+      "Highly specific and actionable advice with two distinct realistic options (unliking vs. leaning in with a recent like) plus contextual reassurance about notifications"
+    ],
+    "weaknesses": [
+      "Could slightly deepen validation of the specific embarrassment around the 'stalking' aspect itself, not just the accidental like",
+      "Uses 'caught in 4K' slang which, while appropriate, might be slightly dated for some teen demographics"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with first-person language that creates genuine peer-like connection rather than an advisory tone",
+    "least_ideal_aspect": "Missing explicit 'I'm here for you' or 'I get it' type first-person validation phrases, though the experiential sharing ('My heart always does a backflip') partially compensates",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain the first-person experiential sharing approach ('I've definitely done both') as it builds credibility and warmth more effectively than generic advice",
+      "The single emoji usage (😅) is perfectly calibrated - continue using 0-1 emojis placed early to set tone without cluttering",
+      "The follow-up question structure offering two specific emotional options ('play it cool' vs 'delete all social media') is highly effective for engagement - replicate this binary choice approach in future responses"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language ('Omg, that panic... it's literally the worst feeling!' and 'We've all been there') that acknowledges the physical sensation of embarrassment",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with appropriate paragraph breaks",
+      "Specific, actionable advice including an exact script to use ('Wow, looks like I tripped and fell scrolling too far') that is realistic for a teen to execute"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (😅 and 😬) when the ideal character uses 0-1 max; slightly excessive for the format",
+      "Lacks explicit first-person singular language like 'I think,' 'I'd say,' or 'I get it' - uses 'we've' but misses opportunities for personal connection through 'I' statements",
+      "Does not include an explicit offer of continued support like 'I'm here if you need to talk' which is characteristic of the ideal bot"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and conversational flow that reads like texting with a supportive friend",
+    "least_ideal_aspect": "Emoji usage exceeds the ideal maximum (2 emojis instead of 0-1) and slightly distracts from the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is formatted entirely as three natural paragraphs with no headers, bold text, bullet points, or numbered lists - perfectly matches the ideal prose-based approach"
+    },
+    "specific_feedback": [
+      "Reduce emoji usage to 0-1 per response; consider removing one of the two emojis (likely the 😬) to maintain warmth without excess",
+      "Incorporate first-person singular language such as 'I think you should...' or 'I'd probably just...' to increase the personal, supportive connection mentioned in the character profile",
+      "Consider adding a brief closing statement like 'I'm here if you need to talk' or 'Let me know how it goes' to reinforce ongoing support availability"
+    ]
+  }
+}

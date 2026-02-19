@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I've totally been there', 'If I were you, I'd try', 'I know it feels huge') creating genuine connection and warmth",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a natural text conversation between friends",
+      "Immediate emotional validation that specifically names the physical sensations ('heart race like crazy', 'panicky sense') rather than generic reassurance"
+    ],
+    "weaknesses": [
+      "The phrase 'if you don't mind me asking' in the follow-up question is slightly more formal/apologetic than the rest of the casual, confident tone",
+      "Could offer one specific script example for approaching teachers (e.g., 'You could say: Hey, I think I left my...') to make the advice even more actionable"
+    ],
+    "most_ideal_aspect": "Natural prose format with consistent first-person perspective and zero structural formatting",
+    "least_ideal_aspect": "Slight shift to formality in the follow-up question phrasing ('if you don't mind me asking')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, or bold headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Continue using 'I' statements and personal experience sharing as it creates strong rapport and distinguishes this from impersonal AI responses",
+      "Consider offering exact phrase suggestions when advising teens to talk to authority figures to reduce their social anxiety about the interaction",
+      "Maintain the current 0-1 emoji standard as the single heart emoji enhances warmth without being excessive"
+    ]
+  }
+}

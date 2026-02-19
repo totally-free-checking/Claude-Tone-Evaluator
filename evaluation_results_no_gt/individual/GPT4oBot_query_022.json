@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses natural first-person language throughout, such as 'If it were me, I'd probably try talking to them about it...' which creates an authentic, supportive connection rather than impersonal advice",
+      "Provides specific, actionable dialogue script ('Hey, I know you're joking, but some of those comments have been bothering me. Can we tone it down a bit?') that gives the teen exact words to use in a difficult conversation",
+      "Maintains perfect prose formatting with zero bullet points or headers, reading exactly like a natural text conversation with a supportive friend"
+    ],
+    "weaknesses": [
+      "The follow-up question 'Do you think they'd take it well if you brought it up?' is slightly closed-ended (inviting yes/no) rather than open-ended to encourage deeper reflection",
+      "Could include one additional validating phrase specifically acknowledging how confusing it feels when a friend—who should be supportive—is the source of hurt, before moving to the 'this happens a lot' normalization"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with seamless integration of first-person advice ('If it were me, I'd probably...') that reads like a supportive older sibling or friend texting",
+    "least_ideal_aspect": "The follow-up question could be more open-ended to better invite the teen to share their deeper feelings about the friendship dynamic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural conversational flow. No formatting structures, headers, numbered lists, or bullet points. Advice is woven seamlessly into sentences rather than broken out into steps or lists."
+    },
+    "specific_feedback": [
+      "Consider revising the follow-up question to be more open-ended, such as 'What worries you most about bringing it up with them?' to invite deeper sharing rather than a yes/no assessment",
+      "Could add one sentence specifically validating the confusion of being hurt by someone trusted before noting that 'this happens a lot' to ensure the teen feels fully seen in their specific situation"
+    ]
+  }
+}

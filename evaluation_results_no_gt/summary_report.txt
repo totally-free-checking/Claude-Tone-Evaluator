@@ -6,11 +6,13 @@ OVERALL SCORES COMPARISON
 --------------------------------------------------------------------------------
 
 ClaudeBot-v2          9.16/10  █████████░
+GPT4.1Bot             9.16/10  █████████░
 GrokBot               9.09/10  █████████░
 ActualClaudeTuned     9.08/10  █████████░
+GPT4oBot              9.00/10  █████████░
 OSS120Bot             8.96/10  ████████░░
 KimiBotTuned          8.94/10  ████████░░
-ActualClaude          7.32/10  ███████░░░
+ActualClaude          7.39/10  ███████░░░
 KimiBotRaw            7.31/10  ███████░░░
 GPTBot                5.28/10  █████░░░░░
 
@@ -19,22 +21,22 @@ GPTBot                5.28/10  █████░░░░░
 BOT: ActualClaude
 ================================================================================
 
-Overall Average Score: 7.32/10
+Overall Average Score: 7.39/10
 
 Dimension Averages:
-  Length Conciseness                  8.45/10  ████████░░
-  Emoji Usage                         8.21/10  ████████░░
-  Warmth Validation                   7.94/10  ███████░░░
-  Followup Question                   7.60/10  ███████░░░
-  Practical Advice                    7.51/10  ███████░░░
-  Support Solutions Balance           7.05/10  ███████░░░
-  Prose Vs Bullets                    6.38/10  ██████░░░░
-  Conversational Tone                 6.30/10  ██████░░░░
+  Length Conciseness                  8.53/10  ████████░░
+  Emoji Usage                         8.29/10  ████████░░
+  Warmth Validation                   8.02/10  ████████░░
+  Followup Question                   7.68/10  ███████░░░
+  Practical Advice                    7.59/10  ███████░░░
+  Support Solutions Balance           7.12/10  ███████░░░
+  Prose Vs Bullets                    6.42/10  ██████░░░░
+  Conversational Tone                 6.36/10  ██████░░░░
 
-Average Bullet Points per Response: 2.5
+Average Bullet Points per Response: 2.6
 
-Strongest Dimension: Length Conciseness (8.45/10)
-Weakest Dimension: Conversational Tone (6.30/10)
+Strongest Dimension: Length Conciseness (8.53/10)
+Weakest Dimension: Conversational Tone (6.36/10)
 
 ================================================================================
 BOT: ActualClaudeTuned
@@ -77,6 +79,48 @@ Average Bullet Points per Response: 0.0
 
 Strongest Dimension: Prose Vs Bullets (9.99/10)
 Weakest Dimension: Support Solutions Balance (8.96/10)
+
+================================================================================
+BOT: GPT4.1Bot
+================================================================================
+
+Overall Average Score: 9.16/10
+
+Dimension Averages:
+  Prose Vs Bullets                    10.00/10  ██████████
+  Conversational Tone                 9.15/10  █████████░
+  Followup Question                   9.12/10  █████████░
+  Warmth Validation                   9.10/10  █████████░
+  Support Solutions Balance           9.09/10  █████████░
+  Emoji Usage                         9.06/10  █████████░
+  Length Conciseness                  9.03/10  █████████░
+  Practical Advice                    8.89/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (10.00/10)
+Weakest Dimension: Practical Advice (8.89/10)
+
+================================================================================
+BOT: GPT4oBot
+================================================================================
+
+Overall Average Score: 9.00/10
+
+Dimension Averages:
+  Prose Vs Bullets                    9.99/10  █████████░
+  Warmth Validation                   9.01/10  █████████░
+  Length Conciseness                  9.00/10  █████████░
+  Emoji Usage                         8.97/10  ████████░░
+  Support Solutions Balance           8.96/10  ████████░░
+  Practical Advice                    8.84/10  ████████░░
+  Followup Question                   8.78/10  ████████░░
+  Conversational Tone                 8.65/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (9.99/10)
+Weakest Dimension: Conversational Tone (8.65/10)
 
 ================================================================================
 BOT: GPTBot
@@ -191,9 +235,11 @@ KEY INSIGHTS
 Biggest Differentiator: Prose Vs Bullets
   (Score range: 7.83 points)
 
-  ActualClaude         6.38/10
+  ActualClaude         6.42/10
   ActualClaudeTuned    10.00/10
   ClaudeBot-v2         9.99/10
+  GPT4.1Bot            10.00/10
+  GPT4oBot             9.99/10
   GPTBot               2.17/10
   GrokBot              10.00/10
   KimiBotRaw           4.48/10

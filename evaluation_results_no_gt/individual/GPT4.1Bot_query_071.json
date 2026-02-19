@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I totally get it', 'If I were you, I'd maybe check', 'I can help brainstorm') creating genuine connection",
+      "Strong immediate emotional validation opening with 'Ugh, that's such a stressful feeling' and 'I totally get it' before offering any advice",
+      "Natural prose flow without any structural formatting - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Practical advice section focuses heavily on talking to the teacher but could include one concrete study tactic example before offering to brainstorm more",
+      "While the absence of emojis is appropriate for the serious topic, a single subtle emoji early on could enhance the warmth slightly"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with zero bullet points or over-formatting - maintains perfect paragraph flow throughout",
+    "least_ideal_aspect": "Practical advice could be slightly more comprehensive with one immediate study tactic before pivoting to offering help brainstorming",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure with natural transitions between validation, reassurance, advice, and engagement. No headers, bold text, or list formatting used."
+    },
+    "specific_feedback": [
+      "Consider adding one concrete study strategy example (like 'breaking work into 25-minute chunks') before offering to brainstorm more, so the teen has something to try immediately",
+      "The first-person language usage is exemplary - continue using 'I think', 'I'd say', and 'If I were you' patterns as they create strong authentic connection"
+    ]
+  }
+}

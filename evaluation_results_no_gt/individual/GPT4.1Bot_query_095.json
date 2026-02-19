@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('If I were in your shoes', 'I'd probably try', 'I totally get') creating genuine connection",
+      "Strong immediate emotional validation starting with 'Ugh, that's honestly so annoying' and explicitly stating 'You're definitely not being too sensitive'",
+      "Provides specific, realistic script the teen can use: 'Seriously, it's old—can we drop the fight jokes?' with guidance on delivery"
+    ],
+    "weaknesses": [
+      "Could potentially include one subtle emoji (like 😅 or 💙) to enhance warmth, though the absence is appropriate for the serious nature of the topic",
+      "The transition to advice could include one more sentence of validation before 'If I were in your shoes' to make the pivot even smoother"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with zero bullet points or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Slightly conservative emoji usage - while 0 is appropriate for this topic, a single subtle emoji could enhance warmth without undermining seriousness",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle supportive emoji (like 💙 or 😅) at the end of the first paragraph to enhance warmth while maintaining the serious tone",
+      "The follow-up question is excellent but could be slightly more open-ended; instead of asking if they've tried calling them out (yes/no), ask 'What's stopping you from saying something?' to invite deeper reflection"
+    ]
+  }
+}

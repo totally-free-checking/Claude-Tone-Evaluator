@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong emotional validation ('Ugh, that's such a rough feeling') that acknowledges the hurt of feeling used by friends",
+      "Provides specific, realistic scripts the teen can actually use ('Hey, I'm a little swamped right now—what's up?' and 'I miss just hanging out like we used to') rather than vague advice",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person perspective language (no 'I think,' 'I'd say,' or 'I get it') which makes it feel slightly more like general advice than a personal conversation",
+      "Could include one more brief validating phrase before diving into the specific scripts to maintain the emotional connection through the advice section"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with specific actionable advice—completely avoids bullet points while providing concrete scripts the teen can use immediately",
+    "least_ideal_aspect": "Absence of first-person language ('I think,' 'I'd say') makes the advice feel slightly impersonal despite the warm tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational paragraphs with no lists, headers, or structural formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person phrases like 'I think you could try...' or 'I'd probably feel the same way' to create a stronger sense of personal connection and solidarity",
+      "Consider adding one brief 'I'm here if you need to talk' or similar closing support phrase before the final question to reinforce that this is a supportive conversation, not just advice delivery"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd...', 'I totally get how...') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Immediate emotional validation with relatable language ('Ugh, that sounds exhausting', 'walking on eggshells', 'playing referee')",
+      "Specific, actionable advice including exact scripts the teen can use ('Hey, can we chill for a sec? This is kinda stressing me out')"
+    ],
+    "weaknesses": [
+      "No emoji used - while not required, one supportive emoji (like 😅 or 😓) could enhance warmth given the exhausting nature of the situation",
+      "Slightly misses opportunity to explicitly say 'I'm here if you need to talk' or similar first-person support statement"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - completely avoids bullet points and structured advice, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage - completely absent when one well-placed emoji could enhance the warm, empathetic tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or bullet lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji at the beginning (like 😅 or 😓) to visually reinforce the empathetic 'Ugh, that sounds exhausting' opening",
+      "Could strengthen first-person connection by adding a closing statement like 'I'm here if you need to talk through any of this' before the follow-up question"
+    ]
+  }
+}

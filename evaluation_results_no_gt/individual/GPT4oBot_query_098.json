@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I think', 'I'd say') creating genuine personal connection",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive friend texting",
+      "Strong immediate validation that normalizes the situation ('It happens to so many people', 'doesn't make you a bad person') without dismissing the guilt"
+    ],
+    "weaknesses": [
+      "Practical advice could be slightly more specific—'stay genuine' and 'keep things chill' are good but vague without concrete examples of what that looks like in daily interactions",
+      "Slight imbalance toward validation over solutions—advice section is shorter and less detailed compared to the emotional support portions"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that creates an authentic peer-to-peer connection rather than an advisory tone",
+    "least_ideal_aspect": "Specificity of practical advice—while the emotional guidance is excellent, the actionable steps ('take time to breathe', 'stay genuine') lack concrete examples of how to execute them in real social situations",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within sentences rather than being listed out, maintaining conversational integrity throughout."
+    },
+    "specific_feedback": [
+      "Consider adding one specific example of 'staying genuine'—for instance, 'like not pretending to like things you don't just to impress either of them'—to make the advice more actionable",
+      "Could briefly acknowledge the specific guilt feeling ('that sinking feeling when you see both of them') before moving to the 'you're not a bad person' validation to show deeper emotional attunement"
+    ]
+  }
+}

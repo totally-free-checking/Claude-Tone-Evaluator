@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I know that feeling' and 'you're not alone' that makes the teen feel seen",
+      "Perfect prose format with zero bullet points - flows like a natural text conversation with an older sibling",
+      "Uses first-person language naturally ('I know', 'I promise') creating genuine connection",
+      "Specific, realistic activity suggestions (coding, cooking, sports) that acknowledge exploration is a process"
+    ],
+    "weaknesses": [
+      "Ends with two questions presented as alternatives which could slightly dilute the engagement compared to one focused question",
+      "Could potentially benefit from one subtle emoji (like 😅 or 💙) early on to enhance visual warmth, though the text warmth is strong"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with absolutely no bullet points, headers, or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "The follow-up uses a double-question format ('Have you... Or...') which slightly risks feeling like an interrogation rather than a single open invitation to share",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with natural transitions. No formatting crutches used - advice flows within sentences rather than lists."
+    },
+    "specific_feedback": [
+      "Consider condensing the final two questions into one open-ended question like 'What's something you've been curious about trying, even if it seems random?' to avoid the 'interview' feeling of multiple questions",
+      "Adding one subtle emoji after the opening validation (e.g., 'Ugh, I know that feeling 😅') could enhance the warm tone without being excessive"
+    ]
+  }
+}

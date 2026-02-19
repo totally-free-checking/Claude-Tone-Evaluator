@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'd be so annoyed,' 'If I were in your shoes,' 'I trusted you') creating genuine connection",
+      "Provides specific, actionable script for the conversation ('Hey, I noticed my thing was pretty messed up...') rather than vague advice",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Balance slightly favors practical advice over emotional validation (could use one more sentence of validation before the 'If I were in your shoes' advice section)",
+      "Emoji usage is appropriate at zero for this serious topic, though a subtle supportive emoji like 😅 or 💙 could enhance warmth without being excessive"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "Slight imbalance toward solution-focused content versus emotional validation (approximately 60/40 split rather than ideal 50/50)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, lists, or headers. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of validation before transitioning to advice (e.g., 'That betrayal stings so much') to strengthen the support-to-solutions ratio",
+      "The follow-up question is excellent and specific; maintain this level of situational awareness in future responses"
+    ]
+  }
+}

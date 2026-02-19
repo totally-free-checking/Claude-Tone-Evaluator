@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd try...', 'I totally get how overwhelming it gets', 'I promise') creating genuine connection",
+      "Immediate emotional validation with 'Ugh, that's honestly the worst' and normalization with 'you're definitely not alone' before offering any advice",
+      "Specific, teen-realistic actionable advice (splashing water, screen breaks, hydration) rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "The practical advice section uses a slightly list-like structure within the prose ('maybe... or... or...') which could flow slightly more naturally as separate sentences",
+      "The follow-up question combines two options in one ('specific thing or everything piling up') which is natural conversation but slightly less open-ended than a single focused question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and consistent first-person conversational voice ('I totally get', 'I'd try', 'I promise') that reads like texting with a supportive friend",
+    "least_ideal_aspect": "The transition from validation to advice could be slightly smoother; the 'If I were you, I'd try...' is excellent but the subsequent advice items feel slightly enumerated within the paragraph",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or bold text. The response uses natural paragraph breaks that follow conversational logic rather than structural formatting."
+    },
+    "specific_feedback": [
+      "Maintain the strong first-person perspective ('I think', 'I'd say') as it creates authentic connection; avoid drifting into impersonal 'One should' or 'The best approach is' language",
+      "Consider varying sentence structure in the advice section to avoid the 'maybe X, or Y, or Z' pattern which can feel slightly list-like even in prose",
+      "The emoji usage is perfect at 0-1; keep this restraint and avoid adding more even in longer responses"
+    ]
+  }
+}

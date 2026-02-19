@@ -1,0 +1,37 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout, creating genuine connection: 'If I were you, I think I'd try...', 'I'm so sorry you're dealing with that', and 'I just want to say' make it feel like a real person talking",
+      "Provides specific, actionable phrases the teen can literally use in the moment: 'I just need a breather for a minute' and 'Can we talk about something else for now?' rather than vague advice"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (🙁 and 💙) which slightly exceeds the ideal guideline of 0-1 max per response",
+      "The follow-up question is slightly compound (asking about pressure vs. keeping peace, then asking how things play out), though it remains natural"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, headers, or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Emoji usage slightly exceeds the ideal maximum of 0-1, though both are appropriately chosen and placed",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as flowing paragraphs with no lists, headers, bold text, or structural elements. Advice is woven naturally into sentences rather than presented as actionable items."
+    },
+    "specific_feedback": [
+      "Consider using only 1 emoji (or none) to align with the 'sparingly' guideline - perhaps keep the 💙 at the end but drop the 🙁, or vice versa",
+      "The response is excellent overall; maintain this level of first-person language and specific script suggestions in future responses"
+    ]
+  }
+}

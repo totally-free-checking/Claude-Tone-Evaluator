@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language that creates connection ('If I were in your spot, I'd probably...','I think')",
+      "Strong immediate emotional validation that names the specific feeling ('Ugh, that sucks','like every second is moving in slow motion')",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points",
+      "Specific actionable advice including exact phrases to use ('hey, can I sit here?')"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one subtle emoji (like 😅) to enhance warmth, though the absence is appropriate for the somber topic",
+      "The follow-up question is slightly binary (either/or structure) rather than open-ended"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with first-person language ('If I were in your spot, I'd probably just keep myself busy') that sounds like a supportive friend texting rather than an AI giving instructions",
+    "least_ideal_aspect": "Minor opportunity for slightly more explicit warmth markers in the transition from validation to advice, though the balance is still strong",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural flow. Advice is embedded within conversational sentences rather than listed as actionable items. No headers, bold text, or structural formatting used."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 😊) early in the response to signal warmth, though this is optional given the serious tone",
+      "The follow-up question could be slightly more open-ended like 'What's your gut telling you to do right now?' to invite more sharing rather than the either/or structure",
+      "Maintain the excellent use of first-person language ('I'd say','I think') as this is a key differentiator for the teen support character"
+    ]
+  }
+}

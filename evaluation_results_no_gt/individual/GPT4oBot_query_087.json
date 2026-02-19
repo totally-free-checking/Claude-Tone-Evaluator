@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I get how overwhelming that can feel' and 'You're definitely not alone' creates instant connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with three cohesive paragraphs",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I love spending time with you, but I've been feeling a little overwhelmed lately...'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language when giving advice - uses 'Maybe you could try' and 'you could reassure them' instead of 'I'd suggest' or 'I think you should'",
+      "Uses the word 'recharge' twice in close proximity (paragraphs 1 and 2), which feels slightly repetitive"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers - maintains conversational flow throughout while delivering substantial advice",
+    "least_ideal_aspect": "First-person perspective in advice section - shifts to impersonal 'you could' statements rather than maintaining the 'I think/I'd suggest' voice established in the opening",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent pure prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being structured as actionable items."
+    },
+    "specific_feedback": [
+      "Add more first-person language when giving advice (e.g., 'I'd probably say something like...' or 'I think you could try...') to maintain the conversational 'friend' voice throughout",
+      "Consider varying vocabulary slightly to avoid repetition (used 'recharge' twice in two paragraphs)"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Oh no, I'm so sorry… that's such a tough spot to be in' followed by relatability check",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Specific, actionable advice like holding a pen/paper and deep breathing techniques that are realistic for a teen to do right before presenting"
+    ],
+    "weaknesses": [
+      "Advice section lacks first-person framing - uses impersonal 'Something that might help?' rather than 'I'd suggest' or 'I think'",
+      "Ends with two questions at once ('What's the presentation on? Are you feeling ready...') which can feel slightly overwhelming compared to one focused question",
+      "Could strengthen personal connection with more 'I've been there' or 'I get it' type language in the advice portion"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - reads exactly like a supportive text message from a friend with no bullet points, headers, or over-formatting",
+    "least_ideal_aspect": "Slightly impersonal advice delivery that misses opportunities for first-person connection (uses 'Something that might help?' and 'Also, taking...' instead of 'I'd try...' or 'I find that...')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural paragraph structure with smooth transitions between validation, normalization, and advice. No lists, headers, or bold formatting - maintains conversational text-message style throughout."
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section (e.g., change 'Something that might help?' to 'I'd suggest trying...' or 'I think holding onto something...')",
+      "Consolidate the ending into one engaging question rather than two separate ones to keep the conversation focused",
+      "Consider adding brief first-person validation like 'I get that feeling' or 'I've definitely been there' to strengthen the personal connection before offering solutions"
+    ]
+  }
+}

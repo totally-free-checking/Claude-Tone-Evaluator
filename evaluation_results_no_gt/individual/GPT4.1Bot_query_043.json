@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'Ugh, that's such a tough spot to be in' and acknowledging the 'nagging feeling' that eats at you",
+      "Strong use of first-person language throughout ('I totally get', 'If I were you, I'd', 'I just want to check in') creating authentic connection",
+      "Provides specific, actionable script the teen can actually use: 'Hey, can I ask you something? I've been feeling a little confused about what you said the other day'",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Could potentially include one subtle emoji (like 😅 or 💙) early on to enhance warmth, though the absence is acceptable for this serious topic",
+      "The transition from validation to advice could be slightly smoother - 'The good news is' feels a tiny bit generic compared to the rest of the natural language"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with no lists, headers, or over-structuring",
+    "least_ideal_aspect": "Minor opportunity for enhanced warmth through strategic emoji usage or slightly more vivid emotional acknowledgment of how scary confrontation feels",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no bullet points, numbered lists, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 💙) at the start or end to enhance the friendly tone, though this is optional for serious topics",
+      "The phrase 'The good news is' could be replaced with something more casual like 'Here's the thing though' or 'But honestly' to maintain the conversational vibe throughout",
+      "Could briefly acknowledge that calling out a friend is scary to validate the courage required for this conversation"
+    ]
+  }
+}

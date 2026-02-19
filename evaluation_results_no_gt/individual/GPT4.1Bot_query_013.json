@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get it', 'If I were you, I'd try', 'it sounds cliché') creating genuine connection",
+      "Immediate emotional validation with 'Ugh, that jittery feeling is honestly the worst' followed by normalization ('You're not alone at all')",
+      "Specific, actionable advice tailored to the physical symptom mentioned (holding notes, clicking pen, gripping podium edge) rather than generic 'just relax' advice",
+      "Perfect prose formatting with natural paragraph flow - reads exactly like a supportive friend texting, with zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one natural question ('What’s your presentation about? Is it something you picked, or did the teacher assign it?') which slightly breaks the conversational flow",
+      "While the 'others don't notice' reframing is helpful, it comes slightly before fully sitting with the physical discomfort of the shaking itself - could use one more sentence validating how physically uncomfortable that sensation is"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains conversational flow throughout with smooth transitions between validation, reassurance, and practical advice",
+    "least_ideal_aspect": "The double question at the end feels slightly like an interview rather than a single natural follow-up, though both questions are contextually appropriate",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with four natural paragraphs. No headers, bold text, or list formatting. Advice is woven into conversational sentences ('You can also hold your notes or click a pen') rather than listed as action items."
+    },
+    "specific_feedback": [
+      "Combine the two final questions into one flowing question like 'What’s your presentation about—did you pick the topic or did the teacher assign it?' to maintain the conversational rhythm",
+      "Consider adding one subtle emoji (like 😅 or 🤝) after the opening validation to match the 'Ugh' sentiment and add visual warmth, though the text is warm enough without it",
+      "Add one sentence specifically validating the physical sensation of shaking ('Having your hands actually shake feels so out of control and awful') before the reframing about others not noticing, to ensure the teen feels fully seen in their physical experience"
+    ]
+  }
+}

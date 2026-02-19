@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I know that punch-in-the-gut feeling', 'If I were you, I'd try to remember', 'venting to a friend (or to me!)') creates genuine connection",
+      "Strong immediate emotional validation with 'Ugh, that really sucks' and vivid empathy ('makes you feel invisible or like nothing you do is enough')",
+      "Perfect prose formatting with zero bullet points or headers—flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Practical advice could include specific script examples for what to say to parents doing the comparing (e.g., 'It hurts when you compare us')",
+      "While zero emojis is acceptable for this serious topic, one subtle emoji (like 💙) could enhance warmth without undermining the gravity"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language—uses 'I' statements naturally throughout ('I know', 'If I were you', 'I'd try') making it feel like a real supportive friend rather than an advice bot",
+    "least_ideal_aspect": "Practical advice specificity—while the advice is solid, it could offer concrete phrase templates for the teen to use when confronting the comparison",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific script example for setting boundaries, such as: 'You could try saying something like, \"I know you don't mean to, but when you compare me to [sibling], it makes me feel like I'm not good enough\"'",
+      "The response is strong enough that adding one warm emoji (like 💙 or 😔) at the end of the first paragraph could enhance emotional connection without feeling forced, though the current no-emoji approach works for the serious tone"
+    ]
+  }
+}

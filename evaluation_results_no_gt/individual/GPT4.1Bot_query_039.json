@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I'm really sorry', 'I totally get', 'If I were you, I'd probably try') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive friend texting",
+      "Strong immediate validation in opening ('Ugh, I'm really sorry', 'heavy weight to carry') before moving to solutions",
+      "Natural conversational language using 'honestly', 'totally', 'literally' without sounding forced",
+      "Specific, realistic advice including exact phrasing to use with parents and concrete self-care actions (step outside, listen to music)"
+    ],
+    "weaknesses": [
+      "Could benefit from one warm emoji (like 😅 or 💙) early in the response to enhance visual warmth, though the absence doesn't significantly hurt",
+      "The advice section could briefly mention when/where to have the conversation with parents (e.g., 'when they're relaxed') for additional specificity"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language usage—the response consistently uses 'I' statements ('I totally get', 'If I were you, I'd') and natural contractions that make it feel like a real person rather than an AI or article",
+    "least_ideal_aspect": "Emoji usage—while zero emojis is acceptable for this serious topic, adding one supportive emoji could have enhanced the warmth slightly without undermining the gravity of the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent pure prose format with no bullet points, numbered lists, or headers. Advice flows naturally within paragraphs rather than being listed out. Uses italics for emphasis (*everything*) which is appropriate and conversational."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 💙) after the opening validation to match the '0-1 max' guideline for enhanced warmth",
+      "The suggested script for talking to parents is great—consider adding a brief note about timing (e.g., bringing it up when they're not busy) to make the advice even more actionable",
+      "The follow-up question is excellent and specific—maintain this level of personalization in future responses"
+    ]
+  }
+}

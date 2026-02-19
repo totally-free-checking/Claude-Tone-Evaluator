@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation using relatable teen language like 'please, ground, swallow me now' and 'hit different on the cringe scale'",
+      "Strong first-person perspective throughout with natural usage of 'I totally get it' and 'If I were you, I'd focus' creating authentic connection",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could include one additional specific coping strategy for managing anxiety in the moment (e.g., breathing techniques or specific self-talk phrases)",
+      "Slightly validation-heavy in the first half; the transition to advice could be bridged with a phrase like 'Here's what helped me' to signal the shift more clearly"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero structural formatting - reads exactly like a supportive friend texting rather than an advice column",
+    "least_ideal_aspect": "Could strengthen the balance slightly by adding one more concrete actionable tip for managing the immediate anxiety of the dance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, bold headers, or other formatting. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding a brief first-person offer of continued support like 'I'm here if you want to talk more about it' to reinforce the supportive relationship",
+      "Could enhance practical advice by suggesting a specific mental reframe technique, such as focusing on a spot on the wall or treating it like a game rather than a performance"
+    ]
+  }
+}

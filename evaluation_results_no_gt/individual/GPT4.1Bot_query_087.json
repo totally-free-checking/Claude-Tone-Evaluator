@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout, such as 'If I were in your shoes' and 'I get why you'd be craving,' creating a personal, supportive connection rather than impersonal advice",
+      "Strong immediate emotional validation with opening 'Ugh, that's such a tricky spot' and acknowledging feeling 'totally suffocated' and 'exhausting'",
+      "Provides specific, actionable script for setting boundaries: 'Hey, I love hanging out, but I need a little bit of downtime right now—can we catch up later?'",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers, reading exactly like a text from a supportive friend"
+    ],
+    "weaknesses": [
+      "Lacks an emoji that could enhance warmth, though the text-only approach is appropriate and mature for this specific topic",
+      "The follow-up question is slightly compound (asking two things at once), though it flows naturally as an either/or question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational first-person language that makes the advice feel like it's coming from a supportive peer rather than an authority figure",
+    "least_ideal_aspect": "Absence of emoji when one gentle emoji (like 😅 or 💙) could have added visual warmth to match the verbal warmth, though this is a minor consideration given the topic",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized, maintaining conversational rhythm throughout."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💙) early in the response to enhance visual warmth, though the text-only approach works well for this serious topic",
+      "The compound question at the end works conversationally, but could be simplified to a single focus question like 'What's holding you back from taking that space?' for slightly cleaner engagement"
+    ]
+  }
+}

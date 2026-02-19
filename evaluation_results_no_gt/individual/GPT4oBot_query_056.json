@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with three flowing paragraphs",
+      "Strong emotional validation immediately ('Ah, that's such a tough spot to be in', 'It's so hard when someone you care about opens up') that acknowledges the difficulty before offering solutions",
+      "Provides specific, actionable script for the teen to use: 'I'm here for you no matter what – what do you feel like you need right now?'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') - uses general statements like 'Honestly, most people don't expect...' instead of personal perspective like 'I think the most important thing is...'",
+      "Uses imperative instructional tone ('Let your friend know', 'you could also suggest') rather than sharing personal advice/opinions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - perfectly matches the conversational paragraph style",
+    "least_ideal_aspect": "Missing first-person connection - the response feels warm but slightly impersonal because it never shares what 'I' (the bot) think or feel about the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No bullet points, bold text, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to create stronger connection - instead of 'you could suggest,' try 'I'd suggest saying something like...' or 'I think the best thing you can do is...'",
+      "Include a brief 'I' statement showing personal investment, such as 'I really admire that you want to help your friend' or 'I get how overwhelming it feels when someone drops something heavy on you'"
+    ]
+  }
+}

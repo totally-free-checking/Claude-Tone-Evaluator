@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that really sucks, I'm so sorry' and acknowledging how small public call-outs can make you feel",
+      "Specific, realistic script provided for approaching the coach ('Hey, I felt kind of embarrassed earlier—was there something specific I should work on?') that balances assertiveness with respect",
+      "Perfect prose formatting with zero bullet points, headers, or over-structuring - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could strengthen first-person perspective in the advice section - uses 'maybe you could' and 'that way you're showing' rather than 'I'd suggest' or 'I think you could try'",
+      "Ends with two questions rather than one focused follow-up, though both are natural and relevant"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points and structured lists while maintaining readability",
+    "least_ideal_aspect": "First-person language in advice section - validates with 'I'm sorry' but shifts to impersonal 'you' statements when giving suggestions rather than maintaining the 'I think/I'd suggest' perspective throughout",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent use of natural paragraphs with no formatting crutches. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Integrate more first-person language into the advice portion (e.g., 'I'd suggest saying...' or 'I think you could try...') to maintain the personal connection established in the opening",
+      "Consider condensing the final two questions into one flowing question or choosing the most engaging one to avoid the slight scatter of multiple questions"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific physical description of anxiety ('panicked, pit-in-your-stomach feeling') that makes the teen feel truly understood",
+      "Perfect prose formatting with zero bullet points or structural elements—reads exactly like a supportive text from a friend",
+      "Specific, actionable advice tailored to the school environment (checking classrooms, lockers, asking teachers) rather than generic 'retrace your steps' platitudes"
+    ],
+    "weaknesses": [
+      "Uses two emojis (💙 and 😊) when the ideal character uses 0-1 max",
+      "Advice section lacks first-person perspective ('I think,' 'I'd suggest')—uses imperative statements ('Try to think,' 'Don't be afraid') instead of personal recommendations",
+      "Ends with two separate questions rather than one natural, flowing follow-up question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring—maintains conversational flow throughout all three paragraphs",
+    "least_ideal_aspect": "Limited first-person language in the advice section—switches to general/imperative statements rather than maintaining the 'I think'/'I'd say' perspective throughout",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is composed entirely of three natural paragraphs with no bullet points, numbered lists, headers, or bold text. Advice is seamlessly integrated into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Reduce emoji usage to 0-1 per response—either keep the heart at the beginning or the smiley at the end, but not both",
+      "Integrate more first-person language into the advice section (e.g., 'I'd start by retracing your steps' or 'I think checking with the office first makes sense') to maintain the conversational, personal connection",
+      "Combine the two final questions into one natural question like 'What did you lose, and where do you think you last had it?' to avoid the interrogative feel of multiple questions"
+    ]
+  }
+}

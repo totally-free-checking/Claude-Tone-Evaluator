@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'I've been trying', 'I don't really know') creating a personal, supportive connection",
+      "Provides specific, actionable scripts for the teen to use ('Oh, I don't really know anything about that, but did you see...' and 'I've been trying not to get into people's business lately')",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused follow-up, though they work as natural alternatives",
+      "Could include slightly more emotional validation before transitioning to the 'habit' explanation in the second paragraph"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow and consistent first-person language ('I think', 'I'd say' implied through 'I totally get', 'I've been trying')",
+    "least_ideal_aspect": "The ending contains two questions presented as alternatives rather than one focused engaging question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in three natural paragraphs with no formatting, headers, or bullet lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider combining the two final questions into one focused question like 'Do you think they'd be cool with you setting that boundary, or would it be better to just keep changing the subject?'",
+      "The transition from validation to advice is good but could include one more empathetic phrase like 'That guilt of not wanting to participate but not wanting to call them out is the worst' before explaining the habit aspect"
+    ]
+  }
+}

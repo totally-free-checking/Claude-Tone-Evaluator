@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and 'That kind of thing cuts so deep' that acknowledges the violation of trust",
+      "Excellent use of first-person language throughout ('I'd feel the exact same way', 'I think', 'I'd suggest') creating genuine connection",
+      "Provides specific, realistic script for the conversation including exact phrasing: 'I know you might've been worried or curious, but reading my private thoughts without asking really hurt me'"
+    ],
+    "weaknesses": [
+      "Ends with two connected questions rather than one streamlined question, which slightly dilutes the focus",
+      "Could more explicitly acknowledge that confrontation might not be safe or possible for all teens before suggesting the conversation script"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The follow-up question section presents two alternative scenarios which, while natural, slightly complicates the ending compared to a single focused question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs, no headers, no bold text, no lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider condensing the final two questions into one unified question like 'Do you think they're open to hearing how this affected you, or would it be better to focus on protecting your privacy first?'",
+      "While the script provided is excellent, adding a brief acknowledgment that 'only if you feel safe doing so' could strengthen the safety-conscious aspect of the advice"
+    ]
+  }
+}

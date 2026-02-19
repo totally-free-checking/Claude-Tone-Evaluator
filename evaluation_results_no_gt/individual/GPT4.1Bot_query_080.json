@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific physical description ('That little knot in your stomach') that shows deep empathy for the teen's experience",
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I know') creating a personal, supportive connection",
+      "Perfect prose formatting with natural conversational flow - reads like a supportive friend texting rather than an advice column"
+    ],
+    "weaknesses": [
+      "Practical advice section could include one specific conversation starter phrase the teen could actually use in the moment",
+      "While no emojis is acceptable for this anxious topic, a subtle supportive emoji (like 😅 or 💙) could enhance warmth without undermining seriousness"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that creates genuine peer-like support",
+    "least_ideal_aspect": "Advice section is slightly generic regarding conversation tactics - could benefit from one concrete example phrase to use during the talk",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, headers, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific phrase the teen could use during the conversation, like 'Can you give me a quick heads up if this is good news or bad news? My anxiety is spiraling'",
+      "The reassurance that 'it might be something good' is helpful, but could be balanced with validation that even if it's hard, they have the capacity to handle it"
+    ]
+  }
+}

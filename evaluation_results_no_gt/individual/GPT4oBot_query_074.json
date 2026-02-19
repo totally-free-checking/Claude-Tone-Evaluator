@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's so frustrating!' and 'I totally get how unfair and suffocating that can feel' that acknowledges the teen's experience",
+      "Perfect prose formatting with zero bullet points - flows naturally in conversational paragraphs like a text from a supportive friend",
+      "Specific, actionable advice including exact phrasing the teen can use: 'I feel like you're being a lot stricter lately, and I don't totally understand why. Is something going on that's making you worried?'",
+      "Excellent specific follow-up question asking 'What kind of things are they being extra strict about?' which invites continuation and shows genuine interest"
+    ],
+    "weaknesses": [
+      "Could use more explicit first-person language in the advice section (e.g., 'I think you could try...' or 'I'd suggest...') rather than the slightly more impersonal 'maybe you could'",
+      "The perspective shift about parents' worries, while helpful, could include a bit more validation that the teen's feelings are valid before explaining the parents' viewpoint"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or over-structuring, reading exactly like a supportive friend texting rather than a formal advice column",
+    "least_ideal_aspect": "Slightly impersonal advice delivery that uses 'maybe you could' instead of more direct first-person suggestions like 'I think you should try'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section, such as 'I think sitting down with them when things are calm could help' or 'I'd suggest saying something like...' to make it feel more personal",
+      "Consider adding one more validating phrase before explaining parents' motivations, such as 'And honestly, you have every right to feel frustrated by this' to ensure the validation isn't lost when offering perspective"
+    ]
+  }
+}

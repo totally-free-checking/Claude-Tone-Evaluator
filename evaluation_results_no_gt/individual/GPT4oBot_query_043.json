@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such a tough spot to be in' and acknowledging the fear of making things worse",
+      "Specific, actionable conversation scripts like 'Hey, I noticed [whatever seems off]. Is everything okay?' that teens can actually use",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Shifts to second-person 'You could try' in the advice section instead of maintaining first-person language like 'I'd suggest' or 'I think you could'",
+      "Asks two follow-up questions that are somewhat redundant ('What makes you feel like they might not be telling the truth?' and 'Have you noticed something that really stuck out to you?')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - completely avoids bullet points and structured lists, flowing as conversational paragraphs throughout",
+    "least_ideal_aspect": "Follow-up question engagement - asks two questions at once rather than one focused, natural question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting, headers, or bullet lists. Advice is woven naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Replace 'You could try' with first-person alternatives like 'I'd suggest trying' or 'I think you could' to maintain the conversational 'friend' voice throughout the advice section",
+      "Consolidate the final two questions into one specific question like 'What specifically made you feel like something was off?' to avoid overwhelming the user while still inviting them to share more"
+    ]
+  }
+}

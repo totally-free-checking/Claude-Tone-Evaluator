@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with phrases like 'Ugh, I'm so sorry' and 'that sinking feeling... is the worst' that normalize the teen's experience",
+      "Excellent use of first-person language throughout ('I promise', 'I swear', 'I'm here') creating genuine personal connection",
+      "Specific, actionable advice including using humor to own the mistake and concrete distraction methods like music or shows"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (😅 and 💙) when the ideal character uses 0-1 max",
+      "The perspective shift to 'it probably feels way bigger to you than it does to everyone else' comes quickly and could benefit from one more sentence of pure validation first"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points and consistent first-person conversational language that reads like texting with a supportive friend",
+    "least_ideal_aspect": "Emoji usage slightly exceeds the 'sparingly' guideline with 2 emojis instead of the recommended 0-1 maximum",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no lists, headers, or over-structuring. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider reducing to 1 emoji (likely the 💙 at the end) to better match the 'sparingly' guideline while maintaining warmth",
+      "Add one more sentence of validation before the 'spotlight effect' perspective shift to ensure the teen feels fully heard before receiving reframing advice"
+    ]
+  }
+}

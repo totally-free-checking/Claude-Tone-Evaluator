@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with phrases like 'stomach-dropping situation' and 'hyper-aware of every little move' that perfectly capture the teen's experience",
+      "Strong use of first-person language throughout ('I totally get why you'd feel weird', 'If I were you, I'd just keep things really neutral') creating authentic connection",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with four well-structured paragraphs",
+      "Highly specific and realistic advice including exact phrases to use ('quick hey') and concrete coping strategies (focusing on work, chatting with others nearby)"
+    ],
+    "weaknesses": [
+      "Lacks emojis entirely - while not strictly necessary, one warm emoji (like 😅 or 😬) at the opening could enhance the casual, friendly tone for this awkward social situation",
+      "The advice section could slightly expand on how to handle the emotional discomfort in the moment, though the practical advice given is solid"
+    ],
+    "most_ideal_aspect": "The natural prose formatting and conversational flow - it reads exactly like a supportive friend texting advice without any structured lists or formal headers, using contractions and casual transitions ('The thing is', 'Like, you don't need') throughout.",
+    "least_ideal_aspect": "The complete absence of emojis when one might have enhanced the warm, casual tone appropriate for discussing awkward social situations.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No bullet points, numbered lists, bold headers, or over-structuring. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 😬) at the beginning or end to match the 'awkward' theme and add visual warmth, though the text alone is warm enough",
+      "The follow-up question is excellent - keep using this specific, situational approach rather than generic 'how are you feeling' questions"
+    ]
+  }
+}

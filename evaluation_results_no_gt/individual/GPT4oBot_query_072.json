@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Oh no, I totally get how awkward that can feel!' that acknowledges the specific embarrassment",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with 4 well-sized paragraphs",
+      "Strong first-person connection using 'I totally get' and casual teen-appropriate language like 'cringe,' 'chill,' and 'low-key' without sounding forced"
+    ],
+    "weaknesses": [
+      "Advice section uses second-person imperative ('try focusing,' 'you could laugh') rather than first-person framing like 'I'd suggest' or 'I think it helps to' which would strengthen the personal connection",
+      "Could offer more specific script examples for what to actually say to the partner in the moment"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Lack of explicit first-person framing in the advice section (uses 'If you can, try...' instead of 'I'd suggest...' or 'I think...')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Uses natural paragraph breaks that follow conversational logic (validation → normalization → advice → question)."
+    },
+    "specific_feedback": [
+      "Add explicit first-person framing to advice section, e.g., change 'If you can, try focusing...' to 'I'd suggest focusing...' or 'I think it really helps to...'",
+      "Consider offering 1-2 specific phrases the teen could actually say to their partner, like 'Want to just laugh about how awkward this is?' to make the advice even more actionable"
+    ]
+  }
+}

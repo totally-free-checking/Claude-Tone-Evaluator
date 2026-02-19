@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with specific language mirroring the user's experience ('That restless, buzzing kind of stress where your brain just won't chill is the worst')",
+      "Perfect prose formatting with zero bullet points - advice flows naturally within conversational paragraphs ('If you can, try focusing... Or, if you feel too antsy...')",
+      "Excellent use of first-person empathetic language ('I'm so sorry','I totally get how exhausting that can be') creating genuine connection"
+    ],
+    "weaknesses": [
+      "Advice section could incorporate more first-person perspective (e.g., 'When I get stressed, I find that...') to strengthen the personal connection",
+      "The follow-up contains two questions back-to-back which slightly risks feeling like an interrogation, though they work well as alternatives"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with absolutely no bullet points or over-structuring - maintains conversational flow throughout while delivering multiple practical suggestions",
+    "least_ideal_aspect": "Slight lack of first-person language in the advice section (uses 'try focusing' and 'can snap you out' rather than 'I find that...' or 'I'd suggest...')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural transitions between ideas. Advice is embedded in flowing sentences using 'Or' and 'Another thing' to connect suggestions rather than listing them."
+    },
+    "specific_feedback": [
+      "Consider adding a brief first-person anecdote or preference in the advice section (e.g., 'I personally find the breathing thing helps me the most when I'm spiraling') to strengthen the supportive friend persona",
+      "The double question at the end works but could be streamlined to one open-ended question like 'What's been running through your mind the most lately?' to avoid any sense of interrogation"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, vivid emotional validation ('Ugh, that feeling is honestly the worst—when you hit post and then just want to crawl under a blanket and disappear') that perfectly captures the teen's experience",
+      "Maintains perfect prose format with zero bullet points or over-formatting, reading exactly like a supportive friend texting",
+      "Uses natural teen-appropriate language ('spiraling,' 'zero shame,' 'let it ride') without being cringe or forced"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person singular language (no 'I think,' 'I'd say,' or 'I get it'), using only 'we've all done it' and 'trust me,' which makes it slightly less personal than ideal",
+      "Ends with two questions rather than one focused question, though both are relevant and natural"
+    ],
+    "most_ideal_aspect": "Warmth & Emotional Validation - the opening immediately validates the specific feeling of post-regret with vivid, relatable imagery ('crawl under a blanket') and normalizes the experience",
+    "least_ideal_aspect": "Conversational Tone & Language - while casual, it misses opportunities to use first-person singular statements ('I think you should...', 'I'd probably just...') that would make it feel like a specific person sharing their perspective rather than general advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, bullet points, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add explicit first-person singular statements like 'I think the best move is...' or 'I'd probably just delete it' to create stronger personal connection",
+      "Consider condensing the final two questions into one flowing question like 'What kind of post was it, and are you leaning toward deleting it or just letting it ride?' to feel more conversational"
+    ]
+  }
+}

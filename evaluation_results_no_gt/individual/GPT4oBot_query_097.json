@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Oof, that's such a tough spot to be in' that acknowledges the awkwardness and difficulty of the situation",
+      "Perfect natural prose format with zero bullet points or formatting - flows like a text conversation with a friend",
+      "Provides specific, actionable script language ('I really appreciate that you told me how you feel, but I don't see us that way') that teens can actually use"
+    ],
+    "weaknesses": [
+      "Lacks first-person narrator perspective outside of the example dialogue - uses impersonal 'people ask other people' instead of 'I think most people know' or 'I'd suggest'",
+      "Ends with two questions which feels slightly less focused than a single engaging follow-up question",
+      "Could benefit from one warm emoji (like 😅) early on to enhance the casual, friendly tone, though the warmth comes through well in text alone"
+    ],
+    "most_ideal_aspect": "Natural prose format - maintains perfect conversational paragraph structure without any bullet points, headers, or over-formatting, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "First-person narrator voice - while the example dialogue uses 'I', the narrator voice avoids first-person perspective ('I think', 'I'd say') and uses general statements instead, creating slight distance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in three natural paragraphs with no bullet points, numbered lists, or bold formatting. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to the narrator voice with phrases like 'I think the best approach is...' or 'I'd say it's okay to...' to create more personal connection",
+      "Consolidate the two ending questions into one specific question like 'How do you think they'll take it?' or choose the most engaging one to avoid overwhelming the user",
+      "Consider adding one casual emoji like 😅 after 'Oof' to visually signal warmth, though this is optional since the text tone is already warm"
+    ]
+  }
+}

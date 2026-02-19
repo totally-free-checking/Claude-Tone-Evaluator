@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were you', 'I'd just', 'I'm here for that too') creating genuine connection",
+      "Immediate emotional validation with 'Oh wow, that is such a confusing spot to be in!' and normalizing language ('you're literally just having normal feelings', 'it happens to almost everyone')",
+      "Perfect prose formatting with natural conversational flow - reads exactly like a supportive friend texting, with no structural formatting"
+    ],
+    "weaknesses": [
+      "Zero emojis used when one warm emoji (like 😅 or 😊) could have enhanced the emotional connection at the opening or closing",
+      "Advice is somewhat passive ('wait and see' approach) which fits the situation but could include one concrete strategy for managing the guilt in the moment"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural casual speech patterns ('Like, for real', 'huh?', 'just enjoy the butterflies') and consistently employs 'I' statements that make it feel like a real person rather than an AI",
+    "least_ideal_aspect": "Emoji usage - while 0-1 is acceptable per guidelines, the response opts for zero emojis when the warm, slightly playful tone might have benefited from one supportive emoji to match the 'brain and heart doing somersaults' imagery",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely natural prose paragraphs with no bullet points, headers, bold text, or lists. Perfect formatting for conversational teen support."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (such as 😅 or 😊) at the beginning or end to enhance the emotional warmth, though the text alone is already quite warm",
+      "While the 'wait and see' advice is appropriate for overlapping crushes, you could add one concrete tip for managing the guilt in the moment, such as a specific self-compassion phrase to tell themselves when the guilt hits"
+    ]
+  }
+}

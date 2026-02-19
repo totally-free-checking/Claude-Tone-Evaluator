@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 9.5,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Exceptional immediate emotional validation with vivid, relatable language ('That moment when everything just piles up and your brain basically goes \"nope!\" is seriously exhausting')",
+      "Strong first-person language throughout ('I totally get it', 'If I were you, I'd try', 'I know it sounds cheesy') creating authentic connection",
+      "Specific, immediately actionable advice tailored to teen paralysis (typing name as first step, 10-minute timer trick)"
+    ],
+    "weaknesses": [
+      "The follow-up question is slightly compound (asking what kind of assignments plus making a statement about talking it out), though it remains natural",
+      "Could potentially include one more specific validation phrase after the advice to reinforce support before the question, though the balance is already strong"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - immediately validates the 'brain freeze' feeling with vivid, non-judgmental language that makes the teen feel truly seen",
+    "least_ideal_aspect": "The transition between the validation paragraphs and advice paragraph is slightly abrupt with 'Honestly,' though this is a minor issue in an otherwise excellent response",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullets or lists. Uses natural paragraph flow with italics for emphasis only. Reads exactly like a supportive text message from a friend."
+    },
+    "specific_feedback": [
+      "Maintain this level of first-person language ('I'd try', 'I get it') in all responses as it creates crucial personal connection",
+      "The specific 'type your name' advice is excellent - continue offering concrete micro-steps rather than vague 'just start' platitudes"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Oh my gosh, I totally get it' and relatable description of the brain hitting 'turbo mode'",
+      "Perfect prose formatting with zero bullet points, using natural conversational paragraphs throughout",
+      "Excellent emoji usage with one well-placed 😅 that enhances the nervous, excited tone without being excessive"
+    ],
+    "weaknesses": [
+      "Advice section uses second-person imperative ('maybe pay attention') rather than first-person framing ('I'd suggest paying attention' or 'I think you should look for')",
+      "The follow-up question is slightly compound (asking both what has them spiraling and if anything else happened), though it flows naturally"
+    ],
+    "most_ideal_aspect": "Natural prose formatting that reads like a text from a supportive friend, completely avoiding bullet points or over-structuring",
+    "least_ideal_aspect": "Slightly impersonal advice phrasing that could strengthen connection by using more 'I think' or 'I'd try' statements rather than direct imperatives",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with natural conversational flow. No headers, bold text, or list formatting used. Advice is integrated smoothly into sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person framing to the advice section (e.g., 'I'd say pay attention...' or 'I think you should look for...') to maintain the personal connection established in the opening",
+      "Consider using slightly more specific actionable phrases in the advice, such as suggesting exact conversation starters or specific behaviors to watch for beyond 'do they go out of their way to talk to you'"
+    ]
+  }
+}

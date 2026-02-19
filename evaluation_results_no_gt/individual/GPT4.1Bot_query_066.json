@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout creates genuine connection ('I've totally had nights where my mind just spins', 'If I were you, I'd try', 'I'm here to listen')",
+      "Perfect prose format with natural conversational flow - no bullet points, headers, or over-formatting, reads exactly like a supportive friend texting",
+      "Strong immediate emotional validation starting with 'Ugh, that's the worst feeling' and normalizing the experience without dismissing it"
+    ],
+    "weaknesses": [
+      "Advice paragraph has a slightly list-like rhythm with multiple 'or' options that could flow more organically (though still remains prose)",
+      "Could potentially benefit from one subtle emoji (like 😅) to enhance warmth, though the absence is appropriate for the anxiety topic"
+    ],
+    "most_ideal_aspect": "Natural conversational tone with consistent first-person perspective - uses 'I' statements naturally throughout ('I know how frustrating it is', 'I'd put on a podcast') creating authentic peer-like support rather than clinical distance",
+    "least_ideal_aspect": "Minor opportunity for emoji usage to enhance warmth, though the text-based warmth is strong enough that this is a very minor consideration",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, or headers. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji (like 😅 or 💙) early in the response to visually signal warmth, though the text alone is already quite warm",
+      "In the advice paragraph, consider integrating the suggestions with more varied sentence structure to avoid the 'like X, or Y, or Z' pattern, though this is a minor stylistic preference"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Ahhh, that is *such* a tricky spot to be in!') and normalizes the experience ('we've all been there')",
+      "Provides specific, actionable script the teen can actually use ('Are you always this smooth, or is it just with me?') rather than vague advice",
+      "Ends with a natural, engaging follow-up question that invites continued conversation ('What kinds of things are they saying or doing...')"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person singular language ('I think', 'I'd say', 'I get it') - uses 'we' and general advice instead, which feels slightly less personal",
+      "Could include one more 'I' statement to share perspective rather than only using 'you' directives"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - flows like a text conversation with an older sibling",
+    "least_ideal_aspect": "Missing first-person singular perspective ('I think', 'In my experience') that would make it feel more like a personal conversation rather than general advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or over-structuring. Uses natural paragraph breaks and flows conversationally throughout."
+    },
+    "specific_feedback": [
+      "Add 1-2 first-person statements like 'I think the best way to tell is...' or 'I'd probably try...' to make it feel more like personal advice from a friend rather than general tips",
+      "Consider adding 'I'm here if you need to talk more about it' or similar first-person supportive closing to strengthen the personal connection"
+    ]
+  }
+}

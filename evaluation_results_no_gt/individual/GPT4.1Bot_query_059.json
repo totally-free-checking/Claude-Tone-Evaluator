@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's honestly the worst' and acknowledging the specific fear that friends wouldn't talk to them at all without their effort",
+      "Perfect natural prose format with zero bullet points or headers, reading exactly like a supportive friend texting",
+      "Uses first-person language naturally throughout ('I'd say', 'I totally get', 'I think' implied in advice)",
+      "Provides specific, actionable advice including an exact script the teen could use ('Wow, would anyone even text me if I didn't start first?')"
+    ],
+    "weaknesses": [
+      "The advice to 'take a tiny step back' could potentially be risky if friends are truly neglectful, though it's framed gently with 'for a bit'",
+      "Could include one more explicit 'I' statement in the middle section to strengthen the personal connection, though 'I'd say' covers this well"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow without any structural formatting",
+    "least_ideal_aspect": "Nothing significantly diverges; perhaps the transition between the normalization paragraph and advice paragraph could be slightly more personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural paragraphs with no formatting structures, headers, or lists. Perfect conversational flow with 4 well-sized paragraphs."
+    },
+    "specific_feedback": [
+      "Continue using immediate validation like 'Ugh, that's honestly the worst' to establish warmth and relatability right away",
+      "The specific script example provided is excellent - keep offering concrete phrases teens can actually say in these situations",
+      "The follow-up question is specific and natural, perfectly inviting the teen to share more details"
+    ]
+  }
+}

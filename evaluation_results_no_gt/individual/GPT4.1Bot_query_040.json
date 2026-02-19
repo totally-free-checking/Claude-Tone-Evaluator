@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's seriously overwhelming' and acknowledging the trapped feeling between politeness and needing space",
+      "Excellent use of first-person language throughout: 'I think,' 'If I were in your shoes, I'd,' and 'I get a little overwhelmed' creates authentic connection",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, sorry if I don't reply super fast! I get a little overwhelmed...')"
+    ],
+    "weaknesses": [
+      "Could benefit from one brief validating phrase right before the final question to bridge the advice back to emotional support",
+      "The transition from advice to question is slightly abrupt - a softener like 'Hope that helps!' could improve flow"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational first-person tone - reads exactly like a supportive friend texting advice without any bullet points or over-structuring",
+    "least_ideal_aspect": "The final question, while good, could be slightly more connected to the emotional experience rather than just the logistical context",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no lists, headers, or over-structuring. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a brief emotional check-in right before the final question (e.g., 'How are you feeling about texting them back?') to reconnect after the practical advice",
+      "The response is strong enough that adding one warm emoji (like 😅 or 💙) at the start could enhance the tone, though the current text-only approach is also appropriate for this boundary-setting topic"
+    ]
+  }
+}

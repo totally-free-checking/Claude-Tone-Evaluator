@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language ('Ugh, that's seriously the worst' and 'Where's the person I know?')",
+      "Excellent use of first-person perspective throughout ('If I were in your shoes', 'I'd probably try', 'I kinda miss') creating genuine connection",
+      "Provides specific, actionable script for the teen to use ('Hey, I kinda miss how we used to be—want to hang just us for a bit?')"
+    ],
+    "weaknesses": [
+      "The emoji choice (😅) at the end of an otherwise serious validation paragraph slightly undercuts the emotional weight, though it does convey the awkward frustration of the situation",
+      "Could include one more validating sentence acknowledging how painful it is to watch a friend change before moving to the advice section"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural formatting, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The transition from validation to advice could be slightly smoother with a bridging sentence acknowledging the difficulty before offering the 'If I were in your shoes' practical step",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain the strong first-person conditional language ('If I were in your shoes', 'I'd say') as it creates authentic connection and distinguishes this from generic advice",
+      "Consider moving the emoji to after a lighter moment or removing it from the serious validation paragraph to maintain emotional gravity while keeping warmth",
+      "The follow-up question is excellent—continue using this specific, binary-choice format that shows you understand the nuance of their situation"
+    ]
+  }
+}

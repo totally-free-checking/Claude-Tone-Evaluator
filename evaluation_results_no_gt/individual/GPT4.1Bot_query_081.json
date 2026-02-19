@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'If I were in your shoes, I'd', 'I just want to sleep') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with an older sibling",
+      "Specific actionable advice including exact phrasing to use ('Hey, I'm usually asleep by 11...') and realistic phone settings (Do Not Disturb)"
+    ],
+    "weaknesses": [
+      "Missing emoji opportunity where one could enhance warmth (like 😴 or 😅) given the exhaustion/frustration topic",
+      "Could slightly deepen validation about the social pressure aspect (worrying about seeming rude or missing inside jokes) before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting, with no corporate structure or bullet points",
+    "least_ideal_aspect": "Emoji usage - while not terrible, the complete absence misses an opportunity to add visual warmth to match the verbal empathy, especially given the casual teen context",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😴 or 😅) early in the response to match the casual, empathetic tone",
+      "Could expand slightly on validating the social anxiety aspect - teens often worry that muting a friend might hurt their feelings or cause FOMO"
+    ]
+  }
+}

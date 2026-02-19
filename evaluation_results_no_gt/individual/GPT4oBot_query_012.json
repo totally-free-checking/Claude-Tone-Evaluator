@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with specific language like 'gut-punch kind of feeling' and 'I get why that left you feeling kinda down'",
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I get why') creating genuine connection",
+      "Perfect prose formatting with zero bullet points and natural conversational flow"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused question, which could feel slightly overwhelming",
+      "Advice section could include one specific 'in-the-moment' action (like texting a friend or taking a walk) rather than just perspective-shifting"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - immediately acknowledges the painful feeling with 'Ugh, I'm so sorry' and validates the 'feeling dumb' reaction as normal and human",
+    "least_ideal_aspect": "Follow-up question engagement - while the questions are good, asking two at once ('How are you handling it right now? Does this change how you're feeling about them?') is slightly less ideal than one focused question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Text flows naturally as conversational prose."
+    },
+    "specific_feedback": [
+      "Consolidate the ending to one specific question rather than two to avoid decision fatigue",
+      "Consider adding one concrete 'right now' action step (like 'maybe put on your favorite playlist' or 'text your bestie') alongside the perspective advice"
+    ]
+  }
+}

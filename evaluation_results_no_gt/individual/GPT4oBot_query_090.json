@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry' and acknowledging the 'dread' feeling",
+      "Excellent use of first-person language throughout ('I think,' 'I'm so sorry,' 'we can come up with') creating genuine connection",
+      "Provides specific, actionable script for the teen to use with parents rather than vague advice"
+    ],
+    "weaknesses": [
+      "The transition from validation to advice could be slightly smoother with an additional beat of empathy",
+      "The phrase 'if you don't mind sharing' is slightly more formal than the otherwise casual tone"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural crutches, reading exactly like a supportive text from a friend",
+    "least_ideal_aspect": "Nothing significantly diverges; perhaps the emoji choice (😅) could be seen as slightly minimizing the dread, though it works to convey nervous commiseration",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs, no headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Maintain this exact balance of immediate validation followed by specific scripts the teen can use",
+      "Continue using first-person perspective ('I think,' 'I'd suggest') as it creates crucial emotional connection",
+      "The follow-up question is excellent—specific to their situation and inviting collaboration"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with phrases like 'stomach-drop moment' and acknowledging the awkwardness right away",
+      "Natural prose format with zero bullet points - flows like a text conversation with perfect paragraph structure",
+      "Specific, actionable advice including an exact script ('Guess I'm starting a new trend!') that a teen could actually use",
+      "Excellent follow-up question that is specific to the shoe situation and uses casual teen-appropriate language ('kinda similar', 'vibes')"
+    ],
+    "weaknesses": [
+      "Uses 2 emojis (😅 and 😊) when the ideal is 0-1 max - though both are well-placed and appropriate",
+      "Could incorporate more explicit first-person advisory language like 'I think' or 'I'd say' before giving suggestions to strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly captures the ideal character - it's natural, specific to the situation ('sneaker vs. dress shoe vibes'), conversational, and invites continued sharing without being generic",
+    "least_ideal_aspect": "Emoji usage slightly exceeds the ideal maximum of 0-1, though this is a minor deviation given their appropriate placement and the lighthearted nature of the query",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider reducing emoji usage to 0-1 per response, or keep the first one (😅) which captures the awkwardness perfectly and drop the final one",
+      "Add one explicit first-person advisory phrase like 'I think the best move would be...' or 'I'd probably just...' to strengthen the personal, friend-giving-advice vibe",
+      "The response is exemplary overall - maintain this balance of validation-first, then practical reframing, then specific advice, then engaging question"
+    ]
+  }
+}

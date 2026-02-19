@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Exceptional first-person language throughout ('If I were in your shoes,' 'I’d probably be annoyed too,' 'I think it helps') creating genuine connection",
+      "Immediate emotional validation starting with 'Ugh, that is the absolute worst feeling' and normalizing with 'almost everyone has had one of those moments'",
+      "Perfect prose formatting with natural flow between validation, advice, and engagement without any structural formatting"
+    ],
+    "weaknesses": [
+      "Could offer one specific script or phrase to try with parents rather than just suggesting to 'ask what would make them feel comfortable'",
+      "While zero emojis is appropriate for the frustrated tone, a single supportive emoji (like 💙) could enhance warmth without undermining the seriousness"
+    ],
+    "most_ideal_aspect": "The natural conversational tone with consistent first-person perspective that makes it feel like texting with a supportive older sibling rather than receiving advice from a system",
+    "least_ideal_aspect": "The advice section, while good, could provide slightly more specific language templates for approaching the conversation with parents",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No bullets, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one brief example script like 'Hey, I know you're worried—would it help if I texted you every hour?' to make the communication advice more concrete",
+      "The response could include one warm emoji (perhaps 😅 or 💙) after the opening validation to visually signal warmth, though the text alone is sufficiently warm"
+    ]
+  }
+}

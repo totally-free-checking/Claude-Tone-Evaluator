@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that hurts' and acknowledgment that feeling 'not enough' is the worst",
+      "Perfect prose formatting with zero bullet points - flows like a natural conversation with an older sibling",
+      "Specific actionable advice including exact phrasing ('Hey, are you just hanging out with me because I'm friends with [the person]?') and the 'pull back' strategy"
+    ],
+    "weaknesses": [
+      "Lacks explicit first-person perspective language in the advice section (missing 'I think,' 'I'd suggest,' or 'In my experience') which makes the practical suggestions feel slightly impersonal",
+      "Uses two questions at the end rather than one focused question, though both are specific and natural"
+    ],
+    "most_ideal_aspect": "Warmth and emotional validation - immediately validates the painful feeling of being used and maintains empathetic tone throughout with phrases like 'honestly, that's the worst' and 'you deserve friends who lift you up'",
+    "least_ideal_aspect": "First-person language usage - while it uses 'I promise,' the advice section relies on 'you could try' rather than 'I think you could' or 'I'd say,' missing opportunities to establish personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent natural prose throughout with no bullet points, headers, or over-formatting. Uses italics for emphasis which is appropriate for conversational tone."
+    },
+    "specific_feedback": [
+      "Add first-person framing to advice sections (e.g., 'I think you could try...' or 'I'd probably ask them...') to make it feel more like personal guidance from a friend rather than generic suggestions",
+      "Consider consolidating the two ending questions into one slightly more open-ended question like 'What specifically made you start feeling this way?' to keep the engagement focused while still inviting details"
+    ]
+  }
+}

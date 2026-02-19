@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Exceptional immediate emotional validation with phrases like 'Oh man, that's such a heavy feeling' and 'I've definitely been there, and it sucks' that create instant rapport",
+      "Perfect use of first-person language throughout ('I know that drained vibe,' 'If I were you, I'd,' 'I swear') making it feel like a real person texting",
+      "Zero bullet points with beautiful natural prose flow that reads like a supportive friend rather than a self-help article"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused question, which slightly dilutes the engagement ('When did you start feeling like this? Is it more about school stuff...')",
+      "The practical advice section, while good, could include one specific example of what 'writing it out' looks like (e.g., 'like literally list three things you did today') to make it more actionable"
+    ],
+    "most_ideal_aspect": "The prose formatting and conversational flow - it completely avoids bullet points and headers, reading exactly like a warm text message from a supportive older sibling with natural paragraph breaks and casual transitions",
+    "least_ideal_aspect": "The follow-up question section asks two questions back-to-back rather than one engaging question, which slightly breaks the 'natural conversation' flow by demanding two different types of information at once",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Uses natural paragraph breaks and flows between validation, reframing, advice, and engagement seamlessly"
+    },
+    "specific_feedback": [
+      "Combine the two ending questions into one flowing inquiry like 'When did you start feeling like this - is it tied to school stuff, friends, or just general life pressure right now?' to maintain the conversational single-thread feel",
+      "Consider adding one concrete example to the journaling advice, such as 'Even if it's just 'made it to class' or 'texted my friend back'' to make the 'write out accomplishments' tip more tangible for teens who might not know what counts as an accomplishment"
+    ]
+  }
+}

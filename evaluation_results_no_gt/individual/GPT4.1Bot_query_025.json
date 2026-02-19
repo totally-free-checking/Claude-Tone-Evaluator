@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Bot",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with phrases like 'Ugh, that's so frustrating' and 'honestly, that just sucks' that acknowledge the emotional weight",
+      "Strong use of first-person language throughout ('If I were in your shoes, I'd...', 'I totally get why you'd be annoyed') creating authentic connection",
+      "Provides specific, realistic script for the conversation ('Hey, I appreciate you thinking of me, but I'd really like it if you'd ask before signing me up for things')"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused question ('What did she sign you up for, and is there any way to make it less annoying for you?') which slightly dilutes the engagement",
+      "The emoji (😅) at the end of the first paragraph works but might slightly mismatch the 'trapped' feeling described, though this is minor"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational flow that reads like texting with a supportive friend",
+    "least_ideal_aspect": "The follow-up question is slightly split into two parts rather than being one cohesive invitation to share more",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or over-formatting. Advice flows naturally within paragraphs rather than being listed out."
+    },
+    "specific_feedback": [
+      "Combine the final two questions into one more focused question like 'What did she sign you up for, and how are you feeling about having to go?'",
+      "Consider placing the emoji earlier in the validation or omitting it, as the 😅 might slightly undercut the validation of feeling trapped, though the usage is within acceptable bounds"
+    ]
+  }
+}

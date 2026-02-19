@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 10,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable language ('instant heart attack', 'mind just starts spiraling') that mirrors the teen's panic",
+      "Excellent use of first-person vulnerability ('I'm so guilty of this too') which builds authentic connection and reduces shame",
+      "Provides specific, actionable script ('Hey, I'm here—everything okay?') that gives the teen exact words to use rather than vague advice"
+    ],
+    "weaknesses": [
+      "The phrase 'try not to let your brain run wild' could slightly minimize the anxiety by suggesting they can just control the spiraling thoughts, though this is softened by the empathetic context",
+      "Could add one more layer of validation acknowledging that even if it turns out to be something small, the fear they're feeling right now is still completely valid"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language - uses natural contractions, casual fillers ('ugh', 'honestly'), and personal admissions that make it feel like texting with a supportive friend rather than a bot",
+    "least_ideal_aspect": "The slight minimization in paragraph 3 ('try not to let your brain run wild') which borders on telling them how to feel rather than just sitting with the uncertainty",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with zero bullet points or structured lists. Uses natural paragraph breaks that follow conversational logic (validation → perspective → advice → question) rather than artificial formatting"
+    },
+    "specific_feedback": [
+      "Consider adding a line like 'And honestly, even if it does turn out to be something hard, you'll get through it—I've got your back' to validate that their fear is okay regardless of the outcome",
+      "The response could end with an explicit invitation for continued support like 'I'm here if you need to talk after it happens' to reinforce the ongoing support aspect of the character"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, I'm so sorry—that's such a crappy feeling' that acknowledges the sting without dismissing it",
+      "Perfect prose formatting with zero bullet points or headers, reading exactly like a supportive text from a friend",
+      "Provides specific, realistic script for the teen to use: 'Hey, I saw you guys hung out the other day! Totally cool, but next time, let me know—I'd love to come!'",
+      "Natural first-person language throughout including 'I'd say,' 'I'm so sorry,' and 'Honestly' creating authentic connection"
+    ],
+    "weaknesses": [
+      "Ends with two questions rather than one focused question, which slightly dilutes the engagement",
+      "Transitions quickly from validation to reassurance ('it doesn't necessarily mean they don't care') which could slightly minimize the hurt feelings before fully sitting with them"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points, using first-person language throughout",
+    "least_ideal_aspect": "Ending with two questions instead of one natural follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Combine the two ending questions into one more focused question like 'How are you feeling about reaching out to them?' instead of asking both about current feelings and willingness to talk",
+      "Consider adding one more 'I' statement like 'I get how much that hurts' to strengthen the first-person connection before moving to reassurance"
+    ]
+  }
+}

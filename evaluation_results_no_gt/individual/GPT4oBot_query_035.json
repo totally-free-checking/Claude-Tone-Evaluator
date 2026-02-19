@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oBot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, I'm so sorry, that hurts' and 'punch to the gut' language that mirrors teen emotional experience",
+      "Strong first-person language throughout ('I totally get,' 'If I were you, I'd,' 'I promise') creating authentic connection",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers"
+    ],
+    "weaknesses": [
+      "Advice could include specific script suggestions for how to open up to someone when 'acting fine' becomes exhausting",
+      "The follow-up question offers two paths but could probe slightly deeper into their current emotional state before jumping to action plans"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting without any structured lists or corporate formatting",
+    "least_ideal_aspect": "Practical advice could be slightly more specific regarding concrete next steps or conversation starters for talking to the coach or friends",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, numbered lists, or headers. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific phrase or script the teen could use when talking to a friend or parent about the disappointment (e.g., 'Hey, I'm actually really bummed about the team thing')",
+      "The emoji usage is appropriate but could experiment with a slightly more supportive one like 💙 or 🤗 to balance the sadness of 😞 while maintaining warmth"
+    ]
+  }
+}
