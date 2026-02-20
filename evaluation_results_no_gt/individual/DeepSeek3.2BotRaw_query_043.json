@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation acknowledging the 'unsettling' feeling and normalizing confusion",
+      "Provides excellent specific conversation scripts like 'I feel uneasy because I heard something different' that teens can actually use",
+      "Acknowledges complexity by mentioning different outcomes (defensive vs. coming clean)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' makes it feel impersonal and instructional rather than supportive",
+      "Heavy over-reliance on bullet points and numbered lists (7 total structured items) instead of natural prose conversation",
+      "Middle section reads like a self-help worksheet rather than a friend texting - 'it might help to ask yourself' is distant and clinical"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic phrases and considers the friend's potential reactions",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is heavily structured with bold headers, bullet lists, and numbered items instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response contains 3 bullet points with bold headers under self-reflection questions and 4 numbered items with bold headers for conversation tips. The heavy formatting makes it read like an article or worksheet rather than a text conversation. Only the opening and closing are in prose form."
+    },
+    "specific_feedback": [
+      "Rewrite the middle section as natural prose paragraphs instead of bullet points - for example, flow the self-reflection questions into sentences like 'I'd probably start by asking myself why I suspect they're lying...'",
+      "Add first-person language throughout to create connection: replace 'it might help to ask yourself' with 'I think I'd start by asking myself' and 'here are some gentle ways' with 'If it were me, I'd probably approach it like this...'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to set a casual, friendly tone, since the current tone is quite serious and instructional"
+    ]
+  }
+}

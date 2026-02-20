@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that stings' and acknowledging the difficulty of holding it together",
+      "Strong first-person language throughout ('I get it', 'If I were in your shoes', 'I'd give myself') creating genuine connection",
+      "Perfect prose format with zero bullet points—reads like a natural text conversation",
+      "Specific validation of the 'I'm fine' mask experience which directly addresses the user's situation"
+    ],
+    "weaknesses": [
+      "Practical advice, while realistic, could include one more specific coping strategy (like talking to a friend or journaling) beyond passive activities",
+      "The 😅 emoji fits the 'trying to act fine' masking aspect but may slightly underplay the genuine disappointment for some users"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and first-person perspective—reads exactly like a supportive friend texting rather than an AI giving instructions",
+    "least_ideal_aspect": "Practical advice specificity—while the self-care suggestions are appropriate, they lean slightly generic and could include more targeted strategies for processing rejection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, headers, or bold formatting. Advice is seamlessly integrated into conversational sentences rather than listed as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding one specific social or reflective action (like 'texting a friend who gets it' or 'writing down what you're feeling') to complement the passive self-care suggestions",
+      "The current emoji choice works for the masking context, but a 💙 or 😔 might alternatively validate the disappointment more directly while maintaining warmth"
+    ]
+  }
+}

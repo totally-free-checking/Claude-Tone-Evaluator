@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Provides a specific, realistic script the teen can actually use: 'Hey, I know you might not mean anything by it, but some of your jokes feel more like insults to me...'",
+      "Opens with immediate emotional validation ('Oh no, that's tough!') acknowledging the hurt feelings"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'You could try' and 'It's also worth' instead of 'I'd suggest' or 'I think you should'",
+      "Does not end with a question to continue conversation - ends with the statement 'Let me know if you want ideas for handling that!' instead of an engaging question",
+      "The one question present ('Have you talked to your friend...') appears in the first paragraph rather than at the end, disrupting conversational flow"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points, headers, or over-structuring - maintains paragraph form throughout like a friend texting",
+    "least_ideal_aspect": "Impersonal tone lacking first-person language - uses 'you should' and 'it's worth' instead of 'I think' or 'I'd say', making it feel like generic advice rather than a supportive friend sharing their thoughts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No bullet points, numbered lists, or headers. Advice flows naturally within sentences."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout: change 'You could try saying' to 'I'd probably say something like' and 'It's also worth' to 'I think it's also worth' to create a warmer, more personal connection",
+      "Move the question to the end of the response or add a new closing question like 'How do you think they'd react if you said something?' instead of ending with a statement",
+      "Replace 'It sounds frustrating' with 'I get how frustrating that must be' to combine validation with first-person empathy"
+    ]
+  }
+}

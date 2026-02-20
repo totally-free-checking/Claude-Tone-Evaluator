@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using 'Ugh, that's so intrusive, isn't it?' which instantly makes the teen feel understood",
+      "Provides a specific, realistic script the teen can actually use ('Just a friend from school—don't worry, I'll let you know if anything's up') rather than vague advice",
+      "Uses natural first-person language throughout ('I totally get', 'I think', 'If I were you, I'd') creating a genuine conversational connection"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly ambiguous—it could read as minimizing the frustration when 😕 or 😤 might better match the 'intrusive' feeling described",
+      "Could include slightly more explicit supportive closing like 'I'm here if you want to talk more' to reinforce the supportive relationship"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or over-structuring, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "The emoji choice at the end of the first paragraph feels slightly mismatched to the 'intrusive' emotional weight, though usage count is perfect",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one explicit statement of ongoing support like 'I'm here if you need to vent more' to strengthen the relationship aspect",
+      "The 😅 emoji could be replaced with 😕 or simply omitted to better match the frustration expressed in 'intrusive' and 'the worst'",
+      "The follow-up question is excellent but could be slightly more open-ended like 'What do you think is driving their questions?' to invite deeper sharing"
+    ]
+  }
+}

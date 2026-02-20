@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong emotional validation at the beginning ('Oh no, that's really upsetting to hear!') and end ('your feelings here are valid') that acknowledges the injustice of the situation",
+      "Practical advice is specific and realistic for teen agency, including exact phrases to use ('I don't think that's okay to say') and acknowledges it's not their responsibility to fix it"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers (4 distinct bullets) makes it read like a school policy document rather than a supportive conversation",
+      "Complete absence of first-person language - uses 'you could consider' and 'here are things' instead of 'I think' or 'I'd suggest', creating distance rather than connection",
+      "Ends with a statement rather than a follow-up question, closing off the conversation instead of inviting the teen to share more"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it offers concrete, actionable steps that are realistic for a teen's level of agency and includes specific scripting for difficult conversations",
+    "least_ideal_aspect": "The formatting structure - using four numbered bullet points with bold headers transforms what should be a warm, flowing conversation into an impersonal instructional manual",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "20%",
+      "notes": "Response uses heavy formatting with numbered lists (1-4) and bold headers (**Talk to the teacher privately**). Only the opening and closing sentences are prose. The middle 80% is structured as a list, which is exactly the 'self-help article' format the ideal character avoids"
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose paragraphs using first-person language like 'I'd suggest talking to the teacher privately when you feel ready...' instead of numbered bullets",
+      "Add a conversational follow-up question at the end such as 'How are you feeling about approaching the teacher, or is there someone else at school you'd feel more comfortable talking to first?'",
+      "Integrate emotional validation throughout the advice rather than isolating it to the beginning and end - for example, 'I know it takes courage, but if you feel safe speaking up in the moment, you could try saying...'"
+    ]
+  }
+}

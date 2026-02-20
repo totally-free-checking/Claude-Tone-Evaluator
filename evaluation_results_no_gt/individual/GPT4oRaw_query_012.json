@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 6,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally in three conversational paragraphs",
+      "Appropriate single emoji (💛) placement at the end that enhances warmth without being excessive",
+      "Good balance between emotional validation and practical advice, starting with empathy before moving to suggestions"
+    ],
+    "weaknesses": [
+      "Completely missing first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here' which makes it feel impersonal rather than like a friend texting",
+      "Ends with an exclamation point instead of a follow-up question, missing the opportunity to continue the conversation",
+      "Uses somewhat dismissive transition 'But it's really important to remember...' which shifts too quickly to logic rather than sitting with the feeling"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - reads as continuous conversational text",
+    "least_ideal_aspect": "Absence of first-person language and follow-up question - feels like a supportive article rather than an engaged friend having a conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs and no structural elements like headers, bold text, or lists"
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection: instead of 'It can be tough,' try 'Ugh, I get how tough that is,' and instead of 'Try not to be hard on yourself,' try 'I'd probably be spiraling too, but honestly you're being way harder on yourself than you deserve'",
+      "Always end with a specific follow-up question to keep the conversation going, such as 'Have you two talked much before?' or 'What's your next move here - are you thinking of saying hi soon?'",
+      "Delay the 'but' and logical reframing - let the validation breathe longer before moving to 'people talk to lots of people' which can feel dismissive of the immediate sting"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 5,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or over-structuring - reads like a natural text message",
+      "Uses first-person language naturally ('I'm here to listen') creating personal connection",
+      "Asks specific, contextual questions to determine if the teen wants to vent or needs advice"
+    ],
+    "weaknesses": [
+      "Too brief for the emotional weight of the situation - only 2 sentences feels potentially dismissive of how hurtful overhearing gossip can be",
+      "Validation is tentative and clinical ('might have been uncomfortable') rather than definitive empathy ('Ugh, that's such a sinking feeling')",
+      "Asks two questions at once ('what did you overhear?' and 'are you more wondering...') which can feel slightly overwhelming"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points, headers, or over-structuring - maintains perfect conversational flow",
+    "least_ideal_aspect": "Length and conciseness - response is too brief and lacks sufficient emotional validation for the vulnerability of overhearing people talk about you",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - pure paragraph form with no lists, headers, or bold text. Reads like a natural message from a friend."
+    },
+    "specific_feedback": [
+      "Expand the validation section before asking questions - acknowledge how awful that sinking feeling is when you realize people are talking about you ('Ugh, that stomach-drop moment is the worst')",
+      "Add one warm emoji (like 💙 or 😅) early in the response to soften the clinical tone of 'might have been uncomfortable'",
+      "Consolidate the two questions into one natural follow-up ('Do you want to tell me what you heard, or are you looking for ways to handle it?') to avoid feeling like an interrogation"
+    ]
+  }
+}

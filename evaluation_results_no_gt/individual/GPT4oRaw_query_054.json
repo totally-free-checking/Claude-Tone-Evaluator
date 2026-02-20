@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, making it feel like a real conversation",
+      "Provides specific, actionable scripts the teen can actually use ('I'd appreciate it if you didn't comment on my body') rather than vague advice"
+    ],
+    "weaknesses": [
+      "Lacks first-person language when giving advice - uses 'you could try' instead of 'I think you could try' or 'I'd say', making it feel less personal and more like a generic article",
+      "Ends with two questions rather than one engaging follow-up, and 'How are you feeling about handling this?' is somewhat generic rather than specific to their situation",
+      "Missing casual warmth markers like 'Ugh, that's the worst' or 'We've all been there' - 'frustrating and uncomfortable' feels slightly clinical"
+    ],
+    "most_ideal_aspect": "The prose formatting and structure - it flows naturally in paragraphs without any bullet points or over-formatting, reading like a text from a supportive friend",
+    "least_ideal_aspect": "The impersonal advice delivery - it fails to use first-person recommendations ('I think', 'I'd suggest') and instead uses detached phrasing like 'you could try' and 'it might help', creating distance rather than connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or excessive formatting. Advice is integrated naturally into sentences."
+    },
+    "specific_feedback": [
+      "Add first-person language when giving advice - instead of 'you could try addressing it directly,' use 'I think I'd probably just say something directly...' or 'If it were me, I'd say...' to create a personal connection",
+      "Replace the double-question ending with one specific question like 'Who's making these comments - is it someone at school or closer to you?' to show genuine interest in their specific situation",
+      "Inject more casual warmth at the opening - instead of just 'I'm really sorry,' try 'Ugh, I'm so sorry - that's honestly the worst' to match the teen's emotional intensity"
+    ]
+  }
+}

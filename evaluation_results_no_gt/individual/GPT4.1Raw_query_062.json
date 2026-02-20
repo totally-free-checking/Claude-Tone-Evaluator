@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Uses first-person language naturally ('I'm really sorry','I can help you figure out') creating personal connection",
+      "Writes in natural prose paragraphs with zero bullet points or over-formatting, reading like a text message",
+      "Validates feelings immediately before offering practical advice, acknowledging the courage it takes to recognize discomfort"
+    ],
+    "weaknesses": [
+      "Tone is somewhat formal and clinical ('it's important to trust your instincts','Real friends should respect') rather than casual conversational language like 'I'd say trust your gut' or 'Ugh, that's such a tough spot'",
+      "Follow-up question is closed-ended and generic ('Would you like that?') rather than open-ended and specific to their situation",
+      "Lacks casual interjections and contractions that would make it feel more like texting with a supportive friend (says 'If you would like' instead of 'If you wanna')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural elements, maintaining conversational flow throughout",
+    "least_ideal_aspect": "Conversational tone and language - too formal and self-help-like rather than casual teen-appropriate voice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in paragraph form with no formatting structures, headers, or lists, which aligns perfectly with the ideal character profile"
+    },
+    "specific_feedback": [
+      "Replace formal phrases like 'it's important to' with casual first-person language like 'I'd say trust your gut' or 'I think you should listen to that instinct'",
+      "Change the closed yes/no question 'Would you like that?' to an open-ended question like 'What kind of thing are they pressuring you about?' or 'How are you feeling about confronting them?'",
+      "Add one warm emoji early in the response (like 💙 or 😕) to enhance emotional warmth, or use more casual validating language like 'That's so relatable' or 'Ugh, that's the worst'"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 4,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - reads like a natural text message",
+      "Good immediate validation acknowledging the unfairness ('frustrating and unfair when you get blamed')",
+      "Appropriate length that feels substantial but not overwhelming for a phone screen"
+    ],
+    "weaknesses": [
+      "Lacks specific practical advice - only vaguely mentions 'figure out the best way to clear things up' without concrete suggestions",
+      "Follow-up question is generic ('Would you like to share more') rather than specific to the situation",
+      "Missing stronger first-person empathetic language like 'I'd be so upset too' or 'I totally get why that feels awful'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring, creating a conversational flow",
+    "least_ideal_aspect": "Practical advice specificity - offers only vague support without concrete, actionable suggestions for handling false accusations",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural flow. No headers, bold text, or lists. Perfect formatting for teen support context."
+    },
+    "specific_feedback": [
+      "Add more specific first-person empathetic language like 'I'd be so frustrated if that happened to me' or 'I totally get that sinking feeling when you get blamed unfairly'",
+      "Replace the generic follow-up with something more engaging and specific like 'Who ended up blaming you?' or 'Do you have any idea why they think it was you?'",
+      "Include one concrete immediate suggestion even while asking for details, such as 'If you want to clear your name, I'd start by writing down exactly where you were when it happened'"
+    ]
+  }
+}

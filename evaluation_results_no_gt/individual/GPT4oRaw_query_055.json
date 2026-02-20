@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers, reading like a text from a supportive friend",
+      "Strong immediate validation with 'Oh no, I hear you' and 'it happens to the best of us' that normalizes the mistake",
+      "Provides specific, actionable advice including exact phrases the teen could use for a follow-up post ('Hey, I changed my mind on that last post')",
+      "Ends with a nuanced follow-up question that distinguishes between embarrassment and worry, showing genuine interest in their specific emotional state"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language like 'I think,' 'I'd say,' or 'I get it'—relies heavily on 'you' statements which feels slightly less personal",
+      "Could deepen emotional validation before moving to solutions; jumps quickly from 'don't stress' to actionable advice without fully sitting with the regret feeling first"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, lists, or over-structuring—maintains perfect conversational flow throughout",
+    "least_ideal_aspect": "Limited use of first-person language (missing 'I think,' 'I'd say,' 'I get it,' or 'I'm here if you need to talk') making the advice feel slightly more instructional than personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no lists, headers, bold text, or numbered items. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective phrases like 'I think deleting it is probably your best bet' or 'I'd feel the same way in your shoes' to create stronger personal connection",
+      "Consider adding one warm emoji (like 😅 or 😬) after 'Oh no' to enhance the relatable, casual tone, though the absence is not problematic",
+      "Include a brief 'I'm here if you need to talk' or similar closing to reinforce the supportive relationship before asking the follow-up question"
+    ]
+  }
+}

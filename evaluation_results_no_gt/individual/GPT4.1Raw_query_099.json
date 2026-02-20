@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads as natural paragraphs throughout",
+      "Provides specific, realistic advice for teens including password-protected notes, writing in code, and journaling apps while acknowledging their agency with 'you know your situation best'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language in advice sections - uses impersonal 'you could try' and 'having an honest conversation can help' instead of 'I'd suggest' or 'I think you should'",
+      "Ends with an invitation rather than a specific follow-up question to continue the conversation"
+    ],
+    "most_ideal_aspect": "The prose formatting is perfect - completely avoids bullet points and maintains natural paragraph flow throughout the response",
+    "least_ideal_aspect": "The absence of first-person perspective in the advice sections makes it feel impersonal and detached rather than like a supportive friend offering their thoughts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to the advice sections: change 'you might consider talking' to 'I think you should consider talking' or 'I'd probably try having a conversation' to create a more personal, friend-like connection",
+      "End with a specific question like 'Do you think you'll confront them about it?' or 'What feels like the safest option for you right now?' instead of just saying 'I'm here for you'",
+      "Open with more immediate casual warmth like 'Ugh, I'm so sorry' or 'That sinking feeling is the worst' rather than the slightly clinical 'Having your privacy violated... can feel really upsetting'"
+    ]
+  }
+}

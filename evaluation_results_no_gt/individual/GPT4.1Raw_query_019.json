@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Provides a specific, usable script for talking to the teacher: 'I understand why matching answers could look suspicious, but I honestly did my own work'",
+      "Maintains natural paragraph structure without falling into bullet points or over-formatting",
+      "Offers realistic context about why answers might match (studying together, straightforward questions) that validates the user's experience"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective in advice sections - uses impersonal phrasing like 'the best thing you can do' instead of 'I think you should' or 'I'd try'",
+      "Opening validation, while present, could be warmer and more immediate ('I'm sorry' is polite but less relatable than 'Ugh, that's such a gut-punch feeling')",
+      "Tone shifts to slightly formal/educational in phrases like 'Being open and respectful shows maturity' and 'Teachers usually appreciate honesty'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without bullet points or excessive structure - reads as continuous conversational text",
+    "least_ideal_aspect": "Limited use of first-person language ('I think', 'I'd say', 'I get it') and casual conversational markers throughout the advice sections",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with natural flow. The quoted dialogue is integrated naturally within the prose rather than formatted as a list or bullet points."
+    },
+    "specific_feedback": [
+      "Replace formal advice framing like 'the best thing you can do' with first-person perspective like 'I'd probably try to' or 'I think you should' to sound more like a supportive friend",
+      "Add more casual emotional validation upfront like 'Ugh, that's such a stressful spot' or 'I get why you'd feel panicked' before moving to explanatory or solution-oriented language",
+      "Make the follow-up question more conversational and specific: instead of 'Is there anything specific you want help with,' try 'Are you planning to talk to them face-to-face or email them first?'"
+    ]
+  }
+}

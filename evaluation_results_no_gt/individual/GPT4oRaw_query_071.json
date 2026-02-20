@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong use of first-person language ('I'm really sorry', 'I'm here to help') creating personal connection",
+      "Opens with immediate emotional validation ('under a lot of pressure', 'you're not alone') before problem-solving"
+    ],
+    "weaknesses": [
+      "Lacks concrete practical advice in this initial response - only offers to figure out steps later without giving one immediate actionable tip",
+      "Could use more specific teen-relatable emotional language ('that sinking feeling', 'ugh, that stress') rather than somewhat generic 'Aw'",
+      "Asks two questions in succession which slightly risks feeling like an interrogation, though they are related"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Practical advice specificity - offers support but doesn't provide even one small concrete strategy they could try right now while waiting to hear more",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No headers, bold text, or lists. Advice flows within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add one small, concrete suggestion they could try immediately (like 'Maybe try breaking down the next assignment into tiny chunks?') while still asking follow-up questions",
+      "Replace 'Aw' with something more emotionally specific like 'Ugh, that panic feeling is the worst' or 'Oh no, that stress is so real' to increase relatability",
+      "Consider combining the two questions into one flowing question like 'Is it the coursework that's overwhelming you, or more like test anxiety?' to avoid the slight interrogation feel"
+    ]
+  }
+}

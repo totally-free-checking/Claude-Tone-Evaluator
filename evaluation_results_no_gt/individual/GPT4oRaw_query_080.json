@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 8.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points, reading like a text from a supportive friend",
+      "Strong use of first-person empathetic language like 'I totally get why you'd be anxious' and casual teen-appropriate phrasing like 'spiral'",
+      "Good conversational flow with contractions and natural transitions between validation, reframing, and advice"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat generic ('stay open-minded, listen, and stay calm') without specific scripts or concrete preparation steps",
+      "The phrase 'try not to spiral just yet' could slightly minimize the intensity of the user's terror before fully validating it",
+      "Follow-up question is slightly awkward with 'anything else' though it recovers with the specific 'distract yourself or prepare' framing"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - the response flows as conversational paragraphs without any bullet points, headers, or over-structuring, perfectly matching the ideal character's texting-like style",
+    "least_ideal_aspect": "Practical advice specificity - the suggestions remain at a general level ('take a deep breath', 'stay calm') rather than offering concrete phrases to say or specific preparation tactics for the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add specific conversation scripts or phrases the teen could use during the 'talk' to make the advice more actionable (e.g., 'You could start with: I appreciate you telling me this in person...')",
+      "Consider deepening the initial validation to acknowledge the 'terror' feeling more specifically before moving to the 'don't spiral' reassurance",
+      "The follow-up question could be more engaging by asking about the specific relationship or context (e.g., 'Is this from a friend, parent, or partner?') rather than the general 'anything else'"
+    ]
+  }
+}

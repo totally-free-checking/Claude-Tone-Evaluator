@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation using first-person language ('I totally get that feeling') that immediately establishes empathy and connection",
+      "Excellent follow-up question ('Anything in particular about the interaction that's got you replaying it?') that is specific, natural, and invites continued conversation",
+      "Appropriate single emoji usage (😄) that enhances warmth without being excessive"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers ('1. **Take it at face value...**') which creates a self-help article structure rather than conversational prose",
+      "The phrase 'Instead, try this:' followed by a 4-item list is exactly the formatted, instructional style the ideal character avoids",
+      "Advice section uses imperative commands rather than first-person suggestions ('Respond naturally' vs 'I'd probably just smile back')"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly matches the ideal character - it's specific to the overthinking situation, naturally phrased, and genuinely invites the teen to share more",
+    "least_ideal_aspect": "The structured numbered list with bold formatting completely breaks the conversational flow and reads like a wikiHow article rather than a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response starts with 2 paragraphs of natural prose, then shifts to 'Instead, try this:' followed by 4 numbered items with bold headers, then ends with 1 paragraph. The bullet section dominates the middle and contains the core advice, making it feel like a checklist rather than a conversation."
+    },
+    "specific_feedback": [
+      "Convert the numbered list to flowing prose paragraphs - instead of '1. Take it at face value... 2. Look for consistency...', write something like 'I'd say just take it at face value for now and enjoy that you made them smile. If you start noticing more smiles or eye contact over the next few weeks, that's when you know it's a pattern...'",
+      "Integrate first-person language throughout the advice section using phrases like 'I'd probably...', 'I think the best move is...', or 'In your shoes, I'd...' to maintain the supportive friend persona rather than sounding like an instruction manual",
+      "Keep the strong opening and closing exactly as they are - the validation and question are well-executed"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 10,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using 'Ugh, that's the worst feeling' and acknowledges the 'weird limbo' of uncertainty",
+      "Uses natural first-person language throughout like 'If I were you, I'd maybe try' creating personal connection rather than impersonal advice",
+      "Provides a specific, realistic script the teen can actually use: 'Hey, I've been getting a vibe that something's up. Want to talk, or do you need space?'",
+      "Perfect prose format with zero bullet points or headers, reading exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Could include slightly more explicit emotional validation like 'I'm sorry you're dealing with this' before moving to solutions",
+      "While appropriate to have no emojis for this topic, a single subtle emoji could enhance warmth without undermining seriousness"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - completely avoids bullet points, lists, or over-structuring while embedding practical advice seamlessly within sentences",
+    "least_ideal_aspect": "First-person supportive closing language - while it uses 'If I were you,' it misses opportunities for 'I get it,' 'I'm here,' or 'I think' type phrases that deepen the personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response consists of three clean paragraphs with absolutely no bullet points, numbered lists, headers, bold text, or other formatting structures. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one subtle emoji like 😕 or 😅 after the opening validation to enhance warmth, though the current text-only approach is acceptable for the serious tone",
+      "Strengthen the closing by adding first-person supportive language like 'I'm here if you need to talk' before or after the follow-up question",
+      "The transition 'Honestly, sometimes people get in a mood' is good, but prefacing with 'I think' or 'In my experience' would reinforce the first-person conversational tone"
+    ]
+  }
+}

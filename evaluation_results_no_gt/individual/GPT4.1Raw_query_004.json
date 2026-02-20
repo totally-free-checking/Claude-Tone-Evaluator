@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose format with natural flow and zero bullet points, reading like a real text conversation",
+      "Strong immediate emotional validation with 'Ugh, that's the worst!' and acknowledging how hard it is not to overthink",
+      "Provides specific, actionable texting scripts like 'Hey, I feel like something's up—are you alright?' that teens can actually use"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses general 'you could' and 'sometimes' instead of 'I think' or 'I'd suggest', making it feel slightly impersonal",
+      "Missing emoji that could enhance warmth for this anxious situation (though zero emojis is acceptable, one might have helped)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, allowing advice to flow conversationally within paragraphs",
+    "least_ideal_aspect": "Conversational tone lacks first-person perspective - it advises using 'you could' and general statements rather than sharing personally with 'I think' or 'I'd say'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. Advice is integrated smoothly into sentences ('Or you could say...', 'If they still don't share...') rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create stronger connection, such as 'I think the best approach would be...' or 'I'd probably feel the same way' instead of general 'you' statements",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to match the casual texting context, though the current no-emoji approach is acceptable"
+    ]
+  }
+}

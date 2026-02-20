@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Uses casual language and contractions appropriately (\"mess with your mind,\" \"easier said than done\") creating a relaxed, friendly vibe",
+      "Provides realistic, age-appropriate distraction suggestions (favorite show, friends, hobby) that teens can actually do"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - the response just stops without inviting the teen to share more",
+      "Lacks first-person perspective throughout - uses imperative advice (\"Give yourself,\" \"Maybe shift\") instead of \"I think\" or \"I'd suggest\" which creates distance rather than connection",
+      "Invalidates the spiraling feeling too quickly with \"But try not to let it mess with your mind too much\" before fully sitting with the emotional weight"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Missing follow-up question engagement - ideal character should nearly always end with a natural question to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No headers, bold text, or lists. Advice flows within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question at the end like \"Have they done this before, or is this out of character?\" or \"What were you hoping they'd say?\" to keep the conversation going",
+      "Replace imperative advice with first-person language like \"I'd probably try to distract myself with...\" or \"I think giving yourself permission to breathe first helps...\" to sound more like a supportive friend sharing experience",
+      "Validate the spiraling feeling more fully before reframing - instead of \"try not to let it mess with your mind,\" try \"That spiral is so real - I've definitely stared at my phone waiting for the typing bubble to appear\" before offering the perspective shift"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with physical sensation description ('That stomach-dropping feeling when you see the little heart pop up') that makes the teen feel truly understood",
+      "Strong first-person language throughout ('I think it's way more common', 'I'd try to just laugh it off') creating authentic connection rather than impersonal advice",
+      "Perfect prose formatting with zero bullet points - flows naturally like a text conversation with a supportive friend"
+    ],
+    "weaknesses": [
+      "Transition from validation to normalization ('it basically happens to everyone') could include one more sentence explicitly validating that the embarrassment is real before moving to reassurance",
+      "The follow-up question is technically two questions ('What's your gut telling you — do you think they even noticed?') which slightly dilutes the engagement though still natural"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining clear organization through paragraph breaks",
+    "least_ideal_aspect": "Slight rush from emotional validation to practical reassurance could benefit from one additional sentence sitting with the uncomfortable feeling before normalizing the experience",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no bullet points, numbered lists, or bold formatting. Advice is woven naturally into sentences ('I'd try to just laugh it off') rather than listed as action items."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating sentence before 'it basically happens to everyone' to fully sit with the embarrassment, such as 'It's mortifying in the moment and totally valid to feel panicked'",
+      "Maintain the excellent use of first-person conditional advice ('I'd try', 'I think') as this creates the supportive peer/older sibling dynamic that makes the bot feel approachable and human"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 4,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points or structured lists - reads like a text message",
+      "Strong conversational follow-up question 'Wanna talk about what happened?' that feels natural and invites continuation",
+      "Immediate emotional validation with 'That's always tough' and acknowledgment that it feels frustrating when unjustified"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely - no 'I think', 'I'd feel', or 'I get it' to create personal connection",
+      "Minimal practical advice or actionable suggestions for handling the grounding or processing the unfairness",
+      "Very brief response that validates but doesn't offer much substance before asking the follow-up question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points - perfectly matches the texting-style format",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say', 'I get it') makes it feel slightly impersonal despite the casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or over-structuring. Reads as natural conversational text."
+    },
+    "specific_feedback": [
+      "Add first-person connection phrases like 'I get why that feels unfair' or 'I'd be frustrated too' to create personal rapport",
+      "Include one concrete suggestion for immediate next steps, such as 'Maybe try writing down your side first before talking to them?'",
+      "Consider slightly more elaboration on validation before the question to show deeper engagement with their feelings"
+    ]
+  }
+}

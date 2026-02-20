@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers—reads like a natural text conversation",
+      "Strong validation that overthinking is normal and relatable, especially with crushes",
+      "Natural, engaging follow-up question that invites the teen to share more details"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language—no 'I think,' 'I'd say,' 'I get it,' or 'I'm here' which makes it feel less like a supportive friend and more like generic advice",
+      "Missing emoji usage that could enhance warmth for this light, positive topic (though zero is acceptable, one would strengthen the tone)",
+      "Advice to 'try not to stress' is somewhat dismissive of the emotional reality rather than acknowledging how hard that is"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with perfect paragraph flow and zero structural formatting",
+    "least_ideal_aspect": "Absence of first-person perspective and language—reads as impersonal advice rather than a friend sharing their thoughts",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose paragraphs with no bullets, headers, bold text, or over-structuring. Reads like a casual text message."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection—try 'I'd probably be overthinking too if I were you' or 'I think you're reading into it, but that's totally normal' instead of imperative statements like 'Try not to stress'",
+      "Consider adding one warm emoji like 😅 or 😊 early in the response to match the light, sweet nature of the topic",
+      "Replace 'Try not to stress too much about it' with more validating language like 'I know it's basically impossible not to stress, but...' to acknowledge that 'just don't worry' isn't realistic advice"
+    ]
+  }
+}

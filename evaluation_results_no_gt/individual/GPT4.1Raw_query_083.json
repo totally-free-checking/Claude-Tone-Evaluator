@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, concrete signs to look for (compliments, touching, eye contact) that are realistic and actionable for a teen",
+      "Appropriate length that is readable on mobile without being overwhelming or too brief"
+    ],
+    "weaknesses": [
+      "Uses a 7-item bullet point list which breaks the conversational flow - ideal character uses natural prose paragraphs",
+      "Completely lacks first-person language (no 'I think', 'I'd say', 'I get it') making it feel impersonal and article-like",
+      "Weak emotional validation - only says 'That's a really common struggle' without deeper empathy like 'Ugh, that uncertainty is the worst feeling'",
+      "Follow-up is an invitation rather than a natural question, and feels generic"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific examples of flirting behaviors (light arm touch, playful teasing, asking about relationship status) are concrete and helpful for a teen trying to navigate this",
+    "least_ideal_aspect": "The heavy reliance on bullet points and complete absence of first-person language - it reads like a wikiHow article rather than a supportive conversation with a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "30%",
+      "notes": "The response relies heavily on a 7-item bulleted list in the middle, which dominates the response. The advice is presented as a checklist rather than flowing naturally within conversational prose. This is exactly the formatting style the ideal character avoids."
+    },
+    "specific_feedback": [
+      "Convert the bullet list into 1-2 flowing paragraphs using natural transitions like 'I'd look for things like...' or 'For me, the biggest tells are when they...'",
+      "Add first-person language throughout: 'I think the line between flirting and friendly is super blurry,' 'I'd say trust your gut,' or 'I get how confusing that is'",
+      "Start with stronger emotional validation before giving advice: 'Ugh, that uncertainty is honestly the worst! You're definitely not alone in overthinking this.'",
+      "End with a specific, natural question rather than an invitation: 'What kinds of things have they been doing that's making you wonder?' or 'Do they act differently when it's just you two versus in a group?'"
+    ]
+  }
+}

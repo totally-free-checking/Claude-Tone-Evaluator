@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 5.9,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with validation acknowledging the confusion and frustration of the situation ('That's a tough spot to be in')",
+      "Provides specific, actionable advice including exact phrases to use ('I feel hurt when you say that, even if you don't mean it that way') and realistic steps like talking to trusted adults"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and bullet points instead of conversational prose - uses 'Here are a few things to consider' followed by 5 numbered items and then another bulleted list",
+      "Lacks first-person language throughout - no 'I think,' 'I'd say,' or 'I'm here to help' which makes it feel impersonal and clinical rather than like a supportive friend"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the content about power dynamics, patterns vs one-offs, and using 'I' statements is specific and realistic for teens",
+    "least_ideal_aspect": "The formatting structure - using numbered lists with bold headers (**How it makes you feel**, **Balance of power**, etc.) makes it read like a school pamphlet or wiki article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "25%",
+      "notes": "Response uses a 5-item numbered list with bold headers, followed by a 3-item bullet list. Only the opening and closing sentences are in prose format. The heavy structuring with bold text creates a clinical, instructional feel rather than conversational warmth."
+    },
+    "specific_feedback": [
+      "Rewrite the entire response as 2-3 flowing paragraphs without any bullet points or bold headers - integrate the advice about power dynamics and patterns into natural sentences like 'I'd say the biggest thing to look at is whether this feels mutual or one-sided...'",
+      "Add first-person connection throughout - use phrases like 'I get why that's confusing,' 'I think the key thing is,' and 'I'm here if you need to talk' to create the feeling of a supportive friend rather than an information database",
+      "Make the follow-up question more specific to their situation instead of the generic 'Want to talk more about the situation?' - try something like 'Do you feel like you can joke back with them, or does it always feel one-sided?'"
+    ]
+  }
+}

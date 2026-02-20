@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose format with zero bullet points - reads like a natural text conversation",
+      "Strong use of first-person supportive language like 'I'm really sorry' and 'I'm here for you' to establish connection",
+      "Ends with a specific, relevant follow-up question about which subject is most worrying rather than a generic 'how are you feeling'"
+    ],
+    "weaknesses": [
+      "Lacks specific 'I think' or 'I'd say' first-person advisory language when giving suggestions (uses impersonal 'it might help to' instead)",
+      "Practical advice about talking to parents is vague - doesn't provide specific conversation starters or scripts",
+      "Emotional validation is somewhat generic ('That kind of pressure is tough') rather than vivid or specific to the perfectionism anxiety"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Practical advice specificity - suggests talking to parents but doesn't give concrete phrases or step-by-step guidance for initiating that difficult conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in two natural paragraphs with no formatting, headers, or lists - perfectly matches the ideal conversational prose style"
+    },
+    "specific_feedback": [
+      "Replace impersonal phrasing like 'it might help to' and 'If you feel comfortable' with first-person advisory language like 'I think you could try' or 'I'd suggest starting with'",
+      "Add specific conversation scripts for talking to parents, such as 'You could say something like: I know you want me to do well, but when you focus only on perfect grades, I feel...'",
+      "Enhance emotional validation with more specific imagery about perfectionism stress, like 'That constant feeling that nothing you do is quite good enough is exhausting'"
+    ]
+  }
+}

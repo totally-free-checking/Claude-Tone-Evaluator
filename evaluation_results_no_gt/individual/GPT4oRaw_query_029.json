@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong immediate validation using empathetic language like 'Oh man, I'm really sorry' and 'sounds super rough' that normalizes the embarrassment",
+      "Perfect prose formatting with zero bullet points or headers, reading like a natural text conversation with three flowing paragraphs",
+      "Provides specific, actionable advice about pulling the coach aside privately to discuss the impact, which is realistic for a teen's agency"
+    ],
+    "weaknesses": [
+      "Fails to end with a follow-up question to continue the conversation; the question appears in the middle but the response closes with a statement instead of an invitation to share more",
+      "Lacks first-person advisory language like 'I think' or 'I'd suggest' when giving advice, using imperative statements like 'try to remind yourself' and 'try not to beat yourself up' instead",
+      "Missing first-person supportive closing like 'I'm here if you need to talk' that would strengthen the personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or structural elements, maintaining a conversational paragraph flow throughout",
+    "least_ideal_aspect": "Follow-up question engagement - while it includes a specific question about talking to the coach, it is buried in the middle and the response fails to end with an engaging question to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Move the question to the end of the response and add an invitation to continue talking, such as 'How are you feeling about approaching them, or do you want to talk through what you might say?'",
+      "Replace imperative advice like 'try to remind yourself' with first-person suggestions like 'I think it might help to remind yourself' or 'I'd suggest focusing on' to sound more like a supportive friend offering perspective",
+      "Consider adding a first-person supportive closing like 'I'm here if you need to talk more about this' to reinforce that you're engaged with their situation"
+    ]
+  }
+}

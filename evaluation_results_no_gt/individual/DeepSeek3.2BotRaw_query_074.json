@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong first-person validation opening with 'I get it' and immediate emotional acknowledgment ('that can be really frustrating')",
+      "Excellent specific follow-up question that provides concrete examples (curfews, friends, school stuff) to help the teen elaborate"
+    ],
+    "weaknesses": [
+      "Lacks concrete actionable advice - offers perspective about parents' potential reasons but no specific strategies for what the teen can actually do",
+      "Contains two questions ('Want to talk about what's going on?' and the final one) which slightly scatters the conversational focus",
+      "Could deepen emotional validation before moving to the 'maybe they have reasons' perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - completely avoids bullets, headers, or over-structuring while maintaining conversational flow",
+    "least_ideal_aspect": "Practical advice quality - focuses heavily on exploration and perspective without offering concrete, actionable steps the teen could try",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is three clean paragraphs with no formatting artifacts, bullet points, or headers. Advice flows naturally within sentences."
+    },
+    "specific_feedback": [
+      "Add one concrete, actionable suggestion while keeping the question - for example, 'Maybe try asking them what's up when they're calm?' or 'I'd suggest picking a chill moment to ask what's going on'",
+      "Deepen the initial validation slightly before offering perspective - e.g., 'Ugh, that's the worst feeling when you can't figure out why' before mentioning parents might have hidden reasons",
+      "Consider removing the first question 'Want to talk about what's going on?' and letting the final specific question stand alone to create a stronger conversational hook"
+    ]
+  }
+}

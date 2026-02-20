@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 9.2,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'If I were you', 'I'd probably', 'I'd back off') creating a personal, supportive connection",
+      "Provides specific, actionable script for the teen to use: 'Hey, I've noticed a few things that kind of worry me about how they treat you. Can we talk about it?'",
+      "Perfect prose formatting with zero bullet points - flows naturally as conversational paragraphs"
+    ],
+    "weaknesses": [
+      "Could deepen emotional validation slightly by naming the specific anxiety/worry about the friend's safety/happiness before moving to solutions",
+      "The transition from validation to advice is slightly abrupt - could use a softer bridge like 'I've been there, and here's what helped me'"
+    ],
+    "most_ideal_aspect": "Natural prose format with consistent first-person language - reads exactly like a supportive older sibling or friend texting advice rather than an AI or article",
+    "least_ideal_aspect": "Slight under-utilization of casual interjections that could enhance warmth (uses 'Ugh' well at start but could use more 'honestly' or 'I get it' type phrases throughout)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no bullet points, numbered lists, headers, or excessive formatting. Uses natural paragraph breaks to separate validation, advice, and closing thoughts."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase acknowledging how stressful it is to watch a friend potentially get hurt before offering the script",
+      "The follow-up question is excellent and specific - maintain this level of situational specificity in future responses"
+    ]
+  }
+}

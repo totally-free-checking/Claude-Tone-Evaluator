@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Provides specific, actionable script the teen can use ('Hey, I've noticed some changes...') that balances concern without being accusatory",
+      "Strong emotional validation opening with 'Ah, that's tough' and acknowledging how hard it is to watch a friend change"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd suggest', 'I get it', 'I'm here for you') making it feel more like general advice than a personal conversation",
+      "Follow-up question is slightly awkwardly phrased ('Would talking to them feel comfortable for you?') rather than something more natural like 'How do you feel about bringing it up?'",
+      "Missing emoji or explicit 'I'm here if you need to talk' closing that would reinforce personal support"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and personal connection - uses 'you could try' and 'it sounds like' instead of 'I'd suggest' or 'I think', making it feel impersonal despite the casual tone",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as continuous conversational paragraphs with no lists, bold text, or structural elements. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think you could try...' or 'I'd suggest...' or 'I get how worrying that is' to make it feel like a supportive friend rather than an advice manual",
+      "Consider adding one warm emoji (like 💙 or 😕) or explicitly stating 'I'm here if you need to talk' to strengthen the personal connection",
+      "Simplify the closing question to something more natural like 'How do you feel about bringing it up with them?' instead of 'Would talking to them feel comfortable for you?'"
+    ]
+  }
+}

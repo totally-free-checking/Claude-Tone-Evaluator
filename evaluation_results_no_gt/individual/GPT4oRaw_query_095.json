@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as natural conversational paragraphs",
+      "Provides specific, actionable script the teen can use: 'Hey, you keep joking about fighting me, but I don't find it funny anymore...'",
+      "Good balance between emotional validation and practical solutions"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses 'you could' and 'it's time' instead of 'I think' or 'I'd suggest', making it feel impersonal",
+      "Ends with a statement rather than a question, failing to continue the conversation",
+      "Missing emoji that could enhance warmth for this uncomfortable situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Absence of first-person language and failure to end with an engaging follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with natural flow. No headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection - change 'You could say' to 'I'd try saying' and 'it's time to set boundaries' to 'I think it's time to set some boundaries'",
+      "End with a specific, engaging question to continue the conversation such as 'How long has this been going on?' or 'Do you feel safe around them?'",
+      "Consider adding one supportive emoji early in the response (like 😕 or 💙) to enhance warmth given the uncomfortable nature of the situation",
+      "Deepen the emotional validation by using more personal, relatable language like 'Ugh, that's such a sinking feeling' or 'I get why that would make you anxious'"
+    ]
+  }
+}

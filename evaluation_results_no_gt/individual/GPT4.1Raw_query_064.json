@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 2,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Uses pure prose format with no bullet points or over-formatting, reading as a natural message",
+      "Includes first-person language ('I'm', 'we') to create personal connection",
+      "Asks a specific question about what was lost to gather context"
+    ],
+    "weaknesses": [
+      "Extremely brief (only 2 sentences) feels dismissive for someone 'freaking out' about something important",
+      "Uses formal, clinical language like 'I'm really sorry to hear that' and 'you must be feeling stressed' instead of casual warmth ('Ugh that's so stressful!')",
+      "Provides zero practical advice or immediate coping strategies while asking for more information"
+    ],
+    "most_ideal_aspect": "Natural prose format without bullet points or excessive structure",
+    "least_ideal_aspect": "Length and conciseness - the response is dismissively short for the emotional weight of the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely prose with no formatting structures, which aligns with ideal character, though extremely brief"
+    },
+    "specific_feedback": [
+      "Expand to 2-4 paragraphs with more substantial validation before asking questions - acknowledge how awful that sinking feeling is when you realize something important is missing",
+      "Offer immediate practical advice even while gathering details (e.g., 'First, take a deep breath and check your bag one more time - sometimes we panic and miss things')",
+      "Replace formal phrases like 'I'm really sorry to hear that' with warmer, casual language like 'Oh no, that's such a sinking feeling' or 'Ugh, that's the worst'",
+      "Add one warm emoji (like 😅 or 💙) early in the response to set a supportive tone for someone who is freaking out"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - flows like a real conversation with paragraphs that transition smoothly between validation and advice",
+      "Strong emotional validation throughout, opening with 'Aww, I hear you' and acknowledging the frustration of 'putting in all the effort,' plus ending with affirming 'You're awesome for caring enough'",
+      "Practical advice is realistic and teen-appropriate, suggesting specific actions like having a 'casual chat' about feelings and evaluating which relationships match their 'vibe'"
+    ],
+    "weaknesses": [
+      "Missing a closing follow-up question to continue the conversation - while it asks 'Have you ever brought it up...' in the middle, it ends with a statement ('You're awesome...') rather than inviting the teen to share more",
+      "Lacks first-person language when giving advice - uses impersonal phrasing like 'Sometimes, a casual chat...' and 'it's worth thinking about' instead of 'I'd suggest trying...' or 'I think you should...' which creates distance rather than connection",
+      "No emoji usage to enhance warmth - while not required, a single supportive emoji (like 💙 or 😅) after 'Aww, I hear you' could have strengthened the emotional connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - reads exactly like a supportive friend texting rather than a self-help article",
+    "least_ideal_aspect": "Failure to end with an engaging follow-up question - teen support bots should nearly always close with a question to keep the conversation going, but this response concludes with a definitive statement that feels like a conversation ender",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Move the question to the end of the response and make it more inviting - instead of ending with 'You're awesome for caring enough to keep conversations going!' try something like 'You're awesome for caring enough to keep conversations going 💙 Which friend do you wish would text you first more often?'",
+      "Incorporate first-person language when giving advice to feel more personal and supportive - change 'Sometimes, a casual chat about how you feel can open up new doors' to 'I'd honestly just bring it up casually - maybe mention that you've noticed you're usually the one texting first. I bet they'd want to know how you feel.'",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to immediately set a supportive, casual tone that signals this is a safe space to vent"
+    ]
+  }
+}

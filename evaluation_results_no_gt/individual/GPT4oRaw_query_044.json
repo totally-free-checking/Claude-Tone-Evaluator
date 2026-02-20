@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with two flowing paragraphs",
+      "Strong specific advice including exact scripts like 'I need a second to gather my thoughts' that a teen can actually use in the moment",
+      "Opens with immediate emotional validation ('Oh no, that can be such an awkward moment!' and 'it happens to everyone') that normalizes the experience"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - the response closes with a statement about learning rather than inviting the teen to share more",
+      "Lacks first-person language entirely (no 'I think', 'I'd say', 'I get it', or 'I'm here') which makes it feel more like general advice than a personal conversation from a supportive friend",
+      "Uses 'honestly' but could benefit from more casual connectors like 'Ugh' or 'That's rough' to increase relatability"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - perfectly conversational paragraph flow",
+    "least_ideal_aspect": "Absence of follow-up question to continue the conversation - ends abruptly without engaging the user to share more",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end like 'Has this happened to you recently?' or 'How did you handle it in the moment?' to invite continued conversation",
+      "Incorporate first-person language throughout, such as 'I think the best thing you can do is...' or 'I get how nerve-wracking that feels' to establish a personal connection",
+      "Consider adding a closing like 'I'm here if you need to talk through it more' to reinforce the supportive friend persona"
+    ]
+  }
+}

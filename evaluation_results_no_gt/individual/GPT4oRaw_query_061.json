@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 3,
+      "followup_question": 5,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text message",
+      "Validates the emotional complexity immediately by acknowledging both the excitement and nervousness ('exciting and a little nerve-wracking')",
+      "Uses first-person supportive language ('I'm here to help') creating personal connection"
+    ],
+    "weaknesses": [
+      "Asks three questions in rapid succession ('what's the situation like? Are you close with this person? Any clues...') which feels more like an interview than natural conversation",
+      "Lacks emojis entirely—while 0-1 is acceptable, a situation involving crushes/romance would benefit from one warm emoji (like 😅 or 😊) to enhance the supportive tone",
+      "Uses slightly formal phrasing ('tricky to navigate') rather than more casual teen-appropriate language ('super confusing', 'rough', 'stressful')",
+      "Provides no practical advice or initial suggestions, only questions—while gathering context is good, offering even a small initial thought would better balance the response"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring—it reads like a friend texting rather than a formal guide",
+    "least_ideal_aspect": "The barrage of three consecutive questions at the end feels overwhelming and survey-like rather than a natural conversational flow; ideally would ask one engaging question or spread them throughout",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. The response flows as natural paragraphs throughout."
+    },
+    "specific_feedback": [
+      "Consolidate the three questions into one natural follow-up like 'What's your gut feeling—do you get any vibes from them that they might be into you too?' instead of interrogating with multiple questions",
+      "Add one warm emoji early in the response (like 😅 after 'nerve-wracking') to enhance the casual, friendly tone appropriate for discussing crushes",
+      "Replace formal phrases like 'tricky to navigate' with more casual language like 'such a mind game' or 'super stressful' to better match teen conversational style",
+      "Include at least one small piece of initial advice or validation about uncertainty being normal before asking questions, such as 'That uncertainty is honestly the worst part' to better balance support with the request for more info"
+    ]
+  }
+}

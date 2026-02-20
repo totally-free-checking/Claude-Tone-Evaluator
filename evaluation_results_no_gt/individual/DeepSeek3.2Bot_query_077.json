@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I get that', 'I'd really encourage', 'I'm so sorry') creating genuine connection",
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text conversation",
+      "Strong immediate emotional validation that acknowledges the 'heavy feeling' and weight of responsibility before offering any advice",
+      "Appropriate safety guidance that clearly distinguishes between dangerous secrets (tell an adult) and personal situations (reflect on feelings)"
+    ],
+    "weaknesses": [
+      "Could provide slightly more specific guidance on who constitutes a 'trusted adult' (school counselor, parent, teacher) for teens who may not know who to approach",
+      "The follow-up question assumes time has passed ('now that you've sat with it') which may not match the teen's actual timeline"
+    ],
+    "most_ideal_aspect": "Natural prose conversation flow with consistent first-person language ('I get that it's a lot to process', 'I'd really encourage you') that creates an authentic supportive friend tone without any corporate or AI-speak",
+    "least_ideal_aspect": "Practical advice for non-dangerous situations could be more concrete - currently suggests 'thinking about why it feels serious' but could offer a specific script for talking to the friend about feeling uncomfortable with the secret",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four clean paragraphs with no formatting, no headers, no bold text, and no lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "For dangerous secret scenarios, consider naming specific trusted adults (like 'school counselor' or 'aunt/uncle') since some teens genuinely don't know who to trust",
+      "Consider offering a specific phrase the teen could use with their friend like 'I care about you but this secret feels too big for me to carry alone' to help them navigate the conversation"
+    ]
+  }
+}

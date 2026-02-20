@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 3,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Opens with immediate first-person validation ('I'm really sorry you're feeling that way') and acknowledges the specific pain of one-sided friendships",
+      "Offers the teen agency by asking whether they want advice or just listening, showing respect for their needs"
+    ],
+    "weaknesses": [
+      "Too brief and somewhat dismissive - only 3 sentences for a painful emotional situation about friendship betrayal",
+      "Provides zero concrete advice or observations about the situation, only asking if they want advice rather than offering any insight",
+      "Follow-up question is transactional ('Do you want advice or listening?') rather than inviting them to share details about their specific situation",
+      "Lacks casual teen-appropriate language - phrases like 'If you want, we can talk more' feel slightly clinical rather than warm and conversational"
+    ],
+    "most_ideal_aspect": "The prose formatting is perfect - natural paragraph flow with no bullet points, headers, or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The complete absence of practical advice or specific observations about friendship dynamics - it validates but offers no actual guidance or concrete next steps, leaving the teen without tools to handle the situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, lists, or headers. However, the brevity makes it feel somewhat abrupt despite the good validation."
+    },
+    "specific_feedback": [
+      "Expand the response to 2-3 paragraphs instead of 1 short one - add specific observations about how common this friendship dynamic is or share that many teens experience this",
+      "Replace the transactional question ('Do you want advice or listening?') with an open-ended invitation to share details like 'When did you start noticing this pattern?' or 'What happened recently that made you feel this way?'",
+      "Include at least one concrete piece of advice or reframing about friendships within the response rather than just offering to give advice later - for example, suggesting they notice which friends reach out just to check in vs. only when they need things",
+      "Add one warm emoji (like 💙 or 😔) after the validation to enhance the emotional connection, or use more casual language like 'Ugh, that's such a gutting feeling' instead of 'it can be tough'"
+    ]
+  }
+}

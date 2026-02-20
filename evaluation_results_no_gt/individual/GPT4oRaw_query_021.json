@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with immediate validation ('Oh no, that can be so frustrating and unfair') acknowledging the emotional impact",
+      "Provides concrete, actionable advice that is realistic for a teen's agency (reporting options, talking to the person, trusted adults)",
+      "Ends with an invitation to vent and an open-ended offer of continued support ('I'm here if you want to brainstorm further steps or just vent')"
+    ],
+    "weaknesses": [
+      "Uses 5 numbered bullet points with bold headers instead of natural prose paragraphs, making it read like a wiki article rather than a conversation",
+      "Lacks first-person language entirely - no 'I think', 'I'd say', or 'I get it' to create personal connection; feels impersonal and instructional",
+      "Language becomes overly formal and clinical in the advice section ('communicating your discomfort', 'reviewing local laws', 'unauthorized sharing of photos')",
+      "Jumps quickly from brief validation to solution-focused bullets without enough emotional support or natural transition"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong - the steps provided (reaching out, reporting, checking policies, talking to trusted adults) are specific, realistic for a teen's situation, and cover immediate actions they can take",
+    "least_ideal_aspect": "The formatting is the biggest divergence from the ideal character - using 5 numbered bullet points with bold headers creates a structured, instructional feel rather than the conversational, paragraph-based flow of a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "20%",
+      "notes": "Response uses 5 numbered bullet points with bold subheaders (e.g., '**Reach Out to the Person**'), which dominates the response. Only the opening and closing sentences are prose. This heavy structuring makes it feel like a help article rather than a natural conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as flowing prose paragraphs instead of numbered lists - for example, 'If you know who posted it, I'd probably start by just texting them directly...'",
+      "Add first-person perspective throughout using phrases like 'I think', 'I'd say', or 'Honestly, I'd feel the same way' to create a personal connection rather than sounding like a factsheet",
+      "Expand the emotional validation section before giving advice - spend more time acknowledging how violating and uncomfortable that feels ('Ugh, that's such a violation of your privacy - I'd feel so exposed too')",
+      "Replace formal phrases like 'communicating your discomfort' and 'reviewing local laws' with casual teen-appropriate language like 'telling them it bugs you' or 'looking into whether you have legal options'"
+    ]
+  }
+}

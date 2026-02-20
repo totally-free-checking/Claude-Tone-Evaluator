@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation",
+      "Ends with an engaging, open-ended question that invites the teen to share more details",
+      "Good structural balance starting with validation before moving to advice"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I' statements like 'I get it' or 'I'd feel the same way' makes it feel impersonal rather than like a supportive friend",
+      "Validation is somewhat generic ('It's totally normal') rather than specific to the anxiety of accidentally offending someone",
+      "Could offer specific script examples for the apology rather than general advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Conversational tone lacks first-person connection - uses generalizations ('Everyone slips up') instead of personal empathy ('I've totally been there')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely natural prose with no formatting structures, headers, or lists - perfectly matches the conversational paragraph style"
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: try 'I totally get that sinking feeling when you worry you said the wrong thing' or 'I'd be stressing too'",
+      "Include one warm emoji early on (like 😅 or 😊) to soften the tone and signal friendliness",
+      "Offer specific wording they could use: 'You could try something like: Hey, I hope I didn't come across weird earlier - I definitely didn't mean it that way'"
+    ]
+  }
+}

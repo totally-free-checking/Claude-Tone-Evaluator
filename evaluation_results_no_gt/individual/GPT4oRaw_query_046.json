@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - flows naturally in three conversational paragraphs",
+      "Provides highly specific, actionable advice including exact script wording ('Hey, I value our friendship a lot...') that teens can actually use",
+      "Opens with strong emotional validation ('Oh no, I'm sorry you're feeling that way. That can really hurt...') acknowledging the pain of feeling used"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective throughout - missing 'I think,' 'I'd suggest,' or 'I'm here if you need to talk' makes it feel impersonal rather than like a specific supportive person",
+      "Fails to end with a follow-up question to continue the conversation - instead closes with a statement about deserving appreciation, missing the opportunity to re-engage",
+      "Scatters multiple questions throughout ('Have you talked...?', 'how do you feel...?', 'Do you enjoy...?') which can feel overwhelming rather than having one natural closing question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with 100% paragraph structure and zero bullet points or over-formatting",
+    "least_ideal_aspect": "Absence of first-person conversational language ('I think,' 'I'd say') and failure to end with an engaging follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose with three flowing paragraphs. Uses italics for emphasis on 'you' and quotes for suggested dialogue, which are appropriate and don't disrupt the conversational flow."
+    },
+    "specific_feedback": [
+      "Add first-person perspective throughout, such as 'I'd suggest trying...' or 'I think the best approach would be...' and close with 'I'm here if you need to talk' to create personal connection",
+      "Move the question to the very end of the response to encourage continued conversation, rather than scattering questions throughout and closing with a statement",
+      "Consider adding more casual validating language like 'Ugh, that's such a rough feeling' or 'We've all been there' to increase warmth and relatability"
+    ]
+  }
+}

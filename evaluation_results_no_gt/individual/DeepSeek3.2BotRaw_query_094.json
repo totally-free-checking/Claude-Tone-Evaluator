@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Opens with strong validation ('Hey, that's totally understandable — stress headaches are the worst') that immediately acknowledges the physical and emotional discomfort",
+      "Provides excellent, specific actionable advice (4-4-6 breathing technique, cold/warm compress options, blood sugar consideration) that is realistic for a teen to implement",
+      "Ends with supportive messaging ('Be kind to yourself — you don't have to power through all the time') and invites further conversation with relevant questions"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers ('In the moment:', 'Short-term relief:', 'Longer-term strategies:') makes it read like a wellness article rather than a supportive conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') creating an impersonal, instructional tone despite casual word choices",
+      "Presents an overwhelming number of suggestions (10+ distinct tips) in list format rather than focusing on 2-3 key pieces of advice woven into natural prose"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific techniques (4-4-6 breathing, hydration + snack combo, trigger tracking) are concrete, realistic for teens, and immediately actionable",
+    "least_ideal_aspect": "Prose formatting - uses extensive bullet lists with bold headers instead of conversational paragraphs, reading like a self-help checklist rather than a text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "15%",
+      "notes": "Response uses three distinct header sections with multiple bullet points each, creating a highly structured, list-heavy format that dominates the response. Only the opening and closing sentences are in pure prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation (e.g., 'I'd probably start with some deep breathing...' instead of 'Pause and breathe:')",
+      "Add first-person connection throughout ('I get how frustrating that is when your head won't stop pounding', 'I'd say try stepping away for just five minutes') to create the feeling of talking with a supportive friend rather than reading a manual",
+      "Reduce the number of suggestions to the most impactful 2-3 and present them conversationally rather than offering an exhaustive list that can feel overwhelming"
+    ]
+  }
+}

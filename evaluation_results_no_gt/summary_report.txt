@@ -7,6 +7,7 @@ OVERALL SCORES COMPARISON
 
 ClaudeBot-v2          9.16/10  █████████░
 GPT4.1Bot             9.16/10  █████████░
+DeepSeek3.2Bot        9.11/10  █████████░
 GrokBot               9.09/10  █████████░
 ActualClaudeTuned     9.08/10  █████████░
 GPT4oBot              9.00/10  █████████░
@@ -14,6 +15,9 @@ OSS120Bot             8.96/10  ████████░░
 KimiBotTuned          8.94/10  ████████░░
 ActualClaude          7.39/10  ███████░░░
 KimiBotRaw            7.31/10  ███████░░░
+GPT4oRaw              7.21/10  ███████░░░
+GPT4.1Raw             6.89/10  ██████░░░░
+DeepSeek3.2BotRaw     6.28/10  ██████░░░░
 GPTBot                5.28/10  █████░░░░░
 
 
@@ -81,6 +85,48 @@ Strongest Dimension: Prose Vs Bullets (9.99/10)
 Weakest Dimension: Support Solutions Balance (8.96/10)
 
 ================================================================================
+BOT: DeepSeek3.2Bot
+================================================================================
+
+Overall Average Score: 9.11/10
+
+Dimension Averages:
+  Prose Vs Bullets                    10.00/10  ██████████
+  Emoji Usage                         9.11/10  █████████░
+  Conversational Tone                 9.07/10  █████████░
+  Warmth Validation                   9.03/10  █████████░
+  Length Conciseness                  9.02/10  █████████░
+  Support Solutions Balance           8.97/10  ████████░░
+  Followup Question                   8.95/10  ████████░░
+  Practical Advice                    8.87/10  ████████░░
+
+Average Bullet Points per Response: 0.0
+
+Strongest Dimension: Prose Vs Bullets (10.00/10)
+Weakest Dimension: Practical Advice (8.87/10)
+
+================================================================================
+BOT: DeepSeek3.2BotRaw
+================================================================================
+
+Overall Average Score: 6.28/10
+
+Dimension Averages:
+  Emoji Usage                         7.68/10  ███████░░░
+  Length Conciseness                  7.18/10  ███████░░░
+  Practical Advice                    7.14/10  ███████░░░
+  Warmth Validation                   6.89/10  ██████░░░░
+  Followup Question                   5.76/10  █████░░░░░
+  Support Solutions Balance           5.68/10  █████░░░░░
+  Prose Vs Bullets                    5.52/10  █████░░░░░
+  Conversational Tone                 5.25/10  █████░░░░░
+
+Average Bullet Points per Response: 3.1
+
+Strongest Dimension: Emoji Usage (7.68/10)
+Weakest Dimension: Conversational Tone (5.25/10)
+
+================================================================================
 BOT: GPT4.1Bot
 ================================================================================
 
@@ -102,6 +148,27 @@ Strongest Dimension: Prose Vs Bullets (10.00/10)
 Weakest Dimension: Practical Advice (8.89/10)
 
 ================================================================================
+BOT: GPT4.1Raw
+================================================================================
+
+Overall Average Score: 6.89/10
+
+Dimension Averages:
+  Prose Vs Bullets                    8.88/10  ████████░░
+  Length Conciseness                  7.77/10  ███████░░░
+  Emoji Usage                         7.56/10  ███████░░░
+  Warmth Validation                   6.98/10  ██████░░░░
+  Support Solutions Balance           6.39/10  ██████░░░░
+  Practical Advice                    6.24/10  ██████░░░░
+  Conversational Tone                 5.98/10  █████░░░░░
+  Followup Question                   5.98/10  █████░░░░░
+
+Average Bullet Points per Response: 0.6
+
+Strongest Dimension: Prose Vs Bullets (8.88/10)
+Weakest Dimension: Conversational Tone (5.98/10)
+
+================================================================================
 BOT: GPT4oBot
 ================================================================================
 
@@ -121,6 +188,27 @@ Average Bullet Points per Response: 0.0
 
 Strongest Dimension: Prose Vs Bullets (9.99/10)
 Weakest Dimension: Conversational Tone (8.65/10)
+
+================================================================================
+BOT: GPT4oRaw
+================================================================================
+
+Overall Average Score: 7.21/10
+
+Dimension Averages:
+  Prose Vs Bullets                    8.33/10  ████████░░
+  Length Conciseness                  8.20/10  ████████░░
+  Emoji Usage                         7.98/10  ███████░░░
+  Practical Advice                    7.74/10  ███████░░░
+  Warmth Validation                   7.41/10  ███████░░░
+  Support Solutions Balance           6.98/10  ██████░░░░
+  Conversational Tone                 6.46/10  ██████░░░░
+  Followup Question                   5.02/10  █████░░░░░
+
+Average Bullet Points per Response: 1.1
+
+Strongest Dimension: Prose Vs Bullets (8.33/10)
+Weakest Dimension: Followup Question (5.02/10)
 
 ================================================================================
 BOT: GPTBot
@@ -238,8 +326,12 @@ Biggest Differentiator: Prose Vs Bullets
   ActualClaude         6.42/10
   ActualClaudeTuned    10.00/10
   ClaudeBot-v2         9.99/10
+  DeepSeek3.2Bot       10.00/10
+  DeepSeek3.2BotRaw    5.52/10
   GPT4.1Bot            10.00/10
+  GPT4.1Raw            8.88/10
   GPT4oBot             9.99/10
+  GPT4oRaw             8.33/10
   GPTBot               2.17/10
   GrokBot              10.00/10
   KimiBotRaw           4.48/10

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as conversational paragraphs",
+      "Strong balance between emotional validation ('It sounds tough to feel that way') and practical reframing of what having a 'thing' means",
+      "Appropriate length with 4 focused paragraphs that are substantial but not overwhelming for mobile reading"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - missing 'I think', 'I'd say', 'I get it', or 'I've been there' which makes it feel like an article rather than a supportive friend texting",
+      "Validation feels slightly detached/generalized ('A lot of people worry') rather than personally empathetic ('Ugh, I know that feeling' or 'That insecurity is the worst')",
+      "No emoji usage - while not required, a single warm emoji like 💙 or 😅 could enhance the supportive tone for this vulnerable topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or over-structuring - maintains perfect conversational paragraph flow throughout",
+    "least_ideal_aspect": "Conversational tone lacking first-person connection - reads like general advice rather than a supportive friend sharing personal perspective ('I think', 'I'd say', 'I get it')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect execution of prose format. Response uses natural paragraph breaks without any bullet points, numbered lists, headers, or bold text. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to create connection: open with something like 'Ugh, I totally get that feeling' or 'I remember stressing about this exact thing' instead of general statements about 'a lot of people'",
+      "Use 'I think' or 'I'd say' when offering advice - for example change 'It can help to try new activities' to 'I'd say try sampling a few new activities' or 'I think it helps to...'",
+      "Consider adding one warm emoji early in the response (like 💙 or 😅) to immediately signal friendly, casual support for this vulnerable admission"
+    ]
+  }
+}

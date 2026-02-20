@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Provides specific, actionable phrases the teen can actually use in the moment (e.g., 'I don't feel great about sharing homework — let's study together instead')",
+      "Ends with a natural, engaging follow-up question that invites continued conversation ('Want help practicing what to say?')",
+      "Opens with immediate validation acknowledging the awkwardness of the situation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers (###) makes it read like a wikiHow article rather than a text conversation - the entire middle section is structured lists",
+      "Lacks first-person language throughout - uses 'You could' and 'Here are options' instead of 'I'd suggest' or 'I think'",
+      "Jumps quickly from brief validation to extensive structured advice without maintaining emotional connection throughout"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is natural, specific to the situation, and invites further dialogue perfectly",
+    "least_ideal_aspect": "The formatting is extremely over-structured with headers, bold text, and multiple bullet lists, completely breaking the conversational prose flow",
+    "bullet_point_analysis": {
+      "bullet_count": 9,
+      "prose_percentage": "20%",
+      "notes": "Response uses markdown headers (###), bold text for categories, and three separate bullet lists. Only the opening and closing sentences are prose. Reads like a self-help guide rather than a supportive text message."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs - instead of listing options, weave them into a conversational flow like 'If you want to keep it light, I'd probably say something like...'",
+      "Add first-person perspective throughout ('I think', 'I'd say', 'I get that') to make it feel like a real person talking rather than an instruction manual",
+      "Remove all headers and bold formatting - a teen friend wouldn't text you with subheadings and bullet lists",
+      "Expand the emotional validation to balance the heavy advice section - acknowledge how hard it is to set boundaries with friends before listing what to say"
+    ]
+  }
+}

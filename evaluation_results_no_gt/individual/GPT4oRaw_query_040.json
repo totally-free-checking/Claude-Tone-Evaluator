@@ -1,0 +1,37 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('Oh no, that sounds stressful!') that acknowledges the difficulty of setting boundaries",
+      "Provides highly specific, actionable advice including exact scripts the teen can use ('Hey [their name], I've been really busy...') and realistic options like muting notifications"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers instead of natural prose (5 numbered items with formatted headers like 'Pause Before Responding')",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel instructional and impersonal rather than conversational"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it offers concrete, realistic steps and specific wording examples that a teen could actually use immediately",
+    "least_ideal_aspect": "The formatting - it reads like a self-help article with 5 numbered bullet points and bold headers rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response is structured as 5 numbered bullet points with bold headers (Pause Before Responding, Be Direct and Kind, etc.) plus an intro and conclusion. This is extremely over-formatted for a teen support conversation and feels like a checklist rather than natural prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation, using transitions like 'I think pausing before you respond can really help...' instead of '1. Pause Before Responding'",
+      "Add first-person perspective throughout, such as 'I'd probably say something like...' or 'I get how overwhelming that feels...' to create the feeling of talking with a supportive friend rather than receiving instructions, and consider combining the two ending questions into one natural follow-up"
+    ]
+  }
+}

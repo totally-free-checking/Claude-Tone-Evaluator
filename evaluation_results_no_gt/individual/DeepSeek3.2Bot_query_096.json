@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate emotional validation with specific language like 'hollow, lonely feeling' and 'invisible or disconnected' that precisely names the teen's experience",
+      "Strong use of first-person conditional language throughout ('If I were you,' 'I might try,' 'I get why') creating a personal, supportive connection rather than impersonal directives",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points, reading exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Practical advice section is slightly brief - could benefit from one additional strategy such as suggesting a one-on-one check-in with a specific friend or acknowledging when to evaluate if the friendship is healthy",
+      "Could slightly expand on the 'it's more common than you think' validation to explicitly reassure them they're not alone before moving to solutions"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that creates genuine connection",
+    "least_ideal_aspect": "Quantity of practical advice - while the specific phrases provided are excellent, offering one additional coping strategy would strengthen the support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting structures, headers, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one additional practical suggestion, such as 'You could also try checking in with one friend individually later to reconnect,' to give more options without overwhelming",
+      "The validation is strong but could explicitly include 'You're not alone in this' or 'We've all been there' to reinforce the normalization before transitioning to advice"
+    ]
+  }
+}

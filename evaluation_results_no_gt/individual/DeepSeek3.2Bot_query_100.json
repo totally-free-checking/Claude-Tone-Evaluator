@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate visceral validation using phrases like 'That feeling can be so heavy and exhausting' and casual empathy 'It really does suck,' making the teen feel instantly understood",
+      "Consistently employs natural first-person language throughout ('Honestly, I think,' 'If I were you,' 'our plates') creating an authentic supportive friend dynamic rather than an impersonal advisor",
+      "Maintains pure conversational prose format with zero bullet points, allowing practical advice to flow naturally within sentences like 'It might help to think of one small thing you did today'"
+    ],
+    "weaknesses": [
+      "Absence of emoji usage, while appropriate for the heavy emotional topic, misses an opportunity to add visual warmth (like 💙 or 😊) that could enhance the supportive tone",
+      "Could extend the initial validation phase by one sentence before transitioning to 'Honestly, I think' to ensure the teen feels fully emotionally held before receiving perspective"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with seamless integration of first-person conversational language",
+    "least_ideal_aspect": "Emoji usage (minimal/absent, though contextually understandable for the serious topic)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure with no formatting crutches; advice flows organically within conversational sentences without any lists, headers, or over-structuring"
+    },
+    "specific_feedback": [
+      "Consider adding one subtle supportive emoji early in the response (such as 💙 or 😔) to visually signal warmth, though this is optional for heavier emotional topics",
+      "The reflection prompt 'whose enough am I trying to meet' is excellent; consider following up with one more validating statement after the advice section to bookend the support before the final question"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points, creating a natural conversational flow throughout",
+      "Strong opening validation that immediately acknowledges the emotional sting and validates the courage it took to try out"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat generic and philosophical ('focus on getting even better,' 'explore a different path') rather than offering specific, concrete actions the teen can take right now",
+      "Middle section uses slightly formal self-help language ('doesn't define your worth') that feels less like a peer and more like a counselor"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, reading like a text message from a supportive friend",
+    "least_ideal_aspect": "Practical advice specificity - lacks concrete, immediate actions and relies on vague platitudes about worth and timing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or structured formatting. Response flows naturally as conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Replace generic advice like 'focus on getting even better' with specific, actionable suggestions such as 'Maybe treat yourself to your favorite snack and put on a comfort show tonight?' or 'Want to try shooting hoops at the park this weekend just for fun, no pressure?'",
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to enhance the empathetic tone, though the absence is still appropriate for the serious topic"
+    ]
+  }
+}

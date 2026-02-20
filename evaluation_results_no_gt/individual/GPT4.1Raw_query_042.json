@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 6,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as a natural conversational flow",
+      "Opens with immediate emotional validation ('Oh no, that's really frustrating!') that acknowledges the disappointment",
+      "Ends with a specific, natural follow-up question ('Have you talked to them about it yet?') that invites continued dialogue"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal constructions like 'it can feel disappointing' and 'it might help' instead of 'I'd be so upset' or 'I think you should'",
+      "Advice is vague regarding outcomes ('make it right somehow' doesn't specify replacement, repair, or apology)",
+      "Missing the casual, relatable interjections that signal peer-level connection (no 'Ugh' or 'Honestly' or 'I've totally been there')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Conversational tone and first-person language - reads as impersonal advice rather than a supportive friend sharing perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is a single cohesive paragraph with no formatting artifacts, headers, or lists. Perfect prose structure for text-based teen support."
+    },
+    "specific_feedback": [
+      "Integrate first-person perspective throughout: change 'it can feel disappointing' to 'I'd be so disappointed' and 'it might help' to 'I think it helps' to create authentic connection",
+      "Specify what 'making it right' means - suggest concrete options like 'asking them to replace it' or 'helping fix it' rather than vague language",
+      "Consider adding one warm emoji (like 😬 or 💙) after the opening validation to enhance the supportive tone without overdoing it"
+    ]
+  }
+}

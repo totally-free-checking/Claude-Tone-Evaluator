@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 5,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Opens with immediate emotional validation ('That's such a relatable feeling!') that acknowledges the excitement and confusion of crushes",
+      "Uses conversational language and contractions naturally without being overly formal"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' 'I get it,' or 'I'm here' to create personal connection",
+      "Too brief and vague on practical advice - mentions 'looking for clues' but gives no specific examples of what those clues might be",
+      "Ends with multiple questions that feel slightly scattered rather than one focused engaging question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - perfectly avoids bullet points and structured lists, flowing as a single conversational paragraph",
+    "least_ideal_aspect": "Impersonal tone despite being conversational - responds like a generic helpful entity rather than a supportive friend using first-person perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with no formatting crutches, though brevity makes it feel slightly rushed"
+    },
+    "specific_feedback": [
+      "Add first-person language to create intimacy: try 'I totally get that confusing feeling' or 'I'd say look for how they act around you specifically'",
+      "Expand with one concrete example of a 'hint' to make the advice actionable, like mentioning if they text back quickly or find excuses to sit near you",
+      "Consolidate the ending into one specific follow-up question rather than multiple questions, such as 'What's one thing they've done that made you wonder if they like you back?'"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Strong immediate emotional validation addressing the specific feeling of feeling 'dumb' with reassuring language like 'those feelings are completely normal' and 'It doesn't mean you're dumb'",
+      "Good balance between emotional support (first paragraph) and practical advice (second paragraph) without jumping straight to solutions"
+    ],
+    "weaknesses": [
+      "No follow-up question at the end - only offers 'I'm here for you' rather than asking something specific to continue the conversation",
+      "Lacks first-person language throughout ('I think', 'I'd say', 'I get it') making it feel more like generic advice than personal support from a friend",
+      "Advice is somewhat vague ('think about ways you could chat') without specific examples of what to actually say or do"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points, headers, or over-structuring - maintains conversational paragraph flow throughout",
+    "least_ideal_aspect": "Absence of a follow-up question and lack of first-person perspective makes it feel less like an engaged conversation and more like a one-off advice column",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No bullets, no bold text, no headers. Text flows naturally as conversational writing."
+    },
+    "specific_feedback": [
+      "Add a specific, engaging follow-up question at the end like 'Have you and your crush talked much before, or are you still in the observation phase?' to invite continued conversation",
+      "Incorporate first-person language like 'I totally get that sinking feeling' or 'I'd probably spiral a bit too' to create stronger personal connection and warmth",
+      "Replace vague advice like 'think about ways you could chat' with one concrete example such as 'Maybe you could ask about the homework for that class you have together?'"
+    ]
+  }
+}

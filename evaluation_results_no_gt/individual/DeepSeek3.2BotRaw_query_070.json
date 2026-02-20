@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 3,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or over-structuring - reads as natural paragraphs",
+      "Ends with an open-ended question that invites the user to share more details about their situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely - no 'I think', 'I'd feel', or 'I'm here' to create personal connection (uses detached 'here if you want' instead of 'I'm here')",
+      "Weak emotional validation - 'pretty tricky' is underwhelming for friend conflict; missing stronger empathy like 'Ugh, that's rough' or 'That sinking feeling when friends get mad'",
+      "No practical advice or actionable suggestions offered - only asks for more information without providing any initial validation strategies or perspective",
+      "Therapy-speak tone with phrases like 'unpack it' and 'boundary that got crossed' feels more clinical than like a supportive friend"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or headers, maintaining a conversational paragraph structure throughout",
+    "least_ideal_aspect": "Complete absence of first-person language and weak emotional validation - feels impersonal and detached rather than warmly empathetic like a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, lists, or excessive formatting. Response flows as natural paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: change 'here if you want' to 'I'm here if you want to talk' and include phrases like 'I get why that feels weird' or 'I'd feel hurt too'",
+      "Strengthen the opening validation: instead of 'pretty tricky', use warmer language like 'Ugh, that's such a rough feeling' or 'That pit-in-your-stomach feeling when a friend is mad at you is the worst'",
+      "Offer one small piece of perspective or advice before asking the question - even just validating that it's okay to have other friends - so the response doesn't feel like it's withholding support until they share more"
+    ]
+  }
+}

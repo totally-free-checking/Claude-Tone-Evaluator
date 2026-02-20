@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 5,
+      "followup_question": 4,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, reading like a text message",
+      "Uses first-person language appropriately with 'I'm sorry' and 'I can help' creating personal connection",
+      "Validates feelings explicitly with phrases like 'your feelings are totally valid' and acknowledges the difficulty of the situation",
+      "Appropriate length for mobile reading—substantial but not overwhelming"
+    ],
+    "weaknesses": [
+      "Lacks a specific follow-up question at the end; closes with an imperative statement ('let me know') rather than an engaging question to continue conversation",
+      "Practical advice is vague and non-committal—offers to 'brainstorm' later rather than providing one concrete actionable tip now",
+      "Missing casual first-person connective phrases like 'I get it,' 'I'd say,' or 'I think' that would make it feel more like a personal conversation",
+      "Opening validation ('That sounds tough') is somewhat generic and could be warmer/more specific to the awkwardness of parental disapproval"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, maintaining conversational flow throughout",
+    "least_ideal_aspect": "Follow-up engagement—fails to end with a specific question that invites the teen to share more details about what happened",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Replace the closing statement with a specific question like 'Do you know what specifically made them feel that way?' or 'What happened that made you think they don't like you?'",
+      "Add one concrete, actionable tip before asking for more details—such as suggesting a specific way to show their true self or handle the next interaction",
+      "Enhance warmth by using more casual, relatable openings like 'Ugh, that's such an uncomfortable situation' or 'I get how awkward that feels'",
+      "Consider adding one supportive emoji (like 😕 or 😅) early in the response to enhance the warm, casual tone"
+    ]
+  }
+}

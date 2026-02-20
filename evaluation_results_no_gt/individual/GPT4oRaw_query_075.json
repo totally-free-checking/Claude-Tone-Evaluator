@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or over-structuring, reading like a text from a supportive friend",
+      "Uses first-person validation effectively ('I totally get that feeling') and provides specific, actionable conversation starters ('How do you know [the host]?')",
+      "Maintains casual, conversational tone throughout with appropriate contractions and teen-accessible language"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with a statement rather than engaging the user to continue the conversation",
+      "Pivots quickly from validating anxiety to positive reframing ('But honestly, it could be an awesome opportunity') which slightly minimizes the nervousness",
+      "Lacks a warm emoji that could have enhanced the empathetic tone for this anxiety-inducing situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains perfect conversational flow throughout",
+    "least_ideal_aspect": "Absence of follow-up question to continue the dialogue - ends abruptly with encouragement rather than inviting further sharing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end such as 'What kind of event is it?' or 'Are you leaning toward going?' to keep the conversation going",
+      "Consider adding one warm emoji early in the response (like 😅 or 😊) to match the 'nerve-wracking' sentiment and enhance emotional connection",
+      "Spend one more sentence validating the anxiety before pivoting to the positive spin - acknowledge that it's okay to feel nervous before jumping to 'it could be awesome'"
+    ]
+  }
+}

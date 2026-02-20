@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 4,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads exactly like a supportive text from a friend",
+      "Strong use of first-person conversational language ('I totally get why,' 'I'm here to listen') that creates genuine connection",
+      "Immediate emotional validation that acknowledges the specific anxiety of the 'we need to talk' phrase"
+    ],
+    "weaknesses": [
+      "Completely lacks concrete practical advice or coping strategies for managing the immediate terror/anxiety while waiting for the conversation",
+      "Imbalanced toward pure emotional support without actionable help - no suggestions for what to do right now to feel better",
+      "Could enhance warmth with slightly more specific validation of how physically scary that feeling is"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational first-person tone that avoids all bullet points and structural formatting",
+    "least_ideal_aspect": "Absence of practical advice or coping strategies - offers validation and a question but no concrete tools for managing the immediate anxiety",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or over-structuring. Reads as natural continuous text appropriate for a messaging conversation."
+    },
+    "specific_feedback": [
+      "Add one specific, actionable coping strategy for immediate anxiety (like a breathing technique or distraction method) before asking for context",
+      "Enhance the validation by naming the physical feeling of dread more specifically ('that stomach-dropping moment')",
+      "Consider offering a gentle reframe or perspective shift that's actionable ('If you can, try to remember that our brains always assume the worst...')"
+    ]
+  }
+}

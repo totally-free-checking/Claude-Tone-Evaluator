@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd try', 'I'm so sorry') creating genuine connection",
+      "Provides specific, realistic conversation script the teen can actually use: 'Hey, I've noticed things have felt a little tighter lately—is there something going on...'",
+      "Perfect prose formatting with zero bullet points or headers—reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Transitions quickly to explaining parent psychology ('parents go through phases') which slightly cuts short the emotional validation",
+      "Could include one more validating phrase about the unfairness before moving to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow—completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "Slight imbalance toward advice over validation—the explanation of why parents get strict comes perhaps a sentence too early before fully sitting with the teen's frustration",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no lists, headers, bold text, or structural formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of pure validation ('That really sucks when you feel like you're doing everything right') before explaining parent psychology",
+      "The follow-up question is excellent and specific—maintain this level of contextual engagement in future responses"
+    ]
+  }
+}

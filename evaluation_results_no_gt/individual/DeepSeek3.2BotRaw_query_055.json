@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation with 'Ah, that feeling hits hard sometimes' immediately acknowledges the emotional weight and normalizes the experience",
+      "Appropriate single emoji usage (🌱) at the end reinforces the growth message without being excessive or cringe",
+      "Practical advice is specific and teen-appropriate, mentioning concrete actions like deleting/archiving and suggesting actual script 'Hey, I wanted to clarify...'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points (3 items) breaks the conversational prose format; advice is delivered as a list rather than flowing naturally within paragraphs",
+      "Lacks first-person language like 'I think,' 'I'd suggest,' or 'I get it,' making the advice feel impersonal and detached rather than like a friend texting",
+      "Fails to end with a follow-up question; while 'Want to talk about what happened?' appears early, the response concludes with a statement, missing the opportunity to re-engage the user"
+    ],
+    "most_ideal_aspect": "Emoji usage - single appropriate emoji enhancing warmth without excess",
+    "least_ideal_aspect": "Prose formatting - heavy bullet point usage contrary to natural paragraph flow",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "45%",
+      "notes": "Response uses three distinct bullet points to deliver the core advice, breaking the conversational flow. The middle section is entirely structured as a list rather than integrated into natural prose paragraphs."
+    },
+    "specific_feedback": [
+      "Remove the bullet points and rewrite the advice as flowing sentences within a paragraph, e.g., 'If it's on social media, I'd suggest just deleting or editing it if you can. For messages, you could always send a quick follow-up...'",
+      "Integrate first-person language throughout, such as 'I think the best approach depends on...' or 'I'd say give yourself some time...' to create a more personal, supportive connection",
+      "Move the question to the very end of the response to encourage continued conversation, or add a new specific question like 'What kind of post was it - something personal or just something you think might be cringey?'"
+    ]
+  }
+}

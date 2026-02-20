@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 8.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or formatting - reads exactly like a supportive friend texting",
+      "Strong first-person language throughout ('I'm sorry','I'm here to listen') creating genuine personal connection"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat generic - suggests 'talking calmly' and 'showing responsibility' without specific conversation starters or concrete examples",
+      "Transitions quickly from validation to advice without fully exploring the emotional weight of the situation first"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - perfectly conversational paragraph structure without any bullet points, headers, or over-formatting that reads like a genuine text conversation",
+    "least_ideal_aspect": "Practical advice specificity - while realistic, it relies on general suggestions rather than concrete scripts or specific actionable steps the teen could take immediately",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No bullets, no bold text, no headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding specific conversation starters like 'Hey, I've noticed things feel different lately and I wanted to check in...' to make the advice more immediately actionable",
+      "Could deepen validation by acknowledging specific feelings (like feeling trapped or misunderstood) before moving to the solution phase",
+      "While no emoji is acceptable for this serious topic, a single gentle emoji like 😕 or 💙 at the end could enhance warmth without undermining the seriousness"
+    ]
+  }
+}

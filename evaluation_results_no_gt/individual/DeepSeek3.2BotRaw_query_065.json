@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use (e.g., 'I always feel a bit off talking about people when they aren’t here to explain their side')",
+      "Acknowledges the difficulty of the situation and validates the user's maturity in recognizing the issue"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with a statement instead of engaging the user to continue the conversation",
+      "Heavy reliance on numbered lists and bullet points (6 main sections with sub-bullets) rather than conversational prose",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' to create personal connection",
+      "Jumps quickly to solutions without sufficient emotional validation upfront"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific phrases and scripts provided are realistic and immediately usable for a teen in this situation",
+    "least_ideal_aspect": "The formatting structure - using 6 numbered sections with headers and bullet points makes it read like a self-help article rather than a text conversation with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 18,
+      "prose_percentage": "15%",
+      "notes": "Response uses 6 numbered headers (### 1., ### 2., etc.) with multiple bullet points under each section. Only the opening and closing sentences are prose. This is extremely over-formatted and violates the 'natural prose paragraphs' requirement."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into 2-3 natural paragraphs that flow conversationally - instead of 'Here are 6 ways,' try 'I think I'd probably start by changing the subject when it comes up. You could say something like...'",
+      "Add first-person language throughout to create connection - use phrases like 'I get why that feels uncomfortable' or 'I'd probably feel torn too if I liked them but hated the gossip'",
+      "End with a specific, engaging question to continue the conversation, such as 'Do you think they'd be receptive if you mentioned it, or are you worried it might make things weird?'",
+      "Start with more immediate emotional validation before offering solutions - acknowledge the awkwardness of being put in that position"
+    ]
+  }
+}

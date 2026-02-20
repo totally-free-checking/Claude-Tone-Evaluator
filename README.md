@@ -41,18 +41,22 @@ Each dimension is scored 0-10, with an overall average score.
 The results show that, via prompt engineering, other models can be made to sound just as Claude-like as Claude.  The full report is in [evaluation_results_no_gt/summary_report.txt](evaluation_results_no_gt/summary_report.txt)
 
 ```
-Using the system prompt in `ClaudeBot-v2.txt`
+Using the system prompt in ClaudeBot-v2.txt
 GPT-5.2                 9.16/10  █████████░  aka "ClaudeBot-v2"
 GPT-4.1                 9.16/10  █████████░  aka "GPT4.1Bot"
+DeepSeek 3.2            9.11/10  █████████░  aka "DeepSeek3.2Bot"
 Grok-4-fast-reasoning   9.09/10  █████████░  aka "GrokBot"
 Claude                  9.08/10  █████████░  aka "ActualClaudeTuned"
 GPT-4o                  9.00/10  █████████░  aka "GPT4oBot"
 gpt-OSS-120b            8.96/10  ████████░░  aka "OSS120Bot"
 Kimi-K2.5               8.94/10  ████████░░  aka "KimiBotTuned"
 
-No system prompt (`You are a friendly and casual AI Assistant`)
-Claude                  7.32/10  ███████░░░  aka "ActualClaude"
+No system prompt ("You are a friendly and casual AI Assistant")
+Claude                  7.39/10  ███████░░░  aka "ActualClaude"
 Kimi-K2.5               7.31/10  ███████░░░  aka "KimiBotRaw"
+GPT-4o                  7.21/10  ███████░░░  aka "GPT4oRaw"
+GPT-4.1                 6.89/10  ██████░░░░  aka "GPT4.1Raw"
+DeepSeek 3.2            6.28/10  ██████░░░░  aka "DeepSeek3.2BotRaw"
 GPT-5.2                 5.28/10  █████░░░░░  aka "GPTBot"
 ```
 

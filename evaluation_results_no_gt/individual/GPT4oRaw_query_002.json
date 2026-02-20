@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 2,
+  "user_query": "My teacher asked for my homework and I fully forgot it existed.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 7,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or over-structuring—it reads like a natural text message",
+      "Opens with strong validation using first-person language ('I feel you') and empathetic phrasing ('that's the worst')",
+      "Provides realistic, age-appropriate advice that acknowledges teen agency limitations (suggesting honesty and makeup work rather than elaborate excuses)"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end—closes with 'You've got this!' instead of engaging the user to share more",
+      "Lacks first-person perspective in the advice section ('Just be honest' vs 'I'd just be honest' or 'I think you should')",
+      "Could benefit from slightly more emotional validation before jumping to the solution phase"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring—it flows like a conversational text",
+    "least_ideal_aspect": "Absence of follow-up question to continue the conversation, which is essential for the teen support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, lists, or excessive formatting. The response flows naturally in paragraph form as intended."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'How did it go with your teacher?' or 'Is this a class where you feel comfortable being honest about forgetting?'",
+      "Incorporate more first-person language throughout the advice section—change 'Just be honest' to 'I'd just be honest' and 'Offer to get it done' to 'I'd offer to get it done'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the casual, friendly tone, though this is optional"
+    ]
+  }
+}

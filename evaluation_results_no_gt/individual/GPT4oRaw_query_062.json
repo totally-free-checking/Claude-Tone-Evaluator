@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of natural prose with zero bullet points, creating a conversational flow that reads like a text from a friend",
+      "Provides specific, actionable script for the teen to use: \"Hey, I understand why this is important to you, but I'm not comfortable with it. I hope you can respect that.\"",
+      "Strong validation of feelings with phrases like \"your feelings matter\" and \"trust that instinct\""
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question to continue the conversation; ends with a statement (\"You've got this!\") instead of engagement",
+      "Lacks first-person perspective language like \"I think\" or \"I'd say\", making the advice feel slightly impersonal despite being warm"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, maintaining a conversational paragraph flow throughout",
+    "least_ideal_aspect": "Missing follow-up question at the end - fails to invite the teen to share more or continue the dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or list formatting used. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end such as \"How do you think they'll react when you set that boundary?\" or \"Do you want to talk through what might happen if they don't respect your no?\"",
+      "Incorporate more first-person language to create connection, such as \"I think the best approach is...\" or \"I'd probably feel nervous too in your situation\" instead of only using second-person directives",
+      "Consider slightly more casual phrasing like \"Ugh, that's such a tough spot\" instead of \"It's tough when someone you care about puts you in a spot like that\" to enhance the teen-appropriate warmth"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 5.2,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 2,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Immediately validates the teen's feelings with 'That sounds really tough!' and acknowledges the emotional impact ('draining and stressful')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here' to create personal connection",
+      "Fails to provide any concrete advice or actionable suggestions, only tentatively offers to give tips later ('If you want, I can offer some tips')",
+      "Response is too brief and feels dismissive - only 4 short sentences that don't fully engage with the emotional weight of the situation",
+      "Questions feel clinical and multiple-choice rather than conversational ('Do you want to talk about X or Y?')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring",
+    "least_ideal_aspect": "Absence of first-person language and failure to provide concrete practical advice - the response is too tentative and puts the burden entirely on the teen to ask for help rather than offering it proactively",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural flow. No formatting issues detected."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection: instead of 'That sounds really tough,' try 'Ugh, I get how exhausting that must be' or 'I'd feel so drained in that situation'",
+      "Provide at least one concrete piece of advice or insight immediately rather than just offering to give tips later - teens need proactive support, not a menu of options",
+      "Expand the response to 2-3 substantial paragraphs: validate more deeply, share a specific observation or suggestion, then ask a more natural follow-up question like 'What's the worst part of being in the middle of all that?'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to set a supportive tone"
+    ]
+  }
+}

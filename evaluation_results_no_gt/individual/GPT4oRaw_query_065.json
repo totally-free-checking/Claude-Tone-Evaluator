@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of natural prose with zero bullet points or formatting - reads like a text from a supportive friend",
+      "Provides highly specific, actionable scripts the teen can actually use (e.g., 'Oh, I'm not sure about all that, but hey, how's...')",
+      "Strong first-person language throughout ('I totally get that', 'I'd say') creates authentic connection"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with a statement instead of inviting continued conversation",
+      "Could offer slightly deeper emotional validation about the specific awkwardness/social anxiety of confronting a gossiping friend"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Missing follow-up question engagement - ends abruptly with '...themselves! 😊' instead of asking something like 'How do you think they'd react?' or 'What feels most doable for you?'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Advice flows naturally within paragraphs using phrases like 'Another option is...' and 'If the gossip keeps coming up...'"
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end to continue the conversation, such as 'Which of these approaches feels most doable to you?' or 'Has your friend ever reacted weirdly when you tried to change the subject before?'",
+      "Consider adding one more sentence of validation about how uncomfortable it can feel to set boundaries with friends, acknowledging the social pressure specifically"
+    ]
+  }
+}

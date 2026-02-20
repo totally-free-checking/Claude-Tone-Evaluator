@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 17,
+  "user_query": "I got a weird vibe from a friend’s boyfriend and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides realistic, safe, and actionable advice appropriate for a teen's agency (observe, talk to friend, protect boundaries)",
+      "Asks a specific follow-up question about what gave the weird vibe, showing interest in the specific situation",
+      "Validates instincts and feelings, acknowledging it's okay to feel unsure"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language (no 'I think', 'I'd say', 'I'm here') creating distance rather than connection",
+      "Question is placed in the middle rather than at the end, reducing conversational flow",
+      "Opening validation ('That sounds uncomfortable') is somewhat clinical and could be warmer and more immediate"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are realistic, safety-conscious, and actionable for a teen navigating a tricky social situation",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses structured bullet list with bold headers ('**Observe:**', '**Talk to your friend:**') which breaks conversational flow and feels over-formatted",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "40%",
+      "notes": "Response uses 'In general, here are a few options you might consider:' followed by four bolded bullet points with headers. This is exactly the format to avoid - it reads as a checklist rather than natural conversation. The advice should flow within paragraphs instead."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 1-2 flowing paragraphs using natural transitions like 'I think you could start by just observing...' or 'If you feel up to it, maybe gently check in with your friend...'",
+      "Add first-person connection throughout: 'I'd be feeling weird too', 'I'm here to listen', or 'I think trusting your gut is smart here'",
+      "Move the question to the very end as the closing line to encourage continued conversation, rather than burying it in the middle",
+      "Open with stronger emotional validation before any advice: 'Ugh, that sinking feeling when something feels off but you can't put your finger on it...'"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 5,
+      "followup_question": 3,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's the worst!' which perfectly captures the frustration",
+      "Uses natural conversational prose with a relatable metaphor (spicy salsa cup) that feels authentic without being cringe",
+      "Strong first-person supportive language ('I'm here for you') that creates personal connection"
+    ],
+    "weaknesses": [
+      "Ends with an invitation ('let me know') rather than a specific follow-up question to continue the conversation",
+      "Offers to give calming tips but doesn't provide any concrete, actionable advice in the moment",
+      "Slightly brief - could benefit from one more sentence of validation or a specific question about what happened"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational tone - reads exactly like a supportive friend texting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Follow-up engagement - fails to ask a specific question to invite the teen to share more, ending instead with a passive 'let me know'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. Flows naturally as conversational text."
+    },
+    "specific_feedback": [
+      "Add a specific question at the end like 'What happened?' or 'Who told you to calm down?' to invite the teen to share their story",
+      "Include one concrete tip or suggestion in the initial response rather than only offering to give tips later, such as 'Taking three deep breaths usually helps me reset' or validation that their reaction is normal",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the friendly tone, though the absence isn't problematic"
+    ]
+  }
+}

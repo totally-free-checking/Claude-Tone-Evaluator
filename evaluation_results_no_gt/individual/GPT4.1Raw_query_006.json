@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers—reads like a natural text conversation",
+      "Strong use of first-person language throughout ('I'm sorry','I'm here to listen','I've got you') creating genuine connection",
+      "Opens with immediate emotional validation ('that's such a tough spot to be in') and uses casual, appropriate language ('mess with your head')"
+    ],
+    "weaknesses": [
+      "Lacks a specific follow-up question at the end—ends with offers to help rather than an engaging question to continue the conversation",
+      "Practical advice is vague and deferred ('if you want some tips... I've got you') rather than offering one concrete immediate strategy for the panic",
+      "Could enhance validation by naming the specific feeling ('that sinking feeling','the post-test spiral') rather than general 'tough spot'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and first-person warmth",
+    "least_ideal_aspect": "Absence of a follow-up question to continue the dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with two natural paragraphs, no headers, bold text, or lists. Reads exactly like a supportive friend texting."
+    },
+    "specific_feedback": [
+      "End with a specific question like 'What part of the test freaked you out the most?' or 'Do you want to vent about what happened?' to invite continued conversation",
+      "Offer one concrete, immediate tip for the panic right now (like 'Try the 5-4-3-2-1 grounding technique' or 'Give yourself permission to watch one episode of something to reset') before offering more help later",
+      "Consider adding slightly more specific emotional validation like 'That post-test dread is the worst' to show you really get the specific feeling"
+    ]
+  }
+}

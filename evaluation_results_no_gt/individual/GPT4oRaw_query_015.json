@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as a conversation",
+      "Strong practical advice that acknowledges teen agency limitations (suggesting parent mediator, locking door, hiding items)",
+      "Opens with immediate emotional validation ('Oh no, that sounds really frustrating!') and affirms their right to boundaries ('You deserve to have your space respected')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'Sometimes an honest and calm conversation can go a long way' instead of 'I'd suggest trying...'",
+      "Does not end with a question - closes with a statement ('Let me know how you feel...') rather than an engaging follow-up question to continue the conversation",
+      "Uses generic phrasing that feels more like advice-column writing than peer support at times"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - reads as continuous conversational text perfect for mobile reading",
+    "least_ideal_aspect": "Absence of first-person language creates distance between the bot and user; feels like reading generic advice rather than receiving support from a specific person who cares",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Uses em-dashes for inline examples which maintains prose flow."
+    },
+    "specific_feedback": [
+      "Replace impersonal constructions like 'Sometimes an honest and calm conversation can go a long way' with first-person language like 'I'd suggest sitting them down for an honest conversation' or 'I think you should try telling them...'",
+      "End with a specific, engaging question rather than a statement - for example: 'Do you think your sibling realizes how much this bothers you, or do they think it's just sibling teasing?' or 'What's the thing you're most worried about them finding?'",
+      "While the opening validation is good, adding one warm emoji (like 😤 or 😅) after 'Oh no, that sounds really frustrating!' could enhance the casual, friendly tone without being excessive"
+    ]
+  }
+}

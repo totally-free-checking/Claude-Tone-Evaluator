@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong first-person validation using 'I get it' and 'totally normal' which immediately acknowledges the teen's fear",
+      "Provides specific, actionable advice including an exact script the teen can use with parents ('I didn't do as well as I wanted...')",
+      "Uses appropriate emoji usage with a single supportive 💙 at the end that enhances warmth without being excessive"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured bullet points (5 numbered items with bold headers) instead of natural conversational prose",
+      "Completely lacks a follow-up question to continue the conversation, ending with a statement instead",
+      "Shifts from warm first-person voice ('I get it') to impersonal instructional tone in the bullet points ('Own it', 'Pick a calm moment')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic steps including specific phrasing for the difficult conversation",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses heavily structured numbered lists with headers instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response uses 5 numbered main bullets with bold headers and 1 sub-bullet containing a quote. Only 2-3 sentences of actual prose at beginning and end. Reads like a self-help checklist rather than a supportive text conversation."
+    },
+    "specific_feedback": [
+      "Convert the 5 bullet points into 2-3 natural paragraphs that flow conversationally - instead of '1. Take a breath first,' try 'I'd say start by taking a breath first...'",
+      "End with a specific engaging question to continue the dialogue, such as 'Do you think they'll be more upset about the grade or that you waited to tell them?' or 'What subject was it?'",
+      "Maintain the first-person 'I' voice throughout the advice sections instead of shifting to imperative commands - for example, change 'Think about why the grade happened' to 'I'd try to think through why the grade happened...'"
+    ]
+  }
+}

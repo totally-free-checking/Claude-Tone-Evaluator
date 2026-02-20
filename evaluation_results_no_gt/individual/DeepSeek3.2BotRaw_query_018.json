@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation with 'I'm really sorry you're going through that' and acknowledgment of specific feelings like 'stressful, scary, or just really draining'",
+      "Specific, actionable advice realistic for a teen's immediate situation (headphones, moving rooms, texting friends, writing in notes app)",
+      "Appropriate emoji usage with exactly one supportive emoji (💙) placed naturally at the end to enhance warmth without excess"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers (4 items), creating a structured self-help article format rather than conversational prose",
+      "No follow-up question to continue the dialogue, ending with 'Hang in there. 💙' instead of engaging the user further",
+      "Lacks first-person perspective language throughout ('I think', 'I'd say', 'I get it') beyond the opening sentence, using impersonal constructions like 'Sometimes it helps to remember...' and 'here are a few things you can try'"
+    ],
+    "most_ideal_aspect": "Emoji usage - exactly one well-placed supportive emoji that enhances warmth without being excessive or corporate",
+    "least_ideal_aspect": "Follow-up question engagement - completely missing a question to continue the conversation, which is essential for the teen support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "65%",
+      "notes": "Response uses a numbered list with bold headers (1-4) for the main advice section, which significantly detracts from the conversational prose format. While the bullet content is substantive, the formatting is overly structured and reads like an advice column rather than a text from a supportive friend."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into natural flowing prose: instead of '1. Create some space... 2. Move to a different room...', write something like 'If I were you, I'd probably start by putting on headphones to drown it out, or maybe move to a different room if you can. Sometimes texting a friend to vent helps too, or just writing it all down in your notes app.'",
+      "Add a follow-up question at the end to continue the conversation, such as 'Do you have headphones handy right now?' or 'Have you ever told them how much you can hear when you're in your room?'",
+      "Incorporate more first-person perspective language throughout the response: instead of 'Sometimes it helps to remember...', try 'I think it helps to remember...' or 'I'd try to remind myself...', and consider adding 'I'm here if you need to talk' to establish personal connection"
+    ]
+  }
+}

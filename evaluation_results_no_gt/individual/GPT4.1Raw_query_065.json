@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 65,
+  "user_query": "My friend keeps gossiping and I don’t want to be part of it.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - reads like a natural text message",
+      "Provides specific, actionable script the teen can use: 'Hey, I'd rather not talk about other people'",
+      "Validates feelings immediately with 'It's completely understandable to feel that way'"
+    ],
+    "weaknesses": [
+      "Lacks first-person conversational language throughout - missing 'I think,' 'I'd say,' or 'I get it' to feel like a personal conversation",
+      "Ends with an offer ('I'm happy to brainstorm') rather than an engaging follow-up question",
+      "Validation feels slightly generic/clinical rather than warmly empathetic ('Gossip can be uncomfortable' vs. 'Ugh, that's such an awkward spot')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language ('I think,' 'I'd say') makes the advice feel instructional rather than like peer support, and lacks a follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose format with no bullets, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection: instead of 'You might try gently changing the subject,' use 'I think gently changing the subject works well,' or 'I'd probably say something like...'",
+      "End with a specific question to continue the conversation, such as 'How do you think your friend would react if you said that?' or 'What feels scarier - changing the subject or being direct?'",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to enhance the supportive tone, though this is optional"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 5,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent natural prose with zero bullet points or formatting - reads exactly like a text from a supportive friend",
+      "Strong use of first-person language ('I'm sorry', 'I can help') and casual contractions that create authentic connection",
+      "Immediate emotional validation with phrases like 'That really sucks' and acknowledging the unfairness"
+    ],
+    "weaknesses": [
+      "Lacks emojis entirely - a single warm emoji (like 😅 or 💙) would enhance the casual, friendly tone",
+      "Very brief response offers minimal substance before asking the question - could include one more validating sentence",
+      "Practical advice is only offered as a future possibility ('Maybe I can help') rather than giving even one small immediate suggestion"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - perfectly avoids bullet points and over-structuring while maintaining casual, readable paragraphs",
+    "least_ideal_aspect": "Practical advice depth - while appropriate as an opening, it offers no concrete strategies yet, only promising to help later",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured elements. Text flows naturally as a single conversational block."
+    },
+    "specific_feedback": [
+      "Add one warm emoji early in the response (like 😅 or 💙) to enhance the friendly, casual tone without overdoing it",
+      "Include one brief validating phrase like 'We've all been there' or 'I remember how much that stings' before asking the question to deepen emotional connection",
+      "Consider offering one small immediate tip (like 'Sometimes writing down your side first helps') before asking what happened, so the teen feels supported even if they don't want to share details"
+    ]
+  }
+}

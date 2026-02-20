@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 6,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with emotional validation acknowledging the 'tough spot' and normalizes feelings by saying it's 'pretty common'",
+      "Ends with an invitation to continue talking ('I'm here to listen') which maintains the supportive channel open"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured bullet points (4 numbered items with bold headers and em-dashes) makes it read like a self-help article rather than a conversation",
+      "Lacks first-person casual language - no 'I think,' 'I'd say,' or 'I get it' - sounds impersonal and therapeutic rather than like a supportive friend",
+      "Advice about 'long-term compatibility' and 'life goals' feels too adult and serious for a teen crush situation, ignoring the immediacy of teen emotions"
+    ],
+    "most_ideal_aspect": "The non-judgmental stance - it clearly communicates that having feelings isn't wrong and avoids shaming the user for liking two people",
+    "least_ideal_aspect": "The formatting - using 'Here are a few gentle suggestions' followed by 4 numbered bullet points with bold headers is the opposite of the natural prose paragraphs required for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses a numbered list (1-4) with bold headers and em-dash sub-points, creating a structured, article-like format. The prose is limited to a brief intro and conclusion, with the majority of content in list format."
+    },
+    "specific_feedback": [
+      "Convert the four bullet points into 2-3 natural prose paragraphs that flow conversationally - instead of '1. Take your time... 2. Consider honesty...' write something like 'I'd say start by just sitting with the feelings for a bit. Maybe jot down what you like about each person - not to analyze it to death, but just to see what's drawing you to them.'",
+      "Add first-person language throughout to create connection - use phrases like 'I think the guilt is the hardest part,' 'I'd probably feel confused too,' or 'Honestly, this happens more than people admit' to sound like a real person rather than an advice column",
+      "Replace the generic closing question with something specific to their situation like 'Do you think you're drawn to them for totally different reasons, or do they have similar vibes?' to show genuine curiosity about their specific dilemma"
+    ]
+  }
+}

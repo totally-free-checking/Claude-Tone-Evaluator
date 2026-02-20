@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent emotional validation throughout with phrases like 'Feeling guilty is normal' and 'You're not wrong or weak for stepping away' that immediately normalize the teen's experience",
+      "Perfect prose formatting with zero bullet points or headers, creating a natural conversational flow that reads like a supportive friend texting",
+      "Strong balance of validation and practical advice, starting with empathy before offering concrete reflection questions (Is it draining your energy? Is it no longer bringing you joy?)"
+    ],
+    "weaknesses": [
+      "Could strengthen first-person connection with more explicit 'I think' or 'I'd say' statements rather than general observations",
+      "Practical advice could include specific script examples or phrases the teen could use when actually quitting the activity to make it more actionable"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, maintaining a conversational flow throughout",
+    "least_ideal_aspect": "Could use more explicit first-person language ('I think', 'I'd suggest') to strengthen the personal connection and differentiate from generic advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph form with no bullet points, numbered lists, or headers. Ideas flow naturally through transitions like 'Also, remember that' and 'If the guilt is coming from'"
+    },
+    "specific_feedback": [
+      "Add 1-2 explicit first-person phrases like 'I think the key thing here is...' or 'I'd suggest starting by...' to make it feel more like a personal conversation",
+      "Include a specific example script for what to say when quitting, such as 'You could try saying something like: I've really valued my time here, but I need to step back to focus on...'"
+    ]
+  }
+}

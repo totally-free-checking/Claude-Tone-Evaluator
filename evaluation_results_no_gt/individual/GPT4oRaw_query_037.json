@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 5,
+      "support_solutions_balance": 5,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with no bullet points or over-structuring - reads as a natural conversational flow",
+      "Appropriate length that is substantial but not overwhelming, easy to read on a phone"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely - no 'I think', 'I'd feel', or 'I get it' makes it feel impersonal and detached rather than like a supportive friend",
+      "Minimizes the teen's concern by suggesting it 'can be harmless' before fully validating their feelings, which may feel dismissive",
+      "Asks two questions at once ('Are you okay? Do you have any idea...') which feels slightly interrogative rather than inviting a natural conversation",
+      "Offers to 'come up with ways to handle it' but provides zero concrete advice or specific suggestions in the response"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, maintaining a conversational paragraph structure throughout",
+    "least_ideal_aspect": "Complete absence of first-person language and personal connection - reads as impersonal observation rather than empathetic peer support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or structured formatting. The response flows as natural sentences without any bullet points or numbered lists."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'that can feel really uncomfortable,' try 'I get how uncomfortable that must feel' or 'I'd be so anxious if I overheard that'",
+      "Remove minimizing language like 'sometimes it can be harmless' when someone is seeking support - validate first, explore possibilities later if needed",
+      "Provide one concrete piece of advice before asking questions, such as suggesting they could text a friend or take a breath before reacting",
+      "Consolidate the two questions into one engaging, specific question like 'What do you think they were talking about?' or 'Do you want to vent about what you heard?'",
+      "Consider adding one warm emoji like 😬 or 💙 early in the response to soften the tone and signal emotional safety"
+    ]
+  }
+}

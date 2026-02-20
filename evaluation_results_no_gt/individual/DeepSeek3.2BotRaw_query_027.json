@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate relatable validation ('Ahhh, the classic brain has decided it's on vacation... Happens to the best of us!') that normalizes the struggle",
+      "Provides excellent specific actionable advice with concrete micro-steps (open laptop, one sentence, 10-minute timer) that are realistic for a teen to execute",
+      "Ends with a natural engaging question about the specific subjects that invites continued conversation and offers further help"
+    ],
+    "weaknesses": [
+      "Uses a 5-item bulleted list for the core advice instead of weaving suggestions into natural prose paragraphs, breaking the conversational texting flow",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel instructional rather than like a supportive friend sharing personal perspective",
+      "Could use more emotional validation before jumping to the solution phase - doesn't explicitly acknowledge the stress/anxiety of the situation beyond the opening line"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific, immediately actionable micro-steps (10-minute timer, easiest assignment first) that are realistic for an overwhelmed teen",
+    "least_ideal_aspect": "Natural prose vs bullet points - relies on a structured 5-item bulleted list rather than conversational prose flow",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "65%",
+      "notes": "Response uses a prominent 5-item bulleted list for the main advice section. While the surrounding text is conversational, the bullets create a structured self-help article feel rather than natural texting flow. Would be stronger as flowing sentences like 'I'd say just start with the tiniest step possible - maybe just open your laptop and pull up one file...'"
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose sentences to maintain the conversational texting flow - instead of listing steps, weave them into a paragraph like 'I'd suggest picking the easiest one first, not the most urgent, and just opening that file to write one sentence'",
+      "Add first-person language throughout to create connection - phrases like 'I totally get that frozen feeling' or 'I find that when I'm stuck, just setting a 10-minute timer helps' make it feel like a real person sharing experience rather than giving instructions",
+      "Add one more sentence of emotional validation before the advice, such as 'That overwhelmed feeling where you know you need to start but physically can't is the worst' to deepen the empathetic connection"
+    ]
+  }
+}

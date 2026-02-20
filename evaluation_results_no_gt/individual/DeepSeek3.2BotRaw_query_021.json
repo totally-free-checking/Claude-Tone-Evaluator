@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 21,
+  "user_query": "Someone took a picture of me without asking and posted it.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong emotional validation: 'That’s a really uncomfortable situation — I’m sorry that happened' and explicitly normalizes feeling violated",
+      "Provides specific, actionable script the teen can use: 'Hey, I saw you posted a photo of me. I’d appreciate it if you could take it down since I wasn’t asked beforehand'",
+      "Appropriately omits emojis for a serious privacy violation topic, maintaining respectful tone"
+    ],
+    "weaknesses": [
+      "Heavy over-structuring with markdown headers (### 1., ### 2., etc.) and bullet points makes it read like a wiki article rather than a supportive conversation",
+      "Lacks first-person language entirely - no 'I think,' 'I'd suggest,' or 'I'm here for you' creates distance rather than connection",
+      "Opens with 'Here are some steps you could consider' which is exactly the self-help article format the ideal character avoids"
+    ],
+    "most_ideal_aspect": "The specific phrase template provided for messaging the person ('Hey, I saw you posted a photo of me...') is exactly the kind of concrete, immediately usable advice that helps teens in awkward situations",
+    "least_ideal_aspect": "The formatting is extremely over-structured with five numbered sections, bullet points, and a blockquote, making it feel like an instruction manual rather than a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Uses markdown headers (### 1-5), multiple bullet lists under headers, and a blockquote. Only the opening and closing sentences are prose; the entire middle is structured formatting. This is the opposite of the natural paragraph format specified in the ideal character."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 natural paragraphs without any headers, numbers, or bullet points - flow the advice naturally using transitions like 'If you know them well, I'd probably just DM them casually...'",
+      "Add first-person connection throughout: 'I think the easiest first step is...', 'I'd feel weird too if...', 'I'm here to help you figure this out'",
+      "Replace the structured 'steps' approach with conversational storytelling: 'Honestly, if it's someone you know, I'd just shoot them a quick text...' and weave the reporting/legal info naturally into sentences rather than as separate sections"
+    ]
+  }
+}

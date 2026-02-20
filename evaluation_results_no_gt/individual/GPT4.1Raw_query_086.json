@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 86,
+  "user_query": "I messed up in front of everyone and I can’t stop replaying it.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 3,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points and natural paragraph flow that reads like a text conversation",
+      "Strong use of first-person language throughout ('I'm really sorry','I'm here to listen') creating personal connection",
+      "Effective balance of emotional validation and practical perspective-shifting advice"
+    ],
+    "weaknesses": [
+      "Missing engaging follow-up question at the end - closes with a statement rather than inviting continued conversation",
+      "Practical advice could be more concrete regarding how to stop the rumination loop in the moment",
+      "Lacks an opening 'hook' of immediate emotional resonance (like 'Ugh, that's the worst') before the apology"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with perfect paragraph structure and zero bullet points, maintaining conversational flow throughout",
+    "least_ideal_aspect": "Follow-up question engagement - fails to end with a specific question to continue the conversation, instead offering a general invitation to talk",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text (except italicized 'so'), or structural formatting. Reads exactly like a supportive message from a friend."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question at the end like 'What happened exactly?' or 'How long have you been replaying it?' to invite continued conversation",
+      "Consider adding one gentle emoji (like 😅 or 💙) early in the response to enhance warmth, or keep as-is for serious tone",
+      "Include one concrete technique for interrupting rumination (like the 5-4-3-2-1 grounding technique or 'snap a rubber band') to make advice more actionable"
+    ]
+  }
+}

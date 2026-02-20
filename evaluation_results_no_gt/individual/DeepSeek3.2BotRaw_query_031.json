@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Strong immediate emotional validation with 'We've all been there' and acknowledging the 'moment of panic'",
+      "Specific, actionable advice including app features like 'hide activity from others' and realistic context about notification settings"
+    ],
+    "weaknesses": [
+      "No follow-up question at the end to continue the conversation - ends with a statement instead of engagement",
+      "Lacks first-person singular language ('I think', 'I'd say', 'I get it') emphasized in the ideal character, using more general 'you' and 'it happens' statements instead"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, creating a flowing conversational feel perfect for texting",
+    "least_ideal_aspect": "Missing follow-up question engagement - fails to end with a natural question to invite the teen to share more or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs, no lists, headers, or bold text. Ideal formatting for teen support bot."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'What were you looking for when you found that old post?' or 'Has this ever happened to you before?' to keep the conversation going",
+      "Incorporate first-person language like 'I think I'd just unlike it and...' or 'I get why that feels mortifying' to create a more personal, supportive connection rather than general statements"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Strong first-person language throughout ('I'm really sorry','I can listen') creating personal connection",
+      "Good balance between emotional validation (first paragraph) and practical advice (second paragraph)"
+    ],
+    "weaknesses": [
+      "Missing a specific follow-up question at the end - 'Let me know what you need' is an invitation but not an engaging question",
+      "Could open with slightly more casual, immediate validation ('Ugh, that's the worst feeling') rather than 'I'm really sorry you're feeling that way'",
+      "Lacks emoji entirely - while not required, a single 💙 or 😔 could enhance warmth for this emotional topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Follow-up engagement - fails to end with a specific question that would invite the teen to share more details about their situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No lists, headers, bold text, or over-structuring. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a specific, engaging question at the end like 'What's usually happening right before you feel most left out?' or 'Do you think your friends realize you're feeling this way?'",
+      "Consider opening with slightly more casual empathy like 'Ugh, that's such a rough feeling' before the validation to match teen conversational style",
+      "Optional: Add one gentle emoji (like 💙 or 😔) early in the response to set a warm, supportive tone for this emotionally vulnerable topic"
+    ]
+  }
+}

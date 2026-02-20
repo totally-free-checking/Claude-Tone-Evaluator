@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 15,
+  "user_query": "My sibling keeps going through my stuff and I’m about to lose it.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 4,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Asks whether they want advice or just need to vent, showing emotional intelligence and giving the teen agency in a situation where they feel a loss of control",
+      "Perfect prose format with zero bullet points or headers - reads like a natural text message",
+      "Opens with immediate validation using casual language ('Ugh, that sounds really frustrating')"
+    ],
+    "weaknesses": [
+      "Does not actually provide any concrete practical advice - only offers to help later without giving specific suggestions",
+      "Lacks first-person connection and natural contractions; uses formal phrasing like 'Siblings can sometimes push our boundaries' instead of 'I get how annoying that is' or 'I'd be so mad too'",
+      "Validation feels mild compared to the intensity of 'about to lose it' - misses opportunity to match their emotional urgency"
+    ],
+    "most_ideal_aspect": "Natural prose format with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of concrete practical advice - only offers to help rather than providing specific actionable suggestions like example phrases to use with the sibling",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no lists, headers, or bold text. Response flows as a single natural paragraph appropriate for texting."
+    },
+    "specific_feedback": [
+      "Add specific first-person language like 'I'd be losing it too' or 'I totally get why that's maddening' to create stronger personal connection",
+      "Include at least one concrete suggestion immediately (e.g., 'Maybe you could try saying...') rather than only offering to help later, since the ideal character balances validation with actionable advice",
+      "Consider adding one warmth emoji (like 😤 or 😅) given the frustration level, or intensify the validation language to match 'about to lose it' energy instead of the mild 'really frustrating'"
+    ]
+  }
+}

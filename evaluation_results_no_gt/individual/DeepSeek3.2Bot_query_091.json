@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout with natural usage of 'I think,' 'I'd probably,' and 'I get it' creating authentic connection",
+      "Immediate emotional validation with specific empathetic phrasing like 'that awful, sinking realization' and 'stepping stone feeling'",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation with smooth transitions between validation and advice"
+    ],
+    "weaknesses": [
+      "Advice section could offer a specific conversation script for addressing the issue directly with the friend, rather than only suggesting the 'pull back and observe' approach",
+      "While the follow-up question is good, an additional engaging question earlier in the response could further strengthen the conversational feel"
+    ],
+    "most_ideal_aspect": "The natural conversational prose format with consistent first-person language ('Honestly, I get it,' 'I think the best thing,' 'I'd probably start pulling back') that makes it feel like texting with a supportive friend rather than receiving formal guidance",
+    "least_ideal_aspect": "The practical advice relies heavily on the indirect 'pull back and see if they notice' strategy without offering specific phrases the teen could use to directly communicate their feelings to the friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or headers. Advice is seamlessly integrated into natural sentences like 'I think the best thing you can do is pay attention to the pattern' rather than being listed as actionable items."
+    },
+    "specific_feedback": [
+      "Consider offering a specific script for direct communication (e.g., 'Hey, I feel like we only hang out when X is around') as an alternative to the pull-back strategy for teens who prefer addressing issues head-on",
+      "The response is strong overall; maintain this level of first-person language and prose formatting in future responses"
+    ]
+  }
+}

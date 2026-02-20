@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use (e.g., 'Hey, I appreciate your messages, but I need some time to myself sometimes')",
+      "Ends with a natural, engaging follow-up question that invites continuation ('Want help composing a message to send?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and bold headers (**1. Be honest and direct:**) makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language entirely - uses 'You could say' instead of 'I'd suggest' or 'I think,' creating distance rather than connection",
+      "Jumps to practical solutions after only one brief validating sentence ('That's a tough situation!'), missing deeper emotional acknowledgment"
+    ],
+    "most_ideal_aspect": "The follow-up question is natural and specific to the situation, perfectly inviting the teen to continue the conversation",
+    "least_ideal_aspect": "The formatting uses a 3-step numbered list with bold headers, which is the opposite of the conversational prose style ideal for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "30%",
+      "notes": "Response uses three numbered items with bold headers (**1. Be honest and direct:**), which dominates the structure. While there are prose paragraphs at the beginning and end, the core advice is delivered in a list format that feels instructional rather than conversational."
+    },
+    "specific_feedback": [
+      "Convert the numbered list to flowing prose paragraphs - instead of '1. Be honest... 2. Set your expectation...', write naturally: 'I'd start by being honest with them. You could say something like... Then, let them know how often you're comfortable texting...'",
+      "Add first-person language throughout to create connection: 'I get how awkward that feels,' 'I'd probably say something like,' or 'I'm here to help you figure this out'",
+      "Expand the emotional validation at the beginning before offering solutions - acknowledge how overwhelming nonstop texts feel and validate that it's okay to want space"
+    ]
+  }
+}

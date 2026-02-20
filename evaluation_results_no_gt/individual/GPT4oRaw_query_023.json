@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally in conversational paragraphs",
+      "Provides specific, actionable advice realistic for teens (bringing a book/doodling, specific phrase 'Mind if I sit here?')",
+      "Appropriate single emoji usage (😊) at the end that enhances warmth without being excessive"
+    ],
+    "weaknesses": [
+      "No follow-up question to continue the conversation - ends abruptly without engaging the user to share more",
+      "Lacks first-person language and connection - uses impersonal phrasing like 'Here's something to keep in mind' and 'Alternatively' instead of 'I think' or 'I'd say'",
+      "Opening validation 'Ah, I'm sorry to hear you're feeling that way' feels somewhat clinical/formal rather than warmly conversational"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - reads like a text message rather than a self-help article",
+    "least_ideal_aspect": "Missing follow-up question - fails to invite the teen to continue the conversation or share more details about their situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'Do you usually sit with friends, or is today different?' or 'What feels like the hardest part about sitting alone?' to keep the conversation going",
+      "Replace impersonal transitions like 'Alternatively' and 'Here's something to keep in mind' with first-person language like 'Or, if it were me, I'd...' or 'I think the best thing might be...' to create a more personal connection",
+      "Consider a warmer, more immediate opening like 'Ugh, that sinking feeling when you realize you're sitting alone? I totally get that' instead of the more formal 'Ah, I'm sorry to hear you're feeling that way'"
+    ]
+  }
+}

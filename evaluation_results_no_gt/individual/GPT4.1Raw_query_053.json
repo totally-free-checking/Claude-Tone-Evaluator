@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 53,
+  "user_query": "My friend keeps cancelling plans last minute.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, making it feel like a real conversation",
+      "Validates feelings immediately with 'That's really frustrating!' and acknowledges the disappointment of cancelled plans",
+      "Provides realistic, age-appropriate advice that recognizes the teen's agency (protecting their own time) while suggesting compassionate approaches"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'It can feel' and 'Sometimes people don't realize' which creates distance rather than connection",
+      "Could be warmer and more relatable - 'That's really frustrating' is polite but lacks the casual empathy of 'Ugh, that's the worst!' or 'We've all been there'",
+      "Ends with a closed-ended yes/no question ('Would you like some advice...') rather than an open, engaging question that invites sharing"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads as continuous conversational text",
+    "least_ideal_aspect": "Absence of first-person language makes the response feel impersonal and detached, like reading an advice column rather than texting with a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose structure with no lists, headers, or bold text. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection: instead of 'It can feel hurtful,' try 'I get why that feels hurtful,' or 'I'd be so disappointed too'",
+      "Replace the closed-ended final question with something more conversational and open, like 'Do you think something's going on with them, or is this just how they are?'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to set a supportive tone, or use more casual validating phrases like 'Ugh, that's so annoying!'"
+    ]
+  }
+}

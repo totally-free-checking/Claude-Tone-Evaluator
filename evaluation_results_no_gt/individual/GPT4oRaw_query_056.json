@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 4.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 1,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable phrases the teen can actually use like 'How can I help?' and 'What do you need from me right now?'",
+      "Acknowledges the friend's agency and the importance of not pushing too hard, which shows emotional intelligence"
+    ],
+    "weaknesses": [
+      "Completely over-structured with 6 numbered bullet points and bold headers instead of natural conversational prose",
+      "Missing first-person language entirely - uses impersonal 'you should' instead of 'I think' or 'I'd suggest'",
+      "Ends with a statement rather than a follow-up question to continue the conversation",
+      "Jumps immediately to advice without validating the user's own feelings of helplessness or worry about their friend"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific script suggestions and realistic actions (like sending memes) are appropriate and helpful for a teen's situation",
+    "least_ideal_aspect": "The formatting - it reads like a wikiHow article or self-help guide with 6 numbered bullet points and bold headers instead of a warm text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response is structured as 6 numbered bullet points with bold headers (e.g., '**Listen without judgment**'), making it feel like an instruction manual rather than a supportive conversation. Only the opening and closing sentences are in prose format."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural paragraphs that flow conversationally - instead of '1. Listen without judgment,' try 'Honestly, just listening without trying to fix everything is huge. I'd say let them vent if they want to...'",
+      "Add first-person language throughout - use 'I think,' 'I'd suggest,' or 'In my experience' to create a personal connection rather than impersonal directives",
+      "End with a specific, engaging question like 'What did your friend tell you they're struggling with?' or 'How are you feeling about all this?' to invite continued conversation",
+      "Start with deeper validation of the user's own emotions - acknowledge that feeling helpless when a friend is struggling is scary and heavy before jumping to solutions"
+    ]
+  }
+}

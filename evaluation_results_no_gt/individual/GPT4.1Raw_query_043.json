@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 43,
+  "user_query": "I think my friend is lying to me and I don’t know how to ask.",
+  "evaluation": {
+    "overall_score": 4.9,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable phrases the teen can actually use in the conversation (e.g., 'I've been feeling confused about something you said')",
+      "Appropriate length that doesn't overwhelm - can be easily read on a phone"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and bold headers makes it read like a wikiHow article rather than a conversation with a friend",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' to create personal connection",
+      "Opens with mild validation ('That sounds stressful') but immediately jumps to structured advice without deeper emotional acknowledgment",
+      "Ends with a statement ('If you want, I can help...') rather than an engaging question to continue the conversation"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific script suggestions and 'I' statement examples are realistic and immediately usable for a teen in this situation",
+    "least_ideal_aspect": "The formatting and structure - using a 4-step numbered list with bold headers is the opposite of the natural prose paragraphs that would make this feel like a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses a numbered list (1-4) with bold headers for each step, plus example quotes formatted as separate lines. Only the opening and closing sentences are in prose paragraphs, making this feel like a self-help guide rather than a text from a supportive friend."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as flowing prose instead of numbered steps - for example, 'I'd probably start by finding a calm moment to talk, and then maybe say something like...'",
+      "Add first-person connection throughout: 'I think the trick is...' or 'I'd feel nervous too, but here's what might work...'",
+      "End with an actual question to invite conversation, such as 'What part feels hardest - the actual asking or worrying about what you'll find out?'",
+      "Deepen the emotional validation at the start: 'Ugh, that sinking feeling when you start doubting someone you trust is the worst. I'm really sorry you're carrying that around.'"
+    ]
+  }
+}

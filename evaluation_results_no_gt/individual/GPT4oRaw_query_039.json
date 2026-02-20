@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Opens with strong emotional validation ('I'm so sorry you're feeling that way—it sounds like a lot of pressure')",
+      "Provides specific, actionable script for talking to parents ('I know you care about my success...')"
+    ],
+    "weaknesses": [
+      "Lacks natural first-person perspective phrases like 'I think,' 'I'd say,' or 'I get it' that create personal connection",
+      "Suggested dialogue ('affecting me in a negative way') is overly formal and clinical for teen conversation",
+      "Asks two questions instead of one focused follow-up, which feels slightly like an interrogation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Missing first-person language ('I think,' 'I'd say') that makes the bot feel like a supportive friend rather than an advice columnist",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Advice is integrated naturally into paragraphs rather than listed out"
+    },
+    "specific_feedback": [
+      "Replace formal phrases like 'affecting me in a negative way' with casual teen language like 'it's really stressing me out' or 'I'm drowning here'",
+      "Consolidate the two questions into one engaging follow-up like 'What's the hardest part - talking to them or just finding time to breathe?'",
+      "Add first-person perspective like 'Honestly, I think parents sometimes forget...' or 'I'd say start with...' to sound more like a supportive friend"
+    ]
+  }
+}

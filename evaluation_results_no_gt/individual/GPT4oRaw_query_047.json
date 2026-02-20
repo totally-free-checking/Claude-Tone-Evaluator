@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual, relatable language like 'Ah, that's rough' and acknowledges the specific pain of 'feeling like you're the only one missing out'",
+      "Maintains pure natural prose format with zero bullet points or structural formatting, reading like an authentic text message",
+      "Provides realistic, age-appropriate advice that acknowledges teen agency limitations, suggesting specific compromises like 'giving them updates while you're out' rather than demanding full freedom"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language throughout - uses impersonal constructions like 'Sometimes talking things through calmly can help' and 'Like maybe you can ask' instead of 'I'd suggest' or 'I think you could try'",
+      "Closing question 'What do you think?' is overly generic and fails to show genuine curiosity about their specific family dynamics or previous attempts",
+      "Transitions too rapidly from validation to problem-solving with 'Have you had a conversation...' without sufficient emotional acknowledgment or 'I'm here for you' type support"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring, creating an authentic conversational flow that feels like texting",
+    "least_ideal_aspect": "Absence of first-person perspective and impersonal advice delivery that creates emotional distance rather than the warm, personal connection of 'I've got your back'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely single-paragraph prose with no formatting structures, lists, or headers, which aligns perfectly with the conversational character profile"
+    },
+    "specific_feedback": [
+      "Incorporate first-person language naturally throughout, such as 'I'd say the first step is...' or 'I think you could try asking...' to create a more personal, supportive connection rather than distant observations",
+      "Replace the generic closing question with something specific to their situation, like 'What have you tried telling them so far about how left out you feel?' or 'Do you think they'd be open to a trial run if you promised to text every hour?'",
+      "Add one more sentence of emotional validation before jumping to the solution-focused question, such as 'I get how unfair that feels when everyone else is posting about their plans'"
+    ]
+  }
+}

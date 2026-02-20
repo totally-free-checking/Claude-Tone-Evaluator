@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('I'm so sorry - that's honestly the worst feeling!') and acknowledges the betrayal aspect of the situation",
+      "Uses natural first-person language throughout ('I'd start by letting them know,' 'I know it feels like a bit of a betrayal') creating a personal, supportive voice",
+      "Provides specific, actionable script the teen can actually use ('Hey, I noticed my [item] came back pretty damaged. What happened?')"
+    ],
+    "weaknesses": [
+      "Could include slightly more emotional validation in the middle section before jumping to the practical steps",
+      "The phrase 'simmering resentment' is slightly more formal than typical teen conversational language, though still natural"
+    ],
+    "most_ideal_aspect": "The response maintains perfect prose formatting with zero bullet points or headers, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "The balance between emotional support and practical advice slightly favors the practical side, with two paragraphs of advice following one paragraph of validation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in three natural paragraphs with no formatting, lists, or structural elements - exactly matching the ideal conversational prose format"
+    },
+    "specific_feedback": [
+      "Consider adding one brief validating phrase mid-response before the practical advice to enhance the emotional support balance",
+      "The follow-up question is excellent and specific; maintain this level of situational specificity in future responses"
+    ]
+  }
+}

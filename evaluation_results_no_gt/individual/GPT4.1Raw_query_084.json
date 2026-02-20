@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 84,
+  "user_query": "I got grounded and it feels unfair.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or formatting - reads like a text from a friend",
+      "Strong conversational first-person language using 'I'm sorry,' 'we can figure out,' and casual phrasing like 'can suck'",
+      "Natural, specific follow-up question ('what happened?') that invites the teen to share more without being generic"
+    ],
+    "weaknesses": [
+      "Slightly brief at only two sentences - could feel slightly thin despite being supportive",
+      "Opening validation ('I'm sorry you're feeling that way') is somewhat generic and could be more emotionally specific ('Ugh, that unfair feeling is the worst')",
+      "Lacks an emoji that could enhance warmth for this emotionally charged situation (though zero is acceptable, one 😕 or 😤 would help)"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow - perfectly avoids bullet points and over-structuring",
+    "least_ideal_aspect": "Length and brevity - while not dismissive, it could be slightly more substantial to feel fully supportive",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured elements. Reads as continuous natural text."
+    },
+    "specific_feedback": [
+      "Expand slightly with one more sentence of specific validation about the 'unfair' feeling before asking what happened - acknowledge how frustrating it is when consequences feel disproportionate",
+      "Consider adding one warm emoji (like 😕 or 😤) after 'feels unjust' to visually reinforce the empathy",
+      "When asking 'what happened,' could add a bit more reassurance like 'I'm all ears' or 'I'm here to listen' to strengthen the supportive tone"
+    ]
+  }
+}

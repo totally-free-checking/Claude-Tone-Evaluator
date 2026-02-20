@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Provides specific, actionable advice including an exact script the teen could use ('Sure, I'm available. Just so I can prepare, is there a particular topic you want to discuss?')",
+      "Opens with immediate validation ('Totally understandable — that phrase can make anyone's stomach drop') acknowledging the physical anxiety response"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured formatting with numbered bullet points and bold headers (**Don't panic-spiral**, **Plan a response**, **Ground yourself**) instead of natural conversational prose",
+      "Completely missing a follow-up question to continue the conversation - ends with a statement ('Hang in there') rather than inviting further dialogue",
+      "Lacks first-person language throughout - uses impersonal 'you could' instead of 'I'd suggest' or 'I think', creating distance rather than connection"
+    ],
+    "most_ideal_aspect": "The practical advice quality, specifically providing a concrete text script they can send to get more information before the conversation",
+    "least_ideal_aspect": "The formatting structure - using a numbered list with bold headers makes it read like a wikiHow article rather than a supportive text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses a numbered list (1, 2, 3) with bold headers for each point, breaking conversational flow. The advice is delivered as a checklist rather than woven naturally into prose paragraphs."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs - instead of '1. Don't panic-spiral... 2. Plan a response...', write something like 'I'd try not to panic-spiral first... And if you want to ease the tension, you could text back something like...'",
+      "Add a natural follow-up question at the end such as 'Do you have any idea what it might be about, or is it coming totally out of nowhere?' to invite continued conversation",
+      "Incorporate first-person language throughout to build connection - use phrases like 'I get why that's terrifying,' 'I'd probably be freaking out too,' or 'I'm here if you need to talk through it after'",
+      "Spend more time on emotional validation before jumping to solutions - sit with the anxiety for a sentence or two before offering the 'it doesn't always mean something bad' perspective"
+    ]
+  }
+}

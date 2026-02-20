@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, reading like a text message",
+      "Provides specific, actionable advice like writing things down beforehand or practicing out loud, which is realistic for a teen's agency",
+      "Ends with a natural, engaging question that offers two specific paths forward (sharing the worry or getting conversation tips)"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely - uses 'you' and 'they' instead of 'I think,' 'I'd say,' or 'I get it,' making it feel like generic advice rather than a personal conversation",
+      "Could open with stronger emotional validation - 'It's totally normal' is good but misses the opportunity for more empathetic language like 'Ugh, that anxiety is the worst' or 'That door feels so heavy to open'",
+      "Absence of emojis makes it slightly less warm than it could be; a single 😅 or 💙 would enhance the supportive tone"
+    ],
+    "most_ideal_aspect": "The prose formatting and structure - it flows naturally as conversational text without any bullet points, headers, or over-formatting, perfectly matching the ideal of texting with a supportive friend",
+    "least_ideal_aspect": "The impersonal tone lacking first-person language - it reads like helpful general advice rather than a supportive peer saying 'I understand' or 'I'd suggest,' which creates emotional distance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, lists, or headers. The advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'Remember, their job is to help,' try 'I get why that feels nerve-wracking, but honestly? Their job is literally to help people like us'",
+      "Open with stronger emotional validation before the logical reassurance: 'Ugh, that pre-counselor anxiety is so real - my stomach would do flips too' before explaining it's normal",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to signal friendliness, or use more casual interjections like 'Honestly' or 'Real talk' to enhance the conversational feel"
+    ]
+  }
+}

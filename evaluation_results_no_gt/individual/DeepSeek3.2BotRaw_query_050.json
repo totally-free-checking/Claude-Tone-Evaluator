@@ -1,0 +1,43 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 4.0,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 1,
+      "followup_question": 5,
+      "support_solutions_balance": 2,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Uses natural prose format without any bullet points or over-structuring",
+      "Acknowledges the situation is 'tough' and recognizes the difficulty of having to work together"
+    ],
+    "weaknesses": [
+      "Extremely brief (only 2 sentences) which feels dismissive of the emotional weight of being hated by a classmate",
+      "Complete absence of first-person language ('I think', 'I get it', 'I'd feel') making it sound clinical rather than like a supportive friend",
+      "Offers zero practical advice or concrete strategies for handling the situation",
+      "Follow-up questions feel like a therapist intake form ('Want to talk about...') rather than natural conversation",
+      "Lacks meaningful emotional validation beyond the generic 'tough situation'"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or excessive formatting",
+    "least_ideal_aspect": "Length and lack of first-person warmth - the response is too short and impersonal, reading like a clinical redirect rather than supportive peer advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "The response is entirely prose with no formatting issues, but the brevity makes it feel dismissive rather than conversational"
+    },
+    "specific_feedback": [
+      "Expand to 2-4 paragraphs that include genuine emotional validation ('Ugh, that's so awkward', 'I get why you'd feel dread about this') before offering advice",
+      "Add first-person language throughout ('I think the best approach is...', 'I'd feel stressed too', 'I'm here to help you figure this out') to create connection",
+      "Provide specific, actionable advice for working with hostile partners (conversation starters, boundary setting, teacher communication strategies) rather than just asking what they want to do",
+      "Use 0-1 warm emoji (like 😅 or 💙) early in the response to set a supportive tone",
+      "Ask one natural, specific follow-up question rather than the clinical double-barreled 'why... or how...' format"
+    ]
+  }
+}

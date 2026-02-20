@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 73,
+  "user_query": "My friend keeps making everything a competition.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a text from a friend",
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've noticed... it's not really my vibe')",
+      "Opens with immediate validation ('Ugh, that can be frustrating!') and uses casual teen-appropriate language ('keep things more chill')"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question to continue the conversation - ends abruptly",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel impersonal rather than like a specific person connecting with them",
+      "Could deepen emotional validation beyond the opening sentence before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Missing follow-up question engagement - a teen support bot should nearly always end with a question to show continued interest in their situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No lists, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end to continue the conversation, such as 'Has this been happening with a specific friend or just in general?' or 'How long has this competitive vibe been going on?'",
+      "Incorporate first-person language to create connection: change 'You could say something like' to 'I'd probably say something like' or 'I think you could try saying'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the casual, friendly tone, though this is less critical than the missing first-person language"
+    ]
+  }
+}

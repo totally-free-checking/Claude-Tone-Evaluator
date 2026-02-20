@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 5,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Uses natural prose format without any bullet points or over-structuring, reading like a text message",
+      "Maintains a non-judgmental tone that doesn't make the teen feel bad about being annoyed with their parents"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely - missing 'I think,' 'I'd say,' or 'I get it' that creates personal connection",
+      "Too brief and somewhat dismissive - only 3-4 sentences that minimize the situation with 'a little stressful' rather than fully validating",
+      "Asks multiple questions at once ('Are you feeling bothered by it? Or is it more playful?') which can feel overwhelming",
+      "Offers to help but provides zero concrete advice or specific phrases the teen could use"
+    ],
+    "most_ideal_aspect": "The prose formatting is perfect - it flows naturally as conversational text without any bullet points, headers, or over-structuring, matching the ideal of texting with a friend.",
+    "least_ideal_aspect": "The response lacks first-person empathetic language and concrete advice - it feels impersonal and puts the burden back on the teen with 'Let me know what you'd like to do' rather than offering specific suggestions or sharing 'I've been there' validation.",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "The response is entirely prose with no bullet points, numbered lists, or headers. This is excellent and matches the ideal character perfectly. However, the prose is overly brief and functional rather than warm and expansive."
+    },
+    "specific_feedback": [
+      "Add first-person empathetic statements like 'Ugh, I get how annoying that is' or 'I'd feel so invaded too' to create personal connection before asking questions",
+      "Provide at least one concrete piece of advice or specific phrase they could use (like 'You could try saying...') rather than just offering to help later",
+      "Use 0-1 emoji to add warmth (like 😅 or 😊) since the text is very short and could feel cold",
+      "Ask one engaging follow-up question instead of two at once - maybe 'Do you think they're worried about something specific, or just being nosy?' to show you're really thinking about their situation"
+    ]
+  }
+}

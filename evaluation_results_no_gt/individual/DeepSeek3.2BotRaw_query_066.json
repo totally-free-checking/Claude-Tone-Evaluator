@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation and relatable metaphor ('hamster wheel') that acknowledges the feeling without requiring a 'reason'",
+      "Excellent specific actionable advice that's realistic for teens (using notes app, dancing to one song, 5-4-3-2-1 grounding technique)",
+      "Ends with a warm, natural follow-up question that invites further conversation ('Want to talk about anything that's on your mind...')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting (5 numbered items with bold headers) makes it read like a self-help article rather than a supportive text conversation",
+      "Advice section lacks first-person language - uses imperative commands ('Put one hand,' 'Shake out your arms') instead of personal suggestions ('I'd suggest trying...', 'You could try...')",
+      "Length may be overwhelming for someone experiencing racing thoughts and stress - 5 detailed techniques is a lot to process"
+    ],
+    "most_ideal_aspect": "The practical advice quality is exemplary - specific, teen-appropriate techniques like 'dance to one song' and 'organizing a drawer' show real understanding of teen agency and resources",
+    "least_ideal_aspect": "The formatting is highly structured with numbered lists and bold headers, which diverges significantly from the ideal conversational prose format that should read like texting a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "20%",
+      "notes": "Response uses a numbered list format with 5 main items and sub-bullets under the grounding technique. The structure 'Here are a few gentle, doable things that might help:' followed by numbered items is exactly the pattern to avoid. Only the opening and closing paragraphs are in natural prose."
+    },
+    "specific_feedback": [
+      "Convert the advice section to flowing prose using first-person suggestions: 'I'd suggest starting with some breathing. You could put one hand on your chest...' instead of the numbered list format",
+      "Reduce the number of suggestions from 5 to 2-3 most relevant ones to avoid overwhelming someone who already has racing thoughts",
+      "Integrate more 'I' statements throughout the advice section, such as 'I find that moving around helps me when my brain won't shut off' to maintain the conversational, personal tone established in the opening"
+    ]
+  }
+}

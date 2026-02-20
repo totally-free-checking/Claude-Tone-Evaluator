@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'I'd probably') creating a personal, supportive connection",
+      "Provides a specific, word-for-word script the teen can actually use when talking to parents ('Hey, my friend is having a party on Friday night...')",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Could slightly deepen the emotional validation by acknowledging the specific fear of rejection or disappointment before moving to solutions",
+      "The transition from validation to advice is slightly abrupt - could use a softer bridge like 'I totally get why that feels nerve-wracking'"
+    ],
+    "most_ideal_aspect": "Natural conversational prose with first-person perspective - uses 'I think' and 'I'd probably' to sound like a supportive friend rather than an advice column",
+    "least_ideal_aspect": "While good, the emotional validation could linger slightly longer on the nervousness before jumping into the practical strategy",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting, headers, or bullet lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence validating the specific anxiety about potential parental disappointment before offering the script",
+      "The follow-up question is excellent and specific, but could be even more engaging by referencing their specific parent dynamic mentioned in their response"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or over-structuring - reads like a natural text message",
+      "Provides realistic, immediately actionable advice specific to the situation (turning off Snap notifications, communicating with the friend)",
+      "Uses casual, teen-appropriate language ('Ugh', 'cool') without being cringe"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal phrasing like 'Have you thought about...' and 'Most people are cool...' instead of 'I think you could...' or 'I'd probably...'",
+      "Does not end with a follow-up question despite having questions earlier - closes with a statement ('Most people are cool about it once they know!') rather than engaging the user to continue",
+      "Brief validation ('Ugh, that sounds annoying!') quickly pivots to solutions without fully acknowledging the emotional weight of being exhausted"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, creating a conversational text-message flow",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say') making the response feel more impersonal than the ideal supportive friend character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is a single paragraph of natural prose with no formatting, headers, or bullet lists - perfectly matches the ideal prose-based approach"
+    },
+    "specific_feedback": [
+      "Add first-person language throughout, such as 'I think you could try...' or 'I'd probably turn off notifications...' to create the personal connection of a supportive friend",
+      "Move the follow-up question to the end of the response and make it specific to their situation, such as 'Do you think they'd be understanding if you mentioned it?' or 'What's stopping you from turning off the notifications?'",
+      "Expand the emotional validation slightly before offering solutions - acknowledge the exhaustion and frustration more fully with something like 'Being woken up constantly is so draining' before jumping to the fix"
+    ]
+  }
+}

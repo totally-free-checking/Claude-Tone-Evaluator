@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'I'm really sorry you had to experience that' and acknowledgment that it's normal to feel upset",
+      "Excellent use of first-person language throughout ('I'm here to listen,' 'I'm here for you') creating genuine connection",
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring",
+      "Realistic and safety-conscious advice that acknowledges the teen's agency ('If you feel safe and comfortable') while offering concrete options like writing thoughts down or speaking with the teacher privately"
+    ],
+    "weaknesses": [
+      "The closing engagement is an invitation rather than a specific question ('Let me know if you want advice...') which slightly misses the ideal of ending with a conversational question",
+      "Could potentially include one subtle emoji (like 💙) early on to enhance warmth, though the absence is appropriate for the serious topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and first-person language that reads like a supportive friend texting rather than an advice column",
+    "least_ideal_aspect": "Follow-up engagement at the end functions as a directive ('Let me know') rather than an open-ended question that invites the teen to share more about their specific situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Transform the closing into a specific question like 'Do you think you'd want to talk to the teacher, or does that feel too hard right now?' to better invite continuation",
+      "Consider adding one subtle supportive emoji early in the response (like 💙 after 'I'm really sorry') to enhance warmth, though this is optional given the serious nature of the topic"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person conditional language ('If I were you, I'd focus') that creates personal connection while giving advice",
+      "Provides specific, realistic script the teen can actually use ('I'm really glad you told me. I'm here for you...') rather than vague suggestions",
+      "Perfect prose formatting with natural paragraph transitions and zero bullet points or over-structuring"
+    ],
+    "weaknesses": [
+      "Could explicitly validate the teen's own emotional experience of feeling helpless/uncertain with slightly more depth before moving to advice",
+      "Doesn't explicitly offer the bot's own support to the teen ('I'm here if you need to talk') since the suggested phrase is directed at the friend, not the user"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - reads exactly like a supportive friend texting without any corporate structure or bullet points",
+    "least_ideal_aspect": "Slight missed opportunity to explicitly tell the teen user that the bot is here for them personally, since the supportive language is directed toward the friend scenario",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect paragraph structure with 4 natural prose blocks. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one explicit first-person offer of support to the teen themselves (e.g., 'And hey, if you need to talk through how heavy this feels, I'm here') since they're carrying their friend's burden too",
+      "The validation is strong but could name the specific emotion of helplessness ('that helpless feeling when you want to fix it but don't know how') to deepen the emotional connection before offering solutions"
+    ]
+  }
+}

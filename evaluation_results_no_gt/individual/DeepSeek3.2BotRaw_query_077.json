@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or over-structuring",
+      "Appropriate length that is substantial but not overwhelming - easy to read on a phone",
+      "Recognizes the potential seriousness of the situation by mentioning safety/well-being and suggesting trusted adults like parents or counselors"
+    ],
+    "weaknesses": [
+      "Lacks first-person language and conversational warmth - uses formal phrasing like 'it might be wise to' and 'it's important' instead of 'I think' or 'I'd suggest'",
+      "Follow-up question is generic ('How are you feeling about it?') rather than specific to the secret-keeping dilemma",
+      "Emotional validation feels distant ('It sounds like you're carrying something heavy') rather than warm and personal ('Ugh, that's such a heavy thing to hold' or 'I'm really sorry you're dealing with this')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads as a continuous conversational paragraph",
+    "least_ideal_aspect": "Conversational tone and first-person language - the response uses formal, impersonal constructions ('it might be wise to,' 'responsible adult') rather than casual first-person speech that would make it feel like a supportive friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is a single natural paragraph with no formatting structures, bullet points, or headers. Perfect prose format."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection - instead of 'it's important to think about why,' try 'I'd really think about why this is bothering you' or 'I get that this feels heavy'",
+      "Start with stronger emotional validation before giving advice - acknowledge how hard it is to be in this position before suggesting they talk to adults",
+      "Replace the generic follow-up question with something specific to their situation like 'What makes it feel serious?' or 'Do you feel like this is something that could hurt someone?'"
+    ]
+  }
+}

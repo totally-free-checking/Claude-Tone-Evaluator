@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I think', 'I promise', 'If I were you, I'd try') creating genuine connection",
+      "Strong immediate emotional validation with physical empathy ('Your stomach just drops') and relatable language ('Ugh, that's the worst feeling')",
+      "Perfect prose formatting with natural paragraph flow - zero bullets or over-structuring while maintaining readability",
+      "Natural, specific follow-up question that shows genuine interest in the details ('Was it a particular message... or has the conversation just sort of faded out?')"
+    ],
+    "weaknesses": [
+      "Practical advice could include one specific script or phrase example for what to text later if they don't respond",
+      "The blue heart emoji (💙) works but a 😅 or 😊 might feel slightly more natural for this specific anxiety-inducing situation"
+    ],
+    "most_ideal_aspect": "Conversational prose format with natural first-person language ('Honestly, I think', 'If I were you, I'd try') that sounds like a supportive friend texting rather than an AI giving instructions",
+    "least_ideal_aspect": "Practical advice section, while solid, could offer slightly more specific actionable scripts or phrases for follow-up communication rather than just distraction techniques",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific text script they could send later if needed (e.g., 'Hey, no worries if you're busy, just wanted to make sure you saw this!')",
+      "The validation is strong but could explicitly name the 'spiraling' feeling the user mentioned to show you really heard their specific word choice"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation with 'Ugh, that can totally feel awkward and uncomfortable' and 'It's okay not to click with everyone'",
+      "Very specific, actionable advice including exact scripts the teen can use like 'Hey, I really appreciate the effort you're making, but I'm keeping things low-key right now'",
+      "Appropriate casual language using teen-relevant terms like 'vibe' and 'totally' without being cringe"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers instead of natural prose paragraphs, making it read like a self-help article rather than a text conversation",
+      "Complete absence of follow-up question at the end - closes with a statement rather than engaging the user to continue the conversation",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') making the advice feel impersonal rather than like a supportive friend sharing perspective"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic strategies with specific wording examples that a teen could actually use immediately",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses four numbered bullet points with bold formatting headers which is the opposite of the conversational paragraph style ideal",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses a numbered list (1-4) with bold headers (Set Boundaries, Be Polite but Distant, etc.) for the majority of the content. Only the opening and closing sentences are prose. This creates a structured, listicle format rather than flowing conversational text."
+    },
+    "specific_feedback": [
+      "Rewrite the middle section as natural prose paragraphs instead of numbered bullets - integrate the advice into a flowing conversation like 'If they keep pushing, I think it's okay to gently let them know... You could say something like...'",
+      "Add an engaging follow-up question at the end such as 'Have they been crossing any specific boundaries that feel extra uncomfortable?' or 'What do you think is making the vibe feel off?'",
+      "Incorporate first-person language throughout to create connection, like 'I get how awkward that feels' or 'I'd probably try to keep conversations short and sweet' instead of imperative commands"
+    ]
+  }
+}

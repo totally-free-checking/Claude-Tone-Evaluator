@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation: 'Hey, that feeling really sucks, and it's totally understandable to feel anxious or hurt' immediately acknowledges the emotional weight",
+      "Provides specific, realistic self-care suggestions: 'Call a friend, watch something funny, go for a walk' gives concrete actions a teen can actually do right now"
+    ],
+    "weaknesses": [
+      "Uses a bulleted list with four items ('They got busy/distracted', 'They forgot to respond', etc.) instead of flowing prose, breaking the conversational text-message feel",
+      "Lacks first-person language entirely - no 'I think', 'I'd say', 'I get it', or 'I'm here' to create personal connection, making it feel more like general advice than a supportive friend"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers realistic, actionable suggestions for distraction and perspective that acknowledge teen agency without being patronizing",
+    "least_ideal_aspect": "Natural prose formatting - the bulleted list of reasons why someone might not reply is a significant departure from the conversational paragraph style ideal for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "75%",
+      "notes": "Uses a dashed bullet list to enumerate reasons why the crush might not have responded. This should be converted to a flowing sentence or paragraph to maintain the texting-a-friend vibe"
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose: 'There are so many reasons someone might not reply that have nothing to do with you—they might have gotten busy or distracted, forgotten to respond, felt overwhelmed, or just didn't think it needed an urgent reply'",
+      "Add first-person connection language like 'I totally get that spiral feeling' or 'I'd probably be staring at my phone too' to make it feel like a real person sharing the moment with them",
+      "Consolidate the final two questions into one specific, engaging question like 'What's your gut telling you about why they might not have responded yet?' instead of the generic 'How are you feeling'"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or over-structuring, reading like natural conversation",
+      "Ends with a specific, engaging follow-up question that invites the teen to share more about their specific worries",
+      "Provides concrete, actionable advice including specific phrasing the teen can use with parents ('let your parents know you’d like to focus on what matters now')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses impersonal 'Parents often...' and 'You can...' instead of 'I get that...' or 'I'd suggest...' which creates distance rather than connection",
+      "Validation uses minimizing language ('pretty normal', 'a bit stressful', 'just in tenth grade') that slightly dismisses the emotional weight rather than fully validating it"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person perspective and language - reads as impersonal advice rather than a supportive friend saying 'I get it' or 'I'd feel the same way'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses pure paragraph format with no bullet points, numbered lists, or structural formatting - perfectly aligned with ideal prose style"
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: replace 'Parents often start thinking...' with 'I get why that feels early - my parents did the same thing' or 'I'd feel overwhelmed too'",
+      "Strengthen emotional validation by removing minimizing words: change 'That's pretty normal, though it can feel a bit stressful' to 'Ugh, that's so much pressure!' or 'That sinking feeling is totally valid'",
+      "Consider adding one warm emoji (like 😅 or 💙) at the beginning to set a supportive tone, though this is less critical than the first-person fix"
+    ]
+  }
+}

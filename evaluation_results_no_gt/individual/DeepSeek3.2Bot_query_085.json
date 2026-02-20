@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think it's super common', 'I'd maybe try') creating genuine connection rather than impersonal advice",
+      "Strong immediate emotional validation ('That sounds so draining, honestly') that acknowledges the exhaustion before offering any solutions",
+      "Perfect prose formatting with natural conversational flow - reads like a supportive friend texting rather than a structured self-help guide"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice slightly mismatches the 'draining' emotional context (typically implies nervous laughter/embarrassment rather than empathy for exhaustion)",
+      "Could more explicitly validate the 'stuck' feeling mentioned in the query, though 'caught in the middle' partially addresses this"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and consistent first-person language ('I think', 'I'd say')",
+    "least_ideal_aspect": "Emoji choice slightly mismatched to the emotional weight of the draining situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph format throughout with natural transitions between validation and advice; no headers, bold text, or list formatting used"
+    },
+    "specific_feedback": [
+      "Consider using an emoji that better matches the emotional weight of exhaustion (like 😔, 💙, or simply omitting) rather than 😅 which implies nervousness",
+      "Explicitly name-check the 'stuck' feeling from their query ('feeling trapped in the middle') to show you heard that specific detail before moving to advice"
+    ]
+  }
+}

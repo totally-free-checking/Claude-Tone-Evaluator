@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a text from a supportive friend",
+      "Strong conversational language using first-person validation ('I get that') and casual phrasing ('Aw man', 'super frustrating', 'mix things up')",
+      "Ends with a specific, engaging follow-up question about the new seat that invites continued conversation"
+    ],
+    "weaknesses": [
+      "Validates feelings but immediately undermines them with 'but maybe your teacher did it to help you focus' - rushes to justify the teacher's perspective instead of sitting with the teen's anger longer",
+      "Could benefit from one warm emoji (like 😤 or 💙) to enhance emotional connection for this frustrating situation",
+      "The balance leans too heavily toward advice and perspective-shifting rather than emotional support"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - perfectly avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "Balance of support versus solutions - validates the anger briefly but pivots too quickly to rationalizing the teacher's actions and practical fixes rather than acknowledging how much it sucks",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No bullets, no bold text, no headers. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Extend the validation phase before offering the 'teacher's perspective' - instead of 'but maybe your teacher...' try something like 'That really sucks when you feel like you finally found your groove and then it gets disrupted. It's okay to be mad about that.' Then pause before offering the perspective",
+      "Add one warm emoji early in the response (like 😤 or 😅) to match the casual, friendly tone and signal emotional safety",
+      "Consider leading with more emotional acknowledgment ('Ugh, that's the worst!') before moving to actionable advice about talking to the teacher or planning hangouts"
+    ]
+  }
+}

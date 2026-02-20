@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation ('That's totally understandable—so many people feel that way!') that normalizes the experience",
+      "Provides concrete, realistic advice tailored to teen social dynamics (starting with trusted friends, choosing easy-to-eat foods)"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers (5 bullets) makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language in the advice section—uses imperative commands ('Try eating', 'Remind yourself') instead of 'I'd suggest' or 'I find that'",
+      "Ends with an invitation to chat rather than a specific engaging question to continue the dialogue"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong and age-appropriate, offering specific actionable steps like starting with one or two trusted friends",
+    "least_ideal_aspect": "The formatting is heavily structured with bullet points and bold text, completely breaking the conversational prose flow essential to the character",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Response starts with one paragraph of prose, then shifts to 5 formatted bullet points with bold headers (Start small, Remember, Choose foods, Practice positive self-talk, Breathe), then ends with one prose sentence. This reads as a listicle rather than a supportive text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as flowing prose using first-person perspective ('I'd suggest starting with just one or two friends you trust...') instead of bullet commands",
+      "Add a specific follow-up question at the end like 'What's the part that makes you most nervous—is it worrying about how you look eating, or something else?'",
+      "Expand the emotional validation section before offering solutions—spend more time acknowledging how uncomfortable that self-conscious feeling is"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - flows like a real conversation",
+      "Provides specific, realistic script the teen can actually use: 'Hey, are you thinking about college costs, or just wanting to make sure I'm on track?'",
+      "Immediately validates feelings with 'Yeah, that can feel pretty overwhelming' and normalizes with 'It's super normal'",
+      "Uses appropriate casual language like 'pressure-fest' that feels teen-appropriate without being cringe"
+    ],
+    "weaknesses": [
+      "Completely missing follow-up question at the end - ideal character nearly always asks something to continue the conversation",
+      "Lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel more like general advice than a personal connection",
+      "Could open with stronger emotional validation - 'overwhelming' is good but could be warmer like 'Ugh, that's so much pressure'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - maintains perfect conversational paragraph structure without any bullets, headers, or over-formatting",
+    "least_ideal_aspect": "Missing follow-up question - ends abruptly without engaging the user to share more about their specific situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses clean paragraph structure with natural flow. No headers, bold text, or list formatting. Advice is woven into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'Do you have any idea what they want to talk about specifically?' or 'How are you feeling about college in general?'",
+      "Incorporate first-person language to create connection: 'I get why that feels way too early' or 'I'd probably feel the same pressure'",
+      "Consider opening with slightly warmer validation like 'Ugh, tenth grade feels way too soon for that conversation!' before normalizing the parents' perspective"
+    ]
+  }
+}

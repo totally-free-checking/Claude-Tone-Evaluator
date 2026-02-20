@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with vivid imagery ('constant little pinprick') that captures the specific feeling of ambiguous teasing",
+      "Excellent use of first-person language throughout ('I think,' 'I'm here if you want to talk it through more') creating genuine connection",
+      "Specific, actionable diagnostic questions that help the teen assess the situation ('funny with you vs. at your expense,' 'would they stop if you said it hurt')"
+    ],
+    "weaknesses": [
+      "The emoji choice (😕) while appropriate is slightly neutral; a warmer option like 😓 or 💙 might enhance connection slightly more",
+      "Could explicitly validate that questioning oneself is normal and not a sign of weakness, though this is implied"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with zero bullet points or structural formatting, flowing exactly like a supportive friend texting",
+    "least_ideal_aspect": "The emoji usage, while within the 0-1 guideline, could be slightly warmer or omitted entirely without loss since the prose is already warm",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational paragraphs with natural flow. Uses italicized emphasis (*with* you, *at your expense*) for natural speech emphasis rather than structural formatting. No headers, lists, or over-formatting."
+    },
+    "specific_feedback": [
+      "Consider adding a brief validation that it's normal to second-guess yourself in these situations to strengthen the 'you're not alone' aspect",
+      "The diagnostic framework provided is excellent, but could optionally suggest one concrete phrase they could use to test the boundary ('Hey, that actually bothers me') to make it even more actionable"
+    ]
+  }
+}

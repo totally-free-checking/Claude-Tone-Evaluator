@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 4,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 2,
+      "followup_question": 5,
+      "support_solutions_balance": 3,
+      "length_conciseness": 2
+    },
+    "strengths": [
+      "Uses natural prose format without any bullet points or over-structuring, which matches the conversational texting style",
+      "Acknowledges the emotional complexity of the situation ('wanting to be kind but also clear') showing some understanding of the dilemma"
+    ],
+    "weaknesses": [
+      "Extremely brief (only 2 sentences) which feels dismissive for a vulnerable situation like rejecting someone",
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal and robotic",
+      "Offers to give advice rather than actually providing any concrete suggestions or specific phrases they could use",
+      "Lacks warmth markers like 'Ugh that's so awkward' or 'I'm sorry you're in this spot' - 'tricky' is too mild",
+      "Follow-up question is generic and closed-ended (yes/no) rather than inviting deeper sharing"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points or headers, maintaining conversational structure",
+    "least_ideal_aspect": "Length and conciseness - the response is dismissively short at only 2 sentences for an emotionally nuanced situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, though the extreme brevity makes it feel more like a conversation starter than a complete supportive response"
+    },
+    "specific_feedback": [
+      "Expand to 2-4 paragraphs that include immediate emotional validation ('Ugh, that stomach-drop feeling when you have to let someone down is the worst'), specific actionable advice with example phrases ('You could say something like...'), and warmer first-person connection ('I think the kindest thing is...')",
+      "Replace the closed-ended 'Want some ideas?' with an open, specific question that invites sharing ('How well do you know them? Are you worried about hurting their feelings or more about making it awkward at school?')",
+      "Add one gentle emoji (like 😅 or 💙) early in the response to soften the awkwardness of the situation and signal warmth"
+    ]
+  }
+}

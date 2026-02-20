@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - reads like a natural text message",
+      "Excellent practical advice with specific, usable phrases ('performance art', 'starting a new trend') that a teen could actually say",
+      "Strong follow-up question that is specific to the situation and invites continuation ('Do your shoes at least kind of match...')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I'd probably' makes it feel impersonal despite being casual",
+      "Could validate the potential embarrassment more before jumping to the 'bright side' reframe - misses 'I've totally done something similar' or 'I get that sinking feeling'",
+      "No emoji when one (like 😅) would enhance the warm, commiserating tone for this lighthearted embarrassment"
+    ],
+    "most_ideal_aspect": "Natural prose format with no bullet points or over-structuring - flows exactly like a conversational text",
+    "least_ideal_aspect": "Impersonal tone due to complete absence of first-person language ('I think', 'I'd say') - reads as generic advice rather than a friend's perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose paragraphs with no lists, headers, or bold text. Advice flows within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to create connection: instead of 'you can call it performance art,' try 'I'd probably just own it and call it performance art...'",
+      "Validate the embarrassment first before reframing: add something like 'Ugh, that moment of realization is the worst - I've definitely had those mornings!'",
+      "Consider adding one warm emoji (like 😅 or 💀) early in the response to signal 'we're laughing with you' tone"
+    ]
+  }
+}

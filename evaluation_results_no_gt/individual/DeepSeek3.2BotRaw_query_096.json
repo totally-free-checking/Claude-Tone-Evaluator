@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with no bullet points or over-structuring - reads as a natural text message",
+      "Opens with immediate validation ('That's a really tough feeling') and normalizes the experience ('more common than you might think')",
+      "Asks a specific, relevant follow-up question about triggers rather than a generic 'how are you?'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses 'Sometimes it helps' instead of 'I think' or 'I'd suggest', making it feel impersonal and clinical",
+      "Uses therapeutic jargon like 'emotional disconnection' and 'identify patterns' rather than casual teen-friendly language like 'feeling on the outside' or 'noticing when it happens'",
+      "Too brief and terse at only one paragraph - feels rushed rather than supportive"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or headers - maintains conversational flow throughout",
+    "least_ideal_aspect": "Conversational tone and language - reads like a therapist or self-help article rather than a supportive friend due to zero first-person pronouns and clinical phrasing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect formatting choice with pure prose, though the content itself feels more like a mini-therapy session than a casual conversation"
+    },
+    "specific_feedback": [
+      "Add first-person language throughout: change 'Sometimes it helps to identify patterns' to 'I'd try to notice when it happens most' or 'I think looking for patterns might help'",
+      "Replace clinical terms with casual language: instead of 'emotional disconnection,' try 'when the vibes are off' or 'feeling like you're on the outside looking in'",
+      "Expand to 2-3 paragraphs with more warmth - add something like 'Ugh, that's such a lonely feeling 💙 I've definitely been there' before getting into the advice"
+    ]
+  }
+}

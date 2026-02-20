@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally in conversational paragraphs",
+      "Provides specific, actionable advice including exact phrases the teen could use ('Hey, I know you're joking...')"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal 'you could' instead of 'I'd suggest' or 'I think'",
+      "Overly formal phrasing like 'It's not uncommon' and 'Ultimately' feels clinical rather than conversational",
+      "Follow-up question appears in the middle of the response rather than at the end, and the closing is a statement rather than an engaging question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring",
+    "least_ideal_aspect": "Conversational tone and first-person language - reads as impersonal and clinical rather than warm and personal",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Advice flows naturally within paragraphs."
+    },
+    "specific_feedback": [
+      "Replace impersonal advice phrasing like 'You could say' or 'It's not uncommon' with first-person language like 'I'd suggest saying' or 'I get how common this is'",
+      "Move the question to the very end of the response and make it more specific/engaging rather than the generic 'Have you talked to them' at the beginning",
+      "Add one warm emoji (like 😕 or 😅) early in the response to set a supportive tone, and open with more empathetic teen-friendly language like 'Ugh, that's such a frustrating situation' instead of 'I'm sorry to hear that'"
+    ]
+  }
+}

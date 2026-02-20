@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 3,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong immediate validation with 'Oh no' and acknowledging the invasion of privacy",
+      "Appropriate emoji usage (😬) that captures the awkwardness of the situation without being excessive"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes it feel less like a personal conversation and more like a generic response",
+      "No practical advice offered - only asks if they want advice rather than providing even one concrete suggestion while requesting context",
+      "Too heavily weighted toward validation without any actionable solutions or next steps"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and practical advice - reads as impersonal despite warm tone and offers no concrete help for the immediate situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Text flows naturally as conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person connection phrases like 'I get why that feels so invasive' or 'I'd be freaking out too' to make it feel like a real person responding",
+      "Offer at least one concrete piece of advice while asking for context, such as 'If you want to break the ice, maybe try saying something like...'",
+      "Combine the two final questions into one more natural question like 'What do you think they might have seen - and are you looking for advice on how to talk to them about it?'"
+    ]
+  }
+}

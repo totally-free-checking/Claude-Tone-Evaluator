@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 6,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural conversation",
+      "Strong validation of feelings with phrases like 'don't be too hard on yourself' and 'doesn't make you a bad person'",
+      "Appropriate length with three focused paragraphs that are readable on mobile"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with a statement rather than inviting continued conversation",
+      "Lacks first-person language entirely (no 'I think', 'I'd suggest', or 'I get it') making it feel impersonal despite casual vocabulary",
+      "Advice is somewhat vague - suggests 'reflecting' without concrete prompts or examples of how to do that"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring",
+    "least_ideal_aspect": "Missing follow-up question - fails to engage the user to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Flows naturally as conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question at the end like 'What qualities do you like most about each of them?' or 'Have you had a chance to hang out with either one yet?' to keep the conversation going",
+      "Incorporate first-person language throughout, such as 'I think taking time to sort through your feelings is smart' or 'I'd suggest writing down what you like about each person' to create a more personal connection",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the friendly tone, or keep it at zero if maintaining a more serious tone for the guilt aspect"
+    ]
+  }
+}

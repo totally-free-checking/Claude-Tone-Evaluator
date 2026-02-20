@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I'm so sorry', 'I think that's totally normal', 'I'd probably try') creating genuine connection",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation",
+      "Strong immediate emotional validation that acknowledges the specific weight of the situation ('heavy, awful feeling when the house doesn't feel safe')"
+    ],
+    "weaknesses": [
+      "Practical advice could be slightly more comprehensive - while headphones are a good immediate suggestion, missing guidance on when/how to talk to parents later or seek outside support",
+      "The transition from validation to advice ('Honestly, I'd probably try...') could include one more validating sentence before offering solutions to perfect the balance"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that makes it feel like a supportive friend texting rather than a bot",
+    "least_ideal_aspect": "Practical advice section is somewhat brief and focused only on immediate distraction rather than broader coping strategies or resources",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with no formatting, headers, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence validating that it's not their fault or responsibility to fix their parents' conflict",
+      "Include a gentle suggestion about reaching out to a school counselor or trusted adult if the fighting is frequent or intense, to balance the immediate coping advice with longer-term support options"
+    ]
+  }
+}

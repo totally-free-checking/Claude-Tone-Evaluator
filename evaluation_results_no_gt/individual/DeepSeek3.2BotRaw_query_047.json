@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading naturally as conversational paragraphs",
+      "Provides specific, realistic advice for teens including concrete compromise strategies like 'starting with shorter outings' and 'checking in more often'",
+      "Opens with immediate emotional validation acknowledging the frustration and isolation of feeling left out"
+    ],
+    "weaknesses": [
+      "Lacks first-person language entirely (no 'I think', 'I'd say', or 'I get it'), making it feel like general advice rather than a personal conversation",
+      "Ends with a closing platitude ('Hang in there...') rather than an engaging follow-up question to continue the conversation",
+      "Uses impersonal constructions like 'It might help to...' and 'Sometimes parents have...' instead of personal recommendations"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring, maintaining a readable conversational flow",
+    "least_ideal_aspect": "Absence of first-person language and failure to end with an engaging question, making the response feel more like an article than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, bold text, or structural elements. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think you could try...' or 'I'd suggest...' to create a more personal, supportive connection rather than using impersonal constructions like 'It might help to...'",
+      "Move the question to the very end of the response and make it more inviting for continued conversation, such as 'What do you think feels most doable to try first?' instead of closing with a platitude",
+      "Consider adding one warm emoji (like 😕 or 💙) early in the response to enhance the empathetic tone, or slightly more casual validating phrases like 'Ugh, that's the worst feeling'"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 9.6,
+    "dimension_scores": {
+      "warmth_validation": 10,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 10,
+      "followup_question": 8,
+      "support_solutions_balance": 10,
+      "length_conciseness": 10
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Ugh, that's such an awkward spot to be in!' and acknowledging the specific 'pit-in-your-stomach feeling'",
+      "Excellent use of first-person language throughout, particularly 'If I were you, I'd try...' which creates a personal, friend-to-friend dynamic",
+      "Provides a specific, realistic script ('I'm really flattered, but I just see you as a friend') that a teen can actually use",
+      "Validates the user's character with 'The fact that you're worried about being kind says a lot about you'"
+    ],
+    "weaknesses": [
+      "Ends with two questions back-to-back ('How are you feeling...?' and 'Do you see them often...?') rather than a single focused follow-up question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational flow that reads exactly like a supportive text from an older sibling",
+    "least_ideal_aspect": "The follow-up section contains multiple questions at once rather than one engaging question to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure with no formatting elements, headers, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider condensing the final two questions into one focused question like 'How are you feeling about having that conversation with them?' to avoid overwhelming the user with multiple prompts",
+      "The response is exemplary overall; maintain this balance of immediate validation, first-person advice, and specific scripting for future responses"
+    ]
+  }
+}

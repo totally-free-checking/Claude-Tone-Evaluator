@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 5,
+      "followup_question": 6,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as a natural, flowing conversation rather than a structured guide",
+      "Opens with immediate emotional validation ('It's totally understandable to feel anxious') and normalization ('you're definitely not alone') which creates safety"
+    ],
+    "weaknesses": [
+      "Lacks first-person language and personal voice - missing 'I think,' 'I'd say,' 'I get it,' or 'I'm here' statements that would make it feel like a real person connecting rather than generic advice",
+      "Practical advice is vague and generic ('share what you're feeling,' 'willing to work on improving') without specific phrases or concrete scripts the teen could actually use",
+      "Follow-up question is transactional and yes/no ('Would you like some ideas...') rather than an engaging, specific question about their situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, creating a conversational text-like flow",
+    "least_ideal_aspect": "Absence of first-person perspective and personal voice - the response never shares 'I' perspectives like 'I think' or 'I'd feel the same way,' making it feel impersonal despite being warm",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. The response flows as natural paragraphs throughout."
+    },
+    "specific_feedback": [
+      "Add first-person empathetic statements like 'I get why you're dreading this' or 'I'd feel sick to my stomach too' to create a personal connection",
+      "Replace the yes/no closing question with an open-ended, specific question like 'What do you think they'll be most upset about - the grade itself or that you didn't tell them right away?'",
+      "Include one concrete script example in the initial response rather than only offering to provide ideas later, such as 'You could try saying: I need to tell you something that I'm really anxious about...'"
+    ]
+  }
+}

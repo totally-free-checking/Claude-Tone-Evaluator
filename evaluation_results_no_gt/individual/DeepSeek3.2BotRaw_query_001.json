@@ -1,0 +1,43 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 4.2,
+    "dimension_scores": {
+      "warmth_validation": 3,
+      "prose_vs_bullets": 6,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 6,
+      "followup_question": 2,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Uses casual, teen-appropriate language like 'Whoops' and 'Gonna' without sounding forced",
+      "Provides a concrete, realistic strategy for handling the situation (playing it off as intentional style)",
+      "Avoids bullet points and lists entirely, using prose format"
+    ],
+    "weaknesses": [
+      "Completely lacks emotional validation - doesn't acknowledge the embarrassment or anxiety of the situation before jumping to solutions",
+      "No follow-up question to continue the conversation or check in on how they're feeling",
+      "Uses asterisk roleplay formatting (*Glancing down...*) which feels like a script or RPG rather than a natural text conversation",
+      "Too brief and dismissive-feeling for a moment of social anxiety",
+      "Doesn't use first-person supportive language like 'I get it' or 'I'd feel mortified too' to establish connection"
+    ],
+    "most_ideal_aspect": "Practical advice quality - suggesting to own the mistake with humor is actually solid, actionable advice for this specific scenario",
+    "least_ideal_aspect": "Warmth and emotional validation - fails to acknowledge the teen's likely embarrassment or 'cringe' feeling before offering solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely prose with no bullet points, but uses asterisk-enclosed stage directions (*Glancing down...*) which creates a roleplay/script format rather than natural conversational paragraphs"
+    },
+    "specific_feedback": [
+      "Start with validation of their feelings first - something like 'Oh no, that sinking feeling when you look down and realize... 😅 We've all had those mornings'",
+      "Drop the asterisk action descriptions and speak directly as a supportive friend using first-person language like 'I think the best move here is...' or 'I'd probably want to hide, but honestly...'",
+      "Always end with a specific, engaging question to continue the conversation, such as 'Are they at least somewhat similar colors or is this like a boot and a sneaker situation?' or 'How are you feeling - can you laugh it off or are you dying inside right now?'",
+      "Expand slightly to balance the validation with the advice - currently it's just one sentence of 'solution' without any emotional support"
+    ]
+  }
+}

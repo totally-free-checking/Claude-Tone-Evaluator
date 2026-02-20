@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 3,
+      "support_solutions_balance": 5,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Strong use of first-person language ('I'm really sorry','I'm here for you') and casual fillers ('Honestly') that create authentic conversational tone",
+      "Appropriate length with two focused paragraphs that validate feelings without overwhelming"
+    ],
+    "weaknesses": [
+      "Missing a specific follow-up question to continue the conversation - ends with an invitation rather than an engaging question",
+      "Lacks concrete, actionable advice beyond 'talk about it' - too heavy on validation without practical coping strategies or next steps",
+      "Could enhance warmth slightly with more specific acknowledgment of how exhausting it feels to constantly give effort without results"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with perfect paragraph structure and zero bullet points or over-formatting",
+    "least_ideal_aspect": "Follow-up question engagement - fails to end with a specific question to invite the teen to share more details",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational prose with two natural paragraphs. No headers, bold text, or lists. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a specific, engaging question at the end like 'What's the one thing that made you feel this way today?' or 'Is it school, friends, or family stuff that's making you feel this way?'",
+      "Include one concrete, teen-appropriate coping strategy such as a specific grounding technique or a suggestion for who to talk to (friend, counselor, etc.)",
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to enhance the emotional connection, or deepen the validation language with phrases like 'That sounds absolutely exhausting'"
+    ]
+  }
+}

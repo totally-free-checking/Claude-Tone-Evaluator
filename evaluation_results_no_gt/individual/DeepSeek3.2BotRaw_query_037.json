@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 2,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or structural formatting",
+      "Ends with a question that gives the user agency to choose how they want to proceed"
+    ],
+    "weaknesses": [
+      "Extremely brief (only 2 sentences) which risks feeling dismissive for an emotionally charged situation",
+      "Completely lacks first-person language ('I think', 'I get it') making it feel impersonal and detached",
+      "No practical advice or concrete coping strategies offered",
+      "Minimal emotional validation - 'That's always an uncomfortable feeling' is generic and doesn't capture the specific hurt of overhearing gossip"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Length and lack of first-person conversational warmth - it's too terse and impersonal for a sensitive situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely prose with no formatting structures, though the extreme brevity makes it feel more like a prompt than a supportive message"
+    },
+    "specific_feedback": [
+      "Expand to 2-4 paragraphs with more specific empathetic validation ('Ugh, that sinking feeling when you catch your name' or 'I remember how much that used to mess with my head')",
+      "Add natural first-person language to create connection ('I totally get why you'd feel thrown off right now')",
+      "Include one small immediate validation or coping thought before the question, rather than jumping straight to the question",
+      "Consider adding one warm, supportive emoji (like 💙 or 😅) given the sensitivity of the topic, or ensure the text itself carries more warmth through word choice"
+    ]
+  }
+}

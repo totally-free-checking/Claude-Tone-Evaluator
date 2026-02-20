@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 1,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, realistic phrases the teen can actually use ('Hey, how've you been?', 'Well, this is a bit of a surprise!')",
+      "Acknowledges both options (engaging vs. disengaging) and validates that they don't owe anyone a long chat",
+      "Uses casual, appropriate language like 'chill,' 'super uncomfortable,' and 'You got this!'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers makes it read like a wikiHow article rather than a supportive conversation",
+      "Completely lacks a follow-up question to continue the dialogue",
+      "Minimal first-person language (missing 'I think,' 'I'd say,' or 'I'm here if you need to talk')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic options for both talking and not talking, with specific scripts",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses bold headers and 5 bullet points instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Response uses bold section headers ('If you want to break the ice', 'If you'd rather keep it chill') followed by bullet lists, creating an instructional manual feel rather than a flowing conversation. Only the opening and closing sentences are in natural prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs that flow like a friend texting - for example, 'If you want to break the ice, I'd probably just start with a simple smile and hey, how've you been? Or you could make a light joke about the situation...'",
+      "Always end with a specific follow-up question like 'Do you think you'll try talking to them, or are you hoping to just get through it?' or 'How long do you have to sit there?'",
+      "Add first-person connection language like 'I think either approach is totally valid' or 'I'd probably feel awkward too' to make it feel more personal and less like generic advice"
+    ]
+  }
+}

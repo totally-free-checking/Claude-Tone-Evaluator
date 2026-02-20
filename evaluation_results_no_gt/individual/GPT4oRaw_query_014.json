@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers, reading like a natural conversation",
+      "Provides specific, actionable advice including exact script the teen can use: 'Hey, was that something just between us? I want to make sure I respect your privacy'",
+      "Validates the situation immediately by acknowledging it's 'tricky' and that the friend trusted them"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - the response just stops without inviting the teen to share more or continue the conversation",
+      "Lacks first-person language entirely (no 'I think', 'I'd say', 'I get it') making the advice feel impersonal and detached rather than like a friend sharing perspective",
+      "Uses formal distance phrases like 'The golden rule here is' and 'it's best to honor' instead of personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Missing follow-up question - fails to end with an engaging question to continue the conversation, which is essential for the teen support character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural flow. Uses a separator line (---) at the end but no actual bullet points or numbered lists. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'How are you feeling about keeping this secret?' or 'Is it something that's been weighing on you?' to invite continued conversation",
+      "Incorporate first-person language throughout, such as 'I think the best approach would be...' or 'I'd say you should...' or 'I get why that feels awkward' to create personal connection",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the supportive tone, though this is less critical than the missing first-person language and question"
+    ]
+  }
+}

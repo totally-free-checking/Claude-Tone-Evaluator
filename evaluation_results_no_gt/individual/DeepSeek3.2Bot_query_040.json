@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you', 'I'd try', 'I'm so sorry') creating genuine connection",
+      "Provides specific, actionable script the teen can literally copy-paste: 'Hey! I'm trying to be better about not being on my phone so much lately, so I might be slower to reply'",
+      "Perfect prose formatting with zero bullet points or headers - reads exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "The follow-up section asks two questions in succession which slightly breaks the 'one natural question' ideal, though they are related",
+      "Could include one more sentence of validation between the permission-giving (paragraph 2) and the advice (paragraph 3) to create even smoother transition"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational first-person voice - uses 'I' statements naturally throughout ('If I were you', 'I'd try') making it feel like a real person texting rather than an AI giving instructions",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation - while it opens with validation, the advice section is quite substantial compared to the emotional support portion",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, lists, or headers. Advice flows naturally within conversational paragraphs rather than being structured as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding a brief validating bridge between the boundary permission ('it doesn't make you mean') and the advice ('If I were you') such as 'I know it's awkward though, so here's what I'd do' to maintain the support-to-solution ratio",
+      "The double question at the end ('Are they a close friend, or more of an acquaintance?') could be simplified to one flowing question like 'Is this a close friend or more of an acquaintance?' to feel slightly more natural"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 2,
+      "followup_question": 9,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with no bullet points or over-structuring - reads like a natural text message",
+      "Strong follow-up question that is specific to the situation ('just a couple of people, or in most of your relationships') rather than generic"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I get it', 'I'd say') - feels observational rather than personal",
+      "No practical advice or actionable suggestions provided - only validation and a question",
+      "Too brief at only two sentences of content before the question; lacks substantive support"
+    ],
+    "most_ideal_aspect": "The prose formatting is perfect - natural paragraph flow without any bullet points or headers, exactly matching the conversational texting style of the ideal character",
+    "least_ideal_aspect": "The absence of first-person language makes it feel impersonal and detached; it sounds like an observer commenting on the situation rather than a supportive friend saying 'I totally get that' or 'I've been there'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullet points, lists, or headers. The response flows naturally as conversational text."
+    },
+    "specific_feedback": [
+      "Add first-person connection phrases like 'I totally get that' or 'I've definitely been there' to create personal warmth and make it feel like a real conversation",
+      "Include 1-2 sentences of practical advice after validation - for example, suggesting specific conversation starters or ways to address the imbalance with friends",
+      "Expand slightly to 2-3 paragraphs: validate with warmth, offer one concrete suggestion (like testing if friends will reach out if you stop first), then ask the follow-up question"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 5,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose format with zero bullet points or headers, reading like a natural text message",
+      "Opens with immediate emotional validation ('Oh no, I'm sorry you're feeling that way!') and normalizes the experience ('totally normal to feel a little uncertain')",
+      "Uses casual contractions and first-person language naturally ('I'm sorry', 'we'll figure it out', 'Let me know')"
+    ],
+    "weaknesses": [
+      "Asks multiple questions in succession (4 questions total) which can feel slightly overwhelming rather than focusing on one engaging follow-up",
+      "Lacks specific practical advice or actionable tips in this response - only offers to help without giving any concrete starting points",
+      "Missing first-person perspective sharing like 'I think' or 'I'd suggest' that would make it feel more like advice from a person rather than just an offer to help"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring, maintaining a conversational text-message flow",
+    "least_ideal_aspect": "Question density - asks four questions in rapid succession rather than one focused follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Response flows as natural sentences in a single paragraph."
+    },
+    "specific_feedback": [
+      "Consolidate the multiple questions into one or two focused questions rather than asking 'Wanna break it down together?' followed by three more specific questions",
+      "Add one small concrete piece of advice before asking questions (e.g., 'I'd start by checking which classes are required vs. electives') to provide immediate value",
+      "Consider adding one warm emoji (like 😅 or 😊) early in the response to enhance the friendly tone, or share a brief 'I' perspective like 'I remember stressing about this too'"
+    ]
+  }
+}

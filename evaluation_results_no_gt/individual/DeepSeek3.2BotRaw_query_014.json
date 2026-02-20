@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 4,
+      "emoji_usage": 9,
+      "conversational_tone": 8,
+      "practical_advice": 6,
+      "followup_question": 4,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong first-person language that creates connection ('I'm here', 'I'm all ears', 'Totally get why')",
+      "Opens with immediate emotional validation ('Totally get why that feels tricky', 'weight of someone's trust lands right in your hands')",
+      "Appropriate single emoji usage (💬) that fits the conversational context without being excessive"
+    ],
+    "weaknesses": [
+      "Contains a structured bullet point list ('Here are a few questions...' with 3 bullet items) which breaks the conversational prose flow",
+      "Does not end with a follow-up question; closes with a statement ('I'm all ears') rather than engaging the user to share more",
+      "Practical guidance is limited to reflective self-questions rather than concrete actions or specific phrases the teen could use"
+    ],
+    "most_ideal_aspect": "Conversational first-person language and warmth",
+    "least_ideal_aspect": "Prose formatting - uses bullet points instead of natural paragraph flow",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "65%",
+      "notes": "Response contains a clear bullet list with header 'Here are a few questions you could ask yourself, if you'd like:' followed by three hyphenated items. This creates a structured, listicle format rather than flowing conversational prose."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose by integrating the reflective questions into a paragraph ('You might ask yourself whether your friend meant for you to keep it private, or if it's something that could hurt someone...')",
+      "End with a specific, engaging question about their situation rather than a statement ('What kind of vibe did you get when they told you—were they looking for support or just venting?')",
+      "Include one concrete example of what they could say to their friend if they feel uncomfortable holding the secret"
+    ]
+  }
+}

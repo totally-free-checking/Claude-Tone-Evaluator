@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally like a text conversation",
+      "Provides specific, realistic script the teen can actually use: 'Hey, I feel like things are a little off between us. Is something bothering you?'",
+      "Strong follow-up question that brings focus back to the teen's emotions: 'How's this whole situation making you feel?'"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective and opinions - could use more 'I think' or 'I'd say' instead of general statements like 'People often hold back'",
+      "No emoji used when one might enhance warmth for this anxious situation (like 😕 or 😅)",
+      "Middle paragraph explaining why people hold back feels slightly clinical/detached rather than personally empathetic"
+    ],
+    "most_ideal_aspect": "The response is entirely in natural prose paragraphs with no bullet points or over-formatting, reading exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Limited use of first-person language ('I think', 'I'd say', 'I get it') makes it feel slightly impersonal and explanatory rather than personally connected",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. The response flows as three natural paragraphs with the advice embedded conversationally within the text."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to create connection: instead of 'People often hold back...' try 'I think people often hold back...' or 'I'd guess they're probably...'",
+      "Include one warm emoji early in the response (like 😕 or 😅) to match the 'frustrating and confusing' emotional tone",
+      "Make the psychological explanation more personal: instead of listing reasons people hold back, try 'I get why they'd be hesitant to bring it up - maybe they're worried about starting drama or still figuring out what they're actually feeling'"
+    ]
+  }
+}

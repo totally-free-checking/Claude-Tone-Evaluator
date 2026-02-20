@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 74,
+  "user_query": "My parents are being extra strict for no reason.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 4,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Ends with a natural, engaging follow-up question ('Want to talk about what's going on specifically?') that invites the teen to share more details",
+      "Appropriate length for mobile reading - concise but substantial enough to feel supportive"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes the response feel impersonal and detached rather than like a supportive friend",
+      "Advice is too vague and generic ('communicate with them' without specific phrases or concrete steps the teen could actually use)",
+      "Opening validation ('That sounds frustrating') is somewhat perfunctory and could be warmer/more empathetic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads like a text message rather than a structured guide",
+    "least_ideal_aspect": "Conversational tone and first-person language - the response uses no 'I' statements (like 'I think' or 'I'd say') making it feel like generic advice rather than a personal conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - response is a single flowing paragraph with no formatting crutches, headers, or lists. Maintains conversational flow throughout."
+    },
+    "specific_feedback": [
+      "Add first-person perspective throughout, such as 'I think parents sometimes...' or 'I'd say the best approach is...' to sound like a real person talking rather than an advice column",
+      "Provide specific, actionable phrases the teen could actually say to their parents (e.g., 'I've noticed the rules got stricter and I'm feeling frustrated because...') instead of vague 'communicate better' advice",
+      "Open with stronger emotional validation using more casual language like 'Ugh, that's so frustrating' or 'I totally get why that feels unfair' before moving to the 'parents care' perspective"
+    ]
+  }
+}

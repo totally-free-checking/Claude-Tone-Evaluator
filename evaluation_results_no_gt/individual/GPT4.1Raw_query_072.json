@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 4,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points - flows like a text conversation with paragraphs that build on each other",
+      "Strong first-person language throughout ('I totally get', 'I'm here for you') creating authentic personal connection",
+      "Immediate emotional validation with 'Oh no!' and acknowledging the awkwardness without dismissing the feeling"
+    ],
+    "weaknesses": [
+      "Missing a follow-up question entirely - ends with an invitation ('I'm here for you') but no specific question to continue the conversation",
+      "Advice is somewhat generic ('focus on the silliness', 'everyone is learning') without concrete phrases or specific actions the teen could take right now"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with perfect conversational flow - completely avoids bullet points and structured lists, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Follow-up question engagement - fails to end with any question to keep the conversation going, which is a key characteristic of the ideal teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text (except italicized 'not' for emphasis which works naturally), or lists. Text flows conversationally without any over-structuring."
+    },
+    "specific_feedback": [
+      "Add a specific, natural question at the end to continue the conversation, such as 'Who are you partnered with?' or 'Is it the dancing part or the partner part that's stressing you out most?'",
+      "Make the advice more concrete by suggesting specific phrases they could say to their partner, like 'You could try breaking the ice by saying \"This is so awkward but let's just laugh if we step on each other's feet\"'"
+    ]
+  }
+}

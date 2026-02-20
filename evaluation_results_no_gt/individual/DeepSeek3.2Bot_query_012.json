@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think', 'If I were you', 'I'd try', 'I'd focus') creating genuine conversational connection",
+      "Strong immediate emotional validation with 'Ugh, that really stings, doesn't it?' and 'gut-punch feeling' that normalizes the teen's experience",
+      "Perfect prose formatting with zero bullet points - flows like a natural text conversation"
+    ],
+    "weaknesses": [
+      "Advice section is slightly longer than validation section, creating a minor imbalance toward solutions over emotional support",
+      "Could include slightly more specific actionable phrases the teen could actually say to their crush, rather than just general 'stay cool' guidance"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and first-person conversational tone - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Slight imbalance toward practical advice over emotional validation (though still within acceptable range)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or structured formatting. Maintains conversational flow throughout."
+    },
+    "specific_feedback": [
+      "Consider adding one more sentence of validation after the first paragraph before moving to the 'brains making moments feel huge' explanation to strengthen the emotional support",
+      "The follow-up question is excellent and specific, but you could enhance engagement by also asking how they're feeling now after sitting with it for a bit"
+    ]
+  }
+}

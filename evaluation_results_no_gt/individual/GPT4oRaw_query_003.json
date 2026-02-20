@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 8.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a text from a supportive friend",
+      "Strong use of first-person language ('I totally get') and casual contractions that create authentic connection",
+      "Provides specific, realistic advice options (casual small talk vs. keeping to yourself) that respect the teen's agency"
+    ],
+    "weaknesses": [
+      "Contains two questions which slightly disrupts the flow (one in the first paragraph and one at the end); ideally would have one strong closing question",
+      "Lacks an emoji that could enhance warmth for this awkward social situation (a 😅 or 😬 would fit naturally)",
+      "First question comes quite early after minimal validation - could use slightly more emotional acknowledgment before asking 'is it mostly in your head'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - perfectly avoids bullet points and over-structuring while maintaining readability",
+    "least_ideal_aspect": "Having multiple questions throughout the response rather than one engaging follow-up at the end",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Response flows naturally in three conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Consider adding one well-placed emoji (like 😅) early in the response to enhance warmth and acknowledge the awkwardness visually",
+      "Move the first question ('Are they giving off awkward vibes...') to later in the response or integrate it into the final question to avoid multiple question marks",
+      "Add slightly more emotional validation before the first question - perhaps one more sentence acknowledging how uncomfortable that 'history' feeling is"
+    ]
+  }
+}

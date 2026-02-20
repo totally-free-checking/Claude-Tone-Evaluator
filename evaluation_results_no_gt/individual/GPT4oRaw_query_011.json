@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 11,
+  "user_query": "My friend keeps copying everything I do and it’s getting annoying.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as a conversation",
+      "Provides specific, actionable script the teen can use: 'Hey, I've noticed you've been doing a lot of the same things I do. Is everything okay? What's going on?'",
+      "Opens with immediate validation ('Oh man, that does sound frustrating!') acknowledging the annoyance"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd suggest', 'I get it') - uses impersonal 'You could' and 'It'll' instead, creating distance rather than connection",
+      "Fails to end with a follow-up question to continue the conversation; the only question ('Have you talked to them about it yet?') appears early and feels rhetorical rather than inviting further sharing",
+      "Could deepen emotional validation by acknowledging how weird or violating it feels to be copied before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points",
+    "least_ideal_aspect": "Absence of first-person perspective and failure to end with an engaging follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with natural paragraph breaks. Advice flows within sentences rather than being listed, reading like a text from a friend."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think you could try...' or 'I'd feel the same way' to create a more personal, supportive connection rather than distant advice-giving",
+      "Move the question to the end of the response and make it more open-ended to invite continued conversation, such as 'How are you feeling about confronting them?' or 'What do you think is driving them to copy you?'",
+      "Consider starting with slightly more emphatic validation like 'Ugh, that's so annoying!' to match the teen's energy before acknowledging the friend's perspective"
+    ]
+  }
+}

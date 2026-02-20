@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 1,
+  "user_query": "I just walked into class and realized I’m wearing two different shoes.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points - flows naturally as conversational text",
+      "Uses casual teen-appropriate language like 'that's definitely a mood' and 'if that's not your vibe'",
+      "Provides specific, actionable advice with concrete options (reframe as 'fashion-forward', make up a story, laugh it off)"
+    ],
+    "weaknesses": [
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') - relies entirely on impersonal 'you could' statements",
+      "Asks two separate questions at the end rather than one natural follow-up",
+      "Could provide more upfront emotional validation about the embarrassment of the situation before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads like a text conversation",
+    "least_ideal_aspect": "Lack of first-person perspective - no 'I' statements to create personal connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph form with natural flow. No headers, bold text, or lists. Advice is woven into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think the best move here is...' or 'I'd probably just laugh it off...' to create the supportive friend/older sibling dynamic",
+      "Start with slightly more emotional validation like 'Ugh, that sinking feeling when you look down and realize...' before moving to solutions",
+      "Combine the two final questions into one flowing question like 'What kind of shoes are we talking about - are they hilariously different or close enough to fake it?'"
+    ]
+  }
+}

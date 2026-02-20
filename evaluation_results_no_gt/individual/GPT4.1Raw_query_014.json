@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 14,
+  "user_query": "My friend told me a secret and I’m not sure I’m supposed to know.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as a natural conversational flow",
+      "Practical advice is specific and realistic for a teen's agency, offering concrete options (asking gently vs. staying quiet)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses 'It can feel' and 'might help' instead of 'I get how awkward that is' or 'I'd probably feel torn'",
+      "Emotional validation is generic and mild ('That sounds a little tricky') rather than deeply empathetic or specific to the anxiety of accidentally knowing a secret"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Impersonal tone lacking first-person perspective - reads like generic advice rather than a supportive friend saying 'I get it'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with natural paragraph flow. No headers, bold text, or lists. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: instead of 'It can feel awkward,' try 'I totally get how awkward that feels' or 'I'd be so torn in that spot'",
+      "Deepen the emotional validation by acknowledging the specific anxiety: 'That sinking feeling when you're not sure if you were supposed to hear something is the worst'",
+      "Make the follow-up question more specific to their situation rather than generic: 'Do you think they realize they told you, or did it slip out accidentally?'"
+    ]
+  }
+}

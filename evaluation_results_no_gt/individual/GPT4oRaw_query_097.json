@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides a specific, actionable script the teen can use word-for-word ('Hey, I really appreciate you asking...') which makes the advice immediately usable",
+      "Opens with warm validation ('Oh, I hear you! That can be such a tricky situation') and maintains a supportive tone throughout",
+      "Uses natural prose paragraphs without resorting to bullet points or over-formatting, reading like a text from a friend"
+    ],
+    "weaknesses": [
+      "Completely lacks a follow-up question at the end, missing the opportunity to continue the conversation and check in about their feelings or plans",
+      "Uses impersonal instructional language ('The key is to be kind', 'It’s totally okay to set boundaries') rather than first-person perspective ('I think the key is...', 'I’d say it’s okay...')",
+      "Could deepen emotional validation by acknowledging the specific awkwardness or guilt of rejecting someone rather than just calling it 'tricky'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without bullet points or excessive structure, using a block quote only for the suggested dialogue script",
+    "least_ideal_aspect": "Missing follow-up question engagement - ends with encouragement but no question to invite further conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses natural paragraph structure with a single block quote for the suggested script text; no bullet points, numbered lists, or headers used"
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'Do you think you'll see them soon?' or 'How are you feeling about having that conversation?' to keep the dialogue open",
+      "Replace impersonal phrases like 'The key is...' with first-person language like 'I think the best approach is...' or 'I’d probably say something like...' to sound more like a supportive friend sharing personal perspective",
+      "Deepen the emotional validation by acknowledging the specific feelings involved, such as 'That guilty pit-in-your-stomach feeling is the worst' before moving to solutions"
+    ]
+  }
+}

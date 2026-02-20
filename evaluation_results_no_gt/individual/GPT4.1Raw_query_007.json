@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation from start to finish",
+      "Provides specific, realistic advice for a teen's agency level (suggesting to message the partner and notify the teacher) rather than generic platitudes",
+      "Perfect balance between emotional validation ('That's so frustrating!') and actionable steps"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language ('I think,' 'I'd say,' 'I get it') - uses 'you might want to' and 'sometimes... can' which feels slightly impersonal",
+      "Does not end with a question to continue the conversation, though it does ask an engaging question ('Do you want some advice... or just need to vent?') earlier in the response",
+      "Could enhance warmth with slightly more empathetic phrasing like 'Ugh, that's so stressful' or 'I'd be panicking too'"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or over-structuring - maintains conversational paragraph flow throughout",
+    "least_ideal_aspect": "Follow-up engagement - fails to end with a question to continue the conversation, closing instead with a statement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullet points, headers, or bold text. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add first-person language to feel more personal and supportive - instead of 'you might want to let your teacher know,' try 'I'd definitely let your teacher know' or 'I think you should tell your teacher'",
+      "End with a specific question to keep the conversation going, such as 'What subject is the project for?' or 'Do you think your partner is just overwhelmed or blowing it off completely?'",
+      "Consider adding one warm emoji early in the response (like 😅 or 😬) to match the 'frustrated but urgent' tone of the situation"
+    ]
+  }
+}

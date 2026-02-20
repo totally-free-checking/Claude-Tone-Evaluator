@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 42,
+  "user_query": "My friend borrowed my stuff and returned it ruined.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 5,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Opens with immediate emotional validation ('Oh no, that's super frustrating!' and 'I'm really sorry to hear that') before jumping to advice",
+      "Appropriate length - two concise paragraphs that are easy to read on a phone without feeling dismissive"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective in the advice section - uses impersonal phrasing like 'Sometimes, bringing it up calmly can help' and 'Maybe you can ask' instead of 'I'd suggest' or 'I think you should'",
+      "Follow-up question appears at the beginning ('Have you had a chance to talk...') rather than at the end to continue the conversation; the closing is a statement not a question",
+      "Could deepen emotional validation by naming the specific feelings (betrayal, disappointment, that sinking feeling when you see the damage) rather than just 'frustrating'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Follow-up question placement and quality - the question comes too early and the response ends with a statement ('Let me know...') rather than an engaging question to continue the dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Move the question to the end of the response and make it more specific to their situation, such as 'How are you feeling about confronting them?' or 'What kind of stuff did they ruin?'",
+      "Rewrite advice using first-person language like 'I'd probably start by...' or 'I think bringing it up calmly works best because...' to sound more like a supportive friend sharing personal perspective rather than generic advice",
+      "Consider adding one warm emoji (like 😬 or 😓) after the validation to enhance the supportive tone, or expand the validation to acknowledge how gutting it feels when someone disrespects your things"
+    ]
+  }
+}

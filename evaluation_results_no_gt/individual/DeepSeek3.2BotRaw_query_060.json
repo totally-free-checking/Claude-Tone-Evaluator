@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 5.2,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides concrete, actionable advice that is realistic for a teen's situation (e.g., suggesting to talk to the friend, be respectful but genuine)",
+      "Ends with a natural, specific follow-up question about whether this is recent or ongoing, showing genuine interest in the context"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers instead of conversational prose, reading like a self-help article rather than a text from a supportive friend",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making the tone feel impersonal and instructional rather than empathetic and connected",
+      "Brief validation at the beginning ('tough spot') quickly gives way to four bullet points of advice without sufficient emotional acknowledgment"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end is natural and specific to the situation, inviting the teen to share more context",
+    "least_ideal_aspect": "The formatting uses a numbered list with bold headers (1-4) and imperative instructions ('Stay respectful', 'Give it time'), which is the opposite of the conversational prose style required",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses 'A few things to keep in mind:' followed by 4 numbered bullets with bold headers (**It's often not about you personally.**). This is highly structured formatting that breaks conversational flow. Only the opening sentence and closing question are in prose."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as natural prose paragraphs instead of numbered bullets - imagine texting a friend advice rather than writing a wikiHow article",
+      "Add first-person language throughout like 'I think', 'I'd say', or 'I get how awkward that feels' to create a personal connection rather than giving impersonal instructions",
+      "Expand the emotional validation at the beginning before offering solutions - acknowledge how uncomfortable and isolating it feels to sense disapproval from a friend's parents"
+    ]
+  }
+}

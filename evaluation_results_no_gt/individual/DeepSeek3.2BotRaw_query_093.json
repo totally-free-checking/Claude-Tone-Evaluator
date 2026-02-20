@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 3,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Ends with strong validation ('You deserve to present yourself in a way that feels true to who you are') and a natural, specific follow-up question that invites the teen to share more",
+      "Provides concrete, actionable scripts for handling comments ('Yeah, I felt like trying something new!', 'I'm really happy with it, thanks') that a teen could actually use in the moment",
+      "Opens with immediate emotional validation acknowledging that the mix of excitement and fear is 'totally normal' and 'really common'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal imperative statements like 'Remember why you're doing it' instead of conversational 'I'd suggest thinking about why you're doing this'",
+      "Heavy use of markdown headers (###), bold text, and structured sections creates a wikiHow/self-help article feel rather than a text conversation with a friend",
+      "Uses 4 emojis (🛡️💬🌱🧘‍♂️) which exceeds the ideal of 0-1 max, and places them in headers which feels formatted rather than natural"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with a natural, specific question ('What kind of change are you thinking about making?') that shows genuine interest and invites conversation",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses 4 markdown headers with emojis and bold formatting, plus 3 bullet points within the text, making it read like an instructional article rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses 4 markdown headers (###) with emojis and bold text that function like bullet sections, plus 3 actual bullet points listing response phrases. Only the opening and closing paragraphs are true prose. The heavy structuring makes it feel like a self-help guide rather than a supportive text message."
+    },
+    "specific_feedback": [
+      "Rewrite the four structured sections as flowing paragraphs using first-person language like 'I think it helps to remember why you're doing this' instead of headers and bullet points",
+      "Remove 3 of the 4 emojis - keep at most one, and place it naturally within the text rather than in headers (e.g., 'That mix of excitement and nervousness is so real 😅')",
+      "Add first-person connection throughout: 'I totally get why that feels scary', 'I'd say the most important thing is...', 'I'm here to help you think through this' to make it feel like a real person texting rather than an advice article"
+    ]
+  }
+}

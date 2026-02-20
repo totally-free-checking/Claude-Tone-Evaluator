@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 5,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, creating a natural conversational flow",
+      "Opens with immediate emotional validation ('It's totally normal to feel nervous') that acknowledges the teen's anxiety",
+      "Asks a specific, relevant follow-up question about the type of change they're considering, showing genuine interest"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal and detached rather than like a supportive friend",
+      "Defers all practical advice ('I can share ideas on how to deal with comments') instead of providing immediate concrete strategies or example phrases",
+      "Uses slightly directive language ('remember:') rather than collaborative first-person sharing"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads like a text message",
+    "least_ideal_aspect": "Absence of first-person language and deferred practical advice - feels like an impersonal article rather than a supportive friend offering immediate help",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two clean paragraphs. No formatting crutches, lists, or headers. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout, such as 'I totally get why you'd feel nervous' or 'I'd probably worry about the same thing' to create a personal connection",
+      "Include one concrete, immediate tip rather than deferring all advice - for example, 'If someone says something weird, I usually just say \"Thanks, I'm really happy with it\" and change the subject'",
+      "Consider adding one warm emoji (like 😊 or 💙) early in the response to enhance the supportive tone, or keep it text-only if maintaining a more serious vibe about appearance anxiety"
+    ]
+  }
+}

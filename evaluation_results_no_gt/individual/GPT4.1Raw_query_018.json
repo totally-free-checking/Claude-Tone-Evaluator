@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 18,
+  "user_query": "My parents are fighting again and I can hear everything from my room.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as a natural, continuous message",
+      "Strong follow-up question that asks about existing coping mechanisms ('Is there anything you usually do...') which shows interest in their specific experience"
+    ],
+    "weaknesses": [
+      "Lacks casual, conversational language - phrases like 'can feel stressful and unsettling' are clinical rather than friend-like ('Ugh, that's the worst' or 'I get how heavy that feels' would be warmer)",
+      "Missing first-person sharing language ('I'd probably feel...', 'I think...') that creates connection - uses 'I'm sorry' but then shifts to general statements",
+      "Too brief for the emotional weight of the situation - risks feeling dismissive or automated"
+    ],
+    "most_ideal_aspect": "The prose formatting and structure - it flows as a natural paragraph without any bullet points or over-formatting, reading like a text message",
+    "least_ideal_aspect": "The conversational tone and warmth - it feels more like a polite therapist or automated response than a supportive friend, lacking casual language and first-person connection phrases",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. The advice is integrated naturally into sentences rather than listed out"
+    },
+    "specific_feedback": [
+      "Add more casual, relatable language and first-person sharing ('Ugh, I hate when that happens,' 'I'd feel so tense too,' 'I think the worst part is...') to sound less like a counselor and more like a supportive friend",
+      "Expand slightly with one more sentence of validation or specific advice (like suggesting putting on headphones, texting a friend, or going for a walk) before the question so it doesn't feel too brief",
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to soften the clinical tone, or alternatively use more emotionally vivid language ('sinking feeling,' 'heavy,' 'ugh')"
+    ]
+  }
+}

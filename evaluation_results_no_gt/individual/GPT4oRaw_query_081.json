@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language that creates connection: 'I totally feel you on that' and 'I'll actually be awake' makes it feel like a real person texting",
+      "Provides specific, actionable advice including an exact script the teen could use: 'Hey, I love your snaps, but if you hit me up during the day, I'll actually be awake to appreciate them!'",
+      "Perfect prose formatting with natural paragraph flow - reads like a text conversation rather than an article"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - the response just stops after mentioning Do Not Disturb mode without inviting the teen to share more",
+      "Could deepen emotional validation slightly by specifically acknowledging the exhaustion mentioned in the query ('exhausted') rather than just 'rough'"
+    ],
+    "most_ideal_aspect": "The conversational tone and first-person language usage - it genuinely sounds like a supportive friend texting with natural phrases like 'Ugh' and 'game changer'",
+    "least_ideal_aspect": "The absence of any follow-up question to continue the conversation - it ends abruptly with practical advice rather than engaging the teen to share more about their situation or feelings",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with two natural paragraphs. No bullet points, headers, or over-structuring. The advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end to invite continued conversation, such as 'Do you think your friend would be understanding if you mentioned it, or are you worried about hurting their feelings?'",
+      "Consider acknowledging the specific word 'exhausted' from their query to validate the physical toll, not just the social awkwardness - something like 'Being woken up at 2am when you're already exhausted is the worst'"
+    ]
+  }
+}

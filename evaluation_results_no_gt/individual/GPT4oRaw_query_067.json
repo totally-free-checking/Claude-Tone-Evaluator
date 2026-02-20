@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 67,
+  "user_query": "My parents want to talk about college and I’m only in like… tenth grade.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads exactly like a text from a supportive friend",
+      "Strong conversational language using casual phrases like 'chill pace,' 'prep vibe,' and 'you know?' that feel authentic to teen communication",
+      "Good emotional validation with 'I get why it feels like a lot' and acknowledging 'you're still figuring out high school'"
+    ],
+    "weaknesses": [
+      "Does not end with a follow-up question to continue the conversation - instead ends with a declarative statement ('It's good practice...'), missing the opportunity to invite the teen to share more",
+      "Could use more explicit first-person language when giving advice (says 'You can let them know' instead of 'I'd probably just tell them' or 'I think you could say')",
+      "Lacks emoji usage that could enhance warmth for this 'ugh parents' type of frustration (though zero emojis is acceptable, one 😅 or 😬 would fit the tone)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - the response flows as conversational paragraphs without any bullet points, headers, or over-structuring, perfectly matching the ideal of texting with a supportive friend",
+    "least_ideal_aspect": "Follow-up question placement - while it asks 'Are they asking you about future careers or just talking about schools?' this question is buried in the middle of the second paragraph rather than ending the response, failing to create that open door for continued conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with two natural paragraphs. No bullets, no bold text, no headers, no numbered lists. Advice is integrated into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Move the question to the very end of the response and make it more inviting for continuation, such as 'What kind of stuff are they asking you about specifically?' or 'How did you react when they first brought it up?'",
+      "Add more first-person perspective when suggesting actions, like 'If I were you, I'd probably just tell them...' or 'I think the best approach is...' to feel more personal and less instructional",
+      "Consider adding one warm emoji early in the response (like 😅 or 😬) to match the 'parents being annoying' energy and signal casual support"
+    ]
+  }
+}

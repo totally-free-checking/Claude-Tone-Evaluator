@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 47,
+  "user_query": "My parents won’t let me go out and everyone else can.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as natural conversational paragraphs",
+      "Provides specific actionable tactics like suggesting to 'check in regularly' which is realistic for a teen's agency"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout - uses impersonal constructions like 'Sometimes explaining...' and 'helps them feel' instead of 'I think explaining...' or 'I'd suggest'",
+      "Fails to end with a follow-up question; while it asks 'Have you tried talking to your parents?' in the middle, it concludes with a statement rather than engaging the user to continue the conversation",
+      "Emotional validation is brief and perfunctory ('That sounds frustrating') before quickly pivoting to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, maintaining a paragraph-based conversational flow",
+    "least_ideal_aspect": "Absence of first-person conversational language - the response feels like generic advice rather than a supportive friend sharing personal perspective ('I think', 'I'd say', 'I get it')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no formatting structures, which perfectly matches the ideal character's prose preference"
+    },
+    "specific_feedback": [
+      "Rewrite advice using first-person perspective: instead of 'Sometimes explaining why it's important... helps them feel more comfortable,' try 'I'd suggest explaining why it's important to you - I think that might help them feel more comfortable'",
+      "Always end with a specific, engaging question to continue the conversation, such as 'What do you think is making them most nervous about you going out?' instead of closing with an offer statement",
+      "Expand the emotional validation section before offering solutions - acknowledge the unfairness or difficulty with more warmth like 'Ugh, that's such a frustrating feeling when everyone else gets to go out' before jumping to the 'Have you tried...' advice"
+    ]
+  }
+}

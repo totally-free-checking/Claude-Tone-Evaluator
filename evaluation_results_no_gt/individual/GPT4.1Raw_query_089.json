@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent conversational tone using first-person language naturally ('I totally get that feeling', 'I can help you figure out')",
+      "Strong opening validation that normalizes the experience ('don't beat yourself up', 'Procrastination happens to everyone')",
+      "Natural, engaging follow-up question that invites specifics ('tell me what's on your plate right now')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured bullet points with bold headers instead of flowing prose paragraphs",
+      "Transitions to advice with 'Here are a couple of simple tips' which feels like a self-help article format",
+      "Could use more emotional validation about the stress of things piling up before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Conversational tone and first-person language usage - sounds like a supportive friend texting",
+    "least_ideal_aspect": "Formatting structure - uses a 4-item numbered list with bold headers instead of natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses 'Here are a couple of simple tips' followed by 4 numbered bullet points with bold headers (e.g., '**Make a list, but keep it realistic.**'). Only the opening and closing sentences are in prose format."
+    },
+    "specific_feedback": [
+      "Convert the four bullet points into 1-2 flowing paragraphs where the advice naturally weaves together instead of being listed out",
+      "Add one more sentence of emotional validation about how overwhelming it feels when things pile up before transitioning to the advice",
+      "Consider adding one warm emoji (like 😅 or 💪) early in the response to match the casual 'Ugh' opening"
+    ]
+  }
+}

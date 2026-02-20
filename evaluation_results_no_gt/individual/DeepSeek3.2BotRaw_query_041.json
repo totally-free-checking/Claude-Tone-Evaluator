@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Practical advice is specific and actionable with realistic options like trying a food truck, splitting with a friend, or the 'snack drawer hunt'",
+      "Maintains a casual, non-judgmental tone that normalizes the situation ('it happens to the best of us', 'honorary member')",
+      "Appropriate length that is readable on mobile without being overwhelming"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points instead of natural prose paragraphs ('Want to pivot? You could:' followed by three bullet items)",
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') makes the response feel impersonal rather than like a supportive friend",
+      "Fails to end with a follow-up question to continue the conversation; closes with a statement instead"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific, realistic suggestions that a teen could actually execute right now",
+    "least_ideal_aspect": "Prose formatting - uses structured bullet points instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Response uses 'Want to pivot? You could:' as a header followed by three distinct bullet points, then switches back to prose for the final two sentences. This creates a listicle format rather than natural conversation flow."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose: 'If you want to pivot, you could turn it into a chance to try that food truck you've been eyeing, or see if a friend wants to split something nearby. Or honestly, I'd just embrace the snack drawer hunt...'",
+      "Add first-person language throughout to create connection: 'I think we've all been there,' 'I'd probably go for a walk and clear my head first,' or 'I'm getting hungry just thinking about this!'",
+      "End with a natural question to keep the conversation going: 'What's your usual move when this happens?' or 'Do you have a go-to spot nearby if you decide to grab something?'"
+    ]
+  }
+}

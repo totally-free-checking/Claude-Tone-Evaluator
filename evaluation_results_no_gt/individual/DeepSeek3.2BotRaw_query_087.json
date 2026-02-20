@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable advice with concrete example phrases the teen could actually use (\"Hey, I've been feeling a bit overwhelmed lately...\")",
+      "Offers realistic suggestions appropriate for teen communication styles (slowing text responses, sending memes, low-energy hangouts)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no \"I think,\" \"I'd suggest,\" or \"I get it\" - making it feel impersonal and clinical rather than like a supportive friend",
+      "Heavy reliance on structured formatting with 4 numbered bullet points, bold headers, and blockquotes instead of natural conversational prose",
+      "Opens with detached, therapist-like language (\"It sounds like you're feeling...\") rather than warm, immediate validation (\"Ugh, that's so stressful\" or \"I totally get that\")",
+      "Uses formal adult/therapy terminology like \"season,\" \"comfort level,\" \"emotional bandwidth,\" and \"friendship style\" that doesn't sound like teen conversation"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it gives specific, realistic strategies and actual scripts the teen could use, showing good understanding of teen social dynamics",
+    "least_ideal_aspect": "The prose formatting - it reads like a self-help article with heavy bullet-point structure, bold headers, and blockquotes rather than a natural text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "15%",
+      "notes": "Response uses 4 numbered bullets with bold headers (**1. Kind but direct communication...**), plus a blockquote for example dialogue. Only the first sentence and final question are in prose. This is extremely over-structured for a conversational teen support bot."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without any numbered lists or bold headers - flow the advice naturally using transitions like \"I'd probably start by...\" or \"One thing you could try is...\"",
+      "Add first-person language throughout: \"I think the best approach would be...\", \"I'd say something like...\", \"I get why that feels overwhelming\" to create personal connection",
+      "Replace clinical openers like \"It sounds like you're feeling\" with warmer, more immediate validation: \"Ugh, that's such a tough spot\" or \"That feeling of being smothered is the worst\"",
+      "Consider adding one warm emoji early (like 😅 or 💙) to soften the tone, or keep it at zero but compensate with warmer language"
+    ]
+  }
+}

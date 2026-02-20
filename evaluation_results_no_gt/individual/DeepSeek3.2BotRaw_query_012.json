@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 12,
+  "user_query": "I saw my crush talking to someone else and now I feel dumb.",
+  "evaluation": {
+    "overall_score": 6.2,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation: 'Hey, that's a totally normal feeling — and you're not dumb at all' immediately reassures the teen",
+      "Provides realistic, actionable advice specific to the situation: 'start up a conversation yourself next time you see them'",
+      "Ends with warm reassurance: 'Be kind to yourself' paired with a single appropriate heart emoji"
+    ],
+    "weaknesses": [
+      "Uses a numbered list format (1, 2, 3) with bold headers instead of natural prose paragraphs for the advice section",
+      "Completely lacks first-person singular language (no 'I think', 'I'd say', or 'I get it') making it feel impersonal",
+      "Fails to end with a follow-up question to continue the conversation"
+    ],
+    "most_ideal_aspect": "Emoji usage - uses exactly one supportive emoji (💙) at the end to enhance warmth without being excessive",
+    "least_ideal_aspect": "Natural Prose vs Bullet Points - relies on a numbered list with bold text headers ('**It probably doesn't mean what you think.**') rather than flowing conversational prose",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "45%",
+      "notes": "Response uses 'Here are a few things that might help:' followed by three numbered items with bold headers, which reads like a self-help article rather than a text conversation. The middle section is entirely structured formatting."
+    },
+    "specific_feedback": [
+      "Convert the numbered advice points into 1-2 natural prose paragraphs that flow conversationally, such as 'I think the first thing to remember is that people talk to lots of folks during the day...'",
+      "Add a specific follow-up question at the end like 'Have you talked to your crush before, or is this more of a from-afar situation?' to invite continued conversation",
+      "Incorporate first-person language throughout, such as 'I get why that stings' or 'I'd say the best thing to do is...' to create a more personal, supportive connection"
+    ]
+  }
+}

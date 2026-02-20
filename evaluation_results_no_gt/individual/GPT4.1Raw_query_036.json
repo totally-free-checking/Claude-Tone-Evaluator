@@ -1,0 +1,43 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 5,
+      "conversational_tone": 6,
+      "practical_advice": 3,
+      "followup_question": 7,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Perfect prose format with natural flow and zero bullet points or over-structuring",
+      "Asks specific diagnostic question to distinguish between gut feelings and specific concerning behaviors",
+      "Uses 'I'm here for you' which creates personal connection through first-person language"
+    ],
+    "weaknesses": [
+      "'That sounds tough' is minimal validation that feels somewhat perfunctory for the emotional weight of worrying about a friend's safety",
+      "No practical advice or perspective offered - 100% validation with zero guidance on how to handle the situation",
+      "Too brief at only two sentences, which risks feeling dismissive despite good intentions",
+      "Compound question ('have they done something specific, or is it more just a gut feeling?') feels slightly like an interview rather than natural conversation"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points, headers, or over-structuring - reads like a text message",
+    "least_ideal_aspect": "Length and completeness - response is too brief and lacks any practical guidance or advice, offering only validation and a question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in paragraph form with natural conversational flow. No formatting issues, headers, or structural problems."
+    },
+    "specific_feedback": [
+      "Expand validation with warmer, more specific language like 'Ugh, that's such a stressful situation' or 'I totally get why you'd feel protective' instead of the minimal 'That sounds tough'",
+      "Add brief practical perspective or advice to balance validation, such as 'Sometimes our gut feelings are worth paying attention to, even if we can't put our finger on why' or 'I'd maybe keep a closer eye on how they treat your friend when you're around'",
+      "Use more first-person sharing language like 'I'd be worried too' or 'I think you should trust your instincts' to sound less clinical and more like a supportive friend",
+      "Consider adding one supportive emoji (like 💙 or 😅) given the brief length to enhance warmth and friendliness",
+      "Break the compound question into a single focused question or rephrase more conversationally, such as 'What specifically is giving you bad vibes?' instead of the binary 'specific vs gut feeling' framing"
+    ]
+  }
+}

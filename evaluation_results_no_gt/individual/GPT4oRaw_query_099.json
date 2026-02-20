@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose format with zero bullet points or headers, creating a natural conversational flow that reads like a text from a supportive friend",
+      "Strong immediate emotional validation with phrases like 'Oh no, I'm so sorry' and acknowledging the 'breach of trust' and violation of safe space",
+      "Appropriate length with two focused paragraphs that are substantial but not overwhelming for mobile reading"
+    ],
+    "weaknesses": [
+      "Asks two questions at once ('How are you feeling right now? Have you had a chance to talk...'), which can feel slightly overwhelming and the first question is somewhat redundant given the user already stated they feel violated",
+      "Tone leans slightly formal with phrases like 'incredibly frustrating' and 'rebuild some boundaries' rather than using casual first-person sharing like 'I'd be so mad too' or 'I get why you feel totally betrayed'",
+      "Practical advice, while realistic, could be more specific by offering actual script examples for what to say to the parent rather than just suggesting they talk"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, lists, or over-structuring, maintaining a conversational paragraph flow throughout",
+    "least_ideal_aspect": "Follow-up question strategy - asking two questions at once including a generic 'How are you feeling right now?' when the user already expressed their feelings, rather than one specific engaging question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with two natural paragraphs. No headers, bold text, numbered lists, or bullet points. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Combine the two questions into one more specific question like 'Have you been able to talk to them about it yet, or are you still figuring out how to approach it?'",
+      "Add more casual first-person perspective sharing such as 'I think I'd feel totally betrayed too' or 'I'd say the hardest part is...' to make it feel more like a personal conversation",
+      "Include one concrete script example for the conversation with their parent, such as suggesting they could say: 'When you read my private notes, I felt like my trust was completely broken and I need that privacy back'"
+    ]
+  }
+}

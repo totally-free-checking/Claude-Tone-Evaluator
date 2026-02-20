@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 40,
+  "user_query": "Someone keeps texting me nonstop and I don’t know how to set a boundary.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use ('Hey, I've been feeling a bit overwhelmed with notifications lately...') which makes the advice immediately usable",
+      "Ends with a strong, specific follow-up question asking about the relationship context ('Are they a close friend, someone you're dating, or more of an acquaintance?') that shows genuine interest and helps tailor future advice"
+    ],
+    "weaknesses": [
+      "Extremely over-formatted with headers, bullet points, and quote blocks that read like a wikiHow article rather than a conversation with a friend",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal constructions like 'Here are a few ideas you could try' instead of 'I'd probably try...'",
+      "Jumps to practical solutions after only one brief validating sentence ('Ah, that's frustrating'), making it feel more like an advice column than emotional support"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific phrasing suggestions - it gives realistic scripts for different comfort levels that a teen could actually send",
+    "least_ideal_aspect": "The prose formatting - it uses heavy structure with 'Option 1/2/3/4' headers, bullet lists, and separators instead of natural conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "25%",
+      "notes": "Response uses 4 structured 'Option' headers with quote blocks, a bulleted list under Option 3 (3 bullets), and a 'Remember' section with bullets (3 bullets). Heavy use of '---' separators creates a clinical, article-like feel rather than texting flow."
+    },
+    "specific_feedback": [
+      "Rewrite as natural prose paragraphs instead of numbered options - flow the advice naturally using 'I think if it were me, I'd probably...' or 'You could try saying something like...' rather than 'Option 1' headers",
+      "Add first-person connection language like 'I get how overwhelming that feels' or 'I'm sorry you're dealing with that' and 'I'd be happy to help you figure this out' to make it feel like a real person talking",
+      "Move the 'Remember' validation points (about not apologizing for space) to the beginning of the response to balance the emotional support before diving into solutions"
+    ]
+  }
+}

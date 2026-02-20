@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points or headers—reads like a text from a supportive friend",
+      "Strong use of first-person language throughout ('I hear you,' 'we can brainstorm') creating genuine connection",
+      "Immediate emotional validation with explicit permission to feel hurt ('It's okay to feel hurt—it's valid')"
+    ],
+    "weaknesses": [
+      "Ends with a statement/invitation rather than a specific follow-up question to continue the conversation",
+      "Lacks emojis that could enhance warmth for this emotionally painful topic—a gentle 💙 or 😔 would fit naturally",
+      "Advice is somewhat general; doesn't provide specific conversation starters or scripts the teen could actually use"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero structural elements (bullets, headers, bold text)",
+    "least_ideal_aspect": "Failure to end with an engaging follow-up question; the response concludes with an exclamation rather than inviting the teen to share more",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three flowing paragraphs with no lists, headers, or over-formatting. Advice is integrated naturally into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "End with a specific, natural question like 'Do you think they'd be receptive if you brought this up?' or 'What's your gut telling you about these friendships?' to keep the conversation going",
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to match the emotional weight of feeling like a backup friend",
+      "Include specific script suggestions for opening the conversation, such as 'You could try saying: I've been feeling a bit like I'm on the sidelines lately, and I miss hanging out one-on-one'"
+    ]
+  }
+}

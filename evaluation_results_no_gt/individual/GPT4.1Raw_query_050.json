@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 3,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Uses first-person language effectively ('I'm here to listen') creating personal connection"
+    ],
+    "weaknesses": [
+      "Minimizes the immediate emotional distress with toxic positivity ('Sometimes people's feelings can change with time') rather than validating how awkward/painful the current situation is",
+      "Asks two questions at once ('Are you okay? Want any advice...') which feels scattered and meta rather than engaging specifically with their situation",
+      "Fails to offer any concrete advice or strategies for navigating the difficult partnership, instead asking if they want advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Practical advice quality - offers only vague platitudes about feelings changing rather than specific, actionable strategies for working with someone who dislikes them",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. Response flows naturally as two short paragraphs."
+    },
+    "specific_feedback": [
+      "Replace the minimizing statement 'Sometimes people's feelings can change with time' with specific validation of how awkward and stressful it is to be trapped in a partnership with someone who hates you, using language like 'That stomach-dropping moment when you see the partner assignment'",
+      "Offer 1-2 concrete strategies within the prose (like 'I'd probably suggest keeping conversations focused on the assignment rather than trying to fix the friendship right now') before asking follow-up questions",
+      "Change the ending to one specific question about their situation like 'What class is this for?' or 'Do you know why they don't like you?' instead of the generic 'Are you okay?' and the meta 'Want advice?'",
+      "Add one warm emoji (like 😬 or 😅) early in the response to signal casual, friendly tone appropriate for the awkwardness of the situation"
+    ]
+  }
+}

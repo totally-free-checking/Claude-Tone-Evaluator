@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 4,
+      "followup_question": 2,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers—reads like a natural text conversation",
+      "Strong use of first-person language ('I'm here,' 'I've got your back') that creates genuine connection and warmth",
+      "Opens with immediate emotional validation ('That really sucks,' 'I'm sorry you're going through that') that acknowledges the unfairness of the situation"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question to continue the conversation—ends with a statement rather than engagement",
+      "Lacks concrete practical advice; offers validation and perspective ('you have your own strengths') but no actionable strategies for handling the comparisons",
+      "Heavy imbalance toward emotional support without practical solutions—doesn't offer specific phrases to use with family or coping strategies"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and appropriate first-person language that feels like texting with a supportive friend",
+    "least_ideal_aspect": "Absence of a follow-up question to maintain dialogue—fails to invite the teen to share more details or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with two clean paragraphs. No headers, bold text, or lists. Text flows naturally as conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question at the end like 'What's the comparison that bothers you most?' or 'Do you want to talk about what they were saying?' to keep the conversation going",
+      "Include one concrete piece of actionable advice, such as specific phrases they could use when being compared ('I feel frustrated when I'm compared to [sibling] because...') or a strategy for redirecting the conversation",
+      "Consider adding one subtle emoji (like 💙 or 😅) early in the response to enhance the warm, casual tone, though the current no-emoji approach is acceptable"
+    ]
+  }
+}

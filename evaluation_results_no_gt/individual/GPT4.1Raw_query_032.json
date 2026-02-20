@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Strong use of first-person language at the end ('I'm here to help you think it through') creating personal connection",
+      "Immediate emotional validation with 'Ugh, that's such a frustrating situation' and acknowledging 'confused and anxious' feelings"
+    ],
+    "weaknesses": [
+      "Advice could be more specific - suggests 'reaching out' but doesn't offer concrete phrases or scripts the teen could actually use",
+      "Lacks emoji that could enhance warmth for this anxious situation (though none is acceptable)",
+      "Multiple questions in sequence ('Have you tried...?' followed by 'Or maybe...?') feels slightly less focused than one engaging follow-up"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - perfectly matches the conversational texting style ideal for teen support",
+    "least_ideal_aspect": "Practical advice specificity - suggests general approaches but lacks concrete 'here's exactly what you could text them' type guidance that teens often need",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. Two natural paragraphs that flow like a friend texting."
+    },
+    "specific_feedback": [
+      "Add one warm emoji (like 😕 or 😅) early in the response to set a supportive tone for this anxious situation",
+      "Provide specific script suggestions for what to actually say when reaching out (e.g., 'Hey, I feel like something might be off between us...')",
+      "Consider opening with slightly stronger validation like 'That's such a rough feeling' or 'I've totally been there' before moving to the advice"
+    ]
+  }
+}

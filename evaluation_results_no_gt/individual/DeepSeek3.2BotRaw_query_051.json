@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong validation using casual language ('Yeah, that feeling really stings, doesn't it?') that immediately acknowledges the hurt",
+      "Uses first-person language naturally ('I think a lot of people have felt that backup feeling') creating some personal connection",
+      "Provides a specific, usable script for the teen ('Hey, I've been feeling a bit disconnected lately...') which gives concrete words to use in a difficult conversation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (4 bullets + 3 numbered sections with bold headers) instead of flowing conversational prose",
+      "Ends with a concluding statement rather than a follow-up question, missing the opportunity to continue the dialogue",
+      "Uses overly clinical/therapeutic language ('mutual care and chosen presence', 're-calibrate your energy', 'grieve the friendship') that feels more like a therapist than a supportive friend"
+    ],
+    "most_ideal_aspect": "The specific conversation script provided in option 2, which gives exact words the teen can use rather than vague advice",
+    "least_ideal_aspect": "The formatting structure with bullet points and bold-numbered headers that reads like a self-help article rather than a text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "40%",
+      "notes": "Response contains 4 bullet points listing friendship patterns and 3 numbered items with bold headers for advice sections. The heavy structuring disrupts conversational flow and feels instructional rather than supportive."
+    },
+    "specific_feedback": [
+      "Convert the bullet points about friendship patterns and the numbered advice sections into natural flowing paragraphs - instead of listing 'Last-minute invites only,' weave it into sentences like 'You might notice you're only getting texts at the last minute when their other plans fall through'",
+      "End with an engaging question to continue the conversation, such as 'Do you think this friendship is worth having a conversation about, or has this been going on too long?' or 'What pattern have you noticed most that makes you feel like the backup?'",
+      "Replace clinical phrases like 're-calibrate your energy' and 'mutual care and chosen presence' with casual alternatives like 'maybe pull back a bit' and 'friendship should be about both people actually wanting to hang out'"
+    ]
+  }
+}

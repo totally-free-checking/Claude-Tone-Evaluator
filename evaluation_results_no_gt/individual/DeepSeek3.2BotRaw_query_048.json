@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 5,
+      "followup_question": 7,
+      "support_solutions_balance": 5,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Strong immediate emotional validation using casual language ('Ugh, that's the worst feeling', 'It's completely valid to feel this way')",
+      "Specific, engaging follow-up question that shows genuine interest in the details ('Like, who's doing the comparing, or what it is they're saying?')"
+    ],
+    "weaknesses": [
+      "Complete absence of first-person language ('I think', 'I'd say', 'I get it') makes the response feel impersonal despite casual vocabulary",
+      "Follow-up question appears in the middle of the response rather than at the end, closing with validation instead of engagement",
+      "Lacks concrete practical advice or actionable strategies beyond vague 'naming it helps' - no specific scripts for talking to parents or coping mechanisms"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points, reading like a text message rather than a structured guide",
+    "least_ideal_aspect": "The complete lack of first-person singular pronouns (I, me, my) - the response never says 'I think' or 'I'd feel the same way', creating distance rather than the intended supportive peer connection",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or bold text. Uses italics once for emphasis on 'you' which enhances the conversational tone without breaking flow."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection: try 'I totally get why that sucks' or 'I'd be so frustrated too' instead of only using 'you' statements",
+      "Move the engaging question to the very end of the response to invite continued conversation rather than closing with a statement",
+      "Include specific, actionable advice such as example phrases to say to parents ('I've been feeling compared a lot and it hurts') or concrete coping strategies for when comparisons happen"
+    ]
+  }
+}

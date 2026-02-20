@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 45,
+  "user_query": "I got in trouble for something I didn’t do.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with casual, empathetic language ('Oh no, that totally sucks! I'm really sorry you're going through that')",
+      "Perfect prose formatting with zero bullets or structural elements - reads like a natural text message",
+      "Effective use of first-person language ('I'm really sorry', 'Let me know if you'd like') creating personal connection"
+    ],
+    "weaknesses": [
+      "Practical advice is somewhat vague - offers to 'brainstorm ideas' but doesn't provide even one concrete example of what to say or do in the moment",
+      "Asks two questions rather than one focused follow-up, though they work well as alternatives"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow - completely avoids bullet points and reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Practical advice specificity - while appropriate for an opening response, it could include one concrete phrase suggestion (like 'I didn't do this, and here's what actually happened') before offering to brainstorm further",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent - single paragraph of natural prose with no formatting elements, headers, or lists. Perfect example of conversational text format."
+    },
+    "specific_feedback": [
+      "Consider adding one specific actionable tip before asking questions, such as suggesting a phrase like 'I understand why you're upset, but I need to explain what actually happened' to give them immediate value",
+      "While the two questions work as alternatives, focusing on one primary question like 'Do you feel like they'd actually listen if you explained your side right now?' might feel less overwhelming"
+    ]
+  }
+}

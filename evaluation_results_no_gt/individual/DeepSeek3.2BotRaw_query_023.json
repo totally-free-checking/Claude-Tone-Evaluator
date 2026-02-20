@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - flows exactly like a supportive text conversation",
+      "Strong first-person validation opening with 'I totally get that feeling' that immediately establishes empathy and connection",
+      "Practical advice is realistic and teen-specific (headphones, phone, people-watching) while acknowledging limited agency with 'ride it out' option"
+    ],
+    "weaknesses": [
+      "Follow-up question 'Want to talk about it a bit more?' is slightly generic and could be more specific to the lunch situation",
+      "While 0 emojis is acceptable, one warm emoji (like 😅 or 💙) could have enhanced the emotional connection given the vulnerable nature of sitting alone"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - perfectly conversational paragraphs without any structural formatting, bullet points, or over-structuring, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "Follow-up question engagement - ends with a question but it's somewhat generic ('talk about it a bit more') rather than probing the specific situation (e.g., asking about their usual lunch routine or what feels most uncomfortable)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as continuous prose across four natural paragraphs. Advice is integrated into sentences ('Try putting in headphones... Or maybe this is your chance...') rather than listed, maintaining conversational flow throughout"
+    },
+    "specific_feedback": [
+      "Consider making the follow-up question more specific to their situation, such as 'Is this a usual thing for you, or did something change today?' to show deeper engagement with their specific context",
+      "While the opening validation is strong, adding one warm emoji (like 😅 after 'spotlight' or 💙 at the end) could enhance the emotional warmth without feeling excessive"
+    ]
+  }
+}

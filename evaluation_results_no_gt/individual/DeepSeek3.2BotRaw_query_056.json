@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation: 'That’s really thoughtful of you to reach out like this — it means a lot to your friend that you care' immediately acknowledges the user's caring nature",
+      "Provides excellent specific scripts the teen can actually use, like 'Thanks for trusting me with this. I’m here for you, whatever you need' and 'Do you need someone to vent to, or would you prefer some help figuring things out?'",
+      "Ends with a solid follow-up question that invites continuation: 'Is there anything specific you’re feeling uncertain about in how to approach them?'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points (5 main items) contradicts the ideal conversational prose format - reads like a self-help article rather than a text conversation",
+      "Lacks first-person language entirely - no 'I think,' 'I'd say,' or 'I get it' makes it feel impersonal and instructional rather than like a supportive friend",
+      "Uses 2 emojis (💙 and 💛) when the ideal is 0-1 max"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic phrases and actions a teen can immediately use with their struggling friend",
+    "least_ideal_aspect": "Natural prose vs bullet points - the response is structured as 5 numbered items with sub-points, which is the opposite of the flowing paragraph format specified in the ideal character",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "15%",
+      "notes": "Response uses 'Here are a few gentle ways you could start:' followed by 5 numbered bullets with bold headers and indented example phrases. Only the opening and closing sentences are in prose format. This is exactly the 'Here are X ways to handle this' structure flagged as a red flag in the instructions."
+    },
+    "specific_feedback": [
+      "Convert the 5 bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation - instead of '1. Just listen... 2. Ask how...' try 'I think the most important thing is just listening without trying to fix everything. You could say something like... And honestly, I'd also ask them directly how they want to be supported...'",
+      "Add first-person perspective throughout to create connection - use phrases like 'I get that it's hard to know what to do,' 'I'd probably start by,' or 'I think the best approach is' to make it feel like a real person talking",
+      "Reduce emoji usage to 0 or 1 - either keep the 💛 at the end or the 💙 in the text example, but not both, to maintain the 'sparingly' guideline"
+    ]
+  }
+}

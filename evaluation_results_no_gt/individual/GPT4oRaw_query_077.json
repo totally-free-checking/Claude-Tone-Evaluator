@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 77,
+  "user_query": "My friend asked me to keep a secret that feels serious.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides excellent, nuanced practical advice that distinguishes between harmful secrets requiring intervention and heavy but non-dangerous secrets",
+      "Appropriate length and pacing that feels readable on a phone without being overwhelming",
+      "Acknowledges the emotional weight with phrases like 'it can definitely feel heavy' and 'You're in a tough spot'"
+    ],
+    "weaknesses": [
+      "Uses numbered bullet points (1, 2) for reflective questions instead of integrating them into natural prose paragraphs",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel instructional rather than like a personal conversation",
+      "Opening validation ('That sounds like a tricky situation') is somewhat perfunctory and could be warmer and more immediate"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers specific, realistic guidance for differentiating safety concerns from emotional burdens and suggests concrete steps like involving counselors",
+    "least_ideal_aspect": "Conversational tone - responds with impersonal, instructional language ('First, ask yourself', 'it can help to') rather than using first-person connection ('I think you should ask yourself', 'I'd suggest')",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "80%",
+      "notes": "Uses numbered list format for two reflective questions that should be woven into natural prose. The bullets break the conversational flow and make it feel like a worksheet rather than a supportive chat."
+    },
+    "specific_feedback": [
+      "Convert the numbered questions into natural prose: instead of '1. Is this secret... 2. Are you struggling...' try 'I think I'd start by asking myself whether this puts anyone in harm's way... and also whether it feels like too much to carry alone'",
+      "Add first-person language throughout to create connection: use 'I think', 'I'd say', 'I'm here if you need to talk' instead of impersonal directives like 'First, ask yourself'",
+      "Open with stronger emotional validation before any advice: try starting with something like 'Ugh, that's such a heavy spot to be in' or 'I'm really sorry you're carrying this weight' before moving to the practical questions"
+    ]
+  }
+}

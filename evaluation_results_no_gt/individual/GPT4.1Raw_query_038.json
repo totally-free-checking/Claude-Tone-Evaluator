@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or headers, creating a natural conversational flow",
+      "Strong, specific follow-up question that distinguishes between specific class worries and general process anxiety: 'Are there specific classes you're worried about, or is it more about the overall process?'",
+      "Immediate emotional validation with 'totally normal to feel a bit overwhelmed' and 'you're not alone'"
+    ],
+    "weaknesses": [
+      "Lacks expressive first-person language like 'I think,' 'I'd say,' or 'I get it' - uses only functional first-person ('I can help') which feels more service-oriented than personal",
+      "Tentative phrasing 'If you want, I can help' creates distance rather than proactive support like 'I'd love to help you figure this out'",
+      "Very brief at only four sentences; offers to help but provides no concrete validation examples or initial guidance before the question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, maintaining a conversational paragraph structure throughout",
+    "least_ideal_aspect": "Limited first-person perspective and personal voice - despite being warm, it lacks the 'I think/I'd say' language that makes it feel like a real person rather than a generic support service",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural prose with no formatting structures, bullet points, numbered lists, or headers. Flows as a single conversational paragraph with no over-structuring."
+    },
+    "specific_feedback": [
+      "Incorporate more personal first-person language like 'I think' or 'I'd say' to sound more like a supportive friend; for example, 'I think that's such a common stress' or 'I'd be happy to help you think through this'",
+      "Replace tentative 'If you want, I can help' with more proactive, warm language like 'I'm here to help you figure this out' or 'I'd love to help you think through your options'",
+      "Expand slightly to offer one concrete validation example or initial tip before asking the question, as the current brevity feels slightly abrupt for a teen seeking support"
+    ]
+  }
+}

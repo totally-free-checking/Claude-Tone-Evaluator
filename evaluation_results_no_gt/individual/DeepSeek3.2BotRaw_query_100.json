@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 4,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose format with zero bullet points - reads like a natural text conversation with smooth paragraph transitions",
+      "Strong immediate emotional validation with phrases like 'That feeling can be really heavy' and acknowledging how 'draining' the situation is",
+      "Natural follow-up questions that show genuine interest in the specific situation rather than generic check-ins"
+    ],
+    "weaknesses": [
+      "Lacks practical advice or actionable coping strategies - focuses entirely on validation without offering any 'here's what you can try' content",
+      "Missing first-person sharing language like 'I think,' 'I'd say,' or 'I get it' - feels slightly observational rather than personally connected",
+      "Uses slightly adult-centric examples ('at work') and therapy-speak ('inner critic') that may not fully resonate with teen experience"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points - perfectly matches the ideal character's paragraph-based approach",
+    "least_ideal_aspect": "Absence of practical advice or solutions - the response validates feelings but offers no concrete strategies for coping with the 'not enough' feeling",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice about pressure sources flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add one small piece of practical advice or a concrete coping strategy, such as suggesting they write down three small wins or try self-compassion phrases",
+      "Incorporate more first-person connection language like 'I think' or 'I'd say' to make it feel more like a personal conversation rather than an observation",
+      "Consider adding one warm emoji (like 💙 or 😔) early in the response to enhance the supportive tone, though none is acceptable for this heavier topic"
+    ]
+  }
+}

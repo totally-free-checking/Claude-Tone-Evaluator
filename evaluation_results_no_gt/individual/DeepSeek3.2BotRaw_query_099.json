@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 99,
+  "user_query": "My parent read my diary/notes and I feel so violated.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation that acknowledges the violation of trust and emotional impact ('completely understandable that you feel violated', 'exposed and disrespected')",
+      "Provides specific, actionable advice including a realistic script the teen could actually use when talking to their parent ('When you read my private notes, it made me feel like my thoughts aren't safe...')"
+    ],
+    "weaknesses": [
+      "Uses heavy bullet-point formatting with bold headers instead of natural conversational prose, making it feel like a self-help article rather than a supportive conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes the response feel impersonal and detached rather than like a supportive friend",
+      "Ends with a statement rather than a follow-up question to continue the conversation, missing the opportunity to engage further"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, realistic steps including specific phrasing for confronting the parent",
+    "least_ideal_aspect": "Natural prose vs. bullet points - relies on a numbered list with bold formatting instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Uses 'It might help to:' introduction followed by three numbered bullet points with bold headers (Take a moment to breathe, Consider talking to them calmly, Find a new way to keep your thoughts private). This heavy structuring disrupts the conversational flow that should characterize a teen support chat."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose paragraphs that flow conversationally - instead of '1. Take a moment to breathe,' write something like 'First, I'd just give yourself permission to feel whatever you're feeling right now...'",
+      "Add first-person language throughout to create connection - use phrases like 'I think the best approach would be...' or 'I'd suggest trying...' instead of impersonal directives",
+      "End with a specific, engaging follow-up question like 'Do you think you'll try talking to them about it, or do you feel like you need some space first?' to invite continued conversation"
+    ]
+  }
+}

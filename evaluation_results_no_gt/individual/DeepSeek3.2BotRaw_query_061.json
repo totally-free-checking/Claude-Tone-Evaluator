@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "The follow-up question is natural and specific to the situation: 'Would you like to talk about what you've noticed so far, or any specific situation that makes you wonder?' invites continued conversation effectively",
+      "Practical advice is concrete and realistic for teens, with specific observable behaviors like 'laugh at your jokes' and 'mirroring your movements' rather than vague platitudes",
+      "Opens with validating language: 'Ah, that exciting, nerve-wracking feeling! It's totally normal to wonder about this' acknowledges the emotional experience"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and formatting (numbered list with bold headers) rather than natural prose paragraphs - reads like a self-help article rather than a text conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal phrasing like 'here are a few gentle ways you could gauge their interest' instead of personal connection",
+      "Brief emotional validation (one sentence) immediately followed by structured advice list without transitioning naturally between support and solutions"
+    ],
+    "most_ideal_aspect": "The follow-up question quality - it is specific, natural, and invites the teen to share details about their unique situation rather than asking generic 'how are you feeling' questions",
+    "least_ideal_aspect": "The prose formatting - the response uses a numbered list with four items and bold text headers, which is the opposite of the conversational paragraph format ideal for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "20%",
+      "notes": "Response uses a numbered list (1-4) with bold headers for each point. The advice section is entirely structured as bullet points rather than flowing naturally within paragraphs. This creates a clinical, guide-like feel rather than a conversational one."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose paragraphs instead of a numbered list. For example: 'I'd say start by noticing how they act when you're around. Do they make an effort to talk to you or laugh extra hard at your jokes? And pay attention to who reaches out first - if they're texting you or starting conversations, that's usually a good sign.'",
+      "Add first-person language throughout to create connection: replace 'here are ways you could gauge' with 'I'd suggest looking for...' or 'When I was in your shoes, I noticed...' or 'I think the best thing is to...'",
+      "Expand the emotional validation section before giving advice. Sit with the feeling longer - maybe add something like 'That uncertainty is honestly the worst part, isn't it? Your stomach does that flip thing every time they walk by.' before moving to suggestions"
+    ]
+  }
+}

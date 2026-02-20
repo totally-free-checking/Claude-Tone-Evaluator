@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 58,
+  "user_query": "I’m nervous about talking to the school counselor.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of natural prose with zero bullet points or formatting, reading exactly like a supportive text message",
+      "Strong first-person validation opening with 'Aw, I totally understand feeling that way' that immediately acknowledges the teen's nerves",
+      "Provides specific, actionable scripts the teen can actually say: 'I'm a little nervous about this' or 'I'm not sure how to say this'"
+    ],
+    "weaknesses": [
+      "Could enhance warmth slightly with phrases like 'That's so relatable' or 'We've all been there' to deepen the validation",
+      "While the absence of emojis is appropriate for this serious topic, a single warm emoji early on could enhance the 'supportive friend' vibe"
+    ],
+    "most_ideal_aspect": "The response perfectly balances emotional validation with concrete, realistic advice, offering both empathy ('They'll get it') and practical preparation strategies (jotting notes) without overwhelming the teen",
+    "least_ideal_aspect": "The validation, while present, could be slightly more immediate and emotionally resonant before transitioning to the 'remember counselors are there to help' reassurance",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as three natural paragraphs with no headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one gentle emoji (like 😊 or 💙) early in the response to enhance warmth, though the current tone is appropriately professional for the topic",
+      "Could strengthen the opening validation by explicitly stating 'We've all been there' or similar before moving to reassurance about counselors",
+      "The first-person language is good but could be enhanced with explicit 'I think' or 'I'd say' phrases to make it feel even more like personal advice from a friend"
+    ]
+  }
+}

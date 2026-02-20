@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 90,
+  "user_query": "I got a bad grade and I’m scared to tell my parents.",
+  "evaluation": {
+    "overall_score": 9.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 10,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout creates genuine connection: 'I'd be stressed too,' 'I think almost everyone has been there,' and 'If I were you, I'd maybe try...'",
+      "Provides specific, actionable script for the difficult conversation: 'I didn't do as well as I hoped on this assignment, and I'm feeling really disappointed about it'",
+      "Perfect prose formatting with zero bullet points or over-structuring—reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice between paragraphs 2 and 3 could be slightly smoother with a brief bridging sentence",
+      "Could acknowledge the specific fear of parental disappointment a bit longer before moving to the solution phase"
+    ],
+    "most_ideal_aspect": "The natural conversational tone combined with consistent first-person perspective ('I'd be stressed,' 'I promise,' 'If I were you') makes this feel like a real supportive person rather than an AI giving instructions",
+    "least_ideal_aspect": "The shift from emotional validation to practical advice happens somewhat abruptly without a soft transition phrase like 'When you're ready to talk about it...' or 'Here's what might help...'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no bullet points, headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a brief transitional phrase between the validation and advice sections to soften the shift from 'parents care about you' to 'tell them sooner'",
+      "While the verbal script is excellent, you could briefly mention alternative methods (like writing a note or text) for teens who feel too anxious for face-to-face conversation"
+    ]
+  }
+}

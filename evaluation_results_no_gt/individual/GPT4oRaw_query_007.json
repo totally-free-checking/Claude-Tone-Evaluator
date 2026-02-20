@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 7,
+  "user_query": "My group project partner hasn’t done anything and it’s due tomorrow.",
+  "evaluation": {
+    "overall_score": 5.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with strong validation using casual language ('Ugh, that's super frustrating') and acknowledges the difficulty of group projects",
+      "Provides excellent specific scripts/phrases the teen can actually use when contacting their partner and teacher ('Hey, just wanted to check in—are you able to finish...')",
+      "Gives realistic, actionable advice that recognizes teen agency (documenting work, prioritizing tasks, contacting instructor)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - reads as impersonal instructional content rather than a supportive friend",
+      "Uses heavy formatting with numbered headers (### 1. **Reach Out**) that makes it read like a wikiHow article instead of natural conversation",
+      "Ends with 'You've got this!' but fails to ask a follow-up question to continue the conversation, which is essential for the teen support character"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific scripting - it gives concrete phrases the teen can copy/paste and realistic steps for handling the situation",
+    "least_ideal_aspect": "The prose vs bullets formatting - it uses 5 numbered sections with headers and bold text, making it feel like a structured self-help guide rather than a warm text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "20%",
+      "notes": "Response uses 5 major numbered sections with headers (### 1. **Title**), plus bold text throughout. While there are paragraphs within sections, the overall structure is heavily list-based and formatted like an instructional guide rather than natural prose."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into 2-3 natural paragraphs that flow conversationally - instead of 'Here are steps: 1. Reach out 2. Prioritize', try 'I'd probably start by texting them something like... If that doesn't work, I'd focus on what you can actually finish by tomorrow...'",
+      "Add a genuine follow-up question at the end to keep the conversation going, such as 'Have you talked to them at all yet, or is this radio silence?' or 'What part of the project were they supposed to handle?'",
+      "Incorporate first-person language throughout ('I think you should...', 'I'd be so stressed too', 'In my experience...') to create the feeling of a supportive friend rather than an advice column"
+    ]
+  }
+}

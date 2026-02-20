@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 71,
+  "user_query": "I’m scared I’m going to fail this class.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 4,
+      "followup_question": 7,
+      "support_solutions_balance": 4,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, making it feel like a real conversation",
+      "Good use of first-person language ('I'm really sorry', 'I'm here to help') that establishes personal connection"
+    ],
+    "weaknesses": [
+      "Lacks concrete practical advice - only offers to give advice later rather than providing an immediate actionable tip",
+      "Follow-up question is wordy and formal ('If you'd like, you can tell me...') rather than direct and casual",
+      "Missing casual teen-appropriate language markers (like 'Ugh', 'Honestly', or 'That sucks') that would make it feel more like a peer"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Practical advice quality - offers help but provides no specific, actionable guidance for the immediate fear of failing",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or bold text. Reads as a single natural paragraph."
+    },
+    "specific_feedback": [
+      "Replace 'If you'd like, you can tell me more...' with something more direct like 'What's making you feel this way?' or 'Is it a specific subject or just everything piling up?'",
+      "Add one concrete, immediate suggestion before asking the question, such as 'Have you tried reaching out to the teacher yet? Even a quick email can help' or 'Sometimes breaking it into 20-minute chunks makes it less scary'",
+      "Inject more casual warmth at the start like 'Ugh, that sinking feeling is the worst' or 'I totally get that panic' before the validation"
+    ]
+  }
+}

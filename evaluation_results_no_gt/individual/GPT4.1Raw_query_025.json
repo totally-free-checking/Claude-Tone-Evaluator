@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 5,
+      "conversational_tone": 5,
+      "practical_advice": 2,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 3
+    },
+    "strengths": [
+      "Uses pure prose with no bullet points or formatting, matching the conversational text style",
+      "Validates feelings immediately with 'That sounds frustrating' and acknowledges the lack of agency"
+    ],
+    "weaknesses": [
+      "Extremely brief (only 2 sentences) - feels dismissive rather than supportive for the ideal 2-4 paragraph length",
+      "Completely lacks first-person language ('I think', 'I'd be annoyed', 'I get it') making it feel impersonal and detached",
+      "No practical advice offered - only asks what happened without offering any immediate coping strategies or validation depth",
+      "Missing emoji that could enhance warmth for such a short response",
+      "Uses somewhat formal phrasing like 'decisions are made about your life without your input' instead of casual teen-appropriate language like 'ugh, moms can be so extra sometimes'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Length and lack of first-person connection - reads like a generic automated reply rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with zero bullets, though the extreme brevity makes it feel more like a text message ping than a substantive response"
+    },
+    "specific_feedback": [
+      "Expand to 2-3 paragraphs with deeper validation ('I'd be so annoyed if my mom did that without asking') followed by one concrete suggestion for how to approach the conversation",
+      "Add natural first-person language throughout ('I think you should...', 'I'd probably feel...', 'I'm here to help figure this out') to create personal connection",
+      "Include one emoji (like 😅 or 😬) early in the response to set a warm, casual tone since the text is so short",
+      "Offer at least one piece of immediate actionable advice before asking the follow-up question, such as suggesting they take a breath before reacting or how to start the conversation with their mom"
+    ]
+  }
+}

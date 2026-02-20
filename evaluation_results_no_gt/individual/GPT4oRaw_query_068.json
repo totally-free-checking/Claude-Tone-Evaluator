@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or formatting, reading like a text from a friend",
+      "Warm, immediate validation with 'Oh no, I'm sorry you're feeling this way!' and acknowledging it's 'frustrating and tough'",
+      "Strong, specific follow-up question that invites the teen to share concrete examples rather than generic 'how are you feeling'"
+    ],
+    "weaknesses": [
+      "Lacks first-person language ('I think', 'I'd say') when offering the perspective about misunderstandings, using impersonal 'Sometimes people act...' instead",
+      "Very light on practical advice or actionable strategies - only offers a possible reframe without suggesting what to actually do",
+      "Could deepen validation by specifically acknowledging how awful it feels to think someone hates you, rather than just 'frustrating'"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow and zero bullet points or over-structuring",
+    "least_ideal_aspect": "First-person connection and language - missing 'I think' or 'I'd suggest' framing that makes it feel like a real person sharing their perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or bold text. Reads as a natural conversational paragraph."
+    },
+    "specific_feedback": [
+      "Add first-person framing when offering perspectives, such as 'I think it might just be a misunderstanding' or 'I'd guess that maybe...' to create personal connection",
+      "Include one concrete, actionable suggestion for what they could do right now (like observing specific behaviors or trying a small conversation) rather than just offering a cognitive reframe",
+      "Deepen the validation by specifically naming how painful and isolating it feels to feel hated by a teacher before moving to the 'maybe it's not personal' perspective"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Perfect prose formatting with natural paragraph flow and zero bullet points or headers",
+      "Immediate emotional validation with 'I'm sorry—that stings' and acknowledgment that 'It's tough to feel left out'",
+      "Ends with an engaging question ('Want to talk about it?') and supportive closing ('Whatever you need, I'm here')"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language like 'I think,' 'I'd say,' or 'I get it'—uses generic phrasing like 'Sometimes just sharing how you're feeling can help' instead of personal connection",
+      "Offers to 'brainstorm ways to approach your friends' rather than providing one specific actionable suggestion upfront",
+      "Missing emoji that could enhance warmth for this emotional situation (e.g., a gentle 💙 or 😔)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, reading like a text message rather than a structured guide",
+    "least_ideal_aspect": "Conversational tone lacking first-person language ('I think,' 'I'd say') making it feel slightly like a generic counselor response rather than a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely natural prose with no formatting structures, headers, or lists—perfectly matches the ideal conversational paragraph style"
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection, such as 'I'd feel so hurt if that happened to me' or 'I think the worst part is not knowing why'",
+      "Include one warm, supportive emoji like 💙 or 😔 to match the emotional weight of being left out",
+      "Provide one concrete suggestion before offering to brainstorm, such as 'Maybe start by texting the friend you're closest with and just saying you felt a little left out?'"
+    ]
+  }
+}

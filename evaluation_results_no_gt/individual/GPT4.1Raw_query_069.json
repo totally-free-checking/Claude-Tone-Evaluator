@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Ends with a natural, specific follow-up question ('Do you want to share a bit more about what's happening?') that invites continued conversation",
+      "Provides realistic, actionable advice about talking to trusted adults and considering intent/frequency/feelings"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet point list with bold headers ('Intent:', 'Frequency:', 'How it makes you feel:') which breaks conversational flow and reads like a self-help article rather than a text from a friend",
+      "Lacks first-person language throughout (missing 'I think', 'I'd say', 'I get it') except for the final sentence, making it feel impersonal and clinical",
+      "Opens with validation but quickly pivots to educational definitions rather than sustained emotional support"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with a natural, inviting question specific to their situation",
+    "least_ideal_aspect": "Natural Prose vs. Bullet Points - relies heavily on formatted bullet lists rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Uses 'A few things to consider:' followed by three bullet points with bold headers (Intent, Frequency, How it makes you feel). This over-structuring makes it feel like an informational pamphlet rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into natural prose: 'I'd start by thinking about their intent—are they actually trying to hurt your feelings or is it meant as a joke? Then consider how often it's happening...'",
+      "Add first-person language throughout to create connection: 'I think the hardest part is figuring out where that line is,' or 'I'd say trust your gut on this one.'",
+      "Increase warmth upfront before educating: 'Ugh, that's such a confusing and stressful spot to be in. It makes total sense that you're not sure where the line is between teasing and bullying.'"
+    ]
+  }
+}

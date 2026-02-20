@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 37,
+  "user_query": "I overheard people talking about me in the hallway.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Strong immediate validation with 'Ugh, that's such a gut-punch moment. Your heart just drops, doesn't it?' which immediately acknowledges the emotional impact",
+      "Excellent use of first-person language throughout ('If I were you, I'd try,' 'I know that's way easier said than done') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - reads like a natural text conversation with natural paragraph flow"
+    ],
+    "weaknesses": [
+      "Moves quickly from validation to reframing/minimizing with 'it feels way more dramatic and awful in the moment than it usually is,' which could feel dismissive of the teen's immediate hurt",
+      "Could benefit from one more sentence of pure emotional support before jumping to practical advice and perspective-reframing",
+      "The 😅 emoji choice, while only one, might not perfectly match the emotional weight of being talked about (suggests awkwardness/nervousness more than hurt)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points - perfectly matches the texting-a-friend aesthetic",
+    "least_ideal_aspect": "Balance of support versus solutions - pivots too quickly from emotional validation to advice and reframing without fully sitting with the hurt feelings first",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or over-structuring. Uses natural paragraph breaks that flow from validation to advice to follow-up question."
+    },
+    "specific_feedback": [
+      "Add one more sentence of pure emotional validation before the reframing ('That really hurts' or 'You don't deserve that') to ensure the teen feels fully heard before moving to solutions",
+      "Consider using 💙 or 😟 instead of 😅 for serious/hurtful situations, or omit the emoji entirely, as 😅 implies nervous laughter which may not match the gut-punch feeling described",
+      "Expand the validation section slightly to acknowledge that overhearing gossip can feel isolating before jumping to 'people make passing comments all the time'"
+    ]
+  }
+}

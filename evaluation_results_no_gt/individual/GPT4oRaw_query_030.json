@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 5,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with no bullet points or over-structuring - reads like a natural text message",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I've noticed I've been sharing my homework with you a lot...'",
+      "Appropriate length - substantial enough to be helpful but concise enough for mobile reading"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd suggest', 'I get it') - feels like generic advice rather than a supportive friend sharing their perspective",
+      "Follow-up question 'What do you think?' is too generic and doesn't show specific interest in their unique situation",
+      "Could validate the emotional difficulty more deeply - acknowledging how awkward/guilty it feels to set boundaries with friends, not just that it's 'frustrating'"
+    ],
+    "most_ideal_aspect": "The practical advice quality - offering a specific word-for-word script that balances kindness with firmness is exactly what a teen needs in this situation",
+    "least_ideal_aspect": "The impersonal tone - using 'You could...' and 'It's important to...' instead of 'I'd probably...' or 'I think you should...' makes it feel like an advice column rather than a supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with natural paragraph flow. The indented quote is integrated into the text flow rather than being a bulleted list."
+    },
+    "specific_feedback": [
+      "Add first-person perspective throughout: change 'You could tell them' to 'I'd probably say something like' and 'It's important to set boundaries' to 'I think setting boundaries here is important'",
+      "Make the follow-up question more specific to their situation, such as 'Do you think they'd be receptive to studying together instead?' or 'What's making it hardest to say no to them?'",
+      "Consider adding one warm emoji early on (like 😅 or 😬) to match the 'Ugh, that's frustrating' energy and enhance the casual tone"
+    ]
+  }
+}

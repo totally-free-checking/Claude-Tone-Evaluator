@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 10,
+  "user_query": "I accidentally called my teacher ‘mom’ and I want to disappear.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers—reads like a natural text conversation",
+      "Strong first-person language throughout ('I promise', 'trust me') creating authentic connection",
+      "Provides specific, actionable script ('Oops, guess I really respect your authority') rather than vague advice"
+    ],
+    "weaknesses": [
+      "Missing follow-up question at the end—fails to invite continued conversation as ideal character should",
+      "Could more deeply validate the intensity of 'wanting to disappear' before moving to solutions"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow—perfectly avoids bullet points and over-structuring while maintaining readability",
+    "least_ideal_aspect": "Follow-up question engagement—ends with a statement ('no need to disappear!') rather than an inviting question to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'How did your teacher react?' or 'Have you had to see them since it happened?' to keep the conversation going",
+      "Consider acknowledging the 'wanting to disappear' feeling more specifically before pivoting to reassurance—e.g., 'That mortified feeling where you literally want to sink into the floor is so real'"
+    ]
+  }
+}

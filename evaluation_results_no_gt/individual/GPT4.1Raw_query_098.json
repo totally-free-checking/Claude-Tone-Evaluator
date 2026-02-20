@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 98,
+  "user_query": "I like two people at the same time and I feel guilty.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 2,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Uses pure natural prose with zero bullet points or formatting, creating a conversational text-like flow",
+      "Opens with immediate validation normalizing the feelings ('It's totally okay','more common than you might think') and acknowledges emotions are complicated"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout the main body ('I think','I'd say','I get how that feels'), making the advice feel impersonal and generic rather than coming from a supportive friend",
+      "Fails to end with a follow-up question, instead closing with a passive statement ('I'm here to help') that doesn't invite continued conversation",
+      "Advice is vague and potentially overwhelming ('being honest with... both people') without specific scripts or realistic next steps for a teen navigating crushes"
+    ],
+    "most_ideal_aspect": "The response maintains perfect prose formatting without any bullet points, headers, or over-structuring, reading like a natural text message rather than a self-help article",
+    "least_ideal_aspect": "The complete absence of a conversational follow-up question at the end fails to engage the teen in dialogue, missing the opportunity to invite them to share more about their specific situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Zero bullet points or lists. Two clean paragraphs with natural flow. Perfect formatting for the ideal character."
+    },
+    "specific_feedback": [
+      "Integrate first-person language throughout: instead of 'What matters is how you handle the situation,' use 'I'd say what matters most is figuring out what feels right to you personally' to create authentic connection",
+      "End with a specific, natural question like 'Do you feel like you connect with them in totally different ways, or is it more about not wanting to choose?' to keep the conversation going",
+      "Replace vague advice about honesty with concrete, teen-specific guidance such as suggesting they give themselves permission to just feel the crush without acting immediately, or offering specific questions they could ask themselves to sort out their feelings"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 70,
+  "user_query": "My friend got mad because I hung out with someone else.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 6,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or over-structuring - reads as a natural text message",
+      "Offers concrete help with scripting the conversation ('I can help you figure out what to say') which shows willingness to engage deeper"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective language - missing 'I think,' 'I'd feel,' or 'I get it' that would make it sound like a real friend sharing their perspective rather than a counselor",
+      "Validation is minimal and clinical ('That sounds tough') rather than warm and empathetic ('Ugh, that sinking feeling when a friend gets mad is the worst')",
+      "Too brief for the emotional weight - only three sentences may feel dismissive to a teen experiencing friendship drama"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or headers - maintains conversational flow throughout",
+    "least_ideal_aspect": "Conversational tone and first-person language - reads as impersonal/third-person advice ('Friendships can get complicated') rather than a friend sharing personal perspective ('I think friendships get so messy when this happens')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose formatting with no lists, headers, or bold text. However, the brevity makes it feel somewhat abrupt despite the paragraph format."
+    },
+    "specific_feedback": [
+      "Add first-person reflective language like 'I think,' 'I'd feel stressed too,' or 'I get how confusing that must feel' to create personal connection",
+      "Expand the validation section to acknowledge the specific emotional weight ('That pit-in-your-stomach feeling when someone's mad at you is so rough') before moving to solutions",
+      "Include one warm emoji (like 😅 or 💙) early in the response to set a supportive tone",
+      "Lengthen slightly to 2-3 substantial paragraphs to avoid feeling dismissive - teens need to feel the bot truly sat with their feelings before problem-solving"
+    ]
+  }
+}

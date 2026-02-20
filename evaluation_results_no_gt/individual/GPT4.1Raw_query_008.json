@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides concrete, actionable advice with a specific script example the teen can actually use ('Hey, I got invited to a party by [friend's name]...')",
+      "Appropriate length that covers the topic without overwhelming the reader"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured formatting with numbered bullet points and bold headers ('1. **Pick the right time:**', '2. **Share the details:**') which reads like a wikiHow article rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal directives instead ('Try asking', 'Let them know', 'Talk about')",
+      "Minimal emotional validation before jumping straight to solutions - only one brief sentence acknowledging it's nerve-wracking before 'Here are a few tips'",
+      "Ending is an offer rather than an engaging question ('If you want, I can help...' instead of asking something specific about their situation)"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific example script provided are realistic and immediately actionable for a teen",
+    "least_ideal_aspect": "The formatting is heavily structured with numbered bullet points and bold headers, completely violating the natural prose requirement",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "15%",
+      "notes": "Response uses a numbered list with bold headers (1-4) plus a separate formatted example block. This is extremely over-structured and reads like a self-help article rather than a text conversation. The advice should flow naturally in paragraphs instead."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural prose paragraphs instead of using numbered tips - flow the advice naturally using transitions like 'I'd probably start by finding a moment when they're relaxed...'",
+      "Add first-person perspective throughout: change 'Try asking when they seem relaxed' to 'I'd suggest waiting for a moment when they seem relaxed...' and 'Let them know who invited you' to 'I'd make sure to tell them who invited you...'",
+      "Deepen the emotional validation at the start before giving advice: expand on 'That's totally understandable' with something like 'That pre-party parent conversation is always nerve-wracking - I remember that feeling!'",
+      "Change the ending to a specific question about their situation rather than a service offer: 'What part of asking them feels most stressful to you - is it the timing or worried they might say no?'"
+    ]
+  }
+}

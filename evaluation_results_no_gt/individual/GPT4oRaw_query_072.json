@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 72,
+  "user_query": "I have to do a partner dance in PE and I want to die of embarrassment.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with validation and normalization ('I hear you', 'everyone in your class probably feels a little uncomfortable') which helps reduce shame",
+      "Practical advice is specific and teen-appropriate ('fake it till you make it', 'pretend it's just a fun game') rather than generic platitudes",
+      "Uses casual, relatable language like 'cringing internally' and 'you've got this' that feels age-appropriate"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers (4 items) breaks conversational flow and reads like a self-help article rather than a text conversation",
+      "Completely missing a follow-up question at the end - closes with a statement instead of inviting the teen to share more",
+      "Could offer deeper emotional validation for the intensity of 'I want to die of embarrassment' - response feels slightly dismissive of that feeling"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are concrete, actionable, and realistic for a teen's situation (laughing it off, focusing on steps, faking confidence)",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response uses 'Here are a few ideas to help:' followed by 4 numbered bullets with bold formatting, which is exactly the structured, list-heavy format to avoid",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response starts with one prose paragraph, then shifts to heavily structured numbered list with bold headers (1. Laugh it off, 2. Focus on the steps, etc.), ending with one prose paragraph. The bullet format makes it feel instructional rather than conversational."
+    },
+    "specific_feedback": [
+      "Convert the numbered advice into natural prose paragraphs - instead of '1. Laugh it off... 2. Focus on the steps...', try weaving it together like 'I'd probably try to laugh it off if I messed up, and honestly just focusing on the steps instead of the fact that it's a partner dance might help too...'",
+      "Always end with a specific, engaging question to continue the conversation - something like 'Who are you paired up with?' or 'Is there a specific part of the dancing that feels most awkward to you?'",
+      "Match the emotional validation to the intensity of their statement - if they say 'I want to die of embarrassment,' respond with more empathy like 'Ugh, that absolute dread feeling is the worst!' before moving to solutions"
+    ]
+  }
+}

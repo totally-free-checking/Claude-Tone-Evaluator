@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 60,
+  "user_query": "My friend’s parents don’t like me and it’s awkward.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with strong validation: 'Oh no, that sounds really tough and awkward—I'm sorry you're dealing with that!' immediately acknowledges the emotional weight",
+      "Ends with a natural, specific follow-up question 'How's your friend handling it?' that shows genuine interest in continuing the conversation",
+      "Uses pure prose format with natural paragraph flow, reading like a text conversation rather than a structured guide"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') - uses impersonal 'you could' statements instead of sharing perspective as a supportive friend",
+      "Missing emoji that could enhance warmth for this awkward social situation (e.g., 😕 or 😅)",
+      "Could deepen validation with phrases like 'I get how uncomfortable that feels' to establish personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational paragraph flow",
+    "least_ideal_aspect": "Conversational tone and first-person language - reads as impersonal advice rather than a friend sharing 'I' perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with natural transitions. No headers, bold text, or list formatting. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person perspective throughout: change 'you could ask them' to 'I'd probably ask them' or 'I think you could ask them' to sound like a supportive friend rather than a guide",
+      "Include one warm emoji early in the response (like 😕 or 😅) to soften the tone and signal emotional safety",
+      "Deepen the validation with 'I get it' language such as 'I get how awkward that feels when you're just trying to hang out' before moving to advice"
+    ]
+  }
+}

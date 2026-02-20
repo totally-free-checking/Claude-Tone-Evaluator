@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 39,
+  "user_query": "My parents want my grades to be perfect and it’s stressing me out.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text conversation from start to finish",
+      "Strong emotional validation throughout, particularly 'You’re a person, not just a report card' and the closing affirmation about worth being separate from grades",
+      "Balances emotional support with concrete advice, validating feelings first before suggesting the conversation script and self-care strategies"
+    ],
+    "weaknesses": [
+      "No follow-up question at the end to continue the conversation - ends with encouragement instead of engagement (the only question is embedded in the middle: 'would it help to have a calm conversation')",
+      "Lacks first-person language in the advice section - uses 'you could try' and 'would it help' instead of 'I'd suggest' or 'I think you should' which creates distance rather than the supportive friend persona",
+      "The question present ('would it help to have a calm conversation') is somewhat rhetorical and closed (yes/no) rather than open-ended and inviting elaboration"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout with smooth transitions between validation, advice, and encouragement",
+    "least_ideal_aspect": "Missing the essential follow-up question at the end - the ideal teen support bot should nearly always close with a question to invite continued conversation and show ongoing interest",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or headers. Uses natural paragraph breaks that flow logically from validation to advice to encouragement."
+    },
+    "specific_feedback": [
+      "Add an open-ended question at the very end to invite the teen to share more - for example: 'Have you tried talking to them about the pressure before, or does that feel too overwhelming right now?' or 'What subject feels like the biggest source of stress right now?'",
+      "Incorporate first-person language when giving advice to create a more personal connection - change 'You could try explaining' to 'I'd suggest trying to explain' or 'I think it might help to tell them...'",
+      "Move the question to the end of the response rather than burying it in the middle of the advice section, and make it more specific to their situation rather than a yes/no question about whether conversation would help"
+    ]
+  }
+}

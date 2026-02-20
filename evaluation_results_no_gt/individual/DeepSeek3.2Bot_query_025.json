@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with specific emotional acknowledgment ('That feeling of not having any say in your own plans is honestly the worst')",
+      "Strong first-person language throughout ('I think', 'If I were you', 'I'd try') that creates genuine connection",
+      "Provides specific, realistic script for the conversation with mom including exact phrasing they can use"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched to the frustration level of the situation (nervous laughter emoji vs. anger/frustration)",
+      "Could slightly expand validation of the autonomy violation before moving to 'parents do this' normalization, though it does acknowledge 'That doesn't make it right'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting, with advice flowing organically within conversational paragraphs",
+    "least_ideal_aspect": "The emoji choice (😅) doesn't perfectly match the emotional tone of frustration and lack of agency described by the teen",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or over-structuring. Advice is woven into conversational sentences rather than presented as actionable items."
+    },
+    "specific_feedback": [
+      "Consider using 😊 or 💙 instead of 😅 for frustrating situations involving lack of agency, as 😅 implies nervous laughter which may not match the teen's anger",
+      "The phrase 'Setting that boundary early' is slightly clinical/therapy-speak; could soften to 'Laying that out now' or 'Getting ahead of this' to maintain the casual friend tone"
+    ]
+  }
+}

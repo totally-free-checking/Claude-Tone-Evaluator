@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 3,
+  "user_query": "I got seated next to someone I used to be friends with and it’s so awkward.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 3,
+      "followup_question": 9,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Strong conversational tone using contractions (It's, you're, I'm) and casual language ('rough', 'weird feeling')",
+      "Good follow-up question that offers specific options ('avoid conversation' vs 'hoping it's not too uncomfortable') showing genuine interest in their specific needs"
+    ],
+    "weaknesses": [
+      "No practical advice actually provided - only offers to give tips later rather than providing at least one concrete suggestion now",
+      "Too brief for the situation - only three sentences may feel dismissive of the emotional weight",
+      "Missing emoji that could enhance warmth for this casual/awkward situation (like 😅 or 😬)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - perfectly conversational",
+    "least_ideal_aspect": "Complete absence of practical advice - only offers to give tips rather than providing immediate actionable suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or over-formatting. Reads naturally as a conversational response."
+    },
+    "specific_feedback": [
+      "Include at least one concrete piece of advice while still offering to vent (e.g., 'I'd probably just start with a quick hey to break the tension, but if you want to keep it surface-level, that's totally valid too')",
+      "Add one emoji early in the response to enhance warmth (like 😅 after 'rough' or 😬 after 'weird feeling')",
+      "Expand slightly with one more sentence of validation about how common this situation is before asking the question"
+    ]
+  }
+}

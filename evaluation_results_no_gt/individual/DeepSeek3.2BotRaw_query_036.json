@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 3,
+      "followup_question": 5,
+      "support_solutions_balance": 4,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with no bullet points or over-structuring, reading like a natural text message",
+      "Acknowledges the emotional difficulty of the situation with phrases like 'tricky and uncomfortable spot' and recognizes the conflict between caring for a friend and doubting their partner"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') which makes the response feel impersonal and detached rather than like a supportive friend",
+      "Provides zero practical advice or actionable suggestions, only asking what the user wants without offering any initial guidance",
+      "Asks two questions at once ('How are you feeling...?' and 'Do you think it would help...?') which feels more like an interview than a natural conversation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without bullet points, headers, or excessive structure",
+    "least_ideal_aspect": "Absence of first-person language and failure to provide any practical advice or concrete suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in paragraph form with natural flow, no formatting issues or list structures"
+    },
+    "specific_feedback": [
+      "Add first-person perspective throughout, such as 'I'd feel so torn if I were you' or 'I think the hardest part is knowing when to speak up' to create a warmer, more personal connection",
+      "Offer at least one concrete piece of advice or perspective (like specific phrases to use or how to assess the situation) before asking what they need, rather than making them choose between venting and advice upfront",
+      "Combine the two questions into one natural, specific follow-up like 'What's making you feel unsure about them—have you noticed specific red flags or is it more of a gut feeling?'"
+    ]
+  }
+}

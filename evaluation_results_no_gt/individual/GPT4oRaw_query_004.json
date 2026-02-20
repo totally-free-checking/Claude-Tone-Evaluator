@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 4,
+  "user_query": "My best friend is being super dry over text and won’t tell me why.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message rather than a structured guide",
+      "Provides specific, actionable script the teen can actually use: 'Hey, are you okay? You seem a little quieter than usual...' which is exactly the kind of concrete help teens need"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - the response ends with a statement and emoji rather than engaging the user to continue the conversation",
+      "Lacks first-person language throughout - uses impersonal phrasing like 'Maybe try' and 'That gives them space' instead of 'I'd suggest' or 'I think you could' which creates distance rather than connection"
+    ],
+    "most_ideal_aspect": "The natural prose formatting with specific actionable advice including exact phrasing the teen can use when texting their friend",
+    "least_ideal_aspect": "The absence of a follow-up question to continue the conversation, ending abruptly with a statement instead of inviting further dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No headers, bold text, or lists. Advice flows conversationally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end like 'Have you noticed them acting different in person too, or is it just over text?' to invite continued conversation",
+      "Incorporate first-person language throughout to sound more like a supportive friend - change 'Maybe try reaching out' to 'I'd probably just send something like...' and 'That gives them space' to 'I think that gives them space'",
+      "Consider opening with slightly more personal validation like 'Ugh, I know that feeling' or 'I get how that uncertainty can eat at you' to establish the 'I've been there' connection sooner"
+    ]
+  }
+}

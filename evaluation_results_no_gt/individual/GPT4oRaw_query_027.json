@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 27,
+  "user_query": "I have like five assignments due and my brain refuses to start.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong immediate validation using first-person language ('Oh no, I feel you!') that acknowledges the frustration",
+      "Provides specific, actionable advice realistic for teens (Pomodoro technique, writing name on paper first, changing environment)",
+      "Ends with a natural, engaging follow-up question specific to the situation ('Want help outlining a plan for one of your assignments?')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered lists and headers (### 1. **Break It Down**) makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language in the advice sections (uses imperative commands like 'Break It Down' instead of 'I'd suggest breaking it down...')",
+      "Transitions to solutions too quickly with 'Here's a game plan:' which feels corporate/structured rather than conversational"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end perfectly matches the ideal character - it's natural, specific, and invites continued conversation",
+    "least_ideal_aspect": "The formatting uses six numbered sections with bold headers, which is the opposite of the natural prose paragraphs required for this character",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "20%",
+      "notes": "Response uses heavy formatting with 6 numbered sections and markdown headers (### 1. **Break It Down**). While the content within each section is prose, the structure is overwhelmingly list-based and over-formatted, reading like a wikiHow article rather than a supportive text message."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into 2-3 flowing paragraphs that weave the advice together naturally - instead of '1. Break It Down' use 'I'd start by breaking it down...'",
+      "Integrate first-person language throughout the advice sections ('I think the Pomodoro method works great' vs 'Pomodoro It') to maintain the conversational, supportive friend tone",
+      "Consider adding one warm emoji early on (like 😅 or 💪) to match the casual, empathetic opening tone, though this is less critical than fixing the prose structure"
+    ]
+  }
+}

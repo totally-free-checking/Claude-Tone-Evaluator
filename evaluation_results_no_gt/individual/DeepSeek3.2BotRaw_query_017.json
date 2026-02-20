@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 17,
+  "user_query": "I got a weird vibe from a friend’s boyfriend and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 5,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - reads like a genuine text conversation",
+      "Strong emotional validation with phrases like 'That's a tough spot to be in' and 'your feelings are valid' that acknowledge the discomfort of the situation",
+      "Good follow-up questions that are specific to the situation ('Do you have a specific reason for the \"weird vibe,\" or is it more of a general discomfort?') rather than generic"
+    ],
+    "weaknesses": [
+      "Practical advice is vague and lacks specificity - mentions 'talking to your friend' but doesn't provide concrete phrases or scripts the teen could actually use",
+      "Missing natural first-person language in the advice portion - uses impersonal statements like 'Trusting your intuition is important' instead of 'I think you should trust your gut' or 'I'd probably start by...'",
+      "Tone is slightly formal in places ('whether that's keeping an eye out') rather than using casual teen-appropriate language like 'Ugh, that's so uncomfortable' or 'Honestly, I'd be confused too'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Practical advice quality - offers vague options ('keeping an eye out, talking to your friend') without concrete, actionable steps or specific language the teen could use",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or over-formatting. Response flows naturally in three short paragraphs."
+    },
+    "specific_feedback": [
+      "Add specific first-person reactions and advice using 'I think,' 'I'd say,' or 'I get it' to make it feel more like a supportive friend talking rather than general statements",
+      "Provide concrete example phrases for talking to the friend (e.g., 'You could try saying something like, \"Hey, I noticed X and it made me feel weird - is everything okay with you two?\"')",
+      "Open with slightly more casual, immediate validation like 'Ugh, that's such an uncomfortable spot' before moving to the more measured 'tough spot' language"
+    ]
+  }
+}

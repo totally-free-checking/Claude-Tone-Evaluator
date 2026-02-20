@@ -299,6 +299,206 @@ ClaudeBot-v2,97,I got asked out and I don’t like them that way.,8.8,9,10,9,7,9
 ClaudeBot-v2,98,I like two people at the same time and I feel guilty.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
 ClaudeBot-v2,99,My parent read my diary/notes and I feel so violated.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
 ClaudeBot-v2,100,I feel like I’m doing my best and it’s still not enough.,9.7,10,10,9,9,9,10,10,10,0,100%,N/A,N/A
+DeepSeek3.2Bot,1,I just walked into class and realized I’m wearing two different shoes.,9.4,9,10,10,9,9,10,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,2,My teacher asked for my homework and I fully forgot it existed.,9.1,9,10,10,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,3,I got seated next to someone I used to be friends with and it’s so awkward.,9.3,9,10,10,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,4,My best friend is being super dry over text and won’t tell me why.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,5,Someone started a rumor about me and I don’t know how to shut it down.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,6,I think I bombed my math test and I’m trying not to panic.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,7,My group project partner hasn’t done anything and it’s due tomorrow.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,8,I just got invited to a party and I don’t know how to ask my parents.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,9,My parents checked my phone and now they’re acting weird.,9.4,9.5,10,10,9.5,9,9.5,9.5,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,10,I accidentally called my teacher ‘mom’ and I want to disappear.,9.3,9,10,9,10,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,11,My friend keeps copying everything I do and it’s getting annoying.,8.9,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,12,I saw my crush talking to someone else and now I feel dumb.,9.0,9,10,10,9,8,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,13,I have to present today and my hands won’t stop shaking.,9.2,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,14,My friend told me a secret and I’m not sure I’m supposed to know.,9.2,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,15,My sibling keeps going through my stuff and I’m about to lose it.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,16,I forgot I had practice after school and I planned something else.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,17,I got a weird vibe from a friend’s boyfriend and I don’t know what to do.,9.3,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,18,My parents are fighting again and I can hear everything from my room.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,19,My teacher thinks I cheated because my answers match someone’s.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,20,I got left on read by my crush and it’s making me spiral.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,21,Someone took a picture of me without asking and posted it.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,22,My friend keeps making ‘jokes’ that feel like insults.,9.2,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,23,I’m stuck sitting alone at lunch today and it feels obvious.,9.0,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,24,I just found out my friends hung out without inviting me.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,25,My mom signed me up for something and didn’t ask me first.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,26,My dad wants to talk about ‘my attitude’ and I’m already annoyed.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,27,I have like five assignments due and my brain refuses to start.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,28,I think I might have said something rude and I didn’t mean it.,9.2,9,10,8,10,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,29,My coach yelled at me in front of everyone and I’m embarrassed.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,30,My friend keeps asking to copy my homework and I’m tired of it.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,31,I accidentally liked an old post while stalking someone.,9.2,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,32,I’m pretty sure someone is mad at me but they won’t say why.,9.2,9,10,9,9,9,9,10,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,33,My teacher moved my seat away from my friends and I’m mad.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,34,I got told to ‘calm down’ and now I’m even less calm.,9.5,10,10,9,10,9,10,10,10,0,100%,N/A,N/A
+DeepSeek3.2Bot,35,I didn’t get picked for the team and I’m trying to act fine.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,36,My friend is dating someone I really don’t trust.,9.2,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,37,I overheard people talking about me in the hallway.,8.8,8,10,9,9,8,9,7,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,38,I have to choose classes for next year and I feel so behind.,8.9,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,39,My parents want my grades to be perfect and it’s stressing me out.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,40,Someone keeps texting me nonstop and I don’t know how to set a boundary.,9.0,9,10,9,9,9,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,41,I forgot my lunch and I’m trying not to be dramatic about it.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,42,My friend borrowed my stuff and returned it ruined.,9.0,9,10,9,9,9,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,43,I think my friend is lying to me and I don’t know how to ask.,9.1,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,44,My teacher called on me and my mind went completely blank.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,45,I got in trouble for something I didn’t do.,9.1,9,10,8,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,46,I feel like my friends only talk to me when they need something.,9.4,10,10,10,10,9,10,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,47,My parents won’t let me go out and everyone else can.,9.2,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,48,I’m getting compared to my sibling again and it sucks.,9.3,9,10,9,9,9,10,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,49,My crush smiled at me and now I’m overthinking everything.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,50,I got paired with someone in class who literally hates me.,9.2,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,51,I’m pretty sure I’m the ‘backup friend’ and it hurts.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,52,I want to quit an activity but I feel guilty.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,53,My friend keeps cancelling plans last minute.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,54,Someone keeps making comments about my body and I hate it.,9.1,10,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,55,I posted something and now I regret it.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,56,My friend told me they’re struggling and I don’t know how to help.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,57,I got a detention and I don’t even think it was fair.,9.3,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,58,I’m nervous about talking to the school counselor.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,59,I feel like I’m always the one starting conversations.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,60,My friend’s parents don’t like me and it’s awkward.,9.1,9,10,10,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,61,I think I might like someone but I don’t know if it’s mutual.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,62,My friend is pressuring me to do something I’m not comfortable with.,9.0,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,63,I walked into the wrong classroom and everyone stared.,9.5,9,10,10,10,9,9,10,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,64,I lost something important at school and I’m freaking out.,8.9,9,10,7,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,65,My friend keeps gossiping and I don’t want to be part of it.,9.2,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,66,I’m getting stressed for no reason and I can’t shut my brain off.,9.3,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,67,My parents want to talk about college and I’m only in like… tenth grade.,9.3,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,68,I think my teacher hates me and I don’t know why.,9.1,9,10,8,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,69,Someone keeps teasing me and I can’t tell if it’s bullying.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,70,My friend got mad because I hung out with someone else.,9.0,9,10,8,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,71,I’m scared I’m going to fail this class.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,72,I have to do a partner dance in PE and I want to die of embarrassment.,9.1,9,10,10,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,73,My friend keeps making everything a competition.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,74,My parents are being extra strict for no reason.,9.0,9,10,9,9,9,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,75,I got invited somewhere but I don’t know anyone else going.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,76,I feel like everyone has a ‘thing’ and I don’t.,9.1,9,10,8,9,9,9,10,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,77,My friend asked me to keep a secret that feels serious.,9.1,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,78,Someone I don’t like keeps trying to be friends with me.,9.3,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,79,I’m nervous to eat in front of people at school.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,80,I just got told ‘we need to talk’ and I’m terrified.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,81,My friend keeps sending me snaps at like 2am and I’m exhausted.,8.9,9,10,9,9,9,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,82,My parents keep asking who I’m texting.,9.1,9,10,8,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,83,I can’t tell if someone is flirting with me or just being nice.,8.9,9,10,7,9,9,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,84,I got grounded and it feels unfair.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,85,I’m stuck in a friend group where people are always arguing.,9.0,9,10,8,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,86,I messed up in front of everyone and I can’t stop replaying it.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,87,My friend is being super clingy and I need space.,9.2,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,88,Someone said something racist/sexist in class and the teacher ignored it.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,89,I keep procrastinating and now everything is piling up.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,90,I got a bad grade and I’m scared to tell my parents.,9.4,9,10,10,10,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,91,I think my friend is using me to get closer to someone else.,9.1,9,10,10,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,92,My friend’s new friends are kinda mean and it’s changing them.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,93,I want to change how I look but I’m scared people will comment.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,94,I’m getting headaches from stress and I don’t know what to do.,9.0,8,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,95,Someone keeps ‘joking’ about fighting me and it’s not funny anymore.,9.0,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,96,I feel left out even when I’m literally with my friends.,9.0,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,97,I got asked out and I don’t like them that way.,9.6,10,10,10,10,10,8,10,10,0,100%,N/A,N/A
+DeepSeek3.2Bot,98,I like two people at the same time and I feel guilty.,8.9,9,10,8,9,8,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,99,My parent read my diary/notes and I feel so violated.,9.1,9,10,10,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2Bot,100,I feel like I’m doing my best and it’s still not enough.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,1,I just walked into class and realized I’m wearing two different shoes.,4.2,3,6,7,4,6,2,3,4,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,2,My teacher asked for my homework and I fully forgot it existed.,7.1,8,3,8,5,9,9,6,9,3,25%,N/A,N/A
+DeepSeek3.2BotRaw,3,I got seated next to someone I used to be friends with and it’s so awkward.,5.1,6,2,7,5,8,1,4,8,5,25%,N/A,N/A
+DeepSeek3.2BotRaw,4,My best friend is being super dry over text and won’t tell me why.,5.1,5,3,6,3,8,2,6,8,3,60%,N/A,N/A
+DeepSeek3.2BotRaw,5,Someone started a rumor about me and I don’t know how to shut it down.,4.5,6,2,7,3,8,5,4,5,7,15%,N/A,N/A
+DeepSeek3.2BotRaw,6,I think I bombed my math test and I’m trying not to panic.,7.5,8,10,9,6,8,2,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,7,My group project partner hasn’t done anything and it’s due tomorrow.,5.4,7,2,9,5,9,1,4,6,8,15%,N/A,N/A
+DeepSeek3.2BotRaw,8,I just got invited to a party and I don’t know how to ask my parents.,6.1,5,3,9,4,9,7,4,8,6,15%,N/A,N/A
+DeepSeek3.2BotRaw,9,My parents checked my phone and now they’re acting weird.,6.4,7,3,7,5,8,7,6,8,5,35%,N/A,N/A
+DeepSeek3.2BotRaw,10,I accidentally called my teacher ‘mom’ and I want to disappear.,8.4,9,10,9,9,9,3,9,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,11,My friend keeps copying everything I do and it’s getting annoying.,6.0,7,10,7,4,5,3,6,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,12,I saw my crush talking to someone else and now I feel dumb.,6.2,7,3,9,6,8,3,7,8,3,45%,N/A,N/A
+DeepSeek3.2BotRaw,13,I have to present today and my hands won’t stop shaking.,6.3,6,3,7,5,8,9,4,8,4,30%,N/A,N/A
+DeepSeek3.2BotRaw,14,My friend told me a secret and I’m not sure I’m supposed to know.,6.8,8,4,9,8,6,4,7,8,3,65%,N/A,N/A
+DeepSeek3.2BotRaw,15,My sibling keeps going through my stuff and I’m about to lose it.,6.4,6,10,8,4,6,5,7,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,16,I forgot I had practice after school and I planned something else.,5.4,5,3,7,5,8,6,3,6,3,30%,N/A,N/A
+DeepSeek3.2BotRaw,17,I got a weird vibe from a friend’s boyfriend and I don’t know what to do.,7.8,8,9,9,7,5,8,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,18,My parents are fighting again and I can hear everything from my room.,6.0,7,3,9,5,8,2,6,8,4,65%,N/A,N/A
+DeepSeek3.2BotRaw,19,My teacher thinks I cheated because my answers match someone’s.,6.2,7,3,8,5,8,9,4,7,4,45%,N/A,N/A
+DeepSeek3.2BotRaw,20,I got left on read by my crush and it’s making me spiral.,6.9,7,4,8,6,8,6,8,8,4,75%,N/A,N/A
+DeepSeek3.2BotRaw,21,Someone took a picture of me without asking and posted it.,5.5,7,2,9,4,8,7,5,6,5,25%,N/A,N/A
+DeepSeek3.2BotRaw,22,My friend keeps making ‘jokes’ that feel like insults.,5.5,6,2,5,4,8,8,5,8,6,20%,N/A,N/A
+DeepSeek3.2BotRaw,23,I’m stuck sitting alone at lunch today and it feels obvious.,9.0,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,24,I just found out my friends hung out without inviting me.,7.8,8,10,7,6,9,7,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,25,My mom signed me up for something and didn’t ask me first.,5.3,7,10,7,6,2,8,4,4,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,26,My dad wants to talk about ‘my attitude’ and I’m already annoyed.,6.8,7,4,7,6,9,9,7,9,3,65%,N/A,N/A
+DeepSeek3.2BotRaw,27,I have like five assignments due and my brain refuses to start.,7.5,8,4,9,5,9,9,8,8,5,65%,N/A,N/A
+DeepSeek3.2BotRaw,28,I think I might have said something rude and I didn’t mean it.,7.8,8,10,10,9,7,3,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,29,My coach yelled at me in front of everyone and I’m embarrassed.,5.6,7,2,6,4,8,7,5,6,5,15%,N/A,N/A
+DeepSeek3.2BotRaw,30,My friend keeps asking to copy my homework and I’m tired of it.,5.8,6,2,9,4,8,9,4,5,9,20%,N/A,N/A
+DeepSeek3.2BotRaw,31,I accidentally liked an old post while stalking someone.,8.1,9,10,10,7,9,2,9,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,32,I’m pretty sure someone is mad at me but they won’t say why.,6.6,7,3,7,5,8,9,6,8,4,35%,N/A,N/A
+DeepSeek3.2BotRaw,33,My teacher moved my seat away from my friends and I’m mad.,7.6,8,10,10,6,8,3,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,34,I got told to ‘calm down’ and now I’m even less calm.,7.1,7,5,7,5,8,9,8,8,3,70%,N/A,N/A
+DeepSeek3.2BotRaw,35,I didn’t get picked for the team and I’m trying to act fine.,7.4,8,10,9,9,4,9,5,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,36,My friend is dating someone I really don’t trust.,5.5,6,10,7,4,3,5,4,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,37,I overheard people talking about me in the hallway.,5.1,5,10,6,3,2,7,4,3,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,38,I have to choose classes for next year and I feel so behind.,5.9,6,2,9,4,8,8,4,6,15,25%,N/A,N/A
+DeepSeek3.2BotRaw,39,My parents want my grades to be perfect and it’s stressing me out.,7.9,9,10,9,7,8,3,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,40,Someone keeps texting me nonstop and I don’t know how to set a boundary.,5.5,6,2,7,4,9,8,4,6,6,25%,N/A,N/A
+DeepSeek3.2BotRaw,41,I forgot my lunch and I’m trying not to be dramatic about it.,5.8,7,3,8,5,8,2,6,8,3,35%,N/A,N/A
+DeepSeek3.2BotRaw,42,My friend borrowed my stuff and returned it ruined.,5.6,6,2,5,4,8,8,4,8,4,25%,N/A,N/A
+DeepSeek3.2BotRaw,43,I think my friend is lying to me and I don’t know how to ask.,5.3,7,3,8,4,9,6,5,6,7,25%,N/A,N/A
+DeepSeek3.2BotRaw,44,My teacher called on me and my mind went completely blank.,6.4,8,3,8,5,9,2,8,8,3,60%,N/A,N/A
+DeepSeek3.2BotRaw,45,I got in trouble for something I didn’t do.,5.6,7,10,9,4,2,6,4,3,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,46,I feel like my friends only talk to me when they need something.,6.0,8,3,8,4,9,3,5,8,5,35%,N/A,N/A
+DeepSeek3.2BotRaw,47,My parents won’t let me go out and everyone else can.,6.9,7,9,7,5,8,4,7,8,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,48,I’m getting compared to my sibling again and it sucks.,7.5,9,10,9,6,5,7,5,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,49,My crush smiled at me and now I’m overthinking everything.,6.8,8,3,9,7,8,9,6,8,4,40%,N/A,N/A
+DeepSeek3.2BotRaw,50,I got paired with someone in class who literally hates me.,4.0,4,9,6,3,1,5,2,2,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,51,I’m pretty sure I’m the ‘backup friend’ and it hurts.,5.6,7,3,7,5,8,2,5,8,7,40%,N/A,N/A
+DeepSeek3.2BotRaw,52,I want to quit an activity but I feel guilty.,6.5,6,10,7,5,4,8,5,7,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,53,My friend keeps cancelling plans last minute.,4.8,6,3,7,3,4,3,5,7,3,65%,N/A,N/A
+DeepSeek3.2BotRaw,54,Someone keeps making comments about my body and I hate it.,6.0,7,3,9,5,8,2,6,8,4,25%,N/A,N/A
+DeepSeek3.2BotRaw,55,I posted something and now I regret it.,6.2,7,3,9,5,8,4,6,8,3,45%,N/A,N/A
+DeepSeek3.2BotRaw,56,My friend told me they’re struggling and I don’t know how to help.,6.6,8,2,7,5,9,8,8,6,5,15%,N/A,N/A
+DeepSeek3.2BotRaw,57,I got a detention and I don’t even think it was fair.,6.8,7,10,7,5,6,8,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,58,I’m nervous about talking to the school counselor.,7.1,7,4,8,6,8,9,7,8,3,65%,N/A,N/A
+DeepSeek3.2BotRaw,59,I feel like I’m always the one starting conversations.,5.3,6,10,8,4,2,9,3,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,60,My friend’s parents don’t like me and it’s awkward.,5.2,5,3,5,4,8,8,4,8,4,25%,N/A,N/A
+DeepSeek3.2BotRaw,61,I think I might like someone but I don’t know if it’s mutual.,6.8,7,3,9,5,8,9,5,8,4,20%,N/A,N/A
+DeepSeek3.2BotRaw,62,My friend is pressuring me to do something I’m not comfortable with.,6.5,8,10,9,6,3,8,4,4,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,63,I walked into the wrong classroom and everyone stared.,8.2,8,10,8,9,6,9,7,8,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,64,I lost something important at school and I’m freaking out.,6.8,7,3,7,5,9,9,6,8,7,25%,N/A,N/A
+DeepSeek3.2BotRaw,65,My friend keeps gossiping and I don’t want to be part of it.,4.5,6,2,7,4,9,1,4,6,18,15%,N/A,N/A
+DeepSeek3.2BotRaw,66,I’m getting stressed for no reason and I can’t shut my brain off.,6.3,8,3,7,6,9,9,6,6,5,20%,N/A,N/A
+DeepSeek3.2BotRaw,67,My parents want to talk about college and I’m only in like… tenth grade.,7.1,7,9,9,6,8,2,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,68,I think my teacher hates me and I don’t know why.,7.1,8,3,9,6,9,8,6,8,5,35%,N/A,N/A
+DeepSeek3.2BotRaw,69,Someone keeps teasing me and I can’t tell if it’s bullying.,5.9,6,2,8,4,8,6,5,8,8,25%,N/A,N/A
+DeepSeek3.2BotRaw,70,My friend got mad because I hung out with someone else.,5.5,5,10,7,4,3,7,4,6,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,71,I’m scared I’m going to fail this class.,7.6,7,10,9,8,5,9,6,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,72,I have to do a partner dance in PE and I want to die of embarrassment.,7.3,8,4,9,9,8,9,8,8,3,65%,N/A,N/A
+DeepSeek3.2BotRaw,73,My friend keeps making everything a competition.,6.1,8,3,8,5,9,2,7,8,4,35%,N/A,N/A
+DeepSeek3.2BotRaw,74,My parents are being extra strict for no reason.,8.1,8,10,9,9,6,8,6,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,75,I got invited somewhere but I don’t know anyone else going.,6.5,8,10,7,5,3,8,6,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,76,I feel like everyone has a ‘thing’ and I don’t.,6.0,7,4,7,4,8,9,7,8,3,65%,N/A,N/A
+DeepSeek3.2BotRaw,77,My friend asked me to keep a secret that feels serious.,6.9,5,10,9,4,7,5,6,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,78,Someone I don’t like keeps trying to be friends with me.,5.0,5,3,6,3,8,6,4,7,4,35%,N/A,N/A
+DeepSeek3.2BotRaw,79,I’m nervous to eat in front of people at school.,5.5,7,3,6,5,8,2,5,8,4,40%,N/A,N/A
+DeepSeek3.2BotRaw,80,I just got told ‘we need to talk’ and I’m terrified.,5.3,6,3,7,5,8,2,4,7,3,35%,N/A,N/A
+DeepSeek3.2BotRaw,81,My friend keeps sending me snaps at like 2am and I’m exhausted.,5.5,6,2,9,5,9,1,4,8,3,20%,N/A,N/A
+DeepSeek3.2BotRaw,82,My parents keep asking who I’m texting.,5.3,7,2,4,6,9,1,5,8,6,35%,N/A,N/A
+DeepSeek3.2BotRaw,83,I can’t tell if someone is flirting with me or just being nice.,4.3,5,2,6,4,8,1,3,6,11,15%,N/A,N/A
+DeepSeek3.2BotRaw,84,I got grounded and it feels unfair.,7.3,8,10,8,6,4,9,6,7,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,85,I’m stuck in a friend group where people are always arguing.,6.5,7,10,10,5,4,6,5,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,86,I messed up in front of everyone and I can’t stop replaying it.,8.5,9,10,7,9,9,4,9,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,87,My friend is being super clingy and I need space.,5.3,6,3,7,4,9,6,4,8,4,15%,N/A,N/A
+DeepSeek3.2BotRaw,88,Someone said something racist/sexist in class and the teacher ignored it.,5.5,7,3,6,5,8,4,5,6,8,25%,N/A,N/A
+DeepSeek3.2BotRaw,89,I keep procrastinating and now everything is piling up.,9.0,9,10,9,9,9,9,8,9,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,90,I got a bad grade and I’m scared to tell my parents.,6.0,7,3,9,6,8,2,5,8,6,15%,N/A,N/A
+DeepSeek3.2BotRaw,91,I think my friend is using me to get closer to someone else.,6.1,7,3,8,5,8,6,5,8,4,35%,N/A,N/A
+DeepSeek3.2BotRaw,92,My friend’s new friends are kinda mean and it’s changing them.,5.8,6,3,5,4,7,7,6,8,3,35%,N/A,N/A
+DeepSeek3.2BotRaw,93,I want to change how I look but I’m scared people will comment.,6.0,8,3,3,4,8,9,7,7,3,35%,N/A,N/A
+DeepSeek3.2BotRaw,94,I’m getting headaches from stress and I don’t know what to do.,6.0,8,2,7,4,9,7,5,5,11,15%,N/A,N/A
+DeepSeek3.2BotRaw,95,Someone keeps ‘joking’ about fighting me and it’s not funny anymore.,6.3,6,7,8,4,8,2,7,8,0,95%,N/A,N/A
+DeepSeek3.2BotRaw,96,I feel left out even when I’m literally with my friends.,6.5,6,9,8,4,7,7,6,5,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,97,I got asked out and I don’t like them that way.,4.2,4,10,5,4,2,5,3,2,0,100%,N/A,N/A
+DeepSeek3.2BotRaw,98,I like two people at the same time and I feel guilty.,4.5,6,2,5,4,6,6,4,6,4,25%,N/A,N/A
+DeepSeek3.2BotRaw,99,My parent read my diary/notes and I feel so violated.,6.0,7,3,9,5,8,2,6,8,3,35%,N/A,N/A
+DeepSeek3.2BotRaw,100,I feel like I’m doing my best and it’s still not enough.,7.6,8,10,9,7,4,9,5,9,0,100%,N/A,N/A
 GPT4.1Bot,1,I just walked into class and realized I’m wearing two different shoes.,9.4,9,10,10,9,9,10,9,9,0,100%,N/A,N/A
 GPT4.1Bot,2,My teacher asked for my homework and I fully forgot it existed.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
 GPT4.1Bot,3,I got seated next to someone I used to be friends with and it’s so awkward.,9.1,9,10,8,9,9,10,9,9,0,100%,N/A,N/A
@@ -399,6 +599,106 @@ GPT4.1Bot,97,I got asked out and I don’t like them that way.,9.4,9,10,10,9,9,9
 GPT4.1Bot,98,I like two people at the same time and I feel guilty.,9.4,9,10,9,10,9,10,9,9,0,100%,N/A,N/A
 GPT4.1Bot,99,My parent read my diary/notes and I feel so violated.,9.3,9,10,9,9,9,10,9,9,0,100%,N/A,N/A
 GPT4.1Bot,100,I feel like I’m doing my best and it’s still not enough.,9.4,10,10,10,10,9,8,10,9,0,100%,N/A,N/A
+GPT4.1Raw,1,I just walked into class and realized I’m wearing two different shoes.,7.9,7,10,7,5,8,9,8,9,0,100%,N/A,N/A
+GPT4.1Raw,2,My teacher asked for my homework and I fully forgot it existed.,7.9,7,10,8,7,8,6,8,9,0,100%,N/A,N/A
+GPT4.1Raw,3,I got seated next to someone I used to be friends with and it’s so awkward.,7.0,8,10,7,9,3,9,4,6,0,100%,N/A,N/A
+GPT4.1Raw,4,My best friend is being super dry over text and won’t tell me why.,8.4,9,10,8,6,9,9,9,9,0,100%,N/A,N/A
+GPT4.1Raw,5,Someone started a rumor about me and I don’t know how to shut it down.,5.3,5,2,7,4,7,8,3,6,6,15%,N/A,N/A
+GPT4.1Raw,6,I think I bombed my math test and I’m trying not to panic.,7.8,8,10,10,9,6,4,8,9,0,100%,N/A,N/A
+GPT4.1Raw,7,My group project partner hasn’t done anything and it’s due tomorrow.,8.0,8,10,8,7,9,6,9,9,0,100%,N/A,N/A
+GPT4.1Raw,8,I just got invited to a party and I don’t know how to ask my parents.,5.5,6,2,7,4,8,5,4,8,4,15%,N/A,N/A
+GPT4.1Raw,9,My parents checked my phone and now they’re acting weird.,5.9,7,10,8,5,3,6,3,5,0,100%,N/A,N/A
+GPT4.1Raw,10,I accidentally called my teacher ‘mom’ and I want to disappear.,7.6,8,10,7,9,6,7,6,9,0,100%,N/A,N/A
+GPT4.1Raw,11,My friend keeps copying everything I do and it’s getting annoying.,7.8,7,9,8,6,8,8,8,9,0,100%,N/A,N/A
+GPT4.1Raw,12,I saw my crush talking to someone else and now I feel dumb.,7.1,8,10,7,6,6,3,8,9,0,100%,N/A,N/A
+GPT4.1Raw,13,I have to present today and my hands won’t stop shaking.,5.9,7,3,9,5,8,4,5,8,5,35%,N/A,N/A
+GPT4.1Raw,14,My friend told me a secret and I’m not sure I’m supposed to know.,6.9,6,9,7,4,8,6,7,8,0,100%,N/A,N/A
+GPT4.1Raw,15,My sibling keeps going through my stuff and I’m about to lose it.,6.9,7,10,8,6,4,9,5,6,0,100%,N/A,N/A
+GPT4.1Raw,16,I forgot I had practice after school and I planned something else.,5.5,5,9,7,5,4,5,5,4,0,100%,N/A,N/A
+GPT4.1Raw,17,I got a weird vibe from a friend’s boyfriend and I don’t know what to do.,5.8,6,3,5,4,8,7,5,8,4,40%,N/A,N/A
+GPT4.1Raw,18,My parents are fighting again and I can hear everything from my room.,7.3,7,10,8,6,6,9,8,6,0,100%,N/A,N/A
+GPT4.1Raw,19,My teacher thinks I cheated because my answers match someone’s.,7.6,7,10,9,6,8,7,7,9,0,100%,N/A,N/A
+GPT4.1Raw,20,I got left on read by my crush and it’s making me spiral.,7.6,8,10,7,9,8,2,8,9,0,100%,N/A,N/A
+GPT4.1Raw,21,Someone took a picture of me without asking and posted it.,6.5,6,9,8,5,7,4,5,8,0,100%,N/A,N/A
+GPT4.1Raw,22,My friend keeps making ‘jokes’ that feel like insults.,6.5,6,10,7,5,8,4,7,9,0,100%,N/A,N/A
+GPT4.1Raw,23,I’m stuck sitting alone at lunch today and it feels obvious.,8.8,8,10,9,9,9,9,9,9,0,100%,N/A,N/A
+GPT4.1Raw,24,I just found out my friends hung out without inviting me.,7.5,8,10,7,6,6,8,8,7,0,100%,N/A,N/A
+GPT4.1Raw,25,My mom signed me up for something and didn’t ask me first.,4.8,6,10,5,5,2,6,3,3,0,100%,N/A,N/A
+GPT4.1Raw,26,My dad wants to talk about ‘my attitude’ and I’m already annoyed.,7.5,9,10,9,6,5,9,5,7,0,100%,N/A,N/A
+GPT4.1Raw,27,I have like five assignments due and my brain refuses to start.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+GPT4.1Raw,28,I think I might have said something rude and I didn’t mean it.,7.5,7,10,9,5,7,8,8,9,0,100%,N/A,N/A
+GPT4.1Raw,29,My coach yelled at me in front of everyone and I’m embarrassed.,6.6,8,10,6,6,5,2,7,9,0,100%,N/A,N/A
+GPT4.1Raw,30,My friend keeps asking to copy my homework and I’m tired of it.,6.3,7,9,7,4,8,1,6,8,0,100%,N/A,N/A
+GPT4.1Raw,31,I accidentally liked an old post while stalking someone.,6.9,8,10,7,5,7,1,8,9,0,100%,N/A,N/A
+GPT4.1Raw,32,I’m pretty sure someone is mad at me but they won’t say why.,8.4,8,10,7,9,7,8,9,9,0,100%,N/A,N/A
+GPT4.1Raw,33,My teacher moved my seat away from my friends and I’m mad.,6.8,7,10,8,5,5,6,7,6,0,100%,N/A,N/A
+GPT4.1Raw,34,I got told to ‘calm down’ and now I’m even less calm.,7.5,9,10,9,9,5,3,7,8,0,100%,N/A,N/A
+GPT4.1Raw,35,I didn’t get picked for the team and I’m trying to act fine.,6.0,7,10,7,6,3,2,4,9,0,100%,N/A,N/A
+GPT4.1Raw,36,My friend is dating someone I really don’t trust.,5.4,5,10,5,6,3,7,3,4,0,100%,N/A,N/A
+GPT4.1Raw,37,I overheard people talking about me in the hallway.,6.3,6,10,7,6,5,7,5,4,0,100%,N/A,N/A
+GPT4.1Raw,38,I have to choose classes for next year and I feel so behind.,7.6,7,10,8,6,6,9,8,7,0,100%,N/A,N/A
+GPT4.1Raw,39,My parents want my grades to be perfect and it’s stressing me out.,7.6,7,10,9,6,6,9,8,9,0,100%,N/A,N/A
+GPT4.1Raw,40,Someone keeps texting me nonstop and I don’t know how to set a boundary.,5.5,6,3,5,4,8,8,4,8,3,30%,N/A,N/A
+GPT4.1Raw,41,I forgot my lunch and I’m trying not to be dramatic about it.,7.1,7,10,6,8,4,8,8,6,0,100%,N/A,N/A
+GPT4.1Raw,42,My friend borrowed my stuff and returned it ruined.,7.6,7,10,8,5,6,8,8,9,0,100%,N/A,N/A
+GPT4.1Raw,43,I think my friend is lying to me and I don’t know how to ask.,4.9,5,2,5,4,8,3,4,8,4,25%,N/A,N/A
+GPT4.1Raw,44,My teacher called on me and my mind went completely blank.,9.0,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+GPT4.1Raw,45,I got in trouble for something I didn’t do.,7.5,8,10,9,7,4,6,7,9,0,100%,N/A,N/A
+GPT4.1Raw,46,I feel like my friends only talk to me when they need something.,5.5,6,10,8,6,3,5,3,5,0,100%,N/A,N/A
+GPT4.1Raw,47,My parents won’t let me go out and everyone else can.,6.4,6,9,8,4,8,3,6,9,0,100%,N/A,N/A
+GPT4.1Raw,48,I’m getting compared to my sibling again and it sucks.,6.5,8,10,9,9,4,2,4,8,0,100%,N/A,N/A
+GPT4.1Raw,49,My crush smiled at me and now I’m overthinking everything.,7.8,8,10,8,5,7,9,8,9,0,100%,N/A,N/A
+GPT4.1Raw,50,I got paired with someone in class who literally hates me.,5.5,5,10,7,6,3,4,4,5,0,100%,N/A,N/A
+GPT4.1Raw,51,I’m pretty sure I’m the ‘backup friend’ and it hurts.,7.8,8,10,8,9,8,3,9,9,0,100%,N/A,N/A
+GPT4.1Raw,52,I want to quit an activity but I feel guilty.,7.9,7,10,9,5,8,9,8,9,0,100%,N/A,N/A
+GPT4.1Raw,53,My friend keeps cancelling plans last minute.,7.4,7,9,8,5,7,6,8,9,0,100%,N/A,N/A
+GPT4.1Raw,54,Someone keeps making comments about my body and I hate it.,7.3,7,9,8,6,8,6,8,9,0,100%,N/A,N/A
+GPT4.1Raw,55,I posted something and now I regret it.,7.5,7,10,8,7,7,4,8,9,0,100%,N/A,N/A
+GPT4.1Raw,56,My friend told me they’re struggling and I don’t know how to help.,4.8,5,2,5,4,8,4,4,8,5,25%,N/A,N/A
+GPT4.1Raw,57,I got a detention and I don’t even think it was fair.,8.8,9,10,9,9,7,9,9,8,0,100%,N/A,N/A
+GPT4.1Raw,58,I’m nervous about talking to the school counselor.,7.3,7,10,7,5,8,8,8,9,0,100%,N/A,N/A
+GPT4.1Raw,59,I feel like I’m always the one starting conversations.,6.3,7,10,7,5,2,8,3,9,0,100%,N/A,N/A
+GPT4.1Raw,60,My friend’s parents don’t like me and it’s awkward.,7.0,7,10,8,7,5,4,7,9,0,100%,N/A,N/A
+GPT4.1Raw,61,I think I might like someone but I don’t know if it’s mutual.,6.8,8,10,7,5,5,7,7,6,0,100%,N/A,N/A
+GPT4.1Raw,62,My friend is pressuring me to do something I’m not comfortable with.,7.1,7,9,7,6,7,5,7,9,0,100%,N/A,N/A
+GPT4.1Raw,63,I walked into the wrong classroom and everyone stared.,6.6,7,10,6,5,7,2,7,9,0,100%,N/A,N/A
+GPT4.1Raw,64,I lost something important at school and I’m freaking out.,4.8,5,9,7,4,2,6,3,2,0,100%,N/A,N/A
+GPT4.1Raw,65,My friend keeps gossiping and I don’t want to be part of it.,7.6,7,10,8,6,8,5,8,9,0,100%,N/A,N/A
+GPT4.1Raw,66,I’m getting stressed for no reason and I can’t shut my brain off.,6.5,7,3,7,5,8,9,7,8,4,35%,N/A,N/A
+GPT4.1Raw,67,My parents want to talk about college and I’m only in like… tenth grade.,7.9,7,10,7,5,8,9,8,9,0,100%,N/A,N/A
+GPT4.1Raw,68,I think my teacher hates me and I don’t know why.,5.6,6,9,7,4,2,6,3,8,0,100%,N/A,N/A
+GPT4.1Raw,69,Someone keeps teasing me and I can’t tell if it’s bullying.,5.8,6,3,8,4,7,8,5,8,3,60%,N/A,N/A
+GPT4.1Raw,70,My friend got mad because I hung out with someone else.,6.0,5,10,7,4,7,6,6,5,0,100%,N/A,N/A
+GPT4.1Raw,71,I’m scared I’m going to fail this class.,7.0,7,10,9,6,4,7,4,9,0,100%,N/A,N/A
+GPT4.1Raw,72,I have to do a partner dance in PE and I want to die of embarrassment.,8.1,8,10,9,9,7,4,9,9,0,100%,N/A,N/A
+GPT4.1Raw,73,My friend keeps making everything a competition.,6.6,8,10,7,6,3,9,4,6,0,100%,N/A,N/A
+GPT4.1Raw,74,My parents are being extra strict for no reason.,7.0,6,10,7,4,4,8,8,9,0,100%,N/A,N/A
+GPT4.1Raw,75,I got invited somewhere but I don’t know anyone else going.,5.5,5,10,7,5,3,6,5,4,0,100%,N/A,N/A
+GPT4.1Raw,76,I feel like everyone has a ‘thing’ and I don’t.,7.8,7,10,7,5,8,8,9,9,0,100%,N/A,N/A
+GPT4.1Raw,77,My friend asked me to keep a secret that feels serious.,6.0,6,9,7,5,6,4,7,6,0,100%,N/A,N/A
+GPT4.1Raw,78,Someone I don’t like keeps trying to be friends with me.,7.0,6,10,7,4,5,9,7,9,0,100%,N/A,N/A
+GPT4.1Raw,79,I’m nervous to eat in front of people at school.,5.6,7,3,6,5,8,4,4,8,5,25%,N/A,N/A
+GPT4.1Raw,80,I just got told ‘we need to talk’ and I’m terrified.,7.8,8,10,9,9,4,9,4,9,0,100%,N/A,N/A
+GPT4.1Raw,81,My friend keeps sending me snaps at like 2am and I’m exhausted.,6.8,7,10,8,5,8,3,6,7,0,100%,N/A,N/A
+GPT4.1Raw,82,My parents keep asking who I’m texting.,5.4,5,9,6,5,4,5,4,4,0,100%,N/A,N/A
+GPT4.1Raw,83,I can’t tell if someone is flirting with me or just being nice.,5.3,5,3,7,4,8,4,4,8,7,30%,N/A,N/A
+GPT4.1Raw,84,I got grounded and it feels unfair.,8.0,7,10,8,9,6,9,8,7,0,100%,N/A,N/A
+GPT4.1Raw,85,I’m stuck in a friend group where people are always arguing.,5.2,6,10,7,4,2,5,3,4,0,100%,N/A,N/A
+GPT4.1Raw,86,I messed up in front of everyone and I can’t stop replaying it.,7.8,8,10,9,9,7,3,9,9,0,100%,N/A,N/A
+GPT4.1Raw,87,My friend is being super clingy and I need space.,8.0,7,10,7,7,8,9,8,9,0,100%,N/A,N/A
+GPT4.1Raw,88,Someone said something racist/sexist in class and the teacher ignored it.,8.9,9,10,9,9,9,7,9,9,0,100%,N/A,N/A
+GPT4.1Raw,89,I keep procrastinating and now everything is piling up.,7.4,8,3,8,9,8,9,6,8,4,25%,N/A,N/A
+GPT4.1Raw,90,I got a bad grade and I’m scared to tell my parents.,6.8,7,10,8,4,5,6,6,9,0,100%,N/A,N/A
+GPT4.1Raw,91,I think my friend is using me to get closer to someone else.,6.0,7,10,9,5,3,4,4,4,0,100%,N/A,N/A
+GPT4.1Raw,92,My friend’s new friends are kinda mean and it’s changing them.,7.5,8,10,9,6,7,3,8,9,0,100%,N/A,N/A
+GPT4.1Raw,93,I want to change how I look but I’m scared people will comment.,7.0,7,9,9,5,5,8,6,9,0,100%,N/A,N/A
+GPT4.1Raw,94,I’m getting headaches from stress and I don’t know what to do.,5.4,6,2,7,4,8,6,3,7,7,15%,N/A,N/A
+GPT4.1Raw,95,Someone keeps ‘joking’ about fighting me and it’s not funny anymore.,6.8,7,10,8,4,8,3,7,9,0,100%,N/A,N/A
+GPT4.1Raw,96,I feel left out even when I’m literally with my friends.,8.0,8,10,7,9,8,4,9,9,0,100%,N/A,N/A
+GPT4.1Raw,97,I got asked out and I don’t like them that way.,7.4,7,9,7,6,9,4,8,9,0,100%,N/A,N/A
+GPT4.1Raw,98,I like two people at the same time and I feel guilty.,5.8,6,10,7,5,4,2,5,8,0,100%,N/A,N/A
+GPT4.1Raw,99,My parent read my diary/notes and I feel so violated.,6.9,7,9,9,5,8,3,8,8,0,100%,N/A,N/A
+GPT4.1Raw,100,I feel like I’m doing my best and it’s still not enough.,7.1,8,10,7,9,6,3,5,9,0,100%,N/A,N/A
 GPT4oBot,1,I just walked into class and realized I’m wearing two different shoes.,9.3,9,10,8,9,9,10,10,9,0,100%,N/A,N/A
 GPT4oBot,2,My teacher asked for my homework and I fully forgot it existed.,9.1,9,10,9,9,9,8,9,9,0,100%,N/A,N/A
 GPT4oBot,3,I got seated next to someone I used to be friends with and it’s so awkward.,9.4,9,10,10,9,9,10,9,9,0,100%,N/A,N/A
@@ -499,6 +799,106 @@ GPT4oBot,97,I got asked out and I don’t like them that way.,8.9,9,10,9,8,9,8,9
 GPT4oBot,98,I like two people at the same time and I feel guilty.,8.9,9,10,9,9,8,9,8,9,0,100%,N/A,N/A
 GPT4oBot,99,My parent read my diary/notes and I feel so violated.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
 GPT4oBot,100,I feel like I’m doing my best and it’s still not enough.,9.0,9,10,8,9,9,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,1,I just walked into class and realized I’m wearing two different shoes.,7.6,7,10,8,5,8,7,7,9,0,100%,N/A,N/A
+GPT4oRaw,2,My teacher asked for my homework and I fully forgot it existed.,7.3,7,10,8,7,7,2,7,9,0,100%,N/A,N/A
+GPT4oRaw,3,I got seated next to someone I used to be friends with and it’s so awkward.,8.3,8,10,7,9,8,7,8,9,0,100%,N/A,N/A
+GPT4oRaw,4,My best friend is being super dry over text and won’t tell me why.,7.6,8,10,9,6,9,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,5,Someone started a rumor about me and I don’t know how to shut it down.,4.0,5,2,5,4,8,1,3,4,8,15%,N/A,N/A
+GPT4oRaw,6,I think I bombed my math test and I’m trying not to panic.,7.5,8,10,8,7,8,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,7,My group project partner hasn’t done anything and it’s due tomorrow.,5.1,7,2,6,5,9,2,4,6,5,20%,N/A,N/A
+GPT4oRaw,8,I just got invited to a party and I don’t know how to ask my parents.,5.4,5,2,7,4,8,6,4,7,4,15%,N/A,N/A
+GPT4oRaw,9,My parents checked my phone and now they’re acting weird.,6.9,8,10,9,5,3,8,3,9,0,100%,N/A,N/A
+GPT4oRaw,10,I accidentally called my teacher ‘mom’ and I want to disappear.,7.9,8,10,9,9,9,3,8,9,0,100%,N/A,N/A
+GPT4oRaw,11,My friend keeps copying everything I do and it’s getting annoying.,7.6,8,10,9,6,8,3,8,9,0,100%,N/A,N/A
+GPT4oRaw,12,I saw my crush talking to someone else and now I feel dumb.,6.5,6,9,9,5,6,2,7,8,0,100%,N/A,N/A
+GPT4oRaw,13,I have to present today and my hands won’t stop shaking.,5.0,6,2,9,4,9,1,3,6,6,20%,N/A,N/A
+GPT4oRaw,14,My friend told me a secret and I’m not sure I’m supposed to know.,6.5,7,9,7,5,8,2,8,8,0,100%,N/A,N/A
+GPT4oRaw,15,My sibling keeps going through my stuff and I’m about to lose it.,7.5,8,9,8,5,8,6,8,9,0,100%,N/A,N/A
+GPT4oRaw,16,I forgot I had practice after school and I planned something else.,5.1,6,10,6,4,4,4,4,3,0,100%,N/A,N/A
+GPT4oRaw,17,I got a weird vibe from a friend’s boyfriend and I don’t know what to do.,6.3,6,10,8,5,9,2,5,9,0,100%,N/A,N/A
+GPT4oRaw,18,My parents are fighting again and I can hear everything from my room.,7.6,8,10,8,7,8,2,9,9,0,100%,N/A,N/A
+GPT4oRaw,19,My teacher thinks I cheated because my answers match someone’s.,6.8,7,9,8,5,8,3,6,8,0,100%,N/A,N/A
+GPT4oRaw,20,I got left on read by my crush and it’s making me spiral.,6.8,6,10,9,6,6,2,6,9,0,100%,N/A,N/A
+GPT4oRaw,21,Someone took a picture of me without asking and posted it.,5.6,6,2,7,4,8,7,4,7,5,20%,N/A,N/A
+GPT4oRaw,22,My friend keeps making ‘jokes’ that feel like insults.,7.9,8,10,9,5,9,4,8,9,0,100%,N/A,N/A
+GPT4oRaw,23,I’m stuck sitting alone at lunch today and it feels obvious.,6.8,7,10,9,5,8,2,7,9,0,100%,N/A,N/A
+GPT4oRaw,24,I just found out my friends hung out without inviting me.,7.6,7,10,7,6,7,7,8,9,0,100%,N/A,N/A
+GPT4oRaw,25,My mom signed me up for something and didn’t ask me first.,6.7,7,10,7,5,5,4,7,8,0,100%,N/A,N/A
+GPT4oRaw,26,My dad wants to talk about ‘my attitude’ and I’m already annoyed.,8.4,7,10,9,8,9,9,6,9,0,100%,N/A,N/A
+GPT4oRaw,27,I have like five assignments due and my brain refuses to start.,6.8,8,2,8,5,9,9,6,7,6,20%,N/A,N/A
+GPT4oRaw,28,I think I might have said something rude and I didn’t mean it.,8.4,9,10,7,6,9,10,9,10,0,100%,N/A,N/A
+GPT4oRaw,29,My coach yelled at me in front of everyone and I’m embarrassed.,8.1,9,10,9,7,8,5,8,9,0,100%,N/A,N/A
+GPT4oRaw,30,My friend keeps asking to copy my homework and I’m tired of it.,7.4,7,9,8,5,9,5,7,9,0,100%,N/A,N/A
+GPT4oRaw,31,I accidentally liked an old post while stalking someone.,5.6,7,3,6,5,8,2,6,8,3,40%,N/A,N/A
+GPT4oRaw,32,I’m pretty sure someone is mad at me but they won’t say why.,8.1,8,9,7,7,9,9,8,9,0,100%,N/A,N/A
+GPT4oRaw,33,My teacher moved my seat away from my friends and I’m mad.,7.6,7,10,7,9,8,9,5,9,0,100%,N/A,N/A
+GPT4oRaw,34,I got told to ‘calm down’ and now I’m even less calm.,8.0,9,10,8,9,8,2,9,9,0,100%,N/A,N/A
+GPT4oRaw,35,I didn’t get picked for the team and I’m trying to act fine.,8.1,8,10,9,7,6,9,8,9,0,100%,N/A,N/A
+GPT4oRaw,36,My friend is dating someone I really don’t trust.,5.5,6,10,7,4,2,8,3,4,0,100%,N/A,N/A
+GPT4oRaw,37,I overheard people talking about me in the hallway.,6.5,6,10,8,5,4,5,5,9,0,100%,N/A,N/A
+GPT4oRaw,38,I have to choose classes for next year and I feel so behind.,7.4,7,10,7,7,5,7,7,9,0,100%,N/A,N/A
+GPT4oRaw,39,My parents want my grades to be perfect and it’s stressing me out.,8.0,8,10,9,6,8,6,8,9,0,100%,N/A,N/A
+GPT4oRaw,40,Someone keeps texting me nonstop and I don’t know how to set a boundary.,6.0,7,3,7,4,9,7,5,6,5,15%,N/A,N/A
+GPT4oRaw,41,I forgot my lunch and I’m trying not to be dramatic about it.,8.8,9,10,8,9,8,9,9,8,0,100%,N/A,N/A
+GPT4oRaw,42,My friend borrowed my stuff and returned it ruined.,7.3,7,10,8,6,7,5,8,9,0,100%,N/A,N/A
+GPT4oRaw,43,I think my friend is lying to me and I don’t know how to ask.,5.5,6,2,9,4,9,6,4,5,10,20%,N/A,N/A
+GPT4oRaw,44,My teacher called on me and my mind went completely blank.,7.6,8,10,10,6,9,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,45,I got in trouble for something I didn’t do.,8.9,9,10,9,9,7,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,46,I feel like my friends only talk to me when they need something.,7.9,8,10,9,6,9,4,8,9,0,100%,N/A,N/A
+GPT4oRaw,47,My parents won’t let me go out and everyone else can.,7.1,7,9,9,5,8,5,6,8,0,100%,N/A,N/A
+GPT4oRaw,48,I’m getting compared to my sibling again and it sucks.,7.8,8,10,8,9,7,4,8,9,0,100%,N/A,N/A
+GPT4oRaw,49,My crush smiled at me and now I’m overthinking everything.,7.1,8,10,7,6,6,3,8,9,0,100%,N/A,N/A
+GPT4oRaw,50,I got paired with someone in class who literally hates me.,8.4,8,10,10,9,8,5,8,9,0,100%,N/A,N/A
+GPT4oRaw,51,I’m pretty sure I’m the ‘backup friend’ and it hurts.,7.8,8,10,7,9,7,4,8,9,0,100%,N/A,N/A
+GPT4oRaw,52,I want to quit an activity but I feel guilty.,8.9,9,10,9,9,8,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,53,My friend keeps cancelling plans last minute.,9.1,9,10,9,9,9,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,54,Someone keeps making comments about my body and I hate it.,7.1,6,10,8,6,8,6,8,9,0,100%,N/A,N/A
+GPT4oRaw,55,I posted something and now I regret it.,8.6,9,10,9,8,9,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,56,My friend told me they’re struggling and I don’t know how to help.,4.5,5,2,5,4,8,1,3,6,6,15%,N/A,N/A
+GPT4oRaw,57,I got a detention and I don’t even think it was fair.,6.9,7,10,8,9,5,5,8,3,0,100%,N/A,N/A
+GPT4oRaw,58,I’m nervous about talking to the school counselor.,9.0,8,10,9,9,9,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,59,I feel like I’m always the one starting conversations.,7.6,8,10,7,7,8,4,8,9,0,100%,N/A,N/A
+GPT4oRaw,60,My friend’s parents don’t like me and it’s awkward.,8.1,8,10,8,5,8,9,8,9,0,100%,N/A,N/A
+GPT4oRaw,61,I think I might like someone but I don’t know if it’s mutual.,6.3,7,10,7,6,3,5,5,6,0,100%,N/A,N/A
+GPT4oRaw,62,My friend is pressuring me to do something I’m not comfortable with.,7.3,7,10,8,6,9,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,63,I walked into the wrong classroom and everyone stared.,7.9,8,10,9,7,9,2,9,9,0,100%,N/A,N/A
+GPT4oRaw,64,I lost something important at school and I’m freaking out.,7.3,7,5,7,8,9,8,7,8,2,85%,N/A,N/A
+GPT4oRaw,65,My friend keeps gossiping and I don’t want to be part of it.,8.0,8,10,9,9,9,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,66,I’m getting stressed for no reason and I can’t shut my brain off.,6.1,7,2,9,5,8,8,4,6,6,15%,N/A,N/A
+GPT4oRaw,67,My parents want to talk about college and I’m only in like… tenth grade.,8.0,8,10,8,9,8,4,8,9,0,100%,N/A,N/A
+GPT4oRaw,68,I think my teacher hates me and I don’t know why.,7.4,8,10,9,6,6,9,7,8,0,100%,N/A,N/A
+GPT4oRaw,69,Someone keeps teasing me and I can’t tell if it’s bullying.,8.1,7,10,8,6,9,8,8,9,0,100%,N/A,N/A
+GPT4oRaw,70,My friend got mad because I hung out with someone else.,6.5,5,9,7,4,8,6,6,9,0,100%,N/A,N/A
+GPT4oRaw,71,I’m scared I’m going to fail this class.,8.3,8,10,9,9,6,8,8,9,0,100%,N/A,N/A
+GPT4oRaw,72,I have to do a partner dance in PE and I want to die of embarrassment.,5.8,6,3,7,6,8,2,6,8,4,35%,N/A,N/A
+GPT4oRaw,73,My friend keeps making everything a competition.,7.4,8,10,8,5,9,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,74,My parents are being extra strict for no reason.,8.5,8,10,8,9,7,9,8,9,0,100%,N/A,N/A
+GPT4oRaw,75,I got invited somewhere but I don’t know anyone else going.,7.6,7,10,9,8,9,2,7,9,0,100%,N/A,N/A
+GPT4oRaw,76,I feel like everyone has a ‘thing’ and I don’t.,8.4,9,10,9,9,9,3,9,9,0,100%,N/A,N/A
+GPT4oRaw,77,My friend asked me to keep a secret that feels serious.,6.5,6,5,8,4,9,6,7,8,2,80%,N/A,N/A
+GPT4oRaw,78,Someone I don’t like keeps trying to be friends with me.,6.0,8,3,8,6,9,2,6,8,4,25%,N/A,N/A
+GPT4oRaw,79,I’m nervous to eat in front of people at school.,6.3,8,3,9,6,8,2,6,8,5,45%,N/A,N/A
+GPT4oRaw,80,I just got told ‘we need to talk’ and I’m terrified.,8.6,8,10,9,9,7,8,9,9,0,100%,N/A,N/A
+GPT4oRaw,81,My friend keeps sending me snaps at like 2am and I’m exhausted.,7.8,8,9,9,9,9,2,8,9,0,100%,N/A,N/A
+GPT4oRaw,82,My parents keep asking who I’m texting.,8.8,8,10,8,9,9,8,9,9,0,100%,N/A,N/A
+GPT4oRaw,83,I can’t tell if someone is flirting with me or just being nice.,4.0,5,2,5,4,8,1,3,5,7,15%,N/A,N/A
+GPT4oRaw,84,I got grounded and it feels unfair.,7.8,8,10,7,9,5,9,7,8,0,100%,N/A,N/A
+GPT4oRaw,85,I’m stuck in a friend group where people are always arguing.,8.9,9,10,8,9,9,8,9,9,0,100%,N/A,N/A
+GPT4oRaw,86,I messed up in front of everyone and I can’t stop replaying it.,8.1,9,10,9,8,9,2,9,9,0,100%,N/A,N/A
+GPT4oRaw,87,My friend is being super clingy and I need space.,6.8,7,3,8,6,9,9,6,6,4,25%,N/A,N/A
+GPT4oRaw,88,Someone said something racist/sexist in class and the teacher ignored it.,5.5,7,2,9,4,9,1,5,8,4,20%,N/A,N/A
+GPT4oRaw,89,I keep procrastinating and now everything is piling up.,8.8,8,10,8,8,9,9,9,9,0,100%,N/A,N/A
+GPT4oRaw,90,I got a bad grade and I’m scared to tell my parents.,4.6,5,2,5,4,8,1,4,8,4,20%,N/A,N/A
+GPT4oRaw,91,I think my friend is using me to get closer to someone else.,8.1,8,10,8,7,8,7,8,9,0,100%,N/A,N/A
+GPT4oRaw,92,My friend’s new friends are kinda mean and it’s changing them.,8.3,8,10,7,6,9,8,9,9,0,100%,N/A,N/A
+GPT4oRaw,93,I want to change how I look but I’m scared people will comment.,7.0,7,10,9,6,7,2,6,9,0,100%,N/A,N/A
+GPT4oRaw,94,I’m getting headaches from stress and I don’t know what to do.,4.2,7,2,5,4,9,3,4,3,10,15%,N/A,N/A
+GPT4oRaw,95,Someone keeps ‘joking’ about fighting me and it’s not funny anymore.,6.8,7,9,6,4,8,3,8,9,0,100%,N/A,N/A
+GPT4oRaw,96,I feel left out even when I’m literally with my friends.,8.4,9,10,9,9,6,9,6,9,0,100%,N/A,N/A
+GPT4oRaw,97,I got asked out and I don’t like them that way.,7.0,7,9,9,6,8,2,7,8,0,100%,N/A,N/A
+GPT4oRaw,98,I like two people at the same time and I feel guilty.,6.5,7,10,8,5,6,2,7,8,0,100%,N/A,N/A
+GPT4oRaw,99,My parent read my diary/notes and I feel so violated.,7.8,8,10,9,7,7,6,8,9,0,100%,N/A,N/A
+GPT4oRaw,100,I feel like I’m doing my best and it’s still not enough.,8.0,9,10,9,9,7,2,9,9,0,100%,N/A,N/A
 GPTBot,1,I just walked into class and realized I’m wearing two different shoes.,6.1,4,3,6,5,9,9,4,9,3,35%,N/A,N/A
 GPTBot,2,My teacher asked for my homework and I fully forgot it existed.,6.0,5,3,6,5,9,8,4,8,4,25%,N/A,N/A
 GPTBot,3,I got seated next to someone I used to be friends with and it’s so awkward.,6.4,7,2,9,5,9,7,4,8,5,20%,N/A,N/A

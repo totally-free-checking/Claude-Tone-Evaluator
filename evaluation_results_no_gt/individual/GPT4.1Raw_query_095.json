@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points, creating a natural conversational flow that reads like a text message",
+      "Provides specific, actionable script the teen can actually use: 'Hey, I don't find those jokes funny—can you stop?'",
+      "Appropriately balances immediate advice with safety considerations, acknowledging when to involve adults"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it', 'I'm here') making it feel like generic advice rather than personal support from someone who cares",
+      "Places the question in the middle of the response rather than ending with it, failing to invite continued conversation and closure",
+      "Opening validation, while accurate, feels somewhat clinical and detached rather than warmly empathetic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, lists, or over-structuring, maintaining a readable conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and failure to end with a follow-up question, making it feel like a static advice column rather than an ongoing supportive conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Excellent prose-only format with no bullet points, headers, or numbered lists. Advice flows naturally within conversational sentences."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout to create connection, such as 'I think that's really scary to deal with' or 'I'd suggest trying...' instead of general statements",
+      "Move the question to the very end of the response and make it more engaging/specific to invite continued conversation, such as 'How are you feeling about confronting them?'",
+      "Open with warmer, more immediate emotional validation like 'Ugh, that's such a stressful situation' or 'I'm really sorry you're dealing with that' before moving to solutions"
+    ]
+  }
+}

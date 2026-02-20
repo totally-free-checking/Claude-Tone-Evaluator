@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 38,
+  "user_query": "I have to choose classes for next year and I feel so behind.",
+  "evaluation": {
+    "overall_score": 5.9,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Ends with a specific, engaging follow-up question that invites the teen to share more details about their grade and subject preferences",
+      "Provides concrete, realistic advice that considers actual teen constraints like work, sports, and graduation requirements",
+      "Uses reassuring opening language like 'you're definitely not alone' and reframes 'behind' as 'planning stage'"
+    ],
+    "weaknesses": [
+      "Extremely heavy use of bullet points and numbered lists (5 numbered sections with sub-bullets) instead of natural prose paragraphs",
+      "Lacks first-person language throughout - doesn't use 'I think,' 'I'd suggest,' or 'I get it' to create personal connection",
+      "Brief validation (one sentence) is immediately followed by extensive structured advice without balancing emotional support throughout"
+    ],
+    "most_ideal_aspect": "Follow-up question engagement - ends with a natural, specific invitation to continue the conversation about grade level and subject preferences",
+    "least_ideal_aspect": "Natural prose vs. bullet points - reads like a wikiHow article or school handbook rather than a text conversation, with 15+ structured list items and minimal paragraph text",
+    "bullet_point_analysis": {
+      "bullet_count": 15,
+      "prose_percentage": "25%",
+      "notes": "Response uses 5 numbered headers with bold formatting and 10 sub-bullet points. Only 3 short paragraphs of actual prose at beginning and end. Heavy formatting creates distance rather than conversational intimacy."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as 2-3 natural paragraphs instead of numbered lists - for example, 'I'd start by checking your graduation requirements, then try to balance challenging classes with ones you actually enjoy...'",
+      "Add first-person perspective throughout using phrases like 'I think,' 'I'd say,' or 'When I was in school...' to sound like a supportive friend rather than an instruction manual",
+      "Expand the emotional validation before diving into solutions - acknowledge the anxiety more fully with something like 'I totally get that sinking feeling when everyone else seems to have it figured out'"
+    ]
+  }
+}

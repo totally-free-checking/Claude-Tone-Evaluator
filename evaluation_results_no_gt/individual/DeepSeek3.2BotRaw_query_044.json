@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong immediate emotional validation opening with 'That's the worst feeling' and reassuring normalization ('It's happened to almost everyone')",
+      "Excellent specific, actionable advice with exact phrases to use like 'Let me think about that for a second' and 'Wow, my mind just went blank — can I come back to that?'"
+    ],
+    "weaknesses": [
+      "Uses structured bullet points with bold headers ('Buy a moment:', 'Breathe:', 'Admit it lightly:') instead of natural prose paragraphs, creating a self-help article feel rather than a conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') and uses impersonal constructions like 'our memory' and 'our brains' instead",
+      "Fails to end with a follow-up question to continue the conversation, closing with the statement 'You've got this' instead of engaging the user further"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides specific, realistic phrases and strategies that a teen can actually use in the moment",
+    "least_ideal_aspect": "Natural prose vs bullet points - relies on a formatted bulleted list with bold headers, which significantly diverges from the conversational paragraph style required",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "60%",
+      "notes": "Response uses a bulleted list with bold headers which creates a structured, instructional feel. The advice should be woven into natural sentences flowing within paragraphs rather than listed as discrete options."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into flowing prose paragraphs: instead of listing options with headers, weave them naturally like 'If it happens again, I'd suggest buying a moment by saying something like... You could also try taking a quick breath... And honestly, if you really blank, just admitting it lightly works too...'",
+      "Add first-person language throughout to create connection: use 'I think', 'I'd say', or 'I get it' instead of 'our brains' or 'our memory' - for example, 'I know my brain does that under pressure' or 'I'd probably say something like...'",
+      "End with a specific, engaging follow-up question to invite continued conversation, such as 'Has this happened to you before, or was this the first time?' or 'How did you handle it after you blanked?'"
+    ]
+  }
+}

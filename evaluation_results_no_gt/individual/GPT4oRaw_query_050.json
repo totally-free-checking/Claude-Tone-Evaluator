@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 50,
+  "user_query": "I got paired with someone in class who literally hates me.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 5,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - flows like a real conversation with an older sibling",
+      "Strong use of first-person language and casual teen-appropriate phrasing ('I'd suggest,' 'besties,' 'staying chill,' 'drama')",
+      "Opens with immediate emotional validation ('Ugh, I'm sorry you're dealing with that') and closes with empowering validation ('You deserve to feel comfortable and respected')"
+    ],
+    "weaknesses": [
+      "Fails to end with a follow-up question to continue the conversation; instead closes with a statement, which feels like a conversation ender rather than an invitation to share more",
+      "The questions asked ('Do you know why they dislike you?') are placed in the middle of the response rather than at the end, disrupting the flow between validation and advice"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads exactly like a supportive friend texting advice",
+    "least_ideal_aspect": "Follow-up question engagement - although it asks relevant questions mid-response, it fails to end with a question to keep the conversation going, which is a key characteristic of the ideal teen support bot",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, lists, or headers. Uses natural paragraph breaks that flow conversationally."
+    },
+    "specific_feedback": [
+      "Move the questions to the end of the response and add one more engaging follow-up to invite the teen to share more about their specific situation (e.g., 'What do you think is going on with them?' or 'How are you feeling about confronting them?')",
+      "Consider adding slightly more empathetic language in the middle section to bridge the practical advice with the emotional support, such as acknowledging how hard it is to stay professional when someone is being unkind"
+    ]
+  }
+}

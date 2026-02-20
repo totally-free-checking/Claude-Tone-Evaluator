@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 22,
+  "user_query": "My friend keeps making ‘jokes’ that feel like insults.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, realistic scripts the teen can actually use (e.g., 'Ouch, that felt a bit harsh. What did you mean by that?')",
+      "Ends with a natural, situation-specific follow-up question that invites further conversation"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists (6 total) makes it read like a self-help article rather than a text from a friend",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') creating an impersonal, clinical distance",
+      "Opens with 'It sounds like you're dealing with a frustrating situation' which is validating but too formal/calm rather than warm and immediate like 'Ugh, that's the worst feeling'",
+      "Uses bold text formatting and headers which feels over-structured for a casual conversation"
+    ],
+    "most_ideal_aspect": "The practical advice quality and specific conversation scripts provided are realistic and actionable for a teen in this situation",
+    "least_ideal_aspect": "The formatting is extremely over-structured with numbered lists, bullet points, and bold text, completely violating the natural prose requirement",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "20%",
+      "notes": "Response uses a numbered list (3 items) and a bulleted list (3 items) with bold formatting, making it read like a wikiHow article rather than conversational text. The prose is limited to brief intro/outro sentences."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in natural paragraphs without any bullet points or bold text - flow the advice as if telling a story or giving advice to a friend",
+      "Add first-person language throughout like 'I think the best approach would be...' or 'I'd probably feel hurt too if...' to create personal connection",
+      "Start with immediate emotional validation using casual language like 'Ugh, that's such a frustrating situation' or 'I totally get why that stings' before any advice",
+      "Remove clinical phrases like 'Take a moment to observe' and 'Reflect on your feelings' which sound like therapy homework, and replace with casual observations like 'Honestly, I'd try to notice if they do this with everyone or just you'"
+    ]
+  }
+}

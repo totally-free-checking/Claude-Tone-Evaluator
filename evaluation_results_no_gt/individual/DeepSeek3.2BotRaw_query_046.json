@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 46,
+  "user_query": "I feel like my friends only talk to me when they need something.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 3,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong emotional validation bookending the response with phrases like 'you're definitely not alone' and 'You deserve friendships that make you feel valued'",
+      "Specific, actionable advice including concrete scripts like 'Hey, I love helping out, but sometimes I miss just chatting about random stuff'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like a self-help article rather than a conversation",
+      "Lacks first-person language throughout - uses 'you might want to' instead of 'I think you could' or 'I'd try'",
+      "Ends with an invitation rather than a specific follow-up question to continue the dialogue"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, specific actions a teen can take including exact phrases to use",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses 5 formatted bullet points with bold headers instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "35%",
+      "notes": "Response is structured as intro paragraph, 5 bullet points with bold headers, and outro paragraph. The bullet points contain the majority of the advice content, making it feel like a listicle rather than a natural text conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 1-2 flowing prose paragraphs using first-person language like 'I think you could start by...' or 'I'd probably try...'",
+      "Add a specific follow-up question at the end such as 'Is this happening with one specific friend or your whole group?' instead of the general 'I'm here' statement",
+      "Incorporate natural first-person reactions like 'I get how that would feel really lonely' to make it sound more like a supportive friend texting"
+    ]
+  }
+}

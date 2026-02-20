@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent immediate validation with 'Ugh, that's such a rough feeling to have - it really stings' that names the emotion directly",
+      "Strong first-person language throughout ('I think,' 'I'd say,' 'I'm just really sorry') creating genuine connection",
+      "Natural prose format with zero bullet points - reads exactly like a supportive friend texting"
+    ],
+    "weaknesses": [
+      "The 'brains jump to worst-case scenario' perspective, while validating, comes slightly early before fully sitting with the pain of feeling like a backup",
+      "Could offer one concrete example of a specific invitation (e.g., 'study together' or 'get food') to make the advice even more actionable"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that creates authentic connection",
+    "least_ideal_aspect": "Slight rush to reframe the situation with the 'busy schedules' perspective before fully validating the hurt of feeling second-choice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as four natural paragraphs with no lists, headers, or over-structuring. Flows like a real conversation."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence specifically naming the feeling of being 'second choice' before offering the perspective about busy schedules",
+      "Include one concrete example of a low-pressure invitation (like 'grab lunch' or 'study for the test') to make the advice more immediately actionable"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 82,
+  "user_query": "My parents keep asking who I’m texting.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points - flows like a real conversation",
+      "Strong use of first-person language throughout ('I get how it could come across,' 'I'm sure they'll ease up') creating personal connection",
+      "Provides specific, realistic scripts the teen can actually use ('Hey, I promise I'll tell you if it's anything important...')"
+    ],
+    "weaknesses": [
+      "Emotional validation slightly understates the situation - 'a bit annoying' feels mild compared to acknowledging it feels 'intrusive' later",
+      "Follow-up question 'What do you think?' is somewhat generic and could be more specific to their parent relationship",
+      "Lacks emoji that could enhance warmth for this casual topic (though absence is acceptable)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - perfectly avoids bullets and headers while maintaining conversational flow with natural transitions between validation and advice",
+    "least_ideal_aspect": "Initial emotional validation strength - 'bit annoying' somewhat minimizes what could be a genuinely frustrating invasion of privacy, though it does improve by acknowledging 'intrusive' feelings later",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-formatting. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Strengthen opening validation with more empathetic language like 'Ugh, that's so frustrating' or 'That invasive feeling is the worst' instead of 'a bit annoying'",
+      "Make the follow-up question more specific to their situation, such as 'Do you think they'd respond better to the direct approach or keeping it light?'",
+      "Consider adding one warm emoji (like 😅 or 😊) at the start to set a supportive tone, though this is optional"
+    ]
+  }
+}

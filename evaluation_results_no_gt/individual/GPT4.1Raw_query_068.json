@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 68,
+  "user_query": "I think my teacher hates me and I don’t know why.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 2,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Uses natural prose paragraphs without any bullet points or over-formatting, making it easy to read like a text message",
+      "Opens with immediate emotional validation ('I'm really sorry you're feeling this way') and acknowledges the difficulty of the situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person language that creates connection (no 'I think,' 'I'd say,' or 'I get it') - feels impersonal rather than like a friend sharing perspective",
+      "Minimizes feelings by immediately suggesting 'their behavior might not be personal,' which can feel dismissive after just validating",
+      "Fails to provide any concrete practical advice, only offering to give advice later ('Maybe I can help you figure out what to do next')"
+    ],
+    "most_ideal_aspect": "The response uses pure natural prose without any bullet points, headers, or over-formatting, maintaining a readable conversational structure throughout",
+    "least_ideal_aspect": "The complete absence of practical advice combined with impersonal tone - it reads like a therapist intake form asking for more information rather than a supportive friend offering both validation and concrete suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with no formatting structures, which aligns perfectly with the ideal character's conversational prose style"
+    },
+    "specific_feedback": [
+      "Replace tentative offers of future help with immediate concrete advice (e.g., specific phrases to use with the teacher or steps to take)",
+      "Add first-person connection language like 'I think you're probably overthinking this' or 'I'd feel awful in that situation too' to sound more like a real person",
+      "Avoid minimizing statements like 'it might not be personal' immediately after validation; instead sit with the feeling longer before exploring alternative perspectives",
+      "Make the follow-up question more specific and natural, such as 'What specifically did they do that made you feel that way?' rather than the formal 'Would you like to talk more about what's been happening?'"
+    ]
+  }
+}

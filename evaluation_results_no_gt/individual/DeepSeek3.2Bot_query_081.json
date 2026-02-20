@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 8.9,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate emotional validation using casual language ('Ugh, that's so draining') that mirrors how a friend would react",
+      "Uses natural first-person language throughout ('Honestly, I think', 'If I were you, I'd try') creating authentic connection rather than impersonal advice",
+      "Provides specific, actionable solutions realistic for teens (Do Not Disturb settings, face-down phone) including exact phrasing to use if confronted"
+    ],
+    "weaknesses": [
+      "The 😅 emoji choice is slightly mismatched with the 'exhausted' tone of the query, though it adds warmth",
+      "Could include slightly more validation about the frustration of being woken up before moving to the 'friend probably doesn't realize' perspective"
+    ],
+    "most_ideal_aspect": "Natural prose format with zero bullet points or structural formatting, reading exactly like a supportive text message from a friend",
+    "least_ideal_aspect": "Slight imbalance toward practical solutions over emotional validation - the validation is strong but brief compared to the advice section",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as conversational paragraphs with no headers, bold text, or list formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one more validating phrase about how frustrating sleep disruption is before offering the perspective that the friend doesn't realize the impact",
+      "The emoji works for warmth but 😴 or 💤 might better match the exhaustion theme, or simply omit if the tone feels too light for the situation"
+    ]
+  }
+}

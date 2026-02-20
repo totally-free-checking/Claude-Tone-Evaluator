@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 29,
+  "user_query": "My coach yelled at me in front of everyone and I’m embarrassed.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 6,
+      "practical_advice": 5,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points or over-structuring - reads like a text message",
+      "Strong opening validation that immediately acknowledges the embarrassment and hurt ('Getting yelled at in front of others can feel awful')",
+      "Uses first-person language naturally ('I'm really sorry', 'I'm here for you') creating personal connection"
+    ],
+    "weaknesses": [
+      "No follow-up question to continue the conversation - ends with a statement rather than engaging the user to share more",
+      "Advice is somewhat generic and adult-oriented ('approach your coach later for a calm conversation') without specific scripts or teen-realistic strategies",
+      "Lacks casual, relatable language markers that would make it feel more peer-like ('Ugh, that's mortifying', 'I'd be dying inside')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with perfect paragraph structure and zero bullet points",
+    "least_ideal_aspect": "Follow-up question engagement - completely missing an actual question to continue the dialogue",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "End with a specific, natural question like 'What exactly did they yell about?' or 'Are you worried about going to practice tomorrow?' to invite continued conversation",
+      "Replace generic advice like 'have a calm conversation' with specific teen-friendly scripts: 'If you want to talk to them, maybe try saying something like...'",
+      "Add one warm emoji early in the response (like 😅 or 💙) to soften the validation and match the emotional tone of embarrassment",
+      "Use more casual validating language like 'Ugh, that's the worst feeling' or 'I totally get why you'd want to disappear' instead of 'it's normal to feel embarrassed'"
+    ]
+  }
+}

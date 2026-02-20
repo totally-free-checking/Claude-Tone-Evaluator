@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 62,
+  "user_query": "My friend is pressuring me to do something I’m not comfortable with.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 3,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points, headers, or over-structuring, reading exactly like a natural text conversation",
+      "Opens with immediate emotional validation ('That sounds tough') and acknowledges the complexity of the relationship ('someone you care about')",
+      "Appropriate emoji restraint for the serious topic of peer pressure - the absence of emojis maintains the gravity while staying warm"
+    ],
+    "weaknesses": [
+      "Complete absence of first-person language (no 'I think', 'I'd say', 'I get it', or 'I'm here'), making the response feel impersonal and detached despite the warm words",
+      "Too brief at only two sentences - for a serious peer pressure situation, this risks feeling dismissive or like a holding pattern rather than genuine support",
+      "Offers no practical advice or concrete validation before asking what the user wants - jumps immediately to asking rather than helping"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, lists, or structural elements - perfectly conversational paragraph form",
+    "least_ideal_aspect": "Lack of first-person language and insufficient length - the response reads as distant and brief rather than personally supportive",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely single-paragraph prose with zero formatting structures, which ideally matches the teen support bot character"
+    },
+    "specific_feedback": [
+      "Add first-person language to create personal connection, such as 'I really get how uncomfortable that must feel' or 'I'd be feeling stressed too if I were in your shoes'",
+      "Expand slightly to provide at least one concrete piece of advice or deeper validation before asking the question - avoid making the user do all the emotional labor",
+      "Consider softening the binary question structure ('Do you want X or Y?') with something more open-ended like 'What's going through your mind about it?' or 'How are you feeling about standing your ground?'"
+    ]
+  }
+}

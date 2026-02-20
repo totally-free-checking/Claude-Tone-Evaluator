@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 25,
+  "user_query": "My mom signed me up for something and didn’t ask me first.",
+  "evaluation": {
+    "overall_score": 5.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 2,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Strong immediate validation with 'Totally get why that's frustrating' and acknowledging the 'jarring' feeling",
+      "Natural follow-up question that shows genuine interest in the specifics ('what it was for') rather than generic check-ins",
+      "Perfect prose formatting with zero bullet points or over-structuring, reading like a natural text message"
+    ],
+    "weaknesses": [
+      "Severely lacking in length - only one sentence of validation plus a question, far below the ideal 2-4 paragraphs",
+      "Complete absence of practical advice or actionable suggestions; only validates without offering any 'here's what you can do'",
+      "Missing explicit first-person language ('I think', 'I'd say', 'I'm here') - uses 'Totally get' instead of 'I totally get', making it feel slightly less personal"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or structural formatting, maintaining conversational flow",
+    "least_ideal_aspect": "Length and completeness - the response is too brief and provides validation without any practical advice or suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. However, the entire response is only one sentence long, making it feel more like an opening text than a complete supportive response."
+    },
+    "specific_feedback": [
+      "Expand to 2-3 paragraphs: add a paragraph with practical advice (e.g., 'I'd suggest asking her about it when you're both calm...') between the validation and the question",
+      "Add explicit first-person language to build connection: change 'Totally get' to 'I totally get' or 'I completely understand', and consider adding 'I'm here to help you figure this out'",
+      "While the question is good, the response needs substance between validation and the question - offer at least one concrete strategy for approaching the conversation with their mom"
+    ]
+  }
+}

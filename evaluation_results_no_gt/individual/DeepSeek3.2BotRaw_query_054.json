@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('I'm really sorry you're dealing with that') and affirms the user's right to safety",
+      "Provides specific, actionable scripts like 'I don't appreciate comments about my body. Please stop' that a teen could actually use",
+      "Uses exactly one appropriate emoji (💙) at the end to enhance warmth without being excessive"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and bold headers ('1. **Set a clear boundary**') rather than natural prose paragraphs",
+      "Completely lacks a follow-up question to continue the conversation",
+      "Uses impersonal language like 'here are a few things you could consider' and 'there may be policies in place' instead of first-person perspective ('I think', 'I'd say')"
+    ],
+    "most_ideal_aspect": "Emoji usage - uses exactly one supportive emoji (💙) at the end that enhances warmth without feeling corporate or excessive",
+    "least_ideal_aspect": "Natural prose vs. bullet points - presents advice as 4 numbered, bold-formatted list items rather than flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response starts and ends with prose paragraphs, but the entire middle section is a heavily structured numbered list with bold headers. Reads more like a school pamphlet than a text conversation."
+    },
+    "specific_feedback": [
+      "Convert the four bullet points into 1-2 flowing paragraphs using natural transitions like 'If it were me, I'd probably start by...' or 'You could try telling them something like...'",
+      "End with a specific, engaging question like 'Do you feel safe telling them directly to stop, or is this someone you need to avoid entirely?'",
+      "Incorporate first-person language throughout the advice section, such as 'I think setting a boundary would be my first move' instead of 'Here are things you could consider'"
+    ]
+  }
+}

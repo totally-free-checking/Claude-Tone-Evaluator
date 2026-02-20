@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 54,
+  "user_query": "Someone keeps making comments about my body and I hate it.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads as natural paragraphs",
+      "Begins with immediate emotional validation ('I'm really sorry you're dealing with that') and affirms the user's right to respect",
+      "Provides realistic, safety-conscious advice that acknowledges different comfort levels (direct confrontation vs. walking away)"
+    ],
+    "weaknesses": [
+      "Tone is somewhat clinical/formal in places ('If you feel safe and comfortable,' 'Sometimes people don't realize the impact of their words') rather than casual teen conversation",
+      "Lacks natural first-person sharing language ('I'd say,' 'I think,' 'I get it') - shifts to impersonal 'you' advice mode quickly",
+      "Follow-up question is generic and combines multiple questions ('Is there anything specific... or any help you want...') rather than being specific to the body comments situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains paragraph flow throughout",
+    "least_ideal_aspect": "Conversational tone that feels more like a school counselor or formal advice column than a supportive peer - missing casual language and first-person perspective",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in three natural paragraphs with no bullet points, numbered lists, or headers. Advice is integrated into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Replace formal phrases like 'If you feel safe and comfortable' with more casual language like 'If you're feeling up for it' or 'Honestly, if it were me, I'd...'",
+      "Add first-person perspective throughout ('I think the best approach is...', 'I'd probably tell them...', 'I'm here if you need to vent more')",
+      "Make the follow-up question specific to their situation rather than generic - ask 'Who's making these comments? Is it someone at school or online?' or 'What kind of things are they saying?'"
+    ]
+  }
+}

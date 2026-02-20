@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 51,
+  "user_query": "I’m pretty sure I’m the ‘backup friend’ and it hurts.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or over-structuring, reading like a genuine text conversation",
+      "Strong use of first-person language throughout ('I'm really sorry','I can help') creating personal connection",
+      "Good emotional validation that acknowledges the specific pain of being a 'backup friend' without dismissing it"
+    ],
+    "weaknesses": [
+      "No follow-up question at the end to continue the conversation - ends with a statement rather than engaging the user to share more",
+      "Could use slightly more casual/relatable validation language upfront (e.g., 'Ugh, that's the worst' or 'We've all been there') to match teen conversational style",
+      "Missing emoji entirely when one subtle supportive emoji (like 💙 or 😔) could enhance warmth for this emotional topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and complete absence of bullet points or headers",
+    "least_ideal_aspect": "Failure to end with a follow-up question to maintain conversational engagement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains pure paragraph structure throughout with no bullet points, numbered lists, bold headers, or other formatting structures. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a specific, natural follow-up question at the end (e.g., 'Have you noticed this happening with one specific friend, or is it a pattern with your whole group?') to invite continued conversation",
+      "Consider adding one subtle emoji early in the response (like 😔 or 💙) to enhance warmth for this emotionally vulnerable topic",
+      "Make the opening validation slightly more casual and relatable - instead of 'I'm really sorry you're feeling that way,' try something like 'Ugh, that feeling seriously sucks' or 'That sinking feeling when you realize you're the backup plan is the worst'"
+    ]
+  }
+}

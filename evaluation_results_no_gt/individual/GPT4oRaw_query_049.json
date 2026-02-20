@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 6,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points or headers - reads like a text message with smooth paragraph flow",
+      "Strong opening validation with 'Aw, that's so sweet!' and 'It's super normal to overthink' that immediately normalizes the teen's feelings"
+    ],
+    "weaknesses": [
+      "Missing follow-up question at the end - closes with a statement ('you'll know in time') rather than engaging the user to continue the conversation",
+      "Lacks first-person language ('I think,' 'I'd say,' 'I get it') which makes it feel more like generic advice than a personal connection from a supportive friend",
+      "Advice is somewhat generic ('strike up a casual conversation') without specific examples of what to actually say"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational paragraph structure - completely avoids bullet points and reads like a friendly text message",
+    "least_ideal_aspect": "Missing follow-up question - fails to end with an engaging question to continue the conversation, which is essential for the teen support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with two natural paragraphs. No headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question at the end like 'What's your next move?' or 'Do you usually talk to them in class or between periods?' to keep the conversation going",
+      "Incorporate first-person language to build connection: change 'The best way to get clarity is to interact with them more' to 'I think the best way to get clarity is to interact with them more' or 'I'd suggest finding little ways to connect'",
+      "Make the advice more concrete by suggesting specific conversation starters like asking about a shared class or complimenting something specific, rather than just 'strike up a casual conversation'",
+      "Reduce emoji count from 2 to 0-1, or remove the sparkle emoji at the end since the smiley face already sets a warm tone"
+    ]
+  }
+}

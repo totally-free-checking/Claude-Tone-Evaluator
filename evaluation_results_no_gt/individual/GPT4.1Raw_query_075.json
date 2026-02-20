@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 3,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or over-structuring - reads like a natural text message",
+      "Ends with an engaging question to continue the conversation flow"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I get it', 'I'd feel the same way') making it feel impersonal and detached",
+      "Promises advice ('I can give you some tips') but doesn't actually provide any concrete help, leaving the teen hanging",
+      "Validation is minimal ('a bit awkward') and quickly pivots to positive reframing without acknowledging the real social anxiety",
+      "Too brief for the emotional weight of the situation - risks feeling dismissive"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or headers - maintains conversational flow throughout",
+    "least_ideal_aspect": "Practical advice delivery - offers to help conditionally rather than providing immediate actionable suggestions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural flow. No formatting issues detected."
+    },
+    "specific_feedback": [
+      "Replace 'That can feel a bit awkward' with first-person validation like 'Ugh, I totally get that anxiety - I've been in that exact situation and it's so nerve-wracking'",
+      "Instead of offering to give tips, immediately provide 1-2 concrete suggestions like mentioning you could text the host beforehand or plan an exit strategy",
+      "Add one warm emoji (like 😅 or 😊) early in the response to set a supportive tone",
+      "Expand slightly to validate the feeling more deeply before pivoting to the positive opportunity"
+    ]
+  }
+}

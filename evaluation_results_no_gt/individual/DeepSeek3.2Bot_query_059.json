@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I think this is way more common...', 'I'd maybe try pulling back') creating genuine connection",
+      "Perfect prose format with zero bullet points - flows like a natural text conversation with a friend",
+      "Strong immediate validation opening with 'Aw, that's a tough feeling' and normalization that reduces shame"
+    ],
+    "weaknesses": [
+      "The word 'invested' in 'see who's really invested' is slightly formal/adult for teen conversation",
+      "Could validate the specific fear of rejection or loneliness a bit more deeply before moving to the 'pull back' strategy"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow with consistent first-person perspective ('Honestly, I think...', 'I'd maybe try...')",
+    "least_ideal_aspect": "The advice to create space by pulling back, while realistic, could benefit from more validation of how scary that might feel for someone already feeling insecure about the friendship",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural paragraphs with no lists, headers, or bold text. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one sentence acknowledging how vulnerable it feels to worry that friends don't care enough to text first, before suggesting the 'pull back' strategy",
+      "The follow-up question is good, but could be slightly more open-ended like 'What's your gut feeling about why this might be happening?' to invite deeper sharing"
+    ]
+  }
+}

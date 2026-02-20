@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 85,
+  "user_query": "I’m stuck in a friend group where people are always arguing.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as natural conversational paragraphs",
+      "Uses clarifying questions to better understand the specific situation (arguing with each other vs. directed at user)"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here' which makes it feel impersonal like an FAQ rather than a supportive friend",
+      "Too brief and diagnostic - focuses on gathering information rather than providing emotional support or concrete advice",
+      "Ends with a compound question ('Have you tried... or are you...') that feels clinical rather than warmly engaging"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational paragraph flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and warm personal connection - reads as an observer asking clinical questions rather than a supportive friend sharing the moment",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Response flows as natural paragraphs"
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: try 'I get how exhausting that must be' or 'I'd feel so stressed in that situation' instead of general observations",
+      "Provide concrete advice before asking diagnostic questions - offer specific phrases they could use when bringing up concerns to the group",
+      "Expand the validation section to be warmer and longer before moving to questions - teens need to feel truly heard before problem-solving begins",
+      "Replace the compound ending question with a single, warmer invitation to share more, like 'What's the hardest part of being in the middle of all that?'"
+    ]
+  }
+}

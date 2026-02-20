@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 48,
+  "user_query": "I’m getting compared to my sibling again and it sucks.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or structural formatting - reads exactly like a supportive text from a friend",
+      "Strong use of first-person language throughout ('I'm sorry','I'm here to listen') creating genuine personal connection",
+      "Opens with immediate emotional validation ('Oh man, I'm sorry','it sounds really frustrating') before moving to advice"
+    ],
+    "weaknesses": [
+      "Fails to end with a follow-up question to continue the conversation - closes with 'Whatever you need!' instead of an engaging question",
+      "Practical advice, while realistic, could be more specific (e.g., offering actual phrases to use when talking to parents)",
+      "Lacks emojis entirely which could have enhanced warmth for this frustrating situation (though this is minor)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - perfectly conversational paragraphs without any bullets, headers, or over-structuring that reads like a real text conversation",
+    "least_ideal_aspect": "Follow-up question engagement - although it contains a question mid-text ('Have you tried talking...'), it fails to end with a question to invite continued dialogue, closing the conversation instead of opening it",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs, no bullet points, headers, bold text, or numbered lists. Advice flows organically within sentences rather than being listed out"
+    },
+    "specific_feedback": [
+      "End with a specific, engaging question like 'Who's usually doing the comparing - your parents or teachers?' or 'What kind of comparisons bug you the most?' to invite the teen to share more",
+      "Consider adding one warmth-enhancing emoji early in the response (like 😤 or 💙) to match the 'it sucks' energy of the query",
+      "Provide specific script examples for talking to the person making comparisons, such as: 'You could try saying: \"I know you don't mean to, but when you compare me to [sibling], it makes me feel like I'm not good enough on my own.\"'"
+    ]
+  }
+}

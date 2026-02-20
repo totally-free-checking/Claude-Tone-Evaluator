@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 34,
+  "user_query": "I got told to ‘calm down’ and now I’m even less calm.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Opens with immediate, strong validation using first-person empathy: 'Ugh, I totally get it—that phrase can feel *so* frustrating'",
+      "Perfect prose format with zero bullet points or headers, reading like a natural text from a supportive friend",
+      "Excellent balance of emotional validation (first paragraph) followed by practical advice (second paragraph) without being overwhelming"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with an emoji instead of engaging the user to continue the conversation",
+      "Advice section uses second-person imperative ('Maybe take a sec') rather than first-person sharing ('I'd probably try to step away'), missing opportunity for deeper personal connection"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational flow - reads exactly like a supportive text message without any over-structuring or bullet points",
+    "least_ideal_aspect": "Follow-up question engagement - fails to end with any question to invite the teen to share more about their situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is composed of two clean paragraphs with no formatting, headers, or list structures. Perfect example of natural prose format."
+    },
+    "specific_feedback": [
+      "Add a specific, conversational follow-up question at the end such as 'Who told you to calm down?' or 'What were you worked up about when they said that?' to invite continued dialogue",
+      "Consider using first-person language in the advice section (e.g., 'I'd probably try to step away for a sec...') to maintain the personal, friend-to-friend connection established in the opening"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 8.2,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Uses completely natural prose with zero bullet points or formatting, reading exactly like a supportive friend texting",
+      "Opens with immediate emotional validation ('one of those moments that feels like it lasts an hour') that normalizes the awkwardness without dismissing it",
+      "Employs first-person language naturally ('I bet you...') creating authentic personal connection",
+      "Uses casual, teen-appropriate language ('huh?', 'Yeah', 'Happens to the best of us') without trying too hard"
+    ],
+    "weaknesses": [
+      "Lacks concrete practical advice or coping strategies for handling the embarrassment or social anxiety",
+      "Could benefit from one emoji (like 😅 or 😬) to enhance the warm, awkward tone of the situation",
+      "Very brief response - could expand slightly with more validation or perspective before jumping to the question"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational tone - reads like a text from an understanding older sibling without any corporate speak, bullet points, or over-structuring",
+    "least_ideal_aspect": "Practical advice depth - focuses entirely on emotional validation and normalization without offering concrete strategies for managing the embarrassment or navigating the aftermath",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely natural prose with no formatting structures, bullet points, numbered lists, or headers. Flows as a single conversational paragraph with natural sentence structure."
+    },
+    "specific_feedback": [
+      "Consider adding one well-placed emoji like 😅 or 😬 to match the awkwardness of the situation and enhance visual warmth",
+      "Include one concrete tip for handling the aftermath, such as suggesting how to react if they see those same people again, or reminding them that everyone will forget by lunch",
+      "Expand slightly with one more sentence of validation about how these moments feel huge in the moment but fade quickly, before asking the follow-up question"
+    ]
+  }
+}

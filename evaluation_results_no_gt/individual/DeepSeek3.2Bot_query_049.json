@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 49,
+  "user_query": "My crush smiled at me and now I’m overthinking everything.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent first-person language throughout ('I swear,' 'I think,' 'I'd try,' 'If I were you, I might') creating genuine connection",
+      "Opens with immediate emotional validation ('That's such a weirdly exciting and terrifying feeling all at once') that normalizes the overthinking",
+      "Perfect natural prose format with zero bullet points - flows like a text from a supportive friend",
+      "Specific, contextual follow-up question about hallway vs. eye contact that shows real interest in their specific situation"
+    ],
+    "weaknesses": [
+      "Advice could be slightly more specific - while 'smile back' is good, adding one concrete conversation starter example would strengthen it",
+      "The phrase 'best sign ever' might slightly overstate a simple smile, though it works for validation purposes"
+    ],
+    "most_ideal_aspect": "Natural conversational prose format with consistent first-person language that creates authentic connection",
+    "least_ideal_aspect": "Practical advice section is slightly brief - could include one additional specific script or conversation opener",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses four natural paragraphs with no formatting, headers, or lists. Advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific conversation starter example (like 'Hey, how's your day going?') to complement the 'smile back' advice",
+      "The balance between validation and advice is strong, but you could extend the validation one more sentence before transitioning to the 'best sign' perspective"
+    ]
+  }
+}

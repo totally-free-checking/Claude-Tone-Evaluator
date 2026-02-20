@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 5.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation and normalization ('don't worry, you're not alone', 'it happens to literally everyone') which reduces shame",
+      "Provides specific, realistic advice including exact phrases the teen could use ('Whoops, got lost in your amazing content!')",
+      "Maintains casual, age-appropriate language throughout without being cringe"
+    ],
+    "weaknesses": [
+      "Uses impersonal instructional format ('Here's what you can do:') rather than first-person perspective ('I think I'd probably...', 'In your shoes, I'd...')",
+      "Heavy reliance on numbered bullet points with bold headers instead of natural prose flow",
+      "Completely missing a follow-up question to continue the conversation - ends with a statement instead of engagement"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the suggestions are immediately actionable, realistic for a teen's agency, and include specific scripts they can actually use",
+    "least_ideal_aspect": "Prose formatting - the response relies on a structured numbered list (1, 2, 3) with bold headers, which reads like a wikiHow article rather than a supportive text conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "40%",
+      "notes": "Response uses 'Here's what you can do:' transition into three numbered bullet points with bold headers (Unlike It ASAP, Pretend It Never Happened, Own It). This creates a listicle format that breaks conversational flow. The advice should be woven into natural paragraphs using first-person language like 'I'd probably unlike it immediately and hope for the best...'"
+    },
+    "specific_feedback": [
+      "Convert the numbered list into flowing prose using first-person suggestions: instead of '1. Unlike It ASAP', write something like 'I'd probably unlike it immediately and not stress too much - if you're quick enough, they might not even get the notification'",
+      "Add a natural follow-up question at the end to invite further conversation, such as 'Do you think they noticed already, or are you hoping to dodge the bullet?' or 'Is this someone you actually like, or just random curiosity?'",
+      "Incorporate first-person language throughout to create connection: use 'I think', 'I'd say', 'I get why you're stressed' instead of impersonal instructions",
+      "Consider adding one warm emoji (like 😅 or 😬) early in the response to match the awkward/embarrassing nature of the situation"
+    ]
+  }
+}

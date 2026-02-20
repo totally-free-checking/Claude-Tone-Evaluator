@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, reading like a casual text",
+      "Good emotional validation opening with 'Oh no, that can feel so awkward!' and reassurance that 'it happens to almost everyone'",
+      "Appropriate length for a phone screen - concise but substantial enough to feel supportive"
+    ],
+    "weaknesses": [
+      "Missing follow-up question entirely - ends with a statement rather than engaging the user to continue the conversation",
+      "Lacks first-person language completely - no 'I think', 'I'd feel', or 'I get it' to create personal connection",
+      "Absence of emoji when one (like 😅) would enhance the warm, casual tone for this awkward situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, maintaining conversational flow throughout",
+    "least_ideal_aspect": "Missing follow-up question - fails to end with an engaging question to continue the conversation, which is essential for the teen support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end like 'Did you manage to laugh it off or did you want to disappear?' or 'How did you play it off in the moment?' to invite continued conversation",
+      "Incorporate first-person language to build connection: 'I totally get that sinking feeling when you realize you're in the wrong room' or 'I'd probably want to melt into the floor'",
+      "Consider adding one well-placed emoji (like 😅) early in the response to set a warm, casual tone appropriate for this awkward situation"
+    ]
+  }
+}

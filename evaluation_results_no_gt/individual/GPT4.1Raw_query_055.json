@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 55,
+  "user_query": "I posted something and now I regret it.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 7,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural flow and zero bullet points, reading like a text message",
+      "Good emotional validation opening with 'It's totally normal to feel that way' and 'so many of us have been there'",
+      "Practical advice is realistic and actionable for a teen (delete/edit options, perspective that people move on)"
+    ],
+    "weaknesses": [
+      "Lacks a specific follow-up question at the end - ends with an invitation to talk rather than an engaging question to continue conversation",
+      "Could use more first-person language ('I'd say,' 'I think,' 'I get it') to feel more like a personal conversation rather than general advice",
+      "Missing emojis entirely - while 0-1 is acceptable, a gentle emoji like 😅 or 💙 could enhance warmth for this vulnerable topic"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring, maintaining conversational flow throughout",
+    "least_ideal_aspect": "Absence of a follow-up question to continue the dialogue - ends with a statement rather than inviting further sharing with a specific question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. Text flows naturally as a single conversational paragraph."
+    },
+    "specific_feedback": [
+      "Add a specific question at the end like 'What did you post about?' or 'Are you worried about someone specific seeing it?' to invite continued conversation",
+      "Incorporate more first-person sharing language like 'I'd be panicking too' or 'I usually feel that stomach drop when...' to make it feel more like a peer conversation",
+      "Consider adding one warm emoji early in the response (like 😅 or 💙) to soften the tone and signal emotional safety"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with smooth paragraph transitions",
+      "Strong opening validation using casual teen-appropriate language ('Oof,' 'kinda stuff,' 'hit hard') that immediately acknowledges the emotional weight",
+      "Provides specific, actionable conversation script ('Hey, I've been feeling a little unsure about our friendship lately—can we talk?') that gives the teen exact words to use"
+    ],
+    "weaknesses": [
+      "Lacks first-person advisory voice throughout the advice sections - uses impersonal phrasing like 'it's worth taking a step back' and 'trust your gut' instead of 'I think you should trust your gut' or 'I'd probably start by...'",
+      "Follow-up question 'How're you holding up?' is somewhat generic and could be more specific to the friendship dynamic being discussed",
+      "Could enhance warmth slightly with one subtle emoji given the emotional nature of feeling used by a friend"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person perspective language ('I think,' 'I'd say,' 'I get it') in the advice sections, making the guidance feel slightly impersonal despite the warm opening",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, numbered lists, or bold headers. Uses 'First,' at paragraph start which is slightly structured but maintains conversational flow."
+    },
+    "specific_feedback": [
+      "Integrate first-person perspective into advice sections by changing phrases like 'it's worth taking a step back' to 'I think it's worth taking a step back' or 'I'd probably step back and figure out...' to create stronger personal connection",
+      "Make the follow-up question more specific to their situation, such as 'When did you first start feeling like they were using you?' or 'Do you think they realize how their actions are affecting you?'",
+      "Consider adding one subtle emoji (like 💙 or 😕) early in the response to enhance warmth, or keep as-is if maintaining serious tone is preferred"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 44,
+  "user_query": "My teacher called on me and my mind went completely blank.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with 'Oh, I totally get that' and normalizing language ('it happens to everyone sometimes')",
+      "Provides specific, actionable script the teen can actually use: 'I'm not sure right now, but can I come back to this later?'",
+      "Perfect natural prose format with zero formatting artifacts - reads exactly like a supportive text from a friend"
+    ],
+    "weaknesses": [
+      "Could potentially benefit from one warm emoji (like 😅) at the opening to match the 'Oh, I totally get that' energy, though the warmth comes through strongly in text alone",
+      "The transition from validation to advice is slightly abrupt - could use a softer bridge like 'If you want some ideas for next time...'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting - completely avoids bullet points, headers, or over-structuring while maintaining clear flow and readability",
+    "least_ideal_aspect": "Emoji usage - while 0 emojis is acceptable, one well-placed emoji could have enhanced the warm, casual tone slightly",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely paragraph-based with natural sentence flow. No lists, headers, bold text, or structural formatting. Advice is woven naturally into sentences rather than presented as actionable items."
+    },
+    "specific_feedback": [
+      "Consider adding one warm emoji (like 😅 or 😊) at the very beginning to visually reinforce the empathetic 'Oh, I totally get that' opening",
+      "The follow-up question is excellent and specific - keep using this pattern of asking concrete details about the situation rather than generic 'How are you feeling?' questions"
+    ]
+  }
+}

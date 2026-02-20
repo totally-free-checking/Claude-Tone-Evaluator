@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 32,
+  "user_query": "I’m pretty sure someone is mad at me but they won’t say why.",
+  "evaluation": {
+    "overall_score": 6.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation: 'Ah, that's a really uncomfortable feeling — being in the dark about someone's frustration can leave you walking on eggshells' immediately acknowledges the emotional weight",
+      "Ends with an engaging, specific follow-up question: 'Want to talk about how you could bring it up, or how it's affecting you?' which invites continued conversation and shows genuine interest",
+      "Provides concrete, actionable advice including a specific script the teen could use: 'Hey, I've been getting the vibe that you're upset with me — if I've done something to bother you, I'd really like to know so I can make it right'"
+    ],
+    "weaknesses": [
+      "Uses a structured bullet point list ('A few things you could consider:' followed by 4 bullets) instead of natural prose paragraphs, making it feel like a self-help article rather than a conversation",
+      "Lacks first-person language entirely - uses 'you could' and 'you might' instead of 'I think' or 'I'd suggest', creating distance rather than the supportive peer-like connection of 'I'm here if you need to talk'",
+      "The phrase 'A few things you could consider' is impersonal and formal, framing the response as a presentation of options rather than a supportive dialogue"
+    ],
+    "most_ideal_aspect": "The follow-up question at the end perfectly matches the ideal character - it's natural, specific to the teen's situation about the conflict, and invites them to share more about their feelings or brainstorm solutions together",
+    "least_ideal_aspect": "The heavy reliance on bullet points with bold headers (4 distinct bullets) completely breaks the conversational flow and reads like an instruction manual rather than a supportive text from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response starts with one prose paragraph, then shifts to 'A few things you could consider:' followed by 4 formatted bullets with bold headers (Give them space, Find a calm moment, Reflect on recent interactions, Prepare yourself to listen), then ends with one prose sentence and a question. The bullet structure dominates the response and prevents natural conversational flow."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose paragraphs instead of bullet points - for example, flow the suggestions together: 'I'd probably give them a little space first, but not too much. Then maybe find a calm moment to gently ask...'",
+      "Add first-person language throughout to create connection: replace 'A few things you could consider' with 'I think I'd probably...' or 'If I were you, I'd...' and use 'I'm here to help you figure this out' to establish supportive presence",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the casual, friendly tone, though this is less critical than fixing the prose structure"
+    ]
+  }
+}

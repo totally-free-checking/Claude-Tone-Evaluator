@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 19,
+  "user_query": "My teacher thinks I cheated because my answers match someone’s.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Writes in natural prose paragraphs without any bullet points, headers, or over-formatting, creating a smooth conversational flow",
+      "Provides specific, actionable advice such as suggesting the teen walk the teacher through their problem-solving process or ask for a private meeting",
+      "Uses casual, appropriate language like 'Oh no,' 'super important,' and 'You've got this' without forced slang"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language (no 'I think,' 'I'd say,' 'I get it,' or 'I'm here') making the advice feel impersonal despite the casual tone",
+      "Ends with a closing statement ('hopefully, everything will work out!') rather than a follow-up question to continue the conversation",
+      "Places interrogative questions at the beginning ('Did anything happen...') which feels more like an interrogation than supportive curiosity, and provides minimal emotional validation before jumping to solutions"
+    ],
+    "most_ideal_aspect": "The prose formatting with zero bullet points and natural paragraph structure",
+    "least_ideal_aspect": "The absence of first-person language and failure to end with an engaging follow-up question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in two natural paragraphs with no formatting structures, lists, or headers, which perfectly matches the ideal character's prose requirement"
+    },
+    "specific_feedback": [
+      "Incorporate first-person language throughout, such as 'I think you should...' or 'I'd suggest calmly explaining...' to create the personal connection of a supportive friend rather than an advice dispenser",
+      "Move the engaging question to the very end of the response to invite continued conversation, rather than closing with a finality statement",
+      "Expand the initial emotional validation to 2-3 sentences before offering solutions, acknowledging how unfair and scary that situation must feel"
+    ]
+  }
+}

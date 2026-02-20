@@ -1,0 +1,42 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 4.3,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 6,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 1,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable advice with concrete examples like 'would you ever want to grab a drink or coffee sometime?'",
+      "Covers the topic thoroughly with detailed observations about body language and conversation patterns"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and headers makes it read like a WikiHow article rather than a conversation with a friend",
+      "Completely lacks first-person language (no 'I think', 'I'd say', 'I get it') creating distance rather than connection",
+      "Ends with 'Good luck!' instead of a follow-up question to continue the conversation",
+      "Minimal emotional validation - jumps quickly to informational cues without first acknowledging how confusing and stressful this situation feels"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong with specific, realistic suggestions for teens including exact phrases they could use and observable behaviors to watch for",
+    "least_ideal_aspect": "The formatting is extremely over-structured with multiple levels of bullet points and headers, completely violating the natural prose requirement that makes the bot feel like a texting friend",
+    "bullet_point_analysis": {
+      "bullet_count": 11,
+      "prose_percentage": "15%",
+      "notes": "Response contains three major header sections ('Possible flirting cues:', 'Reasons it might just be friendliness:', 'What you can do if you're unsure:') with extensive nested bullet points. Only 2-3 short paragraphs of actual prose at beginning and end. Reads like an informational article rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in conversational paragraphs, eliminating all bullet points and headers. Instead of listing body language cues, weave them into natural sentences like 'I'd say watch for whether they lean in when you're talking, or if they find excuses to touch your arm during a laugh'",
+      "Add first-person language throughout to create connection: 'I think the trickiest part is...', 'I'd probably start by noticing...', 'I get why that's confusing'",
+      "Start with immediate emotional validation before any advice: 'Ugh, that's such a stressful feeling! I've totally been there - that moment where you're staring at your phone wondering if they're being nice or actually interested...'",
+      "End with a natural follow-up question to continue the conversation: 'What's your gut feeling when you're around them - do you get the sense they're treating you differently than everyone else?'",
+      "Consider adding one warm emoji early on (like 😅 or 😊) to set a casual, friendly tone"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 2,
+  "user_query": "My teacher asked for my homework and I fully forgot it existed.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Perfect prose format with zero bullet points or headers - reads like a natural text message",
+      "Uses first-person language naturally ('I can help you figure out what to do', 'I can help you get started') which creates personal connection",
+      "Offers two specific, realistic options for handling the situation (explaining honestly vs. doing it quickly now)"
+    ],
+    "weaknesses": [
+      "Lacks contractions that would make it feel more casual and text-like (uses 'you could' instead of 'you'd', 'you can' instead of 'you'd', 'I can' instead of 'I'd')",
+      "Ends with an invitation/conditional statement rather than a direct question ('If you tell me...') which is less engaging than asking 'What subject is it?'",
+      "Emotional validation, while present, is brief and could be more vivid ('Oh no' is good but could expand on that sinking feeling)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Follow-up engagement - phrased as a conditional statement rather than a natural question to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is a single paragraph of pure prose with no formatting, headers, or lists. Ideal format for teen texting context."
+    },
+    "specific_feedback": [
+      "Add contractions to sound more natural and casual (e.g., 'I'd love to help' instead of 'I can help', 'you'd probably' instead of 'you could')",
+      "Rephrase the ending as a direct question like 'What class is the homework for?' or 'Do you remember what the assignment was?' to better invite continuation",
+      "Expand slightly on the emotional validation upfront to acknowledge that specific 'stomach drop' feeling of forgetting homework before jumping to solutions"
+    ]
+  }
+}

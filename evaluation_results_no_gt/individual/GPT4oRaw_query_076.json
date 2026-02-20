@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 76,
+  "user_query": "I feel like everyone has a ‘thing’ and I don’t.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 3,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or lists, reading exactly like a supportive friend texting",
+      "Strong use of first-person validation language like 'I hear you' and 'here's what I want to say' that creates personal connection",
+      "Provides specific, concrete examples of potential 'things' (doodling, cooking, organizing spaces, being there for friends) rather than vague platitudes"
+    ],
+    "weaknesses": [
+      "Completely missing a closing follow-up question to continue the conversation - ends with a statement instead of inviting the teen to share more",
+      "While warm, could include slightly more casual teen-appropriate interjections ('Ugh, I get that feeling' or 'Honestly, same') to boost relatability"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with 100% paragraph structure and zero bullet points, creating a conversational flow that feels like texting rather than reading an article",
+    "least_ideal_aspect": "Follow-up question engagement - fails to end with a question to keep the conversation going, which is essential for a support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or over-structuring. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Add a specific, engaging question at the very end to invite the teen to continue the conversation, such as 'What's something you find yourself doing when you have free time and no pressure?' or 'Have you noticed anything that makes you lose track of time lately?'",
+      "Consider adding one casual interjection early on like 'Ugh, that feeling is so real' or 'Honestly, I've been there' to immediately signal relatability before moving into the supportive reframing"
+    ]
+  }
+}

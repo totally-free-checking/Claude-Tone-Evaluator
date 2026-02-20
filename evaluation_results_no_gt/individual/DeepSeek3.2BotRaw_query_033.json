@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation with flowing paragraphs",
+      "Opens with strong validation ('It totally makes sense that you're mad') and uses casual language ('stinks') that acknowledges the unfairness of the situation",
+      "Provides specific, realistic advice for a teen including exact phrasing for talking to the teacher and alternative times to see friends"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with a statement ('I hope things get better soon') rather than engaging the user to continue the conversation",
+      "Lacks first-person language throughout - uses impersonal constructions like 'Sometimes teachers try...' and 'you could try' instead of 'I think you could...' or 'I'd suggest...' which makes it feel less like a supportive friend",
+      "Could open with more immediate emotional resonance ('Ugh, that's the worst!') rather than the slightly clinical 'It totally makes sense'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with 100% paragraph structure and zero bullet points, creating a conversational flow perfect for texting",
+    "least_ideal_aspect": "Missing follow-up question engagement - fails to end with a question that would invite the teen to share more or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose with four flowing paragraphs. No headers, bold text, or list formatting used. Advice is integrated into sentences rather than listed out."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end like 'Have you tried talking to your teacher yet, or are you nervous about how they might react?' to invite continued conversation",
+      "Incorporate first-person language throughout such as 'I think you should...' or 'I'd probably feel the same way' or 'I'm here if you need to vent more' to create a stronger personal connection",
+      "Consider opening with slightly more energetic validation like 'Ugh, that's so frustrating!' before acknowledging that it makes sense to be mad"
+    ]
+  }
+}

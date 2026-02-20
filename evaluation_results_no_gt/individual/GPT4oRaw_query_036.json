@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 36,
+  "user_query": "My friend is dating someone I really don’t trust.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 2,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 4
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points or over-structuring - reads like a natural text message",
+      "Ends with a specific, engaging question that invites the teen to share more about their specific situation ('Want to share a bit more about why you feel that way?')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' 'I get it,' or 'I'm here' which makes it feel impersonal despite being casual",
+      "No practical advice or actionable suggestions provided - only validation without any 'here's what you could do' component",
+      "Too brief for the emotional weight of the topic - only 2-3 sentences feels potentially dismissive"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, maintaining conversational flow throughout",
+    "least_ideal_aspect": "Complete absence of first-person language and practical advice, making it feel impersonal and unhelpful for next steps",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural paragraph form with no formatting structures, headers, or lists - this perfectly matches the ideal character profile for prose style"
+    },
+    "specific_feedback": [
+      "Add first-person language to create connection: try 'I totally get why that would feel stressful' or 'I'd probably feel the same way in your shoes' instead of distant observations",
+      "Include 1-2 sentences of practical advice after validation, such as specific ways to approach the friend or observe the situation, before asking the follow-up question",
+      "Expand slightly to 3-4 sentences total so it doesn't feel rushed - maybe add one emoji like 😬 or 💙 to enhance warmth given the brevity"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 41,
+  "user_query": "I forgot my lunch and I’m trying not to be dramatic about it.",
+  "evaluation": {
+    "overall_score": 7.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 6,
+      "conversational_tone": 8,
+      "practical_advice": 4,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Perfect prose formatting with zero bullet points and natural conversational flow",
+      "Validates feelings immediately with 'Oh no! That's never fun' and acknowledges the suckiness with 'That seriously stinks'",
+      "Offers agency by letting the teen choose between emotional support or practical help, showing respect for their needs"
+    ],
+    "weaknesses": [
+      "Too brief - only one short paragraph when the ideal is 2-4 paragraphs, risking feeling dismissive despite good intentions",
+      "Doesn't provide actual practical suggestions for the forgotten lunch situation, only offers to brainstorm later",
+      "Missing first-person perspective language like 'I think' or 'I'd suggest' beyond 'I've got you'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, reading like a text message from a friend",
+    "least_ideal_aspect": "Practical advice quality - offers to help brainstorm but provides zero concrete suggestions for what to actually do about the forgotten lunch",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely natural prose with no formatting structures, headers, or lists. Flows as a single conversational paragraph."
+    },
+    "specific_feedback": [
+      "Add 1-2 concrete suggestions (like 'Maybe the cafeteria has emergency pizza?' or 'Any chance a friend could spot you?') before asking if they want more help",
+      "Expand to 2-3 paragraphs to include more validation about the 'trying not to be dramatic' feeling - acknowledge that it's valid to feel upset even about small things",
+      "Consider adding one warm emoji (like 😅 or 💙) to enhance the supportive tone, or expand the 'I've got you' into more first-person language like 'I totally get that sinking feeling when you realize it'"
+    ]
+  }
+}

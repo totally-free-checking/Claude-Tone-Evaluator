@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 5.8,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation ('That sounds really tough to see happen') that acknowledges the difficulty of the situation",
+      "Includes safety-conscious language ('If it feels safe to do so') which shows awareness of the teen's potential vulnerability",
+      "Ends with a specific follow-up question about the friend's self-awareness that relates directly to the core issue"
+    ],
+    "weaknesses": [
+      "Uses three bullet points introduced by 'A few thoughts that might help:' which reads like a self-help article rather than a text conversation",
+      "Completely lacks first-person language ('I think', 'I'd say', 'I'm here') making the response feel impersonal and detached",
+      "Brief validation (one sentence) is quickly overshadowed by structured advice, creating an imbalanced feel"
+    ],
+    "most_ideal_aspect": "Length and conciseness - the response is readable and appropriately sized for a phone screen without being overwhelming",
+    "least_ideal_aspect": "Natural prose vs bullet points - relies on a bulleted list format instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "35%",
+      "notes": "Uses 'A few thoughts that might help:' as a header to introduce three bullet points, which breaks the conversational texting flow. The advice is delivered as a list rather than integrated into natural sentences."
+    },
+    "specific_feedback": [
+      "Convert the bullet points to flowing prose: 'I think sometimes people experiment with new groups when they're exploring different sides of themselves. Your friend might be adapting to fit in without realizing it. If it feels safe, you could mention you've noticed they seem different and that you're there for them.'",
+      "Add first-person supportive language like 'I'd be happy to help you think through what to say' or 'I'm here if you need to talk' to create personal connection",
+      "Expand the emotional validation section before jumping to advice - spend more time acknowledging how painful it is to watch a friend change before offering solutions"
+    ]
+  }
+}

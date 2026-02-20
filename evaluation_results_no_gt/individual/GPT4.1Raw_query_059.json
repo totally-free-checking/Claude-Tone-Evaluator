@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 59,
+  "user_query": "I feel like I’m always the one starting conversations.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 2,
+      "followup_question": 8,
+      "support_solutions_balance": 3,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Asks engaging, specific follow-up questions that show genuine interest in the details of their situation",
+      "Appropriate length - concise but substantial, very readable on mobile"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - missing 'I think,' 'I'd say,' or 'I get it' makes it feel impersonal rather than like a supportive friend",
+      "Offers no practical advice or actionable suggestions - only asks diagnostic questions without giving any 'here's what you could try'",
+      "Validation is somewhat tepid ('That can be frustrating') rather than warmly empathetic ('Ugh, that's so exhausting' or 'I totally get that feeling')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person perspective and practical advice - reads as an impersonal observation rather than supportive guidance from someone who cares",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no lists, headers, or structured formatting. Text flows naturally as conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout - use phrases like 'I think sometimes people...' or 'I'd suggest trying...' to create connection",
+      "Include 1-2 concrete, actionable suggestions after validating their feelings (e.g., specific scripts they could use or ways to address the imbalance)",
+      "Amp up the warmth in the opening - use more enthusiastic validation like 'Ugh, that's the worst feeling!' before moving to questions"
+    ]
+  }
+}

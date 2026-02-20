@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 83,
+  "user_query": "I can’t tell if someone is flirting with me or just being nice.",
+  "evaluation": {
+    "overall_score": 4.0,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 1,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "The practical advice is specific and actionable with concrete examples like 'lean in when they talk to you' and 'casually touch your arm'",
+      "Opening line 'Ah, classic dilemma' attempts to normalize the experience"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' makes it feel impersonal and article-like",
+      "Heavy use of markdown headers (###) and numbered lists (1-6) makes it read like a wiki article rather than a conversation",
+      "Ends abruptly with no follow-up question to continue the dialogue",
+      "Minimal emotional validation - only 'it can be tough' before jumping immediately to lists of advice"
+    ],
+    "most_ideal_aspect": "The practical advice content is realistic and specific to teen social situations",
+    "least_ideal_aspect": "The formatting is extremely over-structured with headers and numbered lists instead of natural prose paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "Response uses markdown headers (### Signs They Might Be Flirting) and two separate numbered lists (1-6 and 1). Only the first sentence is prose; everything else is structured formatting. Reads like an informational article rather than a supportive text conversation."
+    },
+    "specific_feedback": [
+      "Rewrite entirely in paragraph form - instead of listing 'Playful Teasing' as a bullet, work it into sentences like 'I'd say if they're joking around with you or lightly teasing in a fun way, that could be a sign'",
+      "Add first-person language throughout like 'I think', 'I'd guess', or 'I get why that's confusing' to sound like a real person texting",
+      "End with a natural follow-up question like 'What kind of vibes are you getting from them specifically?' or 'Do they do any of these things with just you or everyone?'",
+      "Add one warm emoji early on (like 😅) to match the 'classic dilemma' confusion vibe"
+    ]
+  }
+}

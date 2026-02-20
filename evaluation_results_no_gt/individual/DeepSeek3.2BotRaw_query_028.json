@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 28,
+  "user_query": "I think I might have said something rude and I didn’t mean it.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, creating a natural conversational flow that reads like a text from a supportive friend",
+      "Perfect emoji usage with exactly one well-placed 😊 that enhances warmth without being excessive or corporate",
+      "Strong first-person language throughout ('I'm here to listen','We can also talk') creating genuine personal connection",
+      "Immediate emotional validation recognizing the user is considerate for worrying about their words, and normalizing the experience with 'it happens to all of us'"
+    ],
+    "weaknesses": [
+      "Missing a specific follow-up question at the end; concludes with a statement ('We've all had moments...') rather than an engaging question to continue the conversation",
+      "Practical advice is entirely deferred ('we can also talk about what you could do next') rather than offering even one small actionable suggestion for the immediate situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, numbered lists, or over-structuring, maintaining perfect conversational flow across three readable paragraphs",
+    "least_ideal_aspect": "Follow-up question engagement - completely fails to end with a question that would invite the teen to share more details about what happened",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response uses three clean paragraphs with zero bullet points, headers, bold text, or other formatting structures. Advice and validation flow naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "End with a specific, natural question like 'What exactly happened?' or 'Who was it with?' to invite the teen to share more and continue the conversation",
+      "Consider offering one small immediate actionable tip (such as suggesting they send a quick clarifying text) while still leaving room for them to share more details for deeper advice"
+    ]
+  }
+}

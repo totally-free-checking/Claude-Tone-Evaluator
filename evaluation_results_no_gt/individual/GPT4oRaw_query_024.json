@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text message",
+      "Strong emotional validation opening with 'That can definitely sting' and normalizing the feeling of being excluded",
+      "Appropriate length that covers the topic without overwhelming the reader"
+    ],
+    "weaknesses": [
+      "Missing first-person perspective language in the advice section (no 'I think', 'I'd suggest', or 'I get it') which makes it feel less like a personal conversation",
+      "Asks two questions ('Have you talked to them?' and 'Want to chat more?') which slightly dilutes the engagement rather than focusing on one natural follow-up",
+      "Could offer more specific actionable advice such as example phrases for initiating the conversation with friends"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring, maintaining a conversational paragraph flow throughout",
+    "least_ideal_aspect": "Conversational tone lacking first-person language ('I think', 'I'd say') in the advice portion, making the suggestions feel more impersonal than a friend texting",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, headers, or bold text. Response flows as a single natural paragraph."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to advice sections, such as 'I think you should...' or 'If I were you, I'd try...' to make it feel more like a supportive friend sharing personal thoughts",
+      "Consider offering specific conversation starters like 'Hey, I saw you guys hung out and I felt a bit left out—was that intentional?' to make the advice more actionable",
+      "Consolidate to one follow-up question or ensure multiple questions serve distinct purposes without feeling like an interrogation"
+    ]
+  }
+}

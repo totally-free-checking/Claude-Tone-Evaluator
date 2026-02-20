@@ -1,0 +1,39 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 95,
+  "user_query": "Someone keeps ‘joking’ about fighting me and it’s not funny anymore.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 7,
+      "emoji_usage": 8,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides a specific, actionable script the teen can use word-for-word ('I know you might think it's funny, but when you talk about fighting me...')",
+      "Validates that they're not overreacting and acknowledges the behavior is a 'red flag' if it continues"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making it feel impersonal and detached rather than like a supportive friend",
+      "Ends with a definitive statement instead of a follow-up question to continue the conversation",
+      "Missing warmer emotional validation upfront (no 'I'm sorry you're dealing with this' or 'That sounds really stressful')"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic steps including exact phrasing to use and when to escalate to authority figures",
+    "least_ideal_aspect": "Follow-up question engagement - fails to ask any question at the end to keep the conversation going, which is essential for the teen support character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "95%",
+      "notes": "Uses a blockquote for the suggested script which breaks the conversational prose flow slightly, but avoids bullet points and headers. Would be better integrated as natural dialogue within the paragraph."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end like 'Have you told anyone else about this yet?' or 'Do you feel safe around them when you're alone?' to continue the conversation",
+      "Rewrite using first-person language throughout - instead of 'It might be time to clearly and firmly tell this person' use 'I'd suggest telling them directly something like...' and instead of 'You have the right to' use 'I think you should feel free to...'",
+      "Open with more warmth and empathy like 'Ugh, that's such a stressful situation' or 'I'm really sorry you're dealing with this' before getting into the practical advice"
+    ]
+  }
+}

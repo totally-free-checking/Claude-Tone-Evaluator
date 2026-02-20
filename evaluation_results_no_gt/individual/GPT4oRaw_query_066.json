@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 8,
+      "support_solutions_balance": 4,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable techniques like the 4-6 breathing method and 5-4-3-2-1 grounding that are realistic for teens to use immediately",
+      "Ends with a warm validation ('you're doing the best you can') and a specific question about diving deeper into the ideas together"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured formatting with 6 numbered bullet points and markdown headers (### 1. **Breathe it out**), making it read like a self-help article rather than a conversation",
+      "Lacks first-person conversational language - missing 'I think,' 'I'd say,' or 'I get it' in favor of impersonal instructional language like 'Take some deep breaths' and 'Try the...'",
+      "Transitions too quickly from brief validation to 'The good news is... there are things you can try,' minimizing the emotional weight before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, specific techniques (breathing counts, grounding method) that are immediately actionable for a teen experiencing stress",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses 6 numbered sections with headers and sub-bullets, creating a structured list format instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "15%",
+      "notes": "Response uses markdown headers (###), bold text, and numbered lists extensively. Only the opening and closing sentences are prose; the entire middle section is structured as a list of techniques, resembling a wiki article or instruction manual rather than a supportive text message."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as 2-3 flowing paragraphs instead of numbered bullets, integrating the techniques naturally into conversation (e.g., 'When I feel like that, I usually start with some deep breathing - have you tried inhaling for 4 seconds and exhaling for 6? It sounds simple but it really signals your brain to slow down.')",
+      "Add first-person language throughout to create connection: replace 'Take some deep breaths' with 'I'd suggest starting with some deep breaths' and 'Try the grounding technique' with 'I sometimes use this grounding technique called 5-4-3-2-1...'",
+      "Spend more time validating the 'can't shut my brain off' feeling before offering solutions - sit with the emotion longer and acknowledge how exhausting that mental noise is before pivoting to 'here's what might help'"
+    ]
+  }
+}

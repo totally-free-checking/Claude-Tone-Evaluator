@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 63,
+  "user_query": "I walked into the wrong classroom and everyone stared.",
+  "evaluation": {
+    "overall_score": 7.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 7,
+      "practical_advice": 9,
+      "followup_question": 2,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - flows naturally as a conversational paragraph",
+      "Provides specific, actionable script for what to say ('Wrong room, my bad—carry on!') which is realistic and immediately usable",
+      "Strong immediate validation with 'Oh no, that can be *so awkward*!' and normalization with 'it happens to everyone'"
+    ],
+    "weaknesses": [
+      "Missing follow-up question to continue the conversation - ends with a statement instead of engaging the user further",
+      "Lacks first-person 'I' language (like 'I think' or 'I'd say') - uses 'You could' instead of 'I'd probably' which feels slightly less personal",
+      "Could validate the specific emotional weight of 'everyone stared' more deeply beyond just acknowledging the awkwardness"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads like a text from a supportive friend",
+    "least_ideal_aspect": "Complete absence of a follow-up question to continue the dialogue, which is essential for the teen support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format - single flowing paragraph with no lists, headers, or bold text. Uses italics for emphasis which feels natural and conversational rather than over-formatted."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end to continue the conversation, such as 'How are you feeling about facing that classroom area again?' or 'Has anything else awkward happened to you this week?'",
+      "Incorporate more first-person perspective like 'I think I'd probably just laugh it off...' or 'In my experience, people forget these things...' to create stronger personal connection",
+      "Consider acknowledging the specific anxiety of being stared at by everyone with something like 'That moment when you realize everyone's eyes are on you is the worst feeling' before moving to solutions"
+    ]
+  }
+}

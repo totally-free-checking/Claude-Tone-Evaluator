@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 4,
+      "followup_question": 8,
+      "support_solutions_balance": 5,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Strong follow-up question with specific examples (letting others down vs. giving up) that show genuine interest in understanding the specific situation",
+      "Immediate validation opening with 'That's a really common and understandable feeling'"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - uses 'we' instead of 'I' (e.g., 'when we know' instead of 'I know' or 'I'd say'), making it feel impersonal like an article rather than a friend",
+      "No practical advice or concrete suggestions offered - only asks questions without providing any initial framework for handling the guilt",
+      "Could be warmer and more emotionally resonant - validation feels clinical rather than deeply empathetic (e.g., 'Guilt can pop up' vs. 'Ugh, that guilt is the worst')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and personal perspective - uses impersonal 'we' statements and lacks 'I think,' 'I'd say,' or 'I get it' phrasing that would make it feel like a real person",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Response flows as natural paragraphs ideal for texting."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout (e.g., 'I totally get that,' 'I'd feel the same way,' 'I think stepping back is brave') to create personal connection instead of using impersonal 'we' statements",
+      "Include at least one small piece of practical perspective or advice before asking questions - for example, 'Sometimes quitting is actually the smart choice, even when it feels crappy' - so the teen gets immediate value, not just an interrogation",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the supportive tone, or alternatively, use more emotionally vivid language like 'Ugh, that sinking feeling' to increase warmth"
+    ]
+  }
+}

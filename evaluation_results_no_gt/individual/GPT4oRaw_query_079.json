@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 79,
+  "user_query": "I’m nervous to eat in front of people at school.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate emotional validation: 'Oh, I'm sorry you're feeling that way—it's really common, so you're definitely not alone in this!' which acknowledges the feeling and normalizes it",
+      "Provides specific, realistic advice tailored to teen agency and school environments (suggesting finger foods, starting with close friends, gradual exposure) rather than generic platitudes"
+    ],
+    "weaknesses": [
+      "Relies on 5 numbered bullet points with bold headers ('**Start small**', etc.), creating a structured self-help format instead of conversational prose",
+      "Lacks first-person language in the advice section—uses imperative commands ('Start small', 'Choose food') instead of 'I'd suggest' or 'I think'",
+      "Ends with no follow-up question, missing the opportunity to continue the conversation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, actionable steps like choosing easy-to-eat finger foods and starting with one close friend that are realistic and immediately usable for a teen",
+    "least_ideal_aspect": "Prose vs bullets formatting - the response shifts immediately from warm prose to 'here are some tips:' followed by 5 numbered bullet points, reading like a wikiHow article rather than a text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "45%",
+      "notes": "Response begins with ~50 words of prose, then transitions to 'here are some tips:' followed by 5 numbered bullets with bold headers containing ~120 words, then ~55 words of closing prose. The heavy structuring and bold text create a listicle format rather than natural flow."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as 1-2 flowing paragraphs using first-person suggestions like 'I'd probably start by eating with just your closest friend first' instead of numbered imperative commands",
+      "Add a specific follow-up question at the end such as 'Is there one person in the cafeteria you'd feel okay eating around first?' or 'What part feels most awkward—is it the chewing or just sitting there?'",
+      "Incorporate more casual first-person language throughout like 'I get why that feels weird' or 'Honestly, I think people are too busy with their own food to notice' to maintain the conversational tone established in the opening"
+    ]
+  }
+}

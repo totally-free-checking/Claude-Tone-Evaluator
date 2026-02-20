@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 61,
+  "user_query": "I think I might like someone but I don’t know if it’s mutual.",
+  "evaluation": {
+    "overall_score": 9.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I think most of us have been there,' 'If I were you, I'd try,' 'That's usually a better clue') which creates genuine connection",
+      "Immediate and specific emotional validation with relatable details ('Staring at your phone or replaying conversations, trying to decode every little thing') that shows deep understanding of the teen experience",
+      "Perfect prose formatting with natural conversational flow - reads exactly like a supportive friend texting rather than an advice column"
+    ],
+    "weaknesses": [
+      "Practical advice could include one specific example phrase for 'testing the waters' (e.g., suggesting exact wording like 'Want to grab coffee after school Tuesday?') to make it even more actionable",
+      "The advice to 'pay attention to how they act' is good but could briefly acknowledge that mixed signals happen and not to overanalyze every interaction"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational flow - maintains 100% paragraph structure with zero bullet points, headers, or over-formatting, reading exactly like a warm text from a supportive older sibling",
+    "least_ideal_aspect": "Practical advice specificity - while the suggestions are realistic for teens, they could be slightly more concrete with example scripts or phrases to reduce the ambiguity of 'test the waters'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural conversational paragraphs with no bullet points, numbered lists, headers, or bold text. The advice flows organically within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Consider adding one specific example phrase for asking them to hang out (e.g., 'You could try something like, Hey, want to grab boba after school Friday? Just us?') to make the 'test the waters' advice more concrete",
+      "Maintain the excellent balance of validation-first structure; the current opening ('Ugh, that in-between feeling is the worst') is exactly the right way to start - keep leading with emotional acknowledgment before solutions"
+    ]
+  }
+}

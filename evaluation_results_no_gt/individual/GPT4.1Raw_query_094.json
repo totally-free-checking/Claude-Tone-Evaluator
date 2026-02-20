@@ -1,0 +1,37 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 94,
+  "user_query": "I’m getting headaches from stress and I don’t know what to do.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Opens with strong validation: 'I'm really sorry you're feeling this way' and acknowledges that 'Stress-related headaches are tough—they can make everything feel even more overwhelming'",
+      "Provides specific, realistic advice appropriate for a teen's agency, including practical steps like hydration, breaks, and safe OTC medication use with appropriate safety caveats"
+    ],
+    "weaknesses": [
+      "Relies entirely on a 7-item numbered list with bold headers (**1. Take breaks:**, etc.) instead of natural prose paragraphs, reading like a medical pamphlet rather than a conversation",
+      "Lacks first-person language throughout the advice section; uses imperative commands ('Step away', 'Try relaxation', 'Stay hydrated') rather than personal suggestions ('I'd suggest', 'I find that', 'You could try')"
+    ],
+    "most_ideal_aspect": "The practical advice quality - it offers concrete, actionable suggestions (taking breaks, hydration, identifying triggers) that are realistic for a teen to implement, including an appropriate safety note about following medication instructions",
+    "least_ideal_aspect": "The prose vs. bullets formatting - the response is structured as 'Here are some gentle suggestions:' followed by a heavily formatted numbered list (1-7), which is the exact pattern described as a red flag in the character profile",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "15%",
+      "notes": "The response consists of approximately 2 sentences of prose at the beginning and 1 question at the end, with the entire middle section being a rigidly formatted numbered list using bold headers. This creates a clinical, instructional tone rather than a conversational flow."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into 2-3 flowing paragraphs using first-person suggestions like 'I'd probably start by...' or 'Something that really helps me when I'm stressed is...' to maintain the conversational tone established in the opening sentence",
+      "Expand the emotional validation to at least one full paragraph before offering any advice, and balance the response so that validation and advice are roughly equal in presence rather than 90% practical tips"
+    ]
+  }
+}

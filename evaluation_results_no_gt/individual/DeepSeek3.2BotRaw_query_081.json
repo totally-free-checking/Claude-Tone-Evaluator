@@ -1,0 +1,42 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 81,
+  "user_query": "My friend keeps sending me snaps at like 2am and I’m exhausted.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides very specific, actionable advice including exact phrases to use ('Hey! I noticed you send snaps late at night sometimes...') and detailed Snapchat settings instructions",
+      "Uses appropriate casual language like 'Totally get that' and 'heads-up' that feels teen-appropriate without being cringe",
+      "Good emoji usage with the sleep emoji at the end that fits the context perfectly"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold headers makes it read like an instruction manual rather than a conversation",
+      "Completely missing a follow-up question to continue the dialogue - ends with a statement instead",
+      "Lacks first-person language throughout; uses instructional 'you can'/'you could' instead of 'I think' or 'I'd suggest'",
+      "Validation is brief and immediately followed by structured solutions without deeper emotional acknowledgment"
+    ],
+    "most_ideal_aspect": "Practical advice quality - gives realistic, specific actions a teen can take immediately including exact wording for boundaries",
+    "least_ideal_aspect": "Natural prose vs bullet points - uses three formatted bullet points with bold headers instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 3,
+      "prose_percentage": "20%",
+      "notes": "Response is structured as intro sentence, three detailed bullet points with bold headers and sub-instructions, and outro sentence. Reads like a help article rather than a text conversation."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 flowing paragraphs that weave the advice naturally into conversation rather than listing options",
+      "Add an engaging follow-up question at the end like 'Have you tried muting notifications before, or would you feel weird setting that boundary?'",
+      "Incorporate first-person language like 'I think the easiest fix would be...' or 'I'd probably just mute them first' to sound more like a friend giving advice",
+      "Expand the emotional validation before jumping to solutions - acknowledge how annoying it is to wake up to snaps and validate that it's okay to want uninterrupted sleep"
+    ]
+  }
+}

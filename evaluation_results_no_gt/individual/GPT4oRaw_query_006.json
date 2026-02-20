@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 6,
+  "user_query": "I think I bombed my math test and I’m trying not to panic.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 7,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - flows naturally as conversational paragraphs",
+      "Strong opening validation with 'Oh no, I'm sorry you're feeling this way!' and immediate reassurance that 'it's going to be okay'",
+      "Provides realistic, age-appropriate advice like listening to music or watching a show to decompress"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - closes with encouragement instead of engaging the user to share more",
+      "Lacks specific first-person language like 'I think,' 'I'd say,' or 'I get it' - uses 'I know' but could feel more personally connected",
+      "Doesn't use relatable validation phrases like 'We've all been there' or 'That's so relatable' that would strengthen the teen connection"
+    ],
+    "most_ideal_aspect": "The natural prose formatting without any bullet points or over-structuring - it reads like a supportive text message rather than a formal guide",
+    "least_ideal_aspect": "The absence of a follow-up question to continue the conversation - the ideal character nearly always ends with an engaging question to keep the dialogue open",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question at the end like 'What part of the test felt the hardest?' or 'Want to talk through what happened?' to keep the conversation going",
+      "Incorporate more first-person perspective phrases like 'I totally get that sinking feeling' or 'I'd probably be spiraling too' to sound more like a relatable peer",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to set a supportive tone, or use phrases like 'Ugh, math tests are the worst' to increase casual relatability"
+    ]
+  }
+}

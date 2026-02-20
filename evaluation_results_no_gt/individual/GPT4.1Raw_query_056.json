@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 56,
+  "user_query": "My friend told me they’re struggling and I don’t know how to help.",
+  "evaluation": {
+    "overall_score": 4.8,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 5,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 4,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides concrete, actionable advice that is realistic for a teen's situation (listening, validating, checking in)",
+      "Appropriate length that is readable and not overwhelming"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points and bold headers instead of natural prose conversation",
+      "Lacks first-person language ('I think', 'I'd say') and uses impersonal, somewhat formal tone throughout",
+      "Missing immediate emotional validation for the user's own feelings of uncertainty about helping their friend"
+    ],
+    "most_ideal_aspect": "The practical advice provided is specific and realistic for a teen's agency and capabilities",
+    "least_ideal_aspect": "The response is structured as a numbered list with bold headers, reading like a self-help article rather than a conversational text from a supportive friend",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "25%",
+      "notes": "Response uses a numbered list (1-5) with bold headers (Listen, Validate, Check In, Offer Help, Encourage) which dominates the content. The prose is limited to brief intro and outro sentences."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as natural prose paragraphs instead of numbered steps, flowing the suggestions conversationally like 'I'd probably start by just listening without trying to fix everything...'",
+      "Add first-person language like 'I get that it's scary when a friend opens up' and 'I'd feel unsure too' to create personal connection",
+      "Replace the passive closing invitation with a specific question like 'What did your friend tell you they're struggling with?' or 'How are you feeling about what they shared?'"
+    ]
+  }
+}

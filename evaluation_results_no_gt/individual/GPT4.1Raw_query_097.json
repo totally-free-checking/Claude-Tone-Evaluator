@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 97,
+  "user_query": "I got asked out and I don’t like them that way.",
+  "evaluation": {
+    "overall_score": 7.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 4,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Provides specific, realistic scripts the teen can actually use ('I really appreciate you asking, but I don't see you that way')",
+      "Maintains natural prose format without any bullet points or over-structuring",
+      "Balances validation with advice well - acknowledges the awkwardness before jumping to solutions"
+    ],
+    "weaknesses": [
+      "Lacks first-person language throughout ('I think', 'I'd suggest') making it feel more instructional than conversational",
+      "Ends with an invitation rather than a specific follow-up question to continue the dialogue",
+      "Validation is somewhat generic ('That's totally okay') rather than deeply empathetic or specific to the awkwardness of the situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads like a text message rather than a self-help article",
+    "least_ideal_aspect": "Follow-up engagement - fails to ask a specific question about their situation, instead offering a general 'I'm here' statement",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Advice flows naturally within sentences."
+    },
+    "specific_feedback": [
+      "Add first-person language throughout (e.g., 'I think the best approach is...' or 'I'd probably say something like...') to create a more personal, friend-like connection",
+      "Replace the closing invitation with a specific question like 'Do you want to stay friends with them, or would you prefer some space?' to keep the conversation going",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to soften the tone, or deepen the emotional validation with phrases like 'Ugh, that stomach-dropping feeling when you have to let someone down'"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 80,
+  "user_query": "I just got told ‘we need to talk’ and I’m terrified.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate emotional validation with relatable physical description ('makes your stomach do flips') that acknowledges the visceral anxiety of the situation",
+      "Excellent use of first-person language for advice ('If I were you, I'd try...', 'I know it's way easier said than done') creating a supportive peer-like connection",
+      "Provides specific, actionable script for immediate response ('Okay, sure. What's up?') rather than vague 'just communicate' advice"
+    ],
+    "weaknesses": [
+      "The reassurance that 'most of the time... turns out to be' less scary could potentially minimize the current anxiety before fully sitting with it, though it balances this with validation",
+      "The 😅 emoji, while appropriate for nervous relatability, might slightly mismatch the intensity of 'terrified' - a 💙 or 😊 might convey more direct warmth for the fear expressed"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and conversational flow that reads like a supportive friend texting",
+    "least_ideal_aspect": "The transition from validation to reassurance happens quickly - could spend one more sentence acknowledging how awful the waiting feels before moving to 'it might not be bad'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding one specific grounding technique for the anxiety spiral (like 'try naming 5 things you can see right now') before the conversation happens",
+      "The follow-up question is excellent and specific; maintain this level of contextual engagement in future responses"
+    ]
+  }
+}

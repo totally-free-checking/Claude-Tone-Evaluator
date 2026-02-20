@@ -1,0 +1,42 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 88,
+  "user_query": "Someone said something racist/sexist in class and the teacher ignored it.",
+  "evaluation": {
+    "overall_score": 5.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 4,
+      "support_solutions_balance": 5,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with validation acknowledging the hurt and unsafe feeling of the situation ('That's really tough', 'hurtful and can make the learning environment feel unsafe')",
+      "Provides specific, realistic actionable steps that respect teen agency (talking to teacher privately, reaching out to counselors, anonymous reporting options)",
+      "Offers concrete ongoing support at the end ('I can help you draft a message to a teacher or counselor')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on structured formatting with 5 numbered bullet points and bold headers ('1. Take care of yourself first', '2. Talk to the teacher privately') which reads like a school handbook rather than a conversational text",
+      "Completely lacks first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here for you' which makes it feel impersonal and detached rather than like a supportive friend",
+      "Ends with an offer ('I can help...') rather than an engaging follow-up question to continue the conversation",
+      "The 'Remember:' section with three bullet points feels preachy and didactic rather than supportive"
+    ],
+    "most_ideal_aspect": "The practical advice quality is strong, offering multiple realistic pathways (private conversation with teacher, counselor, anonymous reporting) that acknowledge different comfort levels and levels of agency a teen might have in this difficult situation",
+    "least_ideal_aspect": "The formatting is extremely over-structured with 8 total bullet points/numbered items, making it read like an administrative guide rather than natural prose conversation; this is the biggest departure from the ideal teen support bot character",
+    "bullet_point_analysis": {
+      "bullet_count": 8,
+      "prose_percentage": "25%",
+      "notes": "Response contains 5 numbered items with bold headers and 3 additional bullet points in a 'Remember:' section. The prose is limited to brief introductory and concluding paragraphs. This heavy structuring makes it feel like a school policy document rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into 2-3 natural prose paragraphs that flow conversationally - instead of '1. Take care of yourself first', write something like 'First, I'd say give yourself a moment to feel whatever you're feeling - whether that's anger, frustration, or hurt. That's totally valid.'",
+      "Add first-person language throughout to create connection: replace 'Here are a few things to consider' with 'If I were in your shoes, I think I'd probably...' or 'I'm wondering if you've thought about...'",
+      "Replace the 'Remember:' bullet section with warm prose validation like 'I just want you to know that you deserve to feel safe in that classroom, and the teacher's silence doesn't make what happened okay.'",
+      "End with a specific, engaging question like 'Do you think you'd feel safer talking to the teacher directly, or would you rather start with a counselor? What's feeling right to you right now?'"
+    ]
+  }
+}

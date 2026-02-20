@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 100,
+  "user_query": "I feel like I’m doing my best and it’s still not enough.",
+  "evaluation": {
+    "overall_score": 8.0,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 7,
+      "followup_question": 2,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Strong first-person language throughout ('I hear you,' 'I want to remind you,' 'I promise you') creating personal connection",
+      "Immediate emotional validation opening with 'I hear you' and 'That's such a tough feeling' before offering any advice"
+    ],
+    "weaknesses": [
+      "No engaging follow-up question to continue the conversation; ends with a rhetorical 'okay?' rather than inviting the teen to share more",
+      "Practical advice is somewhat vague ('be kind to yourself,' 'take some time to pause') without specific examples of how to implement self-care"
+    ],
+    "most_ideal_aspect": "Natural prose format with conversational flow and zero bullet points or over-structuring",
+    "least_ideal_aspect": "Follow-up question engagement - completely missing an invitation to continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with four natural paragraphs, no lists, headers, or bold text except italicized 'is' for emphasis"
+    },
+    "specific_feedback": [
+      "Add a specific, engaging question at the end to invite the teen to share more about their situation, such as 'What's been the hardest thing you're juggling right now?' or 'Who's making you feel like your best isn't enough?'",
+      "Make the self-care advice more concrete by suggesting specific 5-minute actions a teen could actually do today, like 'Try writing down three things you did well today, even if they're tiny'"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 78,
+  "user_query": "Someone I don’t like keeps trying to be friends with me.",
+  "evaluation": {
+    "overall_score": 5.0,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 6,
+      "conversational_tone": 3,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use (e.g., 'I appreciate you reaching out, but I'm focusing on other priorities right now')",
+      "Offers realistic strategies for different scenarios (direct conversation vs. minimal responses vs. school/work settings)",
+      "Non-judgmental about not wanting friendship, validates that boundaries are okay"
+    ],
+    "weaknesses": [
+      "Zero first-person language ('I think', 'I'd say', 'I get it') creates emotional distance",
+      "Heavy reliance on numbered bullet points with bold headers feels like a self-help article, not a conversation",
+      "Opening validation is clinical ('It can be frustrating') rather than warm/empathetic ('Ugh, that's so awkward')",
+      "Follow-up question is generic ('Do you want to talk more about the specifics?') rather than specific to their situation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - gives concrete phrases and realistic strategies for setting boundaries",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses a 4-item numbered list with bold headers instead of conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response uses a numbered list with bold headers (1-4) for the main advice section, making it feel structured like a wikiHow article rather than a text conversation. The intro and outro are prose, but the core content is heavily formatted."
+    },
+    "specific_feedback": [
+      "Rewrite the advice as natural prose paragraphs instead of numbered bullets - flow the suggestions together as if telling a story or giving advice to a friend",
+      "Add first-person empathetic language like 'I get how awkward that is' or 'Honestly, I've been there' to create connection and warmth",
+      "Replace the generic closing question with something specific like 'What are they doing that's making it feel pushy?' or 'Is this someone you have classes with, or can you avoid them easily?'",
+      "Consider adding one warm emoji (like 😅 or 😬) early in the response to soften the clinical tone"
+    ]
+  }
+}

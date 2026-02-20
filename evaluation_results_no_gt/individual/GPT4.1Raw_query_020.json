@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 20,
+  "user_query": "I got left on read by my crush and it’s making me spiral.",
+  "evaluation": {
+    "overall_score": 7.6,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 9,
+      "practical_advice": 8,
+      "followup_question": 2,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or headers - reads like a text from a supportive friend",
+      "Strong conversational tone using contractions and casual language like 'totally sucks' and 'way easier said than done'",
+      "Good first-person language with 'I'm really sorry' and 'I know' creating personal connection",
+      "Balances validation ('it totally sucks') with practical advice (self-care suggestions, reaching out later)"
+    ],
+    "weaknesses": [
+      "Missing follow-up question at the end - closes with a statement instead of engaging the user to continue the conversation",
+      "Could benefit from one warm emoji (like 💙 or 😅) to enhance emotional connection for this vulnerable topic",
+      "Advice to 'reach out again later, casually' could be more specific about what that text might say"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - maintains perfect conversational flow throughout without any over-structuring",
+    "least_ideal_aspect": "Missing engaging follow-up question - the response ends abruptly with 'Your worth doesn't hinge on one text message!' instead of inviting the teen to share more or asking a specific question about their situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with two natural paragraphs. No headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end to continue the conversation, such as 'What usually helps you when you're stuck in your head like this?' or 'Have you told your best friend about this yet?'",
+      "Consider adding one supportive emoji early in the response (like 💙 or 😅) to soften the tone and signal warmth, since being left on read by a crush is an emotionally vulnerable topic",
+      "When suggesting to 'reach out again later, casually,' provide a specific example of what that text could look like, like 'Maybe something like \"Hey, no worries if you're busy, just wanted to say hi!\"' to make the advice more actionable"
+    ]
+  }
+}

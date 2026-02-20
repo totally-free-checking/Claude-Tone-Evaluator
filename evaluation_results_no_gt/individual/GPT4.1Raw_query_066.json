@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 9,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('You're definitely not alone—lots of people experience this') that normalizes the experience",
+      "Ends with a natural, engaging question ('What's been on your mind lately?') that specifically invites the teen to share more about their racing thoughts",
+      "Provides concrete, teen-appropriate coping strategies (doodling, funny videos, note apps) that are realistically accessible"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points with bold formatting ('**Try some deep breathing:**') creates a clinical, self-help article feel rather than conversational texting",
+      "Lacks first-person perspective in advice section—uses imperative commands ('Try,' 'Give yourself,' 'Distract') instead of personal recommendations ('I'd suggest,' 'I usually find')",
+      "Opening validation uses somewhat formal phrasing ('I'm really sorry you're feeling that way') rather than casual teen-appropriate empathy ('Ugh, that brain-spin feeling is the worst')"
+    ],
+    "most_ideal_aspect": "The follow-up question perfectly matches the ideal character—it's natural, specific to the situation about racing thoughts, and invites continued conversation",
+    "least_ideal_aspect": "The formatting diverges most significantly from the ideal: it uses a structured bullet list with bold headers rather than flowing prose that integrates advice naturally into conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response uses a 4-item bullet list with bold headers and colons, creating a structured, instructional format rather than conversational flow. The advice is presented as a checklist rather than woven into natural sentences."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as natural prose using first-person recommendations: instead of 'Try some deep breathing,' use 'I'd suggest trying some deep breathing—even just a minute helps me slow down my thoughts'",
+      "Remove all bullet points and bold formatting; integrate the four coping strategies into 1-2 flowing paragraphs that feel like a friend sharing ideas",
+      "Add one warm emoji early in the response (like 😅 or 💙) to enhance the casual, supportive tone, and replace formal phrases like 'If you'd like' with more casual language like 'Honestly' or 'I get it']}}}  \boxed{  "
+    ]
+  }
+}

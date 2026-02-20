@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Strong opening validation using first-person empathy ('I'd be stressed too') and supportive language ('Let's take a deep breath')",
+      "Excellent practical advice with specific, realistic actions for teens (retracing steps, checking lost & found, using tracking features, involving school staff for urgent items)",
+      "Natural and engaging follow-up question that invites continuation ('Want to talk through what you lost...')"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points and numbered lists instead of conversational prose, creating an instructional/manual-like tone",
+      "Shifts from warm, personal validation to impersonal imperative commands ('Check lost & found', 'Ask teachers') without using first-person framing like 'I'd suggest' or 'I think you should'",
+      "Missing emoji that could enhance warmth for a teen who is 'freaking out'"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides concrete, age-appropriate steps that acknowledge real school logistics (nurse's office, security cameras, tracking features)",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses multiple structured lists with headers instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 7,
+      "prose_percentage": "25%",
+      "notes": "Response begins and ends with prose but the core content is delivered through three heavily formatted sections: a 3-item bullet list, a 4-item numbered list with bold text, and a bold header with urgent instructions. This creates a checklist aesthetic rather than a supportive conversation."
+    },
+    "specific_feedback": [
+      "Convert bullet points into flowing conversational prose: 'I'd start by trying to remember where you last had it—maybe the classroom or cafeteria? Then you could retrace your steps from when you got to school. If that doesn't work, I'd suggest checking the lost and found or asking teachers in the areas you visited...'",
+      "Add one warm emoji early in the response (like 😅 or 💙) to match the emotional intensity of 'freaking out' and enhance the supportive tone",
+      "Use first-person framing for advice: instead of 'Check lost & found,' try 'I'd check the lost and found first—most schools have them in the front office or library' to maintain the conversational 'friend' voice throughout"
+    ]
+  }
+}

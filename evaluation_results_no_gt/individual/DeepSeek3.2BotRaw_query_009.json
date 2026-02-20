@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 6.4,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 7,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with immediate validation ('That sounds stressful — I'm sorry you're dealing with that') acknowledging the discomfort of privacy violations",
+      "Provides a specific, realistic script the teen could use ('Hey, I've noticed things have felt kind of off lately...') rather than vague advice"
+    ],
+    "weaknesses": [
+      "Uses a numbered list with bold headers (1-4) which breaks conversational flow and reads like an article rather than a supportive text",
+      "Lacks first-person conversational language ('I think', 'I'd say', 'I get it') throughout the advice section, making it feel impersonal and detached"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, safety-conscious guidance with specific phrasing and acknowledges the teen's agency",
+    "least_ideal_aspect": "Natural prose vs bullet points - heavy reliance on numbered lists and blockquote formatting instead of flowing conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 5,
+      "prose_percentage": "35%",
+      "notes": "Contains 4 numbered bullet points with bold headers and 1 blockquote, making the response feel structured like a wiki article rather than a natural conversation. The advice content is good but the formatting is highly over-structured."
+    },
+    "specific_feedback": [
+      "Convert the numbered list into natural prose: 'I think they might be acting weird because they saw something unexpected and are still processing it, or maybe they just don't know how to bring it up without making things tense...'",
+      "Add first-person language throughout: 'I'd say you could try opening the conversation...' or 'I get why that feels violating' to create a more personal, supportive connection",
+      "Choose one follow-up question instead of two at the end to avoid overwhelming the user - perhaps just 'Do you have a sense of what they might have seen?'"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 9,
+  "user_query": "My parents checked my phone and now they’re acting weird.",
+  "evaluation": {
+    "overall_score": 5.9,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 3,
+      "followup_question": 6,
+      "support_solutions_balance": 3,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as a natural conversational flow",
+      "Strong immediate validation acknowledging the emotional weight ('That sounds really stressful!', 'huge invasion of privacy')",
+      "Respectful permission-seeking with 'If you're comfortable' before asking for more details"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think', 'I'd say', or 'I get it' makes it feel impersonal and detached rather than like a supportive friend",
+      "Zero practical advice provided - only offers to listen without any concrete suggestions for handling the parents or the situation",
+      "Too brief for the emotional weight of the situation - only 3 sentences feels somewhat dismissive of a serious privacy violation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring - maintains conversational paragraph flow throughout",
+    "least_ideal_aspect": "Complete absence of practical advice combined with lack of first-person language - creates an imbalanced, detached response that feels observational rather than supportive",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Response flows as natural paragraphs throughout."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to create connection: instead of 'Their behavior might mean...' try 'I think they might have found something...' or 'I'd guess they...'",
+      "Include specific, actionable advice for the immediate situation: suggest concrete phrases to start the conversation with parents, or steps to take if they found something concerning",
+      "Expand the response slightly and make the follow-up question more specific: instead of 'would you like to talk more about what happened?' ask 'Do you have any idea what they might have seen?' or 'What kind of weird vibes are they giving off?'",
+      "Balance the validation with practical support: after acknowledging the stress, offer 1-2 realistic strategies for addressing the tension or opening dialogue with the parents"
+    ]
+  }
+}

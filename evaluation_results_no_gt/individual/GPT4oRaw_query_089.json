@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 89,
+  "user_query": "I keep procrastinating and now everything is piling up.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads exactly like a natural text conversation",
+      "Strong first-person connection with phrases like 'I totally get' and 'I'm here to help' that create genuine support",
+      "Specific, actionable advice tailored to teen procrastination (10-15 minute timer, one small task) rather than generic platitudes"
+    ],
+    "weaknesses": [
+      "Could deepen emotional validation slightly by naming the specific feeling (e.g., 'that panicky feeling when you realize everything is due')",
+      "Lacks first-person advisory framing in the middle section - uses 'you can' and 'try focusing' instead of 'I'd suggest' or 'I think you could'",
+      "Missing a warm emoji that could enhance the 'Oh no' opening sentiment (though zero emojis is acceptable)"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow - completely avoids bullet points, headers, or over-structuring while maintaining readability",
+    "least_ideal_aspect": "First-person language in the advice section - while it opens and closes with 'I', the practical suggestions are delivered impersonally ('try focusing', 'you can set') rather than as personal recommendations ('I'd suggest focusing', 'I usually set a timer')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullets, numbered lists, or headers. Uses natural paragraph transitions like 'First,' and 'And hey,' to guide the conversation without structural formatting."
+    },
+    "specific_feedback": [
+      "Add one warm emoji early in the response (like 😅 or 😊) to match the 'Oh no' sentiment and enhance visual warmth",
+      "Frame the practical advice using first-person language like 'What helps me is...' or 'I'd suggest starting with...' to maintain the conversational friend-to-friend tone throughout",
+      "Deepen the initial validation by acknowledging the specific emotional weight ('that sinking feeling when you realize how much has piled up') before moving to 'the good news'"
+    ]
+  }
+}

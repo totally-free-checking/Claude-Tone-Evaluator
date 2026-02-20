@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 66,
+  "user_query": "I’m getting stressed for no reason and I can’t shut my brain off.",
+  "evaluation": {
+    "overall_score": 9.3,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 10,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get it', 'If I'm feeling that way, I try') creating genuine connection",
+      "Specific, teen-relevant practical advice (counting words in a playlist, scribbling on paper) rather than generic suggestions",
+      "Perfect prose formatting with natural flow - uses 'Like...' to introduce examples conversationally instead of bullet points"
+    ],
+    "weaknesses": [
+      "Could slightly enhance validation with explicit 'You're not alone' language, though 'this happens to a lot of us' partially covers this",
+      "The transition to advice could include a slightly softer bridge phrase like 'I'm wondering if...' to maintain the emotional connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points - reads exactly like a supportive friend texting, with advice flowing organically within paragraphs using 'Like...' and 'Sometimes...' to introduce ideas",
+    "least_ideal_aspect": "While warm, the opening could be slightly more immediately validating with an explicit acknowledgment that the feelings are valid/understandable before describing them as 'exhausting'",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect paragraph structure with four natural blocks of text. Advice is embedded in flowing sentences using conversational transitions ('Like putting on...', 'Sometimes stepping outside...') rather than any structured formatting"
+    },
+    "specific_feedback": [
+      "Maintain this level of specific, actionable examples that are realistic for teens (the playlist word-counting is particularly creative and doable)",
+      "Consider adding one brief explicit validation phrase like 'It makes total sense that you're feeling this way' before describing the feeling, to ensure the teen feels seen before the problem is characterized"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 24,
+  "user_query": "I just found out my friends hung out without inviting me.",
+  "evaluation": {
+    "overall_score": 7.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 7,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text conversation",
+      "Provides specific, actionable script for what to say: 'Heard you all did something fun the other day—looked like a good time!'",
+      "Opens with immediate emotional validation: 'Ah, that's a tough feeling—it's totally normal to feel a little left out'"
+    ],
+    "weaknesses": [
+      "Lacks first-person perspective throughout - uses 'maybe you could' instead of 'I'd suggest' or 'I think' which makes it feel impersonal",
+      "Asks two questions rather than consolidating into one natural closing question",
+      "Could use slightly more warmth/empathy in the validation - 'a little left out' understates the potential hurt"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and zero bullet points or over-structuring",
+    "least_ideal_aspect": "Absence of first-person language ('I think', 'I'd say', 'I get it') making the advice feel like general guidance rather than personal support from a friend",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfectly formatted as natural prose paragraphs with no lists, headers, or over-formatting. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Add first-person perspective to make it feel more personal: change 'maybe you could gently mention it' to 'I'd probably just gently mention it' or 'I think you could try saying...'",
+      "Use one well-placed emoji early in the response (like 😕 or 💙) to enhance warmth when acknowledging the hurt feelings",
+      "Consolidate the two questions into one specific closing question rather than asking 'Did you notice...' in the middle and 'How are you feeling' at the end - perhaps: 'Do you think this was just a one-time thing, or has it been a pattern lately?'"
+    ]
+  }
+}

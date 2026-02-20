@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 87,
+  "user_query": "My friend is being super clingy and I need space.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can use like 'Hey, I really value our friendship, but I've been feeling like I need a little more space to recharge'",
+      "Ends with a natural, engaging follow-up question: 'Do you want help figuring out exactly what to say?'",
+      "Uses first-person validation at the opening: 'Oh, I totally get how that can feel overwhelming!'"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers (4 items), which reads like a self-help article rather than a text conversation",
+      "Loses first-person conversational tone in the advice section, switching to imperative instructions like 'Be Honest (but Kind):' and 'Set Clear Boundaries:'",
+      "Could use more emotional validation about the specific feeling of being suffocated by a clingy friend before jumping to solutions"
+    ],
+    "most_ideal_aspect": "Practical advice quality - provides realistic, specific phrases and scripts the teen can actually say to their friend in this difficult situation",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses 4 numbered bullet points with bold formatting instead of conversational paragraphs, creating an instructional rather than supportive tone",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "25%",
+      "notes": "Response uses 'Here are a couple of ways...' followed by 4 numbered items with bold headers (e.g., '**Be Honest (but Kind):**'), which creates a formal, instructional tone. Only the opening sentence and closing paragraph are in natural prose."
+    },
+    "specific_feedback": [
+      "Convert the four bullet points into 2-3 natural prose paragraphs that flow conversationally, using phrases like 'I'd suggest trying...' or 'Maybe you could say something like...' instead of imperative headers",
+      "Add more first-person language throughout the advice section ('I think you could...', 'I'd probably say...') rather than detached instructions",
+      "Expand the emotional validation to acknowledge how draining or guilty it can feel to need space from a friend before offering the practical scripts"
+    ]
+  }
+}

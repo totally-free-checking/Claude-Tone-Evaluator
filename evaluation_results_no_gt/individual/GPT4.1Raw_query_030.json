@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 30,
+  "user_query": "My friend keeps asking to copy my homework and I’m tired of it.",
+  "evaluation": {
+    "overall_score": 6.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 9,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 1,
+      "support_solutions_balance": 6,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as a natural conversational flow",
+      "Provides specific, actionable advice that is realistic for a teen (offering to help them understand material, setting boundaries)"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end - the response ends abruptly with a statement rather than inviting continued conversation",
+      "Lacks first-person language entirely (no 'I think', 'I'd say', or 'I get it') making it feel impersonal and instructional rather than like a supportive peer"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring",
+    "least_ideal_aspect": "Absence of follow-up question and lack of first-person conversational language",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is a single cohesive paragraph with no formatting structures, headers, or lists - perfectly aligned with ideal prose format"
+    },
+    "specific_feedback": [
+      "Add a natural follow-up question at the end to continue the conversation, such as 'Have you tried talking to them about why they're struggling with the work?' or 'How would you feel about trying that approach?'",
+      "Incorporate first-person language to create connection, such as 'I think the hardest part is...' or 'I'd probably feel really torn in that situation' instead of purely instructional 'you should' statements",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to enhance the supportive tone, though this is less critical than the missing first-person voice and follow-up question"
+    ]
+  }
+}

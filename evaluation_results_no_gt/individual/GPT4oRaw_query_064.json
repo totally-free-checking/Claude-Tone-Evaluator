@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 64,
+  "user_query": "I lost something important at school and I’m freaking out.",
+  "evaluation": {
+    "overall_score": 7.3,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 5,
+      "emoji_usage": 7,
+      "conversational_tone": 8,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 7,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Opens with strong emotional validation using first-person language: 'Oh no, I'm so sorry you're feeling this way—it sounds really stressful'",
+      "Provides specific, actionable advice realistic for a teen's situation (checking locker, asking friends, going to lost and found)",
+      "Uses natural conversational language with contractions and first-person perspective throughout ('I can think of more ideas', 'You've got this')",
+      "Ends with a specific, engaging follow-up question that invites continued conversation: 'Do you know roughly where you might have left it?'"
+    ],
+    "weaknesses": [
+      "Uses bullet points for the retracing steps questions which breaks the conversational prose format ('- Where were you last...', '- Did you move around...')",
+      "The phrase 'but don't worry!' could feel slightly dismissive of the valid anxiety about losing something important",
+      "Could benefit from one warm emoji to enhance the supportive tone given the user is 'freaking out'"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, immediately actionable steps that respect a teen's agency and school environment",
+    "least_ideal_aspect": "Prose formatting - uses bullet points for questions instead of integrating them into natural paragraph flow",
+    "bullet_point_analysis": {
+      "bullet_count": 2,
+      "prose_percentage": "85%",
+      "notes": "Two bullet points used for questions under 'retrace your steps' section. These should be integrated into the prose as natural follow-up questions rather than formatted as a list."
+    },
+    "specific_feedback": [
+      "Remove the bullet points and integrate the questions into the prose naturally: 'First, I'd suggest retracing your steps. Where were you last when you had the item? Did you move around a lot during school?'",
+      "Consider adding one warm emoji (like 😅 or 💙) early in the response to match the emotional intensity of 'freaking out'",
+      "Replace 'but don't worry!' with something more validating like 'but we'll figure this out together' to avoid minimizing their feelings"
+    ]
+  }
+}

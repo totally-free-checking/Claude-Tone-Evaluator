@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 35,
+  "user_query": "I didn’t get picked for the team and I’m trying to act fine.",
+  "evaluation": {
+    "overall_score": 6.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 6,
+      "practical_advice": 3,
+      "followup_question": 2,
+      "support_solutions_balance": 4,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with natural paragraph flow and zero bullet points, reading like a continuous message",
+      "Uses first-person language appropriately with 'I'm here for you' and 'I'm really sorry' creating personal connection",
+      "Validates feelings effectively by acknowledging it's 'completely normal to feel upset' and that feelings are 'real or valid'"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question to continue the conversation - ends with a statement rather than engagement",
+      "Fails to address the specific 'trying to act fine' aspect of the query with practical advice for how to handle pretending to be okay",
+      "Tone is somewhat generic and formal ('It’s completely normal,' 'And just remember') rather than casual friend-language like 'Ugh, I’ve totally been there' or 'That’s such a gut punch'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - maintains conversational paragraph flow throughout",
+    "least_ideal_aspect": "Follow-up question engagement - lacks any question to invite the teen to share more or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, lists, or headers. Response flows as a single natural paragraph."
+    },
+    "specific_feedback": [
+      "Add a specific follow-up question about the 'acting fine' behavior mentioned in the query, such as 'Who are you putting on the brave face for?' or 'Do you want to talk about why you're hiding how upset you are?'",
+      "Include practical advice for handling the immediate situation - suggestions for what to say to friends, how to process the disappointment, or whether to stop pretending to be fine",
+      "Inject more casual, conversational language and personal sharing like 'I think,' 'I'd say,' or 'I get that pretending-to-be-fine thing' to sound less like a counselor and more like a supportive friend"
+    ]
+  }
+}

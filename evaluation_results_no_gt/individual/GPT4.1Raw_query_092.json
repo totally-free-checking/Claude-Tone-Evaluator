@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 92,
+  "user_query": "My friend’s new friends are kinda mean and it’s changing them.",
+  "evaluation": {
+    "overall_score": 7.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 3,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads as natural conversational paragraphs",
+      "Strong emotional validation in opening: 'I'm really sorry you're feeling this way' and 'it sounds tough to watch someone you care about change'",
+      "Good balance between acknowledging feelings and offering concrete advice about talking to the friend"
+    ],
+    "weaknesses": [
+      "Lacks a follow-up question to continue the conversation - ends with statements rather than an engaging question",
+      "Conversational tone is somewhat formal and tentative ('It's normal to feel concerned,' 'could be really helpful') rather than casual first-person language like 'I'd say' or 'I think'",
+      "Missing casual interjections that would make it feel more like texting a friend (e.g., 'Ugh,' 'That sucks,' 'Honestly')"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Follow-up engagement - fails to end with a specific question to invite the teen to share more details or continue the conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with three natural paragraphs. No headers, bold text, or lists. Advice flows naturally within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "End with a specific question like 'What changes have you noticed in them?' or 'Do you want to brainstorm what to say?' to invite continued conversation",
+      "Replace tentative phrases like 'It's normal to feel concerned' with more casual validation like 'Ugh, that's such a worrying feeling' and add first-person opinions like 'I'd say the best approach is...'",
+      "Consider adding one warm emoji (like 😕 or 💙) early in the response to enhance the supportive tone without being excessive"
+    ]
+  }
+}

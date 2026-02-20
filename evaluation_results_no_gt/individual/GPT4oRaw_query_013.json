@@ -1,0 +1,42 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 13,
+  "user_query": "I have to present today and my hands won’t stop shaking.",
+  "evaluation": {
+    "overall_score": 5.0,
+    "dimension_scores": {
+      "warmth_validation": 6,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 9,
+      "conversational_tone": 4,
+      "practical_advice": 9,
+      "followup_question": 1,
+      "support_solutions_balance": 3,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Opens with immediate validation: 'Oh no, that sounds stressful!' acknowledges the emotional weight right away",
+      "Provides very specific, actionable advice like the '4-7-8' breathing method and clenching/releasing fists that a teen can actually use immediately",
+      "Uses exactly one appropriate emoji (😊) at the end to enhance warmth without being excessive"
+    ],
+    "weaknesses": [
+      "Heavy reliance on bullet points: uses 6 numbered items with bold headers ('**Focus on your breathing:**') which reads like a self-help article rather than a conversation",
+      "Completely lacks first-person language - no 'I think', 'I'd say', 'I get it', or 'I'm here' - making it feel instructional rather than personal",
+      "No follow-up question at the end to continue the conversation; closes with 'good luck' instead of engaging further",
+      "Jumps quickly from brief validation to 'First off, take a deep breath...' and then immediately into bullet list format"
+    ],
+    "most_ideal_aspect": "Practical advice quality - offers concrete, realistic techniques like holding a microphone firmly and power poses that are immediately actionable for a teen",
+    "least_ideal_aspect": "Natural prose vs. bullet points - the response is 80% structured bullet points with bold headers rather than conversational paragraphs",
+    "bullet_point_analysis": {
+      "bullet_count": 6,
+      "prose_percentage": "20%",
+      "notes": "Response uses 'Here are a few tips...' transition into 6 numbered bullets with bold subheaders (e.g., '**Focus on your breathing:**'). Only the opening sentence and closing two sentences are prose. Reads as highly structured advice rather than a supportive chat."
+    },
+    "specific_feedback": [
+      "Convert the bullet points into 2-3 natural prose paragraphs using first-person language like 'I'd probably try...' or 'I think focusing on your breathing helps because...'",
+      "Add a follow-up question at the end such as 'What subject are you presenting on?' or 'Is it a big class or small group?' to invite continued conversation",
+      "Include first-person connection phrases like 'I get so nervous before presentations too' or 'I've been there with the shaky hands' to make it feel like a supportive friend rather than a manual",
+      "Move the 'It's totally normal to feel like this' validation to the beginning and expand on it before offering the breathing techniques"
+    ]
+  }
+}

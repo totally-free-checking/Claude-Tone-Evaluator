@@ -1,0 +1,43 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 6.5,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 3,
+      "followup_question": 8,
+      "support_solutions_balance": 6,
+      "length_conciseness": 5
+    },
+    "strengths": [
+      "Uses natural prose paragraphs with zero bullet points or formatting, reading like a text message",
+      "Immediately validates feelings with 'that's totally normal' and 'everyone's been there' to normalize the anxiety",
+      "Ends with a conversational question 'Want a few ideas to make it easier?' that invites continued dialogue",
+      "Uses casual language and contractions ('that's', 'it's', 'honestly') appropriate for teen communication"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language ('I think', 'I'd say', 'I get it') making the response feel impersonal despite casual tone",
+      "Provides no concrete advice or actionable suggestions - only offers to give ideas later without providing any substance",
+      "Too brief at only three short sentences; may feel dismissive or like a conversation starter rather than actual support",
+      "Missing emoji opportunity (like 😅 or 😊) that could enhance warmth for this anxiety-inducing social situation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with no bullet points or over-structuring, maintaining conversational flow",
+    "least_ideal_aspect": "Practical advice quality - fails to provide any concrete suggestions or actionable help, only teasing future advice",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no structural elements, though brevity makes it feel more like a conversation opener than a complete response"
+    },
+    "specific_feedback": [
+      "Add first-person language like 'I think' or 'I'd say' to create personal connection (e.g., 'I think that's totally normal' or 'I'd feel the same way')",
+      "Provide at least one concrete suggestion before asking if they want more ideas, such as 'Maybe try texting the host to see who else is coming?'",
+      "Expand to 2-3 paragraphs with substantive content to avoid feeling dismissive or like an automated greeting",
+      "Consider adding one warm emoji like 😅 or 😊 early in the response to match the casual, supportive tone"
+    ]
+  }
+}

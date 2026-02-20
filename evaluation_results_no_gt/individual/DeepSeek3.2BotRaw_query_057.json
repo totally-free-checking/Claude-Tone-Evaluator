@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 57,
+  "user_query": "I got a detention and I don’t even think it was fair.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 6,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Ends with a specific, engaging follow-up question ('Do you want to talk about what happened?') that invites the teen to share more",
+      "Good balance between emotional validation ('That's really frustrating') and practical next steps"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think,' 'I'd say,' or 'I get it' statements, making it feel impersonal despite casual tone",
+      "Advice is somewhat vague ('talk to a teacher or someone about it') without specific script suggestions for how a teen might advocate for themselves",
+      "Could use slightly more warmth upfront - 'That's really frustrating' is good but 'Ugh, that's so unfair' or similar would feel more validating"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - it flows like a real conversation",
+    "least_ideal_aspect": "Absence of first-person language - the response never uses 'I' statements to create personal connection (e.g., 'I think that's so unfair,' 'I'd be upset too,' or 'I'm here to listen')",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no bullets, headers, or lists. Text flows naturally in paragraph form."
+    },
+    "specific_feedback": [
+      "Add first-person statements to create connection: 'I think that's so unfair' or 'I'd be really frustrated too' instead of impersonal observations",
+      "Offer specific phrases the teen could use: 'You could try saying something like, \"I want to understand what I did wrong because I felt the punishment didn't match what happened\"'",
+      "Consider adding one warm emoji (like 😤 or 😅) early in the response to set a supportive tone, or open with more casual validation like 'Ugh, that's the worst feeling'"
+    ]
+  }
+}

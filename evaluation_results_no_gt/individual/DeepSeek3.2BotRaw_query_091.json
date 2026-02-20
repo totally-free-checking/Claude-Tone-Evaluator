@@ -1,0 +1,40 @@
+{
+  "bot_name": "DeepSeek3.2BotRaw",
+  "query_index": 91,
+  "user_query": "I think my friend is using me to get closer to someone else.",
+  "evaluation": {
+    "overall_score": 6.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 3,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 5,
+      "length_conciseness": 8
+    },
+    "strengths": [
+      "Provides specific, actionable advice including a concrete script the teen could use: 'Hey, I've noticed we only hang out when [other person] is around — I'd love to catch up one-on-one sometimes too.'",
+      "Opens with immediate emotional validation: 'That's a tough and uncomfortable feeling — I'm sorry you're going through that.'",
+      "Ends with affirming validation about deserving reciprocal friendships"
+    ],
+    "weaknesses": [
+      "Heavy reliance on numbered bullet points with bold headers instead of natural prose paragraphs, reading like a self-help article rather than a text conversation",
+      "Lacks first-person conversational language ('I think,' 'I'd say,' 'I get it') throughout, making it feel impersonal and detached",
+      "Follow-up question 'How are you feeling about all this?' is generic and not specific to their situation"
+    ],
+    "most_ideal_aspect": "Practical advice quality - the specific script example for talking to the friend is realistic and immediately actionable",
+    "least_ideal_aspect": "Natural prose vs. bullet points - uses 'Here are a few thoughts that might help:' followed by 4 numbered bullets with bold headers, which is exactly the structured format to avoid",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "35%",
+      "notes": "Response uses a numbered list with bold headers (1. **Trust your instincts**, etc.) which creates a clinical, article-like structure. The advice should flow as natural sentences within paragraphs rather than as a checklist."
+    },
+    "specific_feedback": [
+      "Rewrite the advice section as flowing paragraphs using first-person language like 'I'd suggest taking a step back to notice if they only text you when they need something...' instead of numbered bullets",
+      "Replace the generic closing question with something specific to their situation like 'Have you noticed them acting differently when [that person] isn't around?' or 'What made you start to suspect this?'",
+      "Add more casual, conversational interjections throughout like 'Ugh, that's such a gut-punch feeling' or 'Honestly, I've seen this happen before' to increase warmth and first-person connection"
+    ]
+  }
+}

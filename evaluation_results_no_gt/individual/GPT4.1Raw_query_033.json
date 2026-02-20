@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 33,
+  "user_query": "My teacher moved my seat away from my friends and I’m mad.",
+  "evaluation": {
+    "overall_score": 6.8,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 5,
+      "practical_advice": 5,
+      "followup_question": 6,
+      "support_solutions_balance": 7,
+      "length_conciseness": 6
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points - reads like a natural text message",
+      "Opens with immediate emotional validation ('That's really frustrating!') acknowledging the difficulty of the situation",
+      "Uses contractions and casual language appropriate for teen conversation ('can't','really frustrating')"
+    ],
+    "weaknesses": [
+      "Completely lacks first-person language - no 'I think','I'd be mad too', or 'I get it' makes it feel impersonal despite casual tone",
+      "Too brief for the emotional weight of the situation - only 3 sentences before questions makes it feel slightly dismissive",
+      "Asks two questions at once ('Do you know why...' and 'Want to talk about it more?') which can feel overwhelming rather than inviting one natural continuation"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points or over-structuring - maintains conversational flow throughout",
+    "least_ideal_aspect": "Absence of first-person language and personal connection - reads as observational rather than empathetic peer support",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose formatting with no lists, headers, or structured formatting. Text flows naturally as conversational paragraphs."
+    },
+    "specific_feedback": [
+      "Add first-person empathetic statements like 'I'd be so annoyed if that happened to me' or 'I totally get why you're mad' to create personal connection",
+      "Expand slightly with one concrete suggestion before asking questions, such as 'If you want to try to switch back, you could ask the teacher after class...'",
+      "Consolidate the two questions into one engaging follow-up like 'What do you think prompted your teacher to move you?' to avoid interview-style questioning"
+    ]
+  }
+}

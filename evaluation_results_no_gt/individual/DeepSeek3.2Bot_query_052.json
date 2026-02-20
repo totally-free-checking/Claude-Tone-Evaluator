@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 52,
+  "user_query": "I want to quit an activity but I feel guilty.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('I totally get', 'Honestly, I think', 'If I were you, I'd', 'I'd be honest') creating genuine connection",
+      "Strong emotional validation with specific physical description of guilt ('sits heavy in your chest') and immediate empathy ('it's so hard')",
+      "Provides concrete, actionable script for the difficult conversation: 'I've really valued my time here, but I need to step back to focus on other things right now'"
+    ],
+    "weaknesses": [
+      "The follow-up question is technically two questions joined together ('What's the activity, and what's making you want to move on from it?') which slightly breaks the 'one natural question' ideal",
+      "Could potentially extend validation one more sentence before moving to advice, though the balance is still quite good"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points and consistent first-person perspective throughout, reading exactly like a supportive friend texting",
+    "least_ideal_aspect": "The follow-up question combines two queries into one sentence, which is slightly less focused than a single, specific question",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with no bullet points, headers, or over-structuring. Uses natural paragraph flow with italic emphasis on 'why' for emphasis only, not formatting. Reads like a continuous conversation."
+    },
+    "specific_feedback": [
+      "Consider making the final question singular and even more specific, such as 'What part of the activity feels heaviest right now?' rather than the double question",
+      "The validation is strong but could briefly acknowledge the specific guilt about letting others down (common in teen activity quitting) before moving to the 'people stay too long' observation"
+    ]
+  }
+}

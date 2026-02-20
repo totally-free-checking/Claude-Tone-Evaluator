@@ -1,0 +1,41 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 8,
+  "user_query": "I just got invited to a party and I don’t know how to ask my parents.",
+  "evaluation": {
+    "overall_score": 5.4,
+    "dimension_scores": {
+      "warmth_validation": 5,
+      "prose_vs_bullets": 2,
+      "emoji_usage": 7,
+      "conversational_tone": 4,
+      "practical_advice": 8,
+      "followup_question": 6,
+      "support_solutions_balance": 4,
+      "length_conciseness": 7
+    },
+    "strengths": [
+      "Provides specific, actionable scripts the teen can actually use when talking to parents (e.g., 'Hey [Mom/Dad/Both], I got invited to a party...')",
+      "Anticipates parental concerns proactively by suggesting the teen address logistics like transportation and supervision upfront"
+    ],
+    "weaknesses": [
+      "Extremely over-structured with bold headers (**Start with positivity:**, **Give details:**) and horizontal rules that make it read like a wikiHow article rather than a conversation",
+      "Completely lacks first-person language - uses impersonal directives like 'The best way to ask your parents is...' and 'Parents usually appreciate...' instead of 'I'd suggest...' or 'I think...'",
+      "Fails to validate the anxiety/nervousness about asking parents, only celebrating the excitement of the invite",
+      "Jumps immediately to solutions without acknowledging the emotional difficulty of the situation"
+    ],
+    "most_ideal_aspect": "The practical advice quality - the specific conversation scripts and compromise suggestions are realistic and immediately usable for a teen in this situation",
+    "least_ideal_aspect": "The formatting structure - uses four bold headers with horizontal rules creating a rigid, instructional layout that completely breaks conversational flow",
+    "bullet_point_analysis": {
+      "bullet_count": 4,
+      "prose_percentage": "15%",
+      "notes": "Response uses four distinct bold headers (**Start with positivity:**, **Give details:**, **Address their concerns before they ask:**, **Offer a compromise, if needed:**) separated by horizontal rules (---). While the content under each uses full sentences, the heavy header structure creates a list-like, instructional format rather than natural flowing paragraphs. Only the opening and closing lines are true prose."
+    },
+    "specific_feedback": [
+      "Rewrite entirely as 2-3 natural paragraphs without any bold headers, horizontal rules, or structured sections - flow the advice naturally using transitions like 'I'd probably start by saying something like...'",
+      "Add first-person language throughout: replace 'The best way is...' with 'I think the best approach would be...' and 'Parents usually appreciate...' with 'I'd make sure to show them...'",
+      "Validate the anxiety first: add something like 'I totally get why that feels nerve-wracking - asking parents about parties can feel like negotiating a treaty!' before giving advice",
+      "Make the follow-up question more specific: instead of 'How do you feel about asking them?' try 'What do you think your parents will be most worried about - the location or the timing?' or 'Are you more nervous about them saying no, or them asking a million questions?'"
+    ]
+  }
+}

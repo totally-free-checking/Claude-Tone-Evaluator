@@ -1,0 +1,39 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 96,
+  "user_query": "I feel left out even when I’m literally with my friends.",
+  "evaluation": {
+    "overall_score": 8.4,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 6,
+      "followup_question": 9,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Immediate and strong emotional validation using first-person empathy: 'Oh man, I hate that you're feeling that way, and I know that can sting' and 'it's rough to feel like you're present but invisible'",
+      "Perfect natural prose format with zero bullet points, headers, or over-structuring; flows like a text conversation",
+      "Excellent use of first-person conversational language throughout ('I know', 'I promise', 'we can unpack this') and casual phrasing ('wanna', 'chat it out')",
+      "Thoughtful follow-up questions that demonstrate understanding of specific social dynamics (friends talking about excluded topics, not being heard, vibe being off)"
+    ],
+    "weaknesses": [
+      "Lacks concrete practical advice or actionable strategies; focuses entirely on diagnostic questions without offering immediate coping techniques",
+      "Imbalanced toward emotional support (100%) with no practical solutions provided, though it promises future problem-solving"
+    ],
+    "most_ideal_aspect": "Natural prose format and conversational warmth with strong first-person validation",
+    "least_ideal_aspect": "Practical advice quality (absence of specific actionable steps or immediate coping strategies)",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response is entirely in natural prose paragraphs with no formatting structures, bullet points, numbered lists, or headers; reads like a continuous text message"
+    },
+    "specific_feedback": [
+      "While gathering context is important, consider offering one small immediate strategy the teen could try next time they feel left out (e.g., 'In the moment, even just excusing yourself for a quick bathroom break to reset can help') before asking diagnostic questions",
+      "The balance could be improved by adding a brief practical tip or validation technique after the initial emotional support but before the questions, ensuring the teen has something concrete to hold onto while they reflect on your questions"
+    ]
+  }
+}

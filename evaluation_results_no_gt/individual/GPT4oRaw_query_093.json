@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 93,
+  "user_query": "I want to change how I look but I’m scared people will comment.",
+  "evaluation": {
+    "overall_score": 7.0,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 6,
+      "practical_advice": 7,
+      "followup_question": 2,
+      "support_solutions_balance": 6,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose formatting with zero bullet points or headers, creating a smooth conversational flow that reads like a text message",
+      "Provides realistic, actionable advice about starting with small changes to build confidence, which acknowledges the teen's anxiety while offering a manageable strategy"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question at the end, failing to invite the teen to share more about their specific situation or continue the conversation",
+      "Lacks first-person perspective and sharing (no 'I'd say,' 'I think,' or 'I get it'), making the response feel more like generic pep-talk advice than a personal connection from a supportive friend"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with zero bullet points, maintaining a conversational paragraph structure that flows like a text message rather than a self-help article",
+    "least_ideal_aspect": "The absence of any follow-up question to continue the dialogue or show deeper interest in the teen's specific situation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response consists of three clean paragraphs with no bullet points, numbered lists, headers, or bold text, maintaining excellent conversational flow throughout"
+    },
+    "specific_feedback": [
+      "End with a specific, engaging follow-up question like 'What kind of change are you thinking about?' or 'Has anyone commented on your appearance before?' to invite the teen to share more",
+      "Incorporate more first-person language like 'I'd be nervous too' or 'I think starting small is smart' to create a stronger sense of personal connection and shared experience",
+      "Consider spending one more sentence validating the specific fear of comments before pivoting to the 'but here's the thing' reframing, to ensure the teen feels fully heard"
+    ]
+  }
+}

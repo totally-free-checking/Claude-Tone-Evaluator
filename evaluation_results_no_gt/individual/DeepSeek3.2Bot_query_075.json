@@ -1,0 +1,38 @@
+{
+  "bot_name": "DeepSeek3.2Bot",
+  "query_index": 75,
+  "user_query": "I got invited somewhere but I don’t know anyone else going.",
+  "evaluation": {
+    "overall_score": 9.1,
+    "dimension_scores": {
+      "warmth_validation": 9,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent use of first-person language throughout ('If I were you, I'd try', 'I'm so sorry') creating a personal, supportive connection",
+      "Perfect prose formatting with zero bullet points - reads exactly like a natural text conversation with natural paragraph flow",
+      "Specific, actionable advice tailored to teen social situations (asking about the host, commenting on music/food, bathroom/drink exit strategy)"
+    ],
+    "weaknesses": [
+      "Transition from validation to advice could be slightly smoother - 'Honestly though' shifts tone quickly after the empathetic opening",
+      "Could include one more validating phrase about the specific anxiety of not knowing anyone before moving to 'the good news is'"
+    ],
+    "most_ideal_aspect": "Natural prose formatting and conversational flow without any bullet points or over-structuring",
+    "least_ideal_aspect": "Slight abruptness in transition from emotional validation to practical solutions",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with four natural paragraphs. No headers, bold text, or lists. Advice flows organically within sentences rather than being itemized."
+    },
+    "specific_feedback": [
+      "Consider adding a brief bridge between validation and advice like 'That said, here are a few things that might help' to smooth the transition",
+      "The follow-up question is excellent and specific - maintain this level of engagement in future responses"
+    ]
+  }
+}

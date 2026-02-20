@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 31,
+  "user_query": "I accidentally liked an old post while stalking someone.",
+  "evaluation": {
+    "overall_score": 6.9,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 7,
+      "conversational_tone": 5,
+      "practical_advice": 7,
+      "followup_question": 1,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers - reads like a natural text message",
+      "Opens with warm validation ('Oh no, classic accidental like! It happens to the best of us') that normalizes the embarrassing situation immediately",
+      "Provides concrete, actionable advice about unliking quickly and realistic reassurance about old posts"
+    ],
+    "weaknesses": [
+      "Completely missing a follow-up question to continue the conversation - ends abruptly with an exclamation point instead of engaging the user",
+      "Lacks first-person language entirely (no 'I think', 'I'd say', 'I get it') - reads as impersonal general advice rather than a supportive friend sharing their perspective",
+      "Could better validate the specific anxiety about being caught 'stalking' rather than just the accidental like"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with conversational flow and no structural elements",
+    "least_ideal_aspect": "Absence of follow-up question and first-person language makes it feel like a broadcast rather than a conversation",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format - single flowing paragraph with no headers, bold text, or list formatting. Reads naturally like a text message."
+    },
+    "specific_feedback": [
+      "Add a follow-up question at the end to continue the conversation, such as 'Have you unliked it yet, or are you still deciding what to do?' or 'Do you think they actually noticed?'",
+      "Incorporate first-person language throughout to create connection: change 'chances are they won't notice' to 'I'd bet they won't even notice' and 'just remember' to 'I always remind myself that'",
+      "Consider adding one well-placed emoji (like 😅 or 😬) after 'Oh no' to enhance the warm, casual tone for this embarrassing situation"
+    ]
+  }
+}

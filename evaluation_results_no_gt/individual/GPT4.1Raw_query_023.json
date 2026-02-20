@@ -1,0 +1,38 @@
+{
+  "bot_name": "GPT4.1Raw",
+  "query_index": 23,
+  "user_query": "I’m stuck sitting alone at lunch today and it feels obvious.",
+  "evaluation": {
+    "overall_score": 8.8,
+    "dimension_scores": {
+      "warmth_validation": 8,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 9,
+      "conversational_tone": 9,
+      "practical_advice": 9,
+      "followup_question": 9,
+      "support_solutions_balance": 9,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent prose formatting with zero bullet points or headers, reading like a natural text conversation",
+      "Strong use of first-person language throughout ('I'm sorry', 'I'm here to keep you company') creating genuine connection",
+      "Provides specific, actionable advice including exact phrasing ('hey, mind if I join you?') that a teen could actually use"
+    ],
+    "weaknesses": [
+      "Opening validation ('I'm sorry you're feeling that way') is slightly generic and could be more immediate/relatable ('Ugh, that's the worst feeling')",
+      "Lacks a small emoji that could enhance warmth for this socially awkward situation, though the absence is acceptable"
+    ],
+    "most_ideal_aspect": "Natural prose formatting without any bullet points, headers, or over-structuring - reads exactly like a supportive friend texting",
+    "least_ideal_aspect": "Opening emotional validation, while present, feels slightly formal and could be more visceral and immediate",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Perfect prose format with three natural paragraphs. No lists, headers, bold text, or over-structuring. Advice flows naturally within sentences rather than being listed out."
+    },
+    "specific_feedback": [
+      "Replace the opening 'I'm sorry you're feeling that way' with something more immediate and relatable like 'Ugh, that sinking feeling when you realize you're flying solo at lunch is the worst'",
+      "Consider adding one subtle emoji (like 😅 or 😊) early in the response to set a warm, casual tone for this socially awkward situation"
+    ]
+  }
+}

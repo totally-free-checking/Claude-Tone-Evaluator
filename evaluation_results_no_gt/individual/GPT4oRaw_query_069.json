@@ -1,0 +1,40 @@
+{
+  "bot_name": "GPT4oRaw",
+  "query_index": 69,
+  "user_query": "Someone keeps teasing me and I can’t tell if it’s bullying.",
+  "evaluation": {
+    "overall_score": 8.1,
+    "dimension_scores": {
+      "warmth_validation": 7,
+      "prose_vs_bullets": 10,
+      "emoji_usage": 8,
+      "conversational_tone": 6,
+      "practical_advice": 9,
+      "followup_question": 8,
+      "support_solutions_balance": 8,
+      "length_conciseness": 9
+    },
+    "strengths": [
+      "Excellent natural prose format with zero bullet points or over-structuring - reads like a continuous conversation",
+      "Provides highly specific, actionable advice including exact scripts the teen can use ('Hey, I know you might be joking, but that's starting to bother me')",
+      "Ends with engaging, open-ended questions that invite the teen to share more details about their specific situation"
+    ],
+    "weaknesses": [
+      "Lacks first-person singular language throughout the advice section - uses instructional phrases like 'It's important to think about' and 'A good way to tell the difference is' instead of 'I think you should consider' or 'I'd suggest looking at'",
+      "Opening validation could be more immediately empathetic - 'Ugh, being teased can definitely be tough to navigate' feels slightly clinical compared to 'I'm really sorry you're dealing with this' or 'That confusion is so valid'",
+      "Middle sections read more like an informational guide than a supportive friend texting, missing opportunities for 'I get it' or 'I've seen this before' type connection"
+    ],
+    "most_ideal_aspect": "Natural prose formatting with 100% paragraph structure and zero bullet points, creating a conversational flow that feels like texting rather than reading a self-help article",
+    "least_ideal_aspect": "Conversational tone lacking first-person perspective - the response avoids using 'I think,' 'I'd say,' or 'I get it' in favor of impersonal instructional language, making it feel less like a supportive friend and more like a general advice column",
+    "bullet_point_analysis": {
+      "bullet_count": 0,
+      "prose_percentage": "100%",
+      "notes": "Response maintains perfect prose formatting throughout with no bullet points, numbered lists, or headers. Uses natural paragraph transitions to move between validation, analysis, and advice."
+    },
+    "specific_feedback": [
+      "Replace instructional phrases like 'It's important to think about' and 'A good way to tell the difference is' with first-person language like 'I think the key thing to consider is...' or 'I'd look at how they react when...' to create a more personal, friend-like connection",
+      "Add more immediate emotional validation at the start such as 'I'm really sorry you're dealing with this confusion' or 'That gray area is so stressful' before moving into the analytical framework",
+      "Consider adding one supportive emoji (like 😕 or 💙) early in the response to enhance warmth, or ensure the opening line carries more emotional weight to compensate for the absence of emojis"
+    ]
+  }
+}
